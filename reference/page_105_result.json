@@ -1,0 +1,45 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_105.json",
+  "page_id": 105,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Has there been an Adverse Event since the last visit? (FU_2_AEYN)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Per the patient, were they compliant with their anticoagulation regimen? (FU_2_ANTCOMP)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Did you update the Anticoagulation forms for this visit? (FU_2_ANTIYN)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    }
+  ],
+  "summary": {
+    "total_items": 3,
+    "annotated": 3,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

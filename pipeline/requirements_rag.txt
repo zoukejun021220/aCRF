@@ -1,0 +1,25 @@
+# Enhanced RAG System Requirements
+
+# Core dependencies (if not already installed)
+torch>=2.0.0
+transformers>=4.30.0
+sentence-transformers>=2.2.0
+
+# BGE models and reranking
+FlagEmbedding>=1.2.0  # For BGE-M3 model support
+
+# BM25 for sparse retrieval
+rank-bm25>=0.2.2
+
+# NLTK for text processing
+nltk>=3.8
+
+# Optional: For better performance
+faiss-cpu>=1.7.4  # or faiss-gpu if CUDA available
+elasticsearch>=8.0.0  # If using Elasticsearch backend
+
+# For cross-encoder reranking
+# Models will be downloaded automatically:
+# - BAAI/bge-m3
+# - BAAI/bge-reranker-base
+# - cross-encoder/ms-marco-MiniLM-L6-v2 (alternative)

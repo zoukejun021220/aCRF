@@ -1,0 +1,20 @@
+# SDTM RAG System Requirements
+
+# Vector search and embeddings
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.0  # Use faiss-gpu if CUDA available
+
+# BM25 ranking
+rank-bm25>=0.2.2
+
+# Core dependencies
+numpy>=1.21.0
+torch>=2.0.0
+transformers>=4.30.0
+
+# Utilities
+tqdm>=4.65.0
+pandas>=1.5.0
+
+# For knowledge base building
+python-dotenv>=1.0.0

@@ -1,0 +1,103 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_063.json",
+  "page_id": 63,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Compression therapy prescribed (FU_COMPTN)",
+      "annotation": "PRTRT",
+      "domain": "PR",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-30 Days",
+      "section": "FUP-30 Days"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Compression therapy type (FU_COMPTT)",
+      "annotation": "COMPTT in SUPPR",
+      "domain": "PR",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-30 Days",
+      "section": "Compression Therapy"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Was edema assessment completed? (FU_EDYN)",
+      "annotation": "For annotation, refer to CRF page 9",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.5,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-30 Days",
+      "section": "Compression Therapy"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Were 1 or more follow-up quality of life (QOL) measures collected? (FU_QOLYN)",
+      "annotation": "For annotation, refer to CRF page 9",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.5,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-30 Days",
+      "section": "Edema"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Has there been an Adverse Event since the last visit? (FU_AEYN)",
+      "annotation": "[NOT SUBMITTED]",
+      "domain": "AE",
+      "pattern": "not_submitted",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-30 Days",
+      "section": "Compression Therapy"
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Per the patient, were they compliant with their anticoagulation regimen? (FU_30_ANTCOMP)",
+      "annotation": "FAORRES when FATESTCD = OCCUR | FAOCAT = COMPLIANT WITH THEIR ANTICOAGULATION REGIMEN | FASTAT = NOT DONE when FATESTCD = OCCUR",
+      "domain": "FA",
+      "pattern": "conditional_single, variable_with_ct",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": true,
+      "form": "FUP-30 Days",
+      "section": "Compression Therapy"
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Did you update the Anticoagulation forms for this visit? (FU_ANTYN)",
+      "annotation": "[NOT SUBMITTED]",
+      "domain": "",
+      "pattern": "not_submitted",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-30 Days",
+      "section": "Follow-Up Evaluation"
+    }
+  ],
+  "summary": {
+    "total_items": 7,
+    "annotated": 7,
+    "not_submitted": 2,
+    "errors": 0
+  }
+}

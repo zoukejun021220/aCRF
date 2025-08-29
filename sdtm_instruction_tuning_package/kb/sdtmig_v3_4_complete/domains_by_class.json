@@ -1,0 +1,585 @@
+{
+  "Events": [
+    {
+      "code": "AE",
+      "name": "Adverse Events",
+      "description": "An events domain that contains data describing untoward medical occurrences in a patient or subjects that are administered a pharmaceutical product and which may not necessarily have a causal relationship with the treatment.",
+      "class": "Events",
+      "structure": "One record per adverse event per subject",
+      "purpose": "",
+      "core": "Adverse Events"
+    },
+    {
+      "code": "BE",
+      "name": "Biospecimen Events",
+      "description": "An events domain that documents actions taken that affect or may affect a specimen (e.g., specimen collection, freezing and thawing, aliquoting, transportation).",
+      "class": "Events",
+      "structure": "One record per instance per biospecimen event per biospecimen identifier per subject",
+      "purpose": "",
+      "core": "Biospecimen Events"
+    },
+    {
+      "code": "CE",
+      "name": "Clinical Events",
+      "description": "An events domain that contains clinical events of interest that would not be classified as adverse events.",
+      "class": "Events",
+      "structure": "One record per event per subject",
+      "purpose": "",
+      "core": "Clinical Events"
+    },
+    {
+      "code": "DS",
+      "name": "Disposition",
+      "description": "An events domain that contains information encompassing and representing data related to subject disposition.",
+      "class": "Events",
+      "structure": "One record per disposition status or protocol milestone per subject",
+      "purpose": "",
+      "core": "Disposition"
+    },
+    {
+      "code": "DV",
+      "name": "Protocol Deviations",
+      "description": "An events domain that contains protocol violations and deviations during the course of the study.",
+      "class": "Events",
+      "structure": "One record per protocol deviation per subject",
+      "purpose": "",
+      "core": "Protocol Deviations"
+    },
+    {
+      "code": "HO",
+      "name": "Healthcare Encounters",
+      "description": "An events domain that contains data for inpatient and outpatient healthcare events (e.g., hospitalization, nursing home stay, rehabilitation facility stay, ambulatory surgery).",
+      "class": "Events",
+      "structure": "One record per healthcare encounter per subject",
+      "purpose": "",
+      "core": "Healthcare Encounters"
+    },
+    {
+      "code": "MH",
+      "name": "Medical History",
+      "description": "An events domain that contains data that includes the subject's prior medical history at the start of the trial.",
+      "class": "Events",
+      "structure": "One record per medical history event per subject",
+      "purpose": "",
+      "core": "Medical History"
+    }
+  ],
+  "Interventions": [
+    {
+      "code": "AG",
+      "name": "Procedure Agents",
+      "description": "An interventions domain that contains the agents administered to the subject as part of a procedure or assessment, as opposed to drugs, medications and therapies administered with therapeutic intent.",
+      "class": "Interventions",
+      "structure": "One record per recorded intervention occurrence per subject",
+      "purpose": "",
+      "core": "Procedure Agents"
+    },
+    {
+      "code": "CM",
+      "name": "Concomitant/Prior Medications",
+      "description": "An interventions domain that contains concomitant and prior medications used by the subject, such as those given on an as needed basis or condition-appropriate medications.",
+      "class": "Interventions",
+      "structure": "One record per recorded intervention occurrence or constant-dosing interval per subject",
+      "purpose": "",
+      "core": "Concomitant/Prior Medications"
+    },
+    {
+      "code": "EC",
+      "name": "Exposure as Collected",
+      "description": "An interventions domain that contains information about protocol-specified study treatment administrations, as collected.",
+      "class": "Interventions",
+      "structure": "One record per protocol-specified study treatment, collected-dosing interval, per subject, per mood",
+      "purpose": "",
+      "core": "Exposure as Collected"
+    },
+    {
+      "code": "EX",
+      "name": "Exposure",
+      "description": "An interventions domain that contains the details of a subject's exposure to protocol-specified study treatment. Study treatment may be any intervention that is prospectively defined as a test material within a study, and is typically but not always supplied to the subject.",
+      "class": "Interventions",
+      "structure": "One record per protocol-specified study treatment, constant-dosing interval, per subject",
+      "purpose": "",
+      "core": "Exposure"
+    },
+    {
+      "code": "ML",
+      "name": "Meal Data",
+      "description": "An interventions domain that contains information describing a subject's food product consumption.",
+      "class": "Interventions",
+      "structure": "One record per food product occurrence or constant intake interval per subject",
+      "purpose": "",
+      "core": "Meal Data"
+    },
+    {
+      "code": "PR",
+      "name": "Procedures",
+      "description": "An interventions domain that contains interventional activity intended to have diagnostic, preventive, therapeutic, or palliative effects.",
+      "class": "Interventions",
+      "structure": "One record per recorded procedure per occurrence per subject",
+      "purpose": "",
+      "core": "Procedures"
+    },
+    {
+      "code": "SU",
+      "name": "Substance Use",
+      "description": "An interventions domain that contains substance use information that may be used to assess the efficacy and/or safety of therapies that look to mitigate the effects of chronic substance use.",
+      "class": "Interventions",
+      "structure": "One record per substance type per reported occurrence per subject",
+      "purpose": "",
+      "core": "Substance Use"
+    }
+  ],
+  "Findings": [
+    {
+      "code": "BS",
+      "name": "Biospecimen Findings",
+      "description": "A findings domain that contains data related to biospecimen characteristics.",
+      "class": "Findings",
+      "structure": "One record per measurement per biospecimen identifier per subject",
+      "purpose": "",
+      "core": "Biospecimen Findings"
+    },
+    {
+      "code": "CP",
+      "name": "Cell Phenotype Findings",
+      "description": "A findings domain that contains data related to the characterization of cell phenotype, lineage, and function based on expression of specific markers in single cell or particle suspensions.",
+      "class": "Findings",
+      "structure": "One record per test per specimen per timepoint per visit per subject",
+      "purpose": "",
+      "core": "Cell Phenotype Findings"
+    },
+    {
+      "code": "CV",
+      "name": "Cardiovascular System Findings",
+      "description": "A findings domain that contains physiological and morphological findings related to the cardiovascular system, including the heart, blood vessels and lymphatic vessels.",
+      "class": "Findings",
+      "structure": "One record per finding or result per time point per visit per subject",
+      "purpose": "",
+      "core": "Cardiovascular System Findings"
+    },
+    {
+      "code": "DA",
+      "name": "Product Accountability",
+      "description": "A findings domain that contains the accountability of study products, such as information on the receipt, dispensing, return, and packaging.",
+      "class": "Findings",
+      "structure": "One record per product accountability finding per subject",
+      "purpose": "",
+      "core": "Product Accountability"
+    },
+    {
+      "code": "DD",
+      "name": "Death Details",
+      "description": "A findings domain that contains the diagnosis of the cause of death for a subject.",
+      "class": "Findings",
+      "structure": "One record per finding per subject",
+      "purpose": "",
+      "core": "Death Details"
+    },
+    {
+      "code": "EG",
+      "name": "ECG Test Results",
+      "description": "A findings domain that contains ECG data, including position of the subject, method of evaluation, all cycle measurements and all findings from the ECG including an overall interpretation if collected or derived.",
+      "class": "Findings",
+      "structure": "One record per ECG observation per replicate per time point or one record per ECG observation per beat per visit per subject",
+      "purpose": "",
+      "core": "ECG Test Results"
+    },
+    {
+      "code": "FT",
+      "name": "Functional Tests",
+      "description": "A findings domain that contains data for named, stand-alone, task-based evaluations designed to provide an assessment of mobility, dexterity, or cognitive ability.",
+      "class": "Findings",
+      "structure": "One record per Functional Test finding per time point per visit per subject",
+      "purpose": "",
+      "core": "Functional Tests"
+    },
+    {
+      "code": "GF",
+      "name": "Genomics Findings",
+      "description": "A findings domain that contains data related to the structure, function, evolution, mapping, and editing of subject and non-host organism genomic material of interest. This domain includes but is not limited to assessments and results for genetic variation and transcription, and summary measures derived from these assessments. The GF domain is used for findings from characteristics assessed from nucleic acids and may include subsequent inferences and/or predictions about related proteins/amino acids.",
+      "class": "Findings",
+      "structure": "One record per finding per observation per biospecimen per subject",
+      "purpose": "",
+      "core": "Genomics Findings"
+    },
+    {
+      "code": "IE",
+      "name": "Inclusion/Exclusion Criteria Not Met",
+      "description": "A findings domain that contains those criteria that cause the subject to be in violation of the inclusion/exclusion criteria.",
+      "class": "Findings",
+      "structure": "One record per inclusion/exclusion criterion not met per subject",
+      "purpose": "",
+      "core": "Inclusion/Exclusion Criteria Not Met"
+    },
+    {
+      "code": "IS",
+      "name": "Immunogenicity Specimen Assessments",
+      "description": "A findings domain for assessments of antigen induced humoral or cell-mediated immune response in the subject.",
+      "class": "Findings",
+      "structure": "One record per test per visit per subject",
+      "purpose": "",
+      "core": "Immunogenicity Specimen Assessments"
+    },
+    {
+      "code": "LB",
+      "name": "Laboratory Test Results",
+      "description": "A findings domain that contains laboratory test data such as hematology, clinical chemistry and urinalysis. This domain does not include microbiology or pharmacokinetic data, which are stored in separate domains.",
+      "class": "Findings",
+      "structure": "One record per lab test per time point per visit per subject",
+      "purpose": "",
+      "core": "Laboratory Test Results"
+    },
+    {
+      "code": "MB",
+      "name": "Microbiology Specimen",
+      "description": "A findings domain that represents non-host organisms identified including bacteria, viruses, parasites, protozoa and fungi.",
+      "class": "Findings",
+      "structure": "One record per microbiology specimen finding per time point per visit per subject",
+      "purpose": "",
+      "core": "Microbiology Specimen"
+    },
+    {
+      "code": "MI",
+      "name": "Microscopic Findings",
+      "description": "A findings domain that contains histopathology findings and microscopic evaluations.",
+      "class": "Findings",
+      "structure": "One record per finding per specimen per subject",
+      "purpose": "",
+      "core": "Microscopic Findings"
+    },
+    {
+      "code": "MK",
+      "name": "Musculoskeletal System Findings",
+      "description": "A findings domain that contains physiological and morphological findings related to the system of muscles, tendons, ligaments, bones, joints, and associated tissues.",
+      "class": "Findings",
+      "structure": "One record per assessment per visit per subject",
+      "purpose": "",
+      "core": "Musculoskeletal System Findings"
+    },
+    {
+      "code": "MS",
+      "name": "Microbiology Susceptibility",
+      "description": "A findings domain that represents drug susceptibility testing results only. This includes phenotypic testing (where drug is added directly to a culture of organisms) and genotypic tests that provide results in terms of susceptible or resistant. Drug susceptibility testing may occur on a wide variety of non-host organisms, including bacteria, viruses, fungi, protozoa and parasites.",
+      "class": "Findings",
+      "structure": "One record per microbiology susceptibility test (or other organism-related finding) per organism found in MB",
+      "purpose": "",
+      "core": "Microbiology Susceptibility"
+    },
+    {
+      "code": "NV",
+      "name": "Nervous System Findings",
+      "description": "A findings domain that contains physiological and morphological findings related to the nervous system, including the brain, spinal cord, the cranial and spinal nerves, autonomic ganglia and plexuses.",
+      "class": "Findings",
+      "structure": "One record per finding per location per time point per visit per subject",
+      "purpose": "",
+      "core": "Nervous System Findings"
+    },
+    {
+      "code": "OE",
+      "name": "Ophthalmic Examinations",
+      "description": "A findings domain that contains tests that measure a person's ocular health and visual status, to detect abnormalities in the components of the visual system, and to determine how well the person can see.",
+      "class": "Findings",
+      "structure": "One record per ophthalmic finding per method per location, per time point per visit per subject",
+      "purpose": "",
+      "core": "Ophthalmic Examinations"
+    },
+    {
+      "code": "PC",
+      "name": "Pharmacokinetics Concentrations",
+      "description": "A findings domain that contains concentrations of drugs or metabolites in fluids or tissues as a function of time.",
+      "class": "Findings",
+      "structure": "One record per sample characteristic or time-point concentration per reference time point or per analyte per subject",
+      "purpose": "",
+      "core": "Pharmacokinetics Concentrations"
+    },
+    {
+      "code": "PE",
+      "name": "Physical Examination",
+      "description": "A findings domain that contains findings observed during a physical examination where the body is evaluated by inspection, palpation, percussion, and auscultation.",
+      "class": "Findings",
+      "structure": "One record per body system or abnormality per visit per subject",
+      "purpose": "",
+      "core": "Physical Examination"
+    },
+    {
+      "code": "PP",
+      "name": "Pharmacokinetics Parameters",
+      "description": "A findings domain that contains pharmacokinetic parameters derived from pharmacokinetic concentration-time (PC) data.",
+      "class": "Findings",
+      "structure": "One record per PK parameter per time-concentration profile per modeling method per subject",
+      "purpose": "",
+      "core": "Pharmacokinetics Parameters"
+    },
+    {
+      "code": "QS",
+      "name": "Questionnaires",
+      "description": "A findings domain that contains data for named, stand-alone instruments designed to provide an assessment of a concept. Questionnaires have a defined standard structure, format, and content; consist of conceptually related items that are typically scored; and have documented methods for administration and analysis.",
+      "class": "Findings",
+      "structure": "One record per questionnaire per question per time point per visit per subject",
+      "purpose": "",
+      "core": "Questionnaires"
+    },
+    {
+      "code": "RE",
+      "name": "Respiratory System Findings",
+      "description": "A findings domain that contains physiological and morphological findings related to the respiratory system, including the organs that are involved in breathing such as the nose, throat, larynx, trachea, bronchi and lungs.",
+      "class": "Findings",
+      "structure": "One record per finding or result per time point per visit per subject",
+      "purpose": "",
+      "core": "Respiratory System Findings"
+    },
+    {
+      "code": "RP",
+      "name": "Reproductive System Findings",
+      "description": "A findings domain that contains physiological and morphological findings related to the male and female reproductive systems.",
+      "class": "Findings",
+      "structure": "One record per finding or result per time point per visit per subject",
+      "purpose": "",
+      "core": "Reproductive System Findings"
+    },
+    {
+      "code": "RS",
+      "name": "Disease Response and Clin Classification",
+      "description": "A findings domain for the assessment of disease response to therapy, or clinical classification based on published criteria.",
+      "class": "Findings",
+      "structure": "One record per response assessment or clinical classification assessment per time point per visit per subject per assessor per medical evaluator",
+      "purpose": "",
+      "core": "Disease Response and Clin Classification"
+    },
+    {
+      "code": "SC",
+      "name": "Subject Characteristics",
+      "description": "A findings domain that contains subject-related data not collected in other domains.",
+      "class": "Findings",
+      "structure": "One record per characteristic per visit per subject.",
+      "purpose": "",
+      "core": "Subject Characteristics"
+    },
+    {
+      "code": "SS",
+      "name": "Subject Status",
+      "description": "A findings domain that contains the subject's status that is evaluated periodically to determine if it has changed.",
+      "class": "Findings",
+      "structure": "One record per status per visit per subject",
+      "purpose": "",
+      "core": "Subject Status"
+    },
+    {
+      "code": "TR",
+      "name": "Tumor/Lesion Results",
+      "description": "A findings domain that represents quantitative measurements and/or qualitative assessments of the tumors, lesions, or locations of interest identified in the Tumor/Lesion Identification (TU) domain.",
+      "class": "Findings",
+      "structure": "One record per tumor measurement/assessment per visit per subject per assessor",
+      "purpose": "",
+      "core": "Tumor/Lesion Results"
+    },
+    {
+      "code": "TU",
+      "name": "Tumor/Lesion Identification",
+      "description": "A findings domain that represents data that uniquely identifies tumors, lesions, or locations of interest under study.",
+      "class": "Findings",
+      "structure": "One record per identified tumor per subject per assessor",
+      "purpose": "",
+      "core": "Tumor/Lesion Identification"
+    },
+    {
+      "code": "UR",
+      "name": "Urinary System Findings",
+      "description": "A findings domain that contains physiological and morphological findings related to the urinary tract, including the organs involved in the creation and excretion of urine such as the kidneys, ureters, bladder and urethra.",
+      "class": "Findings",
+      "structure": "One record per finding per location per per visit per subject",
+      "purpose": "",
+      "core": "Urinary System Findings"
+    },
+    {
+      "code": "VS",
+      "name": "Vital Signs",
+      "description": "A findings domain that contains measurements including but not limited to blood pressure, temperature, respiration, body surface area, body mass index, height and weight.",
+      "class": "Findings",
+      "structure": "One record per vital sign measurement per time point per visit per subject",
+      "purpose": "",
+      "core": "Vital Signs"
+    }
+  ],
+  "Special Purpose": [
+    {
+      "code": "CO",
+      "name": "Comments",
+      "description": "A special-purpose domain that contains comments that may be collected alongside other data.",
+      "class": "Special Purpose",
+      "structure": "One record per comment per subject",
+      "purpose": "domain that contains comments that may be collected alongside other data",
+      "core": "Comments"
+    },
+    {
+      "code": "DM",
+      "name": "Demographics",
+      "description": "A special-purpose domain that includes a set of essential standard variables that describe each subject in a clinical study. It is the parent domain for all other observations for human clinical subjects.",
+      "class": "Special Purpose",
+      "structure": "One record per subject",
+      "purpose": "domain that includes a set of essential standard variables that describe each subject in a clinical study",
+      "core": "Demographics"
+    },
+    {
+      "code": "SE",
+      "name": "Subject Elements",
+      "description": "A special-purpose domain that contains the actual order of elements followed by the subject, together with the start date/time and end date/time for each element.",
+      "class": "Special Purpose",
+      "structure": "One record per actual Element per subject",
+      "purpose": "domain that contains the actual order of elements followed by the subject, together with the start date/time and end date/time for each element",
+      "core": "Subject Elements"
+    },
+    {
+      "code": "SM",
+      "name": "Subject Disease Milestones",
+      "description": "A special-purpose domain that is designed to record the timing, for each subject, of disease milestones that have been defined in the Trial Disease Milestones (TM) domain.",
+      "class": "Special Purpose",
+      "structure": "One record per Disease Milestone per subject",
+      "purpose": "domain that is designed to record the timing, for each subject, of disease milestones that have been defined in the Trial Disease Milestones (TM) domain",
+      "core": "Subject Disease Milestones"
+    },
+    {
+      "code": "SV",
+      "name": "Subject Visits",
+      "description": "A special purpose domain that contains information for each subject's actual and planned visits.",
+      "class": "Special Purpose",
+      "structure": "One record per actual or planned visit per subject",
+      "purpose": "domain that contains information for each subject's actual and planned visits",
+      "core": "Subject Visits"
+    }
+  ],
+  "Findings About": [
+    {
+      "code": "FA",
+      "name": "Findings About Events or Interventions",
+      "description": "A findings domain that contains the findings about an event or intervention that cannot be represented within an events or interventions domain record or as a supplemental qualifier.",
+      "class": "Findings About",
+      "structure": "One record per finding, per object, per time point, per visit per subject",
+      "purpose": "",
+      "core": "Findings About Events or Interventions"
+    },
+    {
+      "code": "SR",
+      "name": "Skin Response",
+      "description": "A findings about domain for submitting dermal responses to antigens.",
+      "class": "Findings About",
+      "structure": "One record per finding, per object, per time point, per visit per subject",
+      "purpose": "",
+      "core": "Skin Response"
+    }
+  ],
+  "Unknown": [
+    {
+      "code": "OI",
+      "name": "Non-host Organism Identifiers",
+      "description": "A special-purpose domain containing information that identifies levels of taxonomic nomenclature of microbes or parasites that have been either experimentally determined in the course of a study or are previously known, as in the case of lab strains used as reference in the study.",
+      "class": "Unknown",
+      "structure": "One record per taxon per non-host organism",
+      "purpose": "domain containing information that identifies levels of taxonomic nomenclature of microbes or parasites that have been either experimentally determined in the course of a study or are previously known, as in the case of lab strains used as reference in the study",
+      "core": "Non-host Organism Identifiers"
+    },
+    {
+      "code": "TM",
+      "name": "Trial Disease Milestones",
+      "description": "A trial design domain that is used to describe disease milestones, which are observations or activities anticipated to occur in the course of the disease under study, and which trigger the collection of data.",
+      "class": "Unknown",
+      "structure": "One record per Disease Milestone type",
+      "purpose": "",
+      "core": "Trial Disease Milestones"
+    }
+  ],
+  "Relationship": [
+    {
+      "code": "RELREC",
+      "name": "Related Records",
+      "description": "A dataset used to describe relationships between records for a subject within or across domains, and relationships of records across datasets.",
+      "class": "Relationship",
+      "structure": "One record per related record, group of records or dataset",
+      "purpose": "",
+      "core": "Related Records"
+    },
+    {
+      "code": "RELSPEC",
+      "name": "Related Specimens",
+      "description": "A dataset used to represent relationships between specimens.",
+      "class": "Relationship",
+      "structure": "One record per specimen identifier per subject",
+      "purpose": "",
+      "core": "Related Specimens"
+    },
+    {
+      "code": "RELSUB",
+      "name": "Related Subjects",
+      "description": "A dataset used to represent relationships between study subjects.",
+      "class": "Relationship",
+      "structure": "One record per relationship per related subject per subject",
+      "purpose": "",
+      "core": "Related Subjects"
+    },
+    {
+      "code": "SUPPQUAL",
+      "name": "Supplemental Qualifiers for [domain name]",
+      "description": "",
+      "class": "Relationship",
+      "structure": "One record per supplemental qualifier per related parent domain record(s)",
+      "purpose": "",
+      "core": "Supplemental Qualifiers for [domain name]"
+    }
+  ],
+  "Trial Design": [
+    {
+      "code": "TA",
+      "name": "Trial Arms",
+      "description": "A trial design domain that contains each planned arm in the trial.",
+      "class": "Trial Design",
+      "structure": "One record per planned Element per Arm",
+      "purpose": "",
+      "core": "Trial Arms"
+    },
+    {
+      "code": "TD",
+      "name": "Trial Disease Assessments",
+      "description": "A trial design domain that provides information on the protocol-specified disease assessment schedule, to be used for comparison with the actual occurrence of the efficacy assessments in order to determine whether there was good compliance with the schedule.",
+      "class": "Trial Design",
+      "structure": "One record per planned constant assessment period",
+      "purpose": "",
+      "core": "Trial Disease Assessments"
+    },
+    {
+      "code": "TE",
+      "name": "Trial Elements",
+      "description": "A trial design domain that contains the element code that is unique for each element, the element description, and the rules for starting and ending an element.",
+      "class": "Trial Design",
+      "structure": "One record per planned Element",
+      "purpose": "",
+      "core": "Trial Elements"
+    },
+    {
+      "code": "TI",
+      "name": "Trial Inclusion/Exclusion Criteria",
+      "description": "A trial design domain that contains one record for each of the inclusion and exclusion criteria for the trial. This domain is not subject oriented.",
+      "class": "Trial Design",
+      "structure": "One record per I/E criterion",
+      "purpose": "",
+      "core": "Trial Inclusion/Exclusion Criteria"
+    },
+    {
+      "code": "TS",
+      "name": "Trial Summary",
+      "description": "A trial design domain that contains one record for each trial summary characteristic. This domain is not subject oriented.",
+      "class": "Trial Design",
+      "structure": "One record per trial summary parameter value",
+      "purpose": "",
+      "core": "Trial Summary"
+    },
+    {
+      "code": "TV",
+      "name": "Trial Visits",
+      "description": "A trial design domain that contains the planned order and number of visits in the study within each arm.",
+      "class": "Trial Design",
+      "structure": "One record per planned Visit per Arm",
+      "purpose": "",
+      "core": "Trial Visits"
+    }
+  ]
+}

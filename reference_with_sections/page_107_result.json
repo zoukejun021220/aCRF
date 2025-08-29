@@ -1,0 +1,103 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_107.json",
+  "page_id": 107,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Was the Villalta completed? (VILLYN)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-2 Years > QOL",
+      "section": null
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Villatta side (VILLSIDE)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Right — Pain (RPAIN)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Right — Cramps (RCRAM)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Right — Heaviness (RHEAV)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta"
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Right — Paraesthesia (RPARES)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta"
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Right — Pruritus (RPRUR)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta"
+    }
+  ],
+  "summary": {
+    "total_items": 7,
+    "annotated": 7,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

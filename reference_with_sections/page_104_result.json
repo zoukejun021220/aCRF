@@ -1,0 +1,129 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_104.json",
+  "page_id": 104,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Was visit missed? (FU_2_MISS)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Was the visit conducted remotely? (FU_2_REM)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-2 Years",
+      "section": null
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Visit Date (FU_2_DATE)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "COVID-19 Status (FU_2_CVD)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "If positive, date of positive test (FU_2_CVD_DT)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-2 Years",
+      "section": null
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Compression therapy prescribed (FU_2_COMPTYN)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-2 Years",
+      "section": null
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Compression therapy type (FU_2_COMPT)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-2 Years",
+      "section": null
+    },
+    {
+      "qid": "q-008",
+      "seq": 8,
+      "text": "Was edema assessment completed? (FU_2_EDYN)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years"
+    },
+    {
+      "qid": "q-009",
+      "seq": 9,
+      "text": "Were 1 or more follow-up quality of life (QOL) measures collected? (FU_2_QOLYN)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-2 Years",
+      "section": "Edema"
+    }
+  ],
+  "summary": {
+    "total_items": 9,
+    "annotated": 9,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

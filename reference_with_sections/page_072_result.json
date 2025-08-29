@@ -1,0 +1,64 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_072.json",
+  "page_id": 72,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Left leg: Active Ulcer Size Assess largest active ulcer (LLAUS)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-30 Days > QOL",
+      "section": "rVCSS"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Left leg: Use of Compression Therapy (LLUCT)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-30 Days > QOL",
+      "section": "rVCSS"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Was a Numeric Pain Rating Scale (NPRS) completed? (NPRSYN)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-30 Days > QOL",
+      "section": null
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "NPRS score (NPRSR)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-30 Days > QOL",
+      "section": "Numeric Pain Rating Scale"
+    }
+  ],
+  "summary": {
+    "total_items": 4,
+    "annotated": 4,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_119.json",
+  "page_id": 119,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Visit Date (FU_UNSDATE)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Was the visit conducted remotely? (FU_REM)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "COVID-19 Status (FU_CVD)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "If positive, date of positive test (FU_CVD_DT)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Reason for unscheduled visit (FU_UNSUNSREAS)",
+      "annotation": "SVUPDES",
+      "domain": "SV",
+      "pattern": "supplemental_single",
+      "confidence": 0.9,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits"
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Compression therapy prescribed (FU_UNSCOMPTYN)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits"
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Compression therapy type (FU_UNSCOMPT)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits"
+    },
+    {
+      "qid": "q-008",
+      "seq": 8,
+      "text": "Was edema assessment completed? (FU_UNSEDYN)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Unscheduled Visits > Visit",
+      "section": null
+    },
+    {
+      "qid": "q-009",
+      "seq": 9,
+      "text": "Were 1 or more follow-up quality of life (QOL) measures collected? (FU_UNSQOLYN)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Unscheduled Visits > Visit",
+      "section": "Edema"
+    }
+  ],
+  "summary": {
+    "total_items": 9,
+    "annotated": 9,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

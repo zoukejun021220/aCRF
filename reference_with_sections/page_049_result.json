@@ -1,0 +1,90 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_049.json",
+  "page_id": 49,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Post-Adjunctive Therapy Venogram captured? (POST_ADJ_VENSET)",
+      "annotation": "RSTEST = [NOT SUBMITTED] | RSSTAT = NOT DONE when RSTESTCD = VENSENT",
+      "domain": "RS",
+      "pattern": "not_submitted, conditional_single",
+      "confidence": 0.95,
+      "valid": false,
+      "requires_separate_annotations": true,
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Post-Adjunctive Therapy Thrombus load (POST_ADJ_VENTL1)",
+      "annotation": "RSSTAT = RSORRE when RSTESTCD = VENTL",
+      "domain": "RS",
+      "pattern": "conditional_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Post-Adjunctive Therapy Intravascular Ultrasound Was the IVUS performed after adjunctive therapy was used? (POST_ADJ_IVUS)",
+      "annotation": "RSTEST = [NOT SUBMITTED] | RSSTAT = NOT DONE when RSTESTCD = IVUS",
+      "domain": "RS",
+      "pattern": "not_submitted, conditional_single",
+      "confidence": 0.95,
+      "valid": false,
+      "requires_separate_annotations": true,
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "TVS Treatment Summary Total number of ClotTriever passes (PROC_NUMPASS)",
+      "annotation": "DUORRES when DUTESTCD = NUMPASS",
+      "domain": "DU",
+      "pattern": "direct",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Opinion of clot age after removal (check all that apply) (PROC_AGE)",
+      "annotation": "If select, RSSTAT = SUB-ACUTE when RSTESTCD = CLOTAGEA | If select, RSSTAT = CHRONIC when RSTESTCD = CLOTAGEC",
+      "domain": "RS",
+      "pattern": "multiple_response_checkboxes, conditional_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": true,
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram"
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "IVC filter (ADJ_IVC)",
+      "annotation": "PRCAT = ADJUNCTIVE PROCEDURES | PROCUR",
+      "domain": "PR",
+      "pattern": "domain_level, direct",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Intravascular Ultrasound"
+    }
+  ],
+  "summary": {
+    "total_items": 6,
+    "annotated": 6,
+    "not_submitted": 2,
+    "errors": 0
+  }
+}

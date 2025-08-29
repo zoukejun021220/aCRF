@@ -1,0 +1,89 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_139.json",
+  "page_id": 139,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Action taken details (AE_ACTTAKEN)",
+      "annotation": "AEACN | [NOT SUBMITTED]",
+      "domain": "AE",
+      "pattern": "direct, not_submitted",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Other, specify (AE_OTHACT)",
+      "annotation": "AEAENOTH",
+      "domain": "AE",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Outcome of Event (AE_OUTC)",
+      "annotation": "AEOUT | AENRF | AEOUT",
+      "domain": "AE",
+      "pattern": "direct, variable_with_ct",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Stop date (AE_STOPDT)",
+      "annotation": "AENNDTC",
+      "domain": "AE",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Date of death (AE_DEADAT)",
+      "annotation": "DDTDTC | DHTDTC",
+      "domain": "DD, DH",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Cause of death (AE_DEACAUS)",
+      "annotation": "DDTEST = Primary Cause of Death | DDORRES when DDTESTCD = PRCDTH",
+      "domain": "DD",
+      "pattern": "variable_with_ct, conditional_single",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Adverse event narrative (AE_NARR)",
+      "annotation": "NARR1 - NARRn in SUPPAE",
+      "domain": "AE",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": false
+    }
+  ],
+  "summary": {
+    "total_items": 7,
+    "annotated": 7,
+    "not_submitted": 1,
+    "errors": 0
+  }
+}

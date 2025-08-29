@@ -1,0 +1,25 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_136.json",
+  "page_id": 136,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.5,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Adverse Events",
+      "section": "Protocol Deviations > PD"
+    }
+  ],
+  "summary": {
+    "total_items": 1,
+    "annotated": 1,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

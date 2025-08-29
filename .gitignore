@@ -1,0 +1,75 @@
+########################################
+# General Python
+########################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+########################################
+# Environments & IDE
+########################################
+.venv/
+venv/
+.env
+.env.*
+.DS_Store
+.vscode/
+.idea/
+
+########################################
+# Build & Logs
+########################################
+dist/
+build/
+*.log
+
+########################################
+# Project data & outputs (generated)
+########################################
+data/
+annotations/
+annotated_output/
+crf_json/
+
+# KB build outputs (generated)
+sdtm_knowledge_base/sdtm_rag_kb/
+kb/**/.rag_cache/
+sdtm_knowledge_base/Variable-Domain-Mapper/cache/
+sdtm_instruction_tuning_package/test_output/
+sdtm_instruction_tuning_package/cache/
+sdtm_instruction_tuning_package/output/
+
+# Generic cache/output anywhere
+**/cache/
+**/output/
+
+########################################
+# Windows zone identifier artifacts
+########################################
+*:Zone.Identifier*
+
+########################################
+# Sensitive or bulky artifacts
+########################################
+credential.txt
+
+# Large archives and model files
+*.tar
+*.tar.gz
+*.zip
+*.safetensors
+*.bin
+*.pth
+
+# Known local archive bundles
+acrf_cloud_ready*
+acrf_cloud_ready_auto*
+acrf_cloud_ready_complete*
+acrf_cloud_ready_final*
+acrf_complete_training_package.tar.gz
+acrf_cloud_training.zip

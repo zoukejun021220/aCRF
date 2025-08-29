@@ -1,0 +1,116 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_135.json",
+  "page_id": 135,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Date of deviation from protocol (PD_DATE)",
+      "annotation": "DVSTDTC",
+      "domain": "DV",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Deviation reason (PD_REAS)",
+      "annotation": "DVCAT / DVDECOD",
+      "domain": "DV",
+      "pattern": "multiple_variables",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Please specify out-of-window assessment (PD_OWA)",
+      "annotation": "DVSCAT",
+      "domain": "DV",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Please specify missing assessment (PD_MA)",
+      "annotation": "DVSCAT",
+      "domain": "DV",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Other reason, specify (PD_REASSP)",
+      "annotation": "DVSCAT",
+      "domain": "DV",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD"
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Description of the protocol deviation (PD_DESC)",
+      "annotation": "DVTERM",
+      "domain": "DV",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD"
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Was a deviation waiver granted by the Sponsor? (PD_WAIV)",
+      "annotation": "WAIV in SUPPDV",
+      "domain": "DV",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD"
+    },
+    {
+      "qid": "q-008",
+      "seq": 8,
+      "text": "Description of the corrective action taken (PD_CORACT)",
+      "annotation": "DVACN1 - DVACKn in SUPPDV",
+      "domain": "DV",
+      "pattern": "supplemental_multiple",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD"
+    }
+  ],
+  "summary": {
+    "total_items": 8,
+    "annotated": 8,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

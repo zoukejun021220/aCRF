@@ -1,0 +1,90 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_040.json",
+  "page_id": 40,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Treating physician (PROC_TPHY13) Site 13",
+      "annotation": "TPHY in SUPPDX",
+      "domain": "SUPPdx",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Treating physician (PROC_TPHY14) Site 14",
+      "annotation": "TPHY in SUPPDX",
+      "domain": "SUPPdx",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Treating physician (PROC_TPHY15) Site 15",
+      "annotation": "TPHY in SUPPDX",
+      "domain": "SUPPdx",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Treating physician (PROC_TPHY16) Site 16",
+      "annotation": "TPHY in SUPPDX",
+      "domain": "SUPPdx",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Treating physician (PROC_TPHY17) Site 17",
+      "annotation": "TPHY in SUPPDX",
+      "domain": "SUPPdx",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Treating physician (PROC_TPHY18) Site 18",
+      "annotation": "TPHY in SUPPDX",
+      "domain": "SUPPdx",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    }
+  ],
+  "summary": {
+    "total_items": 6,
+    "annotated": 6,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

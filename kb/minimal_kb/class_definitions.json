@@ -1,0 +1,161 @@
+{
+  "sdtm_classes": {
+    "Interventions": {
+      "name": "Interventions",
+      "description": "This class captures intentional actions or treatments applied to the subject. It includes investigational treatments, medications, and procedures administered per protocol or otherwise. Interventions typically have timing (start/stop) and dosing details.",
+      "full_description": "The Interventions class captures data about treatments, therapies, or procedures that are administered to the subject. Study treatment may be any intervention that is prospectively defined as a test material within a study, and is typically but not always supplied to the subject. This includes investigational treatments, concomitant medications, procedures, and substance use. The key characteristic is that these are intentional actions applied to the subject - things that are done TO the subject rather than things that happen to them or are observed about them.",
+      "key_questions": [
+        "Is this field about something done to the subject (a drug, device, or procedure)?",
+        "Does this represent a treatment, therapy, or procedure administered to the subject?",
+        "Is this an intentional action or treatment applied to the subject?"
+      ],
+      "decision_criteria": "If the data describes what treatment was given, when it was administered, how much was given, or how it was administered, it belongs in the Interventions class.",
+      "characteristics": [
+        "Records what treatment was given (drug name, procedure type)",
+        "When it was administered (start and stop dates/times)",
+        "How much was given (dose amount and units)",
+        "How it was administered (route, frequency)",
+        "Includes both protocol-specified and concomitant treatments",
+        "Captures any substance use (tobacco, alcohol, caffeine)"
+      ],
+      "example_domains": [
+        {"code": "EX", "name": "Exposure", "description": "Records of study drug administration for each subject"},
+        {"code": "CM", "name": "Concomitant Medications", "description": "Medications a subject takes coincident with the study"},
+        {"code": "SU", "name": "Substance Use", "description": "Usage of tobacco, alcohol, caffeine or other substances"},
+        {"code": "PR", "name": "Procedures", "description": "Surgical or therapeutic procedures performed"},
+        {"code": "AG", "name": "Procedure Agents", "description": "Agents administered as part of a procedure"},
+        {"code": "EC", "name": "Exposure as Collected", "description": "Protocol-specified study treatment as collected"}
+      ],
+      "common_variables": ["--TRT", "--DOSE", "--DOSU", "--ROUTE", "--STDTC", "--ENDTC", "--DOSFRQ", "--INDC"],
+      "keywords": ["treatment", "medication", "drug", "therapy", "procedure", "administered", "dose", "route", "substance", "intervention", "given", "applied", "dosing", "infusion", "injection", "surgical"]
+    },
+    "Events": {
+      "name": "Events",
+      "description": "This class captures occurrences or incidents that happen to the subject during the study, including planned protocol milestones and unplanned events.",
+      "full_description": "The Events class captures data about occurrences or incidents that happen to the subject, including both planned protocol milestones (like randomization, completion) and unplanned events (like adverse events). Events data document things that occur during the subject's participation in the trial - they are things that happen TO the subject rather than things done to them or measured about them. This includes medical conditions, adverse experiences, protocol deviations, and study disposition events.",
+      "key_questions": [
+        "Does this field describe something that happened to the subject?",
+        "Is this a status/change in their health or trial participation?",
+        "Is this an occurrence or incident (planned or unplanned)?",
+        "Does this capture a medical event, condition, or milestone?"
+      ],
+      "decision_criteria": "If the data describes what happened to the subject, when it occurred, its severity or seriousness, or its outcome, it belongs in the Events class.",
+      "characteristics": [
+        "Documents what happened to the subject (event term/description)",
+        "Records onset and resolution dates",
+        "Captures severity, seriousness, and outcomes",
+        "Includes both planned milestones and unplanned events",
+        "Tracks medical history and ongoing conditions",
+        "Documents protocol deviations and disposition"
+      ],
+      "example_domains": [
+        {"code": "AE", "name": "Adverse Events", "description": "Any untoward medical occurrences (symptoms, severity, outcome)"},
+        {"code": "MH", "name": "Medical History", "description": "Relevant events or conditions prior to the trial"},
+        {"code": "DS", "name": "Disposition", "description": "Subject's trial status events (randomization, completion, discontinuation)"},
+        {"code": "DV", "name": "Protocol Deviations", "description": "Protocol violations and deviations during the study"},
+        {"code": "CE", "name": "Clinical Events", "description": "Clinical events of interest not classified as adverse events"},
+        {"code": "HO", "name": "Healthcare Encounters", "description": "Hospitalizations and healthcare visits"},
+        {"code": "BE", "name": "Biospecimen Events", "description": "Events affecting biospecimens"}
+      ],
+      "common_variables": ["--TERM", "--STDTC", "--ENDTC", "--SEV", "--SER", "--OUT", "--STAT", "--REASND", "--CAT", "--SCAT"],
+      "keywords": ["event", "adverse", "history", "disposition", "deviation", "occurred", "happened", "incident", "milestone", "outcome", "experience", "condition", "symptom", "diagnosis", "hospitalization", "death", "randomized", "completed", "discontinued"]
+    },
+    "Findings": {
+      "name": "Findings",
+      "description": "This class captures the results of assessments, measurements, or observations made about the subject.",
+      "full_description": "The Findings class captures data from assessments, measurements, or observations made about the subject. These are typically results from planned evaluations that answer specific questions about the subject's condition or response. Findings data represent what was observed, measured, or assessed - they are observations ABOUT the subject rather than things done to them or that happened to them. This includes laboratory tests, vital signs, physical examinations, questionnaire responses, and other measurements.",
+      "key_questions": [
+        "Is this field recording a measurement, test result, or observation collected from the subject?",
+        "Does this represent an assessment or evaluation result?",
+        "Is this data from a planned measurement or observation?",
+        "Does this answer 'what was the value/result' of a test or assessment?"
+      ],
+      "decision_criteria": "If the data contains test results, measurement values, assessment scores, or observational findings about the subject, it belongs in the Findings class.",
+      "characteristics": [
+        "Contains what was observed or measured (result values)",
+        "Often includes numeric or categorical results",
+        "Has result values with units",
+        "Includes test codes and names to identify what was measured",
+        "Records when the measurement was taken",
+        "May include normal ranges and clinical significance",
+        "Typically has multiple records per subject per timepoint"
+      ],
+      "example_domains": [
+        {"code": "LB", "name": "Laboratory Tests", "description": "Results of lab analyses (blood tests, etc.)"},
+        {"code": "VS", "name": "Vital Signs", "description": "Measurements like blood pressure, heart rate, temperature"},
+        {"code": "PE", "name": "Physical Examination", "description": "Findings from physical exams (normal/abnormal by body system)"},
+        {"code": "QS", "name": "Questionnaires", "description": "Responses to questionnaires and rating scales"},
+        {"code": "EG", "name": "ECG Test Results", "description": "Electrocardiogram measurements and interpretations"},
+        {"code": "SC", "name": "Subject Characteristics", "description": "Miscellaneous findings about the subject"},
+        {"code": "FA", "name": "Findings About", "description": "Findings related to an event or intervention"}
+      ],
+      "common_variables": ["--TESTCD", "--TEST", "--ORRES", "--ORRESU", "--STRESC", "--STRESN", "--STRESU", "--STAT", "--REASND", "--SPEC", "--LOC", "--METHOD"],
+      "keywords": ["result", "measurement", "test", "assessment", "observation", "value", "score", "vital", "lab", "examination", "questionnaire", "finding", "response", "reading", "level", "concentration", "rate", "pressure", "temperature", "weight", "height"]
+    },
+    "Special Purpose": {
+      "name": "Special Purpose",
+      "description": "These are domains that serve specific organizational roles and don't fall under the observation classes.",
+      "full_description": "Special-Purpose domains contain data that serve specific organizational roles and don't fit into the three observation classes (Interventions, Events, Findings). They provide essential reference information about subjects or trial structure rather than observational data. These domains typically contain subject-level metadata, demographic information, comments, or structural information about the trial. The key characteristic is that they provide context and reference data rather than capturing observations about what was done to, happened to, or measured about subjects.",
+      "key_questions": [
+        "Is this basic identifying or classifying detail about the subject?",
+        "Is this organizational or reference information?",
+        "Does this provide context rather than observational data?",
+        "Is this demographic or administrative information?"
+      ],
+      "decision_criteria": "If the data provides subject identification, demographic attributes, trial structure information, or general comments rather than observations, it belongs in Special Purpose.",
+      "characteristics": [
+        "One record per subject (typically, especially for demographics)",
+        "Core subject attributes (age, sex, race, etc.)",
+        "Reference and metadata information",
+        "Not observational findings, events, or interventions",
+        "Provides context for other domains",
+        "May include trial design elements and visit structure"
+      ],
+      "example_domains": [
+        {"code": "DM", "name": "Demographics", "description": "One record per subject with key attributes (age, sex, race, arm)"},
+        {"code": "CO", "name": "Comments", "description": "Free-text comments related to subjects or data"},
+        {"code": "SE", "name": "Subject Elements", "description": "Tracks subjects' progress through study phases"},
+        {"code": "SV", "name": "Subject Visits", "description": "Visit-level data like actual visit dates"}
+      ],
+      "common_variables": ["STUDYID", "USUBJID", "SUBJID", "SITEID", "AGE", "AGEU", "SEX", "RACE", "ETHNIC", "ARM", "ARMCD", "COUNTRY", "DMDTC", "DMDY"],
+      "keywords": ["demographics", "age", "sex", "race", "ethnicity", "subject", "comment", "visit", "element", "reference", "identifier", "arm", "site", "country", "enrollment", "informed consent", "screen", "randomization"]
+    }
+  },
+  "decision_hierarchy": {
+    "description": "Follow this decision tree in order to determine the SDTM class. Each step should be evaluated sequentially until a match is found.",
+    "steps": [
+      {
+        "order": 1,
+        "question": "Is this field about something done to the subject (a drug, device, or procedure)?",
+        "detailed_question": "Does the field capture information about treatments, therapies, medications, procedures, or any other interventions that are administered or applied to the subject?",
+        "if_yes": "Interventions",
+        "if_no": "continue",
+        "examples": "study drug dose, concomitant medication name, surgical procedure, tobacco use"
+      },
+      {
+        "order": 2,
+        "question": "Does this field describe something that happened to the subject or a status/change in their health or trial participation?",
+        "detailed_question": "Does the field capture events, occurrences, medical conditions, or milestones that happened during the subject's participation in the trial?",
+        "if_yes": "Events",
+        "if_no": "continue",
+        "examples": "adverse event term, medical history condition, study completion status, protocol deviation"
+      },
+      {
+        "order": 3,
+        "question": "Is this field recording a measurement, test result, or observation collected from the subject?",
+        "detailed_question": "Does the field contain results from tests, measurements, assessments, or observations that provide data about the subject's condition or characteristics?",
+        "if_yes": "Findings",
+        "if_no": "continue",
+        "examples": "blood pressure value, lab test result, questionnaire score, physical exam finding"
+      },
+      {
+        "order": 4,
+        "question": "Is this basic subject information or organizational data?",
+        "detailed_question": "Does the field contain demographic information, subject identifiers, or other reference/administrative data that provides context but isn't an observation?",
+        "if_yes": "Special Purpose",
+        "if_no": "Unable to classify - review field context",
+        "examples": "subject age, sex, race, site ID, visit date, general comments"
+      }
+    ]
+  }
+}

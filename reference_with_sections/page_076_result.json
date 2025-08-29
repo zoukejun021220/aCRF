@@ -1,0 +1,129 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_076.json",
+  "page_id": 76,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Was visit missed? (FU_6_MISS)",
+      "annotation": "[NOT SUBMITTED]",
+      "domain": "SV",
+      "pattern": "not_submitted",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-6 Months",
+      "section": "FUP-6 Months"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Was the visit conducted remotely? (FU_6_REM)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-6 Months",
+      "section": null
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Visit Date (FU_6_DATE)",
+      "annotation": "SVSTDTC, SVNDTCIPEDT, QSDTC, PRDTC, FADTC",
+      "domain": "SV, QS, PR, FA",
+      "pattern": "direct, combined_datetime",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "FUP-6 Months",
+      "section": "FUP-6 Months"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "COVID-19 Status (FU_6_CVD)",
+      "annotation": "MBORRES when MBTESTCD = SARSCOV2",
+      "domain": "MB",
+      "pattern": "conditional_single, variable_with_ct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "FUP-6 Months",
+      "section": "FUP-6 Months"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "If positive, date of positive test (FU_6_CVD_DT)",
+      "annotation": "MBTDC",
+      "domain": "MB",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "FUP-6 Months",
+      "section": null
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Compression therapy prescribed (FU_6_COMPTYN)",
+      "annotation": "PROCUR",
+      "domain": "PR",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "FUP-6 Months",
+      "section": null
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Compression therapy type (FU_6_COMPT)",
+      "annotation": "COMPT in SUPPPR",
+      "domain": "PR",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "FUP-6 Months",
+      "section": null
+    },
+    {
+      "qid": "q-008",
+      "seq": 8,
+      "text": "Was edema assessment completed? (FU_6_EDYN)",
+      "annotation": "Question: PETEST | Option 'No': PESTAT = NOT DONE when PETESTCD = PEALL",
+      "domain": "PE",
+      "pattern": "conditional_single, not_submitted",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": true,
+      "form": "FUP-6 Months",
+      "section": "FUP-6 Months"
+    },
+    {
+      "qid": "q-009",
+      "seq": 9,
+      "text": "Were 1 or more follow-up quality of life (QOL) measures collected? (FU_6_QOLYN)",
+      "annotation": "Question: QSTEST | Option 'No': QSSTAT = NOT DONE when QSTESTCD = QOLALL",
+      "domain": "QS",
+      "pattern": "conditional_single, not_submitted",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": true,
+      "form": "FUP-6 Months",
+      "section": "Edema"
+    }
+  ],
+  "summary": {
+    "total_items": 9,
+    "annotated": 9,
+    "not_submitted": 1,
+    "errors": 0
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_137.json",
+  "page_id": 137,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Start date (AE_ONSETDT)",
+      "annotation": "AESTDTC",
+      "domain": "AE",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Adverse event term/condition (AE_DESC)",
+      "annotation": "AETERM",
+      "domain": "AE",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Date site became aware of adverse event (AE_DTSI)",
+      "annotation": "AEDTC",
+      "domain": "AE",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Event severity (AE_EVTSEV)",
+      "annotation": "AESEV",
+      "domain": "AE",
+      "pattern": "variable_with_ct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Relationship to device (AE_RELDEV)",
+      "annotation": "AEREL",
+      "domain": "AE",
+      "pattern": "variable_with_ct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE"
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "If device related, specify the device (AE_EVTDEVREL)",
+      "annotation": "DEVREL in SUPPAE",
+      "domain": "AE",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE"
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Relationship to procedure (AE_RELPRO)",
+      "annotation": "RELPRO in SUPPAE",
+      "domain": "AE",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE"
+    },
+    {
+      "qid": "q-008",
+      "seq": 8,
+      "text": "Relationship to underlying disease (AE_RELDIS)",
+      "annotation": "RELDIS in SUPPAE",
+      "domain": "AE",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE"
+    },
+    {
+      "qid": "q-009",
+      "seq": 9,
+      "text": "Is this a serious adverse event (SAE)? (AE_SAEYN)",
+      "annotation": "AESER",
+      "domain": "AE",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE"
+    }
+  ],
+  "summary": {
+    "total_items": 9,
+    "annotated": 9,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

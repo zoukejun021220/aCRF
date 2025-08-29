@@ -1,0 +1,103 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_020.json",
+  "page_id": 20,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Initial DUS date (DUSDT)",
+      "annotation": "DUSDT",
+      "domain": "RS",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Target Venous Segment",
+      "section": "Numeric Pain Rating Scale"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Location (CDVTLOC)",
+      "annotation": "RSLAT",
+      "domain": "RS",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Segments (select all involved in this TVS) (CDVTSES)",
+      "annotation": "RSLOC = MULTIPLE segment specification using QNAM values SEGCI, SEGII, SEGEI, SEGCF, SEGDF, SEGCAF, SEGPO, SEGCVC",
+      "domain": "RS",
+      "pattern": "multiple_variables",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Flow (DUSFL)",
+      "annotation": "RSORRES when RSTESTCD = DUSFL",
+      "domain": "RS",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Compressibility (DUSCOM)",
+      "annotation": "RSORRES when RSTESTCD = DUSCOM",
+      "domain": "RS",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS"
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Description of initial DUS findings (DUSDESC)",
+      "annotation": "RSORRES when RSTESTCD = DUSDESC",
+      "domain": "RS",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS"
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Duration of lower extremity symptoms (LESYMP)",
+      "annotation": "RSORRES when RSTESTCD = LESYMP",
+      "domain": "RS",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS"
+    }
+  ],
+  "summary": {
+    "total_items": 7,
+    "annotated": 7,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "model_config": {
+    "base_model": "Qwen/Qwen2.5-14B-Instruct",
+    "use_4bit": true,
+    "quantization": {
+      "bnb_4bit_compute_dtype": "float16",
+      "bnb_4bit_quant_type": "nf4",
+      "use_nested_quant": false
+    }
+  },
+  "training_config": {
+    "num_epochs": 3,
+    "batch_size": 4,
+    "gradient_accumulation_steps": 8,
+    "learning_rate": 0.0002,
+    "warmup_ratio": 0.03,
+    "max_seq_length": 2048,
+    "evaluation_strategy": "steps",
+    "eval_steps": 50,
+    "save_steps": 100
+  },
+  "lora_config": {
+    "r": 64,
+    "lora_alpha": 16,
+    "lora_dropout": 0.1,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "data_config": {
+    "train_split": 0.9,
+    "eval_split": 0.1,
+    "preprocessing_num_workers": 4
+  }
+}

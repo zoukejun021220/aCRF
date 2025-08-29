@@ -1,0 +1,89 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_035.json",
+  "page_id": 35,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Sample collection date (CL_DATE)",
+      "annotation": "LBDTC",
+      "domain": "LB",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Creatinine (mg/dL)",
+      "annotation": "LBORRES, LBORRESU when LBTESTCD = CREAT",
+      "domain": "LB",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Platelets (thousands/μL)",
+      "annotation": "LBORRES, LBORRESU when LBTESTCD = PLAT",
+      "domain": "LB",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Hematocrit (%)",
+      "annotation": "LBORRES, LBORRESU when LBTESTCD = HCT",
+      "domain": "LB",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Hemoglobin (g/dL)",
+      "annotation": "LBORRES, LBORRESU when LBTESTCD = HGB",
+      "domain": "LB",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "D-Dimer (μg/mL)",
+      "annotation": "LBORRES, LBORRESU when LBTESTCD = DDIMER",
+      "domain": "LB",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "INR (CL_INR)",
+      "annotation": "LBORRES when LBTESTCD = INR",
+      "domain": "LB",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    }
+  ],
+  "summary": {
+    "total_items": 7,
+    "annotated": 7,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

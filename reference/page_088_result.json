@@ -1,0 +1,89 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_088.json",
+  "page_id": 88,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Location of rethrombosis (EVALTVS_RETHROM_LOC)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Were there any reinterventions performed on the TVS? (EVALTVS_REINTYN)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Reintervention date (EVALTVS_DATE)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Reintervention description (EVALTVS_DESC)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Was venogram performed? (EVALTVS_VENYN)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Thrombus load (EVALTVS_THROM1)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Was venogram sent to Core Lab? (EVALTVS_VENCL)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    }
+  ],
+  "summary": {
+    "total_items": 7,
+    "annotated": 7,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

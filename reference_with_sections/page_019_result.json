@@ -1,0 +1,25 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_019.json",
+  "page_id": 19,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Target Venous Segment",
+      "section": "Numeric Pain Rating Scale"
+    }
+  ],
+  "summary": {
+    "total_items": 1,
+    "annotated": 1,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

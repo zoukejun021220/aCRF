@@ -1,0 +1,111 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_048.json",
+  "page_id": 48,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Catheter-Directed Thrombolysis (CDT) (ADJ_CDT)",
+      "annotation": "PROCUR",
+      "domain": "PR",
+      "pattern": "direct",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Thrombolytic agent, specify (PROC_THRA)",
+      "annotation": "THRA in SUPPPR",
+      "domain": "PR",
+      "pattern": "supplemental_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Thrombolytic agent dose (PROC_THRD)",
+      "annotation": "THRD in SUPPPR",
+      "domain": "PR",
+      "pattern": "supplemental_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Thrombolytic agent units (PROC_THRU)",
+      "annotation": "THRU in SUPPPR",
+      "domain": "PR",
+      "pattern": "supplemental_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Percutaneous Mechanical Thrombectomy (PMT) (ADJ_PMT)",
+      "annotation": "PROCUR",
+      "domain": "PR",
+      "pattern": "direct",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "If yes, specify device used (ADJ_PMTSPE)",
+      "annotation": "PMTSPET, PMTSPEn in SUPPPR",
+      "domain": "PR",
+      "pattern": "supplemental_multiple",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Were lytics used? (ADJ_PMTLYT)",
+      "annotation": "PMTLYT in SUPPPR",
+      "domain": "PR",
+      "pattern": "supplemental_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-008",
+      "seq": 8,
+      "text": "Other additional procedures (ADJ_OTHPRO)",
+      "annotation": "[NOT SUBMITTED]",
+      "domain": "PR",
+      "pattern": "not_submitted",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-009",
+      "seq": 9,
+      "text": "Other additional procedures, specify (ADJ_PROCOTHSP)",
+      "annotation": "PRTRT",
+      "domain": "PR",
+      "pattern": "direct",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    }
+  ],
+  "summary": {
+    "total_items": 9,
+    "annotated": 9,
+    "not_submitted": 1,
+    "errors": 0
+  }
+}

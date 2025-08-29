@@ -1,0 +1,116 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_043.json",
+  "page_id": 43,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Treating physician (PROC_TPHY42) Site 42",
+      "annotation": "TPHY in SUPPDX",
+      "domain": "PR",
+      "pattern": "supplemental_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Treating physician (PROC_TPHY43) Site 43",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Treating physician (PROC_TPHY44) Site 44",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Treating physician (PROC_TPHY45) Site 45",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Specify other treating physician (PROC_TPHY0T)",
+      "annotation": "TPHYOT in SUPPDX",
+      "domain": "PR",
+      "pattern": "supplemental_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Procedure setting (PROC_SET)",
+      "annotation": "[NOT SUBMITTED]",
+      "domain": "PR",
+      "pattern": "not_submitted",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Was pre-existing IVC filter removed prior to procedure? (PROC_IVCR)",
+      "annotation": "FAOBJ, FATEST = Occurrence | FAORRES when FATESTCD = OCCUR",
+      "domain": "FA",
+      "pattern": "conditional_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-008",
+      "seq": 8,
+      "text": "Anesthesia (PROC_ANES)",
+      "annotation": "Note: for PRPRESP = Y, if selected then PROCCUR = Y, otherwise N. | PRTRU | PRPRESP = Y",
+      "domain": "PR",
+      "pattern": "conditional_multiple",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    }
+  ],
+  "summary": {
+    "total_items": 8,
+    "annotated": 8,
+    "not_submitted": 1,
+    "errors": 0
+  }
+}

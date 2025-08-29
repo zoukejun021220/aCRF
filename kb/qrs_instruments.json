@@ -1,0 +1,242 @@
+{
+  "EQ-5D-5L": {
+    "domain": "QS",
+    "prefix": "EQ5D",
+    "description": "EuroQol 5 Dimensions 5 Level questionnaire",
+    "tests": {
+      "Mobility": {
+        "testcd": "MOBILITY",
+        "test": "Mobility",
+        "options": ["1", "2", "3", "4", "5"]
+      },
+      "Self-Care": {
+        "testcd": "SELFCARE",
+        "test": "Self-Care",
+        "options": ["1", "2", "3", "4", "5"]
+      },
+      "Usual activities": {
+        "testcd": "USUALACT",
+        "test": "Usual Activities",
+        "options": ["1", "2", "3", "4", "5"]
+      },
+      "Pain/Discomfort": {
+        "testcd": "PAINDIS",
+        "test": "Pain/Discomfort",
+        "options": ["1", "2", "3", "4", "5"]
+      },
+      "Anxiety/Depression": {
+        "testcd": "ANXDEP",
+        "test": "Anxiety/Depression",
+        "options": ["1", "2", "3", "4", "5"]
+      }
+    }
+  },
+  "Villalta": {
+    "domain": "RS",
+    "prefix": "VIL",
+    "description": "Villalta Scale for Post-Thrombotic Syndrome",
+    "tests": {
+      "Pain": {
+        "testcd": "VILPAIN",
+        "test": "Pain",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Cramps": {
+        "testcd": "VILCRAMP",
+        "test": "Cramps",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Heaviness": {
+        "testcd": "VILHEAVY",
+        "test": "Heaviness",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Paresthesia": {
+        "testcd": "VILPARES",
+        "test": "Paresthesia",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Pruritus": {
+        "testcd": "VILPRUR",
+        "test": "Pruritus",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Pretibial edema": {
+        "testcd": "VILEDEMA",
+        "test": "Pretibial Edema",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Induration": {
+        "testcd": "VILINDUR",
+        "test": "Skin Induration",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Hyperpigmentation": {
+        "testcd": "VILHYPER",
+        "test": "Hyperpigmentation",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Redness": {
+        "testcd": "VILRED",
+        "test": "Redness",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Venous ectasia": {
+        "testcd": "VILECTAS",
+        "test": "Venous Ectasia",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Venous ulcer": {
+        "testcd": "VILULCER",
+        "test": "Venous Ulcer",
+        "options": ["Absent", "Present"]
+      }
+    }
+  },
+  "rVCSS": {
+    "domain": "RS",
+    "prefix": "VCSS",
+    "description": "Revised Venous Clinical Severity Score",
+    "tests": {
+      "Varicose veins": {
+        "testcd": "VCSSVV",
+        "test": "Varicose Veins",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Venous edema": {
+        "testcd": "VCSSVE",
+        "test": "Venous Edema",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Skin pigmentation": {
+        "testcd": "VCSSPIG",
+        "test": "Skin Pigmentation",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Inflammation": {
+        "testcd": "VCSSINFL",
+        "test": "Inflammation",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Induration": {
+        "testcd": "VCSSIND",
+        "test": "Induration",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Active ulcer number": {
+        "testcd": "VCSSULNO",
+        "test": "Active Ulcer Number",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Active ulcer duration": {
+        "testcd": "VCSSULD",
+        "test": "Active Ulcer Duration",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Active ulcer size": {
+        "testcd": "VCSSULS",
+        "test": "Active Ulcer Size",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Use of compression therapy": {
+        "testcd": "VCSSCOMP",
+        "test": "Compression Therapy Use",
+        "options": ["0", "1", "2", "3"]
+      }
+    }
+  },
+  "PHQ-9": {
+    "domain": "QS",
+    "prefix": "PHQ9",
+    "description": "Patient Health Questionnaire-9",
+    "tests": {
+      "Little interest or pleasure": {
+        "testcd": "PHQ901",
+        "test": "Little Interest or Pleasure in Doing Things",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Feeling down": {
+        "testcd": "PHQ902",
+        "test": "Feeling Down, Depressed, or Hopeless",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Sleep problems": {
+        "testcd": "PHQ903",
+        "test": "Trouble Falling/Staying Asleep, or Sleeping Too Much",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Fatigue": {
+        "testcd": "PHQ904",
+        "test": "Feeling Tired or Having Little Energy",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Appetite": {
+        "testcd": "PHQ905",
+        "test": "Poor Appetite or Overeating",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Self-worth": {
+        "testcd": "PHQ906",
+        "test": "Feeling Bad About Yourself",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Concentration": {
+        "testcd": "PHQ907",
+        "test": "Trouble Concentrating",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Movement": {
+        "testcd": "PHQ908",
+        "test": "Moving or Speaking Slowly/Fidgety",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Suicidal thoughts": {
+        "testcd": "PHQ909",
+        "test": "Thoughts of Being Better Off Dead",
+        "options": ["0", "1", "2", "3"]
+      }
+    }
+  },
+  "GAD-7": {
+    "domain": "QS",
+    "prefix": "GAD7",
+    "description": "Generalized Anxiety Disorder 7-item scale",
+    "tests": {
+      "Feeling nervous": {
+        "testcd": "GAD701",
+        "test": "Feeling Nervous, Anxious, or on Edge",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Unable to stop worrying": {
+        "testcd": "GAD702",
+        "test": "Not Being Able to Stop or Control Worrying",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Worrying too much": {
+        "testcd": "GAD703",
+        "test": "Worrying Too Much About Different Things",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Trouble relaxing": {
+        "testcd": "GAD704",
+        "test": "Trouble Relaxing",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Restless": {
+        "testcd": "GAD705",
+        "test": "Being So Restless That It Is Hard to Sit Still",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Easily annoyed": {
+        "testcd": "GAD706",
+        "test": "Becoming Easily Annoyed or Irritable",
+        "options": ["0", "1", "2", "3"]
+      },
+      "Feeling afraid": {
+        "testcd": "GAD707",
+        "test": "Feeling Afraid as if Something Awful Might Happen",
+        "options": ["0", "1", "2", "3"]
+      }
+    }
+  }
+}

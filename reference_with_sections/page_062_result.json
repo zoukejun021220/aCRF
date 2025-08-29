@@ -1,0 +1,158 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_062.json",
+  "page_id": 62,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Was there a readmission related to the study treatment/index procedure within the last 30 days? (FU_REDSTP)",
+      "annotation": "HOOCCUR | HOELT = P30D | READSP in SUPPHO | HOSCAT = RELATED TO STUDY TREATMENT | HOCCAT = READMISSION | HOTPTREF = FUP-30D",
+      "domain": "HO, DS",
+      "pattern": "direct, variable_with_ct, supplemental_single, conditional_single",
+      "confidence": 0.95,
+      "valid": false,
+      "requires_separate_annotations": true,
+      "question_annotation": "HOOCCUR",
+      "option_annotations": {
+        "Yes": "HOELT = P30D, READSP in SUPPHO, HOSCAT = RELATED TO STUDY TREATMENT, HOCCAT = READMISSION, HOTPTREF = FUP-30D",
+        "No": ""
+      },
+      "form": "FUP-30 Days",
+      "section": null
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "If yes, describe and complete an Adverse Event Form (FU_REDSTP)",
+      "annotation": "READSP in SUPPHO",
+      "domain": "HO",
+      "pattern": "supplemental_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-30 Days",
+      "section": null
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Was there a readmission not related to the study treatment/index procedure within the last 30 days? (FU_READMISS2)",
+      "annotation": "HOOCCUR | HOELT = P30D | READSP in SUPPHO | HOSCAT = NOT RELATED TO STUDY TREATMENT | HOCCAT = READMISSION | HOTPTREF = FUP-30D",
+      "domain": "HO, DS",
+      "pattern": "direct, variable_with_ct, supplemental_single, conditional_single",
+      "confidence": 0.95,
+      "valid": false,
+      "requires_separate_annotations": true,
+      "question_annotation": "HOOCCUR",
+      "option_annotations": {
+        "Yes": "HOELT = P30D, READSP in SUPPHO, HOSCAT = NOT RELATED TO STUDY TREATMENT, HOCCAT = READMISSION, HOTPTREF = FUP-30D",
+        "No": ""
+      },
+      "form": "FUP-30 Days",
+      "section": null
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "If yes, describe (only complete an AE form if the re-admission is related to the underlying thrombotic condition) (FU_READMISS2SPEC)",
+      "annotation": "READSP in SUPPHO",
+      "domain": "HO",
+      "pattern": "supplemental_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-30 Days",
+      "section": null
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Was visit missed? (FU_30_MISS)",
+      "annotation": "[NOT SUBMITTED]",
+      "domain": "SV",
+      "pattern": "not_submitted",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-30 Days",
+      "section": "FUP-30 Days"
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Was the visit conducted remotely? (FU_30_REM)",
+      "annotation": "REM in SUPPSV",
+      "domain": "SV",
+      "pattern": "supplemental_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-30 Days",
+      "section": null
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Visit Date (FU_DATE)",
+      "annotation": "SVSTDTC, SVENDTC(PEDTC), QSDTC, PRDTC, FADTC",
+      "domain": "SV, PE, QS, PR, FA",
+      "pattern": "direct, wildcard_cross_domain",
+      "confidence": 0.95,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-30 Days",
+      "section": "FUP-30 Days"
+    },
+    {
+      "qid": "q-008",
+      "seq": 8,
+      "text": "COVID-19 Status (FU_30_CVD)",
+      "annotation": "MBORRES when MBTESTCD = SARSCOV2",
+      "domain": "MB",
+      "pattern": "conditional_single, variable_with_ct",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-30 Days",
+      "section": "FUP-30 Days"
+    },
+    {
+      "qid": "q-009",
+      "seq": 9,
+      "text": "If positive, date of positive test (FU_30_CVD_DT)",
+      "annotation": "MBTDC",
+      "domain": "MB",
+      "pattern": "direct",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-30 Days",
+      "section": null
+    },
+    {
+      "qid": "q-010",
+      "seq": 10,
+      "text": "Was there an access site wound complication? (FU_WOUND) Only at 30-day follow-up visit",
+      "annotation": "FAORRES when FATESTCD = OCCUR | FASTAT = NOT DONE when FATESTCD = OCCUR",
+      "domain": "FA",
+      "pattern": "conditional_single",
+      "confidence": 0.95,
+      "valid": false,
+      "requires_separate_annotations": true,
+      "question_annotation": "FAOBJ",
+      "option_annotations": {
+        "Yes": "FAORRES when FATESTCD = OCCUR",
+        "No": "",
+        "Not done": "FASTAT = NOT DONE when FATESTCD = OCCUR"
+      },
+      "form": "FUP-30 Days",
+      "section": null
+    }
+  ],
+  "summary": {
+    "total_items": 10,
+    "annotated": 10,
+    "not_submitted": 1,
+    "errors": 0
+  }
+}

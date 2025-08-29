@@ -1,0 +1,45 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_033.json",
+  "page_id": 33,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Frequency, other, specify (CM_FREQ00T)",
+      "annotation": "CMDOSFRO",
+      "domain": "CM",
+      "pattern": "direct",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Route (CM_ROUTE)",
+      "annotation": "CMROUTE",
+      "domain": "CM",
+      "pattern": "direct",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Route, other, specify (CM_ROUTE0T)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    }
+  ],
+  "summary": {
+    "total_items": 3,
+    "annotated": 3,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

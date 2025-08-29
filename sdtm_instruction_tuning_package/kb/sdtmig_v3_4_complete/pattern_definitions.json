@@ -1,0 +1,316 @@
+{
+  "annotation_patterns": {
+    "domain_level": {
+      "name": "Domain-Level Annotation",
+      "description": "Indicates which SDTM domain the fields on a CRF page belong to",
+      "formula": "[Domain Code] = [Domain Name]",
+      "example": "AE = Adverse Events",
+      "usage": "Placed at the top of a CRF page to indicate which SDTM domain the fields on that page belong to. This annotation names the two-letter domain code and its full name.",
+      "keywords": ["domain", "page", "header", "section"],
+      "decision_criteria": [
+        "Placed once per CRF page for clarity",
+        "Used when multiple domains might appear on one CRF page",
+        "Helps establish context for all fields on the page"
+      ]
+    },
+    "direct": {
+      "name": "Single Variable Annotation",
+      "description": "Direct one-to-one mapping - CRF field maps directly to a single SDTM variable",
+      "formula": "<Domain>.<Variable> or <Variable>",
+      "example": "DM.BRTHDTC or BRTHDTC",
+      "usage": "Marks a CRF field that maps directly to a single SDTM variable. Use domain prefix if variable name alone could be ambiguous or if multiple domains' variables are on the same page. Include domain prefix when variable's two-letter prefix differs from the domain code.",
+      "keywords": ["term", "text", "name", "description", "identifier", "date", "value", "direct"],
+      "decision_criteria": [
+        "Field directly corresponds to a single SDTM variable",
+        "No transformation or condition needed",
+        "One CRF field = one SDTM variable",
+        "Straightforward one-to-one mapping"
+      ],
+      "controlled_terminology": "If the SDTM variable has controlled terminology, collected values must be from allowed terms"
+    },
+    "variable_with_ct": {
+      "name": "Variable with Controlled Terminology Value",
+      "description": "CRF field maps to specific pre-defined value from controlled terminology",
+      "formula": "<Variable> = <Value>",
+      "example": "DS.DSTERM = RANDOMIZED",
+      "usage": "Used when a CRF field's entry is a specific pre-defined value (often from a controlled terminology list) rather than free-text or purely numeric entry. Shows SDTM variable name, equals sign, and expected value or code.",
+      "keywords": ["constant", "fixed", "checkbox", "flag", "status", "disposition", "category", "coded"],
+      "decision_criteria": [
+        "Field represents a fixed choice or result stored as known constant/code",
+        "CRF item always maps to specific coded value",
+        "Checkbox that when checked means a specific status",
+        "Form context determines the value"
+      ],
+      "controlled_terminology": "The <Value> should be an allowed term or code from the variable's controlled terminology list (e.g., Y/N for Yes/No fields, specific category labels)"
+    },
+    "multiple_variables": {
+      "name": "Multiple Variables for One Field (Combined Annotation)",
+      "description": "Single CRF field populates two SDTM variables with same or closely related values",
+      "formula": "<Var1> / <Var2> = <Value>",
+      "example": "DS.DSTERM / DS.DSDECOD = RANDOMIZED",
+      "usage": "Indicates that a single CRF field populates two SDTM variables with the same value or closely related values. Typically when one CRF response is recorded in two places – for example, a reported term and its standardized counterpart.",
+      "keywords": ["multiple", "combined", "composite", "term", "decode", "standardized"],
+      "decision_criteria": [
+        "One CRF entry populates both original term and standardized decode",
+        "CRF choice is a term that also has corresponding code or standard value",
+        "Field contains multiple data elements mapping to different SDTM variables"
+      ],
+      "controlled_terminology": "The text is stored in both the original term variable and standardized code variable when they match"
+    },
+    "supplemental_single": {
+      "name": "Supplemental Qualifier (SUPP) Annotation – Single Field",
+      "description": "Non-standard field stored in Supplemental Qualifier dataset",
+      "formula": "<Variable> in SUPP<Domain>",
+      "example": "AEDIS in SUPPAE",
+      "usage": "Denotes that a CRF field's data will be stored in a Supplemental Qualifier dataset for that domain (SUPP-- datasets) rather than a standard variable in the main domain. Used when information collected is not represented by any predefined SDTM variable.",
+      "keywords": ["other", "specify", "describe", "additional", "comment", "text", "details", "supplemental"],
+      "decision_criteria": [
+        "No standard SDTM variable exists for this data",
+        "Field contains 'Other, specify' or additional details",
+        "Information extends beyond standard variables",
+        "Sponsor-defined data points"
+      ],
+      "qnam_patterns": {
+        "other_specify": "[VARIABLE]OTH",
+        "details": "[CONCEPT]DET or [CONCEPT]TXT",
+        "reason": "[CONCEPT]RSN or [CONCEPT]REAS",
+        "comments": "[CONCEPT]COM"
+      },
+      "controlled_terminology": "QNAM is sponsor-defined (max 8 chars, uppercase); QVAL may use CT if applicable"
+    },
+    "supplemental_multiple": {
+      "name": "Supplemental Qualifier – Multiple Fields Combined",
+      "description": "Single CRF item provides two pieces of information stored in supplemental dataset",
+      "formula": "<Var1> / <Var2> in SUPP<Domain>",
+      "example": "ICDUR / ICDURU in SUPPIC",
+      "usage": "Similar to single supplemental but indicates one CRF item provides two pieces of information, both stored in supplemental qualifier dataset. Each piece becomes separate qualifier variable (QNAM) in SUPP.",
+      "keywords": ["duration", "unit", "multiple", "supplemental", "composite"],
+      "decision_criteria": [
+        "Single CRF question collects pair of related values not in main domain",
+        "Both values need to be stored as supplemental qualifiers",
+        "Common for value/unit pairs not in standard domain"
+      ],
+      "controlled_terminology": "Each QNAM is sponsor-defined; if units, should use appropriate unit codelist (e.g., UCUM)"
+    },
+    "conditional_single": {
+      "name": "Conditional (Value-Level) Annotation – Single Condition",
+      "description": "CRF field maps to SDTM variable only under certain condition",
+      "formula": "<Variable1> when <Variable2> = <Value>",
+      "example": "VSORRES when VSTESTCD = SYSBP",
+      "usage": "Used when CRF field maps to SDTM variable only under certain condition. Often for value-level annotations where CRF collects multiple similar data points distinguished by code or category. The 'when X = Y' specifies identifying variable and value.",
+      "keywords": ["result", "value", "measurement", "test", "score", "findings", "vital", "lab", "when", "condition"],
+      "decision_criteria": [
+        "Field is measurement or test result in Findings domain",
+        "Multiple tests share same form structure",
+        "Need to identify which test this result belongs to",
+        "Domain has qualifying variable (TESTCD, CAT, etc.)"
+      ],
+      "controlled_terminology": "The <Value> after = should be controlled terminology code (e.g., test code from domain-specific codelist)"
+    },
+    "conditional_multiple": {
+      "name": "Conditional Annotation – Multiple Variables under One Condition",
+      "description": "One CRF question provides multiple values under same condition",
+      "formula": "<Var1> / <Var2> when <Var3> = <Value>",
+      "example": "VSORRES / VSORRESU when VSTESTCD = SYSBP",
+      "usage": "Extends conditional annotation when one CRF question provides multiple values all applying under same condition. Commonly for measurement with both result and unit, both pertaining to same test code or category.",
+      "keywords": ["result", "unit", "multiple", "conditional", "findings", "measurement"],
+      "decision_criteria": [
+        "Measurement has both result and unit on CRF",
+        "Multiple SDTM variables filled from one CRF question",
+        "Need condition to identify context",
+        "Common in Findings domains"
+      ],
+      "controlled_terminology": "Condition value is typically controlled term; units should be from appropriate unit codelist"
+    },
+    "conditional_composite": {
+      "name": "Conditional Annotation – Multiple Conditions (Composite)",
+      "description": "CRF field mapped with multiple identifying conditions",
+      "formula": "<Variable1> when <Variable2> = <Value1> and <Variable3> = <Value2>",
+      "example": "FAORRES when FATESTCD = ONSETDTC and FAOBJ = TRIAL DISEASE",
+      "usage": "Used for complex conditional scenarios where single CRF field maps to SDTM variable only when two or more identifying conditions are true simultaneously. Data point corresponds to record defined by combination of values.",
+      "keywords": ["findings about", "multiple conditions", "composite", "complex"],
+      "decision_criteria": [
+        "Finding or event distinguished by more than one variable",
+        "Need multiple keys to pinpoint right record",
+        "Common in FA (Findings About) domain",
+        "Record identified by test code plus object or category"
+      ],
+      "controlled_terminology": "All condition values typically from controlled terminology or fixed value lists"
+    },
+    "not_submitted": {
+      "name": "Not Submitted Data Annotation",
+      "description": "Data collected on CRF but not included in submitted datasets",
+      "formula": "[NOT SUBMITTED]",
+      "example": "[NOT SUBMITTED]",
+      "usage": "Required annotation when data collected on CRF but not included in submitted datasets. Maintains transparency by flagging that CRF had this field but sponsor chose not to submit data (reasons usually in SDRG).",
+      "keywords": ["page", "initials", "signature", "monitor", "investigator", "data entry", "administrative", "internal", "log"],
+      "decision_criteria": [
+        "Administrative or operational data only",
+        "Internal site-specific details",
+        "Data used only for CRF management",
+        "Not required for analysis or submission",
+        "Entire page may have no submittable data"
+      ]
+    },
+    "conditional_other_specify": {
+      "name": "Conditional 'Other, Specify' Field Mapping",
+      "description": "Free-text field only used when main field equals 'Other'",
+      "formula": "<Variable>OTH when <Variable> = <OtherTerm>",
+      "example": "RACEOTH when RACE = OTHER",
+      "usage": "Used for 'Other, specify:' fields. Many CRF questions use controlled terminology but include 'Other' option with free-text specify field. Annotation indicates it's only applicable when main selection equals 'Other' code.",
+      "keywords": ["other", "specify", "free text", "conditional", "oth"],
+      "decision_criteria": [
+        "Field is 'Other, specify' text field",
+        "Only populated when main field = 'Other'",
+        "May use standard OTH variable or SUPPQUAL"
+      ],
+      "controlled_terminology": "Main variable uses CT with 'OTHER' as valid option; OTH field is free text"
+    },
+    "wildcard_cross_domain": {
+      "name": "Cross-Domain Shared Fields (Wildcards)",
+      "description": "Single CRF field populates same variable across multiple domains",
+      "formula": "--<Variable> [XX.<Variable>, YY.<Variable>, ...] when ...",
+      "example": "--DTC [DM.RFSTDTC, DS.DSSTDTC] when VISITNUM = 1",
+      "usage": "Used when single CRF field populates same variable across multiple domains. Double-dash (--) represents any domain placeholder, with actual target domains listed in brackets. Avoids multiple annotations on same field.",
+      "keywords": ["shared", "multiple domains", "wildcard", "cross-domain", "date", "identifier"],
+      "decision_criteria": [
+        "One CRF entry used identically in more than one dataset",
+        "Date or identifier collected once but needed in several places",
+        "Straightforward shared variables across domains"
+      ],
+      "controlled_terminology": "Depends on each variable's requirements (e.g., ISO date format)"
+    },
+    "derived": {
+      "name": "Derived Variable",
+      "description": "Calculated from other fields, not directly collected",
+      "formula": "<SDTM.Variable> = f(<Source Fields>)",
+      "example": "DM.AGE = calculated from BRTHDTC",
+      "usage": "For fields that are calculated rather than directly collected. The CRF might show the field for reference but it's derived in SDTM from other collected data.",
+      "keywords": ["calculated", "derived", "computed", "age", "bmi", "duration", "auto-calculated"],
+      "decision_criteria": [
+        "Value is calculated from other fields",
+        "Not directly entered by site",
+        "Derivation rules defined in SDTM",
+        "May be shown on CRF for reference only"
+      ]
+    },
+    "relationship": {
+      "name": "Relationship Annotation",
+      "description": "Links records between domains",
+      "formula": "RELREC when <ThisDomainVariable> = <OtherDomainVariable>",
+      "example": "RELREC when DDLNKID = AE.AELNKID",
+      "usage": "Indicates that a collected field establishes a relationship between records in different domains, documented in the RELREC dataset.",
+      "keywords": ["link", "related", "associated", "id", "identifier", "reference", "cross-reference"],
+      "decision_criteria": [
+        "Field links records across domains",
+        "Explicit relationship identifier collected",
+        "Cross-domain reference needed",
+        "Records need to be explicitly linked"
+      ]
+    },
+    "multiple_response_checkboxes": {
+      "name": "Multiple Response Checkboxes",
+      "description": "Check-all-that-apply question where each option maps to separate indicator variable",
+      "formula": "<Option1> → <Variable1>, <Option2> → <Variable2>, ...",
+      "example": "Death? → AE.AESDTH, Life-Threatening? → AE.AESLIFE, Hospitalization? → AE.AESHOSP",
+      "usage": "When question allows 'check all that apply', each option is stored in its own SDTM indicator variable. Each checkbox maps to separate domain flag variable.",
+      "keywords": ["checkbox", "multiple", "select all", "serious", "criteria", "indicators"],
+      "decision_criteria": [
+        "Question has multiple independent yes/no options",
+        "Each option stored as separate Y/N variable",
+        "Common for seriousness criteria, medical history conditions"
+      ],
+      "controlled_terminology": "Each variable uses Y/N controlled terminology (Y=checked, N=not checked)"
+    },
+    "combined_datetime": {
+      "name": "Combined Date/Time Fields",
+      "description": "Multiple CRF fields combine into single ISO datetime variable",
+      "formula": "<DateField> + <TimeField> → <Domain>.<Variable>DTC",
+      "example": "Start Date + Start Time → AE.AESTDTC",
+      "usage": "When date/time collected as separate fields but stored as single ISO 8601 datetime in SDTM. All parts annotated to show they combine into one variable.",
+      "keywords": ["date", "time", "datetime", "iso", "combined", "parts"],
+      "decision_criteria": [
+        "Date and time in separate CRF fields",
+        "SDTM requires combined ISO datetime",
+        "Parts merge into single DTC variable"
+      ],
+      "controlled_terminology": "Must result in valid ISO 8601 datetime format"
+    }
+  },
+  "pattern_selection_rules": {
+    "hierarchical_order": [
+      {
+        "step": 1,
+        "name": "Check for domain-level annotation",
+        "patterns": ["domain_level"],
+        "condition": "is_page_header or is_section_header"
+      },
+      {
+        "step": 2,
+        "name": "Check for special cases",
+        "patterns": ["not_submitted", "relationship"],
+        "condition": "is_administrative or links_domains"
+      },
+      {
+        "step": 3,
+        "name": "Check for supplemental patterns",
+        "patterns": ["supplemental_single", "supplemental_multiple", "conditional_other_specify"],
+        "condition": "has_other_specify or no_standard_variable"
+      },
+      {
+        "step": 4,
+        "name": "Check for findings patterns",
+        "patterns": ["conditional_single", "conditional_multiple", "conditional_composite"],
+        "condition": "is_findings_domain and (has_testcd or has_category)"
+      },
+      {
+        "step": 5,
+        "name": "Check for value assignment",
+        "patterns": ["variable_with_ct", "multiple_variables"],
+        "condition": "is_checkbox or has_fixed_options"
+      },
+      {
+        "step": 6,
+        "name": "Check for complex patterns",
+        "patterns": ["wildcard_cross_domain", "multiple_response_checkboxes", "combined_datetime"],
+        "condition": "affects_multiple_domains or has_multiple_parts"
+      },
+      {
+        "step": 7,
+        "name": "Check for derived",
+        "patterns": ["derived"],
+        "condition": "is_calculated_field"
+      },
+      {
+        "step": 8,
+        "name": "Default to direct mapping",
+        "patterns": ["direct"],
+        "condition": "default"
+      }
+    ]
+  },
+  "controlled_terminology_notes": {
+    "general": "Values in annotations should align with CDISC Controlled Terminology where applicable",
+    "no_quotes": "Current best practice is not to put quotation marks around values in annotations",
+    "codelist_reference": "When CT applies, the value should come from the appropriate codelist for that variable",
+    "common_codelists": {
+      "NY": "No/Yes responses (N, Y, U, NA)",
+      "SEX": "Sex values (F, M, U, INTERSEX)",
+      "RACE": "Race categories per CT",
+      "AEOUT": "Adverse Event Outcome values",
+      "AEACN": "Action Taken with Study Treatment",
+      "AESEV": "Severity/Intensity Scale",
+      "ROUTE": "Route of Administration",
+      "FREQ": "Frequency terms",
+      "UNIT": "Unit of Measure",
+      "test_codes": "Domain-specific test code lists (e.g., VSTESTCD uses C66741)"
+    },
+    "value_format": "Controlled terms should be in UPPERCASE as stored in SDTM"
+  },
+  "annotation_formatting": {
+    "capitalization": "SDTM variable names always in UPPERCASE",
+    "domain_prefix": "Include when ambiguous or multiple domains on page",
+    "spacing": "No spaces around '=' or '/' in formulas",
+    "order": "For multiple variables, list in logical order (e.g., value before unit)"
+  }
+}

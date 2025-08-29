@@ -1,0 +1,25 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_118.json",
+  "page_id": 118,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Unscheduled Visits",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Unscheduled Visits",
+      "section": "Other Procedures"
+    }
+  ],
+  "summary": {
+    "total_items": 1,
+    "annotated": 1,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

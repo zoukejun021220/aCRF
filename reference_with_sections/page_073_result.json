@@ -1,0 +1,90 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_073.json",
+  "page_id": 73,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "TVS Segment # (EVALTVS_SEG)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-30 Days > Eval",
+      "section": "Numeric Pain Rating Scale"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Was a duplex ultrasound (DUS) completed? (EVALTVS_DUSYN)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-30 Days > Eval",
+      "section": null
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "DUS date (EVALTVS_DUSDT)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-30 Days > Eval",
+      "section": "Duplex Ultrasound"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Flow (EVALTVS_DUSFL)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-30 Days > Eval",
+      "section": "Duplex Ultrasound"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Compressibility (EVALTVS_DUSCOM)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-30 Days > Eval",
+      "section": "Duplex Ultrasound"
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Was there a rethrombosis within the TVS? (EVALTVS_RETHROM)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-30 Days > Eval",
+      "section": "Duplex Ultrasound"
+    }
+  ],
+  "summary": {
+    "total_items": 6,
+    "annotated": 6,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_092.json",
+  "page_id": 92,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Right — Mid-thigh (cm) (EARMT)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-1 Year > Edema",
+      "section": "Edema"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Right — Mid-calf (cm) (EARMC)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-1 Year > Edema",
+      "section": "Edema"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Right — Ankle (cm) (EARA)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-1 Year > Edema",
+      "section": "Edema"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Left — Mid-thigh (cm) (EALMTC)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-1 Year > Edema",
+      "section": "Edema"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Left — Mid-calf (cm) (EALMC)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-1 Year > Edema",
+      "section": "Edema"
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Left — Ankle (cm) (EALA)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-1 Year > Edema",
+      "section": "Edema"
+    }
+  ],
+  "summary": {
+    "total_items": 6,
+    "annotated": 6,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

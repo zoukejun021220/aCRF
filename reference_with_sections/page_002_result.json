@@ -1,0 +1,116 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_002.json",
+  "page_id": 2,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Weight (kg) (WGHT_KG)",
+      "annotation": "VSRRES, VSRRESU when VSTESTCD = WEIGHT",
+      "domain": "VS",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Baseline",
+      "section": "Demographics"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "BMI (kg/m2) (BMI_IMPERIAL)",
+      "annotation": "VSRRES, VSRRESU when VSTESTCD = BMI",
+      "domain": "VS",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Baseline",
+      "section": "Demographics"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "BMI (kg/m2) (BMI_METRIC)",
+      "annotation": "VSRRES, VSRRESU when VSTESTCD = BMI",
+      "domain": "VS",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Baseline",
+      "section": "Demographics"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Race (select all that apply) (RACE)",
+      "annotation": "RACE = MULTIPLE | RACEOTH in SUPPDM | RACE = NOT REPORTED",
+      "domain": "DM",
+      "pattern": "multiple_response_checkboxes, supplemental_single, variable_with_ct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": true,
+      "form": "Baseline",
+      "section": "Demographics"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Other race, specify (OTRACE)",
+      "annotation": "RACEOTH in SUPPDM",
+      "domain": "DM",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Baseline",
+      "section": "Demographics"
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Ethnicity (ETHNCTY)",
+      "annotation": "RACE = NOT REPORTED",
+      "domain": "DM",
+      "pattern": "variable_with_ct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Baseline",
+      "section": "Demographics"
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Prior deep vein thrombosis (not including current) (MH_DVTYN)",
+      "annotation": "MHOCCUR",
+      "domain": "MH",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Baseline",
+      "section": "Demographics"
+    },
+    {
+      "qid": "q-008",
+      "seq": 8,
+      "text": "Location of DVT (select all that apply) (MH_DVTLOC)",
+      "annotation": "MHLAT",
+      "domain": "MH",
+      "pattern": "multiple_response_checkboxes",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": true,
+      "form": "Baseline",
+      "section": "Medical History"
+    }
+  ],
+  "summary": {
+    "total_items": 8,
+    "annotated": 8,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

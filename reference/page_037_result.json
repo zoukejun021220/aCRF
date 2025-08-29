@@ -1,0 +1,23 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_037.json",
+  "page_id": 37,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Site Number (PROC_STNMBR)",
+      "annotation": "STNMBR in SUPPDX",
+      "domain": "SUPPDX",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    }
+  ],
+  "summary": {
+    "total_items": 1,
+    "annotated": 1,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

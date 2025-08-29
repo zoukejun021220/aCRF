@@ -1,0 +1,442 @@
+{
+  "AE": {
+    "class": "Events",
+    "code": "AE",
+    "href": "/mdr/sdtmig/3-4/datasets/AE",
+    "name": "Adverse Events",
+    "type": "SDTM Dataset"
+  },
+  "AG": {
+    "class": "Interventions",
+    "code": "AG",
+    "href": "/mdr/sdtmig/3-4/datasets/AG",
+    "name": "Procedure Agents",
+    "type": "SDTM Dataset"
+  },
+  "BE": {
+    "class": "Events",
+    "code": "BE",
+    "href": "/mdr/sdtmig/3-4/datasets/BE",
+    "name": "Biospecimen Events",
+    "type": "SDTM Dataset"
+  },
+  "BS": {
+    "class": "Findings",
+    "code": "BS",
+    "href": "/mdr/sdtmig/3-4/datasets/BS",
+    "name": "Biospecimen Findings",
+    "type": "SDTM Dataset"
+  },
+  "CE": {
+    "class": "Events",
+    "code": "CE",
+    "href": "/mdr/sdtmig/3-4/datasets/CE",
+    "name": "Clinical Events",
+    "type": "SDTM Dataset"
+  },
+  "CM": {
+    "class": "Interventions",
+    "code": "CM",
+    "href": "/mdr/sdtmig/3-4/datasets/CM",
+    "name": "Concomitant/Prior Medications",
+    "type": "SDTM Dataset"
+  },
+  "CO": {
+    "class": "Special Purpose",
+    "code": "CO",
+    "href": "/mdr/sdtmig/3-4/datasets/CO",
+    "name": "Comments",
+    "type": "SDTM Dataset"
+  },
+  "CP": {
+    "class": "Findings",
+    "code": "CP",
+    "href": "/mdr/sdtmig/3-4/datasets/CP",
+    "name": "Cell Phenotype Findings",
+    "type": "SDTM Dataset"
+  },
+  "CV": {
+    "class": "Findings",
+    "code": "CV",
+    "href": "/mdr/sdtmig/3-4/datasets/CV",
+    "name": "Cardiovascular System Findings",
+    "type": "SDTM Dataset"
+  },
+  "DA": {
+    "class": "Findings",
+    "code": "DA",
+    "href": "/mdr/sdtmig/3-4/datasets/DA",
+    "name": "Product Accountability",
+    "type": "SDTM Dataset"
+  },
+  "DD": {
+    "class": "Findings",
+    "code": "DD",
+    "href": "/mdr/sdtmig/3-4/datasets/DD",
+    "name": "Death Details",
+    "type": "SDTM Dataset"
+  },
+  "DM": {
+    "class": "Special Purpose",
+    "code": "DM",
+    "href": "/mdr/sdtmig/3-4/datasets/DM",
+    "name": "Demographics",
+    "type": "SDTM Dataset"
+  },
+  "DS": {
+    "class": "Events",
+    "code": "DS",
+    "href": "/mdr/sdtmig/3-4/datasets/DS",
+    "name": "Disposition",
+    "type": "SDTM Dataset"
+  },
+  "DV": {
+    "class": "Events",
+    "code": "DV",
+    "href": "/mdr/sdtmig/3-4/datasets/DV",
+    "name": "Protocol Deviations",
+    "type": "SDTM Dataset"
+  },
+  "EC": {
+    "class": "Interventions",
+    "code": "EC",
+    "href": "/mdr/sdtmig/3-4/datasets/EC",
+    "name": "Exposure as Collected",
+    "type": "SDTM Dataset"
+  },
+  "EG": {
+    "class": "Findings",
+    "code": "EG",
+    "href": "/mdr/sdtmig/3-4/datasets/EG",
+    "name": "ECG Test Results",
+    "type": "SDTM Dataset"
+  },
+  "EX": {
+    "class": "Interventions",
+    "code": "EX",
+    "href": "/mdr/sdtmig/3-4/datasets/EX",
+    "name": "Exposure",
+    "type": "SDTM Dataset"
+  },
+  "FA": {
+    "class": "Findings About",
+    "code": "FA",
+    "href": "/mdr/sdtmig/3-4/datasets/FA",
+    "name": "Findings About Events or Interventions",
+    "type": "SDTM Dataset"
+  },
+  "FT": {
+    "class": "Findings",
+    "code": "FT",
+    "href": "/mdr/sdtmig/3-4/datasets/FT",
+    "name": "Functional Tests",
+    "type": "SDTM Dataset"
+  },
+  "GF": {
+    "class": "Findings",
+    "code": "GF",
+    "href": "/mdr/sdtmig/3-4/datasets/GF",
+    "name": "Genomics Findings",
+    "type": "SDTM Dataset"
+  },
+  "HO": {
+    "class": "Events",
+    "code": "HO",
+    "href": "/mdr/sdtmig/3-4/datasets/HO",
+    "name": "Healthcare Encounters",
+    "type": "SDTM Dataset"
+  },
+  "IE": {
+    "class": "Findings",
+    "code": "IE",
+    "href": "/mdr/sdtmig/3-4/datasets/IE",
+    "name": "Inclusion/Exclusion Criteria Not Met",
+    "type": "SDTM Dataset"
+  },
+  "IS": {
+    "class": "Findings",
+    "code": "IS",
+    "href": "/mdr/sdtmig/3-4/datasets/IS",
+    "name": "Immunogenicity Specimen Assessments",
+    "type": "SDTM Dataset"
+  },
+  "LB": {
+    "class": "Findings",
+    "code": "LB",
+    "href": "/mdr/sdtmig/3-4/datasets/LB",
+    "name": "Laboratory Test Results",
+    "type": "SDTM Dataset"
+  },
+  "MB": {
+    "class": "Findings",
+    "code": "MB",
+    "href": "/mdr/sdtmig/3-4/datasets/MB",
+    "name": "Microbiology Specimen",
+    "type": "SDTM Dataset"
+  },
+  "MH": {
+    "class": "Events",
+    "code": "MH",
+    "href": "/mdr/sdtmig/3-4/datasets/MH",
+    "name": "Medical History",
+    "type": "SDTM Dataset"
+  },
+  "MI": {
+    "class": "Findings",
+    "code": "MI",
+    "href": "/mdr/sdtmig/3-4/datasets/MI",
+    "name": "Microscopic Findings",
+    "type": "SDTM Dataset"
+  },
+  "MK": {
+    "class": "Findings",
+    "code": "MK",
+    "href": "/mdr/sdtmig/3-4/datasets/MK",
+    "name": "Musculoskeletal System Findings",
+    "type": "SDTM Dataset"
+  },
+  "ML": {
+    "class": "Interventions",
+    "code": "ML",
+    "href": "/mdr/sdtmig/3-4/datasets/ML",
+    "name": "Meal Data",
+    "type": "SDTM Dataset"
+  },
+  "MS": {
+    "class": "Findings",
+    "code": "MS",
+    "href": "/mdr/sdtmig/3-4/datasets/MS",
+    "name": "Microbiology Susceptibility",
+    "type": "SDTM Dataset"
+  },
+  "NV": {
+    "class": "Findings",
+    "code": "NV",
+    "href": "/mdr/sdtmig/3-4/datasets/NV",
+    "name": "Nervous System Findings",
+    "type": "SDTM Dataset"
+  },
+  "OE": {
+    "class": "Findings",
+    "code": "OE",
+    "href": "/mdr/sdtmig/3-4/datasets/OE",
+    "name": "Ophthalmic Examinations",
+    "type": "SDTM Dataset"
+  },
+  "OI": {
+    "class": "Study Reference",
+    "code": "OI",
+    "href": "/mdr/sdtmig/3-4/datasets/OI",
+    "name": "Non-host Organism Identifiers",
+    "type": "SDTM Dataset"
+  },
+  "PC": {
+    "class": "Findings",
+    "code": "PC",
+    "href": "/mdr/sdtmig/3-4/datasets/PC",
+    "name": "Pharmacokinetics Concentrations",
+    "type": "SDTM Dataset"
+  },
+  "PE": {
+    "class": "Findings",
+    "code": "PE",
+    "href": "/mdr/sdtmig/3-4/datasets/PE",
+    "name": "Physical Examination",
+    "type": "SDTM Dataset"
+  },
+  "PP": {
+    "class": "Findings",
+    "code": "PP",
+    "href": "/mdr/sdtmig/3-4/datasets/PP",
+    "name": "Pharmacokinetics Parameters",
+    "type": "SDTM Dataset"
+  },
+  "PR": {
+    "class": "Interventions",
+    "code": "PR",
+    "href": "/mdr/sdtmig/3-4/datasets/PR",
+    "name": "Procedures",
+    "type": "SDTM Dataset"
+  },
+  "QS": {
+    "class": "Findings",
+    "code": "QS",
+    "href": "/mdr/sdtmig/3-4/datasets/QS",
+    "name": "Questionnaires",
+    "type": "SDTM Dataset"
+  },
+  "RE": {
+    "class": "Findings",
+    "code": "RE",
+    "href": "/mdr/sdtmig/3-4/datasets/RE",
+    "name": "Respiratory System Findings",
+    "type": "SDTM Dataset"
+  },
+  "RELREC": {
+    "class": "Relationship",
+    "code": "RELREC",
+    "href": "/mdr/sdtmig/3-4/datasets/RELREC",
+    "name": "Related Records",
+    "type": "SDTM Dataset"
+  },
+  "RELSPEC": {
+    "class": "Relationship",
+    "code": "RELSPEC",
+    "href": "/mdr/sdtmig/3-4/datasets/RELSPEC",
+    "name": "Related Specimens",
+    "type": "SDTM Dataset"
+  },
+  "RELSUB": {
+    "class": "Relationship",
+    "code": "RELSUB",
+    "href": "/mdr/sdtmig/3-4/datasets/RELSUB",
+    "name": "Related Subjects",
+    "type": "SDTM Dataset"
+  },
+  "RP": {
+    "class": "Findings",
+    "code": "RP",
+    "href": "/mdr/sdtmig/3-4/datasets/RP",
+    "name": "Reproductive System Findings",
+    "type": "SDTM Dataset"
+  },
+  "RS": {
+    "class": "Findings",
+    "code": "RS",
+    "href": "/mdr/sdtmig/3-4/datasets/RS",
+    "name": "Disease Response and Clin Classification",
+    "type": "SDTM Dataset"
+  },
+  "SC": {
+    "class": "Findings",
+    "code": "SC",
+    "href": "/mdr/sdtmig/3-4/datasets/SC",
+    "name": "Subject Characteristics",
+    "type": "SDTM Dataset"
+  },
+  "SE": {
+    "class": "Special Purpose",
+    "code": "SE",
+    "href": "/mdr/sdtmig/3-4/datasets/SE",
+    "name": "Subject Elements",
+    "type": "SDTM Dataset"
+  },
+  "SM": {
+    "code": "SM",
+    "href": "/mdr/sdtmig/3-4/datasets/SM",
+    "name": "Subject Disease Milestones",
+    "type": "SDTM Dataset"
+  },
+  "SR": {
+    "class": "Findings About",
+    "code": "SR",
+    "href": "/mdr/sdtmig/3-4/datasets/SR",
+    "name": "Skin Response",
+    "type": "SDTM Dataset"
+  },
+  "SS": {
+    "class": "Findings",
+    "code": "SS",
+    "href": "/mdr/sdtmig/3-4/datasets/SS",
+    "name": "Subject Status",
+    "type": "SDTM Dataset"
+  },
+  "SU": {
+    "class": "Interventions",
+    "code": "SU",
+    "href": "/mdr/sdtmig/3-4/datasets/SU",
+    "name": "Substance Use",
+    "type": "SDTM Dataset"
+  },
+  "SUPPQUAL": {
+    "class": "Relationship",
+    "code": "SUPPQUAL",
+    "href": "/mdr/sdtmig/3-4/datasets/SUPPQUAL",
+    "name": "Supplemental Qualifiers for [domain name]",
+    "type": "SDTM Dataset"
+  },
+  "SV": {
+    "class": "Special Purpose",
+    "code": "SV",
+    "href": "/mdr/sdtmig/3-4/datasets/SV",
+    "name": "Subject Visits",
+    "type": "SDTM Dataset"
+  },
+  "TA": {
+    "class": "Trial Design",
+    "code": "TA",
+    "href": "/mdr/sdtmig/3-4/datasets/TA",
+    "name": "Trial Arms",
+    "type": "SDTM Dataset"
+  },
+  "TD": {
+    "class": "Trial Design",
+    "code": "TD",
+    "href": "/mdr/sdtmig/3-4/datasets/TD",
+    "name": "Trial Disease Assessments",
+    "type": "SDTM Dataset"
+  },
+  "TE": {
+    "class": "Trial Design",
+    "code": "TE",
+    "href": "/mdr/sdtmig/3-4/datasets/TE",
+    "name": "Trial Elements",
+    "type": "SDTM Dataset"
+  },
+  "TI": {
+    "class": "Trial Design",
+    "code": "TI",
+    "href": "/mdr/sdtmig/3-4/datasets/TI",
+    "name": "Trial Inclusion/Exclusion Criteria",
+    "type": "SDTM Dataset"
+  },
+  "TM": {
+    "class": "Trial Design",
+    "code": "TM",
+    "href": "/mdr/sdtmig/3-4/datasets/TM",
+    "name": "Trial Disease Milestones",
+    "type": "SDTM Dataset"
+  },
+  "TR": {
+    "class": "Findings",
+    "code": "TR",
+    "href": "/mdr/sdtmig/3-4/datasets/TR",
+    "name": "Tumor/Lesion Results",
+    "type": "SDTM Dataset"
+  },
+  "TS": {
+    "class": "Trial Design",
+    "code": "TS",
+    "href": "/mdr/sdtmig/3-4/datasets/TS",
+    "name": "Trial Summary",
+    "type": "SDTM Dataset"
+  },
+  "TU": {
+    "class": "Findings",
+    "code": "TU",
+    "href": "/mdr/sdtmig/3-4/datasets/TU",
+    "name": "Tumor/Lesion Identification",
+    "type": "SDTM Dataset"
+  },
+  "TV": {
+    "class": "Trial Design",
+    "code": "TV",
+    "href": "/mdr/sdtmig/3-4/datasets/TV",
+    "name": "Trial Visits",
+    "type": "SDTM Dataset"
+  },
+  "UR": {
+    "class": "Findings",
+    "code": "UR",
+    "href": "/mdr/sdtmig/3-4/datasets/UR",
+    "name": "Urinary System Findings",
+    "type": "SDTM Dataset"
+  },
+  "VS": {
+    "class": "Findings",
+    "code": "VS",
+    "href": "/mdr/sdtmig/3-4/datasets/VS",
+    "name": "Vital Signs",
+    "type": "SDTM Dataset"
+  }
+}

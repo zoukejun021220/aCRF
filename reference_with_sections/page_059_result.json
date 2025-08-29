@@ -1,0 +1,90 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_059.json",
+  "page_id": 59,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "TVS Segment # (EVALTVS_SEG)",
+      "annotation": "PSSCAT = PROTOCOL DEFINED RESPONSE CRITERIA | FASCAT",
+      "domain": "RS, FA",
+      "pattern": "domain_level, direct",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Discharge > Eval",
+      "section": "Edema"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Was a duplex ultrasound (DUS) completed? (EVALTVS_DUSYN)",
+      "annotation": "RSTEST when RSTESTCD = DUSYN | [NOT SUBMITTED]",
+      "domain": "RS",
+      "pattern": "conditional_single, not_submitted",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": true,
+      "form": "Discharge > Eval",
+      "section": null
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "DUS date (EVALTVS_DUSDT)",
+      "annotation": "RSDTC",
+      "domain": "RS",
+      "pattern": "direct",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Discharge > Eval",
+      "section": "Duplex Ultrasound"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Flow (EVALTVS_DUSFL)",
+      "annotation": "RSTEST | RSORRES when RSTESTCD = DUSFL",
+      "domain": "RS",
+      "pattern": "direct, conditional_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Discharge > Eval",
+      "section": "Duplex Ultrasound"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Compressibility (EVALTVS_DUSCOM)",
+      "annotation": "RSTEST | RSORRES when RSTESTCD = DUSCOM",
+      "domain": "RS",
+      "pattern": "direct, conditional_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Discharge > Eval",
+      "section": "Duplex Ultrasound"
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Was there a rethrombosis within the TVS? (EVALTVS_RETHROM)",
+      "annotation": "FAOBJ = Rethrombosis Within TVS | FAORRES when FATESTCD = OCCUR",
+      "domain": "FA",
+      "pattern": "direct, conditional_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Discharge > Eval",
+      "section": "Duplex Ultrasound"
+    }
+  ],
+  "summary": {
+    "total_items": 6,
+    "annotated": 6,
+    "not_submitted": 1,
+    "errors": 0
+  }
+}

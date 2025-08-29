@@ -1,0 +1,107 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_021.json",
+  "page_id": 21,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Was DVT provoked? (CDVTPRE)",
+      "annotation": "RSORRES when RSTEST = CDVTPRE",
+      "domain": "RS",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Target Venous Segment > TVS",
+      "section": "Provoking Factors"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "If yes, provide provoking factor (CDVTPRESPED)",
+      "annotation": "PROVFOG in SUPPRS, PROVFEG in SUPPRS, PROVFRG in SUPPRS, PROVFHRT in SUPPRS, PROVFCA in SUPPRS, PROVFTRA in SUPPRS, PROVFIM in SUPPRS, PROVFOG in SUPPRS",
+      "domain": "RS",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": true,
+      "question_annotation": "Provoking Factors",
+      "option_annotations": [
+        "Oral contraception: PROVFOG in SUPPRS",
+        "Recent/current pregnancy: PROVFEG in SUPPRS",
+        "Recent surgery or trauma in past 3 months: PROVFRG in SUPPRS",
+        "Hormone replacement therapy: PROVFHRT in SUPPRS",
+        "Active cancer: PROVFCA in SUPPRS",
+        "Recent long-haul travel: PROVFTRA in SUPPRS",
+        "Immobility: PROVFIM in SUPPRS",
+        "Other: PROVFOG in SUPPRS"
+      ],
+      "form": "Target Venous Segment > TVS",
+      "section": null
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Other, specify (CDVTPRESPDTOT)",
+      "annotation": "PROVFOSP in SUPPRS",
+      "domain": "RS",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Target Venous Segment > TVS",
+      "section": null
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Treatment for DVT in the past 30 days (CDVTT)",
+      "annotation": "RSORRES when RSTEST = CDVTT",
+      "domain": "RS",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Target Venous Segment > TVS",
+      "section": null
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Modality of recent DVT treatment (CDVTTM)",
+      "annotation": "CDVTTM, CDVTTM in SUPPRS",
+      "domain": "RS",
+      "pattern": "direct, supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": true,
+      "option_annotations": [
+        "Mechanical thrombectomy: CDVTTM",
+        "Thrombolysis: CDVTTM",
+        "Anticoagulation for ≥ 7 days: CDVTTM",
+        "Other: in SUPPRS"
+      ],
+      "form": "Target Venous Segment > TVS",
+      "section": null
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Modality of recent DVT treatment, specify (CDVTTMSP)",
+      "annotation": "CDVTTMSP in SUPPRS",
+      "domain": "RS",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Target Venous Segment > TVS",
+      "section": null
+    }
+  ],
+  "summary": {
+    "total_items": 6,
+    "annotated": 6,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

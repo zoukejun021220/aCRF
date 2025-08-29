@@ -1,0 +1,111 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_000.json",
+  "page_id": 0,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Date of baseline visit (VSTDT)",
+      "annotation": "SVSTDTC, SVENDTC(IE)DSTC, VSTDTC, PEDTC, QSPDTC, PRQDTC, DSSTDTC, FADTC",
+      "domain": "SV",
+      "pattern": "direct, combined_datetime",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Age ≥ 18 years (INC1)",
+      "annotation": "Question: IETEST when IETESTCD = IN01 | Option 'Yes': [NOT SUBMITTED] | Option 'No': IEORRES = N",
+      "domain": "IE",
+      "pattern": "conditional_single, not_submitted",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Proximal lower extremity DVT involving the femoral, common femoral, iliac veins or inferior vena cava (IVC), alone or in combination (INC2)",
+      "annotation": "Question: IETEST when IETESTCD = IN02 | Option 'Yes': [NOT SUBMITTED] | Option 'No': IEORRES = N",
+      "domain": "IE",
+      "pattern": "conditional_single, not_submitted",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Willing and able to provide informed consent (INC3)",
+      "annotation": "Question: IETEST when IETESTCD = IN03 | Option 'Yes': [NOT SUBMITTED] | Option 'No': IEORRES = N",
+      "domain": "IE",
+      "pattern": "conditional_single, not_submitted",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Prior venous stent in a TVS (EX1)",
+      "annotation": "Question: IETEST when IETESTCD = EX01 | Option 'Yes': IEORRES = Y | Option 'No': [NOT SUBMITTED]",
+      "domain": "IE",
+      "pattern": "conditional_single, not_submitted",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "IVC aplasia/hypoplasia or other congenital anatomic anomalies of the IVC or iliac veins (EX2)",
+      "annotation": "Question: IETEST when IETESTCD = EX02 | Option 'Yes': IEORRES = Y | Option 'No': [NOT SUBMITTED]",
+      "domain": "IE",
+      "pattern": "conditional_single, not_submitted",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "IVC filter in place when the ClotTriever enters the patient (EX3)",
+      "annotation": "Question: IETEST when IETESTCD = EX03 | Option 'Yes': IEORRES = Y | Option 'No': [NOT SUBMITTED]",
+      "domain": "IE",
+      "pattern": "conditional_single, not_submitted",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-008",
+      "seq": 8,
+      "text": "Allergy, hypersensitivity, or thrombocytopenia from heparin or iodinated contrast agents, except for mild to moderate contrast allergies for which pretreatment can be used (EX5)",
+      "annotation": "Question: IETEST when IETESTCD = EX05 | Option 'Yes': IEORRES = Y | Option 'No': [NOT SUBMITTED]",
+      "domain": "IE",
+      "pattern": "conditional_single, not_submitted",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-009",
+      "seq": 9,
+      "text": "Life expectancy less than 1 year (EX6)",
+      "annotation": "Question: IETEST when IETESTCD = EX06 | Option 'Yes': IEORRES = Y | Option 'No': [NOT SUBMITTED]",
+      "domain": "IE",
+      "pattern": "conditional_single, not_submitted",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": true
+    }
+  ],
+  "summary": {
+    "total_items": 9,
+    "annotated": 9,
+    "not_submitted": 8,
+    "errors": 0
+  }
+}

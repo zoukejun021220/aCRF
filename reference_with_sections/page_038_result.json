@@ -1,0 +1,116 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_038.json",
+  "page_id": 38,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Treating physician (PROC_TPHY) Site 1",
+      "annotation": "TPHY in SUPPDX",
+      "domain": "PROC",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Treating physician (PROC_TPHY2) Site 2",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Treating physician (PROC_TPHY3) Site 3",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Treating physician (PROC_TPHY4) Site 4",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Treating physician (PROC_TPHY5) Site 5",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Treating physician (PROC_TPHY6) Site 6",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Treating physician (PROC_TPHY7) Site 7",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-008",
+      "seq": 8,
+      "text": "Treating physician (PROC_TPHY8) Site 8",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    }
+  ],
+  "summary": {
+    "total_items": 8,
+    "annotated": 8,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

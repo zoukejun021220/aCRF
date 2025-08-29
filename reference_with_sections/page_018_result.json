@@ -1,0 +1,64 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_018.json",
+  "page_id": 18,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Left leg: Active Ulcer Size Assess largest active ulcer (LLAUS)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Baseline > QOL",
+      "section": "rVCSS"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Left leg: Use of Compression Therapy (LLUCT)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Baseline > QOL",
+      "section": "rVCSS"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Was a Numeric Pain Rating Scale (NPRS) completed? (INPRSYN)",
+      "annotation": "Question: QSTEST when QSTESTCD = NPRS | Option 'Yes': [NOT SUBMITTED] | Option 'No': QSSTAT = NOT DONE when QSTESTCD = NPRS",
+      "domain": "QS",
+      "pattern": "conditional_single, not_submitted",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": true,
+      "form": "Baseline > QOL",
+      "section": null
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "NPRS score (NPRSR)",
+      "annotation": "QSORRES when QSTESTCD = NPRS",
+      "domain": "QS",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Baseline > QOL",
+      "section": "Numeric Pain Rating Scale"
+    }
+  ],
+  "summary": {
+    "total_items": 4,
+    "annotated": 4,
+    "not_submitted": 1,
+    "errors": 0
+  }
+}

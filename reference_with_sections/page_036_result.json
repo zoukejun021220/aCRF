@@ -1,0 +1,103 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_036.json",
+  "page_id": 36,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Procedure Date (PROC_DATE)",
+      "annotation": "DXSTDTC, DXENDTC, RFSTDTC, RFXSTDTC, ADXENDTC, PRDTC, SDTC",
+      "domain": "DX, DM, PR, FA, RS",
+      "pattern": "direct, combined_datetime",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Did the ClotTriever Sheath enter the subject's vasculature? (PROC_VASC)",
+      "annotation": "FAOORRE when FATESTCD = OCCUR | Option 'Yes': [no separate annotation] | Option 'No': FAORRES when FATESTCD = OCCUR",
+      "domain": "FA",
+      "pattern": "conditional_single",
+      "confidence": 0.9,
+      "valid": true,
+      "requires_separate_annotations": true,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Venous access Time (PROC_TIM)",
+      "annotation": "FAORRES when FATESTCD = TIM",
+      "domain": "FA",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "ClotTriever Sheath Insertion time (PROC_SHEAINTM)",
+      "annotation": "DXSTDTC, RFSTDTC, RFSDTC",
+      "domain": "DX, PR, RS",
+      "pattern": "direct, combined_datetime",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "ClotTriever Catheter Insertion time (PROC_CATINTM)",
+      "annotation": "DXSTDTC",
+      "domain": "DX",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Last ClotTriever Catheter Removal time (PROC_CATREMTM)",
+      "annotation": "DXENDTC",
+      "domain": "DX",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "ClotTriever Sheath Removal time (PROC_REMTM)",
+      "annotation": "DXENDTC",
+      "domain": "DX",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure",
+      "section": "Procedure"
+    }
+  ],
+  "summary": {
+    "total_items": 7,
+    "annotated": 7,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

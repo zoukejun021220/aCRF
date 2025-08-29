@@ -1,0 +1,51 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_052.json",
+  "page_id": 52,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Model number of device (SHEATH_MOD)",
+      "annotation": "DIVAL when DIPARMCD = MODEL",
+      "domain": "DI",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure > Treatment > ClotTriever Sheath",
+      "section": "Procedure > Treatment > Access Site"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Model number of device, specify (SHEATH_MODSP)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure > Treatment > ClotTriever Sheath",
+      "section": "Procedure > Treatment > ClotTriever Sheath"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Lot number of device (SHEATH_LOT)",
+      "annotation": "SPDEVID = SHEATH|Lot number|Model Number",
+      "domain": "DI",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure > Treatment > ClotTriever Sheath",
+      "section": "Procedure > Treatment > ClotTriever Sheath"
+    }
+  ],
+  "summary": {
+    "total_items": 3,
+    "annotated": 3,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

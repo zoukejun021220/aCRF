@@ -1,0 +1,49 @@
+# SDTM Mapper Instruction Tuning Requirements - Fixed versions for compatibility
+
+# Core PyTorch - Install these first separately
+# For CUDA 11.8:
+# torch==2.1.0+cu118
+# torchvision==0.16.0+cu118
+# For CUDA 12.1:
+# torch==2.1.0+cu121
+# torchvision==0.16.0+cu121
+
+# Core dependencies with specific versions to avoid conflicts
+transformers==4.36.2
+datasets==2.16.1
+accelerate==0.25.0
+peft==0.7.1
+bitsandbytes==0.41.3
+sentencepiece==0.1.99
+protobuf==3.20.3
+
+# Training utilities
+wandb==0.16.2
+tensorboard==2.15.1
+scikit-learn==1.3.2
+numpy==1.24.4
+pandas==2.1.4
+
+# SDTM specific
+jsonschema==4.20.0
+
+# Development tools
+tqdm==4.66.1
+colorama==0.4.6
+python-dotenv==1.0.0
+
+# ModelScope for alternative model downloading
+modelscope==1.11.0
+
+# Additional dependencies
+safetensors==0.4.1
+tokenizers==0.15.0
+huggingface-hub==0.20.2
+filelock==3.13.1
+typing-extensions==4.9.0
+packaging==23.2
+psutil==5.9.6
+pyyaml==6.0.1
+regex==2023.12.25
+requests==2.31.0
+urllib3==2.1.0

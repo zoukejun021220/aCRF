@@ -1,0 +1,144 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_026.json",
+  "page_id": 26,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Difference (mm*) (EIR_DDIF) (Reference area - Compress area)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Difference (%) (EIR_ADIF) (Difference (mm*) / Reference area) * 100",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Reference diameter (mm) (EIR_RD)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Compress diameter (mm) (EIR_CD)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Stent? (EIR_STYN)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Stent deployed (EIR_ST) Size of stent deployed in mm (length x width)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Balloon? (EIR_BLYN) Done as part of the stenting procedure. Do not select yes if ballooning was used between ClotTriever passes.",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-008",
+      "seq": 8,
+      "text": "Balloon type (EIR_BLT)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-009",
+      "seq": 9,
+      "text": "Balloon size (EIR_BLS)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-010",
+      "seq": 10,
+      "text": "ATM (max) (EIR_ATM)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-011",
+      "seq": 11,
+      "text": "Post stenting area (mm²) (EIR_PA)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-012",
+      "seq": 12,
+      "text": "Post stenting diameter (mm) (EIR_PD)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    }
+  ],
+  "summary": {
+    "total_items": 12,
+    "annotated": 12,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

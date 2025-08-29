@@ -1,0 +1,74 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_050.json",
+  "page_id": 50,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Balloon angioplasty (ADJ_PTAYN)",
+      "annotation": "PROCUR",
+      "domain": "PR",
+      "pattern": "direct",
+      "confidence": 0.9,
+      "valid": true,
+      "requires_separate_annotations": true,
+      "question_annotation": "PROCUR",
+      "option_annotations": {
+        "Yes": "PROCUR",
+        "No": "PROCUR"
+      },
+      "form": "Procedure > Treatment",
+      "section": "Procedure > Treatment"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Venous stenting (ADJ_STENTYN)",
+      "annotation": "PROCUR",
+      "domain": "PR",
+      "pattern": "direct",
+      "confidence": 0.9,
+      "valid": true,
+      "requires_separate_annotations": true,
+      "question_annotation": "PROCUR",
+      "option_annotations": {
+        "Yes": "PROCUR",
+        "No": "PROCUR"
+      },
+      "form": "Procedure > Treatment",
+      "section": "Procedure > Treatment"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Starting Activated Clotting Time (ACT) (in seconds) (PROC_STACT)",
+      "annotation": "DUORRES when DUTESTCD = STACT",
+      "domain": "DU",
+      "pattern": "conditional_single",
+      "confidence": 0.9,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure > Treatment",
+      "section": "Procedure > Treatment"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Ending Activated Clotting Time (ACT) (in seconds) (PROC_ENDACT)",
+      "annotation": "DUORRES when DUTESTCD = ENDACT",
+      "domain": "DU",
+      "pattern": "conditional_single",
+      "confidence": 0.9,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure > Treatment",
+      "section": "Procedure > Treatment"
+    }
+  ],
+  "summary": {
+    "total_items": 4,
+    "annotated": 4,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

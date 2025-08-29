@@ -1,0 +1,116 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_099.json",
+  "page_id": 99,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Left leg: Pain or other discomfort (ie, aching, heaviness, fatigue, soreness, burning) Presumes venous origin (LLP)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Left leg: Varicose Veins \"Varicose\" veins must be ≥3 mm in diameter to qualify in the standing position (LLVV)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Left leg: Venous Edema Presumes venous origin (LLVE)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Left leg: Skin Pigmentation Presumes venous origin Does not include focal pigmentation over varicose veins or pigmentation due to other chronic disease (ie, vasculitis purpura) (LLSP)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Left leg: Inflammation More than just recent pigmentation (ie. erythema, cellulitis, venous eczema, dermatitis) (LLIF)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS"
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Left leg: Induration Presumes venous origin of secondary skin and subcutaneous changes (ie. chronic edema with fibrosis, hypodermitis) Includes white atrophy and lipodermatosclerosis (LLID)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS"
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Left leg: Active Ulcer Number (LLAUN)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS"
+    },
+    {
+      "qid": "q-008",
+      "seq": 8,
+      "text": "Left leg: Active Ulcer Duration Assess longest active (LLAUD)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS"
+    }
+  ],
+  "summary": {
+    "total_items": 8,
+    "annotated": 8,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

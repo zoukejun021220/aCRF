@@ -1,0 +1,144 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_029.json",
+  "page_id": 29,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Post stenting area (mm²) (CFR_PA)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Post stenting diameter (mm) (CFR_PD)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Reference area (mm²) (CFL_RA)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Compress area (mm²) (CFL_CA)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Difference (mm²) (CFL_DIFF) (Reference area - Compress area)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Difference (%) (CFL_ADIF) (Difference (mm²) / Reference area) * 100",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Reference diameter (mm) (CFL_RD)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-008",
+      "seq": 8,
+      "text": "Compress diameter (mm) (CFL_CD)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-009",
+      "seq": 9,
+      "text": "Stent? (CFL_STYN)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-010",
+      "seq": 10,
+      "text": "Stent deployed (CFL_ST) Size of stent deployed in mm (length x width)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-011",
+      "seq": 11,
+      "text": "Balloon? (CFL_BLYN) Done as part of the stenting procedure. Do not select yes if ballooning was used between ClotTriever passes.",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-012",
+      "seq": 12,
+      "text": "Balloon type (CFL_BLT)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    }
+  ],
+  "summary": {
+    "total_items": 12,
+    "annotated": 12,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

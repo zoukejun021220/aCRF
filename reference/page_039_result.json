@@ -1,0 +1,56 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_039.json",
+  "page_id": 39,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Treating physician (PROC_TPHY9) Site 9",
+      "annotation": "TPHY in SUPPDX",
+      "domain": "PROC",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Treating physician (PROC_TPHY10) Site 10",
+      "annotation": "TPHY in SUPPDX",
+      "domain": "PROC",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Treating physician (PROC_TPHY11) Site 11",
+      "annotation": "TPHY in SUPPDX",
+      "domain": "PROC",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Treating physician (PROC_TPHY12) Site 12",
+      "annotation": "TPHY in SUPPDX",
+      "domain": "PROC",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    }
+  ],
+  "summary": {
+    "total_items": 4,
+    "annotated": 4,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

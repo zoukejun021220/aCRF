@@ -1,0 +1,133 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_001.json",
+  "page_id": 1,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Chronic non-ambulatory status (EX7)",
+      "annotation": "IEORRES = Y | [NOT SUBMITTED] | IETEST when IETESTCD = EX07",
+      "domain": "IE",
+      "pattern": "conditional_single, not_submitted",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Known hypercoagulable states that, in the opinion of the Investigator, cannot be medically-managed throughout the study period (EX8)",
+      "annotation": "IEORRES = Y | [NOT SUBMITTED] | IETEST when IETESTCD = EX08",
+      "domain": "IE",
+      "pattern": "conditional_single, not_submitted",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Unavailability of a lower extremity venous access site (EX9)",
+      "annotation": "IEORRES = Y | [NOT SUBMITTED] | IETEST when IETESTCD = EX09",
+      "domain": "IE",
+      "pattern": "conditional_single, not_submitted",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Subject status (ELIGYN)",
+      "annotation": "DSTERM = ELIGIBILITY CRITERIA MET when DSDECOD = ELIGIBILITY CRITERIA MET | [NOT SUBMITTED]",
+      "domain": "DS",
+      "pattern": "variable_with_ct, not_submitted",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Date informed consent was signed (ICDT)",
+      "annotation": "DSTERM = INFORMED CONSENT OBTAINED when DSDECOD = INFORMED CONSENT OBTAINED | RFICDT, DSSTDTC",
+      "domain": "DS, RF",
+      "pattern": "variable_with_ct, direct, multiple_variables",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Date of birth (DOB)",
+      "annotation": "BRTHDTC",
+      "domain": "DM",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Gender (GEN)",
+      "annotation": "SEX",
+      "domain": "DM",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-008",
+      "seq": 8,
+      "text": "Height and weight units (HWU)",
+      "annotation": "[NOT SUBMITTED]",
+      "domain": "",
+      "pattern": "not_submitted",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-009",
+      "seq": 9,
+      "text": "Height (in) (HGHT_IN)",
+      "annotation": "VSORRES, VSORRESU when VSTESTCD = HEIGHT",
+      "domain": "VS",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-010",
+      "seq": 10,
+      "text": "Weight (lbs) (WGHT_LBS)",
+      "annotation": "VSORRES, VSORRESU when VSTESTCD = WEIGHT",
+      "domain": "VS",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-011",
+      "seq": 11,
+      "text": "Height (cm) (HGHT_CM)",
+      "annotation": "VSORRES, VSORRESU when VSTESTCD = HEIGHT",
+      "domain": "VS",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": false
+    }
+  ],
+  "summary": {
+    "total_items": 11,
+    "annotated": 11,
+    "not_submitted": 5,
+    "errors": 0
+  }
+}

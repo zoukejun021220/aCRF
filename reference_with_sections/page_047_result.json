@@ -1,0 +1,90 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_047.json",
+  "page_id": 47,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Based on the venogram, select all locations treated with ClotTriever (POST_VENLOC)",
+      "annotation": "RSLOC when more than one selected than RSLOC = MULTIPLE and specified segments are in SUPPRS using the QNAM values SEGC1, SEGC2, SEGEI, SEGE, SEGDF, SEGGP, SEGGR, SEGAF",
+      "domain": "RS",
+      "pattern": "multiple_variables, supplemental_multiple",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Post-ClotTriever thrombus load (TREAT_VENTL1)",
+      "annotation": "RSORRES when RSTEST = VENTL",
+      "domain": "RS",
+      "pattern": "conditional_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Did you get all available clot? (POST_AVCLOT)",
+      "annotation": "RSORRES when RSTEST = AVCLOT",
+      "domain": "RS",
+      "pattern": "conditional_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Was the IVUS performed post procedure? (POST_IVUS)",
+      "annotation": "RSTAT = NOT DONE when RSTEST = IVUS | [NOT SUBMITTED]",
+      "domain": "RS",
+      "pattern": "conditional_single, not_submitted",
+      "requires_separate_annotations": true,
+      "confidence": 0.9,
+      "valid": false,
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Were venous obstructions/compressions intervened upon? (POST_VOB)",
+      "annotation": "RSORRES when RSTEST = VOB",
+      "domain": "RS",
+      "pattern": "conditional_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound"
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Specify venous obstruction intervention (POST_VOBSP)",
+      "annotation": "VOBSP in SUPPRS",
+      "domain": "RS",
+      "pattern": "supplemental_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound"
+    }
+  ],
+  "summary": {
+    "total_items": 6,
+    "annotated": 6,
+    "not_submitted": 1,
+    "errors": 0
+  }
+}

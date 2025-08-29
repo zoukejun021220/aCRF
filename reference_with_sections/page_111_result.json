@@ -1,0 +1,103 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_111.json",
+  "page_id": 111,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Usual activities (EQACT)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-2 Years > QOL",
+      "section": "EQ-5D"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Pain/Discomfort (EQPAIN)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-2 Years > QOL",
+      "section": "EQ-5D"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Anxiety/Depression (EQANX)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-2 Years > QOL",
+      "section": "EQ-5D"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Was rVCSS completed? (VCSSYN)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-2 Years > QOL",
+      "section": "rVCSS"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "rVCSS side (VCSSIDE)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-2 Years > QOL",
+      "section": "rVCSS"
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Right leg: Pain or other discomfort (ie, aching, heaviness, fatigue, soreness, burning) Presume venous origin (RLP)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-2 Years > QOL",
+      "section": "rVCSS"
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Right leg: Varicose Veins \"Varicose\" veins must be ≥3 mm in diameter to qualify in the standing position (RLV)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-2 Years > QOL",
+      "section": "rVCSS"
+    }
+  ],
+  "summary": {
+    "total_items": 7,
+    "annotated": 7,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

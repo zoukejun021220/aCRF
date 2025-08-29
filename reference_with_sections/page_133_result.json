@@ -1,0 +1,116 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_133.json",
+  "page_id": 133,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Study exit date (EXIT_DATE)",
+      "annotation": "DSSSTDTC / RFENDTC",
+      "domain": "DS, DM",
+      "pattern": "direct, combined_datetime",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Study Exit",
+      "section": "Study Exit"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Study exit status (EXIT_STAT)",
+      "annotation": "DSTERM when DSDECOD = COMPLETED | [NOT SUBMITTED]",
+      "domain": "DS",
+      "pattern": "variable_with_ct, not_submitted",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": true,
+      "question_annotation": "DSTERM when DSDECOD = COMPLETED",
+      "option_annotations": {
+        "Completion of study as planned": "DSTERM when DSDECOD = COMPLETED",
+        "Discontinued prematurely": "[NOT SUBMITTED]"
+      },
+      "form": "Study Exit",
+      "section": "Study Exit"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Discontinued reason (EXIT_REAS)",
+      "annotation": "DSTERM when DSDECOD = LOST TO FOLLOW-UP | DSTERM when DSDECOD = WITHDRAWAL BY SUBJECT | [NOT SUBMITTED] | DSTERM when DSDECOD = DEATH | [NOT SUBMITTED]",
+      "domain": "DS",
+      "pattern": "variable_with_ct, not_submitted",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": true,
+      "option_annotations": {
+        "Subject lost to follow-up": "DSTERM when DSDECOD = LOST TO FOLLOW-UP",
+        "Subject refused follow-up": "[NOT SUBMITTED]",
+        "Subject withdrew voluntarily": "DSTERM when DSDECOD = WITHDRAWAL BY SUBJECT",
+        "Subject withdrawn per investigator decision": "[NOT SUBMITTED]",
+        "Death": "DSTERM when DSDECOD = DEATH",
+        "Other": "[NOT SUBMITTED]"
+      },
+      "form": "Study Exit",
+      "section": "Study Exit"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Other discontinued reason, specify (EXIT_REAO)",
+      "annotation": "DSTERM when DSDECOD = OTHER",
+      "domain": "DS",
+      "pattern": "conditional_other_specify",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Study Exit",
+      "section": "Study Exit"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Reason for decision to withdraw subject (EXIT_RSWTHDW)",
+      "annotation": "DSTERM when DSDECOD = INVESTIGATOR DECISION",
+      "domain": "DS",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Study Exit",
+      "section": "Study Exit"
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Do you wish to provide additional comments? (EXIT_COMYN)",
+      "annotation": "COMYN in SUPPDS",
+      "domain": "CO",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Study Exit",
+      "section": "Study Exit"
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Additional comments (EXIT_COM)",
+      "annotation": "COVAL",
+      "domain": "CO",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Study Exit",
+      "section": "Study Exit"
+    }
+  ],
+  "summary": {
+    "total_items": 7,
+    "annotated": 7,
+    "not_submitted": 2,
+    "errors": 0
+  }
+}

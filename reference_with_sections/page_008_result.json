@@ -1,0 +1,77 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_008.json",
+  "page_id": 8,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Was edema assessment completed? (FU_PHYS)",
+      "annotation": "PETEST | Option 'Yes': [NOT SUBMITTED] | Option 'No': PESTAT = NOT DONE when PETESTCD = PEALL",
+      "domain": "PE",
+      "pattern": "not_submitted, conditional_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": true,
+      "form": "Baseline",
+      "section": "Medical History"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "CEAP side (CEAPSIDE)",
+      "annotation": "[NOT SUBMITTED]",
+      "domain": "QS",
+      "pattern": "not_submitted",
+      "confidence": 0.8,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Baseline",
+      "section": "Quality of Life"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Right — CEAP score (RCEAP)",
+      "annotation": "QSCAT = RIGHT | QSTEST | QSORRES when QSTESTCD = CEAP",
+      "domain": "QS",
+      "pattern": "direct, variable_with_ct",
+      "confidence": 0.95,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Baseline",
+      "section": "Quality of Life"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Left — CEAP score (LCEAP)",
+      "annotation": "QSCAT = LEFT | QSTEST | QSORRES when QSTESTCD = CEAP",
+      "domain": "QS",
+      "pattern": "direct, variable_with_ct",
+      "confidence": 0.95,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Baseline",
+      "section": "Quality of Life"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Were 1 or more additional quality of life (QOL) measures collected? (QOLYN)",
+      "annotation": "QSTEST | Option 'Yes': [NOT SUBMITTED] | Option 'No': QSSTAT = NOT DONE when QSTESTCD = QOLALL",
+      "domain": "QS",
+      "pattern": "not_submitted, conditional_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": true,
+      "form": "Baseline",
+      "section": null
+    }
+  ],
+  "summary": {
+    "total_items": 5,
+    "annotated": 5,
+    "not_submitted": 3,
+    "errors": 0
+  }
+}

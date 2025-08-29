@@ -1,0 +1,178 @@
+{
+  "SEX": [
+    {
+      "code": "F",
+      "value": "Female",
+      "definition": "Female sex"
+    },
+    {
+      "code": "M",
+      "value": "Male",
+      "definition": "Male sex"
+    },
+    {
+      "code": "U",
+      "value": "Unknown",
+      "definition": "Unknown sex"
+    },
+    {
+      "code": "UNDIFFERENTIATED",
+      "value": "Undifferentiated",
+      "definition": "Undifferentiated sex"
+    }
+  ],
+  "NY": [
+    {
+      "code": "Y",
+      "value": "Yes",
+      "definition": "Yes"
+    },
+    {
+      "code": "N",
+      "value": "No",
+      "definition": "No"
+    },
+    {
+      "code": "U",
+      "value": "Unknown",
+      "definition": "Unknown"
+    }
+  ],
+  "NRIND": [
+    {
+      "code": "NORMAL",
+      "value": "Normal",
+      "definition": "Normal"
+    },
+    {
+      "code": "ABNORMAL",
+      "value": "Abnormal",
+      "definition": "Abnormal"
+    },
+    {
+      "code": "HIGH",
+      "value": "High",
+      "definition": "Above normal/high"
+    },
+    {
+      "code": "LOW",
+      "value": "Low",
+      "definition": "Below normal/low"
+    }
+  ],
+  "AEACN": [
+    {
+      "code": "DOSE NOT CHANGED",
+      "value": "Dose Not Changed",
+      "definition": "Dose not changed"
+    },
+    {
+      "code": "DOSE REDUCED",
+      "value": "Dose Reduced",
+      "definition": "Dose reduced"
+    },
+    {
+      "code": "DRUG INTERRUPTED",
+      "value": "Drug Interrupted",
+      "definition": "Drug interrupted"
+    },
+    {
+      "code": "DRUG WITHDRAWN",
+      "value": "Drug Withdrawn",
+      "definition": "Drug withdrawn"
+    },
+    {
+      "code": "NOT APPLICABLE",
+      "value": "Not Applicable",
+      "definition": "Not applicable"
+    }
+  ],
+  "AEOUT": [
+    {
+      "code": "RECOVERED/RESOLVED",
+      "value": "Recovered/Resolved",
+      "definition": "Recovered/resolved"
+    },
+    {
+      "code": "RECOVERING/RESOLVING",
+      "value": "Recovering/Resolving",
+      "definition": "Recovering/resolving"
+    },
+    {
+      "code": "NOT RECOVERED/NOT RESOLVED",
+      "value": "Not Recovered/Not Resolved",
+      "definition": "Not recovered/not resolved"
+    },
+    {
+      "code": "RECOVERED/RESOLVED WITH SEQUELAE",
+      "value": "Recovered/Resolved With Sequelae",
+      "definition": "Recovered/resolved with sequelae"
+    },
+    {
+      "code": "FATAL",
+      "value": "Fatal",
+      "definition": "Fatal"
+    },
+    {
+      "code": "UNKNOWN",
+      "value": "Unknown",
+      "definition": "Unknown"
+    }
+  ],
+  "AESEV": [
+    {
+      "code": "MILD",
+      "value": "Mild",
+      "definition": "Mild severity"
+    },
+    {
+      "code": "MODERATE",
+      "value": "Moderate",
+      "definition": "Moderate severity"
+    },
+    {
+      "code": "SEVERE",
+      "value": "Severe",
+      "definition": "Severe severity"
+    }
+  ],
+  "EPOCH": [
+    {
+      "code": "SCREENING",
+      "value": "Screening",
+      "definition": "Screening epoch"
+    },
+    {
+      "code": "TREATMENT",
+      "value": "Treatment",
+      "definition": "Treatment epoch"
+    },
+    {
+      "code": "FOLLOW-UP",
+      "value": "Follow-up",
+      "definition": "Follow-up epoch"
+    }
+  ],
+  "TIMEUNIT": [
+    {
+      "code": "DAYS",
+      "value": "Days",
+      "definition": "Days"
+    },
+    {
+      "code": "WEEKS",
+      "value": "Weeks",
+      "definition": "Weeks"
+    },
+    {
+      "code": "MONTHS",
+      "value": "Months",
+      "definition": "Months"
+    },
+    {
+      "code": "YEARS",
+      "value": "Years",
+      "definition": "Years"
+    }
+  ]
+}

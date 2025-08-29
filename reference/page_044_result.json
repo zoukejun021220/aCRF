@@ -1,0 +1,122 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_044.json",
+  "page_id": 44,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Single session treatment (PROC_SST)",
+      "annotation": "DXDOSTXT = SINGLE SESSION | [NOT SUBMITTED]",
+      "domain": "DX, PR",
+      "pattern": "variable_with_ct, not_submitted",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "If no, describe (PROC_SST_REAS)",
+      "annotation": "SSTREAS in SUPPDX",
+      "domain": "DX",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "If not, was the multi-staged procedure planned? (PROC_SST_MP)",
+      "annotation": "DXDOSTXT = MULTI-STAGED | DXDOSTXT = OTHER",
+      "domain": "DX",
+      "pattern": "variable_with_ct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Fluor time (min) (PROC_FLTIME)",
+      "annotation": "FAORRES, FAORRESU when FATESTCD = FLTIME",
+      "domain": "FA",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Did the subject require conversion to open surgery? (PROC_OPENSURG)",
+      "annotation": "PROCCUR",
+      "domain": "PR",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Was blood transfused? (PROC_BLOOD)",
+      "annotation": "PROCCUR",
+      "domain": "PR",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Amount of blood transfused (units) (PROC_BLOODVOL)",
+      "annotation": "PRDOSE",
+      "domain": "PR",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-008",
+      "seq": 8,
+      "text": "Estimated blood loss (mL) (PROC_BLOODLOSML)",
+      "annotation": "BLOODLOS in SUPPPR",
+      "domain": "PR",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-009",
+      "seq": 9,
+      "text": "Did you update the Anticoagulation form? (PROC_ANTINY)",
+      "annotation": "[NOT SUBMITTED]",
+      "domain": "PR",
+      "pattern": "not_submitted",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-010",
+      "seq": 10,
+      "text": "Were there any intra-procedure adverse events? (PROC_AERYN)",
+      "annotation": "[NOT SUBMITTED]",
+      "domain": "PR",
+      "pattern": "not_submitted",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    }
+  ],
+  "summary": {
+    "total_items": 10,
+    "annotated": 10,
+    "not_submitted": 3,
+    "errors": 0
+  }
+}

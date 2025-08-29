@@ -1,0 +1,51 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_091.json",
+  "page_id": 91,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Has there been an Adverse Event since the last visit? (FU_1_AEYN)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-1 Year",
+      "section": "Quality of Life"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Per the patient, were they compliant with their anticoagulation regimen? (FU_1_ANTCOMP)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-1 Year",
+      "section": "Follow-Up Evaluation"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Did you update the Anticoagulation forms for this visit? (FU_1_ANTIYN)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "FUP-1 Year",
+      "section": "Follow-Up Evaluation"
+    }
+  ],
+  "summary": {
+    "total_items": 3,
+    "annotated": 3,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

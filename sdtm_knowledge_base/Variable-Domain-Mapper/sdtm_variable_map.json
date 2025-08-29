@@ -1,0 +1,4965 @@
+{
+  "ACTARM": [
+    "DM"
+  ],
+  "ACTARMCD": [
+    "DM"
+  ],
+  "ACTARMUD": [
+    "DM"
+  ],
+  "AEACN": [
+    "AE"
+  ],
+  "AEACNDEV": [
+    "AE"
+  ],
+  "AEACNOTH": [
+    "AE"
+  ],
+  "AEBDSYCD": [
+    "AE"
+  ],
+  "AEBODSYS": [
+    "AE"
+  ],
+  "AECAT": [
+    "AE"
+  ],
+  "AECONTRT": [
+    "AE"
+  ],
+  "AEDECOD": [
+    "AE"
+  ],
+  "AEDUR": [
+    "AE"
+  ],
+  "AEENDTC": [
+    "AE"
+  ],
+  "AEENDY": [
+    "AE"
+  ],
+  "AEENRF": [
+    "AE"
+  ],
+  "AEENRTPT": [
+    "AE"
+  ],
+  "AEENTPT": [
+    "AE"
+  ],
+  "AEGRPID": [
+    "AE"
+  ],
+  "AEHLGT": [
+    "AE"
+  ],
+  "AEHLGTCD": [
+    "AE"
+  ],
+  "AEHLT": [
+    "AE"
+  ],
+  "AEHLTCD": [
+    "AE"
+  ],
+  "AELLT": [
+    "AE"
+  ],
+  "AELLTCD": [
+    "AE"
+  ],
+  "AELOC": [
+    "AE"
+  ],
+  "AEMODIFY": [
+    "AE"
+  ],
+  "AEOUT": [
+    "AE"
+  ],
+  "AEPATT": [
+    "AE"
+  ],
+  "AEPRESP": [
+    "AE"
+  ],
+  "AEPTCD": [
+    "AE"
+  ],
+  "AEREFID": [
+    "AE"
+  ],
+  "AEREL": [
+    "AE"
+  ],
+  "AERELNST": [
+    "AE"
+  ],
+  "AERLDEV": [
+    "AE"
+  ],
+  "AERLPRC": [
+    "AE"
+  ],
+  "AERLPRT": [
+    "AE"
+  ],
+  "AESCAN": [
+    "AE"
+  ],
+  "AESCAT": [
+    "AE"
+  ],
+  "AESCONG": [
+    "AE"
+  ],
+  "AESDISAB": [
+    "AE"
+  ],
+  "AESDTH": [
+    "AE"
+  ],
+  "AESEQ": [
+    "AE"
+  ],
+  "AESER": [
+    "AE"
+  ],
+  "AESEV": [
+    "AE"
+  ],
+  "AESHOSP": [
+    "AE"
+  ],
+  "AESINTV": [
+    "AE"
+  ],
+  "AESLIFE": [
+    "AE"
+  ],
+  "AESMIE": [
+    "AE"
+  ],
+  "AESOC": [
+    "AE"
+  ],
+  "AESOCCD": [
+    "AE"
+  ],
+  "AESOD": [
+    "AE"
+  ],
+  "AESPID": [
+    "AE"
+  ],
+  "AESTDTC": [
+    "AE"
+  ],
+  "AESTDY": [
+    "AE"
+  ],
+  "AETERM": [
+    "AE"
+  ],
+  "AETOXGR": [
+    "AE"
+  ],
+  "AEUNANT": [
+    "AE"
+  ],
+  "AGCAT": [
+    "AG"
+  ],
+  "AGCLAS": [
+    "AG"
+  ],
+  "AGCLASCD": [
+    "AG"
+  ],
+  "AGDECOD": [
+    "AG"
+  ],
+  "AGDOSE": [
+    "AG"
+  ],
+  "AGDOSFRM": [
+    "AG"
+  ],
+  "AGDOSFRQ": [
+    "AG"
+  ],
+  "AGDOSTXT": [
+    "AG"
+  ],
+  "AGDOSU": [
+    "AG"
+  ],
+  "AGDUR": [
+    "AG"
+  ],
+  "AGE": [
+    "DM"
+  ],
+  "AGENDTC": [
+    "AG"
+  ],
+  "AGENDY": [
+    "AG"
+  ],
+  "AGENRF": [
+    "AG"
+  ],
+  "AGENRTPT": [
+    "AG"
+  ],
+  "AGENTPT": [
+    "AG"
+  ],
+  "AGEU": [
+    "DM"
+  ],
+  "AGGRPID": [
+    "AG"
+  ],
+  "AGLNKGRP": [
+    "AG"
+  ],
+  "AGLNKID": [
+    "AG"
+  ],
+  "AGMODIFY": [
+    "AG"
+  ],
+  "AGOCCUR": [
+    "AG"
+  ],
+  "AGPRESP": [
+    "AG"
+  ],
+  "AGREASND": [
+    "AG"
+  ],
+  "AGROUTE": [
+    "AG"
+  ],
+  "AGSCAT": [
+    "AG"
+  ],
+  "AGSEQ": [
+    "AG"
+  ],
+  "AGSPID": [
+    "AG"
+  ],
+  "AGSTAT": [
+    "AG"
+  ],
+  "AGSTDTC": [
+    "AG"
+  ],
+  "AGSTDY": [
+    "AG"
+  ],
+  "AGSTRF": [
+    "AG"
+  ],
+  "AGSTRTPT": [
+    "AG"
+  ],
+  "AGSTTPT": [
+    "AG"
+  ],
+  "AGTRT": [
+    "AG"
+  ],
+  "ARM": [
+    "TA",
+    "DM",
+    "TV"
+  ],
+  "ARMCD": [
+    "TA",
+    "DM",
+    "TV"
+  ],
+  "ARMNRS": [
+    "DM"
+  ],
+  "BECAT": [
+    "BE"
+  ],
+  "BEDECOD": [
+    "BE"
+  ],
+  "BEDTC": [
+    "BE"
+  ],
+  "BEDUR": [
+    "BE"
+  ],
+  "BEENDTC": [
+    "BE"
+  ],
+  "BEENDY": [
+    "BE"
+  ],
+  "BEGRPID": [
+    "BE"
+  ],
+  "BELOC": [
+    "BE"
+  ],
+  "BEMODIFY": [
+    "BE"
+  ],
+  "BEPARTY": [
+    "BE"
+  ],
+  "BEPRTYID": [
+    "BE"
+  ],
+  "BEREFID": [
+    "BE"
+  ],
+  "BESCAT": [
+    "BE"
+  ],
+  "BESEQ": [
+    "BE"
+  ],
+  "BESPID": [
+    "BE"
+  ],
+  "BESTDTC": [
+    "BE"
+  ],
+  "BESTDY": [
+    "BE"
+  ],
+  "BETERM": [
+    "BE"
+  ],
+  "BRTHDTC": [
+    "DM"
+  ],
+  "BSANTREG": [
+    "BS"
+  ],
+  "BSBLFL": [
+    "BS"
+  ],
+  "BSCAT": [
+    "BS"
+  ],
+  "BSDTC": [
+    "BS"
+  ],
+  "BSDY": [
+    "BS"
+  ],
+  "BSELTM": [
+    "BS"
+  ],
+  "BSGRPID": [
+    "BS"
+  ],
+  "BSMETHOD": [
+    "BS"
+  ],
+  "BSNAM": [
+    "BS"
+  ],
+  "BSORRES": [
+    "BS"
+  ],
+  "BSORRESU": [
+    "BS"
+  ],
+  "BSREASND": [
+    "BS"
+  ],
+  "BSREFID": [
+    "BS"
+  ],
+  "BSRFTDTC": [
+    "BS"
+  ],
+  "BSSCAT": [
+    "BS"
+  ],
+  "BSSEQ": [
+    "BS"
+  ],
+  "BSSPCCND": [
+    "BS"
+  ],
+  "BSSPEC": [
+    "BS"
+  ],
+  "BSSPID": [
+    "BS"
+  ],
+  "BSSTAT": [
+    "BS"
+  ],
+  "BSSTRESC": [
+    "BS"
+  ],
+  "BSSTRESN": [
+    "BS"
+  ],
+  "BSSTRESU": [
+    "BS"
+  ],
+  "BSTEST": [
+    "BS"
+  ],
+  "BSTESTCD": [
+    "BS"
+  ],
+  "BSTPT": [
+    "BS"
+  ],
+  "BSTPTNUM": [
+    "BS"
+  ],
+  "BSTPTREF": [
+    "BS"
+  ],
+  "CEBODSYS": [
+    "CE"
+  ],
+  "CECAT": [
+    "CE"
+  ],
+  "CEDECOD": [
+    "CE"
+  ],
+  "CEDTC": [
+    "CE"
+  ],
+  "CEDY": [
+    "CE"
+  ],
+  "CEENDTC": [
+    "CE"
+  ],
+  "CEENDY": [
+    "CE"
+  ],
+  "CEENRF": [
+    "CE"
+  ],
+  "CEENRTPT": [
+    "CE"
+  ],
+  "CEENTPT": [
+    "CE"
+  ],
+  "CEGRPID": [
+    "CE"
+  ],
+  "CEOCCUR": [
+    "CE"
+  ],
+  "CEPRESP": [
+    "CE"
+  ],
+  "CEREASND": [
+    "CE"
+  ],
+  "CEREFID": [
+    "CE"
+  ],
+  "CESCAT": [
+    "CE"
+  ],
+  "CESEQ": [
+    "CE"
+  ],
+  "CESEV": [
+    "CE"
+  ],
+  "CESPID": [
+    "CE"
+  ],
+  "CESTAT": [
+    "CE"
+  ],
+  "CESTDTC": [
+    "CE"
+  ],
+  "CESTDY": [
+    "CE"
+  ],
+  "CESTRF": [
+    "CE"
+  ],
+  "CESTRTPT": [
+    "CE"
+  ],
+  "CESTTPT": [
+    "CE"
+  ],
+  "CETERM": [
+    "CE"
+  ],
+  "CETOXGR": [
+    "CE"
+  ],
+  "CMADJ": [
+    "CM"
+  ],
+  "CMCAT": [
+    "CM"
+  ],
+  "CMCLAS": [
+    "CM"
+  ],
+  "CMCLASCD": [
+    "CM"
+  ],
+  "CMDECOD": [
+    "CM"
+  ],
+  "CMDOSE": [
+    "CM"
+  ],
+  "CMDOSFRM": [
+    "CM"
+  ],
+  "CMDOSFRQ": [
+    "CM"
+  ],
+  "CMDOSRGM": [
+    "CM"
+  ],
+  "CMDOSTOT": [
+    "CM"
+  ],
+  "CMDOSTXT": [
+    "CM"
+  ],
+  "CMDOSU": [
+    "CM"
+  ],
+  "CMDUR": [
+    "CM"
+  ],
+  "CMENDTC": [
+    "CM"
+  ],
+  "CMENDY": [
+    "CM"
+  ],
+  "CMENRF": [
+    "CM"
+  ],
+  "CMENRTPT": [
+    "CM"
+  ],
+  "CMENTPT": [
+    "CM"
+  ],
+  "CMGRPID": [
+    "CM"
+  ],
+  "CMINDC": [
+    "CM"
+  ],
+  "CMMODIFY": [
+    "CM"
+  ],
+  "CMOCCUR": [
+    "CM"
+  ],
+  "CMPRESP": [
+    "CM"
+  ],
+  "CMREASND": [
+    "CM"
+  ],
+  "CMROUTE": [
+    "CM"
+  ],
+  "CMRSDISC": [
+    "CM"
+  ],
+  "CMSCAT": [
+    "CM"
+  ],
+  "CMSEQ": [
+    "CM"
+  ],
+  "CMSPID": [
+    "CM"
+  ],
+  "CMSTAT": [
+    "CM"
+  ],
+  "CMSTDTC": [
+    "CM"
+  ],
+  "CMSTDY": [
+    "CM"
+  ],
+  "CMSTRF": [
+    "CM"
+  ],
+  "CMSTRTPT": [
+    "CM"
+  ],
+  "CMSTTPT": [
+    "CM"
+  ],
+  "CMTRT": [
+    "CM"
+  ],
+  "CODTC": [
+    "CO"
+  ],
+  "CODY": [
+    "CO"
+  ],
+  "COEVAL": [
+    "CO"
+  ],
+  "COEVALID": [
+    "CO"
+  ],
+  "COREF": [
+    "CO"
+  ],
+  "COSEQ": [
+    "CO"
+  ],
+  "COUNTRY": [
+    "DM"
+  ],
+  "COVAL": [
+    "CO"
+  ],
+  "CPABCLID": [
+    "CP"
+  ],
+  "CPANMETH": [
+    "CP"
+  ],
+  "CPBDAGNT": [
+    "CP"
+  ],
+  "CPBLFL": [
+    "CP"
+  ],
+  "CPCAT": [
+    "CP"
+  ],
+  "CPCELSTA": [
+    "CP"
+  ],
+  "CPCLSIG": [
+    "CP"
+  ],
+  "CPCNDAGT": [
+    "CP"
+  ],
+  "CPCOLSRT": [
+    "CP"
+  ],
+  "CPCSMRKS": [
+    "CP"
+  ],
+  "CPDRVFL": [
+    "CP"
+  ],
+  "CPDTC": [
+    "CP"
+  ],
+  "CPDY": [
+    "CP"
+  ],
+  "CPELTM": [
+    "CP"
+  ],
+  "CPGATDEF": [
+    "CP"
+  ],
+  "CPGATE": [
+    "CP"
+  ],
+  "CPGRPID": [
+    "CP"
+  ],
+  "CPLNKGRP": [
+    "CP"
+  ],
+  "CPLNKID": [
+    "CP"
+  ],
+  "CPLOBXFL": [
+    "CP"
+  ],
+  "CPLOINC": [
+    "CP"
+  ],
+  "CPMETHOD": [
+    "CP"
+  ],
+  "CPMRKSTR": [
+    "CP"
+  ],
+  "CPNAM": [
+    "CP"
+  ],
+  "CPNRIND": [
+    "CP"
+  ],
+  "CPORNRHI": [
+    "CP"
+  ],
+  "CPORNRLO": [
+    "CP"
+  ],
+  "CPORRES": [
+    "CP"
+  ],
+  "CPORRESU": [
+    "CP"
+  ],
+  "CPREASND": [
+    "CP"
+  ],
+  "CPREFID": [
+    "CP"
+  ],
+  "CPRESSCL": [
+    "CP"
+  ],
+  "CPRESTYP": [
+    "CP"
+  ],
+  "CPRFTDTC": [
+    "CP"
+  ],
+  "CPSBMRKS": [
+    "CP"
+  ],
+  "CPSCAT": [
+    "CP"
+  ],
+  "CPSEQ": [
+    "CP"
+  ],
+  "CPSPCCND": [
+    "CP"
+  ],
+  "CPSPEC": [
+    "CP"
+  ],
+  "CPSPID": [
+    "CP"
+  ],
+  "CPSPTSTD": [
+    "CP"
+  ],
+  "CPSTAT": [
+    "CP"
+  ],
+  "CPSTNRHI": [
+    "CP"
+  ],
+  "CPSTNRLO": [
+    "CP"
+  ],
+  "CPSTRESC": [
+    "CP"
+  ],
+  "CPSTRESN": [
+    "CP"
+  ],
+  "CPSTRESU": [
+    "CP"
+  ],
+  "CPTEST": [
+    "CP"
+  ],
+  "CPTESTCD": [
+    "CP"
+  ],
+  "CPTPT": [
+    "CP"
+  ],
+  "CPTPTNUM": [
+    "CP"
+  ],
+  "CPTPTREF": [
+    "CP"
+  ],
+  "CPTSTCND": [
+    "CP"
+  ],
+  "CPTSTPNL": [
+    "CP"
+  ],
+  "CVBLFL": [
+    "CV"
+  ],
+  "CVCAT": [
+    "CV"
+  ],
+  "CVDIR": [
+    "CV"
+  ],
+  "CVDRVFL": [
+    "CV"
+  ],
+  "CVDTC": [
+    "CV"
+  ],
+  "CVDY": [
+    "CV"
+  ],
+  "CVELTM": [
+    "CV"
+  ],
+  "CVEVAL": [
+    "CV"
+  ],
+  "CVEVALID": [
+    "CV"
+  ],
+  "CVGRPID": [
+    "CV"
+  ],
+  "CVLAT": [
+    "CV"
+  ],
+  "CVLNKGRP": [
+    "CV"
+  ],
+  "CVLNKID": [
+    "CV"
+  ],
+  "CVLOBXFL": [
+    "CV"
+  ],
+  "CVLOC": [
+    "CV"
+  ],
+  "CVMETHOD": [
+    "CV"
+  ],
+  "CVORRES": [
+    "CV"
+  ],
+  "CVORRESU": [
+    "CV"
+  ],
+  "CVPOS": [
+    "CV"
+  ],
+  "CVREASND": [
+    "CV"
+  ],
+  "CVREFID": [
+    "CV"
+  ],
+  "CVRFTDTC": [
+    "CV"
+  ],
+  "CVSCAT": [
+    "CV"
+  ],
+  "CVSEQ": [
+    "CV"
+  ],
+  "CVSPID": [
+    "CV"
+  ],
+  "CVSTAT": [
+    "CV"
+  ],
+  "CVSTRESC": [
+    "CV"
+  ],
+  "CVSTRESN": [
+    "CV"
+  ],
+  "CVSTRESU": [
+    "CV"
+  ],
+  "CVTEST": [
+    "CV"
+  ],
+  "CVTESTCD": [
+    "CV"
+  ],
+  "CVTPT": [
+    "CV"
+  ],
+  "CVTPTNUM": [
+    "CV"
+  ],
+  "CVTPTREF": [
+    "CV"
+  ],
+  "DACAT": [
+    "DA"
+  ],
+  "DADTC": [
+    "DA"
+  ],
+  "DADY": [
+    "DA"
+  ],
+  "DAGRPID": [
+    "DA"
+  ],
+  "DALNKGRP": [
+    "DA"
+  ],
+  "DALNKID": [
+    "DA"
+  ],
+  "DAORRES": [
+    "DA"
+  ],
+  "DAORRESU": [
+    "DA"
+  ],
+  "DAREASND": [
+    "DA"
+  ],
+  "DAREFID": [
+    "DA"
+  ],
+  "DASCAT": [
+    "DA"
+  ],
+  "DASEQ": [
+    "DA"
+  ],
+  "DASPID": [
+    "DA"
+  ],
+  "DASTAT": [
+    "DA"
+  ],
+  "DASTRESC": [
+    "DA"
+  ],
+  "DASTRESN": [
+    "DA"
+  ],
+  "DASTRESU": [
+    "DA"
+  ],
+  "DATEST": [
+    "DA"
+  ],
+  "DATESTCD": [
+    "DA"
+  ],
+  "DDDTC": [
+    "DD"
+  ],
+  "DDDY": [
+    "DD"
+  ],
+  "DDEVAL": [
+    "DD"
+  ],
+  "DDORRES": [
+    "DD"
+  ],
+  "DDRESCAT": [
+    "DD"
+  ],
+  "DDSEQ": [
+    "DD"
+  ],
+  "DDSTRESC": [
+    "DD"
+  ],
+  "DDTEST": [
+    "DD"
+  ],
+  "DDTESTCD": [
+    "DD"
+  ],
+  "DMDTC": [
+    "DM"
+  ],
+  "DMDY": [
+    "DM"
+  ],
+  "DOMAIN": [
+    "DS",
+    "CO",
+    "DV",
+    "DM",
+    "UR",
+    "MB",
+    "TU",
+    "TD",
+    "MS",
+    "SC",
+    "TS",
+    "IE",
+    "BS",
+    "MK",
+    "RS",
+    "SV",
+    "PC",
+    "SU",
+    "ML",
+    "TA",
+    "CP",
+    "GF",
+    "MI",
+    "RP",
+    "EG",
+    "FT",
+    "EX",
+    "CE",
+    "MH",
+    "DA",
+    "QS",
+    "IS",
+    "RE",
+    "SS",
+    "OI",
+    "FA",
+    "TE",
+    "TM",
+    "SR",
+    "TI",
+    "AE",
+    "CV",
+    "TR",
+    "PP",
+    "TV",
+    "AG",
+    "PR",
+    "VS",
+    "HO",
+    "OE",
+    "SM",
+    "LB",
+    "SE",
+    "BE",
+    "NV",
+    "PE",
+    "EC",
+    "DD",
+    "CM"
+  ],
+  "DSCAT": [
+    "DS"
+  ],
+  "DSDECOD": [
+    "DS"
+  ],
+  "DSDTC": [
+    "DS"
+  ],
+  "DSDY": [
+    "DS"
+  ],
+  "DSGRPID": [
+    "DS"
+  ],
+  "DSREFID": [
+    "DS"
+  ],
+  "DSSCAT": [
+    "DS"
+  ],
+  "DSSEQ": [
+    "DS"
+  ],
+  "DSSPID": [
+    "DS"
+  ],
+  "DSSTDTC": [
+    "DS"
+  ],
+  "DSSTDY": [
+    "DS"
+  ],
+  "DSTERM": [
+    "DS"
+  ],
+  "DTHDTC": [
+    "DM"
+  ],
+  "DTHFL": [
+    "DM"
+  ],
+  "DVCAT": [
+    "DV"
+  ],
+  "DVDECOD": [
+    "DV"
+  ],
+  "DVENDTC": [
+    "DV"
+  ],
+  "DVENDY": [
+    "DV"
+  ],
+  "DVREFID": [
+    "DV"
+  ],
+  "DVSCAT": [
+    "DV"
+  ],
+  "DVSEQ": [
+    "DV"
+  ],
+  "DVSPID": [
+    "DV"
+  ],
+  "DVSTDTC": [
+    "DV"
+  ],
+  "DVSTDY": [
+    "DV"
+  ],
+  "DVTERM": [
+    "DV"
+  ],
+  "ECADJ": [
+    "EC"
+  ],
+  "ECCAT": [
+    "EC"
+  ],
+  "ECDIR": [
+    "EC"
+  ],
+  "ECDOSE": [
+    "EC"
+  ],
+  "ECDOSFRM": [
+    "EC"
+  ],
+  "ECDOSFRQ": [
+    "EC"
+  ],
+  "ECDOSRGM": [
+    "EC"
+  ],
+  "ECDOSTOT": [
+    "EC"
+  ],
+  "ECDOSTXT": [
+    "EC"
+  ],
+  "ECDOSU": [
+    "EC"
+  ],
+  "ECDUR": [
+    "EC"
+  ],
+  "ECELTM": [
+    "EC"
+  ],
+  "ECENDTC": [
+    "EC"
+  ],
+  "ECENDY": [
+    "EC"
+  ],
+  "ECFAST": [
+    "EC"
+  ],
+  "ECGRPID": [
+    "EC"
+  ],
+  "ECLAT": [
+    "EC"
+  ],
+  "ECLNKGRP": [
+    "EC"
+  ],
+  "ECLNKID": [
+    "EC"
+  ],
+  "ECLOC": [
+    "EC"
+  ],
+  "ECLOT": [
+    "EC"
+  ],
+  "ECMOOD": [
+    "EC"
+  ],
+  "ECOCCUR": [
+    "EC"
+  ],
+  "ECPORTOT": [
+    "EC"
+  ],
+  "ECPRESP": [
+    "EC"
+  ],
+  "ECPSTRG": [
+    "EC"
+  ],
+  "ECPSTRGU": [
+    "EC"
+  ],
+  "ECREASOC": [
+    "EC"
+  ],
+  "ECREFID": [
+    "EC"
+  ],
+  "ECRFTDTC": [
+    "EC"
+  ],
+  "ECROUTE": [
+    "EC"
+  ],
+  "ECSCAT": [
+    "EC"
+  ],
+  "ECSEQ": [
+    "EC"
+  ],
+  "ECSPID": [
+    "EC"
+  ],
+  "ECSTDTC": [
+    "EC"
+  ],
+  "ECSTDY": [
+    "EC"
+  ],
+  "ECTPT": [
+    "EC"
+  ],
+  "ECTPTNUM": [
+    "EC"
+  ],
+  "ECTPTREF": [
+    "EC"
+  ],
+  "ECTRT": [
+    "EC"
+  ],
+  "EGBEATNO": [
+    "EG"
+  ],
+  "EGBLFL": [
+    "EG"
+  ],
+  "EGCAT": [
+    "EG"
+  ],
+  "EGCLSIG": [
+    "EG"
+  ],
+  "EGDRVFL": [
+    "EG"
+  ],
+  "EGDTC": [
+    "EG"
+  ],
+  "EGDY": [
+    "EG"
+  ],
+  "EGELTM": [
+    "EG"
+  ],
+  "EGEVAL": [
+    "EG"
+  ],
+  "EGEVALID": [
+    "EG"
+  ],
+  "EGGRPID": [
+    "EG"
+  ],
+  "EGLEAD": [
+    "EG"
+  ],
+  "EGLOBXFL": [
+    "EG"
+  ],
+  "EGMETHOD": [
+    "EG"
+  ],
+  "EGNAM": [
+    "EG"
+  ],
+  "EGORRES": [
+    "EG"
+  ],
+  "EGORRESU": [
+    "EG"
+  ],
+  "EGPOS": [
+    "EG"
+  ],
+  "EGREASND": [
+    "EG"
+  ],
+  "EGREFID": [
+    "EG"
+  ],
+  "EGREPNUM": [
+    "EG"
+  ],
+  "EGRFTDTC": [
+    "EG"
+  ],
+  "EGSCAT": [
+    "EG"
+  ],
+  "EGSEQ": [
+    "EG"
+  ],
+  "EGSPID": [
+    "EG"
+  ],
+  "EGSTAT": [
+    "EG"
+  ],
+  "EGSTRESC": [
+    "EG"
+  ],
+  "EGSTRESN": [
+    "EG"
+  ],
+  "EGSTRESU": [
+    "EG"
+  ],
+  "EGTEST": [
+    "EG"
+  ],
+  "EGTESTCD": [
+    "EG"
+  ],
+  "EGTPT": [
+    "EG"
+  ],
+  "EGTPTNUM": [
+    "EG"
+  ],
+  "EGTPTREF": [
+    "EG"
+  ],
+  "EGXFN": [
+    "EG"
+  ],
+  "ELEMENT": [
+    "SE",
+    "TA",
+    "TE"
+  ],
+  "EPOCH": [
+    "DS",
+    "DV",
+    "UR",
+    "MB",
+    "TU",
+    "MS",
+    "SC",
+    "IE",
+    "MK",
+    "RS",
+    "PC",
+    "SU",
+    "ML",
+    "TA",
+    "CP",
+    "MI",
+    "RP",
+    "EG",
+    "FT",
+    "EX",
+    "CE",
+    "MH",
+    "DA",
+    "QS",
+    "IS",
+    "RE",
+    "SS",
+    "FA",
+    "SR",
+    "AE",
+    "CV",
+    "TR",
+    "PP",
+    "AG",
+    "PR",
+    "VS",
+    "HO",
+    "OE",
+    "LB",
+    "SE",
+    "NV",
+    "PE",
+    "EC",
+    "CM"
+  ],
+  "ETCD": [
+    "SE",
+    "TA",
+    "TE"
+  ],
+  "ETHNIC": [
+    "DM"
+  ],
+  "EXADJ": [
+    "EX"
+  ],
+  "EXCAT": [
+    "EX"
+  ],
+  "EXDIR": [
+    "EX"
+  ],
+  "EXDOSE": [
+    "EX"
+  ],
+  "EXDOSFRM": [
+    "EX"
+  ],
+  "EXDOSFRQ": [
+    "EX"
+  ],
+  "EXDOSRGM": [
+    "EX"
+  ],
+  "EXDOSTXT": [
+    "EX"
+  ],
+  "EXDOSU": [
+    "EX"
+  ],
+  "EXDUR": [
+    "EX"
+  ],
+  "EXELTM": [
+    "EX"
+  ],
+  "EXENDTC": [
+    "EX"
+  ],
+  "EXENDY": [
+    "EX"
+  ],
+  "EXFAST": [
+    "EX"
+  ],
+  "EXGRPID": [
+    "EX"
+  ],
+  "EXLAT": [
+    "EX"
+  ],
+  "EXLNKGRP": [
+    "EX"
+  ],
+  "EXLNKID": [
+    "EX"
+  ],
+  "EXLOC": [
+    "EX"
+  ],
+  "EXLOT": [
+    "EX"
+  ],
+  "EXREFID": [
+    "EX"
+  ],
+  "EXRFTDTC": [
+    "EX"
+  ],
+  "EXROUTE": [
+    "EX"
+  ],
+  "EXSCAT": [
+    "EX"
+  ],
+  "EXSEQ": [
+    "EX"
+  ],
+  "EXSPID": [
+    "EX"
+  ],
+  "EXSTDTC": [
+    "EX"
+  ],
+  "EXSTDY": [
+    "EX"
+  ],
+  "EXTPT": [
+    "EX"
+  ],
+  "EXTPTNUM": [
+    "EX"
+  ],
+  "EXTPTREF": [
+    "EX"
+  ],
+  "EXTRT": [
+    "EX"
+  ],
+  "FABLFL": [
+    "FA"
+  ],
+  "FACAT": [
+    "FA"
+  ],
+  "FADTC": [
+    "FA"
+  ],
+  "FADY": [
+    "FA"
+  ],
+  "FAEVAL": [
+    "FA"
+  ],
+  "FAGRPID": [
+    "FA"
+  ],
+  "FALAT": [
+    "FA"
+  ],
+  "FALOBXFL": [
+    "FA"
+  ],
+  "FALOC": [
+    "FA"
+  ],
+  "FAOBJ": [
+    "FA"
+  ],
+  "FAORRES": [
+    "FA"
+  ],
+  "FAORRESU": [
+    "FA"
+  ],
+  "FAREASND": [
+    "FA"
+  ],
+  "FASCAT": [
+    "FA"
+  ],
+  "FASEQ": [
+    "FA"
+  ],
+  "FASPID": [
+    "FA"
+  ],
+  "FASTAT": [
+    "FA"
+  ],
+  "FASTRESC": [
+    "FA"
+  ],
+  "FASTRESN": [
+    "FA"
+  ],
+  "FASTRESU": [
+    "FA"
+  ],
+  "FATEST": [
+    "FA"
+  ],
+  "FATESTCD": [
+    "FA"
+  ],
+  "FOCID": [
+    "OE",
+    "NV",
+    "MB"
+  ],
+  "FTBLFL": [
+    "FT"
+  ],
+  "FTCAT": [
+    "FT"
+  ],
+  "FTDRVFL": [
+    "FT"
+  ],
+  "FTDTC": [
+    "FT"
+  ],
+  "FTDY": [
+    "FT"
+  ],
+  "FTELTM": [
+    "FT"
+  ],
+  "FTGRPID": [
+    "FT"
+  ],
+  "FTLOBXFL": [
+    "FT"
+  ],
+  "FTMETHOD": [
+    "FT"
+  ],
+  "FTNAM": [
+    "FT"
+  ],
+  "FTORRES": [
+    "FT"
+  ],
+  "FTORRESU": [
+    "FT"
+  ],
+  "FTPOS": [
+    "FT"
+  ],
+  "FTREASND": [
+    "FT"
+  ],
+  "FTREFID": [
+    "FT"
+  ],
+  "FTREPNUM": [
+    "FT"
+  ],
+  "FTRFTDTC": [
+    "FT"
+  ],
+  "FTSCAT": [
+    "FT"
+  ],
+  "FTSEQ": [
+    "FT"
+  ],
+  "FTSPID": [
+    "FT"
+  ],
+  "FTSTAT": [
+    "FT"
+  ],
+  "FTSTRESC": [
+    "FT"
+  ],
+  "FTSTRESN": [
+    "FT"
+  ],
+  "FTSTRESU": [
+    "FT"
+  ],
+  "FTTEST": [
+    "FT"
+  ],
+  "FTTESTCD": [
+    "FT"
+  ],
+  "FTTPT": [
+    "FT"
+  ],
+  "FTTPTNUM": [
+    "FT"
+  ],
+  "FTTPTREF": [
+    "FT"
+  ],
+  "FTXFN": [
+    "FT"
+  ],
+  "GFANMETH": [
+    "GF"
+  ],
+  "GFBLFL": [
+    "GF"
+  ],
+  "GFCAT": [
+    "GF"
+  ],
+  "GFCHROM": [
+    "GF"
+  ],
+  "GFCOPYID": [
+    "GF"
+  ],
+  "GFDRVFL": [
+    "GF"
+  ],
+  "GFDTC": [
+    "GF"
+  ],
+  "GFDY": [
+    "GF"
+  ],
+  "GFELTM": [
+    "GF"
+  ],
+  "GFGENLOC": [
+    "GF"
+  ],
+  "GFGENREF": [
+    "GF"
+  ],
+  "GFGENSR": [
+    "GF"
+  ],
+  "GFGRPID": [
+    "GF"
+  ],
+  "GFINHERT": [
+    "GF"
+  ],
+  "GFLLOQ": [
+    "GF"
+  ],
+  "GFLNKGRP": [
+    "GF"
+  ],
+  "GFLNKID": [
+    "GF"
+  ],
+  "GFMETHOD": [
+    "GF"
+  ],
+  "GFNAM": [
+    "GF"
+  ],
+  "GFORREF": [
+    "GF"
+  ],
+  "GFORRES": [
+    "GF"
+  ],
+  "GFORRESU": [
+    "GF"
+  ],
+  "GFPVRID": [
+    "GF"
+  ],
+  "GFREASND": [
+    "GF"
+  ],
+  "GFREFID": [
+    "GF"
+  ],
+  "GFREPNUM": [
+    "GF"
+  ],
+  "GFRESCAT": [
+    "GF"
+  ],
+  "GFRFTDTC": [
+    "GF"
+  ],
+  "GFRUNID": [
+    "GF"
+  ],
+  "GFSCAT": [
+    "GF"
+  ],
+  "GFSEQ": [
+    "GF"
+  ],
+  "GFSEQID": [
+    "GF"
+  ],
+  "GFSPEC": [
+    "GF"
+  ],
+  "GFSPID": [
+    "GF"
+  ],
+  "GFSTAT": [
+    "GF"
+  ],
+  "GFSTREFC": [
+    "GF"
+  ],
+  "GFSTREFN": [
+    "GF"
+  ],
+  "GFSTRESC": [
+    "GF"
+  ],
+  "GFSTRESN": [
+    "GF"
+  ],
+  "GFSTRESU": [
+    "GF"
+  ],
+  "GFSYM": [
+    "GF"
+  ],
+  "GFSYMTYP": [
+    "GF"
+  ],
+  "GFTEST": [
+    "GF"
+  ],
+  "GFTESTCD": [
+    "GF"
+  ],
+  "GFTPT": [
+    "GF"
+  ],
+  "GFTPTNUM": [
+    "GF"
+  ],
+  "GFTPTREF": [
+    "GF"
+  ],
+  "GFTSTDTL": [
+    "GF"
+  ],
+  "GFXFN": [
+    "GF"
+  ],
+  "HOCAT": [
+    "HO"
+  ],
+  "HODECOD": [
+    "HO"
+  ],
+  "HODTC": [
+    "HO"
+  ],
+  "HODUR": [
+    "HO"
+  ],
+  "HODY": [
+    "HO"
+  ],
+  "HOENDTC": [
+    "HO"
+  ],
+  "HOENDY": [
+    "HO"
+  ],
+  "HOENRTPT": [
+    "HO"
+  ],
+  "HOENTPT": [
+    "HO"
+  ],
+  "HOGRPID": [
+    "HO"
+  ],
+  "HOOCCUR": [
+    "HO"
+  ],
+  "HOPRESP": [
+    "HO"
+  ],
+  "HOREASND": [
+    "HO"
+  ],
+  "HOREFID": [
+    "HO"
+  ],
+  "HOSCAT": [
+    "HO"
+  ],
+  "HOSEQ": [
+    "HO"
+  ],
+  "HOSPID": [
+    "HO"
+  ],
+  "HOSTAT": [
+    "HO"
+  ],
+  "HOSTDTC": [
+    "HO"
+  ],
+  "HOSTDY": [
+    "HO"
+  ],
+  "HOSTRTPT": [
+    "HO"
+  ],
+  "HOSTTPT": [
+    "HO"
+  ],
+  "HOTERM": [
+    "HO"
+  ],
+  "IDVAR": [
+    "CO",
+    "RELREC",
+    "SUPPQUAL"
+  ],
+  "IDVARVAL": [
+    "CO",
+    "RELREC",
+    "SUPPQUAL"
+  ],
+  "IECAT": [
+    "TI",
+    "IE"
+  ],
+  "IEDTC": [
+    "IE"
+  ],
+  "IEDY": [
+    "IE"
+  ],
+  "IEORRES": [
+    "IE"
+  ],
+  "IESCAT": [
+    "TI",
+    "IE"
+  ],
+  "IESEQ": [
+    "IE"
+  ],
+  "IESPID": [
+    "IE"
+  ],
+  "IESTRESC": [
+    "IE"
+  ],
+  "IETEST": [
+    "TI",
+    "IE"
+  ],
+  "IETESTCD": [
+    "TI",
+    "IE"
+  ],
+  "INVID": [
+    "DM"
+  ],
+  "INVNAM": [
+    "DM"
+  ],
+  "ISBDAGNT": [
+    "IS"
+  ],
+  "ISBLFL": [
+    "IS"
+  ],
+  "ISCAT": [
+    "IS"
+  ],
+  "ISCNDAGT": [
+    "IS"
+  ],
+  "ISDRVFL": [
+    "IS"
+  ],
+  "ISDTC": [
+    "IS"
+  ],
+  "ISDY": [
+    "IS"
+  ],
+  "ISELTM": [
+    "IS"
+  ],
+  "ISENDTC": [
+    "IS"
+  ],
+  "ISENDY": [
+    "IS"
+  ],
+  "ISGRPID": [
+    "IS"
+  ],
+  "ISLLOQ": [
+    "IS"
+  ],
+  "ISLOBXFL": [
+    "IS"
+  ],
+  "ISMETHOD": [
+    "IS"
+  ],
+  "ISMSCBCE": [
+    "IS"
+  ],
+  "ISNAM": [
+    "IS"
+  ],
+  "ISNRIND": [
+    "IS"
+  ],
+  "ISORNRHI": [
+    "IS"
+  ],
+  "ISORNRLO": [
+    "IS"
+  ],
+  "ISORRES": [
+    "IS"
+  ],
+  "ISORRESU": [
+    "IS"
+  ],
+  "ISREASND": [
+    "IS"
+  ],
+  "ISREFID": [
+    "IS"
+  ],
+  "ISRFTDTC": [
+    "IS"
+  ],
+  "ISSCAT": [
+    "IS"
+  ],
+  "ISSEQ": [
+    "IS"
+  ],
+  "ISSPCCND": [
+    "IS"
+  ],
+  "ISSPCUFL": [
+    "IS"
+  ],
+  "ISSPEC": [
+    "IS"
+  ],
+  "ISSPID": [
+    "IS"
+  ],
+  "ISSTAT": [
+    "IS"
+  ],
+  "ISSTNRC": [
+    "IS"
+  ],
+  "ISSTNRHI": [
+    "IS"
+  ],
+  "ISSTNRLO": [
+    "IS"
+  ],
+  "ISSTRESC": [
+    "IS"
+  ],
+  "ISSTRESN": [
+    "IS"
+  ],
+  "ISSTRESU": [
+    "IS"
+  ],
+  "ISTEST": [
+    "IS"
+  ],
+  "ISTESTCD": [
+    "IS"
+  ],
+  "ISTPT": [
+    "IS"
+  ],
+  "ISTPTNUM": [
+    "IS"
+  ],
+  "ISTPTREF": [
+    "IS"
+  ],
+  "ISTSTCND": [
+    "IS"
+  ],
+  "ISTSTDTL": [
+    "IS"
+  ],
+  "ISTSTOPO": [
+    "IS"
+  ],
+  "LBANMETH": [
+    "LB"
+  ],
+  "LBBDAGNT": [
+    "LB"
+  ],
+  "LBBLFL": [
+    "LB"
+  ],
+  "LBCAT": [
+    "LB"
+  ],
+  "LBCLSIG": [
+    "LB"
+  ],
+  "LBCOLSRT": [
+    "LB"
+  ],
+  "LBDRVFL": [
+    "LB"
+  ],
+  "LBDTC": [
+    "LB"
+  ],
+  "LBDY": [
+    "LB"
+  ],
+  "LBELTM": [
+    "LB"
+  ],
+  "LBENDTC": [
+    "LB"
+  ],
+  "LBENDY": [
+    "LB"
+  ],
+  "LBFAST": [
+    "LB"
+  ],
+  "LBGRPID": [
+    "LB"
+  ],
+  "LBLLOD": [
+    "LB"
+  ],
+  "LBLOBXFL": [
+    "LB"
+  ],
+  "LBLOINC": [
+    "LB"
+  ],
+  "LBMETHOD": [
+    "LB"
+  ],
+  "LBNAM": [
+    "LB"
+  ],
+  "LBNRIND": [
+    "LB"
+  ],
+  "LBORNRHI": [
+    "LB"
+  ],
+  "LBORNRLO": [
+    "LB"
+  ],
+  "LBORRES": [
+    "LB"
+  ],
+  "LBORRESU": [
+    "LB"
+  ],
+  "LBPDUR": [
+    "LB"
+  ],
+  "LBPTFL": [
+    "LB"
+  ],
+  "LBREASND": [
+    "LB"
+  ],
+  "LBREFID": [
+    "LB"
+  ],
+  "LBRESSCL": [
+    "LB"
+  ],
+  "LBRESTYP": [
+    "LB"
+  ],
+  "LBRFTDTC": [
+    "LB"
+  ],
+  "LBSCAT": [
+    "LB"
+  ],
+  "LBSEQ": [
+    "LB"
+  ],
+  "LBSPCCND": [
+    "LB"
+  ],
+  "LBSPCUFL": [
+    "LB"
+  ],
+  "LBSPEC": [
+    "LB"
+  ],
+  "LBSPID": [
+    "LB"
+  ],
+  "LBSTAT": [
+    "LB"
+  ],
+  "LBSTNRC": [
+    "LB"
+  ],
+  "LBSTNRHI": [
+    "LB"
+  ],
+  "LBSTNRLO": [
+    "LB"
+  ],
+  "LBSTRESC": [
+    "LB"
+  ],
+  "LBSTRESN": [
+    "LB"
+  ],
+  "LBSTRESU": [
+    "LB"
+  ],
+  "LBTEST": [
+    "LB"
+  ],
+  "LBTESTCD": [
+    "LB"
+  ],
+  "LBTMTHSN": [
+    "LB"
+  ],
+  "LBTOX": [
+    "LB"
+  ],
+  "LBTOXGR": [
+    "LB"
+  ],
+  "LBTPT": [
+    "LB"
+  ],
+  "LBTPTNUM": [
+    "LB"
+  ],
+  "LBTPTREF": [
+    "LB"
+  ],
+  "LBTSTCND": [
+    "LB"
+  ],
+  "LBTSTOPO": [
+    "LB"
+  ],
+  "LEVEL": [
+    "RELSPEC"
+  ],
+  "MBBLFL": [
+    "MB"
+  ],
+  "MBCAT": [
+    "MB"
+  ],
+  "MBDIR": [
+    "MB"
+  ],
+  "MBDRVFL": [
+    "MB"
+  ],
+  "MBDTC": [
+    "MB"
+  ],
+  "MBDY": [
+    "MB"
+  ],
+  "MBELTM": [
+    "MB"
+  ],
+  "MBFAST": [
+    "MB"
+  ],
+  "MBGRPID": [
+    "MB"
+  ],
+  "MBLAT": [
+    "MB"
+  ],
+  "MBLNKGRP": [
+    "MB"
+  ],
+  "MBLNKID": [
+    "MB"
+  ],
+  "MBLOBXFL": [
+    "MB"
+  ],
+  "MBLOC": [
+    "MB"
+  ],
+  "MBLOINC": [
+    "MB"
+  ],
+  "MBMETHOD": [
+    "MB"
+  ],
+  "MBNAM": [
+    "MB"
+  ],
+  "MBORRES": [
+    "MB"
+  ],
+  "MBORRESU": [
+    "MB"
+  ],
+  "MBREASND": [
+    "MB"
+  ],
+  "MBREFID": [
+    "MB"
+  ],
+  "MBRESCAT": [
+    "MB"
+  ],
+  "MBRFTDTC": [
+    "MB"
+  ],
+  "MBSCAT": [
+    "MB"
+  ],
+  "MBSEQ": [
+    "MB"
+  ],
+  "MBSPCCND": [
+    "MB"
+  ],
+  "MBSPEC": [
+    "MB"
+  ],
+  "MBSPID": [
+    "MB"
+  ],
+  "MBSTAT": [
+    "MB"
+  ],
+  "MBSTRESC": [
+    "MB"
+  ],
+  "MBSTRESN": [
+    "MB"
+  ],
+  "MBSTRESU": [
+    "MB"
+  ],
+  "MBTEST": [
+    "MB"
+  ],
+  "MBTESTCD": [
+    "MB"
+  ],
+  "MBTPT": [
+    "MB"
+  ],
+  "MBTPTNUM": [
+    "MB"
+  ],
+  "MBTPTREF": [
+    "MB"
+  ],
+  "MBTSTDTL": [
+    "MB"
+  ],
+  "MHBODSYS": [
+    "MH"
+  ],
+  "MHCAT": [
+    "MH"
+  ],
+  "MHDECOD": [
+    "MH"
+  ],
+  "MHDTC": [
+    "MH"
+  ],
+  "MHDY": [
+    "MH"
+  ],
+  "MHENDTC": [
+    "MH"
+  ],
+  "MHENRF": [
+    "MH"
+  ],
+  "MHENRTPT": [
+    "MH"
+  ],
+  "MHENTPT": [
+    "MH"
+  ],
+  "MHEVDTYP": [
+    "MH"
+  ],
+  "MHGRPID": [
+    "MH"
+  ],
+  "MHMODIFY": [
+    "MH"
+  ],
+  "MHOCCUR": [
+    "MH"
+  ],
+  "MHPRESP": [
+    "MH"
+  ],
+  "MHREASND": [
+    "MH"
+  ],
+  "MHREFID": [
+    "MH"
+  ],
+  "MHSCAT": [
+    "MH"
+  ],
+  "MHSEQ": [
+    "MH"
+  ],
+  "MHSPID": [
+    "MH"
+  ],
+  "MHSTAT": [
+    "MH"
+  ],
+  "MHSTDTC": [
+    "MH"
+  ],
+  "MHTERM": [
+    "MH"
+  ],
+  "MIBLFL": [
+    "MI"
+  ],
+  "MICAT": [
+    "MI"
+  ],
+  "MIDIR": [
+    "MI"
+  ],
+  "MIDS": [
+    "ML",
+    "SM"
+  ],
+  "MIDSDTC": [
+    "ML"
+  ],
+  "MIDSTYPE": [
+    "SM",
+    "TM"
+  ],
+  "MIDTC": [
+    "MI"
+  ],
+  "MIDY": [
+    "MI"
+  ],
+  "MIEVAL": [
+    "MI"
+  ],
+  "MIGRPID": [
+    "MI"
+  ],
+  "MILAT": [
+    "MI"
+  ],
+  "MILOBXFL": [
+    "MI"
+  ],
+  "MILOC": [
+    "MI"
+  ],
+  "MIMETHOD": [
+    "MI"
+  ],
+  "MINAM": [
+    "MI"
+  ],
+  "MIORRES": [
+    "MI"
+  ],
+  "MIORRESU": [
+    "MI"
+  ],
+  "MIREASND": [
+    "MI"
+  ],
+  "MIREFID": [
+    "MI"
+  ],
+  "MIRESCAT": [
+    "MI"
+  ],
+  "MISCAT": [
+    "MI"
+  ],
+  "MISEQ": [
+    "MI"
+  ],
+  "MISPCCND": [
+    "MI"
+  ],
+  "MISPEC": [
+    "MI"
+  ],
+  "MISPID": [
+    "MI"
+  ],
+  "MISTAT": [
+    "MI"
+  ],
+  "MISTRESC": [
+    "MI"
+  ],
+  "MISTRESN": [
+    "MI"
+  ],
+  "MISTRESU": [
+    "MI"
+  ],
+  "MITEST": [
+    "MI"
+  ],
+  "MITESTCD": [
+    "MI"
+  ],
+  "MITSTDTL": [
+    "MI"
+  ],
+  "MKBLFL": [
+    "MK"
+  ],
+  "MKCAT": [
+    "MK"
+  ],
+  "MKDIR": [
+    "MK"
+  ],
+  "MKDRVFL": [
+    "MK"
+  ],
+  "MKDTC": [
+    "MK"
+  ],
+  "MKDY": [
+    "MK"
+  ],
+  "MKELTM": [
+    "MK"
+  ],
+  "MKEVAL": [
+    "MK"
+  ],
+  "MKEVALID": [
+    "MK"
+  ],
+  "MKGRPID": [
+    "MK"
+  ],
+  "MKLAT": [
+    "MK"
+  ],
+  "MKLNKGRP": [
+    "MK"
+  ],
+  "MKLNKID": [
+    "MK"
+  ],
+  "MKLOBXFL": [
+    "MK"
+  ],
+  "MKLOC": [
+    "MK"
+  ],
+  "MKMETHOD": [
+    "MK"
+  ],
+  "MKORRES": [
+    "MK"
+  ],
+  "MKORRESU": [
+    "MK"
+  ],
+  "MKPOS": [
+    "MK"
+  ],
+  "MKREASND": [
+    "MK"
+  ],
+  "MKREFID": [
+    "MK"
+  ],
+  "MKRFTDTC": [
+    "MK"
+  ],
+  "MKSCAT": [
+    "MK"
+  ],
+  "MKSEQ": [
+    "MK"
+  ],
+  "MKSPID": [
+    "MK"
+  ],
+  "MKSTAT": [
+    "MK"
+  ],
+  "MKSTRESC": [
+    "MK"
+  ],
+  "MKSTRESN": [
+    "MK"
+  ],
+  "MKSTRESU": [
+    "MK"
+  ],
+  "MKTEST": [
+    "MK"
+  ],
+  "MKTESTCD": [
+    "MK"
+  ],
+  "MKTPT": [
+    "MK"
+  ],
+  "MKTPTNUM": [
+    "MK"
+  ],
+  "MKTPTREF": [
+    "MK"
+  ],
+  "MLCAT": [
+    "ML"
+  ],
+  "MLDOSE": [
+    "ML"
+  ],
+  "MLDOSFRM": [
+    "ML"
+  ],
+  "MLDOSTXT": [
+    "ML"
+  ],
+  "MLDOSU": [
+    "ML"
+  ],
+  "MLDTC": [
+    "ML"
+  ],
+  "MLDUR": [
+    "ML"
+  ],
+  "MLDY": [
+    "ML"
+  ],
+  "MLELTM": [
+    "ML"
+  ],
+  "MLENDTC": [
+    "ML"
+  ],
+  "MLENDY": [
+    "ML"
+  ],
+  "MLGRPID": [
+    "ML"
+  ],
+  "MLOCCUR": [
+    "ML"
+  ],
+  "MLPRESP": [
+    "ML"
+  ],
+  "MLREASND": [
+    "ML"
+  ],
+  "MLRFTDTC": [
+    "ML"
+  ],
+  "MLSCAT": [
+    "ML"
+  ],
+  "MLSEQ": [
+    "ML"
+  ],
+  "MLSPID": [
+    "ML"
+  ],
+  "MLSTAT": [
+    "ML"
+  ],
+  "MLSTDTC": [
+    "ML"
+  ],
+  "MLSTDY": [
+    "ML"
+  ],
+  "MLTPT": [
+    "ML"
+  ],
+  "MLTPTNUM": [
+    "ML"
+  ],
+  "MLTPTREF": [
+    "ML"
+  ],
+  "MLTRT": [
+    "ML"
+  ],
+  "MSACPTFL": [
+    "MS"
+  ],
+  "MSAGENT": [
+    "MS"
+  ],
+  "MSANMETH": [
+    "MS"
+  ],
+  "MSBLFL": [
+    "MS"
+  ],
+  "MSCAT": [
+    "MS"
+  ],
+  "MSCONC": [
+    "MS"
+  ],
+  "MSCONCU": [
+    "MS"
+  ],
+  "MSDIR": [
+    "MS"
+  ],
+  "MSDRVFL": [
+    "MS"
+  ],
+  "MSDTC": [
+    "MS"
+  ],
+  "MSDUR": [
+    "MS"
+  ],
+  "MSDY": [
+    "MS"
+  ],
+  "MSELTM": [
+    "MS"
+  ],
+  "MSEVAL": [
+    "MS"
+  ],
+  "MSEVALID": [
+    "MS"
+  ],
+  "MSEVINTX": [
+    "MS"
+  ],
+  "MSEVLINT": [
+    "MS"
+  ],
+  "MSFAST": [
+    "MS"
+  ],
+  "MSGRPID": [
+    "MS"
+  ],
+  "MSLAT": [
+    "MS"
+  ],
+  "MSLLOQ": [
+    "MS"
+  ],
+  "MSLNKID": [
+    "MS"
+  ],
+  "MSLOBXFL": [
+    "MS"
+  ],
+  "MSLOC": [
+    "MS"
+  ],
+  "MSLOINC": [
+    "MS"
+  ],
+  "MSMETHOD": [
+    "MS"
+  ],
+  "MSNAM": [
+    "MS"
+  ],
+  "MSNRIND": [
+    "MS"
+  ],
+  "MSORRES": [
+    "MS"
+  ],
+  "MSORRESU": [
+    "MS"
+  ],
+  "MSREASND": [
+    "MS"
+  ],
+  "MSREFID": [
+    "MS"
+  ],
+  "MSREPNUM": [
+    "MS"
+  ],
+  "MSRESCAT": [
+    "MS"
+  ],
+  "MSRFTDTC": [
+    "MS"
+  ],
+  "MSSCAT": [
+    "MS"
+  ],
+  "MSSEQ": [
+    "MS"
+  ],
+  "MSSPCCND": [
+    "MS"
+  ],
+  "MSSPEC": [
+    "MS"
+  ],
+  "MSSPID": [
+    "MS"
+  ],
+  "MSSTAT": [
+    "MS"
+  ],
+  "MSSTRESC": [
+    "MS"
+  ],
+  "MSSTRESN": [
+    "MS"
+  ],
+  "MSSTRESU": [
+    "MS"
+  ],
+  "MSTEST": [
+    "MS"
+  ],
+  "MSTESTCD": [
+    "MS"
+  ],
+  "MSTPT": [
+    "MS"
+  ],
+  "MSTPTNUM": [
+    "MS"
+  ],
+  "MSTPTREF": [
+    "MS"
+  ],
+  "MSTSTDTL": [
+    "MS"
+  ],
+  "MSULOQ": [
+    "MS"
+  ],
+  "MSXFN": [
+    "MS"
+  ],
+  "NHOID": [
+    "MS",
+    "GF",
+    "OI",
+    "IS"
+  ],
+  "NVBLFL": [
+    "NV"
+  ],
+  "NVCAT": [
+    "NV"
+  ],
+  "NVDIR": [
+    "NV"
+  ],
+  "NVDRVFL": [
+    "NV"
+  ],
+  "NVDTC": [
+    "NV"
+  ],
+  "NVDY": [
+    "NV"
+  ],
+  "NVELTM": [
+    "NV"
+  ],
+  "NVEVAL": [
+    "NV"
+  ],
+  "NVEVALID": [
+    "NV"
+  ],
+  "NVGRPID": [
+    "NV"
+  ],
+  "NVLAT": [
+    "NV"
+  ],
+  "NVLNKGRP": [
+    "NV"
+  ],
+  "NVLNKID": [
+    "NV"
+  ],
+  "NVLOBXFL": [
+    "NV"
+  ],
+  "NVLOC": [
+    "NV"
+  ],
+  "NVMETHOD": [
+    "NV"
+  ],
+  "NVORRES": [
+    "NV"
+  ],
+  "NVORRESU": [
+    "NV"
+  ],
+  "NVREASND": [
+    "NV"
+  ],
+  "NVREFID": [
+    "NV"
+  ],
+  "NVRFTDTC": [
+    "NV"
+  ],
+  "NVSCAT": [
+    "NV"
+  ],
+  "NVSEQ": [
+    "NV"
+  ],
+  "NVSPID": [
+    "NV"
+  ],
+  "NVSTAT": [
+    "NV"
+  ],
+  "NVSTRESC": [
+    "NV"
+  ],
+  "NVSTRESN": [
+    "NV"
+  ],
+  "NVSTRESU": [
+    "NV"
+  ],
+  "NVTEST": [
+    "NV"
+  ],
+  "NVTESTCD": [
+    "NV"
+  ],
+  "NVTPT": [
+    "NV"
+  ],
+  "NVTPTNUM": [
+    "NV"
+  ],
+  "NVTPTREF": [
+    "NV"
+  ],
+  "OEACPTFL": [
+    "OE"
+  ],
+  "OEBLFL": [
+    "OE"
+  ],
+  "OECAT": [
+    "OE"
+  ],
+  "OEDIR": [
+    "OE"
+  ],
+  "OEDRVFL": [
+    "OE"
+  ],
+  "OEDTC": [
+    "OE"
+  ],
+  "OEDY": [
+    "OE"
+  ],
+  "OEELTM": [
+    "OE"
+  ],
+  "OEEVAL": [
+    "OE"
+  ],
+  "OEEVALID": [
+    "OE"
+  ],
+  "OEGRPID": [
+    "OE"
+  ],
+  "OELAT": [
+    "OE"
+  ],
+  "OELNKGRP": [
+    "OE"
+  ],
+  "OELNKID": [
+    "OE"
+  ],
+  "OELOBXFL": [
+    "OE"
+  ],
+  "OELOC": [
+    "OE"
+  ],
+  "OEMETHOD": [
+    "OE"
+  ],
+  "OENRIND": [
+    "OE"
+  ],
+  "OEORNRHI": [
+    "OE"
+  ],
+  "OEORNRLO": [
+    "OE"
+  ],
+  "OEORRES": [
+    "OE"
+  ],
+  "OEORRESU": [
+    "OE"
+  ],
+  "OEPORTOT": [
+    "OE"
+  ],
+  "OEREASND": [
+    "OE"
+  ],
+  "OEREPNUM": [
+    "OE"
+  ],
+  "OERESCAT": [
+    "OE"
+  ],
+  "OERFTDTC": [
+    "OE"
+  ],
+  "OESCAT": [
+    "OE"
+  ],
+  "OESEQ": [
+    "OE"
+  ],
+  "OESTAT": [
+    "OE"
+  ],
+  "OESTNRC": [
+    "OE"
+  ],
+  "OESTNRHI": [
+    "OE"
+  ],
+  "OESTNRLO": [
+    "OE"
+  ],
+  "OESTRESC": [
+    "OE"
+  ],
+  "OESTRESN": [
+    "OE"
+  ],
+  "OESTRESU": [
+    "OE"
+  ],
+  "OETEST": [
+    "OE"
+  ],
+  "OETESTCD": [
+    "OE"
+  ],
+  "OETPT": [
+    "OE"
+  ],
+  "OETPTNUM": [
+    "OE"
+  ],
+  "OETPTREF": [
+    "OE"
+  ],
+  "OETSTDTL": [
+    "OE"
+  ],
+  "OEXFN": [
+    "OE"
+  ],
+  "OIPARM": [
+    "OI"
+  ],
+  "OIPARMCD": [
+    "OI"
+  ],
+  "OISEQ": [
+    "OI"
+  ],
+  "OIVAL": [
+    "OI"
+  ],
+  "PARENT": [
+    "RELSPEC"
+  ],
+  "PCCAT": [
+    "PC"
+  ],
+  "PCDRVFL": [
+    "PC"
+  ],
+  "PCDTC": [
+    "PC"
+  ],
+  "PCDY": [
+    "PC"
+  ],
+  "PCELTM": [
+    "PC"
+  ],
+  "PCENDTC": [
+    "PC"
+  ],
+  "PCENDY": [
+    "PC"
+  ],
+  "PCEVLINT": [
+    "PC"
+  ],
+  "PCFAST": [
+    "PC"
+  ],
+  "PCGRPID": [
+    "PC"
+  ],
+  "PCLLOQ": [
+    "PC"
+  ],
+  "PCMETHOD": [
+    "PC"
+  ],
+  "PCNAM": [
+    "PC"
+  ],
+  "PCORRES": [
+    "PC"
+  ],
+  "PCORRESU": [
+    "PC"
+  ],
+  "PCREASND": [
+    "PC"
+  ],
+  "PCREFID": [
+    "PC"
+  ],
+  "PCRFTDTC": [
+    "PC"
+  ],
+  "PCSCAT": [
+    "PC"
+  ],
+  "PCSEQ": [
+    "PC"
+  ],
+  "PCSPCCND": [
+    "PC"
+  ],
+  "PCSPEC": [
+    "PC"
+  ],
+  "PCSPID": [
+    "PC"
+  ],
+  "PCSTAT": [
+    "PC"
+  ],
+  "PCSTRESC": [
+    "PC"
+  ],
+  "PCSTRESN": [
+    "PC"
+  ],
+  "PCSTRESU": [
+    "PC"
+  ],
+  "PCTEST": [
+    "PC"
+  ],
+  "PCTESTCD": [
+    "PC"
+  ],
+  "PCTPT": [
+    "PC"
+  ],
+  "PCTPTNUM": [
+    "PC"
+  ],
+  "PCTPTREF": [
+    "PC"
+  ],
+  "PCULOQ": [
+    "PC"
+  ],
+  "PEBLFL": [
+    "PE"
+  ],
+  "PEBODSYS": [
+    "PE"
+  ],
+  "PECAT": [
+    "PE"
+  ],
+  "PEDTC": [
+    "PE"
+  ],
+  "PEDY": [
+    "PE"
+  ],
+  "PEEVAL": [
+    "PE"
+  ],
+  "PEGRPID": [
+    "PE"
+  ],
+  "PELAT": [
+    "PE"
+  ],
+  "PELOBXFL": [
+    "PE"
+  ],
+  "PELOC": [
+    "PE"
+  ],
+  "PEMETHOD": [
+    "PE"
+  ],
+  "PEMODIFY": [
+    "PE"
+  ],
+  "PEORRES": [
+    "PE"
+  ],
+  "PEORRESU": [
+    "PE"
+  ],
+  "PEREASND": [
+    "PE"
+  ],
+  "PESCAT": [
+    "PE"
+  ],
+  "PESEQ": [
+    "PE"
+  ],
+  "PESPID": [
+    "PE"
+  ],
+  "PESTAT": [
+    "PE"
+  ],
+  "PESTRESC": [
+    "PE"
+  ],
+  "PETEST": [
+    "PE"
+  ],
+  "PETESTCD": [
+    "PE"
+  ],
+  "POOLID": [
+    "RELSUB"
+  ],
+  "PPANMETH": [
+    "PP"
+  ],
+  "PPCAT": [
+    "PP"
+  ],
+  "PPDTC": [
+    "PP"
+  ],
+  "PPDY": [
+    "PP"
+  ],
+  "PPENINT": [
+    "PP"
+  ],
+  "PPGRPID": [
+    "PP"
+  ],
+  "PPORRES": [
+    "PP"
+  ],
+  "PPORRESU": [
+    "PP"
+  ],
+  "PPREASND": [
+    "PP"
+  ],
+  "PPRFTDTC": [
+    "PP"
+  ],
+  "PPSCAT": [
+    "PP"
+  ],
+  "PPSEQ": [
+    "PP"
+  ],
+  "PPSPEC": [
+    "PP"
+  ],
+  "PPSTAT": [
+    "PP"
+  ],
+  "PPSTINT": [
+    "PP"
+  ],
+  "PPSTRESC": [
+    "PP"
+  ],
+  "PPSTRESN": [
+    "PP"
+  ],
+  "PPSTRESU": [
+    "PP"
+  ],
+  "PPTEST": [
+    "PP"
+  ],
+  "PPTESTCD": [
+    "PP"
+  ],
+  "PPTPTREF": [
+    "PP"
+  ],
+  "PRCAT": [
+    "PR"
+  ],
+  "PRDECOD": [
+    "PR"
+  ],
+  "PRDIR": [
+    "PR"
+  ],
+  "PRDOSE": [
+    "PR"
+  ],
+  "PRDOSFRM": [
+    "PR"
+  ],
+  "PRDOSFRQ": [
+    "PR"
+  ],
+  "PRDOSRGM": [
+    "PR"
+  ],
+  "PRDOSTXT": [
+    "PR"
+  ],
+  "PRDOSU": [
+    "PR"
+  ],
+  "PRDUR": [
+    "PR"
+  ],
+  "PRELTM": [
+    "PR"
+  ],
+  "PRENDTC": [
+    "PR"
+  ],
+  "PRENDY": [
+    "PR"
+  ],
+  "PRENRTPT": [
+    "PR"
+  ],
+  "PRENTPT": [
+    "PR"
+  ],
+  "PRGRPID": [
+    "PR"
+  ],
+  "PRINDC": [
+    "PR"
+  ],
+  "PRLAT": [
+    "PR"
+  ],
+  "PRLNKGRP": [
+    "PR"
+  ],
+  "PRLNKID": [
+    "PR"
+  ],
+  "PRLOC": [
+    "PR"
+  ],
+  "PROCCUR": [
+    "PR"
+  ],
+  "PRPORTOT": [
+    "PR"
+  ],
+  "PRPRESP": [
+    "PR"
+  ],
+  "PRRFTDTC": [
+    "PR"
+  ],
+  "PRROUTE": [
+    "PR"
+  ],
+  "PRSCAT": [
+    "PR"
+  ],
+  "PRSEQ": [
+    "PR"
+  ],
+  "PRSPID": [
+    "PR"
+  ],
+  "PRSTDTC": [
+    "PR"
+  ],
+  "PRSTDY": [
+    "PR"
+  ],
+  "PRSTRTPT": [
+    "PR"
+  ],
+  "PRSTTPT": [
+    "PR"
+  ],
+  "PRTPT": [
+    "PR"
+  ],
+  "PRTPTNUM": [
+    "PR"
+  ],
+  "PRTPTREF": [
+    "PR"
+  ],
+  "PRTRT": [
+    "PR"
+  ],
+  "QEVAL": [
+    "SUPPQUAL"
+  ],
+  "QLABEL": [
+    "SUPPQUAL"
+  ],
+  "QNAM": [
+    "SUPPQUAL"
+  ],
+  "QORIG": [
+    "SUPPQUAL"
+  ],
+  "QSBLFL": [
+    "QS"
+  ],
+  "QSCAT": [
+    "QS"
+  ],
+  "QSDRVFL": [
+    "QS"
+  ],
+  "QSDTC": [
+    "QS"
+  ],
+  "QSDY": [
+    "QS"
+  ],
+  "QSELTM": [
+    "QS"
+  ],
+  "QSEVINTX": [
+    "QS"
+  ],
+  "QSEVLINT": [
+    "QS"
+  ],
+  "QSGRPID": [
+    "QS"
+  ],
+  "QSLOBXFL": [
+    "QS"
+  ],
+  "QSMETHOD": [
+    "QS"
+  ],
+  "QSORRES": [
+    "QS"
+  ],
+  "QSORRESU": [
+    "QS"
+  ],
+  "QSREASND": [
+    "QS"
+  ],
+  "QSRFTDTC": [
+    "QS"
+  ],
+  "QSSCAT": [
+    "QS"
+  ],
+  "QSSEQ": [
+    "QS"
+  ],
+  "QSSPID": [
+    "QS"
+  ],
+  "QSSTAT": [
+    "QS"
+  ],
+  "QSSTRESC": [
+    "QS"
+  ],
+  "QSSTRESN": [
+    "QS"
+  ],
+  "QSSTRESU": [
+    "QS"
+  ],
+  "QSTEST": [
+    "QS"
+  ],
+  "QSTESTCD": [
+    "QS"
+  ],
+  "QSTPT": [
+    "QS"
+  ],
+  "QSTPTNUM": [
+    "QS"
+  ],
+  "QSTPTREF": [
+    "QS"
+  ],
+  "QVAL": [
+    "SUPPQUAL"
+  ],
+  "RACE": [
+    "DM"
+  ],
+  "RDOMAIN": [
+    "CO",
+    "RELREC",
+    "SUPPQUAL"
+  ],
+  "REBLFL": [
+    "RE"
+  ],
+  "RECAT": [
+    "RE"
+  ],
+  "REDIR": [
+    "RE"
+  ],
+  "REDRVFL": [
+    "RE"
+  ],
+  "REDTC": [
+    "RE"
+  ],
+  "REDY": [
+    "RE"
+  ],
+  "REELTM": [
+    "RE"
+  ],
+  "REEVAL": [
+    "RE"
+  ],
+  "REEVALID": [
+    "RE"
+  ],
+  "REFID": [
+    "RELSPEC"
+  ],
+  "REGRPID": [
+    "RE"
+  ],
+  "RELAT": [
+    "RE"
+  ],
+  "RELID": [
+    "RELREC"
+  ],
+  "RELMIDS": [
+    "ML"
+  ],
+  "RELNKGRP": [
+    "RE"
+  ],
+  "RELNKID": [
+    "RE"
+  ],
+  "RELOBXFL": [
+    "RE"
+  ],
+  "RELOC": [
+    "RE"
+  ],
+  "RELTYPE": [
+    "RELREC"
+  ],
+  "REMETHOD": [
+    "RE"
+  ],
+  "REORREF": [
+    "RE"
+  ],
+  "REORRES": [
+    "RE"
+  ],
+  "REORRESU": [
+    "RE"
+  ],
+  "REPOS": [
+    "RE"
+  ],
+  "REREASND": [
+    "RE"
+  ],
+  "REREFID": [
+    "RE"
+  ],
+  "REREPNUM": [
+    "RE"
+  ],
+  "RERFTDTC": [
+    "RE"
+  ],
+  "RESCAT": [
+    "RE"
+  ],
+  "RESEQ": [
+    "RE"
+  ],
+  "RESPID": [
+    "RE"
+  ],
+  "RESTAT": [
+    "RE"
+  ],
+  "RESTREFC": [
+    "RE"
+  ],
+  "RESTREFN": [
+    "RE"
+  ],
+  "RESTRESC": [
+    "RE"
+  ],
+  "RESTRESN": [
+    "RE"
+  ],
+  "RESTRESU": [
+    "RE"
+  ],
+  "RETEST": [
+    "RE"
+  ],
+  "RETESTCD": [
+    "RE"
+  ],
+  "RETPT": [
+    "RE"
+  ],
+  "RETPTNUM": [
+    "RE"
+  ],
+  "RETPTREF": [
+    "RE"
+  ],
+  "RFCENDTC": [
+    "DM"
+  ],
+  "RFCSTDTC": [
+    "DM"
+  ],
+  "RFENDTC": [
+    "DM"
+  ],
+  "RFICDTC": [
+    "DM"
+  ],
+  "RFPENDTC": [
+    "DM"
+  ],
+  "RFSTDTC": [
+    "DM"
+  ],
+  "RFXENDTC": [
+    "DM"
+  ],
+  "RFXSTDTC": [
+    "DM"
+  ],
+  "RPBLFL": [
+    "RP"
+  ],
+  "RPCAT": [
+    "RP"
+  ],
+  "RPDRVFL": [
+    "RP"
+  ],
+  "RPDTC": [
+    "RP"
+  ],
+  "RPDUR": [
+    "RP"
+  ],
+  "RPDY": [
+    "RP"
+  ],
+  "RPELTM": [
+    "RP"
+  ],
+  "RPGRPID": [
+    "RP"
+  ],
+  "RPLNKGRP": [
+    "RP"
+  ],
+  "RPLNKID": [
+    "RP"
+  ],
+  "RPLOBXFL": [
+    "RP"
+  ],
+  "RPORRES": [
+    "RP"
+  ],
+  "RPORRESU": [
+    "RP"
+  ],
+  "RPREASND": [
+    "RP"
+  ],
+  "RPREFID": [
+    "RP"
+  ],
+  "RPRFTDTC": [
+    "RP"
+  ],
+  "RPSCAT": [
+    "RP"
+  ],
+  "RPSEQ": [
+    "RP"
+  ],
+  "RPSPID": [
+    "RP"
+  ],
+  "RPSTAT": [
+    "RP"
+  ],
+  "RPSTRESC": [
+    "RP"
+  ],
+  "RPSTRESN": [
+    "RP"
+  ],
+  "RPSTRESU": [
+    "RP"
+  ],
+  "RPTEST": [
+    "RP"
+  ],
+  "RPTESTCD": [
+    "RP"
+  ],
+  "RPTPT": [
+    "RP"
+  ],
+  "RPTPTNUM": [
+    "RP"
+  ],
+  "RPTPTREF": [
+    "RP"
+  ],
+  "RSACPTFL": [
+    "RS"
+  ],
+  "RSBLFL": [
+    "RS"
+  ],
+  "RSCAT": [
+    "RS"
+  ],
+  "RSDRVFL": [
+    "RS"
+  ],
+  "RSDTC": [
+    "RS"
+  ],
+  "RSDY": [
+    "RS"
+  ],
+  "RSELTM": [
+    "RS"
+  ],
+  "RSENRTPT": [
+    "RS"
+  ],
+  "RSENTPT": [
+    "RS"
+  ],
+  "RSEVAL": [
+    "RS"
+  ],
+  "RSEVALID": [
+    "RS"
+  ],
+  "RSEVINTX": [
+    "RS"
+  ],
+  "RSEVLINT": [
+    "RS"
+  ],
+  "RSGRPID": [
+    "RS"
+  ],
+  "RSLNKGRP": [
+    "RS"
+  ],
+  "RSLNKID": [
+    "RS"
+  ],
+  "RSLOBXFL": [
+    "RS"
+  ],
+  "RSMETHOD": [
+    "RS"
+  ],
+  "RSNAM": [
+    "RS"
+  ],
+  "RSORRES": [
+    "RS"
+  ],
+  "RSORRESU": [
+    "RS"
+  ],
+  "RSREASND": [
+    "RS"
+  ],
+  "RSREFID": [
+    "RS"
+  ],
+  "RSRFTDTC": [
+    "RS"
+  ],
+  "RSSCAT": [
+    "RS"
+  ],
+  "RSSEQ": [
+    "RS"
+  ],
+  "RSSPID": [
+    "RS"
+  ],
+  "RSSTAT": [
+    "RS"
+  ],
+  "RSSTRESC": [
+    "RS"
+  ],
+  "RSSTRESN": [
+    "RS"
+  ],
+  "RSSTRESU": [
+    "RS"
+  ],
+  "RSSTRTPT": [
+    "RS"
+  ],
+  "RSSTTPT": [
+    "RS"
+  ],
+  "RSTEST": [
+    "RS"
+  ],
+  "RSTESTCD": [
+    "RS"
+  ],
+  "RSTPT": [
+    "RS"
+  ],
+  "RSTPTNUM": [
+    "RS"
+  ],
+  "RSTPTREF": [
+    "RS"
+  ],
+  "RSUBJID": [
+    "RELSUB"
+  ],
+  "SCCAT": [
+    "SC"
+  ],
+  "SCDTC": [
+    "SC"
+  ],
+  "SCDY": [
+    "SC"
+  ],
+  "SCGRPID": [
+    "SC"
+  ],
+  "SCORRES": [
+    "SC"
+  ],
+  "SCORRESU": [
+    "SC"
+  ],
+  "SCREASND": [
+    "SC"
+  ],
+  "SCSCAT": [
+    "SC"
+  ],
+  "SCSEQ": [
+    "SC"
+  ],
+  "SCSPID": [
+    "SC"
+  ],
+  "SCSTAT": [
+    "SC"
+  ],
+  "SCSTRESC": [
+    "SC"
+  ],
+  "SCSTRESN": [
+    "SC"
+  ],
+  "SCSTRESU": [
+    "SC"
+  ],
+  "SCTEST": [
+    "SC"
+  ],
+  "SCTESTCD": [
+    "SC"
+  ],
+  "SEENDTC": [
+    "SE"
+  ],
+  "SEENDY": [
+    "SE"
+  ],
+  "SESEQ": [
+    "SE"
+  ],
+  "SESTDTC": [
+    "SE"
+  ],
+  "SESTDY": [
+    "SE"
+  ],
+  "SEUPDES": [
+    "SE"
+  ],
+  "SEX": [
+    "DM"
+  ],
+  "SITEID": [
+    "DM"
+  ],
+  "SMENDTC": [
+    "SM"
+  ],
+  "SMENDY": [
+    "SM"
+  ],
+  "SMSEQ": [
+    "SM"
+  ],
+  "SMSTDTC": [
+    "SM"
+  ],
+  "SMSTDY": [
+    "SM"
+  ],
+  "SPDEVID": [
+    "GF",
+    "EG",
+    "RE",
+    "BS",
+    "AE",
+    "BE"
+  ],
+  "SPEC": [
+    "RELSPEC"
+  ],
+  "SRBLFL": [
+    "SR"
+  ],
+  "SRCAT": [
+    "SR"
+  ],
+  "SRDTC": [
+    "SR"
+  ],
+  "SRDY": [
+    "SR"
+  ],
+  "SREL": [
+    "RELSUB"
+  ],
+  "SRELTM": [
+    "SR"
+  ],
+  "SREVAL": [
+    "SR"
+  ],
+  "SRGRPID": [
+    "SR"
+  ],
+  "SRLAT": [
+    "SR"
+  ],
+  "SRLOBXFL": [
+    "SR"
+  ],
+  "SRLOC": [
+    "SR"
+  ],
+  "SRMETHOD": [
+    "SR"
+  ],
+  "SRNAM": [
+    "SR"
+  ],
+  "SROBJ": [
+    "SR"
+  ],
+  "SRORRES": [
+    "SR"
+  ],
+  "SRORRESU": [
+    "SR"
+  ],
+  "SRREASND": [
+    "SR"
+  ],
+  "SRREFID": [
+    "SR"
+  ],
+  "SRRFTDTC": [
+    "SR"
+  ],
+  "SRSCAT": [
+    "SR"
+  ],
+  "SRSEQ": [
+    "SR"
+  ],
+  "SRSPEC": [
+    "SR"
+  ],
+  "SRSPID": [
+    "SR"
+  ],
+  "SRSTAT": [
+    "SR"
+  ],
+  "SRSTRESC": [
+    "SR"
+  ],
+  "SRSTRESN": [
+    "SR"
+  ],
+  "SRSTRESU": [
+    "SR"
+  ],
+  "SRTEST": [
+    "SR"
+  ],
+  "SRTESTCD": [
+    "SR"
+  ],
+  "SRTPT": [
+    "SR"
+  ],
+  "SRTPTNUM": [
+    "SR"
+  ],
+  "SRTPTREF": [
+    "SR"
+  ],
+  "SSCAT": [
+    "SS"
+  ],
+  "SSDTC": [
+    "SS"
+  ],
+  "SSDY": [
+    "SS"
+  ],
+  "SSEVAL": [
+    "SS"
+  ],
+  "SSGRPID": [
+    "SS"
+  ],
+  "SSORRES": [
+    "SS"
+  ],
+  "SSREASND": [
+    "SS"
+  ],
+  "SSSCAT": [
+    "SS"
+  ],
+  "SSSEQ": [
+    "SS"
+  ],
+  "SSSPID": [
+    "SS"
+  ],
+  "SSSTAT": [
+    "SS"
+  ],
+  "SSSTRESC": [
+    "SS"
+  ],
+  "SSTEST": [
+    "SS"
+  ],
+  "SSTESTCD": [
+    "SS"
+  ],
+  "STUDYID": [
+    "DS",
+    "CO",
+    "DV",
+    "DM",
+    "UR",
+    "MB",
+    "TU",
+    "TD",
+    "MS",
+    "SC",
+    "TS",
+    "IE",
+    "BS",
+    "MK",
+    "RS",
+    "SV",
+    "PC",
+    "SU",
+    "ML",
+    "TA",
+    "CP",
+    "GF",
+    "RELSUB",
+    "MI",
+    "RP",
+    "EG",
+    "FT",
+    "EX",
+    "CE",
+    "MH",
+    "DA",
+    "QS",
+    "IS",
+    "RE",
+    "SS",
+    "OI",
+    "FA",
+    "TE",
+    "TM",
+    "SR",
+    "TI",
+    "AE",
+    "RELSPEC",
+    "CV",
+    "TR",
+    "PP",
+    "TV",
+    "AG",
+    "PR",
+    "VS",
+    "HO",
+    "OE",
+    "SM",
+    "LB",
+    "SUPPQUAL",
+    "SE",
+    "BE",
+    "NV",
+    "PE",
+    "RELREC",
+    "EC",
+    "DD",
+    "CM"
+  ],
+  "SUBJID": [
+    "DM"
+  ],
+  "SUCAT": [
+    "SU"
+  ],
+  "SUCLAS": [
+    "SU"
+  ],
+  "SUCLASCD": [
+    "SU"
+  ],
+  "SUDECOD": [
+    "SU"
+  ],
+  "SUDOSE": [
+    "SU"
+  ],
+  "SUDOSFRM": [
+    "SU"
+  ],
+  "SUDOSFRQ": [
+    "SU"
+  ],
+  "SUDOSTOT": [
+    "SU"
+  ],
+  "SUDOSTXT": [
+    "SU"
+  ],
+  "SUDOSU": [
+    "SU"
+  ],
+  "SUDUR": [
+    "SU"
+  ],
+  "SUENDTC": [
+    "SU"
+  ],
+  "SUENDY": [
+    "SU"
+  ],
+  "SUENRF": [
+    "SU"
+  ],
+  "SUENRTPT": [
+    "SU"
+  ],
+  "SUENTPT": [
+    "SU"
+  ],
+  "SUGRPID": [
+    "SU"
+  ],
+  "SUMODIFY": [
+    "SU"
+  ],
+  "SUOCCUR": [
+    "SU"
+  ],
+  "SUPRESP": [
+    "SU"
+  ],
+  "SUREASND": [
+    "SU"
+  ],
+  "SUROUTE": [
+    "SU"
+  ],
+  "SUSCAT": [
+    "SU"
+  ],
+  "SUSEQ": [
+    "SU"
+  ],
+  "SUSPID": [
+    "SU"
+  ],
+  "SUSTAT": [
+    "SU"
+  ],
+  "SUSTDTC": [
+    "SU"
+  ],
+  "SUSTDY": [
+    "SU"
+  ],
+  "SUSTRF": [
+    "SU"
+  ],
+  "SUSTRTPT": [
+    "SU"
+  ],
+  "SUSTTPT": [
+    "SU"
+  ],
+  "SUTRT": [
+    "SU"
+  ],
+  "SVCNTMOD": [
+    "SV"
+  ],
+  "SVENDTC": [
+    "SV"
+  ],
+  "SVENDY": [
+    "SV"
+  ],
+  "SVEPCHGI": [
+    "SV"
+  ],
+  "SVOCCUR": [
+    "SV"
+  ],
+  "SVPRESP": [
+    "SV"
+  ],
+  "SVREASOC": [
+    "SV"
+  ],
+  "SVSTDTC": [
+    "SV"
+  ],
+  "SVSTDY": [
+    "SV"
+  ],
+  "SVUPDES": [
+    "SV"
+  ],
+  "TABRANCH": [
+    "TA"
+  ],
+  "TAETORD": [
+    "DV",
+    "UR",
+    "MB",
+    "TU",
+    "MS",
+    "SC",
+    "IE",
+    "MK",
+    "RS",
+    "PC",
+    "SU",
+    "ML",
+    "TA",
+    "CP",
+    "MI",
+    "RP",
+    "EG",
+    "FT",
+    "EX",
+    "CE",
+    "MH",
+    "DA",
+    "QS",
+    "IS",
+    "RE",
+    "SS",
+    "FA",
+    "SR",
+    "AE",
+    "CV",
+    "TR",
+    "PP",
+    "AG",
+    "PR",
+    "VS",
+    "HO",
+    "OE",
+    "LB",
+    "SE",
+    "NV",
+    "PE",
+    "EC",
+    "CM"
+  ],
+  "TATRANS": [
+    "TA"
+  ],
+  "TDANCVAR": [
+    "TD"
+  ],
+  "TDMAXPAI": [
+    "TD"
+  ],
+  "TDMINPAI": [
+    "TD"
+  ],
+  "TDNUMRPT": [
+    "TD"
+  ],
+  "TDORDER": [
+    "TD"
+  ],
+  "TDSTOFF": [
+    "TD"
+  ],
+  "TDTGTPAI": [
+    "TD"
+  ],
+  "TEDUR": [
+    "TE"
+  ],
+  "TEENRL": [
+    "TE"
+  ],
+  "TESTRL": [
+    "TE"
+  ],
+  "TIRL": [
+    "TI"
+  ],
+  "TIVERS": [
+    "TI"
+  ],
+  "TMDEF": [
+    "TM"
+  ],
+  "TMRPT": [
+    "TM"
+  ],
+  "TRACPTFL": [
+    "TR"
+  ],
+  "TRBLFL": [
+    "TR"
+  ],
+  "TRDTC": [
+    "TR"
+  ],
+  "TRDY": [
+    "TR"
+  ],
+  "TREVAL": [
+    "TR"
+  ],
+  "TREVALID": [
+    "TR"
+  ],
+  "TRGRPID": [
+    "TR"
+  ],
+  "TRLNKGRP": [
+    "TR"
+  ],
+  "TRLNKID": [
+    "TR"
+  ],
+  "TRLOBXFL": [
+    "TR"
+  ],
+  "TRMETHOD": [
+    "TR"
+  ],
+  "TRNAM": [
+    "TR"
+  ],
+  "TRORRES": [
+    "TR"
+  ],
+  "TRORRESU": [
+    "TR"
+  ],
+  "TRREASND": [
+    "TR"
+  ],
+  "TRREFID": [
+    "TR"
+  ],
+  "TRSEQ": [
+    "TR"
+  ],
+  "TRSPID": [
+    "TR"
+  ],
+  "TRSTAT": [
+    "TR"
+  ],
+  "TRSTRESC": [
+    "TR"
+  ],
+  "TRSTRESN": [
+    "TR"
+  ],
+  "TRSTRESU": [
+    "TR"
+  ],
+  "TRTEST": [
+    "TR"
+  ],
+  "TRTESTCD": [
+    "TR"
+  ],
+  "TSGRPID": [
+    "TS"
+  ],
+  "TSPARM": [
+    "TS"
+  ],
+  "TSPARMCD": [
+    "TS"
+  ],
+  "TSSEQ": [
+    "TS"
+  ],
+  "TSVAL": [
+    "TS"
+  ],
+  "TSVALCD": [
+    "TS"
+  ],
+  "TSVALNF": [
+    "TS"
+  ],
+  "TSVCDREF": [
+    "TS"
+  ],
+  "TSVCDVER": [
+    "TS"
+  ],
+  "TUACPTFL": [
+    "TU"
+  ],
+  "TUBLFL": [
+    "TU"
+  ],
+  "TUDIR": [
+    "TU"
+  ],
+  "TUDTC": [
+    "TU"
+  ],
+  "TUDY": [
+    "TU"
+  ],
+  "TUEVAL": [
+    "TU"
+  ],
+  "TUEVALID": [
+    "TU"
+  ],
+  "TUGRPID": [
+    "TU"
+  ],
+  "TULAT": [
+    "TU"
+  ],
+  "TULNKGRP": [
+    "TU"
+  ],
+  "TULNKID": [
+    "TU"
+  ],
+  "TULOBXFL": [
+    "TU"
+  ],
+  "TULOC": [
+    "TU"
+  ],
+  "TUMETHOD": [
+    "TU"
+  ],
+  "TUNAM": [
+    "TU"
+  ],
+  "TUORRES": [
+    "TU"
+  ],
+  "TUPORTOT": [
+    "TU"
+  ],
+  "TUREFID": [
+    "TU"
+  ],
+  "TUSEQ": [
+    "TU"
+  ],
+  "TUSPID": [
+    "TU"
+  ],
+  "TUSTRESC": [
+    "TU"
+  ],
+  "TUTEST": [
+    "TU"
+  ],
+  "TUTESTCD": [
+    "TU"
+  ],
+  "TVENRL": [
+    "TV"
+  ],
+  "TVSTRL": [
+    "TV"
+  ],
+  "URBLFL": [
+    "UR"
+  ],
+  "URCAT": [
+    "UR"
+  ],
+  "URDIR": [
+    "UR"
+  ],
+  "URDRVFL": [
+    "UR"
+  ],
+  "URDTC": [
+    "UR"
+  ],
+  "URDY": [
+    "UR"
+  ],
+  "URELTM": [
+    "UR"
+  ],
+  "UREVAL": [
+    "UR"
+  ],
+  "UREVALID": [
+    "UR"
+  ],
+  "URGRPID": [
+    "UR"
+  ],
+  "URLAT": [
+    "UR"
+  ],
+  "URLNKGRP": [
+    "UR"
+  ],
+  "URLNKID": [
+    "UR"
+  ],
+  "URLOBXFL": [
+    "UR"
+  ],
+  "URLOC": [
+    "UR"
+  ],
+  "URMETHOD": [
+    "UR"
+  ],
+  "URORRES": [
+    "UR"
+  ],
+  "URORRESU": [
+    "UR"
+  ],
+  "URREASND": [
+    "UR"
+  ],
+  "URREFID": [
+    "UR"
+  ],
+  "URRESCAT": [
+    "UR"
+  ],
+  "URRFTDTC": [
+    "UR"
+  ],
+  "URSCAT": [
+    "UR"
+  ],
+  "URSEQ": [
+    "UR"
+  ],
+  "URSPID": [
+    "UR"
+  ],
+  "URSTAT": [
+    "UR"
+  ],
+  "URSTRESC": [
+    "UR"
+  ],
+  "URSTRESN": [
+    "UR"
+  ],
+  "URSTRESU": [
+    "UR"
+  ],
+  "URTEST": [
+    "UR"
+  ],
+  "URTESTCD": [
+    "UR"
+  ],
+  "URTPT": [
+    "UR"
+  ],
+  "URTPTNUM": [
+    "UR"
+  ],
+  "URTPTREF": [
+    "UR"
+  ],
+  "URTSTDTL": [
+    "UR"
+  ],
+  "USUBJID": [
+    "DS",
+    "CO",
+    "DV",
+    "DM",
+    "UR",
+    "MB",
+    "TU",
+    "MS",
+    "SC",
+    "IE",
+    "BS",
+    "MK",
+    "RS",
+    "SV",
+    "PC",
+    "SU",
+    "ML",
+    "CP",
+    "GF",
+    "RELSUB",
+    "MI",
+    "RP",
+    "EG",
+    "FT",
+    "EX",
+    "CE",
+    "MH",
+    "DA",
+    "QS",
+    "IS",
+    "RE",
+    "SS",
+    "FA",
+    "SR",
+    "AE",
+    "RELSPEC",
+    "CV",
+    "TR",
+    "PP",
+    "AG",
+    "PR",
+    "VS",
+    "HO",
+    "OE",
+    "SM",
+    "LB",
+    "SUPPQUAL",
+    "SE",
+    "BE",
+    "NV",
+    "PE",
+    "RELREC",
+    "EC",
+    "DD",
+    "CM"
+  ],
+  "VISIT": [
+    "UR",
+    "MB",
+    "TU",
+    "MS",
+    "SC",
+    "IE",
+    "BS",
+    "MK",
+    "RS",
+    "PC",
+    "ML",
+    "CP",
+    "GF",
+    "MI",
+    "RP",
+    "EG",
+    "FT",
+    "DA",
+    "RE",
+    "QS",
+    "SS",
+    "IS",
+    "FA",
+    "SR",
+    "CV",
+    "TR",
+    "TV",
+    "AG",
+    "PR",
+    "VS",
+    "OE",
+    "LB",
+    "BE",
+    "NV",
+    "PE",
+    "SV"
+  ],
+  "VISITDY": [
+    "UR",
+    "MB",
+    "TU",
+    "MS",
+    "SC",
+    "IE",
+    "BS",
+    "MK",
+    "RS",
+    "PC",
+    "ML",
+    "CP",
+    "GF",
+    "MI",
+    "RP",
+    "EG",
+    "FT",
+    "DA",
+    "RE",
+    "QS",
+    "SS",
+    "IS",
+    "FA",
+    "SR",
+    "CV",
+    "TR",
+    "TV",
+    "AG",
+    "PR",
+    "VS",
+    "OE",
+    "LB",
+    "BE",
+    "NV",
+    "PE",
+    "SV"
+  ],
+  "VISITNUM": [
+    "UR",
+    "MB",
+    "TU",
+    "MS",
+    "SC",
+    "IE",
+    "BS",
+    "MK",
+    "RS",
+    "PC",
+    "ML",
+    "CP",
+    "GF",
+    "MI",
+    "RP",
+    "EG",
+    "FT",
+    "DA",
+    "RE",
+    "QS",
+    "SS",
+    "IS",
+    "FA",
+    "SR",
+    "CV",
+    "TR",
+    "TV",
+    "AG",
+    "PR",
+    "VS",
+    "OE",
+    "LB",
+    "BE",
+    "NV",
+    "PE",
+    "SV"
+  ],
+  "VSBLFL": [
+    "VS"
+  ],
+  "VSCAT": [
+    "VS"
+  ],
+  "VSCLSIG": [
+    "VS"
+  ],
+  "VSDRVFL": [
+    "VS"
+  ],
+  "VSDTC": [
+    "VS"
+  ],
+  "VSDY": [
+    "VS"
+  ],
+  "VSELTM": [
+    "VS"
+  ],
+  "VSGRPID": [
+    "VS"
+  ],
+  "VSLAT": [
+    "VS"
+  ],
+  "VSLOBXFL": [
+    "VS"
+  ],
+  "VSLOC": [
+    "VS"
+  ],
+  "VSORRES": [
+    "VS"
+  ],
+  "VSORRESU": [
+    "VS"
+  ],
+  "VSPOS": [
+    "VS"
+  ],
+  "VSREASND": [
+    "VS"
+  ],
+  "VSRFTDTC": [
+    "VS"
+  ],
+  "VSSCAT": [
+    "VS"
+  ],
+  "VSSEQ": [
+    "VS"
+  ],
+  "VSSPID": [
+    "VS"
+  ],
+  "VSSTAT": [
+    "VS"
+  ],
+  "VSSTRESC": [
+    "VS"
+  ],
+  "VSSTRESN": [
+    "VS"
+  ],
+  "VSSTRESU": [
+    "VS"
+  ],
+  "VSTEST": [
+    "VS"
+  ],
+  "VSTESTCD": [
+    "VS"
+  ],
+  "VSTOX": [
+    "VS"
+  ],
+  "VSTOXGR": [
+    "VS"
+  ],
+  "VSTPT": [
+    "VS"
+  ],
+  "VSTPTNUM": [
+    "VS"
+  ],
+  "VSTPTREF": [
+    "VS"
+  ]
+}

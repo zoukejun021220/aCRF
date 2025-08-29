@@ -1,0 +1,82 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_045.json",
+  "page_id": 45,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "TVS Segment # (TREAT_SEG)\nPlease indicate the segment number from the Target Venous Segment form (TVS______). Please add the segment on the TVS form before proceeding with this form.",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.8,
+      "valid": false,
+      "requires_separate_annotations": false,
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Was the IVUS performed prior to the procedure? (PRE_IVUS)",
+      "annotation": "RSCAT = CLOT RETRIEVER when RSTESTCD = IVS | [NOT SUBMITTED]",
+      "domain": "RS",
+      "pattern": "conditional_single, not_submitted",
+      "confidence": 0.9,
+      "valid": true,
+      "requires_separate_annotations": true,
+      "question_annotation": "RSCAT = CLOT RETRIEVER when RSTESTCD = IVS",
+      "option_annotations": {
+        "Yes": "[NOT SUBMITTED]",
+        "No": "RSCAT = NOT DONE when RSTESTCD = IVS"
+      },
+      "form": "Procedure > Treatment",
+      "section": "Procedure > Treatment"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Presence of venous wall scar prior to the procedure (PRE_WS)",
+      "annotation": "RSPORRES when RSTESTCD = WS",
+      "domain": "RS",
+      "pattern": "conditional_single",
+      "confidence": 0.9,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Location of wall scar prior to the procedure (PRE_LOCWS)\n(select all that apply)",
+      "annotation": "More than more than one selected: RELOC = NL, NL, NL (Specific segments in SUPP values using the CHAM values SEGCH, SECH, SEGIL, SEGEL, SEGOF, SEGBF, SEGBF, SEGCAF, SEGBRO",
+      "domain": "RS, SUPPRS",
+      "pattern": "multiple_response_checkboxes, supplemental_multiple",
+      "confidence": 0.9,
+      "valid": true,
+      "requires_separate_annotations": true,
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "External compressions/obstructions prior to the procedure (PRE_COM)",
+      "annotation": "RSPORRES when RSTESTCD = COM",
+      "domain": "RS",
+      "pattern": "conditional_single",
+      "confidence": 0.9,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound"
+    }
+  ],
+  "summary": {
+    "total_items": 5,
+    "annotated": 5,
+    "not_submitted": 1,
+    "errors": 0
+  }
+}

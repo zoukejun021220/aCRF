@@ -1,0 +1,116 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_051.json",
+  "page_id": 51,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Side of access site (AC_SIDE)",
+      "annotation": "DUORRES when DUTESTCD = SIDE",
+      "domain": "DU",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site"
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Access site (AC_SITE)",
+      "annotation": "DUORRES when DUTESTCD = SITE",
+      "domain": "DU",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site"
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Access site, specify (AC_SITESP)",
+      "annotation": "DUORRES when DUTESTCD = SITE",
+      "domain": "DU",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site"
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Ultrasound guided access (AC_USG)",
+      "annotation": "DUORRES when DUTESTCD = USG",
+      "domain": "DU",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site"
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Access site closure (AC_SITECLOS)",
+      "annotation": "Question: DUTEST = Access Site Closure | If select, DUORRES = Y when DUTESTCD = CLOSMAF, CLOSMFL, CLOSOTFL | Option 'Manual': DUTEST = Access Site Closure - Manual | Option 'Stitch': DUTEST = Access Site Closure - Stitch | Option 'Closure device': DUTEST = Access Site Closure - Device | Option 'Other': DUTEST = Access Site Closure - Other",
+      "domain": "DU",
+      "pattern": "multiple_response_checkboxes, conditional_multiple",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": true,
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site"
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Closure device, specify (AC_CLOSDEV)",
+      "annotation": "DUORRES when DUTESTCD = CLOTDEV",
+      "domain": "DU",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site"
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Other closure, specify (AC_CLOSOT)",
+      "annotation": "DUORRES when DUTESTCD = CLOTOT",
+      "domain": "DU",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site"
+    },
+    {
+      "qid": "q-008",
+      "seq": 8,
+      "text": "Were there any access site complications? (AC_COMPLI)",
+      "annotation": "[NOT SUBMITTED]",
+      "domain": "DU",
+      "pattern": "not_submitted",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false,
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site"
+    }
+  ],
+  "summary": {
+    "total_items": 8,
+    "annotated": 8,
+    "not_submitted": 1,
+    "errors": 0
+  }
+}
