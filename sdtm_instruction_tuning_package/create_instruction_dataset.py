@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 """
 Create instruction tuning dataset for SDTM mapper
-Converts reference annotations into step-by-step instruction-response pairs
+Converts reference annotations into step-by-step instruction-response pairs.
+
+Now supports CLI overrides for KB, reference, CRF, and output directories, so you can
+point at an external reference set (e.g. /home/.../reference_with_sections).
 """
 
 import json
 import os
+import argparse
 from pathlib import Path
 from typing import Dict, List, Any, Tuple, Optional
 import random
@@ -527,23 +531,41 @@ Return the QNAM (8 chars max)."""
 
 
 def main():
-    # Paths - relative to package directory
+    # Defaults - relative to package directory
     script_dir = Path(__file__).parent
-    kb_path = script_dir / "kb" / "sdtmig_v3_4_complete"
-    reference_dir = script_dir / "data" / "reference"
-    crf_dir = script_dir / "data" / "crf_json"
-    output_dir = script_dir / "data"
-    
+    default_kb = script_dir / "kb" / "sdtmig_v3_4_complete"
+    default_reference = script_dir / "data" / "reference"
+    default_crf = script_dir / "data" / "crf_json"
+    default_out = script_dir / "data"
+
+    ap = argparse.ArgumentParser(description="Build SDTM instruction-tuning dataset from reference annotations")
+    ap.add_argument("--kb-path", default=str(default_kb), help="Knowledge base directory (proto_define, domains_by_class, etc.)")
+    ap.add_argument("--reference-dir", default=str(default_reference), help="Directory of reference annotations (e.g., page_*_result.json)")
+    ap.add_argument("--crf-dir", default=str(default_crf), help="Directory of CRF page_*.json files")
+    ap.add_argument("--output-dir", default=str(default_out), help="Directory to write alpaca/instruction datasets")
+    args = ap.parse_args()
+
+    kb_path = Path(args.kb_path)
+    reference_dir = Path(args.reference_dir)
+    crf_dir = Path(args.crf_dir)
+    output_dir = Path(args.output_dir)
+
     # Create output directory
-    Path(output_dir).mkdir(parents=True, exist_ok=True)
-    
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    # Log effective paths
+    logger.info(f"KB: {kb_path}")
+    logger.info(f"Reference: {reference_dir}")
+    logger.info(f"CRF: {crf_dir}")
+    logger.info(f"Output: {output_dir}")
+
     # Build dataset
-    builder = InstructionDatasetBuilder(kb_path)
-    examples = builder.process_reference_files(reference_dir, crf_dir)
-    
+    builder = InstructionDatasetBuilder(str(kb_path))
+    examples = builder.process_reference_files(str(reference_dir), str(crf_dir))
+
     # Save dataset
-    builder.save_dataset(examples, output_dir)
-    
+    builder.save_dataset(examples, str(output_dir))
+
     print(f"Dataset created with {len(examples)} examples")
     print(f"Saved to {output_dir}")
 
