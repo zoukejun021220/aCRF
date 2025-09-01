@@ -1,0 +1,182 @@
+{
+  "page_id": 134,
+  "items": [
+    {
+      "seq": 4148,
+      "tag": "<INPUT>",
+      "text": "dd-mmm-yyyy",
+      "page": 135,
+      "input_type": "text",
+      "form": "Protocol Deviations",
+      "section": "Study Exit",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "orphan"
+    },
+    {
+      "seq": 4149,
+      "tag": "<FORM>",
+      "text": "Protocol Deviations",
+      "page": 135,
+      "bbox_xyxy": [
+        0.2323580473856209,
+        0.03675549439709596,
+        0.6540784150167228,
+        0.04945080689709596
+      ],
+      "bbox_ref": "line_134_002"
+    },
+    {
+      "seq": 4150,
+      "tag": "<SH>",
+      "text": "Protocol Deviations",
+      "page": 135,
+      "question_below_text": "none",
+      "bbox_xyxy": [
+        0.2323580473856209,
+        0.03675549439709596,
+        0.6540784150167228,
+        0.04945080689709596
+      ],
+      "bbox_ref": "line_134_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_134_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_134_001",
+      "text": "135/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_134_002",
+      "text": "Form: Protocol Deviations\nStudy: Inari CLOUT\nPage: 1/1",
+      "bbox": [
+        0.2323580473856209,
+        0.03675549439709596,
+        0.6540784150167228,
+        0.04945080689709596
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_134_003",
+      "text": "Protocol Deviations",
+      "bbox": [
+        0.31982741013071897,
+        0.06529405381944445,
+        0.5960377213222529,
+        0.09068467881944445
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_134_004",
+      "text": "Subform: PD",
+      "bbox": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.14949164047739863,
+        0.12426141295770202
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_134_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 134
+    },
+    {
+      "line_id": "line_134_001",
+      "text": "135/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 134
+    },
+    {
+      "line_id": "line_134_002",
+      "text": "Form: Protocol Deviations\nStudy: Inari CLOUT\nPage: 1/1",
+      "bbox": [
+        0.2323580473856209,
+        0.03675549439709596,
+        0.6540784150167228,
+        0.04945080689709596
+      ],
+      "page_num": 134
+    },
+    {
+      "line_id": "line_134_003",
+      "text": "Protocol Deviations",
+      "bbox": [
+        0.31982741013071897,
+        0.06529405381944445,
+        0.5960377213222529,
+        0.09068467881944445
+      ],
+      "page_num": 134
+    },
+    {
+      "line_id": "line_134_004",
+      "text": "Subform: PD",
+      "bbox": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.14949164047739863,
+        0.12426141295770202
+      ],
+      "page_num": 134
+    }
+  ],
+  "metadata": {
+    "num_questions": 0,
+    "num_inputs": 1,
+    "num_inputs_by_type": {
+      "option": 0,
+      "text": 1,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 5,
+    "num_total_lines": 5,
+    "timestamp": "2025-08-15T14:20:06.867199+00:00",
+    "requires_second_inspection": true,
+    "anomaly_reasons": [
+      "statistical_outlier (count=0, avg=7.1, std=2.9)",
+      "zero_questions_found"
+    ]
+  }
+}

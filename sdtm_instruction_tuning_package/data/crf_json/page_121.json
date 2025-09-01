@@ -1,0 +1,322 @@
+{
+  "page_id": 121,
+  "items": [
+    {
+      "seq": 3713,
+      "tag": "<Q>",
+      "text": "Right — Mid-thigh (cm) (EARMT)",
+      "page": 122,
+      "form": "Unscheduled Visits > Visit > Edema",
+      "section": "Edema",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.18921761560921718,
+        0.28755242840137357,
+        0.20191292810921718
+      ],
+      "bbox_ref": "line_121_005",
+      "qid": "q-871"
+    },
+    {
+      "seq": 3714,
+      "tag": "<Q>",
+      "text": "Right — Mid-calf (cm) (EARMC)",
+      "page": 122,
+      "form": "Unscheduled Visits > Visit > Edema",
+      "section": "Edema",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.2384600398516414,
+        0.2785818062576593,
+        0.25115535235164144
+      ],
+      "bbox_ref": "line_121_006",
+      "qid": "q-872"
+    },
+    {
+      "seq": 3715,
+      "tag": "<Q>",
+      "text": "Right — Ankle (cm) (EARA)",
+      "page": 122,
+      "form": "Unscheduled Visits > Visit > Edema",
+      "section": "Edema",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.28864943379103536,
+        0.25081709319469975,
+        0.30134474629103536
+      ],
+      "bbox_ref": "line_121_007",
+      "qid": "q-873"
+    },
+    {
+      "seq": 3716,
+      "tag": "<Q>",
+      "text": "Left — Mid-thigh (cm) (EALMT)",
+      "page": 122,
+      "form": "Unscheduled Visits > Visit > Edema",
+      "section": "Edema",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3388388277304293,
+        0.27530241324231514,
+        0.3515341402304293
+      ],
+      "bbox_ref": "line_121_008",
+      "qid": "q-874"
+    },
+    {
+      "seq": 3717,
+      "tag": "<Q>",
+      "text": "Left — Mid-calf (cm) (EALMC)",
+      "page": 122,
+      "form": "Unscheduled Visits > Visit > Edema",
+      "section": "Edema",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.38808125197285354,
+        0.26633181603126277,
+        0.40077656447285354
+      ],
+      "bbox_ref": "line_121_009",
+      "qid": "q-875"
+    },
+    {
+      "seq": 3718,
+      "tag": "<Q>",
+      "text": "Left — Ankle (cm) (EALA)",
+      "page": 122,
+      "form": "Unscheduled Visits > Visit > Edema",
+      "section": "Edema",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.43827064591224746,
+        0.23856710296830322,
+        0.45096595841224746
+      ],
+      "bbox_ref": "line_121_010",
+      "qid": "q-876"
+    },
+    {
+      "seq": 3719,
+      "tag": "<FORM>",
+      "text": "Unscheduled Visits > Visit > Edema",
+      "page": 122,
+      "bbox_xyxy": [
+        0.17948963439542484,
+        0.03675549439709596,
+        0.7069468778722426,
+        0.04945080689709596
+      ],
+      "bbox_ref": "line_121_002"
+    },
+    {
+      "seq": 3720,
+      "tag": "<SH>",
+      "text": "Edema",
+      "page": 122,
+      "question_below_text": "Right — Mid-thigh (cm) (EARMT)",
+      "bbox_xyxy": [
+        0.17948963439542484,
+        0.03675549439709596,
+        0.7069468778722426,
+        0.04945080689709596
+      ],
+      "bbox_ref": "line_121_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_121_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_121_001",
+      "text": "122/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_121_002",
+      "text": "Form: Unscheduled Visits > Visit > Edema\nStudy: Inari CLOUT\nPage: 1/1",
+      "bbox": [
+        0.17948963439542484,
+        0.03675549439709596,
+        0.7069468778722426,
+        0.04945080689709596
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_121_003",
+      "text": "Unscheduled Visits > Visit > Edema",
+      "bbox": [
+        0.20999285130718953,
+        0.06529405381944445,
+        0.7058536803800296,
+        0.09068467881944445
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_121_004",
+      "text": "Edema",
+      "bbox": [
+        0.059640522875817,
+        0.13086430713383837,
+        0.1239376317441853,
+        0.1477913904671717
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_121_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 121
+    },
+    {
+      "line_id": "line_121_001",
+      "text": "122/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 121
+    },
+    {
+      "line_id": "line_121_002",
+      "text": "Form: Unscheduled Visits > Visit > Edema\nStudy: Inari CLOUT\nPage: 1/1",
+      "bbox": [
+        0.17948963439542484,
+        0.03675549439709596,
+        0.7069468778722426,
+        0.04945080689709596
+      ],
+      "page_num": 121
+    },
+    {
+      "line_id": "line_121_003",
+      "text": "Unscheduled Visits > Visit > Edema",
+      "bbox": [
+        0.20999285130718953,
+        0.06529405381944445,
+        0.7058536803800296,
+        0.09068467881944445
+      ],
+      "page_num": 121
+    },
+    {
+      "line_id": "line_121_004",
+      "text": "Edema",
+      "bbox": [
+        0.059640522875817,
+        0.13086430713383837,
+        0.1239376317441853,
+        0.1477913904671717
+      ],
+      "page_num": 121
+    },
+    {
+      "line_id": "line_121_005",
+      "text": "Right — Mid-thigh (cm) (EARMT)",
+      "bbox": [
+        0.059640522875817,
+        0.18921761560921718,
+        0.28755242840137357,
+        0.20191292810921718
+      ],
+      "page_num": 121
+    },
+    {
+      "line_id": "line_121_006",
+      "text": "Right — Mid-calf (cm) (EARMC)",
+      "bbox": [
+        0.059640522875817,
+        0.2384600398516414,
+        0.2785818062576593,
+        0.25115535235164144
+      ],
+      "page_num": 121
+    },
+    {
+      "line_id": "line_121_007",
+      "text": "Right — Ankle (cm) (EARA)",
+      "bbox": [
+        0.059640522875817,
+        0.28864943379103536,
+        0.25081709319469975,
+        0.30134474629103536
+      ],
+      "page_num": 121
+    },
+    {
+      "line_id": "line_121_008",
+      "text": "Left — Mid-thigh (cm) (EALMT)",
+      "bbox": [
+        0.059640522875817,
+        0.3388388277304293,
+        0.27530241324231514,
+        0.3515341402304293
+      ],
+      "page_num": 121
+    },
+    {
+      "line_id": "line_121_009",
+      "text": "Left — Mid-calf (cm) (EALMC)",
+      "bbox": [
+        0.059640522875817,
+        0.38808125197285354,
+        0.26633181603126277,
+        0.40077656447285354
+      ],
+      "page_num": 121
+    },
+    {
+      "line_id": "line_121_010",
+      "text": "Left — Ankle (cm) (EALA)",
+      "bbox": [
+        0.059640522875817,
+        0.43827064591224746,
+        0.23856710296830322,
+        0.45096595841224746
+      ],
+      "page_num": 121
+    }
+  ],
+  "metadata": {
+    "num_questions": 6,
+    "num_inputs": 0,
+    "num_inputs_by_type": {
+      "option": 0,
+      "text": 0,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 5,
+    "num_total_lines": 11,
+    "timestamp": "2025-08-15T14:14:02.655538+00:00"
+  }
+}

@@ -1,0 +1,800 @@
+{
+  "page_id": 29,
+  "items": [
+    {
+      "seq": 911,
+      "tag": "<Q>",
+      "text": "Post stenting area (mm²) (CFR_PA)",
+      "page": 30,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642102174084596,
+        0.3036709704430275,
+        0.0769055299084596
+      ],
+      "bbox_ref": "line_029_003",
+      "qid": "q-238"
+    },
+    {
+      "seq": 912,
+      "tag": "<INPUT>",
+      "text": "________________________",
+      "page": 30,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-238"
+    },
+    {
+      "seq": 913,
+      "tag": "<Q>",
+      "text": "Post stening diameter (mm)",
+      "page": 30,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11439961134785354,
+        0.2533024058622472,
+        0.14035249960542928
+      ],
+      "bbox_ref": "line_029_004",
+      "qid": "q-239"
+    },
+    {
+      "seq": 914,
+      "tag": "<INPUT>",
+      "text": "________________________",
+      "page": 30,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-239"
+    },
+    {
+      "seq": 915,
+      "tag": "<Q>",
+      "text": "Common femoral Left",
+      "page": 30,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.18388721196338384,
+        0.2622681412042356,
+        0.20081429529671718
+      ],
+      "bbox_ref": "line_029_005",
+      "qid": "q-240"
+    },
+    {
+      "seq": 916,
+      "tag": "<INPUT>",
+      "text": "________________________",
+      "page": 30,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-240"
+    },
+    {
+      "seq": 917,
+      "tag": "<Q>",
+      "text": "Reference area (mm²) (CFL_RA)",
+      "page": 30,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.24129355074179293,
+        0.2818906447466682,
+        0.25398886324179293
+      ],
+      "bbox_ref": "line_029_006",
+      "qid": "q-241"
+    },
+    {
+      "seq": 918,
+      "tag": "<INPUT>",
+      "text": "________________________",
+      "page": 30,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-241"
+    },
+    {
+      "seq": 919,
+      "tag": "<Q>",
+      "text": "Compress area (mm²) (CFL_CA)",
+      "page": 30,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.29148294468118685,
+        0.28269946029762816,
+        0.30417825718118685
+      ],
+      "bbox_ref": "line_029_007",
+      "qid": "q-242"
+    },
+    {
+      "seq": 920,
+      "tag": "<INPUT>",
+      "text": "________________________",
+      "page": 30,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-242"
+    },
+    {
+      "seq": 921,
+      "tag": "<Q>",
+      "text": "Difference (mm²) (CFL_DDIF)",
+      "page": 30,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3407253689236111,
+        0.2941994261897467,
+        0.36667825718118685
+      ],
+      "bbox_ref": "line_029_008",
+      "qid": "q-243"
+    },
+    {
+      "seq": 922,
+      "tag": "<INPUT>",
+      "text": "________________________",
+      "page": 30,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-243"
+    },
+    {
+      "seq": 923,
+      "tag": "<Q>",
+      "text": "Difference (%) (CFL_ADIF)",
+      "page": 30,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.390914762863005,
+        0.3137899161943423,
+        0.4301252268781566
+      ],
+      "bbox_ref": "line_029_009",
+      "qid": "q-244"
+    },
+    {
+      "seq": 924,
+      "tag": "<INPUT>",
+      "text": "________________________",
+      "page": 30,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-244"
+    },
+    {
+      "seq": 925,
+      "tag": "<Q>",
+      "text": "Reference diameter (mm) (CFL_RD)",
+      "page": 30,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.45057385377209597,
+        0.30803770177504597,
+        0.46326916627209597
+      ],
+      "bbox_ref": "line_029_010",
+      "qid": "q-245"
+    },
+    {
+      "seq": 926,
+      "tag": "<INPUT>",
+      "text": "________________________",
+      "page": 30,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-245"
+    },
+    {
+      "seq": 927,
+      "tag": "<Q>",
+      "text": "Compress diameter (mm) (CFL_CD)",
+      "page": 30,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.50076324771149,
+        0.30884651732600593,
+        0.51345856021149
+      ],
+      "bbox_ref": "line_029_011",
+      "qid": "q-246"
+    },
+    {
+      "seq": 928,
+      "tag": "<INPUT>",
+      "text": "________________________",
+      "page": 30,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-246"
+    },
+    {
+      "seq": 929,
+      "tag": "<Q>",
+      "text": "Stent? (CFL_STYN)",
+      "page": 30,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5500056719539141,
+        0.19525828392677058,
+        0.5627009844539141
+      ],
+      "bbox_ref": "line_029_012",
+      "qid": "q-247"
+    },
+    {
+      "seq": 930,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 30,
+      "input_type": "option",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5594753689236112,
+        0.3924522150575725,
+        0.5721706814236112
+      ],
+      "bbox_ref": "line_029_013",
+      "parent_qid": "q-247"
+    },
+    {
+      "seq": 931,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 30,
+      "input_type": "option",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5793617325599747,
+        0.38726041207905687,
+        0.5920570450599747
+      ],
+      "bbox_ref": "line_029_014",
+      "parent_qid": "q-247"
+    },
+    {
+      "seq": 932,
+      "tag": "<Q>",
+      "text": "Stent deployed (CFL_ST)",
+      "page": 30,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.619134459832702,
+        0.3154028599558313,
+        0.6583449238478535
+      ],
+      "bbox_ref": "line_029_015",
+      "qid": "q-248"
+    },
+    {
+      "seq": 933,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 30,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.6229223386205808,
+        0.3877015705981286,
+        0.6356176511205808
+      ],
+      "bbox_ref": "line_029_016",
+      "parent_qid": "q-248"
+    },
+    {
+      "seq": 934,
+      "tag": "<Q>",
+      "text": "Size of stent deployed in mm (length x width)",
+      "page": 30,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-249"
+    },
+    {
+      "seq": 935,
+      "tag": "<INPUT>",
+      "text": "________________________",
+      "page": 30,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-249"
+    },
+    {
+      "seq": 936,
+      "tag": "<Q>",
+      "text": "Balloon? (CFL_BLYN)",
+      "page": 30,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7090965810448232,
+        0.27375825869491677,
+        0.7748221965751263
+      ],
+      "bbox_ref": "line_029_017",
+      "qid": "q-250"
+    },
+    {
+      "seq": 937,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 30,
+      "input_type": "option",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5594753689236112,
+        0.3924522150575725,
+        0.5721706814236112
+      ],
+      "bbox_ref": "line_029_013",
+      "parent_qid": "q-250"
+    },
+    {
+      "seq": 938,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 30,
+      "input_type": "option",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5793617325599747,
+        0.38726041207905687,
+        0.5920570450599747
+      ],
+      "bbox_ref": "line_029_014",
+      "parent_qid": "q-250"
+    },
+    {
+      "seq": 939,
+      "tag": "<Q>",
+      "text": "Balloon type (CFL_BLT)",
+      "page": 30,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7952708234690656,
+        0.3877015705981286,
+        0.8117540147569444
+      ],
+      "bbox_ref": "line_029_020",
+      "qid": "q-251"
+    },
+    {
+      "seq": 940,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 30,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.6229223386205808,
+        0.3877015705981286,
+        0.6356176511205808
+      ],
+      "bbox_ref": "line_029_016",
+      "parent_qid": "q-251"
+    },
+    {
+      "seq": 941,
+      "tag": "<FORM>",
+      "text": "IVUS Measurements > IVUS",
+      "page": 30,
+      "bbox_xyxy": [
+        0.20231438929738563,
+        0.036748096196338384,
+        0.6841029746859681,
+        0.049443408696338384
+      ],
+      "bbox_ref": "line_029_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_029_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_029_001",
+      "text": "30/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_029_002",
+      "text": "Form: IVUS Measurements > IVUS\nStudy: Inari CLOUT\nPage: 7/8",
+      "bbox": [
+        0.20231438929738563,
+        0.036748096196338384,
+        0.6841029746859681,
+        0.049443408696338384
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_029_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 29
+    },
+    {
+      "line_id": "line_029_001",
+      "text": "30/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 29
+    },
+    {
+      "line_id": "line_029_002",
+      "text": "Form: IVUS Measurements > IVUS\nStudy: Inari CLOUT\nPage: 7/8",
+      "bbox": [
+        0.20231438929738563,
+        0.036748096196338384,
+        0.6841029746859681,
+        0.049443408696338384
+      ],
+      "page_num": 29
+    },
+    {
+      "line_id": "line_029_003",
+      "text": "Post stenting area (mm²) (CFR_PA)",
+      "bbox": [
+        0.059640522875817,
+        0.0642102174084596,
+        0.3036709704430275,
+        0.0769055299084596
+      ],
+      "page_num": 29
+    },
+    {
+      "line_id": "line_029_004",
+      "text": "Post stening diameter (mm)\n(CFR_PD)",
+      "bbox": [
+        0.059640522875817,
+        0.11439961134785354,
+        0.2533024058622472,
+        0.14035249960542928
+      ],
+      "page_num": 29
+    },
+    {
+      "line_id": "line_029_005",
+      "text": "Common femoral Left",
+      "bbox": [
+        0.059640522875817,
+        0.18388721196338384,
+        0.2622681412042356,
+        0.20081429529671718
+      ],
+      "page_num": 29
+    },
+    {
+      "line_id": "line_029_006",
+      "text": "Reference area (mm²) (CFL_RA)",
+      "bbox": [
+        0.059640522875817,
+        0.24129355074179293,
+        0.2818906447466682,
+        0.25398886324179293
+      ],
+      "page_num": 29
+    },
+    {
+      "line_id": "line_029_007",
+      "text": "Compress area (mm²) (CFL_CA)",
+      "bbox": [
+        0.059640522875817,
+        0.29148294468118685,
+        0.28269946029762816,
+        0.30417825718118685
+      ],
+      "page_num": 29
+    },
+    {
+      "line_id": "line_029_008",
+      "text": "Difference (mm²) (CFL_DDIF)\n(Reference area - Compress area)",
+      "bbox": [
+        0.059640522875817,
+        0.3407253689236111,
+        0.2941994261897467,
+        0.36667825718118685
+      ],
+      "page_num": 29
+    },
+    {
+      "line_id": "line_029_009",
+      "text": "Difference (%) (CFL_ADIF)\n(Difference (mm²) / Reference area) *\n100",
+      "bbox": [
+        0.059640522875817,
+        0.390914762863005,
+        0.3137899161943423,
+        0.4301252268781566
+      ],
+      "page_num": 29
+    },
+    {
+      "line_id": "line_029_010",
+      "text": "Reference diameter (mm) (CFL_RD)",
+      "bbox": [
+        0.059640522875817,
+        0.45057385377209597,
+        0.30803770177504597,
+        0.46326916627209597
+      ],
+      "page_num": 29
+    },
+    {
+      "line_id": "line_029_011",
+      "text": "Compress diameter (mm) (CFL_CD)",
+      "bbox": [
+        0.059640522875817,
+        0.50076324771149,
+        0.30884651732600593,
+        0.51345856021149
+      ],
+      "page_num": 29
+    },
+    {
+      "line_id": "line_029_012",
+      "text": "Stent? (CFL_STYN)",
+      "bbox": [
+        0.059640522875817,
+        0.5500056719539141,
+        0.19525828392677058,
+        0.5627009844539141
+      ],
+      "page_num": 29
+    },
+    {
+      "line_id": "line_029_013",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.5594753689236112,
+        0.3924522150575725,
+        0.5721706814236112
+      ],
+      "page_num": 29
+    },
+    {
+      "line_id": "line_029_014",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.5793617325599747,
+        0.38726041207905687,
+        0.5920570450599747
+      ],
+      "page_num": 29
+    },
+    {
+      "line_id": "line_029_015",
+      "text": "Stent deployed (CFL_ST)\nSize of stent deployed in mm (length\nx width)",
+      "bbox": [
+        0.059640522875817,
+        0.619134459832702,
+        0.3154028599558313,
+        0.6583449238478535
+      ],
+      "page_num": 29
+    },
+    {
+      "line_id": "line_029_016",
+      "text": "0/2500",
+      "bbox": [
+        0.34272875816993464,
+        0.6229223386205808,
+        0.3877015705981286,
+        0.6356176511205808
+      ],
+      "page_num": 29
+    },
+    {
+      "line_id": "line_029_017",
+      "text": "Balloon? (CFL_BLYN)\nDone as part of the stenting\nprocedure. Do not select yes if\nballooning was used between\nClotTriever passes.",
+      "bbox": [
+        0.059640522875817,
+        0.7090965810448232,
+        0.27375825869491677,
+        0.7748221965751263
+      ],
+      "page_num": 29
+    },
+    {
+      "line_id": "line_029_018",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.7176193083175505,
+        0.3924522150575725,
+        0.7303146208175505
+      ],
+      "page_num": 29
+    },
+    {
+      "line_id": "line_029_019",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.7375056719539141,
+        0.38726041207905687,
+        0.7502009844539141
+      ],
+      "page_num": 29
+    },
+    {
+      "line_id": "line_029_020",
+      "text": "Balloon type (CFL_BLT)\n0/2500",
+      "bbox": [
+        0.059640522875817,
+        0.7952708234690656,
+        0.3877015705981286,
+        0.8117540147569444
+      ],
+      "page_num": 29
+    }
+  ],
+  "metadata": {
+    "num_questions": 14,
+    "num_inputs": 16,
+    "num_inputs_by_type": {
+      "option": 4,
+      "text": 12,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 0,
+    "num_supplemental": 3,
+    "num_total_lines": 21,
+    "timestamp": "2025-08-15T13:33:51.561017+00:00",
+    "requires_second_inspection": true,
+    "anomaly_reasons": [
+      "statistical_outlier (count=14, avg=7.1, std=2.9)"
+    ]
+  }
+}

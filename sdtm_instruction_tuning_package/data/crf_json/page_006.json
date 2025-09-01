@@ -1,0 +1,1172 @@
+{
+  "page_id": 6,
+  "items": [
+    {
+      "seq": 206,
+      "tag": "<Q>",
+      "text": "Myocardial Infarction (MI) (MH_MI)",
+      "page": 7,
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06420836785827021,
+        0.3924522150575725,
+        0.08542640763099747
+      ],
+      "bbox_ref": "line_006_003",
+      "qid": "q-055"
+    },
+    {
+      "seq": 207,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 7,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06420836785827021,
+        0.3924522150575725,
+        0.08542640763099747
+      ],
+      "bbox_ref": "line_006_003",
+      "parent_qid": "q-055"
+    },
+    {
+      "seq": 208,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 7,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.0926174587673611,
+        0.38726041207905687,
+        0.1053127712673611
+      ],
+      "bbox_ref": "line_006_004",
+      "parent_qid": "q-055"
+    },
+    {
+      "seq": 209,
+      "tag": "<Q>",
+      "text": "Chronic obstructive pulmonary disease (COPD) (MH_COPD)",
+      "page": 7,
+      "form": "Baseline",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-056"
+    },
+    {
+      "seq": 210,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 7,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06420836785827021,
+        0.3924522150575725,
+        0.08542640763099747
+      ],
+      "bbox_ref": "line_006_003",
+      "parent_qid": "q-056"
+    },
+    {
+      "seq": 211,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 7,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.0926174587673611,
+        0.38726041207905687,
+        0.1053127712673611
+      ],
+      "bbox_ref": "line_006_004",
+      "parent_qid": "q-056"
+    },
+    {
+      "seq": 212,
+      "tag": "<Q>",
+      "text": "Hyperlipidemia (MH_HYPL)",
+      "page": 7,
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.20151897391887627,
+        0.24921417236328125,
+        0.21421428641887627
+      ],
+      "bbox_ref": "line_006_007",
+      "qid": "q-057"
+    },
+    {
+      "seq": 213,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 7,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06420836785827021,
+        0.3924522150575725,
+        0.08542640763099747
+      ],
+      "bbox_ref": "line_006_003",
+      "parent_qid": "q-057"
+    },
+    {
+      "seq": 214,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 7,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.0926174587673611,
+        0.38726041207905687,
+        0.1053127712673611
+      ],
+      "bbox_ref": "line_006_004",
+      "parent_qid": "q-057"
+    },
+    {
+      "seq": 215,
+      "tag": "<Q>",
+      "text": "Renal disease (MH_RENAL)",
+      "page": 7,
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.27064776179766414,
+        0.3924522150575725,
+        0.29186580157039144
+      ],
+      "bbox_ref": "line_006_010",
+      "qid": "q-058"
+    },
+    {
+      "seq": 216,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 7,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06420836785827021,
+        0.3924522150575725,
+        0.08542640763099747
+      ],
+      "bbox_ref": "line_006_003",
+      "parent_qid": "q-058"
+    },
+    {
+      "seq": 217,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 7,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.0926174587673611,
+        0.38726041207905687,
+        0.1053127712673611
+      ],
+      "bbox_ref": "line_006_004",
+      "parent_qid": "q-058"
+    },
+    {
+      "seq": 218,
+      "tag": "<Q>",
+      "text": "On dialysis (MH_DIAL)",
+      "page": 7,
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.33977654967645204,
+        0.3924522150575725,
+        0.3609945894491793
+      ],
+      "bbox_ref": "line_006_012",
+      "qid": "q-059"
+    },
+    {
+      "seq": 219,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 7,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06420836785827021,
+        0.3924522150575725,
+        0.08542640763099747
+      ],
+      "bbox_ref": "line_006_003",
+      "parent_qid": "q-059"
+    },
+    {
+      "seq": 220,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 7,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.0926174587673611,
+        0.38726041207905687,
+        0.1053127712673611
+      ],
+      "bbox_ref": "line_006_004",
+      "parent_qid": "q-059"
+    },
+    {
+      "seq": 221,
+      "tag": "<Q>",
+      "text": "Tobacco use (MH_TOB)",
+      "page": 7,
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.4079583678582702,
+        0.2241482204861111,
+        0.4206536803582702
+      ],
+      "bbox_ref": "line_006_014",
+      "qid": "q-060"
+    },
+    {
+      "seq": 222,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 7,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06420836785827021,
+        0.3924522150575725,
+        0.08542640763099747
+      ],
+      "bbox_ref": "line_006_003",
+      "parent_qid": "q-060"
+    },
+    {
+      "seq": 223,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 7,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.0926174587673611,
+        0.38726041207905687,
+        0.1053127712673611
+      ],
+      "bbox_ref": "line_006_004",
+      "parent_qid": "q-060"
+    },
+    {
+      "seq": 224,
+      "tag": "<Q>",
+      "text": "Tobacco use current or prior (MH_TOBCP)",
+      "page": 7,
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.505496246646149,
+        0.3995082830291948,
+        0.518191559146149
+      ],
+      "bbox_ref": "line_006_018",
+      "qid": "q-061"
+    },
+    {
+      "seq": 225,
+      "tag": "<INPUT>",
+      "text": "Current",
+      "page": 7,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.47708715573705807,
+        0.4174909903333078,
+        0.5030400439946339
+      ],
+      "bbox_ref": "line_006_017",
+      "parent_qid": "q-061"
+    },
+    {
+      "seq": 226,
+      "tag": "<INPUT>",
+      "text": "Prior",
+      "page": 7,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.47708715573705807,
+        0.4174909903333078,
+        0.5030400439946339
+      ],
+      "bbox_ref": "line_006_017",
+      "parent_qid": "q-061"
+    },
+    {
+      "seq": 227,
+      "tag": "<Q>",
+      "text": "COVID-19 Status at Screening (MH_CVD)",
+      "page": 7,
+      "form": "Baseline",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-062"
+    },
+    {
+      "seq": 228,
+      "tag": "<INPUT>",
+      "text": "COVID-19 Positive",
+      "page": 7,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5547386708885732,
+        0.49186332553040746,
+        0.5674339833885732
+      ],
+      "bbox_ref": "line_006_020",
+      "parent_qid": "q-062"
+    },
+    {
+      "seq": 229,
+      "tag": "<INPUT>",
+      "text": "COVID-19 Negative",
+      "page": 7,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5746250345249369,
+        0.4984074511559181,
+        0.5873203470249369
+      ],
+      "bbox_ref": "line_006_021",
+      "parent_qid": "q-062"
+    },
+    {
+      "seq": 230,
+      "tag": "<INPUT>",
+      "text": "COVID-19 Status Unknown",
+      "page": 7,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5945113981613005,
+        0.5474515428730086,
+        0.6072067106613005
+      ],
+      "bbox_ref": "line_006_022",
+      "parent_qid": "q-062"
+    },
+    {
+      "seq": 231,
+      "tag": "<Q>",
+      "text": "If positive, date of positive test (MH_CVD_DT)",
+      "page": 7,
+      "form": "Baseline",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-063"
+    },
+    {
+      "seq": 232,
+      "tag": "<INPUT>",
+      "text": "dd-mmm-yyyy",
+      "page": 7,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6456477617976641,
+        0.44772493449691075,
+        0.67160065005524
+      ],
+      "bbox_ref": "line_006_023",
+      "parent_qid": "q-063"
+    },
+    {
+      "seq": 233,
+      "tag": "<Q>",
+      "text": "Recent surgery (<30 days) (MH_SURG)",
+      "page": 7,
+      "form": "Baseline",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-064"
+    },
+    {
+      "seq": 234,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 7,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06420836785827021,
+        0.3924522150575725,
+        0.08542640763099747
+      ],
+      "bbox_ref": "line_006_003",
+      "parent_qid": "q-064"
+    },
+    {
+      "seq": 235,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 7,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.0926174587673611,
+        0.38726041207905687,
+        0.1053127712673611
+      ],
+      "bbox_ref": "line_006_004",
+      "parent_qid": "q-064"
+    },
+    {
+      "seq": 236,
+      "tag": "<Q>",
+      "text": "Recent surgery, specify (MH_SURGSP)",
+      "page": 7,
+      "form": "Baseline",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-065"
+    },
+    {
+      "seq": 237,
+      "tag": "<INPUT>",
+      "text": "0/500",
+      "page": 7,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.7678068527067551,
+        0.3795251036001966,
+        0.7805021652067551
+      ],
+      "bbox_ref": "line_006_027",
+      "parent_qid": "q-065"
+    },
+    {
+      "seq": 238,
+      "tag": "<Q>",
+      "text": "Congenital/acquired venous anomaly (MH_CVANOM)",
+      "page": 7,
+      "form": "Baseline",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-066"
+    },
+    {
+      "seq": 239,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 7,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06420836785827021,
+        0.3924522150575725,
+        0.08542640763099747
+      ],
+      "bbox_ref": "line_006_003",
+      "parent_qid": "q-066"
+    },
+    {
+      "seq": 240,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 7,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.0926174587673611,
+        0.38726041207905687,
+        0.1053127712673611
+      ],
+      "bbox_ref": "line_006_004",
+      "parent_qid": "q-066"
+    },
+    {
+      "seq": 241,
+      "tag": "<FORM>",
+      "text": "Baseline",
+      "page": 7,
+      "bbox_xyxy": [
+        0.2633974162581699,
+        0.03674624664614899,
+        0.6230200474558313,
+        0.04944155914614899
+      ],
+      "bbox_ref": "line_006_002"
+    },
+    {
+      "seq": 242,
+      "tag": "<SH>",
+      "text": "Medical History",
+      "page": 7,
+      "question_below_text": "Myocardial Infarction (MI) (MH_MI)",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    },
+    {
+      "seq": 243,
+      "tag": "<SH>",
+      "text": "Medical History",
+      "page": 7,
+      "question_below_text": "Chronic obstructive pulmonary disease (COPD) (MH_COPD)",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    },
+    {
+      "seq": 244,
+      "tag": "<SH>",
+      "text": "Medical History",
+      "page": 7,
+      "question_below_text": "Hyperlipidemia (MH_HYPL)",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    },
+    {
+      "seq": 245,
+      "tag": "<SH>",
+      "text": "Medical History",
+      "page": 7,
+      "question_below_text": "Renal disease (MH_RENAL)",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    },
+    {
+      "seq": 246,
+      "tag": "<SH>",
+      "text": "Medical History",
+      "page": 7,
+      "question_below_text": "On dialysis (MH_DIAL)",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    },
+    {
+      "seq": 247,
+      "tag": "<SH>",
+      "text": "Medical History",
+      "page": 7,
+      "question_below_text": "Tobacco use (MH_TOB)",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    },
+    {
+      "seq": 248,
+      "tag": "<SH>",
+      "text": "Medical History",
+      "page": 7,
+      "question_below_text": "Tobacco use current or prior (MH_TOBCP)",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    },
+    {
+      "seq": 249,
+      "tag": "<SH>",
+      "text": "Medical History",
+      "page": 7,
+      "question_below_text": "COVID-19 Status at Screening (MH_CVD)",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    },
+    {
+      "seq": 250,
+      "tag": "<SH>",
+      "text": "Medical History",
+      "page": 7,
+      "question_below_text": "If positive, date of positive test (MH_CVD_DT)",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    },
+    {
+      "seq": 251,
+      "tag": "<SH>",
+      "text": "Medical History",
+      "page": 7,
+      "question_below_text": "Recent surgery (<30 days) (MH_SURG)",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    },
+    {
+      "seq": 252,
+      "tag": "<SH>",
+      "text": "Medical History",
+      "page": 7,
+      "question_below_text": "Recent surgery, specify (MH_SURGSP)",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    },
+    {
+      "seq": 253,
+      "tag": "<SH>",
+      "text": "Medical History",
+      "page": 7,
+      "question_below_text": "Congenital/acquired venous anomaly (MH_CVANOM)",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_006_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_006_001",
+      "text": "7/140",
+      "bbox": [
+        0.9240196078431373,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_006_002",
+      "text": "Form: Baseline\nStudy: Inari CLOUT\nPage: 7/10",
+      "bbox": [
+        0.2633974162581699,
+        0.03674624664614899,
+        0.6230200474558313,
+        0.04944155914614899
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_006_019",
+      "text": "COVID-19 Status at Screening\n(MH_CVD)\n(if positive anytime before\nscreening, indicate ‘COVID positive’\nand provide the date of the positive\ntest)",
+      "bbox": [
+        0.059640522875817,
+        0.5462159436158459,
+        0.31135860767239837,
+        0.6251991349037247
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_006_026",
+      "text": "Recent surgery, specify\n(MH_SURGSP)",
+      "bbox": [
+        0.059640522875817,
+        0.7640189739188763,
+        0.22447426490534364,
+        0.789971862176452
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_006_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_001",
+      "text": "7/140",
+      "bbox": [
+        0.9240196078431373,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_002",
+      "text": "Form: Baseline\nStudy: Inari CLOUT\nPage: 7/10",
+      "bbox": [
+        0.2633974162581699,
+        0.03674624664614899,
+        0.6230200474558313,
+        0.04944155914614899
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_003",
+      "text": "Myocardial Infarction (MI) (MH_MI)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.06420836785827021,
+        0.3924522150575725,
+        0.08542640763099747
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_004",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.0926174587673611,
+        0.38726041207905687,
+        0.1053127712673611
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_005",
+      "text": "Chronic obstructive pulmonary\ndisease (COPD) (MH_COPD)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.1333371557370581,
+        0.3924522150575725,
+        0.15929004399463384
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_006",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.16174624664614898,
+        0.38726041207905687,
+        0.17444155914614898
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_007",
+      "text": "Hyperlipidemia (MH_HYPL)",
+      "bbox": [
+        0.059640522875817,
+        0.20151897391887627,
+        0.24921417236328125,
+        0.21421428641887627
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_008",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.21098867088857323,
+        0.3924522150575725,
+        0.22368398338857323
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_009",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.23087503452493688,
+        0.38726041207905687,
+        0.24357034702493688
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_010",
+      "text": "Renal disease (MH_RENAL)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.27064776179766414,
+        0.3924522150575725,
+        0.29186580157039144
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_011",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.299056852706755,
+        0.38726041207905687,
+        0.311752165206755
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_012",
+      "text": "On dialysis (MH_DIAL)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.33977654967645204,
+        0.3924522150575725,
+        0.3609945894491793
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_013",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.36818564058554293,
+        0.38726041207905687,
+        0.38088095308554293
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_014",
+      "text": "Tobacco use (MH_TOB)",
+      "bbox": [
+        0.059640522875817,
+        0.4079583678582702,
+        0.2241482204861111,
+        0.4206536803582702
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_015",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.4174280648279672,
+        0.3924522150575725,
+        0.4301233773279672
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_016",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.43731442846433083,
+        0.38726041207905687,
+        0.45000974096433083
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_017",
+      "text": "Tobacco use current or prior\n(MH_TOBCP)\nCurrent",
+      "bbox": [
+        0.059640522875817,
+        0.47708715573705807,
+        0.4174909903333078,
+        0.5030400439946339
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_018",
+      "text": "Prior",
+      "bbox": [
+        0.3684640522875817,
+        0.505496246646149,
+        0.3995082830291948,
+        0.518191559146149
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_019",
+      "text": "COVID-19 Status at Screening\n(MH_CVD)\n(if positive anytime before\nscreening, indicate ‘COVID positive’\nand provide the date of the positive\ntest)",
+      "bbox": [
+        0.059640522875817,
+        0.5462159436158459,
+        0.31135860767239837,
+        0.6251991349037247
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_020",
+      "text": "COVID-19 Positive",
+      "bbox": [
+        0.3684640522875817,
+        0.5547386708885732,
+        0.49186332553040746,
+        0.5674339833885732
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_021",
+      "text": "COVID-19 Negative",
+      "bbox": [
+        0.3684640522875817,
+        0.5746250345249369,
+        0.4984074511559181,
+        0.5873203470249369
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_022",
+      "text": "COVID-19 Status Unknown",
+      "bbox": [
+        0.3684640522875817,
+        0.5945113981613005,
+        0.5474515428730086,
+        0.6072067106613005
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_023",
+      "text": "If positive, date of positive test\n(MH_CVD_DT)\ndd-mmm-yyyy",
+      "bbox": [
+        0.059640522875817,
+        0.6456477617976641,
+        0.44772493449691075,
+        0.67160065005524
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_024",
+      "text": "Recent surgery (<30 days)\n(MH_SURG)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.6958371557370581,
+        0.3924522150575725,
+        0.7217900439946339
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_025",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.724246246646149,
+        0.38726041207905687,
+        0.736941559146149
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_026",
+      "text": "Recent surgery, specify\n(MH_SURGSP)",
+      "bbox": [
+        0.059640522875817,
+        0.7640189739188763,
+        0.22447426490534364,
+        0.789971862176452
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_027",
+      "text": "0/500",
+      "bbox": [
+        0.34272875816993464,
+        0.7678068527067551,
+        0.3795251036001966,
+        0.7805021652067551
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_028",
+      "text": "Congenital/acquired venous\nanomaly (MH_CVANOM)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.8539810951309975,
+        0.3924522150575725,
+        0.8799339833885732
+      ],
+      "page_num": 6
+    },
+    {
+      "line_id": "line_006_029",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.8823901860400883,
+        0.38726041207905687,
+        0.8950854985400883
+      ],
+      "page_num": 6
+    }
+  ],
+  "metadata": {
+    "num_questions": 12,
+    "num_inputs": 23,
+    "num_inputs_by_type": {
+      "option": 16,
+      "text": 7,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 12,
+    "num_supplemental": 5,
+    "num_total_lines": 30,
+    "timestamp": "2025-08-15T13:24:14.414472+00:00"
+  }
+}

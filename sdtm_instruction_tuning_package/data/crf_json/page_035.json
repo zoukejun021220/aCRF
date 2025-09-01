@@ -1,0 +1,501 @@
+{
+  "page_id": 35,
+  "items": [
+    {
+      "seq": 1026,
+      "tag": "<Q>",
+      "text": "Sample collection date (CL_DATE)",
+      "page": 36,
+      "form": "Clinical Labs > Lab",
+      "section": "Clinical Labs > Lab",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11155870225694445,
+        0.44772493449691075,
+        0.13020273651739564
+      ],
+      "bbox_ref": "line_035_004",
+      "qid": "q-277"
+    },
+    {
+      "seq": 1027,
+      "tag": "<INPUT>",
+      "text": "dd-mmm-yyyy",
+      "page": 36,
+      "input_type": "text",
+      "form": "Clinical Labs > Lab",
+      "section": "Clinical Labs > Lab",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11155870225694445,
+        0.44772493449691075,
+        0.13020273651739564
+      ],
+      "bbox_ref": "line_035_004",
+      "parent_qid": "q-277"
+    },
+    {
+      "seq": 1028,
+      "tag": "<Q>",
+      "text": "Creatinine (mg/dL) (CL_CREAT)",
+      "page": 36,
+      "form": "Clinical Labs > Lab",
+      "section": "Clinical Labs > Lab",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-278"
+    },
+    {
+      "seq": 1029,
+      "tag": "<INPUT>",
+      "text": "____________________",
+      "page": 36,
+      "input_type": "text",
+      "form": "Clinical Labs > Lab",
+      "section": "Clinical Labs > Lab",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-278"
+    },
+    {
+      "seq": 1030,
+      "tag": "<Q>",
+      "text": "Platelets (thousands/µL) (CL_PLAT)",
+      "page": 36,
+      "form": "Clinical Labs > Lab",
+      "section": "Clinical Labs > Lab",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-279"
+    },
+    {
+      "seq": 1031,
+      "tag": "<INPUT>",
+      "text": "____________________",
+      "page": 36,
+      "input_type": "text",
+      "form": "Clinical Labs > Lab",
+      "section": "Clinical Labs > Lab",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-279"
+    },
+    {
+      "seq": 1032,
+      "tag": "<Q>",
+      "text": "Hematocrit (%) (CL_HCT)",
+      "page": 36,
+      "form": "Clinical Labs > Lab",
+      "section": "Clinical Labs > Lab",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-280"
+    },
+    {
+      "seq": 1033,
+      "tag": "<INPUT>",
+      "text": "____________________",
+      "page": 36,
+      "input_type": "text",
+      "form": "Clinical Labs > Lab",
+      "section": "Clinical Labs > Lab",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-280"
+    },
+    {
+      "seq": 1034,
+      "tag": "<Q>",
+      "text": "Hemoglobin (g/dL) (CL_HGB)",
+      "page": 36,
+      "form": "Clinical Labs > Lab",
+      "section": "Clinical Labs > Lab",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-281"
+    },
+    {
+      "seq": 1035,
+      "tag": "<INPUT>",
+      "text": "____________________",
+      "page": 36,
+      "input_type": "text",
+      "form": "Clinical Labs > Lab",
+      "section": "Clinical Labs > Lab",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-281"
+    },
+    {
+      "seq": 1036,
+      "tag": "<Q>",
+      "text": "D-Dimer (µg/mL) (CL_DDIM)",
+      "page": 36,
+      "form": "Clinical Labs > Lab",
+      "section": "Clinical Labs > Lab",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-282"
+    },
+    {
+      "seq": 1037,
+      "tag": "<INPUT>",
+      "text": "____________________",
+      "page": 36,
+      "input_type": "text",
+      "form": "Clinical Labs > Lab",
+      "section": "Clinical Labs > Lab",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-282"
+    },
+    {
+      "seq": 1038,
+      "tag": "<Q>",
+      "text": "INR (CL_INR)",
+      "page": 36,
+      "form": "Clinical Labs > Lab",
+      "section": "Clinical Labs > Lab",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.4108011264993687,
+        0.15194946488523794,
+        0.4234964389993687
+      ],
+      "bbox_ref": "line_035_010",
+      "qid": "q-283"
+    },
+    {
+      "seq": 1039,
+      "tag": "<INPUT>",
+      "text": "____________________",
+      "page": 36,
+      "input_type": "text",
+      "form": "Clinical Labs > Lab",
+      "section": "Clinical Labs > Lab",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-283"
+    },
+    {
+      "seq": 1040,
+      "tag": "<FORM>",
+      "text": "Clinical Labs > Lab",
+      "page": 36,
+      "bbox_xyxy": [
+        0.23335375816993464,
+        0.036748096196338384,
+        0.6530635559480954,
+        0.049443408696338384
+      ],
+      "bbox_ref": "line_035_002"
+    },
+    {
+      "seq": 1041,
+      "tag": "<SH>",
+      "text": "Clinical Labs > Lab",
+      "page": 36,
+      "question_below_text": "Sample collection date (CL_DATE)",
+      "bbox_xyxy": [
+        0.23335375816993464,
+        0.036748096196338384,
+        0.6530635559480954,
+        0.049443408696338384
+      ],
+      "bbox_ref": "line_035_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_035_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_035_001",
+      "text": "36/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_035_002",
+      "text": "Form: Clinical Labs > Lab\nStudy: Inari CLOUT\nPage: 1/1",
+      "bbox": [
+        0.23335375816993464,
+        0.036748096196338384,
+        0.6530635559480954,
+        0.049443408696338384
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_035_003",
+      "text": "Clinical Labs > Lab",
+      "bbox": [
+        0.3243081086601307,
+        0.06528665561868686,
+        0.5915680430293863,
+        0.09067728061868686
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_035_005",
+      "text": "Creatinine (mg/dL)\n(CL_CREAT)",
+      "bbox": [
+        0.059640522875817,
+        0.16174809619633837,
+        0.1895524068595537,
+        0.18770098445391414
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_035_006",
+      "text": "Platelets (thousands/μL)\n(CL_PLAT)",
+      "bbox": [
+        0.059640522875817,
+        0.21099052043876262,
+        0.23043476678187552,
+        0.23694340869633837
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_035_007",
+      "text": "Hematocrit (%)\n(CL_HCT)",
+      "bbox": [
+        0.059640522875817,
+        0.2611799143781566,
+        0.16340534983117597,
+        0.2871328026357323
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_035_008",
+      "text": "Hemoglobin (g/dL)\n(CL_HGB)",
+      "bbox": [
+        0.059640522875817,
+        0.3113693083175505,
+        0.18953770905538322,
+        0.33732219657512624
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_035_009",
+      "text": "D-Dimer (µg/mL)\n(CL_DDIM)",
+      "bbox": [
+        0.059640522875817,
+        0.36061173255997475,
+        0.1743171168308632,
+        0.3865646208175505
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_035_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 35
+    },
+    {
+      "line_id": "line_035_001",
+      "text": "36/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 35
+    },
+    {
+      "line_id": "line_035_002",
+      "text": "Form: Clinical Labs > Lab\nStudy: Inari CLOUT\nPage: 1/1",
+      "bbox": [
+        0.23335375816993464,
+        0.036748096196338384,
+        0.6530635559480954,
+        0.049443408696338384
+      ],
+      "page_num": 35
+    },
+    {
+      "line_id": "line_035_003",
+      "text": "Clinical Labs > Lab",
+      "bbox": [
+        0.3243081086601307,
+        0.06528665561868686,
+        0.5915680430293863,
+        0.09067728061868686
+      ],
+      "page_num": 35
+    },
+    {
+      "line_id": "line_035_004",
+      "text": "Sample collection date (CL_DATE)\ndd-mmm-yyyy",
+      "bbox": [
+        0.059640522875817,
+        0.11155870225694445,
+        0.44772493449691075,
+        0.13020273651739564
+      ],
+      "page_num": 35
+    },
+    {
+      "line_id": "line_035_005",
+      "text": "Creatinine (mg/dL)\n(CL_CREAT)",
+      "bbox": [
+        0.059640522875817,
+        0.16174809619633837,
+        0.1895524068595537,
+        0.18770098445391414
+      ],
+      "page_num": 35
+    },
+    {
+      "line_id": "line_035_006",
+      "text": "Platelets (thousands/μL)\n(CL_PLAT)",
+      "bbox": [
+        0.059640522875817,
+        0.21099052043876262,
+        0.23043476678187552,
+        0.23694340869633837
+      ],
+      "page_num": 35
+    },
+    {
+      "line_id": "line_035_007",
+      "text": "Hematocrit (%)\n(CL_HCT)",
+      "bbox": [
+        0.059640522875817,
+        0.2611799143781566,
+        0.16340534983117597,
+        0.2871328026357323
+      ],
+      "page_num": 35
+    },
+    {
+      "line_id": "line_035_008",
+      "text": "Hemoglobin (g/dL)\n(CL_HGB)",
+      "bbox": [
+        0.059640522875817,
+        0.3113693083175505,
+        0.18953770905538322,
+        0.33732219657512624
+      ],
+      "page_num": 35
+    },
+    {
+      "line_id": "line_035_009",
+      "text": "D-Dimer (µg/mL)\n(CL_DDIM)",
+      "bbox": [
+        0.059640522875817,
+        0.36061173255997475,
+        0.1743171168308632,
+        0.3865646208175505
+      ],
+      "page_num": 35
+    },
+    {
+      "line_id": "line_035_010",
+      "text": "INR (CL_INR)",
+      "bbox": [
+        0.059640522875817,
+        0.4108011264993687,
+        0.15194946488523794,
+        0.4234964389993687
+      ],
+      "page_num": 35
+    }
+  ],
+  "metadata": {
+    "num_questions": 7,
+    "num_inputs": 7,
+    "num_inputs_by_type": {
+      "option": 0,
+      "text": 7,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 9,
+    "num_total_lines": 11,
+    "timestamp": "2025-08-15T13:35:37.845552+00:00"
+  }
+}

@@ -1,0 +1,847 @@
+{
+  "page_id": 135,
+  "items": [
+    {
+      "seq": 4151,
+      "tag": "<Q>",
+      "text": "Date of deviation from protocol (PD_DATE)",
+      "page": 136,
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-966"
+    },
+    {
+      "seq": 4152,
+      "tag": "<INPUT>",
+      "text": "dd-mmm-yyyy",
+      "page": 136,
+      "input_type": "text",
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.44772493449691075,
+        0.1375189887152778
+      ],
+      "bbox_ref": "line_135_004",
+      "parent_qid": "q-966"
+    },
+    {
+      "seq": 4153,
+      "tag": "<Q>",
+      "text": "Deviation reason (PD_REAS)",
+      "page": 136,
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.16175549439709597,
+        0.5335691863415288,
+        0.18297353416982323
+      ],
+      "bbox_ref": "line_135_005",
+      "qid": "q-967"
+    },
+    {
+      "seq": 4154,
+      "tag": "<INPUT>",
+      "text": "Ineligible subject enrolled",
+      "page": 136,
+      "input_type": "text",
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.16175549439709597,
+        0.5335691863415288,
+        0.18297353416982323
+      ],
+      "bbox_ref": "line_135_005",
+      "parent_qid": "q-967"
+    },
+    {
+      "seq": 4155,
+      "tag": "<INPUT>",
+      "text": "Informed consent not obtained/signed/dated",
+      "page": 136,
+      "input_type": "text",
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.19016458530618688,
+        0.5066086014890983,
+        0.20285989780618688
+      ],
+      "bbox_ref": "line_135_006",
+      "parent_qid": "q-967"
+    },
+    {
+      "seq": 4156,
+      "tag": "<INPUT>",
+      "text": "Assessment performed outside protocol window",
+      "page": 136,
+      "input_type": "text",
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.22330852470012627,
+        0.5711574180453431,
+        0.23600383720012627
+      ],
+      "bbox_ref": "line_135_008",
+      "parent_qid": "q-967"
+    },
+    {
+      "seq": 4157,
+      "tag": "<INPUT>",
+      "text": "Missing/Incomplete Data",
+      "page": 136,
+      "input_type": "text",
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.25645246409406564,
+        0.5294662675047233,
+        0.26914777659406564
+      ],
+      "bbox_ref": "line_135_010",
+      "parent_qid": "q-967"
+    },
+    {
+      "seq": 4158,
+      "tag": "<INPUT>",
+      "text": "Protocol not followed",
+      "page": 136,
+      "input_type": "text",
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.2763388277304293,
+        0.5049662870519301,
+        0.2890341402304293
+      ],
+      "bbox_ref": "line_135_011",
+      "parent_qid": "q-967"
+    },
+    {
+      "seq": 4159,
+      "tag": "<INPUT>",
+      "text": "Subject unable to tolerate test",
+      "page": 136,
+      "input_type": "text",
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.29622519136679293,
+        0.5630203446531608,
+        0.30892050386679293
+      ],
+      "bbox_ref": "line_135_012",
+      "parent_qid": "q-967"
+    },
+    {
+      "seq": 4160,
+      "tag": "<INPUT>",
+      "text": "Subject refused test/follow-up",
+      "page": 136,
+      "input_type": "text",
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.3161115550031566,
+        0.5613633199454913,
+        0.3288068675031566
+      ],
+      "bbox_ref": "line_135_013",
+      "parent_qid": "q-967"
+    },
+    {
+      "seq": 4161,
+      "tag": "<INPUT>",
+      "text": "Subject in life threatening situation",
+      "page": 136,
+      "input_type": "text",
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.3359979186395202,
+        0.5335838966120302,
+        0.3486932311395202
+      ],
+      "bbox_ref": "line_135_014",
+      "parent_qid": "q-967"
+    },
+    {
+      "seq": 4162,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 136,
+      "input_type": "text",
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.3691418580334596,
+        0.40524356817108353,
+        0.3818371705334596
+      ],
+      "bbox_ref": "line_135_016",
+      "parent_qid": "q-967"
+    },
+    {
+      "seq": 4163,
+      "tag": "<Q>",
+      "text": "Please specify out-of-window assessment (PD_OWA)",
+      "page": 136,
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-968"
+    },
+    {
+      "seq": 4164,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 136,
+      "input_type": "text",
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.40891458530618685,
+        0.3877015705981286,
+        0.43486747356376265
+      ],
+      "bbox_ref": "line_135_017",
+      "parent_qid": "q-968"
+    },
+    {
+      "seq": 4165,
+      "tag": "<Q>",
+      "text": "Please specify missing assessment (PD_MA)",
+      "page": 136,
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-969"
+    },
+    {
+      "seq": 4166,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 136,
+      "input_type": "text",
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.40891458530618685,
+        0.3877015705981286,
+        0.43486747356376265
+      ],
+      "bbox_ref": "line_135_017",
+      "parent_qid": "q-969"
+    },
+    {
+      "seq": 4167,
+      "tag": "<Q>",
+      "text": "Other reason, specify (PD_REASSP)",
+      "page": 136,
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5888388277304293,
+        0.3877015705981286,
+        0.6053220190183081
+      ],
+      "bbox_ref": "line_135_020",
+      "qid": "q-970"
+    },
+    {
+      "seq": 4168,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 136,
+      "input_type": "text",
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.40891458530618685,
+        0.3877015705981286,
+        0.43486747356376265
+      ],
+      "bbox_ref": "line_135_017",
+      "parent_qid": "q-970"
+    },
+    {
+      "seq": 4169,
+      "tag": "<Q>",
+      "text": "Description of the protocol deviation (PD_DESC)",
+      "page": 136,
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-971"
+    },
+    {
+      "seq": 4170,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 136,
+      "input_type": "text",
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.40891458530618685,
+        0.3877015705981286,
+        0.43486747356376265
+      ],
+      "bbox_ref": "line_135_017",
+      "parent_qid": "q-971"
+    },
+    {
+      "seq": 4171,
+      "tag": "<Q>",
+      "text": "Was a deviation waiver granted by the Sponsor? (PD_WAIV)",
+      "page": 136,
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-972"
+    },
+    {
+      "seq": 4172,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 136,
+      "input_type": "option",
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.767816100457702,
+        0.3924522150575725,
+        0.7937689887152778
+      ],
+      "bbox_ref": "line_135_022",
+      "parent_qid": "q-972"
+    },
+    {
+      "seq": 4173,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 136,
+      "input_type": "option",
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7962251913667929,
+        0.38726041207905687,
+        0.8089205038667929
+      ],
+      "bbox_ref": "line_135_023",
+      "parent_qid": "q-972"
+    },
+    {
+      "seq": 4174,
+      "tag": "<INPUT>",
+      "text": "Not Required",
+      "page": 136,
+      "input_type": "text",
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.8161115550031566,
+        0.45509861964805454,
+        0.8288068675031566
+      ],
+      "bbox_ref": "line_135_024",
+      "parent_qid": "q-972"
+    },
+    {
+      "seq": 4175,
+      "tag": "<Q>",
+      "text": "Description of the corrective action taken (PD_CORACT)",
+      "page": 136,
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-973"
+    },
+    {
+      "seq": 4176,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 136,
+      "input_type": "text",
+      "form": "Protocol Deviations > PD",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.40891458530618685,
+        0.3877015705981286,
+        0.43486747356376265
+      ],
+      "bbox_ref": "line_135_017",
+      "parent_qid": "q-973"
+    },
+    {
+      "seq": 4177,
+      "tag": "<FORM>",
+      "text": "Protocol Deviations > PD",
+      "page": 136,
+      "bbox_xyxy": [
+        0.21374591503267973,
+        0.03675549439709596,
+        0.6726713990853503,
+        0.04945080689709596
+      ],
+      "bbox_ref": "line_135_002"
+    },
+    {
+      "seq": 4178,
+      "tag": "<SH>",
+      "text": "Protocol Deviations > PD",
+      "page": 136,
+      "question_below_text": "Date of deviation from protocol (PD_DATE)",
+      "bbox_xyxy": [
+        0.21374591503267973,
+        0.03675549439709596,
+        0.6726713990853503,
+        0.04945080689709596
+      ],
+      "bbox_ref": "line_135_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_135_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_135_001",
+      "text": "136/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_135_002",
+      "text": "Form: Protocol Deviations > PD\nStudy: Inari CLOUT\nPage: 1/1",
+      "bbox": [
+        0.21374591503267973,
+        0.03675549439709596,
+        0.6726713990853503,
+        0.04945080689709596
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_135_003",
+      "text": "Protocol Deviations > PD",
+      "bbox": [
+        0.282641441993464,
+        0.06529405381944445,
+        0.6332345601000817,
+        0.09068467881944445
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_135_018",
+      "text": "Please specify missing assessment\n(PD_MA)",
+      "bbox": [
+        0.059640522875817,
+        0.49887670651830807,
+        0.3089494393541922,
+        0.5248295947758839
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_135_025",
+      "text": "Description of the corrective action\ntaken (PD_CORACT)",
+      "bbox": [
+        0.059640522875817,
+        0.8568312519728535,
+        0.3064322627447789,
+        0.8827841402304293
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_135_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_001",
+      "text": "136/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_002",
+      "text": "Form: Protocol Deviations > PD\nStudy: Inari CLOUT\nPage: 1/1",
+      "bbox": [
+        0.21374591503267973,
+        0.03675549439709596,
+        0.6726713990853503,
+        0.04945080689709596
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_003",
+      "text": "Protocol Deviations > PD",
+      "bbox": [
+        0.282641441993464,
+        0.06529405381944445,
+        0.6332345601000817,
+        0.09068467881944445
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_004",
+      "text": "Date of deviation from protocol\n(PD_DATE)\ndd-mmm-yyyy",
+      "bbox": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.44772493449691075,
+        0.1375189887152778
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_005",
+      "text": "Deviation reason (PD_REAS)\nIneligible subject enrolled",
+      "bbox": [
+        0.059640522875817,
+        0.16175549439709597,
+        0.5335691863415288,
+        0.18297353416982323
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_006",
+      "text": "Informed consent not",
+      "bbox": [
+        0.3684640522875817,
+        0.19016458530618688,
+        0.5066086014890983,
+        0.20285989780618688
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_007",
+      "text": "obtained/signed/dated",
+      "bbox": [
+        0.34272875816993464,
+        0.20342216106376262,
+        0.4874368306078942,
+        0.21611747356376262
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_008",
+      "text": "Assessment performed outside",
+      "bbox": [
+        0.3684640522875817,
+        0.22330852470012627,
+        0.5711574180453431,
+        0.23600383720012627
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_009",
+      "text": "protocol window",
+      "bbox": [
+        0.34272875816993464,
+        0.23656610045770202,
+        0.4481576657762714,
+        0.24926141295770202
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_010",
+      "text": "Missing/Incomplete Data",
+      "bbox": [
+        0.3684640522875817,
+        0.25645246409406564,
+        0.5294662675047233,
+        0.26914777659406564
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_011",
+      "text": "Protocol not followed",
+      "bbox": [
+        0.3684640522875817,
+        0.2763388277304293,
+        0.5049662870519301,
+        0.2890341402304293
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_012",
+      "text": "Subject unable to tolerate test",
+      "bbox": [
+        0.3684640522875817,
+        0.29622519136679293,
+        0.5630203446531608,
+        0.30892050386679293
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_013",
+      "text": "Subject refused test/follow-up",
+      "bbox": [
+        0.3684640522875817,
+        0.3161115550031566,
+        0.5613633199454913,
+        0.3288068675031566
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_014",
+      "text": "Subject in life threatening",
+      "bbox": [
+        0.3684640522875817,
+        0.3359979186395202,
+        0.5335838966120302,
+        0.3486932311395202
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_015",
+      "text": "situation",
+      "bbox": [
+        0.34272875816993464,
+        0.34925549439709597,
+        0.39749569363064235,
+        0.36195080689709597
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_016",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.3691418580334596,
+        0.40524356817108353,
+        0.3818371705334596
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_017",
+      "text": "Please specify out-of-window\nassessment (PD_OWA)\n0/2500",
+      "bbox": [
+        0.059640522875817,
+        0.40891458530618685,
+        0.3877015705981286,
+        0.43486747356376265
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_018",
+      "text": "Please specify missing assessment\n(PD_MA)",
+      "bbox": [
+        0.059640522875817,
+        0.49887670651830807,
+        0.3089494393541922,
+        0.5248295947758839
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_019",
+      "text": "0/2500",
+      "bbox": [
+        0.34272875816993464,
+        0.5026645853061869,
+        0.3877015705981286,
+        0.5153598978061869
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_020",
+      "text": "Other reason, specify (PD_REASSP)\n0/2500",
+      "bbox": [
+        0.059640522875817,
+        0.5888388277304293,
+        0.3877015705981286,
+        0.6053220190183081
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_021",
+      "text": "Description of the protocol deviation\n(PD_DESC)\n0/2500",
+      "bbox": [
+        0.059640522875817,
+        0.6778539792455808,
+        0.3877015705981286,
+        0.7038068675031566
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_022",
+      "text": "Was a deviation waiver granted by\nthe Sponsor? (PD_WAIV)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.767816100457702,
+        0.3924522150575725,
+        0.7937689887152778
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_023",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.7962251913667929,
+        0.38726041207905687,
+        0.8089205038667929
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_024",
+      "text": "Not Required",
+      "bbox": [
+        0.3684640522875817,
+        0.8161115550031566,
+        0.45509861964805454,
+        0.8288068675031566
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_025",
+      "text": "Description of the corrective action\ntaken (PD_CORACT)",
+      "bbox": [
+        0.059640522875817,
+        0.8568312519728535,
+        0.3064322627447789,
+        0.8827841402304293
+      ],
+      "page_num": 135
+    },
+    {
+      "line_id": "line_135_026",
+      "text": "0/2500",
+      "bbox": [
+        0.34272875816993464,
+        0.8606191307607324,
+        0.3877015705981286,
+        0.8733144432607324
+      ],
+      "page_num": 135
+    }
+  ],
+  "metadata": {
+    "num_questions": 8,
+    "num_inputs": 18,
+    "num_inputs_by_type": {
+      "option": 2,
+      "text": 16,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 6,
+    "num_total_lines": 27,
+    "timestamp": "2025-08-15T14:20:31.325697+00:00"
+  }
+}

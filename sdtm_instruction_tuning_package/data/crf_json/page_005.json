@@ -1,0 +1,1005 @@
+{
+  "page_id": 5,
+  "items": [
+    {
+      "seq": 169,
+      "tag": "<Q>",
+      "text": "Antiplatelet Agents (MAANTPT)",
+      "page": 6,
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642077513415404,
+        0.39666491240457774,
+        0.08542579111426768
+      ],
+      "bbox_ref": "line_005_003",
+      "qid": "q-044"
+    },
+    {
+      "seq": 170,
+      "tag": "<INPUT>",
+      "text": "ASA",
+      "page": 6,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642077513415404,
+        0.39666491240457774,
+        0.08542579111426768
+      ],
+      "bbox_ref": "line_005_003",
+      "parent_qid": "q-044"
+    },
+    {
+      "seq": 171,
+      "tag": "<INPUT>",
+      "text": "Clopidogrel",
+      "page": 6,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.09261684225063131,
+        0.44160865334903493,
+        0.10531215475063131
+      ],
+      "bbox_ref": "line_005_004",
+      "parent_qid": "q-044"
+    },
+    {
+      "seq": 172,
+      "tag": "<INPUT>",
+      "text": "Prasugrel",
+      "page": 6,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.11250320588699494,
+        0.4301675036062602,
+        0.12519851838699494
+      ],
+      "bbox_ref": "line_005_005",
+      "parent_qid": "q-044"
+    },
+    {
+      "seq": 173,
+      "tag": "<INPUT>",
+      "text": "Ticagrelor",
+      "page": 6,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.1323895695233586,
+        0.4320582470862694,
+        0.1450848820233586
+      ],
+      "bbox_ref": "line_005_006",
+      "parent_qid": "q-044"
+    },
+    {
+      "seq": 174,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 6,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.1522759331597222,
+        0.4040180779750051,
+        0.1649712456597222
+      ],
+      "bbox_ref": "line_005_007",
+      "parent_qid": "q-044"
+    },
+    {
+      "seq": 175,
+      "tag": "<INPUT>",
+      "text": "None",
+      "page": 6,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.17216229679608586,
+        0.4023878558788424,
+        0.18485760929608586
+      ],
+      "bbox_ref": "line_005_008",
+      "parent_qid": "q-044"
+    },
+    {
+      "seq": 176,
+      "tag": "<Q>",
+      "text": "Other Antiplatelet Agents, Specify (ANTPTSP)",
+      "page": 6,
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.1522759331597222,
+        0.4040180779750051,
+        0.1649712456597222
+      ],
+      "bbox_ref": "line_005_007",
+      "qid": "q-045"
+    },
+    {
+      "seq": 177,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 6,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.21666987255366163,
+        0.3877015705981286,
+        0.22936518505366163
+      ],
+      "bbox_ref": "line_005_010",
+      "parent_qid": "q-045"
+    },
+    {
+      "seq": 178,
+      "tag": "<Q>",
+      "text": "Hormonal therapy (MH_HTHE)",
+      "page": 6,
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.30189714528093436,
+        0.2704347598007302,
+        0.31459245778093436
+      ],
+      "bbox_ref": "line_005_011",
+      "qid": "q-046"
+    },
+    {
+      "seq": 179,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 6,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.3113668422506313,
+        0.3924522150575725,
+        0.3240621547506313
+      ],
+      "bbox_ref": "line_005_012",
+      "parent_qid": "q-046"
+    },
+    {
+      "seq": 180,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 6,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.331253205886995,
+        0.38726041207905687,
+        0.343948518386995
+      ],
+      "bbox_ref": "line_005_013",
+      "parent_qid": "q-046"
+    },
+    {
+      "seq": 181,
+      "tag": "<Q>",
+      "text": "Is hormonal therapy ongoing? (MH_HTHECP)",
+      "page": 6,
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-047"
+    },
+    {
+      "seq": 182,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 6,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.3113668422506313,
+        0.3924522150575725,
+        0.3240621547506313
+      ],
+      "bbox_ref": "line_005_012",
+      "parent_qid": "q-047"
+    },
+    {
+      "seq": 183,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 6,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.331253205886995,
+        0.38726041207905687,
+        0.343948518386995
+      ],
+      "bbox_ref": "line_005_013",
+      "parent_qid": "q-047"
+    },
+    {
+      "seq": 184,
+      "tag": "<Q>",
+      "text": "Hormonal therapy, specify (MH_HTHESP)",
+      "page": 6,
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-048"
+    },
+    {
+      "seq": 185,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 6,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.21666987255366163,
+        0.3877015705981286,
+        0.22936518505366163
+      ],
+      "bbox_ref": "line_005_010",
+      "parent_qid": "q-048"
+    },
+    {
+      "seq": 186,
+      "tag": "<Q>",
+      "text": "Cancer (MH_CANC)",
+      "page": 6,
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5291698725536617,
+        0.19689066269818475,
+        0.5418651850536617
+      ],
+      "bbox_ref": "line_005_018",
+      "qid": "q-049"
+    },
+    {
+      "seq": 187,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 6,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.3113668422506313,
+        0.3924522150575725,
+        0.3240621547506313
+      ],
+      "bbox_ref": "line_005_012",
+      "parent_qid": "q-049"
+    },
+    {
+      "seq": 188,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 6,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.331253205886995,
+        0.38726041207905687,
+        0.343948518386995
+      ],
+      "bbox_ref": "line_005_013",
+      "parent_qid": "q-049"
+    },
+    {
+      "seq": 189,
+      "tag": "<Q>",
+      "text": "Active cancer (MH_CANCA)",
+      "page": 6,
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5982986604324495,
+        0.3924522150575725,
+        0.6195167002051768
+      ],
+      "bbox_ref": "line_005_021",
+      "qid": "q-050"
+    },
+    {
+      "seq": 190,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 6,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.3113668422506313,
+        0.3924522150575725,
+        0.3240621547506313
+      ],
+      "bbox_ref": "line_005_012",
+      "parent_qid": "q-050"
+    },
+    {
+      "seq": 191,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 6,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.331253205886995,
+        0.38726041207905687,
+        0.343948518386995
+      ],
+      "bbox_ref": "line_005_013",
+      "parent_qid": "q-050"
+    },
+    {
+      "seq": 192,
+      "tag": "<Q>",
+      "text": "Hypertension (MH_HYPT)",
+      "page": 6,
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6674274483112373,
+        0.3924522150575725,
+        0.6886454880839646
+      ],
+      "bbox_ref": "line_005_023",
+      "qid": "q-051"
+    },
+    {
+      "seq": 193,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 6,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.3113668422506313,
+        0.3924522150575725,
+        0.3240621547506313
+      ],
+      "bbox_ref": "line_005_012",
+      "parent_qid": "q-051"
+    },
+    {
+      "seq": 194,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 6,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.331253205886995,
+        0.38726041207905687,
+        0.343948518386995
+      ],
+      "bbox_ref": "line_005_013",
+      "parent_qid": "q-051"
+    },
+    {
+      "seq": 195,
+      "tag": "<Q>",
+      "text": "Diabetes (MH_DIAB)",
+      "page": 6,
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7365562361900253,
+        0.3924522150575725,
+        0.7577742759627525
+      ],
+      "bbox_ref": "line_005_025",
+      "qid": "q-052"
+    },
+    {
+      "seq": 196,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 6,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.3113668422506313,
+        0.3924522150575725,
+        0.3240621547506313
+      ],
+      "bbox_ref": "line_005_012",
+      "parent_qid": "q-052"
+    },
+    {
+      "seq": 197,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 6,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.331253205886995,
+        0.38726041207905687,
+        0.343948518386995
+      ],
+      "bbox_ref": "line_005_013",
+      "parent_qid": "q-052"
+    },
+    {
+      "seq": 198,
+      "tag": "<Q>",
+      "text": "Diabetes type (MH_DIABT)",
+      "page": 6,
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.8047380543718434,
+        0.4126084022272646,
+        0.8259560941445707
+      ],
+      "bbox_ref": "line_005_027",
+      "qid": "q-053"
+    },
+    {
+      "seq": 199,
+      "tag": "<INPUT>",
+      "text": "Type 1",
+      "page": 6,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.8047380543718434,
+        0.4126084022272646,
+        0.8259560941445707
+      ],
+      "bbox_ref": "line_005_027",
+      "parent_qid": "q-053"
+    },
+    {
+      "seq": 200,
+      "tag": "<INPUT>",
+      "text": "Type 2",
+      "page": 6,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.8331471452809344,
+        0.4126084022272646,
+        0.8458424577809344
+      ],
+      "bbox_ref": "line_005_028",
+      "parent_qid": "q-053"
+    },
+    {
+      "seq": 201,
+      "tag": "<Q>",
+      "text": "Coronary artery disease (CAD) (MH_CAD)",
+      "page": 6,
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-054"
+    },
+    {
+      "seq": 202,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 6,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.3113668422506313,
+        0.3924522150575725,
+        0.3240621547506313
+      ],
+      "bbox_ref": "line_005_012",
+      "parent_qid": "q-054"
+    },
+    {
+      "seq": 203,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 6,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Medical History",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.331253205886995,
+        0.38726041207905687,
+        0.343948518386995
+      ],
+      "bbox_ref": "line_005_013",
+      "parent_qid": "q-054"
+    },
+    {
+      "seq": 204,
+      "tag": "<FORM>",
+      "text": "Baseline",
+      "page": 6,
+      "bbox_xyxy": [
+        0.2633974162581699,
+        0.03674563012941919,
+        0.6230200474558313,
+        0.04944094262941919
+      ],
+      "bbox_ref": "line_005_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_005_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_005_001",
+      "text": "6/140",
+      "bbox": [
+        0.9240196078431373,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_005_002",
+      "text": "Form: Baseline\nStudy: Inari CLOUT\nPage: 6/10",
+      "bbox": [
+        0.2633974162581699,
+        0.03674563012941919,
+        0.6230200474558313,
+        0.04944094262941919
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_005_016",
+      "text": "Hormonal therapy, specify\n(MH_HTHESP)",
+      "bbox": [
+        0.059640522875817,
+        0.4401547210385101,
+        0.24324437060387305,
+        0.46610760929608586
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_005_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_001",
+      "text": "6/140",
+      "bbox": [
+        0.9240196078431373,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_002",
+      "text": "Form: Baseline\nStudy: Inari CLOUT\nPage: 6/10",
+      "bbox": [
+        0.2633974162581699,
+        0.03674563012941919,
+        0.6230200474558313,
+        0.04944094262941919
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_003",
+      "text": "Antiplatelet Agents (MAANTPT)\nASA",
+      "bbox": [
+        0.059640522875817,
+        0.0642077513415404,
+        0.39666491240457774,
+        0.08542579111426768
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_004",
+      "text": "Clopidogrel",
+      "bbox": [
+        0.3672385620915033,
+        0.09261684225063131,
+        0.44160865334903493,
+        0.10531215475063131
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_005",
+      "text": "Prasugrel",
+      "bbox": [
+        0.3672385620915033,
+        0.11250320588699494,
+        0.4301675036062602,
+        0.12519851838699494
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_006",
+      "text": "Ticagrelor",
+      "bbox": [
+        0.3672385620915033,
+        0.1323895695233586,
+        0.4320582470862694,
+        0.1450848820233586
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_007",
+      "text": "Other",
+      "bbox": [
+        0.3672385620915033,
+        0.1522759331597222,
+        0.4040180779750051,
+        0.1649712456597222
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_008",
+      "text": "None",
+      "bbox": [
+        0.3672385620915033,
+        0.17216229679608586,
+        0.4023878558788424,
+        0.18485760929608586
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_009",
+      "text": "Other Antiplatelet Agents, Specify\n(ANTPTSP)",
+      "bbox": [
+        0.059640522875817,
+        0.21288199376578282,
+        0.2974368824678309,
+        0.2388348820233586
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_010",
+      "text": "0/2500",
+      "bbox": [
+        0.34272875816993464,
+        0.21666987255366163,
+        0.3877015705981286,
+        0.22936518505366163
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_011",
+      "text": "Hormonal therapy (MH_HTHE)",
+      "bbox": [
+        0.059640522875817,
+        0.30189714528093436,
+        0.2704347598007302,
+        0.31459245778093436
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_012",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.3113668422506313,
+        0.3924522150575725,
+        0.3240621547506313
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_013",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.331253205886995,
+        0.38726041207905687,
+        0.343948518386995
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_014",
+      "text": "Is hormonal therapy ongoing?\n(MH_HTHECP)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.3710259331597222,
+        0.3924522150575725,
+        0.39697882141729796
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_015",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.39943502406881315,
+        0.38726041207905687,
+        0.41213033656881315
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_016",
+      "text": "Hormonal therapy, specify\n(MH_HTHESP)",
+      "bbox": [
+        0.059640522875817,
+        0.4401547210385101,
+        0.24324437060387305,
+        0.46610760929608586
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_017",
+      "text": "0/2500",
+      "bbox": [
+        0.34272875816993464,
+        0.4439425998263889,
+        0.3877015705981286,
+        0.4566379123263889
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_018",
+      "text": "Cancer (MH_CANC)",
+      "bbox": [
+        0.059640522875817,
+        0.5291698725536617,
+        0.19689066269818475,
+        0.5418651850536617
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_019",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.5386395695233586,
+        0.3924522150575725,
+        0.5513348820233586
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_020",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.5585259331597222,
+        0.38726041207905687,
+        0.5712212456597222
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_021",
+      "text": "Active cancer (MH_CANCA)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.5982986604324495,
+        0.3924522150575725,
+        0.6195167002051768
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_022",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.6267077513415404,
+        0.38726041207905687,
+        0.6394030638415404
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_023",
+      "text": "Hypertension (MH_HYPT)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.6674274483112373,
+        0.3924522150575725,
+        0.6886454880839646
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_024",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.6958365392203283,
+        0.38726041207905687,
+        0.7085318517203283
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_025",
+      "text": "Diabetes (MH_DIAB)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.7365562361900253,
+        0.3924522150575725,
+        0.7577742759627525
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_026",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.7649653270991161,
+        0.38726041207905687,
+        0.7776606395991161
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_027",
+      "text": "Diabetes type (MH_DIABT)\nType 1",
+      "bbox": [
+        0.059640522875817,
+        0.8047380543718434,
+        0.4126084022272646,
+        0.8259560941445707
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_028",
+      "text": "Type 2",
+      "bbox": [
+        0.3684640522875817,
+        0.8331471452809344,
+        0.4126084022272646,
+        0.8458424577809344
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_029",
+      "text": "Coronary artery disease (CAD)\n(MH_CAD)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.8738668422506313,
+        0.3924522150575725,
+        0.8998197305082071
+      ],
+      "page_num": 5
+    },
+    {
+      "line_id": "line_005_030",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.9022759331597222,
+        0.38726041207905687,
+        0.9149712456597222
+      ],
+      "page_num": 5
+    }
+  ],
+  "metadata": {
+    "num_questions": 11,
+    "num_inputs": 24,
+    "num_inputs_by_type": {
+      "option": 14,
+      "text": 10,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 0,
+    "num_supplemental": 4,
+    "num_total_lines": 31,
+    "timestamp": "2025-08-15T13:23:42.191801+00:00"
+  }
+}

@@ -1,0 +1,746 @@
+{
+  "page_id": 87,
+  "items": [
+    {
+      "seq": 2648,
+      "tag": "<Q>",
+      "text": "TVS Segment # (EVALTVS_SEG)",
+      "page": 88,
+      "form": "FUP-6 Months > Eval",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11156116832386363,
+        0.48941992466745815,
+        0.1327792080965909
+      ],
+      "bbox_ref": "line_087_004",
+      "qid": "q-634"
+    },
+    {
+      "seq": 2649,
+      "tag": "<INPUT>",
+      "text": "TVS #1 - IVC Only",
+      "page": 88,
+      "input_type": "text",
+      "form": "FUP-6 Months > Eval",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11156116832386363,
+        0.48941992466745815,
+        0.1327792080965909
+      ],
+      "bbox_ref": "line_087_004",
+      "parent_qid": "q-634"
+    },
+    {
+      "seq": 2650,
+      "tag": "<INPUT>",
+      "text": "TVS #1 - Left",
+      "page": 88,
+      "input_type": "text",
+      "form": "FUP-6 Months > Eval",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13997025923295456,
+        0.455108642578125,
+        0.15266557173295456
+      ],
+      "bbox_ref": "line_087_005",
+      "parent_qid": "q-634"
+    },
+    {
+      "seq": 2651,
+      "tag": "<INPUT>",
+      "text": "TVS #1 - Right",
+      "page": 88,
+      "input_type": "text",
+      "form": "FUP-6 Months > Eval",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.15985662286931818,
+        0.46490274067797693,
+        0.17255193536931818
+      ],
+      "bbox_ref": "line_087_006",
+      "parent_qid": "q-634"
+    },
+    {
+      "seq": 2652,
+      "tag": "<INPUT>",
+      "text": "TVS #2 - Left",
+      "page": 88,
+      "input_type": "text",
+      "form": "FUP-6 Months > Eval",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.17974298650568182,
+        0.455108642578125,
+        0.19243829900568182
+      ],
+      "bbox_ref": "line_087_007",
+      "parent_qid": "q-634"
+    },
+    {
+      "seq": 2653,
+      "tag": "<INPUT>",
+      "text": "TVS #2 - Right",
+      "page": 88,
+      "input_type": "text",
+      "form": "FUP-6 Months > Eval",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.19962935014204544,
+        0.46490274067797693,
+        0.21232466264204544
+      ],
+      "bbox_ref": "line_087_008",
+      "parent_qid": "q-634"
+    },
+    {
+      "seq": 2654,
+      "tag": "<Q>",
+      "text": "Was a duplex ultrasound (DUS) completed? (EVALTVS_DUSYN)",
+      "page": 88,
+      "form": "FUP-6 Months > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.2596472537878788,
+        0.2339511447482639,
+        0.2765743371212121
+      ],
+      "bbox_ref": "line_087_009",
+      "qid": "q-635"
+    },
+    {
+      "seq": 2655,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 88,
+      "input_type": "option",
+      "form": "FUP-6 Months > Eval",
+      "section": "Duplex Ultrasound",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3170535925662879,
+        0.3924522150575725,
+        0.34300648082386365
+      ],
+      "bbox_ref": "line_087_010",
+      "parent_qid": "q-635"
+    },
+    {
+      "seq": 2656,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 88,
+      "input_type": "option",
+      "form": "FUP-6 Months > Eval",
+      "section": "Duplex Ultrasound",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.3454626834753788,
+        0.38726041207905687,
+        0.3581579959753788
+      ],
+      "bbox_ref": "line_087_011",
+      "parent_qid": "q-635"
+    },
+    {
+      "seq": 2657,
+      "tag": "<Q>",
+      "text": "DUS date (EVALTVS_DUSDAT)",
+      "page": 88,
+      "form": "FUP-6 Months > Eval",
+      "section": "Duplex Ultrasound",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-636"
+    },
+    {
+      "seq": 2658,
+      "tag": "<INPUT>",
+      "text": "dd-mmm-yyyy",
+      "page": 88,
+      "input_type": "text",
+      "form": "FUP-6 Months > Eval",
+      "section": "Duplex Ultrasound",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.38618238044507575,
+        0.44772493449691075,
+        0.40482642433860083
+      ],
+      "bbox_ref": "line_087_012",
+      "parent_qid": "q-636"
+    },
+    {
+      "seq": 2659,
+      "tag": "<Q>",
+      "text": "Flow (EVALTVS_DUSFL)",
+      "page": 88,
+      "form": "FUP-6 Months > Eval",
+      "section": "Duplex Ultrasound",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.4363717743844697,
+        0.4191380419762306,
+        0.45758981415719696
+      ],
+      "bbox_ref": "line_087_013",
+      "qid": "q-637"
+    },
+    {
+      "seq": 2660,
+      "tag": "<INPUT>",
+      "text": "Present",
+      "page": 88,
+      "input_type": "text",
+      "form": "FUP-6 Months > Eval",
+      "section": "Duplex Ultrasound",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.4363717743844697,
+        0.4191380419762306,
+        0.45758981415719696
+      ],
+      "bbox_ref": "line_087_013",
+      "parent_qid": "q-637"
+    },
+    {
+      "seq": 2661,
+      "tag": "<INPUT>",
+      "text": "Absent",
+      "page": 88,
+      "input_type": "text",
+      "form": "FUP-6 Months > Eval",
+      "section": "Duplex Ultrasound",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4647808652935606,
+        0.4142409679936428,
+        0.4774761777935606
+      ],
+      "bbox_ref": "line_087_014",
+      "parent_qid": "q-637"
+    },
+    {
+      "seq": 2662,
+      "tag": "<INPUT>",
+      "text": "Not evaluable",
+      "page": 88,
+      "input_type": "text",
+      "form": "FUP-6 Months > Eval",
+      "section": "Duplex Ultrasound",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.48466722892992425,
+        0.45837801266339867,
+        0.49736254142992425
+      ],
+      "bbox_ref": "line_087_015",
+      "parent_qid": "q-637"
+    },
+    {
+      "seq": 2663,
+      "tag": "<Q>",
+      "text": "Compressibility (EVALTVS_DUSCOM)",
+      "page": 88,
+      "form": "FUP-6 Months > Eval",
+      "section": "Duplex Ultrasound",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-638"
+    },
+    {
+      "seq": 2664,
+      "tag": "<INPUT>",
+      "text": "Normal",
+      "page": 88,
+      "input_type": "text",
+      "form": "FUP-6 Months > Eval",
+      "section": "Duplex Ultrasound",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5244399562026515,
+        0.41584887535743464,
+        0.5503928444602273
+      ],
+      "bbox_ref": "line_087_016",
+      "parent_qid": "q-638"
+    },
+    {
+      "seq": 2665,
+      "tag": "<INPUT>",
+      "text": "Partial",
+      "page": 88,
+      "input_type": "text",
+      "form": "FUP-6 Months > Eval",
+      "section": "Duplex Ultrasound",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5528490471117424,
+        0.41014298582388686,
+        0.5655443596117424
+      ],
+      "bbox_ref": "line_087_017",
+      "parent_qid": "q-638"
+    },
+    {
+      "seq": 2666,
+      "tag": "<INPUT>",
+      "text": "Incompressible",
+      "page": 88,
+      "input_type": "text",
+      "form": "FUP-6 Months > Eval",
+      "section": "Duplex Ultrasound",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5727354107481061,
+        0.467348634807113,
+        0.5854307232481061
+      ],
+      "bbox_ref": "line_087_018",
+      "parent_qid": "q-638"
+    },
+    {
+      "seq": 2667,
+      "tag": "<INPUT>",
+      "text": "Not evaluable",
+      "page": 88,
+      "input_type": "text",
+      "form": "FUP-6 Months > Eval",
+      "section": "Duplex Ultrasound",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.48466722892992425,
+        0.45837801266339867,
+        0.49736254142992425
+      ],
+      "bbox_ref": "line_087_015",
+      "parent_qid": "q-638"
+    },
+    {
+      "seq": 2668,
+      "tag": "<Q>",
+      "text": "Was there a rethrombosis within the TVS? (EVALTVS_RETHROM)",
+      "page": 88,
+      "form": "FUP-6 Months > Eval",
+      "section": "Duplex Ultrasound",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.652639678030303,
+        0.19146704829596226,
+        0.6695667613636364
+      ],
+      "bbox_ref": "line_087_020",
+      "qid": "q-639"
+    },
+    {
+      "seq": 2669,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 88,
+      "input_type": "option",
+      "form": "FUP-6 Months > Eval",
+      "section": "Duplex Ultrasound",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3170535925662879,
+        0.3924522150575725,
+        0.34300648082386365
+      ],
+      "bbox_ref": "line_087_010",
+      "parent_qid": "q-639"
+    },
+    {
+      "seq": 2670,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 88,
+      "input_type": "option",
+      "form": "FUP-6 Months > Eval",
+      "section": "Duplex Ultrasound",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.3454626834753788,
+        0.38726041207905687,
+        0.3581579959753788
+      ],
+      "bbox_ref": "line_087_011",
+      "parent_qid": "q-639"
+    },
+    {
+      "seq": 2671,
+      "tag": "<FORM>",
+      "text": "FUP-6 Months > Eval",
+      "page": 88,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    },
+    {
+      "seq": 2672,
+      "tag": "<SH>",
+      "text": "Duplex Ultrasound",
+      "page": 88,
+      "question_below_text": "Was a duplex ultrasound (DUS) completed? (EVALTVS_DUSYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.2596472537878788,
+        0.2339511447482639,
+        0.2765743371212121
+      ],
+      "bbox_ref": "line_087_009"
+    },
+    {
+      "seq": 2673,
+      "tag": "<SH>",
+      "text": "Rethrombosis",
+      "page": 88,
+      "question_below_text": "Was there a rethrombosis within the TVS? (EVALTVS_RETHROM)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.652639678030303,
+        0.19146704829596226,
+        0.6695667613636364
+      ],
+      "bbox_ref": "line_087_020"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_087_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_087_001",
+      "text": "88/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_087_002",
+      "text": "Form: FUP–6 Months > Eval\nStudy: Inari CLOUT\nPage: 1/3",
+      "bbox": [
+        0.22397109885620914,
+        0.036750562263257576,
+        0.6624462152618209,
+        0.049445874763257576
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_087_003",
+      "text": "FUP–6 Months > Eval",
+      "bbox": [
+        0.30877885008169936,
+        0.06528912168560606,
+        0.6070679807974622,
+        0.09067974668560606
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_087_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 87
+    },
+    {
+      "line_id": "line_087_001",
+      "text": "88/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 87
+    },
+    {
+      "line_id": "line_087_002",
+      "text": "Form: FUP–6 Months > Eval\nStudy: Inari CLOUT\nPage: 1/3",
+      "bbox": [
+        0.22397109885620914,
+        0.036750562263257576,
+        0.6624462152618209,
+        0.049445874763257576
+      ],
+      "page_num": 87
+    },
+    {
+      "line_id": "line_087_003",
+      "text": "FUP–6 Months > Eval",
+      "bbox": [
+        0.30877885008169936,
+        0.06528912168560606,
+        0.6070679807974622,
+        0.09067974668560606
+      ],
+      "page_num": 87
+    },
+    {
+      "line_id": "line_087_004",
+      "text": "TVS Segment # (EVALTVS_SEG)\nTVS #1 - IVC Only",
+      "bbox": [
+        0.059640522875817,
+        0.11156116832386363,
+        0.48941992466745815,
+        0.1327792080965909
+      ],
+      "page_num": 87
+    },
+    {
+      "line_id": "line_087_005",
+      "text": "TVS #1 - Left",
+      "bbox": [
+        0.3684640522875817,
+        0.13997025923295456,
+        0.455108642578125,
+        0.15266557173295456
+      ],
+      "page_num": 87
+    },
+    {
+      "line_id": "line_087_006",
+      "text": "TVS #1 - Right",
+      "bbox": [
+        0.3684640522875817,
+        0.15985662286931818,
+        0.46490274067797693,
+        0.17255193536931818
+      ],
+      "page_num": 87
+    },
+    {
+      "line_id": "line_087_007",
+      "text": "TVS #2 - Left",
+      "bbox": [
+        0.3684640522875817,
+        0.17974298650568182,
+        0.455108642578125,
+        0.19243829900568182
+      ],
+      "page_num": 87
+    },
+    {
+      "line_id": "line_087_008",
+      "text": "TVS #2 - Right",
+      "bbox": [
+        0.3684640522875817,
+        0.19962935014204544,
+        0.46490274067797693,
+        0.21232466264204544
+      ],
+      "page_num": 87
+    },
+    {
+      "line_id": "line_087_009",
+      "text": "Duplex Ultrasound",
+      "bbox": [
+        0.059640522875817,
+        0.2596472537878788,
+        0.2339511447482639,
+        0.2765743371212121
+      ],
+      "page_num": 87
+    },
+    {
+      "line_id": "line_087_010",
+      "text": "Was a duplex ultrasound (DUS)\ncompleted? (EVALTVS_DUSYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.3170535925662879,
+        0.3924522150575725,
+        0.34300648082386365
+      ],
+      "page_num": 87
+    },
+    {
+      "line_id": "line_087_011",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.3454626834753788,
+        0.38726041207905687,
+        0.3581579959753788
+      ],
+      "page_num": 87
+    },
+    {
+      "line_id": "line_087_012",
+      "text": "DUS date (EVALTVS_DUSDT)\ndd-mmm-yyyy",
+      "bbox": [
+        0.059640522875817,
+        0.38618238044507575,
+        0.44772493449691075,
+        0.40482642433860083
+      ],
+      "page_num": 87
+    },
+    {
+      "line_id": "line_087_013",
+      "text": "Flow (EVALTVS_DUSFL)\nPresent",
+      "bbox": [
+        0.059640522875817,
+        0.4363717743844697,
+        0.4191380419762306,
+        0.45758981415719696
+      ],
+      "page_num": 87
+    },
+    {
+      "line_id": "line_087_014",
+      "text": "Absent",
+      "bbox": [
+        0.3684640522875817,
+        0.4647808652935606,
+        0.4142409679936428,
+        0.4774761777935606
+      ],
+      "page_num": 87
+    },
+    {
+      "line_id": "line_087_015",
+      "text": "Not evaluable",
+      "bbox": [
+        0.3684640522875817,
+        0.48466722892992425,
+        0.45837801266339867,
+        0.49736254142992425
+      ],
+      "page_num": 87
+    },
+    {
+      "line_id": "line_087_016",
+      "text": "Compressibility\n(EVALTVS_DUSCOM)\nNormal",
+      "bbox": [
+        0.059640522875817,
+        0.5244399562026515,
+        0.41584887535743464,
+        0.5503928444602273
+      ],
+      "page_num": 87
+    },
+    {
+      "line_id": "line_087_017",
+      "text": "Partial",
+      "bbox": [
+        0.3684640522875817,
+        0.5528490471117424,
+        0.41014298582388686,
+        0.5655443596117424
+      ],
+      "page_num": 87
+    },
+    {
+      "line_id": "line_087_018",
+      "text": "Incompressible",
+      "bbox": [
+        0.3684640522875817,
+        0.5727354107481061,
+        0.467348634807113,
+        0.5854307232481061
+      ],
+      "page_num": 87
+    },
+    {
+      "line_id": "line_087_019",
+      "text": "Not evaluable",
+      "bbox": [
+        0.3684640522875817,
+        0.5926217743844697,
+        0.45837801266339867,
+        0.6053170868844697
+      ],
+      "page_num": 87
+    },
+    {
+      "line_id": "line_087_020",
+      "text": "Rethrombosis",
+      "bbox": [
+        0.059640522875817,
+        0.652639678030303,
+        0.19146704829596226,
+        0.6695667613636364
+      ],
+      "page_num": 87
+    },
+    {
+      "line_id": "line_087_021",
+      "text": "Was there a rethrombosis within the\nTVS? (EVALTVS_RETHROM)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.7109929865056818,
+        0.3924522150575725,
+        0.7369458747632576
+      ],
+      "page_num": 87
+    },
+    {
+      "line_id": "line_087_022",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.7394020774147727,
+        0.38726041207905687,
+        0.7520973899147727
+      ],
+      "page_num": 87
+    }
+  ],
+  "metadata": {
+    "num_questions": 6,
+    "num_inputs": 17,
+    "num_inputs_by_type": {
+      "option": 4,
+      "text": 13,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 2,
+    "num_supplemental": 4,
+    "num_total_lines": 23,
+    "timestamp": "2025-08-15T13:58:34.349528+00:00"
+  }
+}

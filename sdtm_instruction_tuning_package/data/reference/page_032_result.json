@@ -1,0 +1,100 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_032.json",
+  "page_id": 32,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Anticoagulant name (CM_NAME)",
+      "annotation": "CMTRT",
+      "domain": "CM",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Start date (CM_SDATE)",
+      "annotation": "CMSTDTC",
+      "domain": "CM",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Ongoing (CM_ONG)",
+      "annotation": "Question: CMENTP = STUDY EXIT | Option 'Yes': CMENRTP = ONGOING | Option 'No': [NOT SUBMITTED]",
+      "domain": "CM",
+      "pattern": "conditional_single, not_submitted",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Stop date (CM_EDATE)",
+      "annotation": "CMENDTC",
+      "domain": "CM",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Dose (CM_DOSE)",
+      "annotation": "CMDOSE",
+      "domain": "CM",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Dose units (CM_UNITS)",
+      "annotation": "CMDOSU",
+      "domain": "CM",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Dose units, specify (CM_UNITSSP)",
+      "annotation": "CMDOSU",
+      "domain": "CM",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-008",
+      "seq": 8,
+      "text": "Frequency (CM_FREQ)",
+      "annotation": "CMDOSFRQ",
+      "domain": "CM",
+      "pattern": "direct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    }
+  ],
+  "summary": {
+    "total_items": 8,
+    "annotated": 8,
+    "not_submitted": 1,
+    "errors": 0
+  }
+}

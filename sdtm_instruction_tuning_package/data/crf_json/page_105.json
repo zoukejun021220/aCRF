@@ -1,0 +1,426 @@
+{
+  "page_id": 105,
+  "items": [
+    {
+      "seq": 3240,
+      "tag": "<Q>",
+      "text": "Has there been an Adverse Event since the last visit? (FU_2_AEYN)",
+      "page": 106,
+      "form": "FUP-2 Years",
+      "section": "Quality of Life",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-767"
+    },
+    {
+      "seq": 3241,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 106,
+      "input_type": "option",
+      "form": "FUP-2 Years",
+      "section": "Follow-Up Evaluation",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.1750130701546717,
+        0.3924522150575725,
+        0.2009659584122475
+      ],
+      "bbox_ref": "line_105_005",
+      "parent_qid": "q-767"
+    },
+    {
+      "seq": 3242,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 106,
+      "input_type": "option",
+      "form": "FUP-2 Years",
+      "section": "Follow-Up Evaluation",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.20342216106376262,
+        0.38726041207905687,
+        0.21611747356376262
+      ],
+      "bbox_ref": "line_105_006",
+      "parent_qid": "q-767"
+    },
+    {
+      "seq": 3243,
+      "tag": "<Q>",
+      "text": "Per the patient, were they compliant with their anticoagulation regimen? (FU_2_ANTCOMP)",
+      "page": 106,
+      "form": "FUP-2 Years",
+      "section": "Follow-Up Evaluation",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-768"
+    },
+    {
+      "seq": 3244,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 106,
+      "input_type": "option",
+      "form": "FUP-2 Years",
+      "section": "Follow-Up Evaluation",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.1750130701546717,
+        0.3924522150575725,
+        0.2009659584122475
+      ],
+      "bbox_ref": "line_105_005",
+      "parent_qid": "q-768"
+    },
+    {
+      "seq": 3245,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 106,
+      "input_type": "option",
+      "form": "FUP-2 Years",
+      "section": "Follow-Up Evaluation",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.20342216106376262,
+        0.38726041207905687,
+        0.21611747356376262
+      ],
+      "bbox_ref": "line_105_006",
+      "parent_qid": "q-768"
+    },
+    {
+      "seq": 3246,
+      "tag": "<INPUT>",
+      "text": "Not done",
+      "page": 106,
+      "input_type": "option",
+      "form": "FUP-2 Years",
+      "section": "Follow-Up Evaluation",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.2914903428819444,
+        0.4281427720013787,
+        0.3041856553819444
+      ],
+      "bbox_ref": "line_105_010",
+      "parent_qid": "q-768"
+    },
+    {
+      "seq": 3247,
+      "tag": "<Q>",
+      "text": "Did you update the Anticoagulation forms for this visit? (FU_2_ANTIYN)",
+      "page": 106,
+      "form": "FUP-2 Years",
+      "section": "Follow-Up Evaluation",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-769"
+    },
+    {
+      "seq": 3248,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 106,
+      "input_type": "option",
+      "form": "FUP-2 Years",
+      "section": "Follow-Up Evaluation",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.1750130701546717,
+        0.3924522150575725,
+        0.2009659584122475
+      ],
+      "bbox_ref": "line_105_005",
+      "parent_qid": "q-769"
+    },
+    {
+      "seq": 3249,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 106,
+      "input_type": "option",
+      "form": "FUP-2 Years",
+      "section": "Follow-Up Evaluation",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.20342216106376262,
+        0.38726041207905687,
+        0.21611747356376262
+      ],
+      "bbox_ref": "line_105_006",
+      "parent_qid": "q-769"
+    },
+    {
+      "seq": 3250,
+      "tag": "<FORM>",
+      "text": "FUP-2 Years",
+      "page": 106,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    },
+    {
+      "seq": 3251,
+      "tag": "<SH>",
+      "text": "Follow-Up Evaluation",
+      "page": 106,
+      "question_below_text": "Has there been an Adverse Event since the last visit? (FU_2_AEYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.08351582228535354,
+        0.2590099658841401,
+        0.10044290561868686
+      ],
+      "bbox_ref": "line_105_003"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_105_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_105_001",
+      "text": "106/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_105_002",
+      "text": "Form: FUP–2 Years\nStudy: Inari CLOUT\nPage: 2/2",
+      "bbox": [
+        0.25223396650326796,
+        0.03675549439709596,
+        0.634183347614762,
+        0.04945080689709596
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_105_003",
+      "text": "Follow-Up Evaluation",
+      "bbox": [
+        0.059640522875817,
+        0.08351582228535354,
+        0.2590099658841401,
+        0.10044290561868686
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_105_004",
+      "text": "Subform: Eval",
+      "bbox": [
+        0.059640522875817,
+        0.14186913076073232,
+        0.15766810747533064,
+        0.15456444326073232
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_105_007",
+      "text": "Per the patient, were they compliant\nwith their anticoagulation regimen?\n(FU_2_ANTCOMP)",
+      "bbox": [
+        0.059640522875817,
+        0.2431948883364899,
+        0.3113464903987311,
+        0.28240535235164144
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_105_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 105
+    },
+    {
+      "line_id": "line_105_001",
+      "text": "106/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 105
+    },
+    {
+      "line_id": "line_105_002",
+      "text": "Form: FUP–2 Years\nStudy: Inari CLOUT\nPage: 2/2",
+      "bbox": [
+        0.25223396650326796,
+        0.03675549439709596,
+        0.634183347614762,
+        0.04945080689709596
+      ],
+      "page_num": 105
+    },
+    {
+      "line_id": "line_105_003",
+      "text": "Follow-Up Evaluation",
+      "bbox": [
+        0.059640522875817,
+        0.08351582228535354,
+        0.2590099658841401,
+        0.10044290561868686
+      ],
+      "page_num": 105
+    },
+    {
+      "line_id": "line_105_004",
+      "text": "Subform: Eval",
+      "bbox": [
+        0.059640522875817,
+        0.14186913076073232,
+        0.15766810747533064,
+        0.15456444326073232
+      ],
+      "page_num": 105
+    },
+    {
+      "line_id": "line_105_005",
+      "text": "Has there been an Adverse Event\nsince the last visit? (FU_2_AEYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.1750130701546717,
+        0.3924522150575725,
+        0.2009659584122475
+      ],
+      "page_num": 105
+    },
+    {
+      "line_id": "line_105_006",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.20342216106376262,
+        0.38726041207905687,
+        0.21611747356376262
+      ],
+      "page_num": 105
+    },
+    {
+      "line_id": "line_105_007",
+      "text": "Per the patient, were they compliant\nwith their anticoagulation regimen?\n(FU_2_ANTCOMP)",
+      "bbox": [
+        0.059640522875817,
+        0.2431948883364899,
+        0.3113464903987311,
+        0.28240535235164144
+      ],
+      "page_num": 105
+    },
+    {
+      "line_id": "line_105_008",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.2517176156092172,
+        0.3924522150575725,
+        0.2644129281092172
+      ],
+      "page_num": 105
+    },
+    {
+      "line_id": "line_105_009",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.27160397924558083,
+        0.38726041207905687,
+        0.28429929174558083
+      ],
+      "page_num": 105
+    },
+    {
+      "line_id": "line_105_010",
+      "text": "Not done",
+      "bbox": [
+        0.3684640522875817,
+        0.2914903428819444,
+        0.4281427720013787,
+        0.3041856553819444
+      ],
+      "page_num": 105
+    },
+    {
+      "line_id": "line_105_011",
+      "text": "Did you update the Anticoagulation\nforms for this visit? (FU_2_ANTIYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.33221003985164144,
+        0.3924522150575725,
+        0.3581629281092172
+      ],
+      "page_num": 105
+    },
+    {
+      "line_id": "line_105_012",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.3606191307607323,
+        0.38726041207905687,
+        0.3733144432607323
+      ],
+      "page_num": 105
+    }
+  ],
+  "metadata": {
+    "num_questions": 3,
+    "num_inputs": 7,
+    "num_inputs_by_type": {
+      "option": 7,
+      "text": 0,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 6,
+    "num_total_lines": 13,
+    "timestamp": "2025-08-15T14:06:56.740338+00:00"
+  }
+}

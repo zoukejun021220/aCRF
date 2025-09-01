@@ -1,0 +1,1022 @@
+{
+  "page_id": 110,
+  "items": [
+    {
+      "seq": 3371,
+      "tag": "<Q>",
+      "text": "Left — Redness (LREDN)",
+      "page": 111,
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.4983929902120353,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_110_003",
+      "qid": "q-799"
+    },
+    {
+      "seq": 3372,
+      "tag": "<INPUT>",
+      "text": "0—None or minimal",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.4983929902120353,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_110_003",
+      "parent_qid": "q-799"
+    },
+    {
+      "seq": 3373,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.41830454309002246,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_110_004",
+      "parent_qid": "q-799"
+    },
+    {
+      "seq": 3374,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.4534662782756332,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_110_005",
+      "parent_qid": "q-799"
+    },
+    {
+      "seq": 3375,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.4379368701012306,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_110_006",
+      "parent_qid": "q-799"
+    },
+    {
+      "seq": 3376,
+      "tag": "<Q>",
+      "text": "Left — Venous ectasia (LECTA)",
+      "page": 111,
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.17311913076073232,
+        0.4983929902120353,
+        0.19433717053345959
+      ],
+      "bbox_ref": "line_110_007",
+      "qid": "q-800"
+    },
+    {
+      "seq": 3377,
+      "tag": "<INPUT>",
+      "text": "0—None or minimal",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.4983929902120353,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_110_003",
+      "parent_qid": "q-800"
+    },
+    {
+      "seq": 3378,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.41830454309002246,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_110_004",
+      "parent_qid": "q-800"
+    },
+    {
+      "seq": 3379,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.4534662782756332,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_110_005",
+      "parent_qid": "q-800"
+    },
+    {
+      "seq": 3380,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.4379368701012306,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_110_006",
+      "parent_qid": "q-800"
+    },
+    {
+      "seq": 3381,
+      "tag": "<Q>",
+      "text": "Left — Pain on calf compression (LCALF)",
+      "page": 111,
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-801"
+    },
+    {
+      "seq": 3382,
+      "tag": "<INPUT>",
+      "text": "0—None or minimal",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.4983929902120353,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_110_003",
+      "parent_qid": "q-801"
+    },
+    {
+      "seq": 3383,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.41830454309002246,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_110_004",
+      "parent_qid": "q-801"
+    },
+    {
+      "seq": 3384,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.4534662782756332,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_110_005",
+      "parent_qid": "q-801"
+    },
+    {
+      "seq": 3385,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.4379368701012306,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_110_006",
+      "parent_qid": "q-801"
+    },
+    {
+      "seq": 3386,
+      "tag": "<Q>",
+      "text": "Left — Venous ulcer (LULCER)",
+      "page": 111,
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.38997519136679293,
+        0.4142409679936428,
+        0.4111932311395202
+      ],
+      "bbox_ref": "line_110_015",
+      "qid": "q-802"
+    },
+    {
+      "seq": 3387,
+      "tag": "<INPUT>",
+      "text": "Absent",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.38997519136679293,
+        0.4142409679936428,
+        0.4111932311395202
+      ],
+      "bbox_ref": "line_110_015",
+      "parent_qid": "q-802"
+    },
+    {
+      "seq": 3388,
+      "tag": "<INPUT>",
+      "text": "Present",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4183842822758838,
+        0.4191380419762306,
+        0.4310795947758838
+      ],
+      "bbox_ref": "line_110_016",
+      "parent_qid": "q-802"
+    },
+    {
+      "seq": 3389,
+      "tag": "<Q>",
+      "text": "Left Villalta score (LVILLSC)",
+      "page": 111,
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.45910397924558083,
+        0.3877015705981286,
+        0.4755871705334596
+      ],
+      "bbox_ref": "line_110_017",
+      "qid": "q-803"
+    },
+    {
+      "seq": 3390,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.45910397924558083,
+        0.3877015705981286,
+        0.4755871705334596
+      ],
+      "bbox_ref": "line_110_017",
+      "parent_qid": "q-803"
+    },
+    {
+      "seq": 3391,
+      "tag": "<Q>",
+      "text": "Was EQ-5D completed? (EQYN)",
+      "page": 111,
+      "form": "FUP-2 Years > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6257706459122475,
+        0.3924522150575725,
+        0.6469886856849747
+      ],
+      "bbox_ref": "line_110_019",
+      "qid": "q-804"
+    },
+    {
+      "seq": 3392,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 111,
+      "input_type": "option",
+      "form": "FUP-2 Years > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6257706459122475,
+        0.3924522150575725,
+        0.6469886856849747
+      ],
+      "bbox_ref": "line_110_019",
+      "parent_qid": "q-804"
+    },
+    {
+      "seq": 3393,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 111,
+      "input_type": "option",
+      "form": "FUP-2 Years > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6541797368213383,
+        0.38726041207905687,
+        0.6668750493213383
+      ],
+      "bbox_ref": "line_110_020",
+      "parent_qid": "q-804"
+    },
+    {
+      "seq": 3394,
+      "tag": "<Q>",
+      "text": "Mobility (EQMOB)",
+      "page": 111,
+      "form": "FUP-2 Years > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6948994337910354,
+        0.47469933204401554,
+        0.7161174735637627
+      ],
+      "bbox_ref": "line_110_021",
+      "qid": "q-805"
+    },
+    {
+      "seq": 3395,
+      "tag": "<INPUT>",
+      "text": "1—No problems",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6948994337910354,
+        0.47469933204401554,
+        0.7161174735637627
+      ],
+      "bbox_ref": "line_110_021",
+      "parent_qid": "q-805"
+    },
+    {
+      "seq": 3396,
+      "tag": "<INPUT>",
+      "text": "2—Slight problems",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7233085247001263,
+        0.49268460741230086,
+        0.7360038372001263
+      ],
+      "bbox_ref": "line_110_022",
+      "parent_qid": "q-805"
+    },
+    {
+      "seq": 3397,
+      "tag": "<INPUT>",
+      "text": "3—Moderate problems",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.74319488833649,
+        0.5180228239570568,
+        0.75589020083649
+      ],
+      "bbox_ref": "line_110_023",
+      "parent_qid": "q-805"
+    },
+    {
+      "seq": 3398,
+      "tag": "<INPUT>",
+      "text": "4—Severe problems",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7630812519728535,
+        0.5024934656479779,
+        0.7757765644728535
+      ],
+      "bbox_ref": "line_110_024",
+      "parent_qid": "q-805"
+    },
+    {
+      "seq": 3399,
+      "tag": "<INPUT>",
+      "text": "5—Extreme problems",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7829676156092171,
+        0.5106552223754085,
+        0.7956629281092171
+      ],
+      "bbox_ref": "line_110_025",
+      "parent_qid": "q-805"
+    },
+    {
+      "seq": 3400,
+      "tag": "<Q>",
+      "text": "Self-Care (EQSELF)",
+      "page": 111,
+      "form": "FUP-2 Years > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.8227403428819444,
+        0.19692005830652573,
+        0.8354356553819444
+      ],
+      "bbox_ref": "line_110_026",
+      "qid": "q-806"
+    },
+    {
+      "seq": 3401,
+      "tag": "<INPUT>",
+      "text": "1—No problems",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6948994337910354,
+        0.47469933204401554,
+        0.7161174735637627
+      ],
+      "bbox_ref": "line_110_021",
+      "parent_qid": "q-806"
+    },
+    {
+      "seq": 3402,
+      "tag": "<INPUT>",
+      "text": "2—Slight problems",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7233085247001263,
+        0.49268460741230086,
+        0.7360038372001263
+      ],
+      "bbox_ref": "line_110_022",
+      "parent_qid": "q-806"
+    },
+    {
+      "seq": 3403,
+      "tag": "<INPUT>",
+      "text": "3—Moderate problems",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.74319488833649,
+        0.5180228239570568,
+        0.75589020083649
+      ],
+      "bbox_ref": "line_110_023",
+      "parent_qid": "q-806"
+    },
+    {
+      "seq": 3404,
+      "tag": "<INPUT>",
+      "text": "4—Severe problems",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7630812519728535,
+        0.5024934656479779,
+        0.7757765644728535
+      ],
+      "bbox_ref": "line_110_024",
+      "parent_qid": "q-806"
+    },
+    {
+      "seq": 3405,
+      "tag": "<INPUT>",
+      "text": "5—Extreme problems",
+      "page": 111,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7829676156092171,
+        0.5106552223754085,
+        0.7956629281092171
+      ],
+      "bbox_ref": "line_110_025",
+      "parent_qid": "q-806"
+    },
+    {
+      "seq": 3406,
+      "tag": "<FORM>",
+      "text": "FUP-2 Years > QOL",
+      "page": 111,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    },
+    {
+      "seq": 3412,
+      "tag": "<SH>",
+      "text": "EQ-5D",
+      "page": 111,
+      "question_below_text": "Was EQ-5D completed? (EQYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5683643071338383,
+        0.11956539029389425,
+        0.5852913904671717
+      ],
+      "bbox_ref": "line_110_018"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_110_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_110_001",
+      "text": "111/140",
+      "bbox": [
+        0.9114072712418301,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_110_002",
+      "text": "Form: FUP–2 Years > QOL\nStudy: Inari CLOUT\nPage: 4/8",
+      "bbox": [
+        0.22833690767973855,
+        0.03675549439709596,
+        0.6580995547226052,
+        0.04945080689709596
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_110_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_001",
+      "text": "111/140",
+      "bbox": [
+        0.9114072712418301,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_002",
+      "text": "Form: FUP–2 Years > QOL\nStudy: Inari CLOUT\nPage: 4/8",
+      "bbox": [
+        0.22833690767973855,
+        0.03675549439709596,
+        0.6580995547226052,
+        0.04945080689709596
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_003",
+      "text": "Left — Redness (LREDN)\n0—None or minimal",
+      "bbox": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.4983929902120353,
+        0.08543565538194445
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_004",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.41830454309002246,
+        0.10532201901830808
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_005",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.4534662782756332,
+        0.1252083826546717
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_006",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.4379368701012306,
+        0.14509474629103536
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_007",
+      "text": "Left — Venous ectasia (LECTA)\n0—None or minimal",
+      "bbox": [
+        0.059640522875817,
+        0.17311913076073232,
+        0.4983929902120353,
+        0.19433717053345959
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_008",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.20152822166982323,
+        0.41830454309002246,
+        0.21422353416982323
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_009",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.22141458530618688,
+        0.4534662782756332,
+        0.23410989780618688
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_010",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.2413009489425505,
+        0.4379368701012306,
+        0.2539962614425505
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_011",
+      "text": "Left — Pain on calf compression\n(LCALF)\n0—None or minimal",
+      "bbox": [
+        0.059640522875817,
+        0.2810736762152778,
+        0.4983929902120353,
+        0.30702656447285354
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_012",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.3104297368213384,
+        0.41830454309002246,
+        0.3231250493213384
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_013",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.33031610045770204,
+        0.4534662782756332,
+        0.34301141295770204
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_014",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.35020246409406564,
+        0.4379368701012306,
+        0.36289777659406564
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_015",
+      "text": "Left — Venous ulcer (LULCER)\nAbsent",
+      "bbox": [
+        0.059640522875817,
+        0.38997519136679293,
+        0.4142409679936428,
+        0.4111932311395202
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_016",
+      "text": "Present",
+      "bbox": [
+        0.3684640522875817,
+        0.4183842822758838,
+        0.4191380419762306,
+        0.4310795947758838
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_017",
+      "text": "Left Villalta score (LVILLSC)\n0/2500",
+      "bbox": [
+        0.059640522875817,
+        0.45910397924558083,
+        0.3877015705981286,
+        0.4755871705334596
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_018",
+      "text": "EQ-5D",
+      "bbox": [
+        0.059640522875817,
+        0.5683643071338383,
+        0.11956539029389425,
+        0.5852913904671717
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_019",
+      "text": "Was EQ-5D completed? (EQYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.6257706459122475,
+        0.3924522150575725,
+        0.6469886856849747
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_020",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.6541797368213383,
+        0.38726041207905687,
+        0.6668750493213383
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_021",
+      "text": "Mobility (EQMOB)\n1—No problems",
+      "bbox": [
+        0.059640522875817,
+        0.6948994337910354,
+        0.47469933204401554,
+        0.7161174735637627
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_022",
+      "text": "2—Slight problems",
+      "bbox": [
+        0.3684640522875817,
+        0.7233085247001263,
+        0.49268460741230086,
+        0.7360038372001263
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_023",
+      "text": "3—Moderate problems",
+      "bbox": [
+        0.3684640522875817,
+        0.74319488833649,
+        0.5180228239570568,
+        0.75589020083649
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_024",
+      "text": "4—Severe problems",
+      "bbox": [
+        0.3684640522875817,
+        0.7630812519728535,
+        0.5024934656479779,
+        0.7757765644728535
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_025",
+      "text": "5—Extreme problems",
+      "bbox": [
+        0.3684640522875817,
+        0.7829676156092171,
+        0.5106552223754085,
+        0.7956629281092171
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_026",
+      "text": "Self-Care (EQSELF)",
+      "bbox": [
+        0.059640522875817,
+        0.8227403428819444,
+        0.19692005830652573,
+        0.8354356553819444
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_027",
+      "text": "1—No problems",
+      "bbox": [
+        0.3684640522875817,
+        0.8322100398516414,
+        0.47469933204401554,
+        0.8449053523516414
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_028",
+      "text": "2—Slight problems",
+      "bbox": [
+        0.3684640522875817,
+        0.8520964034880051,
+        0.49268460741230086,
+        0.8647917159880051
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_029",
+      "text": "3—Moderate problems",
+      "bbox": [
+        0.3684640522875817,
+        0.8719827671243687,
+        0.5180228239570568,
+        0.8846780796243687
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_030",
+      "text": "4—Severe problems",
+      "bbox": [
+        0.3684640522875817,
+        0.8918691307607324,
+        0.5024934656479779,
+        0.9045644432607324
+      ],
+      "page_num": 110
+    },
+    {
+      "line_id": "line_110_031",
+      "text": "5—Extreme problems",
+      "bbox": [
+        0.3684640522875817,
+        0.9117554943970959,
+        0.5106552223754085,
+        0.9244508068970959
+      ],
+      "page_num": 110
+    }
+  ],
+  "metadata": {
+    "num_questions": 8,
+    "num_inputs": 27,
+    "num_inputs_by_type": {
+      "option": 2,
+      "text": 25,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 3,
+    "num_total_lines": 32,
+    "timestamp": "2025-08-15T14:09:05.223242+00:00"
+  }
+}

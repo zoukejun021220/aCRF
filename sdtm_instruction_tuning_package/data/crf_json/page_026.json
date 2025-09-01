@@ -1,0 +1,746 @@
+{
+  "page_id": 26,
+  "items": [
+    {
+      "seq": 816,
+      "tag": "<Q>",
+      "text": "Difference (mm²) (EIR_DDIF)",
+      "page": 27,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642102174084596,
+        0.2941994261897467,
+        0.09016310566603536
+      ],
+      "bbox_ref": "line_026_003",
+      "qid": "q-197"
+    },
+    {
+      "seq": 817,
+      "tag": "<INPUT>",
+      "text": "Reference area - Compress area",
+      "page": 27,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642102174084596,
+        0.2941994261897467,
+        0.09016310566603536
+      ],
+      "bbox_ref": "line_026_003",
+      "parent_qid": "q-197"
+    },
+    {
+      "seq": 818,
+      "tag": "<Q>",
+      "text": "Difference (%) (EIR_ADIF)",
+      "page": 27,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11439961134785354,
+        0.3137899161943423,
+        0.15361007536300506
+      ],
+      "bbox_ref": "line_026_004",
+      "qid": "q-198"
+    },
+    {
+      "seq": 819,
+      "tag": "<INPUT>",
+      "text": "(Difference (mm²) / Reference area) * 100",
+      "page": 27,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-198"
+    },
+    {
+      "seq": 820,
+      "tag": "<Q>",
+      "text": "Reference diameter (mm) (EIR_RD)",
+      "page": 27,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.17405870225694445,
+        0.30396415361391954,
+        0.18675401475694445
+      ],
+      "bbox_ref": "line_026_005",
+      "qid": "q-199"
+    },
+    {
+      "seq": 821,
+      "tag": "<INPUT>",
+      "text": "",
+      "page": 27,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-199"
+    },
+    {
+      "seq": 822,
+      "tag": "<Q>",
+      "text": "Compress diameter (mm) (EIR_CD)",
+      "page": 27,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.22330112649936867,
+        0.3047729940975414,
+        0.23599643899936867
+      ],
+      "bbox_ref": "line_026_006",
+      "qid": "q-200"
+    },
+    {
+      "seq": 823,
+      "tag": "<INPUT>",
+      "text": "",
+      "page": 27,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-200"
+    },
+    {
+      "seq": 824,
+      "tag": "<Q>",
+      "text": "Stent? (EIR_STYN)",
+      "page": 27,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.27349052043876265,
+        0.3924522150575725,
+        0.2947085602114899
+      ],
+      "bbox_ref": "line_026_007",
+      "qid": "q-201"
+    },
+    {
+      "seq": 825,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 27,
+      "input_type": "option",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.27349052043876265,
+        0.3924522150575725,
+        0.2947085602114899
+      ],
+      "bbox_ref": "line_026_007",
+      "parent_qid": "q-201"
+    },
+    {
+      "seq": 826,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 27,
+      "input_type": "option",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.30189961134785354,
+        0.38726041207905687,
+        0.31459492384785354
+      ],
+      "bbox_ref": "line_026_008",
+      "parent_qid": "q-201"
+    },
+    {
+      "seq": 827,
+      "tag": "<Q>",
+      "text": "Stent deployed (EIR_ST)",
+      "page": 27,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3426193083175505,
+        0.3154028599558313,
+        0.38182977233270204
+      ],
+      "bbox_ref": "line_026_009",
+      "qid": "q-202"
+    },
+    {
+      "seq": 828,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 27,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.3464071871054293,
+        0.3877015705981286,
+        0.3591024996054293
+      ],
+      "bbox_ref": "line_026_010",
+      "parent_qid": "q-202"
+    },
+    {
+      "seq": 829,
+      "tag": "<Q>",
+      "text": "Size of stent deployed in mm (length x width)",
+      "page": 27,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-203"
+    },
+    {
+      "seq": 830,
+      "tag": "<INPUT>",
+      "text": "",
+      "page": 27,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-203"
+    },
+    {
+      "seq": 831,
+      "tag": "<Q>",
+      "text": "Balloon? (EIR_BLYN)",
+      "page": 27,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.43163445983270204,
+        0.27375825869491677,
+        0.497360075363005
+      ],
+      "bbox_ref": "line_026_011",
+      "qid": "q-204"
+    },
+    {
+      "seq": 832,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 27,
+      "input_type": "option",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.27349052043876265,
+        0.3924522150575725,
+        0.2947085602114899
+      ],
+      "bbox_ref": "line_026_007",
+      "parent_qid": "q-204"
+    },
+    {
+      "seq": 833,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 27,
+      "input_type": "option",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.30189961134785354,
+        0.38726041207905687,
+        0.31459492384785354
+      ],
+      "bbox_ref": "line_026_008",
+      "parent_qid": "q-204"
+    },
+    {
+      "seq": 834,
+      "tag": "<Q>",
+      "text": "Balloon type (EIR_BLT)",
+      "page": 27,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5178087022569444,
+        0.3877015705981286,
+        0.5352388632417929
+      ],
+      "bbox_ref": "line_026_014",
+      "qid": "q-205"
+    },
+    {
+      "seq": 835,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 27,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.3464071871054293,
+        0.3877015705981286,
+        0.3591024996054293
+      ],
+      "bbox_ref": "line_026_010",
+      "parent_qid": "q-205"
+    },
+    {
+      "seq": 836,
+      "tag": "<Q>",
+      "text": "Balloon size (EIR_BLS)",
+      "page": 27,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6077708234690656,
+        0.3877015705981286,
+        0.6242540147569444
+      ],
+      "bbox_ref": "line_026_015",
+      "qid": "q-206"
+    },
+    {
+      "seq": 837,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 27,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.3464071871054293,
+        0.3877015705981286,
+        0.3591024996054293
+      ],
+      "bbox_ref": "line_026_010",
+      "parent_qid": "q-206"
+    },
+    {
+      "seq": 838,
+      "tag": "<Q>",
+      "text": "ATM (max) (EIR_ATM)",
+      "page": 27,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6977329446811869,
+        0.2110530379550909,
+        0.7104282571811869
+      ],
+      "bbox_ref": "line_026_016",
+      "qid": "q-207"
+    },
+    {
+      "seq": 839,
+      "tag": "<INPUT>",
+      "text": "",
+      "page": 27,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-207"
+    },
+    {
+      "seq": 840,
+      "tag": "<Q>",
+      "text": "Post stenting area (mm²) (EIR_PA)",
+      "page": 27,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7479223386205808,
+        0.29796238818199805,
+        0.7606176511205808
+      ],
+      "bbox_ref": "line_026_017",
+      "qid": "q-208"
+    },
+    {
+      "seq": 841,
+      "tag": "<INPUT>",
+      "text": "",
+      "page": 27,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-208"
+    },
+    {
+      "seq": 842,
+      "tag": "<Q>",
+      "text": "Post stening diameter (mm) (EIR_PD)",
+      "page": 27,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-209"
+    },
+    {
+      "seq": 843,
+      "tag": "<INPUT>",
+      "text": "",
+      "page": 27,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Study: Inari CLOUT",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-209"
+    },
+    {
+      "seq": 844,
+      "tag": "<FORM>",
+      "text": "IVUS Measurements > IVUS",
+      "page": 27,
+      "bbox_xyxy": [
+        0.20231438929738563,
+        0.036748096196338384,
+        0.6841029746859681,
+        0.049443408696338384
+      ],
+      "bbox_ref": "line_026_002"
+    },
+    {
+      "seq": 845,
+      "tag": "<SH>",
+      "text": "Study: Inari CLOUT",
+      "page": 27,
+      "question_below_text": "Page: 4/8",
+      "bbox_xyxy": [
+        0.20231438929738563,
+        0.036748096196338384,
+        0.6841029746859681,
+        0.049443408696338384
+      ],
+      "bbox_ref": "line_026_002"
+    },
+    {
+      "seq": 846,
+      "tag": "<SH>",
+      "text": "External iliac Left",
+      "page": 27,
+      "question_below_text": "none",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.8666523634785354,
+        0.22201323665045444,
+        0.8835794468118687
+      ],
+      "bbox_ref": "line_026_019"
+    }
+  ],
+  "supplemental_page_data": [],
+  "all_lines": [
+    {
+      "line_id": "line_026_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 26
+    },
+    {
+      "line_id": "line_026_001",
+      "text": "27/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 26
+    },
+    {
+      "line_id": "line_026_002",
+      "text": "Form: IVUS Measurements > IVUS\nStudy: Inari CLOUT\nPage: 4/8",
+      "bbox": [
+        0.20231438929738563,
+        0.036748096196338384,
+        0.6841029746859681,
+        0.049443408696338384
+      ],
+      "page_num": 26
+    },
+    {
+      "line_id": "line_026_003",
+      "text": "Difference (mm²) (EIR_DDIF)\n(Reference area - Compress area)",
+      "bbox": [
+        0.059640522875817,
+        0.0642102174084596,
+        0.2941994261897467,
+        0.09016310566603536
+      ],
+      "page_num": 26
+    },
+    {
+      "line_id": "line_026_004",
+      "text": "Difference (%) (EIR_ADIF)\n(Difference (mm²) / Reference area) *\n100",
+      "bbox": [
+        0.059640522875817,
+        0.11439961134785354,
+        0.3137899161943423,
+        0.15361007536300506
+      ],
+      "page_num": 26
+    },
+    {
+      "line_id": "line_026_005",
+      "text": "Reference diameter (mm) (EIR_RD)",
+      "bbox": [
+        0.059640522875817,
+        0.17405870225694445,
+        0.30396415361391954,
+        0.18675401475694445
+      ],
+      "page_num": 26
+    },
+    {
+      "line_id": "line_026_006",
+      "text": "Compress diameter (mm) (EIR_CD)",
+      "bbox": [
+        0.059640522875817,
+        0.22330112649936867,
+        0.3047729940975414,
+        0.23599643899936867
+      ],
+      "page_num": 26
+    },
+    {
+      "line_id": "line_026_007",
+      "text": "Stent? (EIR_STYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.27349052043876265,
+        0.3924522150575725,
+        0.2947085602114899
+      ],
+      "page_num": 26
+    },
+    {
+      "line_id": "line_026_008",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.30189961134785354,
+        0.38726041207905687,
+        0.31459492384785354
+      ],
+      "page_num": 26
+    },
+    {
+      "line_id": "line_026_009",
+      "text": "Stent deployed (EIR_ST)\nSize of stent deployed in mm (length\nx width)",
+      "bbox": [
+        0.059640522875817,
+        0.3426193083175505,
+        0.3154028599558313,
+        0.38182977233270204
+      ],
+      "page_num": 26
+    },
+    {
+      "line_id": "line_026_010",
+      "text": "0/2500",
+      "bbox": [
+        0.34272875816993464,
+        0.3464071871054293,
+        0.3877015705981286,
+        0.3591024996054293
+      ],
+      "page_num": 26
+    },
+    {
+      "line_id": "line_026_011",
+      "text": "Balloon? (EIR_BLYN)\nDone as part of the stenting\nprocedure. Do not select yes if\nballooning was used between\nClotTriever passes.",
+      "bbox": [
+        0.059640522875817,
+        0.43163445983270204,
+        0.27375825869491677,
+        0.497360075363005
+      ],
+      "page_num": 26
+    },
+    {
+      "line_id": "line_026_012",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.441104156802399,
+        0.3924522150575725,
+        0.453799469302399
+      ],
+      "page_num": 26
+    },
+    {
+      "line_id": "line_026_013",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.46099052043876265,
+        0.38726041207905687,
+        0.47368583293876265
+      ],
+      "page_num": 26
+    },
+    {
+      "line_id": "line_026_014",
+      "text": "Balloon type (EIR_BLT)\n0/2500",
+      "bbox": [
+        0.059640522875817,
+        0.5178087022569444,
+        0.3877015705981286,
+        0.5352388632417929
+      ],
+      "page_num": 26
+    },
+    {
+      "line_id": "line_026_015",
+      "text": "Balloon size (EIR_BLS)\n0/2500",
+      "bbox": [
+        0.059640522875817,
+        0.6077708234690656,
+        0.3877015705981286,
+        0.6242540147569444
+      ],
+      "page_num": 26
+    },
+    {
+      "line_id": "line_026_016",
+      "text": "ATM (max) (EIR_ATM)",
+      "bbox": [
+        0.059640522875817,
+        0.6977329446811869,
+        0.2110530379550909,
+        0.7104282571811869
+      ],
+      "page_num": 26
+    },
+    {
+      "line_id": "line_026_017",
+      "text": "Post stenting area (mm²) (EIR_PA)",
+      "bbox": [
+        0.059640522875817,
+        0.7479223386205808,
+        0.29796238818199805,
+        0.7606176511205808
+      ],
+      "page_num": 26
+    },
+    {
+      "line_id": "line_026_018",
+      "text": "Post stening diameter (mm)\n(EIR_PD)",
+      "bbox": [
+        0.059640522875817,
+        0.7971647628630051,
+        0.2533024058622472,
+        0.8231176511205808
+      ],
+      "page_num": 26
+    },
+    {
+      "line_id": "line_026_019",
+      "text": "External iliac Left",
+      "bbox": [
+        0.059640522875817,
+        0.8666523634785354,
+        0.22201323665045444,
+        0.8835794468118687
+      ],
+      "page_num": 26
+    }
+  ],
+  "metadata": {
+    "num_questions": 13,
+    "num_inputs": 15,
+    "num_inputs_by_type": {
+      "option": 4,
+      "text": 11,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 2,
+    "num_supplemental": 0,
+    "num_total_lines": 20,
+    "timestamp": "2025-08-15T13:32:36.396808+00:00"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "page_id": 136,
+  "items": [
+    {
+      "seq": 4179,
+      "tag": "<Q>",
+      "text": "Adverse Events",
+      "page": 137,
+      "form": "Adverse Events",
+      "section": "Protocol Deviations > PD",
+      "bbox_xyxy": [
+        0.24419168709150327,
+        0.03675549439709596,
+        0.6422256270265267,
+        0.04945080689709596
+      ],
+      "bbox_ref": "line_136_002",
+      "qid": "q-974"
+    },
+    {
+      "seq": 4180,
+      "tag": "<FORM>",
+      "text": "Adverse Events",
+      "page": 137,
+      "bbox_xyxy": [
+        0.24419168709150327,
+        0.03675549439709596,
+        0.6422256270265267,
+        0.04945080689709596
+      ],
+      "bbox_ref": "line_136_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_136_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_136_001",
+      "text": "137/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_136_004",
+      "text": "Subform: AE",
+      "bbox": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.14868023192960453,
+        0.12426141295770202
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_136_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 136
+    },
+    {
+      "line_id": "line_136_001",
+      "text": "137/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 136
+    },
+    {
+      "line_id": "line_136_002",
+      "text": "Form: Adverse Events\nStudy: Inari CLOUT\nPage: 1/1",
+      "bbox": [
+        0.24419168709150327,
+        0.03675549439709596,
+        0.6422256270265267,
+        0.04945080689709596
+      ],
+      "page_num": 136
+    },
+    {
+      "line_id": "line_136_003",
+      "text": "Adverse Events",
+      "bbox": [
+        0.3475732741013072,
+        0.06529405381944445,
+        0.568254159166922,
+        0.09068467881944445
+      ],
+      "page_num": 136
+    },
+    {
+      "line_id": "line_136_004",
+      "text": "Subform: AE",
+      "bbox": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.14868023192960453,
+        0.12426141295770202
+      ],
+      "page_num": 136
+    }
+  ],
+  "metadata": {
+    "num_questions": 1,
+    "num_inputs": 0,
+    "num_inputs_by_type": {
+      "option": 0,
+      "text": 0,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 0,
+    "num_supplemental": 3,
+    "num_total_lines": 5,
+    "timestamp": "2025-08-15T14:20:43.333961+00:00",
+    "requires_second_inspection": true,
+    "anomaly_reasons": [
+      "statistical_outlier (count=1, avg=7.1, std=2.9)",
+      "too_few_questions"
+    ]
+  }
+}

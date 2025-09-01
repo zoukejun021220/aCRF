@@ -1,0 +1,856 @@
+{
+  "page_id": 1,
+  "items": [
+    {
+      "seq": 30,
+      "tag": "<Q>",
+      "text": "Chronic non-ambulatory status (EX7)",
+      "page": 2,
+      "form": "Baseline",
+      "section": "Exclusion Criteria",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-009"
+    },
+    {
+      "seq": 31,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 2,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Exclusion Criteria",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642077513415404,
+        0.3924522150575725,
+        0.09016063959911616
+      ],
+      "bbox_ref": "line_001_003",
+      "parent_qid": "q-009"
+    },
+    {
+      "seq": 32,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 2,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Exclusion Criteria",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09261684225063131,
+        0.38726041207905687,
+        0.10531215475063131
+      ],
+      "bbox_ref": "line_001_004",
+      "parent_qid": "q-009"
+    },
+    {
+      "seq": 33,
+      "tag": "<Q>",
+      "text": "Known hypercoagulable states that, in the opinion of the Investigator, cannot be medically-managed throughout the study period (EX8)",
+      "page": 2,
+      "form": "Baseline",
+      "section": "Exclusion Criteria",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-010"
+    },
+    {
+      "seq": 34,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 2,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Exclusion Criteria",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642077513415404,
+        0.3924522150575725,
+        0.09016063959911616
+      ],
+      "bbox_ref": "line_001_003",
+      "parent_qid": "q-010"
+    },
+    {
+      "seq": 35,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 2,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Exclusion Criteria",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09261684225063131,
+        0.38726041207905687,
+        0.10531215475063131
+      ],
+      "bbox_ref": "line_001_004",
+      "parent_qid": "q-010"
+    },
+    {
+      "seq": 36,
+      "tag": "<Q>",
+      "text": "Unavailability of a lower extremity venous access site (EX9)",
+      "page": 2,
+      "form": "Baseline",
+      "section": "Exclusion Criteria",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-011"
+    },
+    {
+      "seq": 37,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 2,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Exclusion Criteria",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642077513415404,
+        0.3924522150575725,
+        0.09016063959911616
+      ],
+      "bbox_ref": "line_001_003",
+      "parent_qid": "q-011"
+    },
+    {
+      "seq": 38,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 2,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Exclusion Criteria",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09261684225063131,
+        0.38726041207905687,
+        0.10531215475063131
+      ],
+      "bbox_ref": "line_001_004",
+      "parent_qid": "q-011"
+    },
+    {
+      "seq": 39,
+      "tag": "<Q>",
+      "text": "Subject status (ELIGYN)",
+      "page": 2,
+      "form": "Baseline",
+      "section": "Eligibility",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3520865392203283,
+        0.4158633363013174,
+        0.3733045789930556
+      ],
+      "bbox_ref": "line_001_011",
+      "qid": "q-012"
+    },
+    {
+      "seq": 40,
+      "tag": "<INPUT>",
+      "text": "Eligible",
+      "page": 2,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Eligibility",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3520865392203283,
+        0.4158633363013174,
+        0.3733045789930556
+      ],
+      "bbox_ref": "line_001_011",
+      "parent_qid": "q-012"
+    },
+    {
+      "seq": 41,
+      "tag": "<INPUT>",
+      "text": "Ineligible",
+      "page": 2,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Eligibility",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.38049563012941917,
+        0.4264957203584559,
+        0.39319094262941917
+      ],
+      "bbox_ref": "line_001_012",
+      "parent_qid": "q-012"
+    },
+    {
+      "seq": 42,
+      "tag": "<Q>",
+      "text": "Date informed consent was signed (ICDT)",
+      "page": 2,
+      "form": "Baseline",
+      "section": "Eligibility",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.44051353377525254,
+        0.22740539849973193,
+        0.45744061710858586
+      ],
+      "bbox_ref": "line_001_013",
+      "qid": "q-013"
+    },
+    {
+      "seq": 43,
+      "tag": "<INPUT>",
+      "text": "dd-mmm-yyyy",
+      "page": 2,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Informed Consent",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.4979198725536616,
+        0.44772493449691075,
+        0.5238727608112373
+      ],
+      "bbox_ref": "line_001_014",
+      "parent_qid": "q-013"
+    },
+    {
+      "seq": 44,
+      "tag": "<Q>",
+      "text": "Date of birth (DOB)",
+      "page": 2,
+      "form": "Baseline",
+      "section": "Demographics",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.624813811947601,
+        0.1928024167328878,
+        0.637509124447601
+      ],
+      "bbox_ref": "line_001_016",
+      "qid": "q-014"
+    },
+    {
+      "seq": 45,
+      "tag": "<Q>",
+      "text": "Gender (GEN)",
+      "page": 2,
+      "form": "Baseline",
+      "section": "Demographics",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6579577513415404,
+        0.15687593447616677,
+        0.6706530638415404
+      ],
+      "bbox_ref": "line_001_017",
+      "qid": "q-015"
+    },
+    {
+      "seq": 46,
+      "tag": "<INPUT>",
+      "text": "Female",
+      "page": 2,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Demographics",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6674274483112373,
+        0.4174957026064006,
+        0.6801227608112373
+      ],
+      "bbox_ref": "line_001_018",
+      "parent_qid": "q-015"
+    },
+    {
+      "seq": 47,
+      "tag": "<INPUT>",
+      "text": "Male",
+      "page": 2,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Demographics",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.687313811947601,
+        0.4003339281269148,
+        0.700009124447601
+      ],
+      "bbox_ref": "line_001_019",
+      "parent_qid": "q-015"
+    },
+    {
+      "seq": 48,
+      "tag": "<Q>",
+      "text": "Height and weight units (HWU)",
+      "page": 2,
+      "form": "Baseline",
+      "section": "Demographics",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7270865392203283,
+        0.4166846181832108,
+        0.7483045789930556
+      ],
+      "bbox_ref": "line_001_020",
+      "qid": "q-016"
+    },
+    {
+      "seq": 49,
+      "tag": "<INPUT>",
+      "text": "in & lbs",
+      "page": 2,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Demographics",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7270865392203283,
+        0.4166846181832108,
+        0.7483045789930556
+      ],
+      "bbox_ref": "line_001_020",
+      "parent_qid": "q-016"
+    },
+    {
+      "seq": 50,
+      "tag": "<INPUT>",
+      "text": "cm & kg",
+      "page": 2,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Demographics",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7554956301294192,
+        0.42158393610536665,
+        0.7681909426294192
+      ],
+      "bbox_ref": "line_001_021",
+      "parent_qid": "q-016"
+    },
+    {
+      "seq": 51,
+      "tag": "<Q>",
+      "text": "Height (in) (HGHT_IN)",
+      "page": 2,
+      "form": "Baseline",
+      "section": "Demographics",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7962153270991161,
+        0.3799074709025863,
+        0.8174333668718434
+      ],
+      "bbox_ref": "line_001_022",
+      "qid": "q-017"
+    },
+    {
+      "seq": 52,
+      "tag": "<INPUT>",
+      "text": "in",
+      "page": 2,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Demographics",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.1333365392203283,
+        0.3113292120640574,
+        0.18580457899305555
+      ],
+      "bbox_ref": "line_001_005",
+      "parent_qid": "q-017"
+    },
+    {
+      "seq": 53,
+      "tag": "<Q>",
+      "text": "Weight (lbs) (WGHT_LBS)",
+      "page": 2,
+      "form": "Baseline",
+      "section": "Demographics",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.8426168422506313,
+        0.23991683261846405,
+        0.8553121547506313
+      ],
+      "bbox_ref": "line_001_023",
+      "qid": "q-018"
+    },
+    {
+      "seq": 54,
+      "tag": "<INPUT>",
+      "text": "lbs",
+      "page": 2,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Demographics",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7270865392203283,
+        0.4166846181832108,
+        0.7483045789930556
+      ],
+      "bbox_ref": "line_001_020",
+      "parent_qid": "q-018"
+    },
+    {
+      "seq": 55,
+      "tag": "<Q>",
+      "text": "Height (cm) (HGHT_CM)",
+      "page": 2,
+      "form": "Baseline",
+      "section": "Demographics",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.8899653270991161,
+        0.3880671083537582,
+        0.9111833668718434
+      ],
+      "bbox_ref": "line_001_025",
+      "qid": "q-019"
+    },
+    {
+      "seq": 56,
+      "tag": "<INPUT>",
+      "text": "cm",
+      "page": 2,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": "Demographics",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7554956301294192,
+        0.42158393610536665,
+        0.7681909426294192
+      ],
+      "bbox_ref": "line_001_021",
+      "parent_qid": "q-019"
+    },
+    {
+      "seq": 57,
+      "tag": "<FORM>",
+      "text": "Baseline",
+      "page": 2,
+      "bbox_xyxy": [
+        0.2633974162581699,
+        0.03674563012941919,
+        0.6230200474558313,
+        0.04944094262941919
+      ],
+      "bbox_ref": "line_001_002"
+    },
+    {
+      "seq": 58,
+      "tag": "<SH>",
+      "text": "Eligibility",
+      "page": 2,
+      "question_below_text": "Subject status (ELIGYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.29468020044191917,
+        0.1468199935613894,
+        0.31160728377525254
+      ],
+      "bbox_ref": "line_001_010"
+    },
+    {
+      "seq": 59,
+      "tag": "<SH>",
+      "text": "Informed Consent",
+      "page": 2,
+      "question_below_text": "Date informed consent was signed (ICDT)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.44051353377525254,
+        0.22740539849973193,
+        0.45744061710858586
+      ],
+      "bbox_ref": "line_001_013"
+    },
+    {
+      "seq": 60,
+      "tag": "<SH>",
+      "text": "Demographics",
+      "page": 2,
+      "question_below_text": "Date of birth (DOB)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5674074731691919,
+        0.19583960140452666,
+        0.5843345565025253
+      ],
+      "bbox_ref": "line_001_015"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_001_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_001_001",
+      "text": "2/140",
+      "bbox": [
+        0.9240196078431373,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_001_010",
+      "text": "Eligibility",
+      "bbox": [
+        0.059640522875817,
+        0.29468020044191917,
+        0.1468199935613894,
+        0.31160728377525254
+      ],
+      "type": "section_header"
+    },
+    {
+      "line_id": "line_001_015",
+      "text": "Demographics",
+      "bbox": [
+        0.059640522875817,
+        0.5674074731691919,
+        0.19583960140452666,
+        0.5843345565025253
+      ],
+      "type": "section_header"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_001_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_001",
+      "text": "2/140",
+      "bbox": [
+        0.9240196078431373,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_002",
+      "text": "Form: Baseline\nStudy: Inari CLOUT\nPage: 2/10",
+      "bbox": [
+        0.2633974162581699,
+        0.03674563012941919,
+        0.6230200474558313,
+        0.04944094262941919
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_003",
+      "text": "Chronic non-ambulatory status\n(EX7)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.0642077513415404,
+        0.3924522150575725,
+        0.09016063959911616
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_004",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.09261684225063131,
+        0.38726041207905687,
+        0.10531215475063131
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_005",
+      "text": "Known hypercoagulable states that,\nin the opinion of the Investigator,\ncannot be medically-managed\nthroughout the study period (EX8)",
+      "bbox": [
+        0.059640522875817,
+        0.1333365392203283,
+        0.3113292120640574,
+        0.18580457899305555
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_006",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.14185926649305555,
+        0.3924522150575725,
+        0.15455457899305555
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_007",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.1617456301294192,
+        0.38726041207905687,
+        0.1744409426294192
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_008",
+      "text": "Unavailability of a lower extremity\nvenous access site (EX9)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.20625320588699494,
+        0.3924522150575725,
+        0.23220609414457072
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_009",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.23466229679608586,
+        0.38726041207905687,
+        0.24735760929608586
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_010",
+      "text": "Eligibility",
+      "bbox": [
+        0.059640522875817,
+        0.29468020044191917,
+        0.1468199935613894,
+        0.31160728377525254
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_011",
+      "text": "Subject status (ELIGYN)\nEligible",
+      "bbox": [
+        0.059640522875817,
+        0.3520865392203283,
+        0.4158633363013174,
+        0.3733045789930556
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_012",
+      "text": "Ineligible",
+      "bbox": [
+        0.3684640522875817,
+        0.38049563012941917,
+        0.4264957203584559,
+        0.39319094262941917
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_013",
+      "text": "Informed Consent",
+      "bbox": [
+        0.059640522875817,
+        0.44051353377525254,
+        0.22740539849973193,
+        0.45744061710858586
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_014",
+      "text": "Date informed consent was signed\n(ICDT)\ndd-mmm-yyyy",
+      "bbox": [
+        0.059640522875817,
+        0.4979198725536616,
+        0.44772493449691075,
+        0.5238727608112373
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_015",
+      "text": "Demographics",
+      "bbox": [
+        0.059640522875817,
+        0.5674074731691919,
+        0.19583960140452666,
+        0.5843345565025253
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_016",
+      "text": "Date of birth (DOB)",
+      "bbox": [
+        0.059640522875817,
+        0.624813811947601,
+        0.1928024167328878,
+        0.637509124447601
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_017",
+      "text": "Gender (GEN)",
+      "bbox": [
+        0.059640522875817,
+        0.6579577513415404,
+        0.15687593447616677,
+        0.6706530638415404
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_018",
+      "text": "Female",
+      "bbox": [
+        0.3684640522875817,
+        0.6674274483112373,
+        0.4174957026064006,
+        0.6801227608112373
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_019",
+      "text": "Male",
+      "bbox": [
+        0.3684640522875817,
+        0.687313811947601,
+        0.4003339281269148,
+        0.700009124447601
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_020",
+      "text": "Height and weight units (HWU)\nin & lbs",
+      "bbox": [
+        0.059640522875817,
+        0.7270865392203283,
+        0.4166846181832108,
+        0.7483045789930556
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_021",
+      "text": "cm & kg",
+      "bbox": [
+        0.3684640522875817,
+        0.7554956301294192,
+        0.42158393610536665,
+        0.7681909426294192
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_022",
+      "text": "Height (in) (HGHT_IN)\nin",
+      "bbox": [
+        0.059640522875817,
+        0.7962153270991161,
+        0.3799074709025863,
+        0.8174333668718434
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_023",
+      "text": "Weight (lbs) (WGHT_LBS)",
+      "bbox": [
+        0.059640522875817,
+        0.8426168422506313,
+        0.23991683261846405,
+        0.8553121547506313
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_024",
+      "text": "lbs",
+      "bbox": [
+        0.3684640522875817,
+        0.8520865392203283,
+        0.3872581681394889,
+        0.8647818517203283
+      ],
+      "page_num": 1
+    },
+    {
+      "line_id": "line_001_025",
+      "text": "Height (cm) (HGHT_CM)\ncm",
+      "bbox": [
+        0.059640522875817,
+        0.8899653270991161,
+        0.3880671083537582,
+        0.9111833668718434
+      ],
+      "page_num": 1
+    }
+  ],
+  "metadata": {
+    "num_questions": 11,
+    "num_inputs": 16,
+    "num_inputs_by_type": {
+      "option": 6,
+      "text": 10,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 3,
+    "num_supplemental": 4,
+    "num_total_lines": 26,
+    "timestamp": "2025-08-15T13:21:59.831324+00:00"
+  }
+}

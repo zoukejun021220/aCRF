@@ -1,0 +1,100 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_016.json",
+  "page_id": 16,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Right leg: Venous Edema Presumes venous origin (RLVE)",
+      "annotation": "QSORRES when QSTESTCD = VE",
+      "domain": "QS",
+      "pattern": "variable_with_ct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Right leg: Skin Pigmentation Presumes venous origin Does not include focal pigmentation over varicose veins or pigmentation due to other chronic diseases (ie. vasculitis purpura) (RLSP)",
+      "annotation": "QSORRES when QSTESTCD = SP",
+      "domain": "QS",
+      "pattern": "variable_with_ct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Right leg: Inflammation More than just recent pigmentation (ie. erythema, cellulitis, venous eczema, dermatitis) (RLIF)",
+      "annotation": "QSORRES when QSTESTCD = IF",
+      "domain": "QS",
+      "pattern": "variable_with_ct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Right leg: Induration Presumes venous origin of secondary skin and subcutaneous changes (ie. chronic edema with fibrosis, hypodermitis) includes white atrophy and lipodermosclerosis (RLID)",
+      "annotation": "QSORRES when QSTESTCD = ID",
+      "domain": "QS",
+      "pattern": "variable_with_ct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Right leg: Active Ulcer Number (RLAUN)",
+      "annotation": "QSORRES when QSTESTCD = AUN",
+      "domain": "QS",
+      "pattern": "variable_with_ct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Right leg: Active Ulcer Duration Assess longest active (RLAUD)",
+      "annotation": "QSORRES when QSTESTCD = AUD",
+      "domain": "QS",
+      "pattern": "variable_with_ct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Right leg: Active Ulcer Size Assess largest active ulcer (RLAUS)",
+      "annotation": "QSORRES when QSTESTCD = AUS",
+      "domain": "QS",
+      "pattern": "variable_with_ct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-008",
+      "seq": 8,
+      "text": "Right leg: Use of Compression Therapy (RLUCT)",
+      "annotation": "QSORRES when QSTESTCD = UCT",
+      "domain": "QS",
+      "pattern": "variable_with_ct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    }
+  ],
+  "summary": {
+    "total_items": 8,
+    "annotated": 8,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

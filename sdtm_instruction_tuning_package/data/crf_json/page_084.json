@@ -1,0 +1,1170 @@
+{
+  "page_id": 84,
+  "items": [
+    {
+      "seq": 2539,
+      "tag": "<Q>",
+      "text": "Right leg: Venous Edema Presumes venous origin (RLVE)",
+      "page": 85,
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-614"
+    },
+    {
+      "seq": 2540,
+      "tag": "<INPUT>",
+      "text": "0—None",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642077513415404,
+        0.4264957203584559,
+        0.09016063959911616
+      ],
+      "bbox_ref": "line_084_003",
+      "parent_qid": "q-614"
+    },
+    {
+      "seq": 2541,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09261684225063131,
+        0.41830454309002246,
+        0.10531215475063131
+      ],
+      "bbox_ref": "line_084_004",
+      "parent_qid": "q-614"
+    },
+    {
+      "seq": 2542,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11250320588699494,
+        0.4534662782756332,
+        0.12519851838699494
+      ],
+      "bbox_ref": "line_084_005",
+      "parent_qid": "q-614"
+    },
+    {
+      "seq": 2543,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.1323895695233586,
+        0.4379368701012306,
+        0.1450848820233586
+      ],
+      "bbox_ref": "line_084_006",
+      "parent_qid": "q-614"
+    },
+    {
+      "seq": 2544,
+      "tag": "<Q>",
+      "text": "Right leg: Skin Pigmentation Presumes venous origin Does not include focal pigmentation over varicose veins or pigmentation due to other chronic diseases (ie. vasculitis purpura) (RLSP)",
+      "page": 85,
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-615"
+    },
+    {
+      "seq": 2545,
+      "tag": "<INPUT>",
+      "text": "0—None",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642077513415404,
+        0.4264957203584559,
+        0.09016063959911616
+      ],
+      "bbox_ref": "line_084_003",
+      "parent_qid": "q-615"
+    },
+    {
+      "seq": 2546,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09261684225063131,
+        0.41830454309002246,
+        0.10531215475063131
+      ],
+      "bbox_ref": "line_084_004",
+      "parent_qid": "q-615"
+    },
+    {
+      "seq": 2547,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11250320588699494,
+        0.4534662782756332,
+        0.12519851838699494
+      ],
+      "bbox_ref": "line_084_005",
+      "parent_qid": "q-615"
+    },
+    {
+      "seq": 2548,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.1323895695233586,
+        0.4379368701012306,
+        0.1450848820233586
+      ],
+      "bbox_ref": "line_084_006",
+      "parent_qid": "q-615"
+    },
+    {
+      "seq": 2549,
+      "tag": "<Q>",
+      "text": "Right leg: Inflammation More than just recent pigmentation (ie. erythema, cellulitis, venous eczema, dermatitis) (RLIF)",
+      "page": 85,
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-616"
+    },
+    {
+      "seq": 2550,
+      "tag": "<INPUT>",
+      "text": "0—None",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642077513415404,
+        0.4264957203584559,
+        0.09016063959911616
+      ],
+      "bbox_ref": "line_084_003",
+      "parent_qid": "q-616"
+    },
+    {
+      "seq": 2551,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09261684225063131,
+        0.41830454309002246,
+        0.10531215475063131
+      ],
+      "bbox_ref": "line_084_004",
+      "parent_qid": "q-616"
+    },
+    {
+      "seq": 2552,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11250320588699494,
+        0.4534662782756332,
+        0.12519851838699494
+      ],
+      "bbox_ref": "line_084_005",
+      "parent_qid": "q-616"
+    },
+    {
+      "seq": 2553,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.1323895695233586,
+        0.4379368701012306,
+        0.1450848820233586
+      ],
+      "bbox_ref": "line_084_006",
+      "parent_qid": "q-616"
+    },
+    {
+      "seq": 2554,
+      "tag": "<Q>",
+      "text": "Right leg: Induration Presumes venous origin of secondary skin and subcutaneous changes (ie. chronic edema with fibrosis, hypodermatitis) Includes white atrophy and lipodermatosclerosis (RLID)",
+      "page": 85,
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-617"
+    },
+    {
+      "seq": 2555,
+      "tag": "<INPUT>",
+      "text": "0—None",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642077513415404,
+        0.4264957203584559,
+        0.09016063959911616
+      ],
+      "bbox_ref": "line_084_003",
+      "parent_qid": "q-617"
+    },
+    {
+      "seq": 2556,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09261684225063131,
+        0.41830454309002246,
+        0.10531215475063131
+      ],
+      "bbox_ref": "line_084_004",
+      "parent_qid": "q-617"
+    },
+    {
+      "seq": 2557,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11250320588699494,
+        0.4534662782756332,
+        0.12519851838699494
+      ],
+      "bbox_ref": "line_084_005",
+      "parent_qid": "q-617"
+    },
+    {
+      "seq": 2558,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.1323895695233586,
+        0.4379368701012306,
+        0.1450848820233586
+      ],
+      "bbox_ref": "line_084_006",
+      "parent_qid": "q-617"
+    },
+    {
+      "seq": 2559,
+      "tag": "<Q>",
+      "text": "Right leg: Active Ulcer Number (RLAUN)",
+      "page": 85,
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-618"
+    },
+    {
+      "seq": 2560,
+      "tag": "<INPUT>",
+      "text": "0",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.4988668422506313,
+        0.3766427632250817,
+        0.5248197305082071
+      ],
+      "bbox_ref": "line_084_022",
+      "parent_qid": "q-618"
+    },
+    {
+      "seq": 2561,
+      "tag": "<INPUT>",
+      "text": "1",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5272759331597222,
+        0.3766427632250817,
+        0.5399712456597222
+      ],
+      "bbox_ref": "line_084_023",
+      "parent_qid": "q-618"
+    },
+    {
+      "seq": 2562,
+      "tag": "<INPUT>",
+      "text": "2",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5471622967960859,
+        0.3766427632250817,
+        0.5598576092960859
+      ],
+      "bbox_ref": "line_084_024",
+      "parent_qid": "q-618"
+    },
+    {
+      "seq": 2563,
+      "tag": "<INPUT>",
+      "text": "≥3",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5670486604324495,
+        0.3847163081948274,
+        0.5797439729324495
+      ],
+      "bbox_ref": "line_084_025",
+      "parent_qid": "q-618"
+    },
+    {
+      "seq": 2564,
+      "tag": "<Q>",
+      "text": "Right leg: Active Ulcer Duration Assess longest active (RLAUD)",
+      "page": 85,
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-619"
+    },
+    {
+      "seq": 2565,
+      "tag": "<INPUT>",
+      "text": "Not applicable",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6068213877051768,
+        0.46164274527356514,
+        0.6327742759627525
+      ],
+      "bbox_ref": "line_084_026",
+      "parent_qid": "q-619"
+    },
+    {
+      "seq": 2566,
+      "tag": "<INPUT>",
+      "text": "<3 months",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6361774483112373,
+        0.4375375485887714,
+        0.6488727608112373
+      ],
+      "bbox_ref": "line_084_027",
+      "parent_qid": "q-619"
+    },
+    {
+      "seq": 2567,
+      "tag": "<INPUT>",
+      "text": "3 months to 1 year",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.656063811947601,
+        0.49025826049006843,
+        0.668759124447601
+      ],
+      "bbox_ref": "line_084_028",
+      "parent_qid": "q-619"
+    },
+    {
+      "seq": 2568,
+      "tag": "<INPUT>",
+      "text": ">1 year",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6759501755839646,
+        0.4179200315787122,
+        0.6886454880839646
+      ],
+      "bbox_ref": "line_084_029",
+      "parent_qid": "q-619"
+    },
+    {
+      "seq": 2569,
+      "tag": "<Q>",
+      "text": "Right leg: Active Ulcer Size Assess largest active ulcer (RLAUS)",
+      "page": 85,
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-620"
+    },
+    {
+      "seq": 2570,
+      "tag": "<INPUT>",
+      "text": "Not applicable",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6068213877051768,
+        0.46164274527356514,
+        0.6327742759627525
+      ],
+      "bbox_ref": "line_084_026",
+      "parent_qid": "q-620"
+    },
+    {
+      "seq": 2571,
+      "tag": "<INPUT>",
+      "text": "Diameter <2 cm",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7441319937657829,
+        0.4726553524241728,
+        0.7568273062657829
+      ],
+      "bbox_ref": "line_084_031",
+      "parent_qid": "q-620"
+    },
+    {
+      "seq": 2572,
+      "tag": "<INPUT>",
+      "text": "Diameter 2-6 cm",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7640183574021465,
+        0.4771406385633681,
+        0.7767136699021465
+      ],
+      "bbox_ref": "line_084_032",
+      "parent_qid": "q-620"
+    },
+    {
+      "seq": 2573,
+      "tag": "<INPUT>",
+      "text": "Diameter >6 cm",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.78390472103851,
+        0.4726553524241728,
+        0.79660003353851
+      ],
+      "bbox_ref": "line_084_033",
+      "parent_qid": "q-620"
+    },
+    {
+      "seq": 2574,
+      "tag": "<Q>",
+      "text": "Right leg: Use of Compression Therapy (RLUCT)",
+      "page": 85,
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-621"
+    },
+    {
+      "seq": 2575,
+      "tag": "<INPUT>",
+      "text": "Not used",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.8246244180082071,
+        0.42731919631459353,
+        0.8505773062657829
+      ],
+      "bbox_ref": "line_084_034",
+      "parent_qid": "q-621"
+    },
+    {
+      "seq": 2576,
+      "tag": "<INPUT>",
+      "text": "Intermittent use of stockings",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.853033508917298,
+        0.5515522676355699,
+        0.865728821417298
+      ],
+      "bbox_ref": "line_084_035",
+      "parent_qid": "q-621"
+    },
+    {
+      "seq": 2577,
+      "tag": "<INPUT>",
+      "text": "Wears stockings most days",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.8729198725536617,
+        0.5471667121438419,
+        0.8856151850536617
+      ],
+      "bbox_ref": "line_084_036",
+      "parent_qid": "q-621"
+    },
+    {
+      "seq": 2578,
+      "tag": "<INPUT>",
+      "text": "Full compliance: stockings",
+      "page": 85,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.8928062361900253,
+        0.5400816474864686,
+        0.9055015486900253
+      ],
+      "bbox_ref": "line_084_037",
+      "parent_qid": "q-621"
+    },
+    {
+      "seq": 2579,
+      "tag": "<FORM>",
+      "text": "FUP-6 Months > QOL",
+      "page": 85,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_084_002",
+      "text": "Form: FUP–6 Months > QOL\nStudy: Inari CLOUT\nPage: 6/8",
+      "bbox": [
+        0.2227456086601307,
+        0.03674563012941919,
+        0.6636717054578993,
+        0.04944094262941919
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_084_007",
+      "text": "Right leg: Skin Pigmentation\nPresumes venous origin Does not\ninclude focal pigmentation over\nvaricose veins or pigmentation due\nto other chronic diseases (ie.\nvasculitis purpura) (RLSP)",
+      "bbox": [
+        0.059640522875817,
+        0.17310926649305555,
+        0.30645158555772567,
+        0.25209245778093436
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_084_012",
+      "text": "Right leg: Inflammation More than\njust recent pigmentation (ie.\nerythema, cellulitis, venous eczema,\ndermatitis) (RLIF)",
+      "bbox": [
+        0.059640522875817,
+        0.281063811947601,
+        0.31302036958582263,
+        0.3335318517203283
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_084_017",
+      "text": "Right leg: Induration Presumes\nvenous origin of secondary skin and\nsubcutaneous changes (ie. chronic\nedema with fibrosis, hypodermitis)\nIncludes white atrophy and\nlipodermatosclerosis (RLID)",
+      "bbox": [
+        0.059640522875817,
+        0.3899653270991162,
+        0.31543225556417226,
+        0.468948518386995
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_084_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_001",
+      "text": "85/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_002",
+      "text": "Form: FUP–6 Months > QOL\nStudy: Inari CLOUT\nPage: 6/8",
+      "bbox": [
+        0.2227456086601307,
+        0.03674563012941919,
+        0.6636717054578993,
+        0.04944094262941919
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_003",
+      "text": "Right leg: Venous Edema Presumes\nvenous origin (RLVE)\n0—None",
+      "bbox": [
+        0.059640522875817,
+        0.0642077513415404,
+        0.4264957203584559,
+        0.09016063959911616
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_004",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.09261684225063131,
+        0.41830454309002246,
+        0.10531215475063131
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_005",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.11250320588699494,
+        0.4534662782756332,
+        0.12519851838699494
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_006",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.1323895695233586,
+        0.4379368701012306,
+        0.1450848820233586
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_007",
+      "text": "Right leg: Skin Pigmentation\nPresumes venous origin Does not\ninclude focal pigmentation over\nvaricose veins or pigmentation due\nto other chronic diseases (ie.\nvasculitis purpura) (RLSP)",
+      "bbox": [
+        0.059640522875817,
+        0.17310926649305555,
+        0.30645158555772567,
+        0.25209245778093436
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_008",
+      "text": "0—None",
+      "bbox": [
+        0.3684640522875817,
+        0.18163199376578282,
+        0.4264957203584559,
+        0.19432730626578282
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_009",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.20151835740214646,
+        0.41830454309002246,
+        0.21421366990214646
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_010",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.2214047210385101,
+        0.4534662782756332,
+        0.2341000335385101
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_011",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.24129108467487373,
+        0.4379368701012306,
+        0.25398639717487376
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_012",
+      "text": "Right leg: Inflammation More than\njust recent pigmentation (ie.\nerythema, cellulitis, venous eczema,\ndermatitis) (RLIF)",
+      "bbox": [
+        0.059640522875817,
+        0.281063811947601,
+        0.31302036958582263,
+        0.3335318517203283
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_013",
+      "text": "0—None",
+      "bbox": [
+        0.3684640522875817,
+        0.29053350891729796,
+        0.4264957203584559,
+        0.30322882141729796
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_014",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.3104198725536616,
+        0.41830454309002246,
+        0.3231151850536616
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_015",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.33030623619002525,
+        0.4534662782756332,
+        0.34300154869002525
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_016",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.3501925998263889,
+        0.4379368701012306,
+        0.3628879123263889
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_017",
+      "text": "Right leg: Induration Presumes\nvenous origin of secondary skin and\nsubcutaneous changes (ie. chronic\nedema with fibrosis, hypodermitis)\nIncludes white atrophy and\nlipodermatosclerosis (RLID)",
+      "bbox": [
+        0.059640522875817,
+        0.3899653270991162,
+        0.31543225556417226,
+        0.468948518386995
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_018",
+      "text": "0—None",
+      "bbox": [
+        0.3684640522875817,
+        0.3984880543718434,
+        0.4264957203584559,
+        0.4111833668718434
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_019",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.41837441800820707,
+        0.41830454309002246,
+        0.43106973050820707
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_020",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.4382607816445707,
+        0.4534662782756332,
+        0.4509560941445707
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_021",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.45814714528093436,
+        0.4379368701012306,
+        0.47084245778093436
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_022",
+      "text": "Right leg: Active Ulcer Number\n(RLAUN)\n0",
+      "bbox": [
+        0.059640522875817,
+        0.4988668422506313,
+        0.3766427632250817,
+        0.5248197305082071
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_023",
+      "text": "1",
+      "bbox": [
+        0.3684640522875817,
+        0.5272759331597222,
+        0.3766427632250817,
+        0.5399712456597222
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_024",
+      "text": "2",
+      "bbox": [
+        0.3684640522875817,
+        0.5471622967960859,
+        0.3766427632250817,
+        0.5598576092960859
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_025",
+      "text": "≥3",
+      "bbox": [
+        0.3684640522875817,
+        0.5670486604324495,
+        0.3847163081948274,
+        0.5797439729324495
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_026",
+      "text": "Right leg: Active Ulcer Duration\nAssess longest active (RLAUD)\nNot applicable",
+      "bbox": [
+        0.059640522875817,
+        0.6068213877051768,
+        0.46164274527356514,
+        0.6327742759627525
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_027",
+      "text": "<3 months",
+      "bbox": [
+        0.3684640522875817,
+        0.6361774483112373,
+        0.4375375485887714,
+        0.6488727608112373
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_028",
+      "text": "3 months to 1 year",
+      "bbox": [
+        0.3684640522875817,
+        0.656063811947601,
+        0.49025826049006843,
+        0.668759124447601
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_029",
+      "text": ">1 year",
+      "bbox": [
+        0.3684640522875817,
+        0.6759501755839646,
+        0.4179200315787122,
+        0.6886454880839646
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_030",
+      "text": "Right leg: Active Ulcer Size Assess\nlargest active ulcer (RLAUS)\nNot applicable",
+      "bbox": [
+        0.059640522875817,
+        0.7157229028566919,
+        0.46164274527356514,
+        0.7416757911142676
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_031",
+      "text": "Diameter <2 cm",
+      "bbox": [
+        0.3684640522875817,
+        0.7441319937657829,
+        0.4726553524241728,
+        0.7568273062657829
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_032",
+      "text": "Diameter 2-6 cm",
+      "bbox": [
+        0.3684640522875817,
+        0.7640183574021465,
+        0.4771406385633681,
+        0.7767136699021465
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_033",
+      "text": "Diameter >6 cm",
+      "bbox": [
+        0.3684640522875817,
+        0.78390472103851,
+        0.4726553524241728,
+        0.79660003353851
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_034",
+      "text": "Right leg: Use of Compression\nTherapy (RLUCT)\nNot used",
+      "bbox": [
+        0.059640522875817,
+        0.8246244180082071,
+        0.42731919631459353,
+        0.8505773062657829
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_035",
+      "text": "Intermittent use of stockings",
+      "bbox": [
+        0.3684640522875817,
+        0.853033508917298,
+        0.5515522676355699,
+        0.865728821417298
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_036",
+      "text": "Wears stockings most days",
+      "bbox": [
+        0.3684640522875817,
+        0.8729198725536617,
+        0.5471667121438419,
+        0.8856151850536617
+      ],
+      "page_num": 84
+    },
+    {
+      "line_id": "line_084_037",
+      "text": "Full compliance: stockings",
+      "bbox": [
+        0.3684640522875817,
+        0.8928062361900253,
+        0.5400816474864686,
+        0.9055015486900253
+      ],
+      "page_num": 84
+    }
+  ],
+  "metadata": {
+    "num_questions": 8,
+    "num_inputs": 32,
+    "num_inputs_by_type": {
+      "option": 0,
+      "text": 32,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 0,
+    "num_supplemental": 4,
+    "num_total_lines": 38,
+    "timestamp": "2025-08-15T13:57:12.143003+00:00"
+  }
+}

@@ -1,0 +1,912 @@
+{
+  "page_id": 43,
+  "items": [
+    {
+      "seq": 1302,
+      "tag": "<Q>",
+      "text": "Treating physician (PROC_TPHY42)",
+      "page": 44,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642077513415404,
+        0.44037802702461193,
+        0.09016063959911616
+      ],
+      "bbox_ref": "line_043_003",
+      "qid": "q-327"
+    },
+    {
+      "seq": 1303,
+      "tag": "<INPUT>",
+      "text": "Rohit Amin",
+      "page": 44,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642077513415404,
+        0.44037802702461193,
+        0.09016063959911616
+      ],
+      "bbox_ref": "line_043_003",
+      "parent_qid": "q-327"
+    },
+    {
+      "seq": 1304,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 44,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09261684225063131,
+        0.40524356817108353,
+        0.10531215475063131
+      ],
+      "bbox_ref": "line_043_004",
+      "parent_qid": "q-327"
+    },
+    {
+      "seq": 1305,
+      "tag": "<Q>",
+      "text": "Treating physician (PROC_TPHY43)",
+      "page": 44,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.1333365392203283,
+        0.4959762672972835,
+        0.15928942747790403
+      ],
+      "bbox_ref": "line_043_005",
+      "qid": "q-328"
+    },
+    {
+      "seq": 1306,
+      "tag": "<INPUT>",
+      "text": "Mohannad Bisharat",
+      "page": 44,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.1333365392203283,
+        0.4959762672972835,
+        0.15928942747790403
+      ],
+      "bbox_ref": "line_043_005",
+      "parent_qid": "q-328"
+    },
+    {
+      "seq": 1307,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 44,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09261684225063131,
+        0.40524356817108353,
+        0.10531215475063131
+      ],
+      "bbox_ref": "line_043_004",
+      "parent_qid": "q-328"
+    },
+    {
+      "seq": 1308,
+      "tag": "<Q>",
+      "text": "Treating physician (PROC_TPHY44)",
+      "page": 44,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.20151835740214646,
+        0.46571404949512357,
+        0.2274712456597222
+      ],
+      "bbox_ref": "line_043_007",
+      "qid": "q-329"
+    },
+    {
+      "seq": 1309,
+      "tag": "<INPUT>",
+      "text": "Robert Alvarez",
+      "page": 44,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.20151835740214646,
+        0.46571404949512357,
+        0.2274712456597222
+      ],
+      "bbox_ref": "line_043_007",
+      "parent_qid": "q-329"
+    },
+    {
+      "seq": 1310,
+      "tag": "<INPUT>",
+      "text": "Carlos Alfonso",
+      "page": 44,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.23087441800820707,
+        0.4640839021969465,
+        0.24356973050820707
+      ],
+      "bbox_ref": "line_043_008",
+      "parent_qid": "q-329"
+    },
+    {
+      "seq": 1311,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 44,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09261684225063131,
+        0.40524356817108353,
+        0.10531215475063131
+      ],
+      "bbox_ref": "line_043_004",
+      "parent_qid": "q-329"
+    },
+    {
+      "seq": 1312,
+      "tag": "<Q>",
+      "text": "Treating physician (PROC_TPHY45)",
+      "page": 44,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.29053350891729796,
+        0.4591868780796824,
+        0.31648639717487376
+      ],
+      "bbox_ref": "line_043_010",
+      "qid": "q-330"
+    },
+    {
+      "seq": 1313,
+      "tag": "<INPUT>",
+      "text": "Jordan Castle",
+      "page": 44,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.29053350891729796,
+        0.4591868780796824,
+        0.31648639717487376
+      ],
+      "bbox_ref": "line_043_010",
+      "parent_qid": "q-330"
+    },
+    {
+      "seq": 1314,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 44,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09261684225063131,
+        0.40524356817108353,
+        0.10531215475063131
+      ],
+      "bbox_ref": "line_043_004",
+      "parent_qid": "q-330"
+    },
+    {
+      "seq": 1315,
+      "tag": "<Q>",
+      "text": "Specify other treating physician (PROC_TPHYOT)",
+      "page": 44,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09261684225063131,
+        0.40524356817108353,
+        0.10531215475063131
+      ],
+      "bbox_ref": "line_043_004",
+      "qid": "q-331"
+    },
+    {
+      "seq": 1316,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 44,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.36345017558396464,
+        0.3877015705981286,
+        0.37614548808396464
+      ],
+      "bbox_ref": "line_043_013",
+      "parent_qid": "q-331"
+    },
+    {
+      "seq": 1317,
+      "tag": "<Q>",
+      "text": "Procedure setting (PROC_SET)",
+      "page": 44,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.44867744831123735,
+        0.27781709658554177,
+        0.46137276081123735
+      ],
+      "bbox_ref": "line_043_014",
+      "qid": "q-332"
+    },
+    {
+      "seq": 1318,
+      "tag": "<INPUT>",
+      "text": "Office-based",
+      "page": 44,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.45814714528093436,
+        0.4515633177913092,
+        0.47084245778093436
+      ],
+      "bbox_ref": "line_043_015",
+      "parent_qid": "q-332"
+    },
+    {
+      "seq": 1319,
+      "tag": "<INPUT>",
+      "text": "Ambulatory surgery center",
+      "page": 44,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.47803350891729796,
+        0.5409053229039011,
+        0.49072882141729796
+      ],
+      "bbox_ref": "line_043_016",
+      "parent_qid": "q-332"
+    },
+    {
+      "seq": 1320,
+      "tag": "<INPUT>",
+      "text": "Hospital, inpatient",
+      "page": 44,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4979198725536616,
+        0.485343883240145,
+        0.5106151850536617
+      ],
+      "bbox_ref": "line_043_017",
+      "parent_qid": "q-332"
+    },
+    {
+      "seq": 1321,
+      "tag": "<INPUT>",
+      "text": "Hospital, outpatient",
+      "page": 44,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5178062361900253,
+        0.4943438760595384,
+        0.5305015486900253
+      ],
+      "bbox_ref": "line_043_018",
+      "parent_qid": "q-332"
+    },
+    {
+      "seq": 1322,
+      "tag": "<Q>",
+      "text": "Was pre-existing IVC filter removed prior to procedure? (PROC_IVCR)",
+      "page": 44,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-333"
+    },
+    {
+      "seq": 1323,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 44,
+      "input_type": "option",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5575789634627525,
+        0.3924522150575725,
+        0.5835318517203283
+      ],
+      "bbox_ref": "line_043_019",
+      "parent_qid": "q-333"
+    },
+    {
+      "seq": 1324,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 44,
+      "input_type": "option",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5859880543718434,
+        0.38726041207905687,
+        0.5986833668718434
+      ],
+      "bbox_ref": "line_043_020",
+      "parent_qid": "q-333"
+    },
+    {
+      "seq": 1325,
+      "tag": "<INPUT>",
+      "text": "N/A",
+      "page": 44,
+      "input_type": "option",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6058744180082071,
+        0.39297864328022875,
+        0.6185697305082071
+      ],
+      "bbox_ref": "line_043_021",
+      "parent_qid": "q-333"
+    },
+    {
+      "seq": 1326,
+      "tag": "<Q>",
+      "text": "Anesthesia (PROC_ANES)",
+      "page": 44,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6465941149779041,
+        0.40361357046887764,
+        0.6678121547506313
+      ],
+      "bbox_ref": "line_043_022",
+      "qid": "q-334"
+    },
+    {
+      "seq": 1327,
+      "tag": "<INPUT>",
+      "text": "Local",
+      "page": 44,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6465941149779041,
+        0.40361357046887764,
+        0.6678121547506313
+      ],
+      "bbox_ref": "line_043_022",
+      "parent_qid": "q-334"
+    },
+    {
+      "seq": 1328,
+      "tag": "<INPUT>",
+      "text": "Local with sedation",
+      "page": 44,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6750032058869949,
+        0.4935250874438317,
+        0.6876985183869949
+      ],
+      "bbox_ref": "line_043_023",
+      "parent_qid": "q-334"
+    },
+    {
+      "seq": 1329,
+      "tag": "<INPUT>",
+      "text": "Spinal",
+      "page": 44,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6948895695233586,
+        0.4093341702729269,
+        0.7075848820233586
+      ],
+      "bbox_ref": "line_043_024",
+      "parent_qid": "q-334"
+    },
+    {
+      "seq": 1330,
+      "tag": "<INPUT>",
+      "text": "Epidural",
+      "page": 44,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7147759331597222,
+        0.42240766138812297,
+        0.7274712456597222
+      ],
+      "bbox_ref": "line_043_025",
+      "parent_qid": "q-334"
+    },
+    {
+      "seq": 1331,
+      "tag": "<INPUT>",
+      "text": "General",
+      "page": 44,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7346622967960859,
+        0.4207753200157016,
+        0.7473576092960859
+      ],
+      "bbox_ref": "line_043_026",
+      "parent_qid": "q-334"
+    },
+    {
+      "seq": 1332,
+      "tag": "<FORM>",
+      "text": "Procedure",
+      "page": 44,
+      "bbox_xyxy": [
+        0.2617698120915033,
+        0.03674563012941919,
+        0.6246475020265267,
+        0.04944094262941919
+      ],
+      "bbox_ref": "line_043_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_043_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_043_001",
+      "text": "44/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_043_002",
+      "text": "Form: Procedure\nStudy: Inari CLOUT\nPage: 8/9",
+      "bbox": [
+        0.2617698120915033,
+        0.03674563012941919,
+        0.6246475020265267,
+        0.04944094262941919
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_043_027",
+      "text": "Treatment Details",
+      "bbox": [
+        0.059640522875817,
+        0.7946802004419192,
+        0.2230879341075623,
+        0.8116072837752525
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_043_028",
+      "text": "Subform: Treatment",
+      "bbox": [
+        0.059640522875817,
+        0.8520865392203283,
+        0.19552437776054432,
+        0.8647818517203283
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_043_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_001",
+      "text": "44/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_002",
+      "text": "Form: Procedure\nStudy: Inari CLOUT\nPage: 8/9",
+      "bbox": [
+        0.2617698120915033,
+        0.03674563012941919,
+        0.6246475020265267,
+        0.04944094262941919
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_003",
+      "text": "Treating physician (PROC_TPHY42)\nSite 42\nRohit Amin",
+      "bbox": [
+        0.059640522875817,
+        0.0642077513415404,
+        0.44037802702461193,
+        0.09016063959911616
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_004",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.09261684225063131,
+        0.40524356817108353,
+        0.10531215475063131
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_005",
+      "text": "Treating physician (PROC_TPHY43)\nSite 43\nMohannad Bisharat",
+      "bbox": [
+        0.059640522875817,
+        0.1333365392203283,
+        0.4959762672972835,
+        0.15928942747790403
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_006",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.1617456301294192,
+        0.40524356817108353,
+        0.1744409426294192
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_007",
+      "text": "Treating physician (PROC_TPHY44)\nSite 44\nRobert Alvarez",
+      "bbox": [
+        0.059640522875817,
+        0.20151835740214646,
+        0.46571404949512357,
+        0.2274712456597222
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_008",
+      "text": "Carlos Alfonso",
+      "bbox": [
+        0.3684640522875817,
+        0.23087441800820707,
+        0.4640839021969465,
+        0.24356973050820707
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_009",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.2507607816445707,
+        0.40524356817108353,
+        0.2634560941445707
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_010",
+      "text": "Treating physician (PROC_TPHY45)\nSite 45\nJordan Castle",
+      "bbox": [
+        0.059640522875817,
+        0.29053350891729796,
+        0.4591868780796824,
+        0.31648639717487376
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_011",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.3189425998263889,
+        0.40524356817108353,
+        0.3316379123263889
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_012",
+      "text": "Specify other treating physician\n(PROC_TPHYOT)",
+      "bbox": [
+        0.059640522875817,
+        0.35966229679608586,
+        0.28274109784294577,
+        0.3856151850536616
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_013",
+      "text": "0/2500",
+      "bbox": [
+        0.34272875816993464,
+        0.36345017558396464,
+        0.3877015705981286,
+        0.37614548808396464
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_014",
+      "text": "Procedure setting (PROC_SET)",
+      "bbox": [
+        0.059640522875817,
+        0.44867744831123735,
+        0.27781709658554177,
+        0.46137276081123735
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_015",
+      "text": "Office-based",
+      "bbox": [
+        0.3684640522875817,
+        0.45814714528093436,
+        0.4515633177913092,
+        0.47084245778093436
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_016",
+      "text": "Ambulatory surgery center",
+      "bbox": [
+        0.3684640522875817,
+        0.47803350891729796,
+        0.5409053229039011,
+        0.49072882141729796
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_017",
+      "text": "Hospital, inpatient",
+      "bbox": [
+        0.3684640522875817,
+        0.4979198725536616,
+        0.485343883240145,
+        0.5106151850536617
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_018",
+      "text": "Hospital, outpatient",
+      "bbox": [
+        0.3684640522875817,
+        0.5178062361900253,
+        0.4943438760595384,
+        0.5305015486900253
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_019",
+      "text": "Was pre-existing IVC filter removed\nprior to procedure? (PROC_IVCR)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.5575789634627525,
+        0.3924522150575725,
+        0.5835318517203283
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_020",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.5859880543718434,
+        0.38726041207905687,
+        0.5986833668718434
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_021",
+      "text": "N/A",
+      "bbox": [
+        0.3684640522875817,
+        0.6058744180082071,
+        0.39297864328022875,
+        0.6185697305082071
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_022",
+      "text": "Anesthesia (PROC_ANES)\nLocal",
+      "bbox": [
+        0.059640522875817,
+        0.6465941149779041,
+        0.40361357046887764,
+        0.6678121547506313
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_023",
+      "text": "Local with sedation",
+      "bbox": [
+        0.3684640522875817,
+        0.6750032058869949,
+        0.4935250874438317,
+        0.6876985183869949
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_024",
+      "text": "Spinal",
+      "bbox": [
+        0.3684640522875817,
+        0.6948895695233586,
+        0.4093341702729269,
+        0.7075848820233586
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_025",
+      "text": "Epidural",
+      "bbox": [
+        0.3684640522875817,
+        0.7147759331597222,
+        0.42240766138812297,
+        0.7274712456597222
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_026",
+      "text": "General",
+      "bbox": [
+        0.3684640522875817,
+        0.7346622967960859,
+        0.4207753200157016,
+        0.7473576092960859
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_027",
+      "text": "Treatment Details",
+      "bbox": [
+        0.059640522875817,
+        0.7946802004419192,
+        0.2230879341075623,
+        0.8116072837752525
+      ],
+      "page_num": 43
+    },
+    {
+      "line_id": "line_043_028",
+      "text": "Subform: Treatment",
+      "bbox": [
+        0.059640522875817,
+        0.8520865392203283,
+        0.19552437776054432,
+        0.8647818517203283
+      ],
+      "page_num": 43
+    }
+  ],
+  "metadata": {
+    "num_questions": 8,
+    "num_inputs": 22,
+    "num_inputs_by_type": {
+      "option": 3,
+      "text": 19,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 0,
+    "num_supplemental": 5,
+    "num_total_lines": 29,
+    "timestamp": "2025-08-15T13:39:00.272168+00:00"
+  }
+}

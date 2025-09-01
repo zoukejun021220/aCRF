@@ -1,0 +1,996 @@
+{
+  "page_id": 132,
+  "items": [
+    {
+      "seq": 4085,
+      "tag": "<Q>",
+      "text": "Balloon angioplasty (EVALTVS_PTAYN)",
+      "page": 133,
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-948"
+    },
+    {
+      "seq": 4086,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 133,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": "Percutaneous Mechanical Thrombectomy",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.3924522150575725,
+        0.09017050386679293
+      ],
+      "bbox_ref": "line_132_003",
+      "parent_qid": "q-948"
+    },
+    {
+      "seq": 4087,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 133,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": "Balloon Angioplasty",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.38726041207905687,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_132_004",
+      "parent_qid": "q-948"
+    },
+    {
+      "seq": 4088,
+      "tag": "<Q>",
+      "text": "Venous stenting (EVALTVS_STENTYN)",
+      "page": 133,
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-949"
+    },
+    {
+      "seq": 4089,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 133,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": "Percutaneous Mechanical Thrombectomy",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.3924522150575725,
+        0.09017050386679293
+      ],
+      "bbox_ref": "line_132_003",
+      "parent_qid": "q-949"
+    },
+    {
+      "seq": 4090,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 133,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": "Balloon Angioplasty",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.38726041207905687,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_132_004",
+      "parent_qid": "q-949"
+    },
+    {
+      "seq": 4091,
+      "tag": "<Q>",
+      "text": "Number of venous stents used (ADJ_STENTNUM)",
+      "page": 133,
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-950"
+    },
+    {
+      "seq": 4092,
+      "tag": "<INPUT>",
+      "text": "_______________",
+      "page": 133,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-950"
+    },
+    {
+      "seq": 4093,
+      "tag": "<Q>",
+      "text": "Description of venous stents used (type & size) (ADJ_STENTDESC)",
+      "page": 133,
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-951"
+    },
+    {
+      "seq": 4094,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 133,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": "Description of Venous Stents Used",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.25550549439709597,
+        0.3877015705981286,
+        0.26820080689709597
+      ],
+      "bbox_ref": "line_132_009",
+      "parent_qid": "q-951"
+    },
+    {
+      "seq": 4095,
+      "tag": "<Q>",
+      "text": "Catheter-Directed Thrombolysis (CDT) (EVALTVS_CDT)",
+      "page": 133,
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-952"
+    },
+    {
+      "seq": 4096,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 133,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": "Percutaneous Mechanical Thrombectomy",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.3924522150575725,
+        0.09017050386679293
+      ],
+      "bbox_ref": "line_132_003",
+      "parent_qid": "q-952"
+    },
+    {
+      "seq": 4097,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 133,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": "Balloon Angioplasty",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.38726041207905687,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_132_004",
+      "parent_qid": "q-952"
+    },
+    {
+      "seq": 4098,
+      "tag": "<Q>",
+      "text": "Catheter-Directed Thrombolysis (CDT), provide details (EVALTVS_CDTSPE)",
+      "page": 133,
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-953"
+    },
+    {
+      "seq": 4099,
+      "tag": "<INPUT>",
+      "text": "0/400",
+      "page": 133,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": "Catheter-Directed Thrombolysis",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.414596403488005,
+        0.3795251036001966,
+        0.427291715988005
+      ],
+      "bbox_ref": "line_132_013",
+      "parent_qid": "q-953"
+    },
+    {
+      "seq": 4100,
+      "tag": "<Q>",
+      "text": "Percutaneous Mechanical Thrombectomy (PMT) (EVALTVS_PMT)",
+      "page": 133,
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-954"
+    },
+    {
+      "seq": 4101,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 133,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": "Percutaneous Mechanical Thrombectomy",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.3924522150575725,
+        0.09017050386679293
+      ],
+      "bbox_ref": "line_132_003",
+      "parent_qid": "q-954"
+    },
+    {
+      "seq": 4102,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 133,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": "Balloon Angioplasty",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.38726041207905687,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_132_004",
+      "parent_qid": "q-954"
+    },
+    {
+      "seq": 4103,
+      "tag": "<Q>",
+      "text": "If yes, specify device used (EVALTVS_PMTSPE)",
+      "page": 133,
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-955"
+    },
+    {
+      "seq": 4104,
+      "tag": "<INPUT>",
+      "text": "0/400",
+      "page": 133,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": "Catheter-Directed Thrombolysis",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.414596403488005,
+        0.3795251036001966,
+        0.427291715988005
+      ],
+      "bbox_ref": "line_132_013",
+      "parent_qid": "q-955"
+    },
+    {
+      "seq": 4105,
+      "tag": "<Q>",
+      "text": "Were lytics used? (EVALTVS_PMTLYT)",
+      "page": 133,
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-956"
+    },
+    {
+      "seq": 4106,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 133,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": "Percutaneous Mechanical Thrombectomy",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.3924522150575725,
+        0.09017050386679293
+      ],
+      "bbox_ref": "line_132_003",
+      "parent_qid": "q-956"
+    },
+    {
+      "seq": 4107,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 133,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": "Balloon Angioplasty",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.38726041207905687,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_132_004",
+      "parent_qid": "q-956"
+    },
+    {
+      "seq": 4108,
+      "tag": "<Q>",
+      "text": "Other procedures (EVALTVS_OTHPRO)",
+      "page": 133,
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-957"
+    },
+    {
+      "seq": 4109,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 133,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": "Percutaneous Mechanical Thrombectomy",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.3924522150575725,
+        0.09017050386679293
+      ],
+      "bbox_ref": "line_132_003",
+      "parent_qid": "q-957"
+    },
+    {
+      "seq": 4110,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 133,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": "Balloon Angioplasty",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.38726041207905687,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_132_004",
+      "parent_qid": "q-957"
+    },
+    {
+      "seq": 4111,
+      "tag": "<Q>",
+      "text": "Other procedures, specify (EVALTVS_PROCOTHSP)",
+      "page": 133,
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-958"
+    },
+    {
+      "seq": 4112,
+      "tag": "<INPUT>",
+      "text": "0/400",
+      "page": 133,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > Eval",
+      "section": "Catheter-Directed Thrombolysis",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.414596403488005,
+        0.3795251036001966,
+        0.427291715988005
+      ],
+      "bbox_ref": "line_132_013",
+      "parent_qid": "q-958"
+    },
+    {
+      "seq": 4113,
+      "tag": "<FORM>",
+      "text": "Unscheduled Visits > Visit > Eval",
+      "page": 133,
+      "bbox_xyxy": [
+        0.1884701797385621,
+        0.03675549439709596,
+        0.6979471842447916,
+        0.04945080689709596
+      ],
+      "bbox_ref": "line_132_002"
+    },
+    {
+      "seq": 4114,
+      "tag": "<SH>",
+      "text": "Balloon Angioplasty",
+      "page": 133,
+      "question_below_text": "Balloon angioplasty (EVALTVS_PTAYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.3924522150575725,
+        0.09017050386679293
+      ],
+      "bbox_ref": "line_132_003"
+    },
+    {
+      "seq": 4115,
+      "tag": "<SH>",
+      "text": "Venous Stenting",
+      "page": 133,
+      "question_below_text": "Venous stenting (EVALTVS_STENTYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.13334640348800506,
+        0.3924522150575725,
+        0.1592992917455808
+      ],
+      "bbox_ref": "line_132_005"
+    },
+    {
+      "seq": 4116,
+      "tag": "<SH>",
+      "text": "Number of Venous Stents Used",
+      "page": 133,
+      "question_below_text": "Number of venous stents used (ADJ_STENTNUM)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.20152822166982323,
+        0.27454992057451233,
+        0.22748110992739898
+      ],
+      "bbox_ref": "line_132_007"
+    },
+    {
+      "seq": 4117,
+      "tag": "<SH>",
+      "text": "Description of Venous Stents Used",
+      "page": 133,
+      "question_below_text": "Description of venous stents used (type & size) (ADJ_STENTDESC)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.2517176156092172,
+        0.29988816205193014,
+        0.27767050386679293
+      ],
+      "bbox_ref": "line_132_008"
+    },
+    {
+      "seq": 4118,
+      "tag": "<SH>",
+      "text": "Catheter-Directed Thrombolysis",
+      "page": 133,
+      "question_below_text": "Catheter-Directed Thrombolysis (CDT) (EVALTVS_CDT)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3416797368213384,
+        0.3924522150575725,
+        0.36763262507891414
+      ],
+      "bbox_ref": "line_132_010"
+    },
+    {
+      "seq": 4119,
+      "tag": "<SH>",
+      "text": "Catheter-Directed Thrombolysis",
+      "page": 133,
+      "question_below_text": "Catheter-Directed Thrombolysis (CDT), provide details (EVALTVS_CDTSPE)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3416797368213384,
+        0.3924522150575725,
+        0.36763262507891414
+      ],
+      "bbox_ref": "line_132_010"
+    },
+    {
+      "seq": 4120,
+      "tag": "<SH>",
+      "text": "Percutaneous Mechanical Thrombectomy",
+      "page": 133,
+      "question_below_text": "Percutaneous Mechanical Thrombectomy (PMT) (EVALTVS_PMT)",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    },
+    {
+      "seq": 4121,
+      "tag": "<SH>",
+      "text": "If yes, specify device used",
+      "page": 133,
+      "question_below_text": "If yes, specify device used (EVALTVS_PMTSPE)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5689524640940656,
+        0.24437344619651247,
+        0.5949053523516414
+      ],
+      "bbox_ref": "line_132_017"
+    },
+    {
+      "seq": 4122,
+      "tag": "<SH>",
+      "text": "Were lytics used?",
+      "page": 133,
+      "question_below_text": "Were lytics used? (EVALTVS_PMTLYT)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6589145853061869,
+        0.3924522150575725,
+        0.6848674735637627
+      ],
+      "bbox_ref": "line_132_019"
+    },
+    {
+      "seq": 4123,
+      "tag": "<SH>",
+      "text": "Other Procedures",
+      "page": 133,
+      "question_below_text": "Other procedures (EVALTVS_OTHPRO)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7270964034880051,
+        0.3924522150575725,
+        0.7530492917455808
+      ],
+      "bbox_ref": "line_132_021"
+    },
+    {
+      "seq": 4124,
+      "tag": "<SH>",
+      "text": "Other Procedures",
+      "page": 133,
+      "question_below_text": "Other procedures, specify (EVALTVS_PROCOTHSP)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7270964034880051,
+        0.3924522150575725,
+        0.7530492917455808
+      ],
+      "bbox_ref": "line_132_021"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_132_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_132_001",
+      "text": "133/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_132_002",
+      "text": "Form: Unscheduled Visits > Visit > Eval\nStudy: Inari CLOUT\nPage: 3/3",
+      "bbox": [
+        0.1884701797385621,
+        0.03675549439709596,
+        0.6979471842447916,
+        0.04945080689709596
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_132_012",
+      "text": "Catheter-Directed Thrombolysis\n(CDT), provide details\n(EVALTVS_CDTSPE)",
+      "bbox": [
+        0.059640522875817,
+        0.4098615550031566,
+        0.2835398156658497,
+        0.44907201901830807
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_132_014",
+      "text": "Percutaneous Mechanical\nThrombectomy (PMT)\n(EVALTVS_PMT)",
+      "bbox": [
+        0.059640522875817,
+        0.4998236762152778,
+        0.24025569242589614,
+        0.5390341402304293
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_132_023",
+      "text": "Other procedures, specify\n(EVALTVS_PROCOTHSP)",
+      "bbox": [
+        0.059640522875817,
+        0.7962251913667929,
+        0.24189274607141034,
+        0.8221780796243687
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_132_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_001",
+      "text": "133/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_002",
+      "text": "Form: Unscheduled Visits > Visit > Eval\nStudy: Inari CLOUT\nPage: 3/3",
+      "bbox": [
+        0.1884701797385621,
+        0.03675549439709596,
+        0.6979471842447916,
+        0.04945080689709596
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_003",
+      "text": "Balloon angioplasty\n(EVALTVS_PTAYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.3924522150575725,
+        0.09017050386679293
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_004",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.38726041207905687,
+        0.10532201901830808
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_005",
+      "text": "Venous stenting\n(EVALTVS_STENTYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.13334640348800506,
+        0.3924522150575725,
+        0.1592992917455808
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_006",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.16175549439709597,
+        0.38726041207905687,
+        0.17445080689709597
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_007",
+      "text": "Number of venous stents used\n(ADJ_STENTNUM)",
+      "bbox": [
+        0.059640522875817,
+        0.20152822166982323,
+        0.27454992057451233,
+        0.22748110992739898
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_008",
+      "text": "Description of venous stents used\n(type & size) (ADJ_STENTDESC)",
+      "bbox": [
+        0.059640522875817,
+        0.2517176156092172,
+        0.29988816205193014,
+        0.27767050386679293
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_009",
+      "text": "0/2500",
+      "bbox": [
+        0.34272875816993464,
+        0.25550549439709597,
+        0.3877015705981286,
+        0.26820080689709597
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_010",
+      "text": "Catheter-Directed Thrombolysis\n(CDT) (EVALTVS_CDT)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.3416797368213384,
+        0.3924522150575725,
+        0.36763262507891414
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_011",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.3700888277304293,
+        0.38726041207905687,
+        0.3827841402304293
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_012",
+      "text": "Catheter-Directed Thrombolysis\n(CDT), provide details\n(EVALTVS_CDTSPE)",
+      "bbox": [
+        0.059640522875817,
+        0.4098615550031566,
+        0.2835398156658497,
+        0.44907201901830807
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_013",
+      "text": "0/400",
+      "bbox": [
+        0.34272875816993464,
+        0.414596403488005,
+        0.3795251036001966,
+        0.427291715988005
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_014",
+      "text": "Percutaneous Mechanical\nThrombectomy (PMT)\n(EVALTVS_PMT)",
+      "bbox": [
+        0.059640522875817,
+        0.4998236762152778,
+        0.24025569242589614,
+        0.5390341402304293
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_015",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.5083464034880051,
+        0.3924522150575725,
+        0.5210417159880051
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_016",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.5282327671243687,
+        0.38726041207905687,
+        0.5409280796243687
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_017",
+      "text": "If yes, specify device used\n(EVALTVS_PMTSPE)",
+      "bbox": [
+        0.059640522875817,
+        0.5689524640940656,
+        0.24437344619651247,
+        0.5949053523516414
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_018",
+      "text": "0/400",
+      "bbox": [
+        0.34272875816993464,
+        0.5727403428819444,
+        0.3795251036001966,
+        0.5854356553819444
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_019",
+      "text": "Were lytics used?\n(EVALTVS_PMTLYT)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.6589145853061869,
+        0.3924522150575725,
+        0.6848674735637627
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_020",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.6873236762152778,
+        0.38726041207905687,
+        0.7000189887152778
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_021",
+      "text": "Other procedures\n(EVALTVS_OTHPRO)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.7270964034880051,
+        0.3924522150575725,
+        0.7530492917455808
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_022",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.7555054943970959,
+        0.38726041207905687,
+        0.7682008068970959
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_023",
+      "text": "Other procedures, specify\n(EVALTVS_PROCOTHSP)",
+      "bbox": [
+        0.059640522875817,
+        0.7962251913667929,
+        0.24189274607141034,
+        0.8221780796243687
+      ],
+      "page_num": 132
+    },
+    {
+      "line_id": "line_132_024",
+      "text": "0/400",
+      "bbox": [
+        0.34272875816993464,
+        0.8000130701546717,
+        0.3795251036001966,
+        0.8127083826546717
+      ],
+      "page_num": 132
+    }
+  ],
+  "metadata": {
+    "num_questions": 11,
+    "num_inputs": 17,
+    "num_inputs_by_type": {
+      "option": 12,
+      "text": 5,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 11,
+    "num_supplemental": 6,
+    "num_total_lines": 25,
+    "timestamp": "2025-08-15T14:19:34.097309+00:00"
+  }
+}

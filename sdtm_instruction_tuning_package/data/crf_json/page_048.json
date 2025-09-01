@@ -1,0 +1,803 @@
+{
+  "page_id": 48,
+  "items": [
+    {
+      "seq": 1481,
+      "tag": "<Q>",
+      "text": "Catheter-Directed Thrombolysis (CDT) (ADJ_CDT)",
+      "page": 49,
+      "form": "Procedure > Treatment",
+      "section": "Post-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-361"
+    },
+    {
+      "seq": 1482,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 49,
+      "input_type": "option",
+      "form": "Procedure > Treatment",
+      "section": "Adjunctive Procedures",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.14185926649305555,
+        0.3924522150575725,
+        0.16781215475063133
+      ],
+      "bbox_ref": "line_048_004",
+      "parent_qid": "q-361"
+    },
+    {
+      "seq": 1483,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 49,
+      "input_type": "option",
+      "form": "Procedure > Treatment",
+      "section": "Adjunctive Procedures",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.17026835740214646,
+        0.38726041207905687,
+        0.18296366990214646
+      ],
+      "bbox_ref": "line_048_005",
+      "parent_qid": "q-361"
+    },
+    {
+      "seq": 1484,
+      "tag": "<Q>",
+      "text": "Thrombolytic agent, specify (PROC_THRA)",
+      "page": 49,
+      "form": "Procedure > Treatment",
+      "section": "Adjunctive Procedures",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-362"
+    },
+    {
+      "seq": 1485,
+      "tag": "<INPUT>",
+      "text": "_______________",
+      "page": 49,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Adjunctive Procedures",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-362"
+    },
+    {
+      "seq": 1486,
+      "tag": "<Q>",
+      "text": "Thrombolytic agent dose (PROC_THRD)",
+      "page": 49,
+      "form": "Procedure > Treatment",
+      "section": "Adjunctive Procedures",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-363"
+    },
+    {
+      "seq": 1487,
+      "tag": "<INPUT>",
+      "text": "_______________",
+      "page": 49,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Adjunctive Procedures",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-363"
+    },
+    {
+      "seq": 1488,
+      "tag": "<Q>",
+      "text": "Thrombolytic agent units (PROC_THRU)",
+      "page": 49,
+      "form": "Procedure > Treatment",
+      "section": "Adjunctive Procedures",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-364"
+    },
+    {
+      "seq": 1489,
+      "tag": "<INPUT>",
+      "text": "_______________",
+      "page": 49,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Adjunctive Procedures",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-364"
+    },
+    {
+      "seq": 1490,
+      "tag": "<Q>",
+      "text": "Percutaneous Mechanical Thrombectomy (PMT) (ADJ_PMT)",
+      "page": 49,
+      "form": "Procedure > Treatment",
+      "section": "Adjunctive Procedures",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-365"
+    },
+    {
+      "seq": 1491,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 49,
+      "input_type": "option",
+      "form": "Procedure > Treatment",
+      "section": "Adjunctive Procedures",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.14185926649305555,
+        0.3924522150575725,
+        0.16781215475063133
+      ],
+      "bbox_ref": "line_048_004",
+      "parent_qid": "q-365"
+    },
+    {
+      "seq": 1492,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 49,
+      "input_type": "option",
+      "form": "Procedure > Treatment",
+      "section": "Adjunctive Procedures",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.17026835740214646,
+        0.38726041207905687,
+        0.18296366990214646
+      ],
+      "bbox_ref": "line_048_005",
+      "parent_qid": "q-365"
+    },
+    {
+      "seq": 1493,
+      "tag": "<Q>",
+      "text": "If yes, specify device used (ADJ_PMTSPE)",
+      "page": 49,
+      "form": "Procedure > Treatment",
+      "section": "Adjunctive Procedures",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-366"
+    },
+    {
+      "seq": 1494,
+      "tag": "<INPUT>",
+      "text": "_______________",
+      "page": 49,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Adjunctive Procedures",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-366"
+    },
+    {
+      "seq": 1495,
+      "tag": "<Q>",
+      "text": "Were lytics used? (ADJ_PMTLYT)",
+      "page": 49,
+      "form": "Procedure > Treatment",
+      "section": "Adjunctive Procedures",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5982986604324495,
+        0.3924522150575725,
+        0.6195167002051768
+      ],
+      "bbox_ref": "line_048_015",
+      "qid": "q-367"
+    },
+    {
+      "seq": 1496,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 49,
+      "input_type": "option",
+      "form": "Procedure > Treatment",
+      "section": "Adjunctive Procedures",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.14185926649305555,
+        0.3924522150575725,
+        0.16781215475063133
+      ],
+      "bbox_ref": "line_048_004",
+      "parent_qid": "q-367"
+    },
+    {
+      "seq": 1497,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 49,
+      "input_type": "option",
+      "form": "Procedure > Treatment",
+      "section": "Adjunctive Procedures",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.17026835740214646,
+        0.38726041207905687,
+        0.18296366990214646
+      ],
+      "bbox_ref": "line_048_005",
+      "parent_qid": "q-367"
+    },
+    {
+      "seq": 1498,
+      "tag": "<Q>",
+      "text": "Other additional procedures (ADJ_OTHPRO)",
+      "page": 49,
+      "form": "Procedure > Treatment",
+      "section": "Adjunctive Procedures",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-368"
+    },
+    {
+      "seq": 1499,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 49,
+      "input_type": "option",
+      "form": "Procedure > Treatment",
+      "section": "Adjunctive Procedures",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.14185926649305555,
+        0.3924522150575725,
+        0.16781215475063133
+      ],
+      "bbox_ref": "line_048_004",
+      "parent_qid": "q-368"
+    },
+    {
+      "seq": 1500,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 49,
+      "input_type": "option",
+      "form": "Procedure > Treatment",
+      "section": "Adjunctive Procedures",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.17026835740214646,
+        0.38726041207905687,
+        0.18296366990214646
+      ],
+      "bbox_ref": "line_048_005",
+      "parent_qid": "q-368"
+    },
+    {
+      "seq": 1501,
+      "tag": "<Q>",
+      "text": "Other additional procedures, specify (ADJ_PROCOTHSP)",
+      "page": 49,
+      "form": "Procedure > Treatment",
+      "section": "Adjunctive Procedures",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-369"
+    },
+    {
+      "seq": 1502,
+      "tag": "<INPUT>",
+      "text": "_______________",
+      "page": 49,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Adjunctive Procedures",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-369"
+    },
+    {
+      "seq": 1503,
+      "tag": "<FORM>",
+      "text": "Procedure > Treatment",
+      "page": 49,
+      "bbox_xyxy": [
+        0.2201605902777778,
+        0.03674563012941919,
+        0.666275872124566,
+        0.04944094262941919
+      ],
+      "bbox_ref": "line_048_002"
+    },
+    {
+      "seq": 1504,
+      "tag": "<SH>",
+      "text": "Adjunctive Procedures",
+      "page": 49,
+      "question_below_text": "Catheter-Directed Thrombolysis (CDT) (ADJ_CDT)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.08350595801767677,
+        0.2732121586020476,
+        0.1004330413510101
+      ],
+      "bbox_ref": "line_048_003"
+    },
+    {
+      "seq": 1505,
+      "tag": "<SH>",
+      "text": "Post-Adjunctive Therapy Venogram",
+      "page": 49,
+      "question_below_text": "none",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.8448695943813131,
+        0.39086784412658293,
+        0.8617966777146465
+      ],
+      "bbox_ref": "line_048_021"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_048_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_048_001",
+      "text": "49/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_048_002",
+      "text": "Form: Procedure > Treatment\nStudy: Inari CLOUT\nPage: 4/6",
+      "bbox": [
+        0.2201605902777778,
+        0.03674563012941919,
+        0.666275872124566,
+        0.04944094262941919
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_048_003",
+      "text": "Adjunctive Procedures",
+      "bbox": [
+        0.059640522875817,
+        0.08350595801767677,
+        0.2732121586020476,
+        0.1004330413510101
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_048_006",
+      "text": "Thrombolytic agent, specify\n(PROC_THRA)",
+      "bbox": [
+        0.059640522875817,
+        0.21004108467487373,
+        0.2549515767814287,
+        0.2359939729324495
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_048_007",
+      "text": "0/2500",
+      "bbox": [
+        0.34272875816993464,
+        0.2138289634627525,
+        0.3877015705981286,
+        0.2265242759627525
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_048_008",
+      "text": "Thrombolytic agent dose\n(PROC_THRD)",
+      "bbox": [
+        0.059640522875817,
+        0.300003205886995,
+        0.2345103843539369,
+        0.3259560941445707
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_048_009",
+      "text": "Thrombolytic agent units\n(PROC_THRU)",
+      "bbox": [
+        0.059640522875817,
+        0.3501925998263889,
+        0.2353192248375587,
+        0.37614548808396464
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_048_010",
+      "text": "0/2500",
+      "bbox": [
+        0.34272875816993464,
+        0.3539804786142677,
+        0.3877015705981286,
+        0.3666757911142677
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_048_014",
+      "text": "0/400",
+      "bbox": [
+        0.34272875816993464,
+        0.5121244180082071,
+        0.3795251036001966,
+        0.5248197305082071
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_048_019",
+      "text": "Other additional procedures, specify\n(ADJ_PROCOTHSP)",
+      "bbox": [
+        0.059640522875817,
+        0.7356092664930556,
+        0.31543686810661764,
+        0.7615621547506313
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_048_020",
+      "text": "0/500",
+      "bbox": [
+        0.34272875816993464,
+        0.7393971452809344,
+        0.3795251036001966,
+        0.7520924577809344
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_048_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 48
+    },
+    {
+      "line_id": "line_048_001",
+      "text": "49/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 48
+    },
+    {
+      "line_id": "line_048_002",
+      "text": "Form: Procedure > Treatment\nStudy: Inari CLOUT\nPage: 4/6",
+      "bbox": [
+        0.2201605902777778,
+        0.03674563012941919,
+        0.666275872124566,
+        0.04944094262941919
+      ],
+      "page_num": 48
+    },
+    {
+      "line_id": "line_048_003",
+      "text": "Adjunctive Procedures",
+      "bbox": [
+        0.059640522875817,
+        0.08350595801767677,
+        0.2732121586020476,
+        0.1004330413510101
+      ],
+      "page_num": 48
+    },
+    {
+      "line_id": "line_048_004",
+      "text": "Catheter-Directed Thrombolysis\n(CDT) (ADJ_CDT)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.14185926649305555,
+        0.3924522150575725,
+        0.16781215475063133
+      ],
+      "page_num": 48
+    },
+    {
+      "line_id": "line_048_005",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.17026835740214646,
+        0.38726041207905687,
+        0.18296366990214646
+      ],
+      "page_num": 48
+    },
+    {
+      "line_id": "line_048_006",
+      "text": "Thrombolytic agent, specify\n(PROC_THRA)",
+      "bbox": [
+        0.059640522875817,
+        0.21004108467487373,
+        0.2549515767814287,
+        0.2359939729324495
+      ],
+      "page_num": 48
+    },
+    {
+      "line_id": "line_048_007",
+      "text": "0/2500",
+      "bbox": [
+        0.34272875816993464,
+        0.2138289634627525,
+        0.3877015705981286,
+        0.2265242759627525
+      ],
+      "page_num": 48
+    },
+    {
+      "line_id": "line_048_008",
+      "text": "Thrombolytic agent dose\n(PROC_THRD)",
+      "bbox": [
+        0.059640522875817,
+        0.300003205886995,
+        0.2345103843539369,
+        0.3259560941445707
+      ],
+      "page_num": 48
+    },
+    {
+      "line_id": "line_048_009",
+      "text": "Thrombolytic agent units\n(PROC_THRU)",
+      "bbox": [
+        0.059640522875817,
+        0.3501925998263889,
+        0.2353192248375587,
+        0.37614548808396464
+      ],
+      "page_num": 48
+    },
+    {
+      "line_id": "line_048_010",
+      "text": "0/2500",
+      "bbox": [
+        0.34272875816993464,
+        0.3539804786142677,
+        0.3877015705981286,
+        0.3666757911142677
+      ],
+      "page_num": 48
+    },
+    {
+      "line_id": "line_048_011",
+      "text": "Percutaneous Mechanical\nThrombectomy (PMT) (ADJ_PMT)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.4392077513415404,
+        0.3924522150575725,
+        0.4651606395991162
+      ],
+      "page_num": 48
+    },
+    {
+      "line_id": "line_048_012",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.4676168422506313,
+        0.38726041207905687,
+        0.4803121547506313
+      ],
+      "page_num": 48
+    },
+    {
+      "line_id": "line_048_013",
+      "text": "If yes, specify device used\n(ADJ_PMTSPE)",
+      "bbox": [
+        0.059640522875817,
+        0.5083365392203283,
+        0.24437344619651247,
+        0.5342894274779041
+      ],
+      "page_num": 48
+    },
+    {
+      "line_id": "line_048_014",
+      "text": "0/400",
+      "bbox": [
+        0.34272875816993464,
+        0.5121244180082071,
+        0.3795251036001966,
+        0.5248197305082071
+      ],
+      "page_num": 48
+    },
+    {
+      "line_id": "line_048_015",
+      "text": "Were lytics used? (ADJ_PMTLYT)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.5982986604324495,
+        0.3924522150575725,
+        0.6195167002051768
+      ],
+      "page_num": 48
+    },
+    {
+      "line_id": "line_048_016",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.6267077513415404,
+        0.38726041207905687,
+        0.6394030638415404
+      ],
+      "page_num": 48
+    },
+    {
+      "line_id": "line_048_017",
+      "text": "Other additional procedures\n(ADJ_OTHPRO)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.6664804786142676,
+        0.3924522150575725,
+        0.6924333668718434
+      ],
+      "page_num": 48
+    },
+    {
+      "line_id": "line_048_018",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.6958365392203283,
+        0.38726041207905687,
+        0.7085318517203283
+      ],
+      "page_num": 48
+    },
+    {
+      "line_id": "line_048_019",
+      "text": "Other additional procedures, specify\n(ADJ_PROCOTHSP)",
+      "bbox": [
+        0.059640522875817,
+        0.7356092664930556,
+        0.31543686810661764,
+        0.7615621547506313
+      ],
+      "page_num": 48
+    },
+    {
+      "line_id": "line_048_020",
+      "text": "0/500",
+      "bbox": [
+        0.34272875816993464,
+        0.7393971452809344,
+        0.3795251036001966,
+        0.7520924577809344
+      ],
+      "page_num": 48
+    },
+    {
+      "line_id": "line_048_021",
+      "text": "Post-Adjunctive Therapy Venogram",
+      "bbox": [
+        0.059640522875817,
+        0.8448695943813131,
+        0.39086784412658293,
+        0.8617966777146465
+      ],
+      "page_num": 48
+    }
+  ],
+  "metadata": {
+    "num_questions": 9,
+    "num_inputs": 13,
+    "num_inputs_by_type": {
+      "option": 8,
+      "text": 5,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 2,
+    "num_supplemental": 12,
+    "num_total_lines": 22,
+    "timestamp": "2025-08-15T13:41:18.662291+00:00"
+  }
+}

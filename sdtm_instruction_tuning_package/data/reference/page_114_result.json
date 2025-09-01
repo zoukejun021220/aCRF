@@ -1,0 +1,56 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_114.json",
+  "page_id": 114,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Left leg: Active Ulcer Size Assess largest active ulcer (LLAUS)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Left leg: Use of Compression Therapy (LLUCT)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Was a Numeric Pain Rating Scale (NPRS) completed? (NPRSYN)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "NPRS score (NPRSSR)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    }
+  ],
+  "summary": {
+    "total_items": 4,
+    "annotated": 4,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

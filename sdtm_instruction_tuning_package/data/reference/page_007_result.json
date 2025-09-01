@@ -1,0 +1,88 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_007.json",
+  "page_id": 7,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Congenital/acquired venous anomaly, specify (MH_CVANOMSPE)",
+      "annotation": "MHTERM",
+      "domain": "MH",
+      "pattern": "variable_with_ct",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Contraindicated for thrombolysis (CITHRX)",
+      "annotation": "FAORRES when FATESTCD = OCCUR",
+      "domain": "FA",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": true,
+      "question_annotation": "FAORRES when FATESTCD = OCCUR",
+      "option_annotations": {
+        "Yes": "",
+        "No": ""
+      }
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Contraindication (CITHRTYP)",
+      "annotation": "FAORRES when FATESTCD = CITHRTYP",
+      "domain": "FA",
+      "pattern": "conditional_single",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Absolute contraindication for thrombolysis, specify (CITRHSPE_ABS)",
+      "annotation": "CITHRABT: CITHRABN in SUPPFA",
+      "domain": "FA",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Contraindication for thrombolysis, specify (CITRHSPE1)",
+      "annotation": "CITHRSP1: CITHRSP in SUPPFA",
+      "domain": "FA",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Inferior vena cava (IVC) filter in place? (MH_FILT)",
+      "annotation": "PROCGCR",
+      "domain": "PR",
+      "pattern": "variable_with_ct",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": true,
+      "question_annotation": "PROCGCR",
+      "option_annotations": {
+        "Yes": "",
+        "No": ""
+      }
+    }
+  ],
+  "summary": {
+    "total_items": 6,
+    "annotated": 6,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

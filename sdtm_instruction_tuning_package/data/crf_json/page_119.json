@@ -1,0 +1,843 @@
+{
+  "page_id": 119,
+  "items": [
+    {
+      "seq": 3673,
+      "tag": "<Q>",
+      "text": "Visit Date (FU_UNSDATE)",
+      "page": 120,
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.44772493449691075,
+        0.1302101347181532
+      ],
+      "bbox_ref": "line_119_004",
+      "qid": "q-859"
+    },
+    {
+      "seq": 3674,
+      "tag": "<INPUT>",
+      "text": "dd-mmm-yyyy",
+      "page": 120,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.44772493449691075,
+        0.1302101347181532
+      ],
+      "bbox_ref": "line_119_004",
+      "parent_qid": "q-859"
+    },
+    {
+      "seq": 3675,
+      "tag": "<Q>",
+      "text": "Was the visit conducted remotely?",
+      "page": 120,
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.16175549439709597,
+        0.3924522150575725,
+        0.1877083826546717
+      ],
+      "bbox_ref": "line_119_005",
+      "qid": "q-860"
+    },
+    {
+      "seq": 3676,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 120,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.16175549439709597,
+        0.3924522150575725,
+        0.1877083826546717
+      ],
+      "bbox_ref": "line_119_005",
+      "parent_qid": "q-860"
+    },
+    {
+      "seq": 3677,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 120,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.19016458530618688,
+        0.38726041207905687,
+        0.20285989780618688
+      ],
+      "bbox_ref": "line_119_006",
+      "parent_qid": "q-860"
+    },
+    {
+      "seq": 3678,
+      "tag": "<Q>",
+      "text": "COVID-19 Status (FU_CVD)",
+      "page": 120,
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.22993731257891414,
+        0.24919946209277982,
+        0.24263262507891414
+      ],
+      "bbox_ref": "line_119_007",
+      "qid": "q-861"
+    },
+    {
+      "seq": 3679,
+      "tag": "<INPUT>",
+      "text": "COVID-19 Positive",
+      "page": 120,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.2394070095486111,
+        0.49186332553040746,
+        0.2521023220486111
+      ],
+      "bbox_ref": "line_119_008",
+      "parent_qid": "q-861"
+    },
+    {
+      "seq": 3680,
+      "tag": "<INPUT>",
+      "text": "COVID-19 Negative",
+      "page": 120,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.25929337318497475,
+        0.4984074511559181,
+        0.27198868568497475
+      ],
+      "bbox_ref": "line_119_009",
+      "parent_qid": "q-861"
+    },
+    {
+      "seq": 3681,
+      "tag": "<INPUT>",
+      "text": "COVID-19 Status Unknown",
+      "page": 120,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.2791797368213384,
+        0.5474515428730086,
+        0.2918750493213384
+      ],
+      "bbox_ref": "line_119_010",
+      "parent_qid": "q-861"
+    },
+    {
+      "seq": 3682,
+      "tag": "<Q>",
+      "text": "If positive, date of positive test (FU_CVD_DT)",
+      "page": 120,
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-862"
+    },
+    {
+      "seq": 3683,
+      "tag": "<INPUT>",
+      "text": "dd-mmm-yyyy",
+      "page": 120,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.44772493449691075,
+        0.1302101347181532
+      ],
+      "bbox_ref": "line_119_004",
+      "parent_qid": "q-862"
+    },
+    {
+      "seq": 3684,
+      "tag": "<Q>",
+      "text": "Reason for unscheduled visit (FU_UNSUNSREAS)",
+      "page": 120,
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-863"
+    },
+    {
+      "seq": 3685,
+      "tag": "<INPUT>",
+      "text": "0/500",
+      "page": 120,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.3729297368213384,
+        0.3795251036001966,
+        0.3856250493213384
+      ],
+      "bbox_ref": "line_119_013",
+      "parent_qid": "q-863"
+    },
+    {
+      "seq": 3686,
+      "tag": "<Q>",
+      "text": "Compression therapy prescribed (FU_UNSCOMPTYN)",
+      "page": 120,
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-864"
+    },
+    {
+      "seq": 3687,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 120,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.16175549439709597,
+        0.3924522150575725,
+        0.1877083826546717
+      ],
+      "bbox_ref": "line_119_005",
+      "parent_qid": "q-864"
+    },
+    {
+      "seq": 3688,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 120,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.19016458530618688,
+        0.38726041207905687,
+        0.20285989780618688
+      ],
+      "bbox_ref": "line_119_006",
+      "parent_qid": "q-864"
+    },
+    {
+      "seq": 3689,
+      "tag": "<Q>",
+      "text": "Compression therapy type (FU_UNSCOMPT)",
+      "page": 120,
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-865"
+    },
+    {
+      "seq": 3690,
+      "tag": "<INPUT>",
+      "text": "Stocking",
+      "page": 120,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.527285797427399,
+        0.4248633291207108,
+        0.5532386856849747
+      ],
+      "bbox_ref": "line_119_016",
+      "parent_qid": "q-865"
+    },
+    {
+      "seq": 3691,
+      "tag": "<INPUT>",
+      "text": "Bandage",
+      "page": 120,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.55569488833649,
+        0.42733390658509496,
+        0.56839020083649
+      ],
+      "bbox_ref": "line_119_017",
+      "parent_qid": "q-865"
+    },
+    {
+      "seq": 3692,
+      "tag": "<Q>",
+      "text": "Was edema assessment completed? (FU_UNSEDYN)",
+      "page": 120,
+      "form": "Unscheduled Visits > Visit",
+      "section": null,
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6157127919823232,
+        0.1239376317441853,
+        0.6326398753156566
+      ],
+      "bbox_ref": "line_119_018",
+      "qid": "q-866"
+    },
+    {
+      "seq": 3693,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 120,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.16175549439709597,
+        0.3924522150575725,
+        0.1877083826546717
+      ],
+      "bbox_ref": "line_119_005",
+      "parent_qid": "q-866"
+    },
+    {
+      "seq": 3694,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 120,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit",
+      "section": "Unscheduled Visits",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.19016458530618688,
+        0.38726041207905687,
+        0.20285989780618688
+      ],
+      "bbox_ref": "line_119_006",
+      "parent_qid": "q-866"
+    },
+    {
+      "seq": 3695,
+      "tag": "<Q>",
+      "text": "Were 1 or more follow-up quality of life (QOL) measures collected? (FU_UNSQOLYN)",
+      "page": 120,
+      "form": "Unscheduled Visits > Visit",
+      "section": "Edema",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7946900647095959,
+        0.19038862340590534,
+        0.8116171480429293
+      ],
+      "bbox_ref": "line_119_022",
+      "qid": "q-867"
+    },
+    {
+      "seq": 3696,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 120,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit",
+      "section": "Edema",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.16175549439709597,
+        0.3924522150575725,
+        0.1877083826546717
+      ],
+      "bbox_ref": "line_119_005",
+      "parent_qid": "q-867"
+    },
+    {
+      "seq": 3697,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 120,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit",
+      "section": "Edema",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.19016458530618688,
+        0.38726041207905687,
+        0.20285989780618688
+      ],
+      "bbox_ref": "line_119_006",
+      "parent_qid": "q-867"
+    },
+    {
+      "seq": 3698,
+      "tag": "<FORM>",
+      "text": "Unscheduled Visits > Visit",
+      "page": 120,
+      "bbox_xyxy": [
+        0.2111608966503268,
+        0.03675549439709596,
+        0.675275565752017,
+        0.04945080689709596
+      ],
+      "bbox_ref": "line_119_002"
+    },
+    {
+      "seq": 3699,
+      "tag": "<SH>",
+      "text": "Edema",
+      "page": 120,
+      "question_below_text": "Was edema assessment completed? (FU_UNSEDYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6157127919823232,
+        0.1239376317441853,
+        0.6326398753156566
+      ],
+      "bbox_ref": "line_119_018"
+    },
+    {
+      "seq": 3700,
+      "tag": "<SH>",
+      "text": "Quality of Life",
+      "page": 120,
+      "question_below_text": "Were 1 or more follow-up quality of life (QOL) measures collected? (FU_UNSQOLYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7946900647095959,
+        0.19038862340590534,
+        0.8116171480429293
+      ],
+      "bbox_ref": "line_119_022"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_119_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_119_001",
+      "text": "120/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_119_002",
+      "text": "Form: Unscheduled Visits > Visit\nStudy: Inari CLOUT\nPage: 1/2",
+      "bbox": [
+        0.2111608966503268,
+        0.03675549439709596,
+        0.675275565752017,
+        0.04945080689709596
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_119_003",
+      "text": "Unscheduled Visits > Visit",
+      "bbox": [
+        0.27498212826797386,
+        0.06529405381944445,
+        0.6408681433185254,
+        0.09068467881944445
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_119_012",
+      "text": "Reason for unscheduled visit\n(FU_UNSUNSREAS)",
+      "bbox": [
+        0.059640522875817,
+        0.3691418580334596,
+        0.26475826587552337,
+        0.39509474629103536
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_119_021",
+      "text": "Subform: Edema",
+      "bbox": [
+        0.059640522875817,
+        0.7422479186395202,
+        0.1756531709159901,
+        0.7549432311395202
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_119_023",
+      "text": "Were 1 or more follow-up quality of\nlife (QOL) measures collected?\n(FU_UNSQOLYN)",
+      "bbox": [
+        0.059640522875817,
+        0.8530433731849747,
+        0.3053285935345818,
+        0.8922538372001263
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_119_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_001",
+      "text": "120/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_002",
+      "text": "Form: Unscheduled Visits > Visit\nStudy: Inari CLOUT\nPage: 1/2",
+      "bbox": [
+        0.2111608966503268,
+        0.03675549439709596,
+        0.675275565752017,
+        0.04945080689709596
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_003",
+      "text": "Unscheduled Visits > Visit",
+      "bbox": [
+        0.27498212826797386,
+        0.06529405381944445,
+        0.6408681433185254,
+        0.09068467881944445
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_004",
+      "text": "Visit Date (FU_UNSDATE)\ndd-mmm-yyyy",
+      "bbox": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.44772493449691075,
+        0.1302101347181532
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_005",
+      "text": "Was the visit conducted remotely?\n(FU_REM)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.16175549439709597,
+        0.3924522150575725,
+        0.1877083826546717
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_006",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.19016458530618688,
+        0.38726041207905687,
+        0.20285989780618688
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_007",
+      "text": "COVID-19 Status (FU_CVD)",
+      "bbox": [
+        0.059640522875817,
+        0.22993731257891414,
+        0.24919946209277982,
+        0.24263262507891414
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_008",
+      "text": "COVID-19 Positive",
+      "bbox": [
+        0.3684640522875817,
+        0.2394070095486111,
+        0.49186332553040746,
+        0.2521023220486111
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_009",
+      "text": "COVID-19 Negative",
+      "bbox": [
+        0.3684640522875817,
+        0.25929337318497475,
+        0.4984074511559181,
+        0.27198868568497475
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_010",
+      "text": "COVID-19 Status Unknown",
+      "bbox": [
+        0.3684640522875817,
+        0.2791797368213384,
+        0.5474515428730086,
+        0.2918750493213384
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_011",
+      "text": "If positive, date of positive test\n(FU_CVD_DT)\ndd-mmm-yyyy",
+      "bbox": [
+        0.059640522875817,
+        0.31895246409406564,
+        0.44772493449691075,
+        0.34490535235164144
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_012",
+      "text": "Reason for unscheduled visit\n(FU_UNSUNSREAS)",
+      "bbox": [
+        0.059640522875817,
+        0.3691418580334596,
+        0.26475826587552337,
+        0.39509474629103536
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_013",
+      "text": "0/500",
+      "bbox": [
+        0.34272875816993464,
+        0.3729297368213384,
+        0.3795251036001966,
+        0.3856250493213384
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_014",
+      "text": "Compression therapy prescribed\n(FU_UNSCOMPTYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.4581570095486111,
+        0.3924522150575725,
+        0.48410989780618685
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_015",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.4875130701546717,
+        0.38726041207905687,
+        0.5002083826546717
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_016",
+      "text": "Compression therapy type\n(FU_UNSCOMPT)\nStocking",
+      "bbox": [
+        0.059640522875817,
+        0.527285797427399,
+        0.4248633291207108,
+        0.5532386856849747
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_017",
+      "text": "Bandage",
+      "bbox": [
+        0.3684640522875817,
+        0.55569488833649,
+        0.42733390658509496,
+        0.56839020083649
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_018",
+      "text": "Edema",
+      "bbox": [
+        0.059640522875817,
+        0.6157127919823232,
+        0.1239376317441853,
+        0.6326398753156566
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_019",
+      "text": "Was edema assessment completed?\n(FU_UNSEDYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.6731191307607324,
+        0.3924522150575725,
+        0.6990720190183081
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_020",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.7024751913667929,
+        0.38726041207905687,
+        0.7151705038667929
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_021",
+      "text": "Subform: Edema",
+      "bbox": [
+        0.059640522875817,
+        0.7422479186395202,
+        0.1756531709159901,
+        0.7549432311395202
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_022",
+      "text": "Quality of Life",
+      "bbox": [
+        0.059640522875817,
+        0.7946900647095959,
+        0.19038862340590534,
+        0.8116171480429293
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_023",
+      "text": "Were 1 or more follow-up quality of\nlife (QOL) measures collected?\n(FU_UNSQOLYN)",
+      "bbox": [
+        0.059640522875817,
+        0.8530433731849747,
+        0.3053285935345818,
+        0.8922538372001263
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_024",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.861566100457702,
+        0.3924522150575725,
+        0.874261412957702
+      ],
+      "page_num": 119
+    },
+    {
+      "line_id": "line_119_025",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.8814524640940656,
+        0.38726041207905687,
+        0.8941477765940656
+      ],
+      "page_num": 119
+    }
+  ],
+  "metadata": {
+    "num_questions": 9,
+    "num_inputs": 16,
+    "num_inputs_by_type": {
+      "option": 8,
+      "text": 8,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 2,
+    "num_supplemental": 7,
+    "num_total_lines": 26,
+    "timestamp": "2025-08-15T14:13:27.051332+00:00"
+  }
+}

@@ -1,0 +1,836 @@
+{
+  "page_id": 137,
+  "items": [
+    {
+      "seq": 4182,
+      "tag": "<Q>",
+      "text": "Start date (AE_ONSETDT)",
+      "page": 138,
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.44772493449691075,
+        0.1302101347181532
+      ],
+      "bbox_ref": "line_137_004",
+      "qid": "q-975"
+    },
+    {
+      "seq": 4183,
+      "tag": "<INPUT>",
+      "text": "dd-mmm-yyyy",
+      "page": 138,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.44772493449691075,
+        0.1302101347181532
+      ],
+      "bbox_ref": "line_137_004",
+      "parent_qid": "q-975"
+    },
+    {
+      "seq": 4184,
+      "tag": "<Q>",
+      "text": "Adverse event term/condition (AE_DESC)",
+      "page": 138,
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-976"
+    },
+    {
+      "seq": 4185,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 138,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.16554337318497475,
+        0.3877015705981286,
+        0.17823868568497475
+      ],
+      "bbox_ref": "line_137_006",
+      "parent_qid": "q-976"
+    },
+    {
+      "seq": 4186,
+      "tag": "<Q>",
+      "text": "Date site became aware of adverse event (AE_DTSIT)",
+      "page": 138,
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-977"
+    },
+    {
+      "seq": 4187,
+      "tag": "<INPUT>",
+      "text": "dd-mmm-yyyy",
+      "page": 138,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.44772493449691075,
+        0.1302101347181532
+      ],
+      "bbox_ref": "line_137_004",
+      "parent_qid": "q-977"
+    },
+    {
+      "seq": 4188,
+      "tag": "<Q>",
+      "text": "Event severity (AE_EVTSEV)",
+      "page": 138,
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.30096003985164144,
+        0.39542219373914933,
+        0.3221780796243687
+      ],
+      "bbox_ref": "line_137_008",
+      "qid": "q-978"
+    },
+    {
+      "seq": 4189,
+      "tag": "<INPUT>",
+      "text": "Mild",
+      "page": 138,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.30096003985164144,
+        0.39542219373914933,
+        0.3221780796243687
+      ],
+      "bbox_ref": "line_137_008",
+      "parent_qid": "q-978"
+    },
+    {
+      "seq": 4190,
+      "tag": "<INPUT>",
+      "text": "Moderate",
+      "page": 138,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.3293691307607323,
+        0.43058392892476,
+        0.3420644432607323
+      ],
+      "bbox_ref": "line_137_009",
+      "parent_qid": "q-978"
+    },
+    {
+      "seq": 4191,
+      "tag": "<INPUT>",
+      "text": "Severe",
+      "page": 138,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.34925549439709597,
+        0.4150545207503574,
+        0.36195080689709597
+      ],
+      "bbox_ref": "line_137_010",
+      "parent_qid": "q-978"
+    },
+    {
+      "seq": 4192,
+      "tag": "<Q>",
+      "text": "Relationship to device (AE_RELDEV)",
+      "page": 138,
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-979"
+    },
+    {
+      "seq": 4193,
+      "tag": "<INPUT>",
+      "text": "Unrelated",
+      "page": 138,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.38997519136679293,
+        0.43221627029718135,
+        0.4159280796243687
+      ],
+      "bbox_ref": "line_137_011",
+      "parent_qid": "q-979"
+    },
+    {
+      "seq": 4194,
+      "tag": "<INPUT>",
+      "text": "Definitely related",
+      "page": 138,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4183842822758838,
+        0.47798096899892767,
+        0.4310795947758838
+      ],
+      "bbox_ref": "line_137_012",
+      "parent_qid": "q-979"
+    },
+    {
+      "seq": 4195,
+      "tag": "<INPUT>",
+      "text": "Relationship unknown",
+      "page": 138,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.43827064591224746,
+        0.5123192282284007,
+        0.45096595841224746
+      ],
+      "bbox_ref": "line_137_013",
+      "parent_qid": "q-979"
+    },
+    {
+      "seq": 4196,
+      "tag": "<Q>",
+      "text": "If device related, specify the device (AE_EVTDEVREL)",
+      "page": 138,
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-980"
+    },
+    {
+      "seq": 4197,
+      "tag": "<INPUT>",
+      "text": "CT Catheter",
+      "page": 138,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.47804337318497475,
+        0.4485523996789471,
+        0.5039962614425505
+      ],
+      "bbox_ref": "line_137_014",
+      "parent_qid": "q-980"
+    },
+    {
+      "seq": 4198,
+      "tag": "<INPUT>",
+      "text": "CT Sheath",
+      "page": 138,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5073994337910354,
+        0.438760395922692,
+        0.5200947462910354
+      ],
+      "bbox_ref": "line_137_015",
+      "parent_qid": "q-980"
+    },
+    {
+      "seq": 4199,
+      "tag": "<Q>",
+      "text": "Relationship to procedure (AE_RELPRO)",
+      "page": 138,
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-981"
+    },
+    {
+      "seq": 4200,
+      "tag": "<INPUT>",
+      "text": "Unrelated",
+      "page": 138,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.38997519136679293,
+        0.43221627029718135,
+        0.4159280796243687
+      ],
+      "bbox_ref": "line_137_011",
+      "parent_qid": "q-981"
+    },
+    {
+      "seq": 4201,
+      "tag": "<INPUT>",
+      "text": "Definitely related",
+      "page": 138,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4183842822758838,
+        0.47798096899892767,
+        0.4310795947758838
+      ],
+      "bbox_ref": "line_137_012",
+      "parent_qid": "q-981"
+    },
+    {
+      "seq": 4202,
+      "tag": "<INPUT>",
+      "text": "Relationship Unknown",
+      "page": 138,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.43827064591224746,
+        0.5123192282284007,
+        0.45096595841224746
+      ],
+      "bbox_ref": "line_137_013",
+      "parent_qid": "q-981"
+    },
+    {
+      "seq": 4203,
+      "tag": "<Q>",
+      "text": "Relationship to underlying disease (AE_RELDIS)",
+      "page": 138,
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-982"
+    },
+    {
+      "seq": 4204,
+      "tag": "<INPUT>",
+      "text": "Unrelated",
+      "page": 138,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.38997519136679293,
+        0.43221627029718135,
+        0.4159280796243687
+      ],
+      "bbox_ref": "line_137_011",
+      "parent_qid": "q-982"
+    },
+    {
+      "seq": 4205,
+      "tag": "<INPUT>",
+      "text": "Definitely Related",
+      "page": 138,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4183842822758838,
+        0.47798096899892767,
+        0.4310795947758838
+      ],
+      "bbox_ref": "line_137_012",
+      "parent_qid": "q-982"
+    },
+    {
+      "seq": 4206,
+      "tag": "<INPUT>",
+      "text": "Relationship Unknown",
+      "page": 138,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.43827064591224746,
+        0.5123192282284007,
+        0.45096595841224746
+      ],
+      "bbox_ref": "line_137_013",
+      "parent_qid": "q-982"
+    },
+    {
+      "seq": 4207,
+      "tag": "<Q>",
+      "text": "Is this a serious adverse event (SAE)? (AE_SAEYN)",
+      "page": 138,
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-983"
+    },
+    {
+      "seq": 4208,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 138,
+      "input_type": "option",
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7252024640940656,
+        0.3924522150575725,
+        0.7511553523516414
+      ],
+      "bbox_ref": "line_137_022",
+      "parent_qid": "q-983"
+    },
+    {
+      "seq": 4209,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 138,
+      "input_type": "option",
+      "form": "Adverse Events > AE",
+      "section": "Adverse Events > AE",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7536115550031566,
+        0.38726041207905687,
+        0.7663068675031566
+      ],
+      "bbox_ref": "line_137_023",
+      "parent_qid": "q-983"
+    },
+    {
+      "seq": 4210,
+      "tag": "<FORM>",
+      "text": "Adverse Events > AE",
+      "page": 138,
+      "bbox_xyxy": [
+        0.2260199652777778,
+        0.03675549439709596,
+        0.660416497124566,
+        0.04945080689709596
+      ],
+      "bbox_ref": "line_137_002"
+    },
+    {
+      "seq": 4211,
+      "tag": "<SH>",
+      "text": "Adverse Events > AE",
+      "page": 138,
+      "question_below_text": "Start date (AE_ONSETDT)",
+      "bbox_xyxy": [
+        0.2260199652777778,
+        0.03675549439709596,
+        0.660416497124566,
+        0.04945080689709596
+      ],
+      "bbox_ref": "line_137_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_137_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_137_001",
+      "text": "138/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_137_002",
+      "text": "Form: Adverse Events > AE\nStudy: Inari CLOUT\nPage: 1/3",
+      "bbox": [
+        0.2260199652777778,
+        0.03675549439709596,
+        0.660416497124566,
+        0.04945080689709596
+      ],
+      "type": "section_header"
+    },
+    {
+      "line_id": "line_137_003",
+      "text": "Adverse Events > AE",
+      "bbox": [
+        0.3103873059640523,
+        0.06529405381944445,
+        0.6054458119510825,
+        0.09068467881944445
+      ],
+      "type": "section_header"
+    },
+    {
+      "line_id": "line_137_005",
+      "text": "Adverse event term/condition\n(AE_DESC)",
+      "bbox": [
+        0.059640522875817,
+        0.16175549439709597,
+        0.2663881638470818,
+        0.1877083826546717
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_137_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 137
+    },
+    {
+      "line_id": "line_137_001",
+      "text": "138/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 137
+    },
+    {
+      "line_id": "line_137_002",
+      "text": "Form: Adverse Events > AE\nStudy: Inari CLOUT\nPage: 1/3",
+      "bbox": [
+        0.2260199652777778,
+        0.03675549439709596,
+        0.660416497124566,
+        0.04945080689709596
+      ],
+      "page_num": 137
+    },
+    {
+      "line_id": "line_137_003",
+      "text": "Adverse Events > AE",
+      "bbox": [
+        0.3103873059640523,
+        0.06529405381944445,
+        0.6054458119510825,
+        0.09068467881944445
+      ],
+      "page_num": 137
+    },
+    {
+      "line_id": "line_137_004",
+      "text": "Start date (AE_ONSETDT)\ndd-mmm-yyyy",
+      "bbox": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.44772493449691075,
+        0.1302101347181532
+      ],
+      "page_num": 137
+    },
+    {
+      "line_id": "line_137_005",
+      "text": "Adverse event term/condition\n(AE_DESC)",
+      "bbox": [
+        0.059640522875817,
+        0.16175549439709597,
+        0.2663881638470818,
+        0.1877083826546717
+      ],
+      "page_num": 137
+    },
+    {
+      "line_id": "line_137_006",
+      "text": "0/2500",
+      "bbox": [
+        0.34272875816993464,
+        0.16554337318497475,
+        0.3877015705981286,
+        0.17823868568497475
+      ],
+      "page_num": 137
+    },
+    {
+      "line_id": "line_137_007",
+      "text": "Date site became aware of adverse\nevent (AE_DTSIT)\ndd-mmm-yyyy",
+      "bbox": [
+        0.059640522875817,
+        0.25077064591224746,
+        0.44772493449691075,
+        0.27672353416982326
+      ],
+      "page_num": 137
+    },
+    {
+      "line_id": "line_137_008",
+      "text": "Event severity (AE_EVTSEV)\nMild",
+      "bbox": [
+        0.059640522875817,
+        0.30096003985164144,
+        0.39542219373914933,
+        0.3221780796243687
+      ],
+      "page_num": 137
+    },
+    {
+      "line_id": "line_137_009",
+      "text": "Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.3293691307607323,
+        0.43058392892476,
+        0.3420644432607323
+      ],
+      "page_num": 137
+    },
+    {
+      "line_id": "line_137_010",
+      "text": "Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.34925549439709597,
+        0.4150545207503574,
+        0.36195080689709597
+      ],
+      "page_num": 137
+    },
+    {
+      "line_id": "line_137_011",
+      "text": "Relationship to device\n(AE_RELDEV)\nUnrelated",
+      "bbox": [
+        0.059640522875817,
+        0.38997519136679293,
+        0.43221627029718135,
+        0.4159280796243687
+      ],
+      "page_num": 137
+    },
+    {
+      "line_id": "line_137_012",
+      "text": "Definitely related",
+      "bbox": [
+        0.3684640522875817,
+        0.4183842822758838,
+        0.47798096899892767,
+        0.4310795947758838
+      ],
+      "page_num": 137
+    },
+    {
+      "line_id": "line_137_013",
+      "text": "Relationship unknown",
+      "bbox": [
+        0.3684640522875817,
+        0.43827064591224746,
+        0.5123192282284007,
+        0.45096595841224746
+      ],
+      "page_num": 137
+    },
+    {
+      "line_id": "line_137_014",
+      "text": "If device related, specify the device\n(AE_EVTDEVREL)\nCT Catheter",
+      "bbox": [
+        0.059640522875817,
+        0.47804337318497475,
+        0.4485523996789471,
+        0.5039962614425505
+      ],
+      "page_num": 137
+    },
+    {
+      "line_id": "line_137_015",
+      "text": "CT Sheath",
+      "bbox": [
+        0.3684640522875817,
+        0.5073994337910354,
+        0.438760395922692,
+        0.5200947462910354
+      ],
+      "page_num": 137
+    },
+    {
+      "line_id": "line_137_016",
+      "text": "Relationship to procedure\n(AE_RELPRO)\nUnrelated",
+      "bbox": [
+        0.059640522875817,
+        0.5471721610637627,
+        0.43221627029718135,
+        0.5731250493213383
+      ],
+      "page_num": 137
+    },
+    {
+      "line_id": "line_137_017",
+      "text": "Definitely related",
+      "bbox": [
+        0.3684640522875817,
+        0.5755812519728535,
+        0.47798096899892767,
+        0.5882765644728535
+      ],
+      "page_num": 137
+    },
+    {
+      "line_id": "line_137_018",
+      "text": "Relationship Unknown",
+      "bbox": [
+        0.3684640522875817,
+        0.5954676156092171,
+        0.514760385151782,
+        0.6081629281092171
+      ],
+      "page_num": 137
+    },
+    {
+      "line_id": "line_137_019",
+      "text": "Relationship to underlying disease\n(AE_RELDIS)\nUnrelated",
+      "bbox": [
+        0.059640522875817,
+        0.6361873125789141,
+        0.43221627029718135,
+        0.66214020083649
+      ],
+      "page_num": 137
+    },
+    {
+      "line_id": "line_137_020",
+      "text": "Definitely Related",
+      "bbox": [
+        0.3684640522875817,
+        0.6645964034880051,
+        0.48370156880297693,
+        0.6772917159880051
+      ],
+      "page_num": 137
+    },
+    {
+      "line_id": "line_137_021",
+      "text": "Relationship Unknown",
+      "bbox": [
+        0.3684640522875817,
+        0.6844827671243687,
+        0.514760385151782,
+        0.6971780796243687
+      ],
+      "page_num": 137
+    },
+    {
+      "line_id": "line_137_022",
+      "text": "Is this a serious adverse event\n(SAE)? (AE_SAEYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.7252024640940656,
+        0.3924522150575725,
+        0.7511553523516414
+      ],
+      "page_num": 137
+    },
+    {
+      "line_id": "line_137_023",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.7536115550031566,
+        0.38726041207905687,
+        0.7663068675031566
+      ],
+      "page_num": 137
+    }
+  ],
+  "metadata": {
+    "num_questions": 9,
+    "num_inputs": 19,
+    "num_inputs_by_type": {
+      "option": 2,
+      "text": 17,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 5,
+    "num_total_lines": 24,
+    "timestamp": "2025-08-15T14:21:06.881650+00:00"
+  }
+}

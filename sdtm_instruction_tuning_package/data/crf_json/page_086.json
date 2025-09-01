@@ -1,0 +1,745 @@
+{
+  "page_id": 86,
+  "items": [
+    {
+      "seq": 2621,
+      "tag": "<Q>",
+      "text": "Left leg: Active Ulcer Size Assess largest active ulcer (LLAUS)",
+      "page": 87,
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-630"
+    },
+    {
+      "seq": 2622,
+      "tag": "<INPUT>",
+      "text": "Not applicable",
+      "page": 87,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421268347537878,
+        0.46164274527356514,
+        0.09016557173295454
+      ],
+      "bbox_ref": "line_086_003",
+      "parent_qid": "q-630"
+    },
+    {
+      "seq": 2623,
+      "tag": "<INPUT>",
+      "text": "Diameter <2 cm",
+      "page": 87,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.0926217743844697,
+        0.4726553524241728,
+        0.1053170868844697
+      ],
+      "bbox_ref": "line_086_004",
+      "parent_qid": "q-630"
+    },
+    {
+      "seq": 2624,
+      "tag": "<INPUT>",
+      "text": "Diameter 2-6 cm",
+      "page": 87,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11250813802083333,
+        0.4771406385633681,
+        0.12520345052083334
+      ],
+      "bbox_ref": "line_086_005",
+      "parent_qid": "q-630"
+    },
+    {
+      "seq": 2625,
+      "tag": "<INPUT>",
+      "text": "Diameter >6 cm",
+      "page": 87,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239450165719696,
+        0.4726553524241728,
+        0.14508981415719696
+      ],
+      "bbox_ref": "line_086_006",
+      "parent_qid": "q-630"
+    },
+    {
+      "seq": 2626,
+      "tag": "<Q>",
+      "text": "Left leg: Use of Compression Therapy (LLUCT)",
+      "page": 87,
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-631"
+    },
+    {
+      "seq": 2627,
+      "tag": "<INPUT>",
+      "text": "Not used",
+      "page": 87,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.17311419862689395,
+        0.42731919631459353,
+        0.1990670868844697
+      ],
+      "bbox_ref": "line_086_007",
+      "parent_qid": "q-631"
+    },
+    {
+      "seq": 2628,
+      "tag": "<INPUT>",
+      "text": "Intermittent use of stockings",
+      "page": 87,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.20152328953598486,
+        0.5515522676355699,
+        0.21421860203598486
+      ],
+      "bbox_ref": "line_086_008",
+      "parent_qid": "q-631"
+    },
+    {
+      "seq": 2629,
+      "tag": "<INPUT>",
+      "text": "Wears stockings most days",
+      "page": 87,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.22140965317234848,
+        0.5471667121438419,
+        0.23410496567234848
+      ],
+      "bbox_ref": "line_086_009",
+      "parent_qid": "q-631"
+    },
+    {
+      "seq": 2630,
+      "tag": "<INPUT>",
+      "text": "Full compliance: stockings",
+      "page": 87,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.24129601680871213,
+        0.5400816474864686,
+        0.2539913293087121
+      ],
+      "bbox_ref": "line_086_010",
+      "parent_qid": "q-631"
+    },
+    {
+      "seq": 2631,
+      "tag": "<Q>",
+      "text": "Was a Numeric Pain Rating Scale (NPRS) completed? (NPRSYN)",
+      "page": 87,
+      "form": "FUP-6 Months > QOL",
+      "section": null,
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.30131392045454547,
+        0.30809447344611673,
+        0.3182410037878788
+      ],
+      "bbox_ref": "line_086_011",
+      "qid": "q-632"
+    },
+    {
+      "seq": 2632,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 87,
+      "input_type": "option",
+      "form": "FUP-6 Months > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.35872025923295453,
+        0.3924522150575725,
+        0.3846731474905303
+      ],
+      "bbox_ref": "line_086_012",
+      "parent_qid": "q-632"
+    },
+    {
+      "seq": 2633,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 87,
+      "input_type": "option",
+      "form": "FUP-6 Months > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.38712935014204547,
+        0.38726041207905687,
+        0.39982466264204547
+      ],
+      "bbox_ref": "line_086_013",
+      "parent_qid": "q-632"
+    },
+    {
+      "seq": 2634,
+      "tag": "<Q>",
+      "text": "NPRS score (NPRSR)",
+      "page": 87,
+      "form": "FUP-6 Months > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.42784904711174243,
+        0.4420250786675347,
+        0.4490670868844697
+      ],
+      "bbox_ref": "line_086_014",
+      "qid": "q-633"
+    },
+    {
+      "seq": 2635,
+      "tag": "<INPUT>",
+      "text": "0—No pain",
+      "page": 87,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.42784904711174243,
+        0.4420250786675347,
+        0.4490670868844697
+      ],
+      "bbox_ref": "line_086_014",
+      "parent_qid": "q-633"
+    },
+    {
+      "seq": 2636,
+      "tag": "<INPUT>",
+      "text": "1",
+      "page": 87,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4562581380208333,
+        0.3766427632250817,
+        0.4689534505208333
+      ],
+      "bbox_ref": "line_086_015",
+      "parent_qid": "q-633"
+    },
+    {
+      "seq": 2637,
+      "tag": "<INPUT>",
+      "text": "2",
+      "page": 87,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.47614450165719696,
+        0.3766427632250817,
+        0.48883981415719696
+      ],
+      "bbox_ref": "line_086_016",
+      "parent_qid": "q-633"
+    },
+    {
+      "seq": 2638,
+      "tag": "<INPUT>",
+      "text": "3",
+      "page": 87,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4960308652935606,
+        0.3766427632250817,
+        0.5087261777935606
+      ],
+      "bbox_ref": "line_086_017",
+      "parent_qid": "q-633"
+    },
+    {
+      "seq": 2639,
+      "tag": "<INPUT>",
+      "text": "4",
+      "page": 87,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5159172289299242,
+        0.3766427632250817,
+        0.5286125414299242
+      ],
+      "bbox_ref": "line_086_018",
+      "parent_qid": "q-633"
+    },
+    {
+      "seq": 2640,
+      "tag": "<INPUT>",
+      "text": "5—Moderate pain",
+      "page": 87,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5358035925662878,
+        0.4853486204458997,
+        0.5484989050662878
+      ],
+      "bbox_ref": "line_086_019",
+      "parent_qid": "q-633"
+    },
+    {
+      "seq": 2641,
+      "tag": "<INPUT>",
+      "text": "6",
+      "page": 87,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5556899562026515,
+        0.3766427632250817,
+        0.5683852687026515
+      ],
+      "bbox_ref": "line_086_020",
+      "parent_qid": "q-633"
+    },
+    {
+      "seq": 2642,
+      "tag": "<INPUT>",
+      "text": "7",
+      "page": 87,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5755763198390151,
+        0.3766427632250817,
+        0.5882716323390151
+      ],
+      "bbox_ref": "line_086_021",
+      "parent_qid": "q-633"
+    },
+    {
+      "seq": 2643,
+      "tag": "<INPUT>",
+      "text": "8",
+      "page": 87,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5954626834753788,
+        0.3766427632250817,
+        0.6081579959753788
+      ],
+      "bbox_ref": "line_086_022",
+      "parent_qid": "q-633"
+    },
+    {
+      "seq": 2644,
+      "tag": "<INPUT>",
+      "text": "9",
+      "page": 87,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6153490471117424,
+        0.3766427632250817,
+        0.6280443596117424
+      ],
+      "bbox_ref": "line_086_023",
+      "parent_qid": "q-633"
+    },
+    {
+      "seq": 2645,
+      "tag": "<INPUT>",
+      "text": "10—Worst possible pain",
+      "page": 87,
+      "input_type": "text",
+      "form": "FUP-6 Months > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6352354107481061,
+        0.527570487627017,
+        0.6479307232481061
+      ],
+      "bbox_ref": "line_086_024",
+      "parent_qid": "q-633"
+    },
+    {
+      "seq": 2646,
+      "tag": "<FORM>",
+      "text": "FUP-6 Months > QOL",
+      "page": 87,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    },
+    {
+      "seq": 2647,
+      "tag": "<SH>",
+      "text": "Numeric Pain Rating Scale",
+      "page": 87,
+      "question_below_text": "Was a Numeric Pain Rating Scale (NPRS) completed? (NPRSYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.30131392045454547,
+        0.30809447344611673,
+        0.3182410037878788
+      ],
+      "bbox_ref": "line_086_011"
+    }
+  ],
+  "supplemental_page_data": [],
+  "all_lines": [
+    {
+      "line_id": "line_086_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_001",
+      "text": "87/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_002",
+      "text": "Form: FUP–6 Months > QOL\nStudy: Inari CLOUT\nPage: 8/8",
+      "bbox": [
+        0.2227456086601307,
+        0.036750562263257576,
+        0.6636717054578993,
+        0.049445874763257576
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_003",
+      "text": "Left leg: Active Ulcer Size Assess\nlargest active ulcer (LLAUS)\nNot applicable",
+      "bbox": [
+        0.059640522875817,
+        0.06421268347537878,
+        0.46164274527356514,
+        0.09016557173295454
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_004",
+      "text": "Diameter <2 cm",
+      "bbox": [
+        0.3684640522875817,
+        0.0926217743844697,
+        0.4726553524241728,
+        0.1053170868844697
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_005",
+      "text": "Diameter 2-6 cm",
+      "bbox": [
+        0.3684640522875817,
+        0.11250813802083333,
+        0.4771406385633681,
+        0.12520345052083334
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_006",
+      "text": "Diameter >6 cm",
+      "bbox": [
+        0.3684640522875817,
+        0.13239450165719696,
+        0.4726553524241728,
+        0.14508981415719696
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_007",
+      "text": "Left leg: Use of Compression\nTherapy (LLUCT)\nNot used",
+      "bbox": [
+        0.059640522875817,
+        0.17311419862689395,
+        0.42731919631459353,
+        0.1990670868844697
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_008",
+      "text": "Intermittent use of stockings",
+      "bbox": [
+        0.3684640522875817,
+        0.20152328953598486,
+        0.5515522676355699,
+        0.21421860203598486
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_009",
+      "text": "Wears stockings most days",
+      "bbox": [
+        0.3684640522875817,
+        0.22140965317234848,
+        0.5471667121438419,
+        0.23410496567234848
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_010",
+      "text": "Full compliance: stockings",
+      "bbox": [
+        0.3684640522875817,
+        0.24129601680871213,
+        0.5400816474864686,
+        0.2539913293087121
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_011",
+      "text": "Numeric Pain Rating Scale",
+      "bbox": [
+        0.059640522875817,
+        0.30131392045454547,
+        0.30809447344611673,
+        0.3182410037878788
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_012",
+      "text": "Was a Numeric Pain Rating Scale\n(NPRS) completed? (NPRSYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.35872025923295453,
+        0.3924522150575725,
+        0.3846731474905303
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_013",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.38712935014204547,
+        0.38726041207905687,
+        0.39982466264204547
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_014",
+      "text": "NPRS score (NPRSR)\n0—No pain",
+      "bbox": [
+        0.059640522875817,
+        0.42784904711174243,
+        0.4420250786675347,
+        0.4490670868844697
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_015",
+      "text": "1",
+      "bbox": [
+        0.3684640522875817,
+        0.4562581380208333,
+        0.3766427632250817,
+        0.4689534505208333
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_016",
+      "text": "2",
+      "bbox": [
+        0.3684640522875817,
+        0.47614450165719696,
+        0.3766427632250817,
+        0.48883981415719696
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_017",
+      "text": "3",
+      "bbox": [
+        0.3684640522875817,
+        0.4960308652935606,
+        0.3766427632250817,
+        0.5087261777935606
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_018",
+      "text": "4",
+      "bbox": [
+        0.3684640522875817,
+        0.5159172289299242,
+        0.3766427632250817,
+        0.5286125414299242
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_019",
+      "text": "5—Moderate pain",
+      "bbox": [
+        0.3684640522875817,
+        0.5358035925662878,
+        0.4853486204458997,
+        0.5484989050662878
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_020",
+      "text": "6",
+      "bbox": [
+        0.3684640522875817,
+        0.5556899562026515,
+        0.3766427632250817,
+        0.5683852687026515
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_021",
+      "text": "7",
+      "bbox": [
+        0.3684640522875817,
+        0.5755763198390151,
+        0.3766427632250817,
+        0.5882716323390151
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_022",
+      "text": "8",
+      "bbox": [
+        0.3684640522875817,
+        0.5954626834753788,
+        0.3766427632250817,
+        0.6081579959753788
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_023",
+      "text": "9",
+      "bbox": [
+        0.3684640522875817,
+        0.6153490471117424,
+        0.3766427632250817,
+        0.6280443596117424
+      ],
+      "page_num": 86
+    },
+    {
+      "line_id": "line_086_024",
+      "text": "10—Worst possible pain",
+      "bbox": [
+        0.3684640522875817,
+        0.6352354107481061,
+        0.527570487627017,
+        0.6479307232481061
+      ],
+      "page_num": 86
+    }
+  ],
+  "metadata": {
+    "num_questions": 4,
+    "num_inputs": 21,
+    "num_inputs_by_type": {
+      "option": 2,
+      "text": 19,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 0,
+    "num_total_lines": 25,
+    "timestamp": "2025-08-15T13:58:09.282941+00:00"
+  }
+}

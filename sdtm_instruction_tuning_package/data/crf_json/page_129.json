@@ -1,0 +1,745 @@
+{
+  "page_id": 129,
+  "items": [
+    {
+      "seq": 3995,
+      "tag": "<Q>",
+      "text": "Left leg: Active Ulcer Size Assess largest active ulcer (LLAUS)",
+      "page": 130,
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-931"
+    },
+    {
+      "seq": 3996,
+      "tag": "<INPUT>",
+      "text": "Not applicable",
+      "page": 130,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.46164274527356514,
+        0.09017050386679293
+      ],
+      "bbox_ref": "line_129_003",
+      "parent_qid": "q-931"
+    },
+    {
+      "seq": 3997,
+      "tag": "<INPUT>",
+      "text": "Diameter <2 cm",
+      "page": 130,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.4726553524241728,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_129_004",
+      "parent_qid": "q-931"
+    },
+    {
+      "seq": 3998,
+      "tag": "<INPUT>",
+      "text": "Diameter 2-6 cm",
+      "page": 130,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.4771406385633681,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_129_005",
+      "parent_qid": "q-931"
+    },
+    {
+      "seq": 3999,
+      "tag": "<INPUT>",
+      "text": "Diameter >6 cm",
+      "page": 130,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.4726553524241728,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_129_006",
+      "parent_qid": "q-931"
+    },
+    {
+      "seq": 4000,
+      "tag": "<Q>",
+      "text": "Left leg: Use of Compression Therapy (LLUCT)",
+      "page": 130,
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-932"
+    },
+    {
+      "seq": 4001,
+      "tag": "<INPUT>",
+      "text": "Not used",
+      "page": 130,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.17311913076073232,
+        0.42731919631459353,
+        0.1990720190183081
+      ],
+      "bbox_ref": "line_129_007",
+      "parent_qid": "q-932"
+    },
+    {
+      "seq": 4002,
+      "tag": "<INPUT>",
+      "text": "Intermittent use of stockings",
+      "page": 130,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.20152822166982323,
+        0.5515522676355699,
+        0.21422353416982323
+      ],
+      "bbox_ref": "line_129_008",
+      "parent_qid": "q-932"
+    },
+    {
+      "seq": 4003,
+      "tag": "<INPUT>",
+      "text": "Wears stockings most days",
+      "page": 130,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.22141458530618688,
+        0.5471667121438419,
+        0.23410989780618688
+      ],
+      "bbox_ref": "line_129_009",
+      "parent_qid": "q-932"
+    },
+    {
+      "seq": 4004,
+      "tag": "<INPUT>",
+      "text": "Full compliance: stockings",
+      "page": 130,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.2413009489425505,
+        0.5400816474864686,
+        0.2539962614425505
+      ],
+      "bbox_ref": "line_129_010",
+      "parent_qid": "q-932"
+    },
+    {
+      "seq": 4005,
+      "tag": "<Q>",
+      "text": "Was a Numeric Pain Rating Scale (NPRS) completed? (NPRSYN)",
+      "page": 130,
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": null,
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3013188525883838,
+        0.30809447344611673,
+        0.3182459359217172
+      ],
+      "bbox_ref": "line_129_011",
+      "qid": "q-933"
+    },
+    {
+      "seq": 4006,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 130,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.35872519136679293,
+        0.3924522150575725,
+        0.3846780796243687
+      ],
+      "bbox_ref": "line_129_012",
+      "parent_qid": "q-933"
+    },
+    {
+      "seq": 4007,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 130,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.3871342822758838,
+        0.38726041207905687,
+        0.3998295947758838
+      ],
+      "bbox_ref": "line_129_013",
+      "parent_qid": "q-933"
+    },
+    {
+      "seq": 4008,
+      "tag": "<Q>",
+      "text": "NPRS score (NPRSR)",
+      "page": 130,
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.42785397924558083,
+        0.4420250786675347,
+        0.44907201901830807
+      ],
+      "bbox_ref": "line_129_014",
+      "qid": "q-934"
+    },
+    {
+      "seq": 4009,
+      "tag": "<INPUT>",
+      "text": "0—No pain",
+      "page": 130,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.42785397924558083,
+        0.4420250786675347,
+        0.44907201901830807
+      ],
+      "bbox_ref": "line_129_014",
+      "parent_qid": "q-934"
+    },
+    {
+      "seq": 4010,
+      "tag": "<INPUT>",
+      "text": "1",
+      "page": 130,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4562630701546717,
+        0.3766427632250817,
+        0.4689583826546717
+      ],
+      "bbox_ref": "line_129_015",
+      "parent_qid": "q-934"
+    },
+    {
+      "seq": 4011,
+      "tag": "<INPUT>",
+      "text": "2",
+      "page": 130,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.47614943379103536,
+        0.3766427632250817,
+        0.48884474629103536
+      ],
+      "bbox_ref": "line_129_016",
+      "parent_qid": "q-934"
+    },
+    {
+      "seq": 4012,
+      "tag": "<INPUT>",
+      "text": "3",
+      "page": 130,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.496035797427399,
+        0.3766427632250817,
+        0.508731109927399
+      ],
+      "bbox_ref": "line_129_017",
+      "parent_qid": "q-934"
+    },
+    {
+      "seq": 4013,
+      "tag": "<INPUT>",
+      "text": "4",
+      "page": 130,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5159221610637627,
+        0.3766427632250817,
+        0.5286174735637627
+      ],
+      "bbox_ref": "line_129_018",
+      "parent_qid": "q-934"
+    },
+    {
+      "seq": 4014,
+      "tag": "<INPUT>",
+      "text": "5—Moderate pain",
+      "page": 130,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5358085247001263,
+        0.4853486204458997,
+        0.5485038372001263
+      ],
+      "bbox_ref": "line_129_019",
+      "parent_qid": "q-934"
+    },
+    {
+      "seq": 4015,
+      "tag": "<INPUT>",
+      "text": "6",
+      "page": 130,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.55569488833649,
+        0.3766427632250817,
+        0.56839020083649
+      ],
+      "bbox_ref": "line_129_020",
+      "parent_qid": "q-934"
+    },
+    {
+      "seq": 4016,
+      "tag": "<INPUT>",
+      "text": "7",
+      "page": 130,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5755812519728535,
+        0.3766427632250817,
+        0.5882765644728535
+      ],
+      "bbox_ref": "line_129_021",
+      "parent_qid": "q-934"
+    },
+    {
+      "seq": 4017,
+      "tag": "<INPUT>",
+      "text": "8",
+      "page": 130,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5954676156092171,
+        0.3766427632250817,
+        0.6081629281092171
+      ],
+      "bbox_ref": "line_129_022",
+      "parent_qid": "q-934"
+    },
+    {
+      "seq": 4018,
+      "tag": "<INPUT>",
+      "text": "9",
+      "page": 130,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6153539792455808,
+        0.3766427632250817,
+        0.6280492917455808
+      ],
+      "bbox_ref": "line_129_023",
+      "parent_qid": "q-934"
+    },
+    {
+      "seq": 4019,
+      "tag": "<INPUT>",
+      "text": "10—Worst possible pain",
+      "page": 130,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6352403428819444,
+        0.527570487627017,
+        0.6479356553819444
+      ],
+      "bbox_ref": "line_129_024",
+      "parent_qid": "q-934"
+    },
+    {
+      "seq": 4020,
+      "tag": "<FORM>",
+      "text": "Unscheduled Visits > Visit > QOL",
+      "page": 130,
+      "bbox_xyxy": [
+        0.18724468954248366,
+        0.03675549439709596,
+        0.6991726744408701,
+        0.04945080689709596
+      ],
+      "bbox_ref": "line_129_002"
+    },
+    {
+      "seq": 4021,
+      "tag": "<SH>",
+      "text": "Numeric Pain Rating Scale",
+      "page": 130,
+      "question_below_text": "Was a Numeric Pain Rating Scale (NPRS) completed? (NPRSYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3013188525883838,
+        0.30809447344611673,
+        0.3182459359217172
+      ],
+      "bbox_ref": "line_129_011"
+    }
+  ],
+  "supplemental_page_data": [],
+  "all_lines": [
+    {
+      "line_id": "line_129_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_001",
+      "text": "130/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_002",
+      "text": "Form: Unscheduled Visits > Visit > QOL\nStudy: Inari CLOUT\nPage: 8/8",
+      "bbox": [
+        0.18724468954248366,
+        0.03675549439709596,
+        0.6991726744408701,
+        0.04945080689709596
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_003",
+      "text": "Left leg: Active Ulcer Size Assess\nlargest active ulcer (LLAUS)\nNot applicable",
+      "bbox": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.46164274527356514,
+        0.09017050386679293
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_004",
+      "text": "Diameter <2 cm",
+      "bbox": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.4726553524241728,
+        0.10532201901830808
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_005",
+      "text": "Diameter 2-6 cm",
+      "bbox": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.4771406385633681,
+        0.1252083826546717
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_006",
+      "text": "Diameter >6 cm",
+      "bbox": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.4726553524241728,
+        0.14509474629103536
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_007",
+      "text": "Left leg: Use of Compression\nTherapy (LLUCT)\nNot used",
+      "bbox": [
+        0.059640522875817,
+        0.17311913076073232,
+        0.42731919631459353,
+        0.1990720190183081
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_008",
+      "text": "Intermittent use of stockings",
+      "bbox": [
+        0.3684640522875817,
+        0.20152822166982323,
+        0.5515522676355699,
+        0.21422353416982323
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_009",
+      "text": "Wears stockings most days",
+      "bbox": [
+        0.3684640522875817,
+        0.22141458530618688,
+        0.5471667121438419,
+        0.23410989780618688
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_010",
+      "text": "Full compliance: stockings",
+      "bbox": [
+        0.3684640522875817,
+        0.2413009489425505,
+        0.5400816474864686,
+        0.2539962614425505
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_011",
+      "text": "Numeric Pain Rating Scale",
+      "bbox": [
+        0.059640522875817,
+        0.3013188525883838,
+        0.30809447344611673,
+        0.3182459359217172
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_012",
+      "text": "Was a Numeric Pain Rating Scale\n(NPRS) completed? (NPRSYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.35872519136679293,
+        0.3924522150575725,
+        0.3846780796243687
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_013",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.3871342822758838,
+        0.38726041207905687,
+        0.3998295947758838
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_014",
+      "text": "NPRS score (NPRSR)\n0—No pain",
+      "bbox": [
+        0.059640522875817,
+        0.42785397924558083,
+        0.4420250786675347,
+        0.44907201901830807
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_015",
+      "text": "1",
+      "bbox": [
+        0.3684640522875817,
+        0.4562630701546717,
+        0.3766427632250817,
+        0.4689583826546717
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_016",
+      "text": "2",
+      "bbox": [
+        0.3684640522875817,
+        0.47614943379103536,
+        0.3766427632250817,
+        0.48884474629103536
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_017",
+      "text": "3",
+      "bbox": [
+        0.3684640522875817,
+        0.496035797427399,
+        0.3766427632250817,
+        0.508731109927399
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_018",
+      "text": "4",
+      "bbox": [
+        0.3684640522875817,
+        0.5159221610637627,
+        0.3766427632250817,
+        0.5286174735637627
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_019",
+      "text": "5—Moderate pain",
+      "bbox": [
+        0.3684640522875817,
+        0.5358085247001263,
+        0.4853486204458997,
+        0.5485038372001263
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_020",
+      "text": "6",
+      "bbox": [
+        0.3684640522875817,
+        0.55569488833649,
+        0.3766427632250817,
+        0.56839020083649
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_021",
+      "text": "7",
+      "bbox": [
+        0.3684640522875817,
+        0.5755812519728535,
+        0.3766427632250817,
+        0.5882765644728535
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_022",
+      "text": "8",
+      "bbox": [
+        0.3684640522875817,
+        0.5954676156092171,
+        0.3766427632250817,
+        0.6081629281092171
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_023",
+      "text": "9",
+      "bbox": [
+        0.3684640522875817,
+        0.6153539792455808,
+        0.3766427632250817,
+        0.6280492917455808
+      ],
+      "page_num": 129
+    },
+    {
+      "line_id": "line_129_024",
+      "text": "10—Worst possible pain",
+      "bbox": [
+        0.3684640522875817,
+        0.6352403428819444,
+        0.527570487627017,
+        0.6479356553819444
+      ],
+      "page_num": 129
+    }
+  ],
+  "metadata": {
+    "num_questions": 4,
+    "num_inputs": 21,
+    "num_inputs_by_type": {
+      "option": 2,
+      "text": 19,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 0,
+    "num_total_lines": 25,
+    "timestamp": "2025-08-15T14:18:01.659945+00:00"
+  }
+}

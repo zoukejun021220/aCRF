@@ -1,0 +1,961 @@
+{
+  "page_id": 11,
+  "items": [
+    {
+      "seq": 338,
+      "tag": "<Q>",
+      "text": "Was the Villalta completed? (VILLYN)",
+      "page": 12,
+      "form": "Baseline > QOL",
+      "section": null,
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.13085444286616163,
+        0.12250480153202231,
+        0.14778152619949494
+      ],
+      "bbox_ref": "line_011_004",
+      "qid": "q-086"
+    },
+    {
+      "seq": 339,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 12,
+      "input_type": "option",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.18920775134154041,
+        0.3924522150575725,
+        0.21516063959911616
+      ],
+      "bbox_ref": "line_011_005",
+      "parent_qid": "q-086"
+    },
+    {
+      "seq": 340,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 12,
+      "input_type": "option",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.21761684225063133,
+        0.38726041207905687,
+        0.23031215475063133
+      ],
+      "bbox_ref": "line_011_006",
+      "parent_qid": "q-086"
+    },
+    {
+      "seq": 341,
+      "tag": "<Q>",
+      "text": "Villalta side (VILLSIDE)",
+      "page": 12,
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.25738956952335856,
+        0.40278510798036665,
+        0.27860760929608586
+      ],
+      "bbox_ref": "line_011_007",
+      "qid": "q-087"
+    },
+    {
+      "seq": 342,
+      "tag": "<INPUT>",
+      "text": "Right",
+      "page": 12,
+      "input_type": "text",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.25738956952335856,
+        0.40278510798036665,
+        0.27860760929608586
+      ],
+      "bbox_ref": "line_011_007",
+      "parent_qid": "q-087"
+    },
+    {
+      "seq": 343,
+      "tag": "<INPUT>",
+      "text": "Left",
+      "page": 12,
+      "input_type": "text",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.2857986604324495,
+        0.39299098494785284,
+        0.2984939729324495
+      ],
+      "bbox_ref": "line_011_008",
+      "parent_qid": "q-087"
+    },
+    {
+      "seq": 344,
+      "tag": "<INPUT>",
+      "text": "Both",
+      "page": 12,
+      "input_type": "text",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.30568502406881315,
+        0.3987162970249949,
+        0.31838033656881315
+      ],
+      "bbox_ref": "line_011_009",
+      "parent_qid": "q-087"
+    },
+    {
+      "seq": 345,
+      "tag": "<Q>",
+      "text": "Right — Pain (RPAIN)",
+      "page": 12,
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3464047210385101,
+        0.4983929902120353,
+        0.36762276081123735
+      ],
+      "bbox_ref": "line_011_010",
+      "qid": "q-088"
+    },
+    {
+      "seq": 346,
+      "tag": "<INPUT>",
+      "text": "0—None or minimal",
+      "page": 12,
+      "input_type": "text",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3464047210385101,
+        0.4983929902120353,
+        0.36762276081123735
+      ],
+      "bbox_ref": "line_011_010",
+      "parent_qid": "q-088"
+    },
+    {
+      "seq": 347,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 12,
+      "input_type": "text",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.374813811947601,
+        0.41830454309002246,
+        0.387509124447601
+      ],
+      "bbox_ref": "line_011_011",
+      "parent_qid": "q-088"
+    },
+    {
+      "seq": 348,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 12,
+      "input_type": "text",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.39470017558396464,
+        0.4534662782756332,
+        0.40739548808396464
+      ],
+      "bbox_ref": "line_011_012",
+      "parent_qid": "q-088"
+    },
+    {
+      "seq": 349,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 12,
+      "input_type": "text",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4145865392203283,
+        0.4379368701012306,
+        0.4272818517203283
+      ],
+      "bbox_ref": "line_011_013",
+      "parent_qid": "q-088"
+    },
+    {
+      "seq": 350,
+      "tag": "<Q>",
+      "text": "Right — Cramps (RCRAM)",
+      "page": 12,
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.45530623619002525,
+        0.4983929902120353,
+        0.47652427596275254
+      ],
+      "bbox_ref": "line_011_014",
+      "qid": "q-089"
+    },
+    {
+      "seq": 351,
+      "tag": "<INPUT>",
+      "text": "0—None or minimal",
+      "page": 12,
+      "input_type": "text",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3464047210385101,
+        0.4983929902120353,
+        0.36762276081123735
+      ],
+      "bbox_ref": "line_011_010",
+      "parent_qid": "q-089"
+    },
+    {
+      "seq": 352,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 12,
+      "input_type": "text",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.374813811947601,
+        0.41830454309002246,
+        0.387509124447601
+      ],
+      "bbox_ref": "line_011_011",
+      "parent_qid": "q-089"
+    },
+    {
+      "seq": 353,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 12,
+      "input_type": "text",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.39470017558396464,
+        0.4534662782756332,
+        0.40739548808396464
+      ],
+      "bbox_ref": "line_011_012",
+      "parent_qid": "q-089"
+    },
+    {
+      "seq": 354,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 12,
+      "input_type": "text",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4145865392203283,
+        0.4379368701012306,
+        0.4272818517203283
+      ],
+      "bbox_ref": "line_011_013",
+      "parent_qid": "q-089"
+    },
+    {
+      "seq": 355,
+      "tag": "<Q>",
+      "text": "Right — Heaviness (RHEAV)",
+      "page": 12,
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5632607816445707,
+        0.4983929902120353,
+        0.584478821417298
+      ],
+      "bbox_ref": "line_011_018",
+      "qid": "q-090"
+    },
+    {
+      "seq": 356,
+      "tag": "<INPUT>",
+      "text": "0—None or minimal",
+      "page": 12,
+      "input_type": "text",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3464047210385101,
+        0.4983929902120353,
+        0.36762276081123735
+      ],
+      "bbox_ref": "line_011_010",
+      "parent_qid": "q-090"
+    },
+    {
+      "seq": 357,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 12,
+      "input_type": "text",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.374813811947601,
+        0.41830454309002246,
+        0.387509124447601
+      ],
+      "bbox_ref": "line_011_011",
+      "parent_qid": "q-090"
+    },
+    {
+      "seq": 358,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 12,
+      "input_type": "text",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.39470017558396464,
+        0.4534662782756332,
+        0.40739548808396464
+      ],
+      "bbox_ref": "line_011_012",
+      "parent_qid": "q-090"
+    },
+    {
+      "seq": 359,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 12,
+      "input_type": "text",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4145865392203283,
+        0.4379368701012306,
+        0.4272818517203283
+      ],
+      "bbox_ref": "line_011_013",
+      "parent_qid": "q-090"
+    },
+    {
+      "seq": 360,
+      "tag": "<Q>",
+      "text": "Right — Paresthesia (RPARES)",
+      "page": 12,
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6721622967960859,
+        0.4983929902120353,
+        0.6933803365688131
+      ],
+      "bbox_ref": "line_011_022",
+      "qid": "q-091"
+    },
+    {
+      "seq": 361,
+      "tag": "<INPUT>",
+      "text": "0—None or minimal",
+      "page": 12,
+      "input_type": "text",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3464047210385101,
+        0.4983929902120353,
+        0.36762276081123735
+      ],
+      "bbox_ref": "line_011_010",
+      "parent_qid": "q-091"
+    },
+    {
+      "seq": 362,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 12,
+      "input_type": "text",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.374813811947601,
+        0.41830454309002246,
+        0.387509124447601
+      ],
+      "bbox_ref": "line_011_011",
+      "parent_qid": "q-091"
+    },
+    {
+      "seq": 363,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 12,
+      "input_type": "text",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.39470017558396464,
+        0.4534662782756332,
+        0.40739548808396464
+      ],
+      "bbox_ref": "line_011_012",
+      "parent_qid": "q-091"
+    },
+    {
+      "seq": 364,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 12,
+      "input_type": "text",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4145865392203283,
+        0.4379368701012306,
+        0.4272818517203283
+      ],
+      "bbox_ref": "line_011_013",
+      "parent_qid": "q-091"
+    },
+    {
+      "seq": 365,
+      "tag": "<Q>",
+      "text": "Right — Pruritis (RPRUR)",
+      "page": 12,
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.781063811947601,
+        0.4983929902120353,
+        0.8022818517203283
+      ],
+      "bbox_ref": "line_011_026",
+      "qid": "q-092"
+    },
+    {
+      "seq": 366,
+      "tag": "<INPUT>",
+      "text": "0—None or minimal",
+      "page": 12,
+      "input_type": "text",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3464047210385101,
+        0.4983929902120353,
+        0.36762276081123735
+      ],
+      "bbox_ref": "line_011_010",
+      "parent_qid": "q-092"
+    },
+    {
+      "seq": 367,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 12,
+      "input_type": "text",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.374813811947601,
+        0.41830454309002246,
+        0.387509124447601
+      ],
+      "bbox_ref": "line_011_011",
+      "parent_qid": "q-092"
+    },
+    {
+      "seq": 368,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 12,
+      "input_type": "text",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.39470017558396464,
+        0.4534662782756332,
+        0.40739548808396464
+      ],
+      "bbox_ref": "line_011_012",
+      "parent_qid": "q-092"
+    },
+    {
+      "seq": 369,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 12,
+      "input_type": "text",
+      "form": "Baseline > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4145865392203283,
+        0.4379368701012306,
+        0.4272818517203283
+      ],
+      "bbox_ref": "line_011_013",
+      "parent_qid": "q-092"
+    },
+    {
+      "seq": 370,
+      "tag": "<FORM>",
+      "text": "Baseline > QOL",
+      "page": 12,
+      "bbox_xyxy": [
+        0.24357894199346405,
+        0.03674563012941919,
+        0.642838372124566,
+        0.04944094262941919
+      ],
+      "bbox_ref": "line_011_002"
+    },
+    {
+      "seq": 371,
+      "tag": "<SH>",
+      "text": "Villalta",
+      "page": 12,
+      "question_below_text": "Was the Villalta completed? (VILLYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.13085444286616163,
+        0.12250480153202231,
+        0.14778152619949494
+      ],
+      "bbox_ref": "line_011_004"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_011_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_011_001",
+      "text": "12/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_011_002",
+      "text": "Form: Baseline > QOL\nStudy: Inari CLOUT\nPage: 1/8",
+      "bbox": [
+        0.24357894199346405,
+        0.03674563012941919,
+        0.642838372124566,
+        0.04944094262941919
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_011_003",
+      "text": "Baseline > QOL",
+      "bbox": [
+        0.34881791258169936,
+        0.06528418955176768,
+        0.5670484156390421,
+        0.09067481455176768
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_011_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_001",
+      "text": "12/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_002",
+      "text": "Form: Baseline > QOL\nStudy: Inari CLOUT\nPage: 1/8",
+      "bbox": [
+        0.24357894199346405,
+        0.03674563012941919,
+        0.642838372124566,
+        0.04944094262941919
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_003",
+      "text": "Baseline > QOL",
+      "bbox": [
+        0.34881791258169936,
+        0.06528418955176768,
+        0.5670484156390421,
+        0.09067481455176768
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_004",
+      "text": "Villalta",
+      "bbox": [
+        0.059640522875817,
+        0.13085444286616163,
+        0.12250480153202231,
+        0.14778152619949494
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_005",
+      "text": "Was the Villalta completed?\n(VILLYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.18920775134154041,
+        0.3924522150575725,
+        0.21516063959911616
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_006",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.21761684225063133,
+        0.38726041207905687,
+        0.23031215475063133
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_007",
+      "text": "Villalta side (VILLSIDE)\nRight",
+      "bbox": [
+        0.059640522875817,
+        0.25738956952335856,
+        0.40278510798036665,
+        0.27860760929608586
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_008",
+      "text": "Left",
+      "bbox": [
+        0.3684640522875817,
+        0.2857986604324495,
+        0.39299098494785284,
+        0.2984939729324495
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_009",
+      "text": "Both",
+      "bbox": [
+        0.3684640522875817,
+        0.30568502406881315,
+        0.3987162970249949,
+        0.31838033656881315
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_010",
+      "text": "Right — Pain (RPAIN)\n0—None or minimal",
+      "bbox": [
+        0.059640522875817,
+        0.3464047210385101,
+        0.4983929902120353,
+        0.36762276081123735
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_011",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.374813811947601,
+        0.41830454309002246,
+        0.387509124447601
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_012",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.39470017558396464,
+        0.4534662782756332,
+        0.40739548808396464
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_013",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.4145865392203283,
+        0.4379368701012306,
+        0.4272818517203283
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_014",
+      "text": "Right — Cramps (RCRAM)\n0—None or minimal",
+      "bbox": [
+        0.059640522875817,
+        0.45530623619002525,
+        0.4983929902120353,
+        0.47652427596275254
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_015",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.4837153270991162,
+        0.41830454309002246,
+        0.4964106395991162
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_016",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.5036016907354798,
+        0.4534662782756332,
+        0.5162970032354798
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_017",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.5234880543718434,
+        0.4379368701012306,
+        0.5361833668718434
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_018",
+      "text": "Right — Heaviness (RHEAV)\n0—None or minimal",
+      "bbox": [
+        0.059640522875817,
+        0.5632607816445707,
+        0.4983929902120353,
+        0.584478821417298
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_019",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.5916698725536617,
+        0.41830454309002246,
+        0.6043651850536617
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_020",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.6115562361900253,
+        0.4534662782756332,
+        0.6242515486900253
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_021",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.6314425998263888,
+        0.4379368701012306,
+        0.6441379123263888
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_022",
+      "text": "Right — Paresthesia (RPARES)\n0—None or minimal",
+      "bbox": [
+        0.059640522875817,
+        0.6721622967960859,
+        0.4983929902120353,
+        0.6933803365688131
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_023",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.7005713877051768,
+        0.41830454309002246,
+        0.7132667002051768
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_024",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.7204577513415404,
+        0.4534662782756332,
+        0.7331530638415404
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_025",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.7403441149779041,
+        0.4379368701012306,
+        0.7530394274779041
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_026",
+      "text": "Right — Pruritis (RPRUR)\n0—None or minimal",
+      "bbox": [
+        0.059640522875817,
+        0.781063811947601,
+        0.4983929902120353,
+        0.8022818517203283
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_027",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.8094729028566919,
+        0.41830454309002246,
+        0.8221682153566919
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_028",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.8293592664930556,
+        0.4534662782756332,
+        0.8420545789930556
+      ],
+      "page_num": 11
+    },
+    {
+      "line_id": "line_011_029",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.8492456301294192,
+        0.4379368701012306,
+        0.8619409426294192
+      ],
+      "page_num": 11
+    }
+  ],
+  "metadata": {
+    "num_questions": 7,
+    "num_inputs": 25,
+    "num_inputs_by_type": {
+      "option": 2,
+      "text": 23,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 4,
+    "num_total_lines": 30,
+    "timestamp": "2025-08-15T13:26:05.383657+00:00"
+  }
+}

@@ -1,0 +1,1148 @@
+{
+  "page_id": 109,
+  "items": [
+    {
+      "seq": 3330,
+      "tag": "<Q>",
+      "text": "Left — Pain (LPAIN)",
+      "page": 110,
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.4983929902120353,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_109_003",
+      "qid": "q-791"
+    },
+    {
+      "seq": 3331,
+      "tag": "<INPUT>",
+      "text": "0—None or minimal",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.4983929902120353,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_109_003",
+      "parent_qid": "q-791"
+    },
+    {
+      "seq": 3332,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.41830454309002246,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_109_004",
+      "parent_qid": "q-791"
+    },
+    {
+      "seq": 3333,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.4534662782756332,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_109_005",
+      "parent_qid": "q-791"
+    },
+    {
+      "seq": 3334,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.4379368701012306,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_109_006",
+      "parent_qid": "q-791"
+    },
+    {
+      "seq": 3335,
+      "tag": "<Q>",
+      "text": "Left — Cramps (LCRAM)",
+      "page": 110,
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.17311913076073232,
+        0.4983929902120353,
+        0.19433717053345959
+      ],
+      "bbox_ref": "line_109_007",
+      "qid": "q-792"
+    },
+    {
+      "seq": 3336,
+      "tag": "<INPUT>",
+      "text": "0—None or minimal",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.4983929902120353,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_109_003",
+      "parent_qid": "q-792"
+    },
+    {
+      "seq": 3337,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.41830454309002246,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_109_004",
+      "parent_qid": "q-792"
+    },
+    {
+      "seq": 3338,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.4534662782756332,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_109_005",
+      "parent_qid": "q-792"
+    },
+    {
+      "seq": 3339,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.4379368701012306,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_109_006",
+      "parent_qid": "q-792"
+    },
+    {
+      "seq": 3340,
+      "tag": "<Q>",
+      "text": "Left — Heaviness (LHEAV)",
+      "page": 110,
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.2810736762152778,
+        0.24486437030867034,
+        0.2937689887152778
+      ],
+      "bbox_ref": "line_109_011",
+      "qid": "q-793"
+    },
+    {
+      "seq": 3341,
+      "tag": "<INPUT>",
+      "text": "0—None or minimal",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.4983929902120353,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_109_003",
+      "parent_qid": "q-793"
+    },
+    {
+      "seq": 3342,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.41830454309002246,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_109_004",
+      "parent_qid": "q-793"
+    },
+    {
+      "seq": 3343,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.4534662782756332,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_109_005",
+      "parent_qid": "q-793"
+    },
+    {
+      "seq": 3344,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.4379368701012306,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_109_006",
+      "parent_qid": "q-793"
+    },
+    {
+      "seq": 3345,
+      "tag": "<Q>",
+      "text": "Left — Paresthesia (LPARES)",
+      "page": 110,
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.38997519136679293,
+        0.4983929902120353,
+        0.4111932311395202
+      ],
+      "bbox_ref": "line_109_016",
+      "qid": "q-794"
+    },
+    {
+      "seq": 3346,
+      "tag": "<INPUT>",
+      "text": "0—None or minimal",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.4983929902120353,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_109_003",
+      "parent_qid": "q-794"
+    },
+    {
+      "seq": 3347,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.41830454309002246,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_109_004",
+      "parent_qid": "q-794"
+    },
+    {
+      "seq": 3348,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.4534662782756332,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_109_005",
+      "parent_qid": "q-794"
+    },
+    {
+      "seq": 3349,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.4379368701012306,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_109_006",
+      "parent_qid": "q-794"
+    },
+    {
+      "seq": 3350,
+      "tag": "<Q>",
+      "text": "Left — Pruritis (LPRUR)",
+      "page": 110,
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.49887670651830807,
+        0.4983929902120353,
+        0.5200947462910354
+      ],
+      "bbox_ref": "line_109_020",
+      "qid": "q-795"
+    },
+    {
+      "seq": 3351,
+      "tag": "<INPUT>",
+      "text": "0—None or minimal",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.4983929902120353,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_109_003",
+      "parent_qid": "q-795"
+    },
+    {
+      "seq": 3352,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.41830454309002246,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_109_004",
+      "parent_qid": "q-795"
+    },
+    {
+      "seq": 3353,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.4534662782756332,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_109_005",
+      "parent_qid": "q-795"
+    },
+    {
+      "seq": 3354,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.4379368701012306,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_109_006",
+      "parent_qid": "q-795"
+    },
+    {
+      "seq": 3355,
+      "tag": "<Q>",
+      "text": "Left — Pretibial edema (LEDEMA)",
+      "page": 110,
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6068312519728535,
+        0.2941553452435662,
+        0.6195265644728535
+      ],
+      "bbox_ref": "line_109_024",
+      "qid": "q-796"
+    },
+    {
+      "seq": 3356,
+      "tag": "<INPUT>",
+      "text": "0—None or minimal",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.4983929902120353,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_109_003",
+      "parent_qid": "q-796"
+    },
+    {
+      "seq": 3357,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.41830454309002246,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_109_004",
+      "parent_qid": "q-796"
+    },
+    {
+      "seq": 3358,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.4534662782756332,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_109_005",
+      "parent_qid": "q-796"
+    },
+    {
+      "seq": 3359,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.4379368701012306,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_109_006",
+      "parent_qid": "q-796"
+    },
+    {
+      "seq": 3360,
+      "tag": "<Q>",
+      "text": "Left — Skin induration (LSKIN)",
+      "page": 110,
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7157327671243687,
+        0.4983929902120353,
+        0.7369508068970959
+      ],
+      "bbox_ref": "line_109_029",
+      "qid": "q-797"
+    },
+    {
+      "seq": 3361,
+      "tag": "<INPUT>",
+      "text": "0—None or minimal",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.4983929902120353,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_109_003",
+      "parent_qid": "q-797"
+    },
+    {
+      "seq": 3362,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.41830454309002246,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_109_004",
+      "parent_qid": "q-797"
+    },
+    {
+      "seq": 3363,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.4534662782756332,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_109_005",
+      "parent_qid": "q-797"
+    },
+    {
+      "seq": 3364,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.4379368701012306,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_109_006",
+      "parent_qid": "q-797"
+    },
+    {
+      "seq": 3365,
+      "tag": "<Q>",
+      "text": "Left — Hyperpigmentation (LPIGM)",
+      "page": 110,
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.8246342822758839,
+        0.4983929902120353,
+        0.8458523220486112
+      ],
+      "bbox_ref": "line_109_033",
+      "qid": "q-798"
+    },
+    {
+      "seq": 3366,
+      "tag": "<INPUT>",
+      "text": "0—None or minimal",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.4983929902120353,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_109_003",
+      "parent_qid": "q-798"
+    },
+    {
+      "seq": 3367,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.41830454309002246,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_109_004",
+      "parent_qid": "q-798"
+    },
+    {
+      "seq": 3368,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.4534662782756332,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_109_005",
+      "parent_qid": "q-798"
+    },
+    {
+      "seq": 3369,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 110,
+      "input_type": "text",
+      "form": "FUP-2 Years > QOL",
+      "section": "Villalta",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.4379368701012306,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_109_006",
+      "parent_qid": "q-798"
+    },
+    {
+      "seq": 3370,
+      "tag": "<FORM>",
+      "text": "FUP-2 Years > QOL",
+      "page": 110,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_109_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_109_001",
+      "text": "110/140",
+      "bbox": [
+        0.910437091503268,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_109_002",
+      "text": "Form: FUP–2 Years > QOL\nStudy: Inari CLOUT\nPage: 3/8",
+      "bbox": [
+        0.22833690767973855,
+        0.03675549439709596,
+        0.6580995547226052,
+        0.04945080689709596
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_109_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_001",
+      "text": "110/140",
+      "bbox": [
+        0.910437091503268,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_002",
+      "text": "Form: FUP–2 Years > QOL\nStudy: Inari CLOUT\nPage: 3/8",
+      "bbox": [
+        0.22833690767973855,
+        0.03675549439709596,
+        0.6580995547226052,
+        0.04945080689709596
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_003",
+      "text": "Left — Pain (LPAIN)\n0—None or minimal",
+      "bbox": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.4983929902120353,
+        0.08543565538194445
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_004",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.41830454309002246,
+        0.10532201901830808
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_005",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.4534662782756332,
+        0.1252083826546717
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_006",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.4379368701012306,
+        0.14509474629103536
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_007",
+      "text": "Left — Cramps (LCRAM)\n0—None or minimal",
+      "bbox": [
+        0.059640522875817,
+        0.17311913076073232,
+        0.4983929902120353,
+        0.19433717053345959
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_008",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.20152822166982323,
+        0.41830454309002246,
+        0.21422353416982323
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_009",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.22141458530618688,
+        0.4534662782756332,
+        0.23410989780618688
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_010",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.2413009489425505,
+        0.4379368701012306,
+        0.2539962614425505
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_011",
+      "text": "Left — Heaviness (LHEAV)",
+      "bbox": [
+        0.059640522875817,
+        0.2810736762152778,
+        0.24486437030867034,
+        0.2937689887152778
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_012",
+      "text": "0—None or minimal",
+      "bbox": [
+        0.3684640522875817,
+        0.29054337318497475,
+        0.4983929902120353,
+        0.30323868568497475
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_013",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.3104297368213384,
+        0.41830454309002246,
+        0.3231250493213384
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_014",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.33031610045770204,
+        0.4534662782756332,
+        0.34301141295770204
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_015",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.35020246409406564,
+        0.4379368701012306,
+        0.36289777659406564
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_016",
+      "text": "Left — Paresthesia (LPARES)\n0—None or minimal",
+      "bbox": [
+        0.059640522875817,
+        0.38997519136679293,
+        0.4983929902120353,
+        0.4111932311395202
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_017",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.4183842822758838,
+        0.41830454309002246,
+        0.4310795947758838
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_018",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.43827064591224746,
+        0.4534662782756332,
+        0.45096595841224746
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_019",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.4581570095486111,
+        0.4379368701012306,
+        0.4708523220486111
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_020",
+      "text": "Left — Pruritis (LPRUR)\n0—None or minimal",
+      "bbox": [
+        0.059640522875817,
+        0.49887670651830807,
+        0.4983929902120353,
+        0.5200947462910354
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_021",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.527285797427399,
+        0.41830454309002246,
+        0.539981109927399
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_022",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.5471721610637627,
+        0.4534662782756332,
+        0.5598674735637627
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_023",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.5670585247001263,
+        0.4379368701012306,
+        0.5797538372001263
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_024",
+      "text": "Left — Pretibial edema (LEDEMA)",
+      "bbox": [
+        0.059640522875817,
+        0.6068312519728535,
+        0.2941553452435662,
+        0.6195265644728535
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_025",
+      "text": "0—None or minimal",
+      "bbox": [
+        0.3684640522875817,
+        0.6163009489425505,
+        0.4983929902120353,
+        0.6289962614425505
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_026",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.6361873125789141,
+        0.41830454309002246,
+        0.6488826250789141
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_027",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.6560736762152778,
+        0.4534662782756332,
+        0.6687689887152778
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_028",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.6759600398516414,
+        0.4379368701012306,
+        0.6886553523516414
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_029",
+      "text": "Left — Skin induration (LSKIN)\n0—None or minimal",
+      "bbox": [
+        0.059640522875817,
+        0.7157327671243687,
+        0.4983929902120353,
+        0.7369508068970959
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_030",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.7441418580334596,
+        0.41830454309002246,
+        0.7568371705334596
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_031",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.7640282216698232,
+        0.4534662782756332,
+        0.7767235341698232
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_032",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.7839145853061869,
+        0.4379368701012306,
+        0.7966098978061869
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_033",
+      "text": "Left — Hyperpigmentation (LPIGM)\n0—None or minimal",
+      "bbox": [
+        0.059640522875817,
+        0.8246342822758839,
+        0.4983929902120353,
+        0.8458523220486112
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_034",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.8530433731849747,
+        0.41830454309002246,
+        0.8657386856849747
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_035",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.8729297368213383,
+        0.4534662782756332,
+        0.8856250493213383
+      ],
+      "page_num": 109
+    },
+    {
+      "line_id": "line_109_036",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.892816100457702,
+        0.4379368701012306,
+        0.905511412957702
+      ],
+      "page_num": 109
+    }
+  ],
+  "metadata": {
+    "num_questions": 8,
+    "num_inputs": 32,
+    "num_inputs_by_type": {
+      "option": 0,
+      "text": 32,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 0,
+    "num_supplemental": 3,
+    "num_total_lines": 37,
+    "timestamp": "2025-08-15T14:08:33.444935+00:00"
+  }
+}

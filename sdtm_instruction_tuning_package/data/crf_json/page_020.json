@@ -1,0 +1,1071 @@
+{
+  "page_id": 20,
+  "items": [
+    {
+      "seq": 646,
+      "tag": "<Q>",
+      "text": "Initial DUS date (DUSDAT)",
+      "page": 21,
+      "form": "Target Venous Segment",
+      "section": "Numeric Pain Rating Scale",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-145"
+    },
+    {
+      "seq": 647,
+      "tag": "<INPUT>",
+      "text": "dd-mmm-yyyy",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11155623619002525,
+        0.44772493449691075,
+        0.13020027045047644
+      ],
+      "bbox_ref": "line_020_004",
+      "parent_qid": "q-145"
+    },
+    {
+      "seq": 648,
+      "tag": "<Q>",
+      "text": "Location (CDVTLOC)",
+      "page": 21,
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.1617456301294192,
+        0.48941992466745815,
+        0.18296366990214646
+      ],
+      "bbox_ref": "line_020_005",
+      "qid": "q-146"
+    },
+    {
+      "seq": 649,
+      "tag": "<INPUT>",
+      "text": "TVS #1 - IVC Only",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.1617456301294192,
+        0.48941992466745815,
+        0.18296366990214646
+      ],
+      "bbox_ref": "line_020_005",
+      "parent_qid": "q-146"
+    },
+    {
+      "seq": 650,
+      "tag": "<INPUT>",
+      "text": "TVS #1 - Left",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.1901547210385101,
+        0.455108642578125,
+        0.2028500335385101
+      ],
+      "bbox_ref": "line_020_006",
+      "parent_qid": "q-146"
+    },
+    {
+      "seq": 651,
+      "tag": "<INPUT>",
+      "text": "TVS #1 - Right",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.21004108467487373,
+        0.46490274067797693,
+        0.22273639717487373
+      ],
+      "bbox_ref": "line_020_007",
+      "parent_qid": "q-146"
+    },
+    {
+      "seq": 652,
+      "tag": "<INPUT>",
+      "text": "TVS #2 - Left",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.22992744831123738,
+        0.455108642578125,
+        0.24262276081123738
+      ],
+      "bbox_ref": "line_020_008",
+      "parent_qid": "q-146"
+    },
+    {
+      "seq": 653,
+      "tag": "<INPUT>",
+      "text": "TVS #2 - Right",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.24981381194760102,
+        0.46490274067797693,
+        0.262509124447601
+      ],
+      "bbox_ref": "line_020_009",
+      "parent_qid": "q-146"
+    },
+    {
+      "seq": 654,
+      "tag": "<Q>",
+      "text": "Segments (select all involved in this TVS) (CDVTSEG)",
+      "page": 21,
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-147"
+    },
+    {
+      "seq": 655,
+      "tag": "<INPUT>",
+      "text": "Common iliac",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.29905623619002525,
+        0.4562973820306117,
+        0.31175154869002525
+      ],
+      "bbox_ref": "line_020_011",
+      "parent_qid": "q-147"
+    },
+    {
+      "seq": 656,
+      "tag": "<INPUT>",
+      "text": "Internal iliac",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.3189425998263889,
+        0.4456944185144761,
+        0.3316379123263889
+      ],
+      "bbox_ref": "line_020_012",
+      "parent_qid": "q-147"
+    },
+    {
+      "seq": 657,
+      "tag": "<INPUT>",
+      "text": "External iliac",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.33882896346275254,
+        0.45059149249706393,
+        0.35152427596275254
+      ],
+      "bbox_ref": "line_020_013",
+      "parent_qid": "q-147"
+    },
+    {
+      "seq": 658,
+      "tag": "<INPUT>",
+      "text": "Common femoral",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.3587153270991162,
+        0.4800057006038092,
+        0.3714106395991162
+      ],
+      "bbox_ref": "line_020_014",
+      "parent_qid": "q-147"
+    },
+    {
+      "seq": 659,
+      "tag": "<INPUT>",
+      "text": "Deep femoral",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.3786016907354798,
+        0.45550572015101615,
+        0.3912970032354798
+      ],
+      "bbox_ref": "line_020_015",
+      "parent_qid": "q-147"
+    },
+    {
+      "seq": 660,
+      "tag": "<INPUT>",
+      "text": "Cranial Femoral",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.3984880543718434,
+        0.47182928347120096,
+        0.4111833668718434
+      ],
+      "bbox_ref": "line_020_016",
+      "parent_qid": "q-147"
+    },
+    {
+      "seq": 661,
+      "tag": "<INPUT>",
+      "text": "Caudal Femoral",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.41837441800820707,
+        0.4718439438763787,
+        0.43106973050820707
+      ],
+      "bbox_ref": "line_020_017",
+      "parent_qid": "q-147"
+    },
+    {
+      "seq": 662,
+      "tag": "<INPUT>",
+      "text": "Popliteal",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.4382607816445707,
+        0.42363808825125104,
+        0.4509560941445707
+      ],
+      "bbox_ref": "line_020_018",
+      "parent_qid": "q-147"
+    },
+    {
+      "seq": 663,
+      "tag": "<INPUT>",
+      "text": "IVC (Inferior Vena Cava)",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.45814714528093436,
+        0.5274266760333691,
+        0.47084245778093436
+      ],
+      "bbox_ref": "line_020_019",
+      "parent_qid": "q-147"
+    },
+    {
+      "seq": 664,
+      "tag": "<Q>",
+      "text": "Flow (DUSFL)",
+      "page": 21,
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.4979198725536616,
+        0.4191380419762306,
+        0.5191379123263888
+      ],
+      "bbox_ref": "line_020_020",
+      "qid": "q-148"
+    },
+    {
+      "seq": 665,
+      "tag": "<INPUT>",
+      "text": "Present",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.4979198725536616,
+        0.4191380419762306,
+        0.5191379123263888
+      ],
+      "bbox_ref": "line_020_020",
+      "parent_qid": "q-148"
+    },
+    {
+      "seq": 666,
+      "tag": "<INPUT>",
+      "text": "Absent",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5263289634627525,
+        0.4142409679936428,
+        0.5390242759627525
+      ],
+      "bbox_ref": "line_020_021",
+      "parent_qid": "q-148"
+    },
+    {
+      "seq": 667,
+      "tag": "<INPUT>",
+      "text": "Not evaluable",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5462153270991161,
+        0.45837801266339867,
+        0.5589106395991161
+      ],
+      "bbox_ref": "line_020_022",
+      "parent_qid": "q-148"
+    },
+    {
+      "seq": 668,
+      "tag": "<Q>",
+      "text": "Compressibility (DUSCOM)",
+      "page": 21,
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5869350240688131,
+        0.41584887535743464,
+        0.6081530638415404
+      ],
+      "bbox_ref": "line_020_023",
+      "qid": "q-149"
+    },
+    {
+      "seq": 669,
+      "tag": "<INPUT>",
+      "text": "Normal",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5869350240688131,
+        0.41584887535743464,
+        0.6081530638415404
+      ],
+      "bbox_ref": "line_020_023",
+      "parent_qid": "q-149"
+    },
+    {
+      "seq": 670,
+      "tag": "<INPUT>",
+      "text": "Partial",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6153441149779041,
+        0.41014298582388686,
+        0.6280394274779041
+      ],
+      "bbox_ref": "line_020_024",
+      "parent_qid": "q-149"
+    },
+    {
+      "seq": 671,
+      "tag": "<INPUT>",
+      "text": "Incompressible",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6352304786142676,
+        0.467348634807113,
+        0.6479257911142676
+      ],
+      "bbox_ref": "line_020_025",
+      "parent_qid": "q-149"
+    },
+    {
+      "seq": 672,
+      "tag": "<INPUT>",
+      "text": "Not evaluable",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5462153270991161,
+        0.45837801266339867,
+        0.5589106395991161
+      ],
+      "bbox_ref": "line_020_022",
+      "parent_qid": "q-149"
+    },
+    {
+      "seq": 673,
+      "tag": "<Q>",
+      "text": "Description of initial DUS findings (DUSDESC)",
+      "page": 21,
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-150"
+    },
+    {
+      "seq": 674,
+      "tag": "<INPUT>",
+      "text": "0/500",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6948895695233586,
+        0.3795251036001966,
+        0.7208424577809344
+      ],
+      "bbox_ref": "line_020_027",
+      "parent_qid": "q-150"
+    },
+    {
+      "seq": 675,
+      "tag": "<Q>",
+      "text": "Duration of lower extremity symptoms (LESYMP)",
+      "page": 21,
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-151"
+    },
+    {
+      "seq": 676,
+      "tag": "<INPUT>",
+      "text": "<7 days",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7848516907354798,
+        0.4203757990419475,
+        0.8108045789930556
+      ],
+      "bbox_ref": "line_020_028",
+      "parent_qid": "q-151"
+    },
+    {
+      "seq": 677,
+      "tag": "<INPUT>",
+      "text": "7 to 14 days",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.8132607816445707,
+        0.44858167062397875,
+        0.8259560941445707
+      ],
+      "bbox_ref": "line_020_029",
+      "parent_qid": "q-151"
+    },
+    {
+      "seq": 678,
+      "tag": "<INPUT>",
+      "text": "2-4 weeks",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.8331471452809344,
+        0.4354787589677798,
+        0.8458424577809344
+      ],
+      "bbox_ref": "line_020_030",
+      "parent_qid": "q-151"
+    },
+    {
+      "seq": 679,
+      "tag": "<INPUT>",
+      "text": "4-6 weeks",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.853033508917298,
+        0.4354787589677798,
+        0.865728821417298
+      ],
+      "bbox_ref": "line_020_031",
+      "parent_qid": "q-151"
+    },
+    {
+      "seq": 680,
+      "tag": "<INPUT>",
+      "text": ">6 weeks",
+      "page": 21,
+      "input_type": "text",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.8729198725536617,
+        0.4309934728285846,
+        0.8856151850536617
+      ],
+      "bbox_ref": "line_020_032",
+      "parent_qid": "q-151"
+    },
+    {
+      "seq": 681,
+      "tag": "<INPUT>",
+      "text": "Unknown",
+      "page": 21,
+      "input_type": "option",
+      "form": "Target Venous Segment",
+      "section": "Target Venous Segment > TVS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.8928062361900253,
+        0.4297604031032986,
+        0.9055015486900253
+      ],
+      "bbox_ref": "line_020_033",
+      "parent_qid": "q-151"
+    },
+    {
+      "seq": 682,
+      "tag": "<SH>",
+      "text": "Target Venous Segment > TVS",
+      "page": 21,
+      "question_below_text": "Initial DUS date (DUSDAT)",
+      "bbox_xyxy": [
+        0.19454018586601307,
+        0.03674563012941919,
+        0.6918963264016544,
+        0.04944094262941919
+      ],
+      "bbox_ref": "line_020_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_020_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_020_001",
+      "text": "21/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_020_002",
+      "text": "Form: Target Venous Segment > TVS\nStudy: Inari CLOUT\nPage: 1/2",
+      "bbox": [
+        0.19454018586601307,
+        0.03674563012941919,
+        0.6918963264016544,
+        0.04944094262941919
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_020_003",
+      "text": "Target Venous Segment > TVS",
+      "bbox": [
+        0.24612566380718953,
+        0.06528418955176768,
+        0.6697307412141289,
+        0.09067481455176768
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_020_010",
+      "text": "Segments (select all involved in this\nTVS) (CDVTSEG)\nOnly select segments where clot\nwas treated by ClotTriever device.",
+      "bbox": [
+        0.059640522875817,
+        0.2895865392203283,
+        0.3121868457669526,
+        0.3420545789930556
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_020_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_001",
+      "text": "21/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_002",
+      "text": "Form: Target Venous Segment > TVS\nStudy: Inari CLOUT\nPage: 1/2",
+      "bbox": [
+        0.19454018586601307,
+        0.03674563012941919,
+        0.6918963264016544,
+        0.04944094262941919
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_003",
+      "text": "Target Venous Segment > TVS",
+      "bbox": [
+        0.24612566380718953,
+        0.06528418955176768,
+        0.6697307412141289,
+        0.09067481455176768
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_004",
+      "text": "Initial DUS date (DUSDT)\ndd-mmm-yyyy",
+      "bbox": [
+        0.059640522875817,
+        0.11155623619002525,
+        0.44772493449691075,
+        0.13020027045047644
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_005",
+      "text": "Location (CDVTLOC)\nTVS #1 - IVC Only",
+      "bbox": [
+        0.059640522875817,
+        0.1617456301294192,
+        0.48941992466745815,
+        0.18296366990214646
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_006",
+      "text": "TVS #1 - Left",
+      "bbox": [
+        0.3684640522875817,
+        0.1901547210385101,
+        0.455108642578125,
+        0.2028500335385101
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_007",
+      "text": "TVS #1 - Right",
+      "bbox": [
+        0.3684640522875817,
+        0.21004108467487373,
+        0.46490274067797693,
+        0.22273639717487373
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_008",
+      "text": "TVS #2 - Left",
+      "bbox": [
+        0.3684640522875817,
+        0.22992744831123738,
+        0.455108642578125,
+        0.24262276081123738
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_009",
+      "text": "TVS #2 - Right",
+      "bbox": [
+        0.3684640522875817,
+        0.24981381194760102,
+        0.46490274067797693,
+        0.262509124447601
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_010",
+      "text": "Segments (select all involved in this\nTVS) (CDVTSEG)\nOnly select segments where clot\nwas treated by ClotTriever device.",
+      "bbox": [
+        0.059640522875817,
+        0.2895865392203283,
+        0.3121868457669526,
+        0.3420545789930556
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_011",
+      "text": "Common iliac",
+      "bbox": [
+        0.3672385620915033,
+        0.29905623619002525,
+        0.4562973820306117,
+        0.31175154869002525
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_012",
+      "text": "Internal iliac",
+      "bbox": [
+        0.3672385620915033,
+        0.3189425998263889,
+        0.4456944185144761,
+        0.3316379123263889
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_013",
+      "text": "External iliac",
+      "bbox": [
+        0.3672385620915033,
+        0.33882896346275254,
+        0.45059149249706393,
+        0.35152427596275254
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_014",
+      "text": "Common femoral",
+      "bbox": [
+        0.3672385620915033,
+        0.3587153270991162,
+        0.4800057006038092,
+        0.3714106395991162
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_015",
+      "text": "Deep femoral",
+      "bbox": [
+        0.3672385620915033,
+        0.3786016907354798,
+        0.45550572015101615,
+        0.3912970032354798
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_016",
+      "text": "Cranial Femoral",
+      "bbox": [
+        0.3672385620915033,
+        0.3984880543718434,
+        0.47182928347120096,
+        0.4111833668718434
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_017",
+      "text": "Caudal Femoral",
+      "bbox": [
+        0.3672385620915033,
+        0.41837441800820707,
+        0.4718439438763787,
+        0.43106973050820707
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_018",
+      "text": "Popliteal",
+      "bbox": [
+        0.3672385620915033,
+        0.4382607816445707,
+        0.42363808825125104,
+        0.4509560941445707
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_019",
+      "text": "IVC (Inferior Vena Cava)",
+      "bbox": [
+        0.3672385620915033,
+        0.45814714528093436,
+        0.5274266760333691,
+        0.47084245778093436
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_020",
+      "text": "Flow (DUSFL)\nPresent",
+      "bbox": [
+        0.059640522875817,
+        0.4979198725536616,
+        0.4191380419762306,
+        0.5191379123263888
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_021",
+      "text": "Absent",
+      "bbox": [
+        0.3684640522875817,
+        0.5263289634627525,
+        0.4142409679936428,
+        0.5390242759627525
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_022",
+      "text": "Not evaluable",
+      "bbox": [
+        0.3684640522875817,
+        0.5462153270991161,
+        0.45837801266339867,
+        0.5589106395991161
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_023",
+      "text": "Compressibility (DUSCOM)\nNormal",
+      "bbox": [
+        0.059640522875817,
+        0.5869350240688131,
+        0.41584887535743464,
+        0.6081530638415404
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_024",
+      "text": "Partial",
+      "bbox": [
+        0.3684640522875817,
+        0.6153441149779041,
+        0.41014298582388686,
+        0.6280394274779041
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_025",
+      "text": "Incompressible",
+      "bbox": [
+        0.3684640522875817,
+        0.6352304786142676,
+        0.467348634807113,
+        0.6479257911142676
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_026",
+      "text": "Not evaluable",
+      "bbox": [
+        0.3684640522875817,
+        0.6551168422506313,
+        0.45837801266339867,
+        0.6678121547506313
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_027",
+      "text": "Description of initial DUS findings\n(DUSDESC)\n0/500",
+      "bbox": [
+        0.059640522875817,
+        0.6948895695233586,
+        0.3795251036001966,
+        0.7208424577809344
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_028",
+      "text": "Duration of lower extremity\nsymptoms (LESYMP)\n<7 days",
+      "bbox": [
+        0.059640522875817,
+        0.7848516907354798,
+        0.4203757990419475,
+        0.8108045789930556
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_029",
+      "text": "7 to 14 days",
+      "bbox": [
+        0.3684640522875817,
+        0.8132607816445707,
+        0.44858167062397875,
+        0.8259560941445707
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_030",
+      "text": "2-4 weeks",
+      "bbox": [
+        0.3684640522875817,
+        0.8331471452809344,
+        0.4354787589677798,
+        0.8458424577809344
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_031",
+      "text": "4-6 weeks",
+      "bbox": [
+        0.3684640522875817,
+        0.853033508917298,
+        0.4354787589677798,
+        0.865728821417298
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_032",
+      "text": ">6 weeks",
+      "bbox": [
+        0.3684640522875817,
+        0.8729198725536617,
+        0.4309934728285846,
+        0.8856151850536617
+      ],
+      "page_num": 20
+    },
+    {
+      "line_id": "line_020_033",
+      "text": "Unknown",
+      "bbox": [
+        0.3684640522875817,
+        0.8928062361900253,
+        0.4297604031032986,
+        0.9055015486900253
+      ],
+      "page_num": 20
+    }
+  ],
+  "metadata": {
+    "num_questions": 7,
+    "num_inputs": 29,
+    "num_inputs_by_type": {
+      "option": 1,
+      "text": 28,
+      "free": 0
+    },
+    "num_forms": 0,
+    "num_sections": 1,
+    "num_supplemental": 5,
+    "num_total_lines": 34,
+    "timestamp": "2025-08-15T13:30:15.686333+00:00"
+  }
+}

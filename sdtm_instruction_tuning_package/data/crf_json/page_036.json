@@ -1,0 +1,625 @@
+{
+  "page_id": 36,
+  "items": [
+    {
+      "seq": 1042,
+      "tag": "<Q>",
+      "text": "Procedure Date (PROC_DATE)",
+      "page": 37,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11155870225694445,
+        0.44772493449691075,
+        0.13020273651739564
+      ],
+      "bbox_ref": "line_036_004",
+      "qid": "q-284"
+    },
+    {
+      "seq": 1043,
+      "tag": "<INPUT>",
+      "text": "dd-mmm-yyyy",
+      "page": 37,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11155870225694445,
+        0.44772493449691075,
+        0.13020273651739564
+      ],
+      "bbox_ref": "line_036_004",
+      "parent_qid": "q-284"
+    },
+    {
+      "seq": 1044,
+      "tag": "<Q>",
+      "text": "Did the ClotTriever Sheath enter the subject's vasculature? (PROC_VASC)",
+      "page": 37,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-285"
+    },
+    {
+      "seq": 1045,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 37,
+      "input_type": "option",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.17027082346906566,
+        0.3924522150575725,
+        0.18296613596906566
+      ],
+      "bbox_ref": "line_036_006",
+      "parent_qid": "q-285"
+    },
+    {
+      "seq": 1046,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 37,
+      "input_type": "option",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.19015718710542928,
+        0.38726041207905687,
+        0.20285249960542928
+      ],
+      "bbox_ref": "line_036_007",
+      "parent_qid": "q-285"
+    },
+    {
+      "seq": 1047,
+      "tag": "<Q>",
+      "text": "Venous access Time (PROC_TIM)",
+      "page": 37,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.22992991437815657,
+        0.3687741148705576,
+        0.24952090870250354
+      ],
+      "bbox_ref": "line_036_008",
+      "qid": "q-286"
+    },
+    {
+      "seq": 1048,
+      "tag": "<INPUT>",
+      "text": "HH",
+      "page": 37,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.22992991437815657,
+        0.3687741148705576,
+        0.24952090870250354
+      ],
+      "bbox_ref": "line_036_008",
+      "parent_qid": "q-286"
+    },
+    {
+      "seq": 1049,
+      "tag": "<INPUT>",
+      "text": "MM",
+      "page": 37,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3451797385620915,
+        0.25625186496310765,
+        0.3723953845454197,
+        0.2703542420358369
+      ],
+      "bbox_ref": "line_036_009",
+      "parent_qid": "q-286"
+    },
+    {
+      "seq": 1050,
+      "tag": "<Q>",
+      "text": "ClotTriever Sheath Insertion time (PROC_SHEAINTM)",
+      "page": 37,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-287"
+    },
+    {
+      "seq": 1051,
+      "tag": "<INPUT>",
+      "text": "HH",
+      "page": 37,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.22992991437815657,
+        0.3687741148705576,
+        0.24952090870250354
+      ],
+      "bbox_ref": "line_036_008",
+      "parent_qid": "q-287"
+    },
+    {
+      "seq": 1052,
+      "tag": "<INPUT>",
+      "text": "MM",
+      "page": 37,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3451797385620915,
+        0.25625186496310765,
+        0.3723953845454197,
+        0.2703542420358369
+      ],
+      "bbox_ref": "line_036_009",
+      "parent_qid": "q-287"
+    },
+    {
+      "seq": 1053,
+      "tag": "<Q>",
+      "text": "ClotTriever Catheter Insertion time (PROC_CATINTM)",
+      "page": 37,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-288"
+    },
+    {
+      "seq": 1054,
+      "tag": "<INPUT>",
+      "text": "HH",
+      "page": 37,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.22992991437815657,
+        0.3687741148705576,
+        0.24952090870250354
+      ],
+      "bbox_ref": "line_036_008",
+      "parent_qid": "q-288"
+    },
+    {
+      "seq": 1055,
+      "tag": "<INPUT>",
+      "text": "MM",
+      "page": 37,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3451797385620915,
+        0.25625186496310765,
+        0.3723953845454197,
+        0.2703542420358369
+      ],
+      "bbox_ref": "line_036_009",
+      "parent_qid": "q-288"
+    },
+    {
+      "seq": 1056,
+      "tag": "<Q>",
+      "text": "Last ClotTriever Catheter Removal time (PROC_CATREMTM)",
+      "page": 37,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-289"
+    },
+    {
+      "seq": 1057,
+      "tag": "<INPUT>",
+      "text": "HH",
+      "page": 37,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.22992991437815657,
+        0.3687741148705576,
+        0.24952090870250354
+      ],
+      "bbox_ref": "line_036_008",
+      "parent_qid": "q-289"
+    },
+    {
+      "seq": 1058,
+      "tag": "<INPUT>",
+      "text": "MM",
+      "page": 37,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3451797385620915,
+        0.25625186496310765,
+        0.3723953845454197,
+        0.2703542420358369
+      ],
+      "bbox_ref": "line_036_009",
+      "parent_qid": "q-289"
+    },
+    {
+      "seq": 1059,
+      "tag": "<Q>",
+      "text": "ClotTriever Sheath Removal time (PROC_REMTM)",
+      "page": 37,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-290"
+    },
+    {
+      "seq": 1060,
+      "tag": "<INPUT>",
+      "text": "HH",
+      "page": 37,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.22992991437815657,
+        0.3687741148705576,
+        0.24952090870250354
+      ],
+      "bbox_ref": "line_036_008",
+      "parent_qid": "q-290"
+    },
+    {
+      "seq": 1061,
+      "tag": "<INPUT>",
+      "text": "MM",
+      "page": 37,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3451797385620915,
+        0.25625186496310765,
+        0.3723953845454197,
+        0.2703542420358369
+      ],
+      "bbox_ref": "line_036_009",
+      "parent_qid": "q-290"
+    },
+    {
+      "seq": 1062,
+      "tag": "<FORM>",
+      "text": "Procedure",
+      "page": 37,
+      "bbox_xyxy": [
+        0.2617698120915033,
+        0.036748096196338384,
+        0.6246475020265267,
+        0.049443408696338384
+      ],
+      "bbox_ref": "line_036_002"
+    },
+    {
+      "seq": 1063,
+      "tag": "<SH>",
+      "text": "Procedure",
+      "page": 37,
+      "question_below_text": "Procedure Date (PROC_DATE)",
+      "bbox_xyxy": [
+        0.2617698120915033,
+        0.036748096196338384,
+        0.6246475020265267,
+        0.049443408696338384
+      ],
+      "bbox_ref": "line_036_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_036_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_036_001",
+      "text": "37/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_036_002",
+      "text": "Form: Procedure\nStudy: Inari CLOUT\nPage: 1/9",
+      "bbox": [
+        0.2617698120915033,
+        0.036748096196338384,
+        0.6246475020265267,
+        0.049443408696338384
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_036_005",
+      "text": "Did the ClotTriever Sheath enter the\nsubject’s vasculature?\n(PROC_VASC)",
+      "bbox": [
+        0.059640522875817,
+        0.16174809619633837,
+        0.3096870970881842,
+        0.2009585602114899
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_036_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 36
+    },
+    {
+      "line_id": "line_036_001",
+      "text": "37/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 36
+    },
+    {
+      "line_id": "line_036_002",
+      "text": "Form: Procedure\nStudy: Inari CLOUT\nPage: 1/9",
+      "bbox": [
+        0.2617698120915033,
+        0.036748096196338384,
+        0.6246475020265267,
+        0.049443408696338384
+      ],
+      "page_num": 36
+    },
+    {
+      "line_id": "line_036_003",
+      "text": "Procedure",
+      "bbox": [
+        0.385180504493464,
+        0.06528665561868686,
+        0.530655555475771,
+        0.09067728061868686
+      ],
+      "page_num": 36
+    },
+    {
+      "line_id": "line_036_004",
+      "text": "Procedure Date (PROC_DATE)\ndd-mmm-yyyy",
+      "bbox": [
+        0.059640522875817,
+        0.11155870225694445,
+        0.44772493449691075,
+        0.13020273651739564
+      ],
+      "page_num": 36
+    },
+    {
+      "line_id": "line_036_005",
+      "text": "Did the ClotTriever Sheath enter the\nsubject’s vasculature?\n(PROC_VASC)",
+      "bbox": [
+        0.059640522875817,
+        0.16174809619633837,
+        0.3096870970881842,
+        0.2009585602114899
+      ],
+      "page_num": 36
+    },
+    {
+      "line_id": "line_036_006",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.17027082346906566,
+        0.3924522150575725,
+        0.18296613596906566
+      ],
+      "page_num": 36
+    },
+    {
+      "line_id": "line_036_007",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.19015718710542928,
+        0.38726041207905687,
+        0.20285249960542928
+      ],
+      "page_num": 36
+    },
+    {
+      "line_id": "line_036_008",
+      "text": "Venous access Time (PROC_TIM)\nHH",
+      "bbox": [
+        0.059640522875817,
+        0.22992991437815657,
+        0.3687741148705576,
+        0.24952090870250354
+      ],
+      "page_num": 36
+    },
+    {
+      "line_id": "line_036_009",
+      "text": "MM",
+      "bbox": [
+        0.3451797385620915,
+        0.25625186496310765,
+        0.3723953845454197,
+        0.2703542420358369
+      ],
+      "page_num": 36
+    },
+    {
+      "line_id": "line_036_010",
+      "text": "ClotTriever Sheath Insertion time\n(PROC_SHEAINTM)\nHH",
+      "bbox": [
+        0.059640522875817,
+        0.31042233862058083,
+        0.3687741148705576,
+        0.3363752268781566
+      ],
+      "page_num": 36
+    },
+    {
+      "line_id": "line_036_011",
+      "text": "MM",
+      "bbox": [
+        0.3451797385620915,
+        0.3357973195085622,
+        0.3723953845454197,
+        0.34989971584743923
+      ],
+      "page_num": 36
+    },
+    {
+      "line_id": "line_036_012",
+      "text": "ClotTriever Catheter Insertion time\n(PROC_CATINTM)\nHH",
+      "bbox": [
+        0.059640522875817,
+        0.38996779316603536,
+        0.3687741148705576,
+        0.4159206814236111
+      ],
+      "page_num": 36
+    },
+    {
+      "line_id": "line_036_013",
+      "text": "MM",
+      "bbox": [
+        0.3451797385620915,
+        0.4153427740540167,
+        0.3723953845454197,
+        0.42944517039289376
+      ],
+      "page_num": 36
+    },
+    {
+      "line_id": "line_036_014",
+      "text": "Last ClotTriever Catheter Removal\ntime (PROC_CATREMTM)\nHH",
+      "bbox": [
+        0.059640522875817,
+        0.4704602174084596,
+        0.3687741148705576,
+        0.49641310566603536
+      ],
+      "page_num": 36
+    },
+    {
+      "line_id": "line_036_015",
+      "text": "MM",
+      "bbox": [
+        0.3451797385620915,
+        0.49583519829644096,
+        0.3723953845454197,
+        0.5099375946353181
+      ],
+      "page_num": 36
+    },
+    {
+      "line_id": "line_036_016",
+      "text": "ClotTriever Sheath Removal time\n(PROC_REMTM)\nHH",
+      "bbox": [
+        0.059640522875817,
+        0.5500056719539141,
+        0.3687741148705576,
+        0.57595856021149
+      ],
+      "page_num": 36
+    },
+    {
+      "line_id": "line_036_017",
+      "text": "MM",
+      "bbox": [
+        0.3451797385620915,
+        0.5753806528418955,
+        0.3723953845454197,
+        0.5894830491807725
+      ],
+      "page_num": 36
+    }
+  ],
+  "metadata": {
+    "num_questions": 7,
+    "num_inputs": 13,
+    "num_inputs_by_type": {
+      "option": 2,
+      "text": 11,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 4,
+    "num_total_lines": 18,
+    "timestamp": "2025-08-15T13:35:59.447083+00:00"
+  }
+}

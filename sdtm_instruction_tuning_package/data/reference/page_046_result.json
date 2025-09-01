@@ -1,0 +1,67 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_046.json",
+  "page_id": 46,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Location of external compressions prior to the procedure (PRE_LOCCOM)",
+      "annotation": "RSLOC when more than one selected, then RS.RSLOC = MULTIPLE using the QNAM values SECDI, SECSJ, SIDGI, QSGQP, RSCQP, SEGQRF, CECAF, SECGD, PSCDV",
+      "domain": "RS",
+      "pattern": "multiple_response_checkboxes, supplemental_multiple",
+      "confidence": 0.95,
+      "valid": false,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Pre-ClotTriever Venogram captured? (PRE_VENSENT)",
+      "annotation": "Question: RSTEST = CLOTTRIEVER VENOGRAM | Option 'No': RSSTAT = NOT DONE when RSTESTCD = VENSENT | Option 'Yes': [NOT SUBMITTED]",
+      "domain": "RS",
+      "pattern": "conditional_single, not_submitted",
+      "confidence": 0.95,
+      "valid": false,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Thrombus load (PRE_VENTL1)",
+      "annotation": "RSORRES when RSTESTCD = VENTL1",
+      "domain": "RS",
+      "pattern": "conditional_single",
+      "confidence": 0.95,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Opinion of clot age (TREAT_AGE)",
+      "annotation": "If select, RSORRES = ACUTE when RSTESTCD = CLOTAGES | If select, RSORRES = SUB-ACUTE when RSTESTCD = CLOTAGES | If select, RSORRES = CHRONIC when RSTESTCD = CLOTAGERC",
+      "domain": "RS",
+      "pattern": "variable_with_ct, conditional_single",
+      "confidence": 0.95,
+      "valid": false,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Post-ClotTriever Venogram captured? (POST_VENSENT)",
+      "annotation": "Option 'No': RSSTAT = NOT DONE when RSTESTCD = VENSENT | Option 'Yes': [NOT SUBMITTED]",
+      "domain": "RS",
+      "pattern": "conditional_single, not_submitted",
+      "confidence": 0.95,
+      "valid": false,
+      "requires_separate_annotations": true
+    }
+  ],
+  "summary": {
+    "total_items": 5,
+    "annotated": 5,
+    "not_submitted": 2,
+    "errors": 0
+  }
+}

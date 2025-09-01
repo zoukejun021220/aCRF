@@ -1,0 +1,1056 @@
+{
+  "page_id": 126,
+  "items": [
+    {
+      "seq": 3869,
+      "tag": "<Q>",
+      "text": "Usual activities (EQACT)",
+      "page": 127,
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.47469933204401554,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_126_003",
+      "qid": "q-908"
+    },
+    {
+      "seq": 3870,
+      "tag": "<INPUT>",
+      "text": "1—No problems",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.47469933204401554,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_126_003",
+      "parent_qid": "q-908"
+    },
+    {
+      "seq": 3871,
+      "tag": "<INPUT>",
+      "text": "2—Slight problems",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.49268460741230086,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_126_004",
+      "parent_qid": "q-908"
+    },
+    {
+      "seq": 3872,
+      "tag": "<INPUT>",
+      "text": "3—Moderate problems",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.5180228239570568,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_126_005",
+      "parent_qid": "q-908"
+    },
+    {
+      "seq": 3873,
+      "tag": "<INPUT>",
+      "text": "4—Severe problems",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.5024934656479779,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_126_006",
+      "parent_qid": "q-908"
+    },
+    {
+      "seq": 3874,
+      "tag": "<INPUT>",
+      "text": "5—Extreme problems",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.15228579742739898,
+        0.5106552223754085,
+        0.16498110992739898
+      ],
+      "bbox_ref": "line_126_007",
+      "parent_qid": "q-908"
+    },
+    {
+      "seq": 3875,
+      "tag": "<Q>",
+      "text": "Pain/Discomfort (EQPAIN)",
+      "page": 127,
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.19300549439709597,
+        0.47469933204401554,
+        0.21422353416982323
+      ],
+      "bbox_ref": "line_126_008",
+      "qid": "q-909"
+    },
+    {
+      "seq": 3876,
+      "tag": "<INPUT>",
+      "text": "1—No problems",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.47469933204401554,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_126_003",
+      "parent_qid": "q-909"
+    },
+    {
+      "seq": 3877,
+      "tag": "<INPUT>",
+      "text": "2—Slight problems",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.49268460741230086,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_126_004",
+      "parent_qid": "q-909"
+    },
+    {
+      "seq": 3878,
+      "tag": "<INPUT>",
+      "text": "3—Moderate problems",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.5180228239570568,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_126_005",
+      "parent_qid": "q-909"
+    },
+    {
+      "seq": 3879,
+      "tag": "<INPUT>",
+      "text": "4—Severe problems",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.5024934656479779,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_126_006",
+      "parent_qid": "q-909"
+    },
+    {
+      "seq": 3880,
+      "tag": "<INPUT>",
+      "text": "5—Extreme problems",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.15228579742739898,
+        0.5106552223754085,
+        0.16498110992739898
+      ],
+      "bbox_ref": "line_126_007",
+      "parent_qid": "q-909"
+    },
+    {
+      "seq": 3881,
+      "tag": "<Q>",
+      "text": "Anxiety/Depression (EQANX)",
+      "page": 127,
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.320846403488005,
+        0.2631112142326006,
+        0.333541715988005
+      ],
+      "bbox_ref": "line_126_013",
+      "qid": "q-910"
+    },
+    {
+      "seq": 3882,
+      "tag": "<INPUT>",
+      "text": "1—No problems",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.47469933204401554,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_126_003",
+      "parent_qid": "q-910"
+    },
+    {
+      "seq": 3883,
+      "tag": "<INPUT>",
+      "text": "2—Slight problems",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.49268460741230086,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_126_004",
+      "parent_qid": "q-910"
+    },
+    {
+      "seq": 3884,
+      "tag": "<INPUT>",
+      "text": "3—Moderate problems",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.5180228239570568,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_126_005",
+      "parent_qid": "q-910"
+    },
+    {
+      "seq": 3885,
+      "tag": "<INPUT>",
+      "text": "4—Severe problems",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.5024934656479779,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_126_006",
+      "parent_qid": "q-910"
+    },
+    {
+      "seq": 3886,
+      "tag": "<INPUT>",
+      "text": "5—Extreme problems",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.15228579742739898,
+        0.5106552223754085,
+        0.16498110992739898
+      ],
+      "bbox_ref": "line_126_007",
+      "parent_qid": "q-910"
+    },
+    {
+      "seq": 3887,
+      "tag": "<Q>",
+      "text": "Was rVCSS completed? (VCSSYN)",
+      "page": 127,
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.527285797427399,
+        0.3924522150575725,
+        0.5485038372001263
+      ],
+      "bbox_ref": "line_126_020",
+      "qid": "q-911"
+    },
+    {
+      "seq": 3888,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 127,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.527285797427399,
+        0.3924522150575725,
+        0.5485038372001263
+      ],
+      "bbox_ref": "line_126_020",
+      "parent_qid": "q-911"
+    },
+    {
+      "seq": 3889,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 127,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.55569488833649,
+        0.38726041207905687,
+        0.56839020083649
+      ],
+      "bbox_ref": "line_126_021",
+      "parent_qid": "q-911"
+    },
+    {
+      "seq": 3890,
+      "tag": "<Q>",
+      "text": "rVCSS side (VCSSSIDE)",
+      "page": 127,
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5954676156092171,
+        0.40278510798036665,
+        0.6166856553819444
+      ],
+      "bbox_ref": "line_126_022",
+      "qid": "q-912"
+    },
+    {
+      "seq": 3891,
+      "tag": "<INPUT>",
+      "text": "Right",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5954676156092171,
+        0.40278510798036665,
+        0.6166856553819444
+      ],
+      "bbox_ref": "line_126_022",
+      "parent_qid": "q-912"
+    },
+    {
+      "seq": 3892,
+      "tag": "<INPUT>",
+      "text": "Left",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6238767065183081,
+        0.39299098494785284,
+        0.6365720190183081
+      ],
+      "bbox_ref": "line_126_023",
+      "parent_qid": "q-912"
+    },
+    {
+      "seq": 3893,
+      "tag": "<INPUT>",
+      "text": "Both",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6437630701546717,
+        0.3987162970249949,
+        0.6564583826546717
+      ],
+      "bbox_ref": "line_126_024",
+      "parent_qid": "q-912"
+    },
+    {
+      "seq": 3894,
+      "tag": "<Q>",
+      "text": "Right leg: Pain or other discomfort (ie, aching, heaviness, fatigue, soreness, burning) Presumes venous origin (RLP)",
+      "page": 127,
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-913"
+    },
+    {
+      "seq": 3895,
+      "tag": "<INPUT>",
+      "text": "0—None",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6930054943970959,
+        0.4264957203584559,
+        0.7057008068970959
+      ],
+      "bbox_ref": "line_126_026",
+      "parent_qid": "q-913"
+    },
+    {
+      "seq": 3896,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7128918580334596,
+        0.41830454309002246,
+        0.7255871705334596
+      ],
+      "bbox_ref": "line_126_027",
+      "parent_qid": "q-913"
+    },
+    {
+      "seq": 3897,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7327782216698232,
+        0.4534662782756332,
+        0.7454735341698232
+      ],
+      "bbox_ref": "line_126_028",
+      "parent_qid": "q-913"
+    },
+    {
+      "seq": 3898,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7526645853061869,
+        0.4379368701012306,
+        0.7653598978061869
+      ],
+      "bbox_ref": "line_126_029",
+      "parent_qid": "q-913"
+    },
+    {
+      "seq": 3899,
+      "tag": "<Q>",
+      "text": "Right leg: Varicose Veins “Varicose” veins must be ≥3 mm in diameter to qualify in the standing position (RLVV)",
+      "page": 127,
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-914"
+    },
+    {
+      "seq": 3900,
+      "tag": "<INPUT>",
+      "text": "0—None",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6930054943970959,
+        0.4264957203584559,
+        0.7057008068970959
+      ],
+      "bbox_ref": "line_126_026",
+      "parent_qid": "q-914"
+    },
+    {
+      "seq": 3901,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7128918580334596,
+        0.41830454309002246,
+        0.7255871705334596
+      ],
+      "bbox_ref": "line_126_027",
+      "parent_qid": "q-914"
+    },
+    {
+      "seq": 3902,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7327782216698232,
+        0.4534662782756332,
+        0.7454735341698232
+      ],
+      "bbox_ref": "line_126_028",
+      "parent_qid": "q-914"
+    },
+    {
+      "seq": 3903,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 127,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7526645853061869,
+        0.4379368701012306,
+        0.7653598978061869
+      ],
+      "bbox_ref": "line_126_029",
+      "parent_qid": "q-914"
+    },
+    {
+      "seq": 3904,
+      "tag": "<FORM>",
+      "text": "Unscheduled Visits > Visit > QOL",
+      "page": 127,
+      "bbox_xyxy": [
+        0.18724468954248366,
+        0.03675549439709596,
+        0.6991726744408701,
+        0.04945080689709596
+      ],
+      "bbox_ref": "line_126_002"
+    },
+    {
+      "seq": 3908,
+      "tag": "<SH>",
+      "text": "rVCSS",
+      "page": 127,
+      "question_below_text": "",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.4689324889520202,
+        0.12065998401517182,
+        0.48585957228535354
+      ],
+      "bbox_ref": "line_126_019"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_126_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_126_001",
+      "text": "127/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_126_002",
+      "text": "Form: Unscheduled Visits > Visit > QOL\nStudy: Inari CLOUT\nPage: 5/8",
+      "bbox": [
+        0.18724468954248366,
+        0.03675549439709596,
+        0.6991726744408701,
+        0.04945080689709596
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_126_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_001",
+      "text": "127/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_002",
+      "text": "Form: Unscheduled Visits > Visit > QOL\nStudy: Inari CLOUT\nPage: 5/8",
+      "bbox": [
+        0.18724468954248366,
+        0.03675549439709596,
+        0.6991726744408701,
+        0.04945080689709596
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_003",
+      "text": "Usual activities (EQACT)\n1—No problems",
+      "bbox": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.47469933204401554,
+        0.08543565538194445
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_004",
+      "text": "2—Slight problems",
+      "bbox": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.49268460741230086,
+        0.10532201901830808
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_005",
+      "text": "3—Moderate problems",
+      "bbox": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.5180228239570568,
+        0.1252083826546717
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_006",
+      "text": "4—Severe problems",
+      "bbox": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.5024934656479779,
+        0.14509474629103536
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_007",
+      "text": "5—Extreme problems",
+      "bbox": [
+        0.3684640522875817,
+        0.15228579742739898,
+        0.5106552223754085,
+        0.16498110992739898
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_008",
+      "text": "Pain/Discomfort (EQPAIN)\n1—No problems",
+      "bbox": [
+        0.059640522875817,
+        0.19300549439709597,
+        0.47469933204401554,
+        0.21422353416982323
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_009",
+      "text": "2—Slight problems",
+      "bbox": [
+        0.3684640522875817,
+        0.22141458530618688,
+        0.49268460741230086,
+        0.23410989780618688
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_010",
+      "text": "3—Moderate problems",
+      "bbox": [
+        0.3684640522875817,
+        0.2413009489425505,
+        0.5180228239570568,
+        0.2539962614425505
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_011",
+      "text": "4—Severe problems",
+      "bbox": [
+        0.3684640522875817,
+        0.26118731257891414,
+        0.5024934656479779,
+        0.27388262507891414
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_012",
+      "text": "5—Extreme problems",
+      "bbox": [
+        0.3684640522875817,
+        0.2810736762152778,
+        0.5106552223754085,
+        0.2937689887152778
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_013",
+      "text": "Anxiety/Depression (EQANX)",
+      "bbox": [
+        0.059640522875817,
+        0.320846403488005,
+        0.2631112142326006,
+        0.333541715988005
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_014",
+      "text": "1—No problems",
+      "bbox": [
+        0.3684640522875817,
+        0.33031610045770204,
+        0.47469933204401554,
+        0.34301141295770204
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_015",
+      "text": "2—Slight problems",
+      "bbox": [
+        0.3684640522875817,
+        0.35020246409406564,
+        0.49268460741230086,
+        0.36289777659406564
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_016",
+      "text": "3—Moderate problems",
+      "bbox": [
+        0.3684640522875817,
+        0.3700888277304293,
+        0.5180228239570568,
+        0.3827841402304293
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_017",
+      "text": "4—Severe problems",
+      "bbox": [
+        0.3684640522875817,
+        0.38997519136679293,
+        0.5024934656479779,
+        0.40267050386679293
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_018",
+      "text": "5—Extreme problems",
+      "bbox": [
+        0.3684640522875817,
+        0.4098615550031566,
+        0.5106552223754085,
+        0.4225568675031566
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_019",
+      "text": "rVCSS",
+      "bbox": [
+        0.059640522875817,
+        0.4689324889520202,
+        0.12065998401517182,
+        0.48585957228535354
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_020",
+      "text": "Was rVCSS completed? (VCSSYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.527285797427399,
+        0.3924522150575725,
+        0.5485038372001263
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_021",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.55569488833649,
+        0.38726041207905687,
+        0.56839020083649
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_022",
+      "text": "rVCSS side (VCSSSIDE)\nRight",
+      "bbox": [
+        0.059640522875817,
+        0.5954676156092171,
+        0.40278510798036665,
+        0.6166856553819444
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_023",
+      "text": "Left",
+      "bbox": [
+        0.3684640522875817,
+        0.6238767065183081,
+        0.39299098494785284,
+        0.6365720190183081
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_024",
+      "text": "Both",
+      "bbox": [
+        0.3684640522875817,
+        0.6437630701546717,
+        0.3987162970249949,
+        0.6564583826546717
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_025",
+      "text": "Right leg: Pain or other discomfort\n(ie, aching, heaviness, fatigue,\nsoreness, burning) Presumes\nvenous origin (RLP)",
+      "bbox": [
+        0.059640522875817,
+        0.6844827671243687,
+        0.3023171019709967,
+        0.7369508068970959
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_026",
+      "text": "0—None",
+      "bbox": [
+        0.3684640522875817,
+        0.6930054943970959,
+        0.4264957203584559,
+        0.7057008068970959
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_027",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.7128918580334596,
+        0.41830454309002246,
+        0.7255871705334596
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_028",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.7327782216698232,
+        0.4534662782756332,
+        0.7454735341698232
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_029",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.7526645853061869,
+        0.4379368701012306,
+        0.7653598978061869
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_030",
+      "text": "Right leg: Varicose Veins “Varicose”\nveins must be ≥3 mm in diameter to\nqualify in the standing position\n(RLVV)",
+      "bbox": [
+        0.059640522875817,
+        0.7933842822758839,
+        0.3138274897157756,
+        0.8458523220486112
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_031",
+      "text": "0—None",
+      "bbox": [
+        0.3684640522875817,
+        0.8019070095486112,
+        0.4264957203584559,
+        0.8146023220486112
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_032",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.8217933731849747,
+        0.41830454309002246,
+        0.8344886856849747
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_033",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.8416797368213383,
+        0.4534662782756332,
+        0.8543750493213383
+      ],
+      "page_num": 126
+    },
+    {
+      "line_id": "line_126_034",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.861566100457702,
+        0.4379368701012306,
+        0.874261412957702
+      ],
+      "page_num": 126
+    }
+  ],
+  "metadata": {
+    "num_questions": 7,
+    "num_inputs": 28,
+    "num_inputs_by_type": {
+      "option": 2,
+      "text": 26,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 3,
+    "num_total_lines": 35,
+    "timestamp": "2025-08-15T14:16:29.494034+00:00"
+  }
+}

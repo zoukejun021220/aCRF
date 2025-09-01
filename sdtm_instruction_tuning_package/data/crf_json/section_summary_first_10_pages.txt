@@ -1,0 +1,169 @@
+Section Assignment Summary
+==================================================
+
+
+--- Page 1 ---
+  seq1 q-000: Date of baseline visit (VSTDT)
+
+Section: Inclusion Criteria
+  seq3 q-001: Age ≥ 18 years (INC1)
+  seq6 q-002: Proximal lower extremity DVT involving the femoral, common femoral, iliac veins 
+  seq9 q-003: Willing and able to provide informed consent (INC3)
+
+Section: Exclusion Criteria
+  seq12 q-004: Prior venous stent in a TVS (EX1)
+
+Section: Inclusion Criteria
+  seq15 q-005: IVC aplasia/hypoplasia or other congenital anatomic anomalies of the IVC or ilia
+  seq18 q-006: IVC filter in place when the ClotTriever enters the patient (EX3)
+  seq21 q-007: Allergy, hypersensitivity, or thrombocytopenia from heparin or iodinated contras
+  seq24 q-008: Life expectancy less than 1 year (EX6)
+
+[SECTION HEADER: Inclusion Criteria] (seq: 28, page: 1)
+
+[SECTION HEADER: Exclusion Criteria] (seq: 29, page: 1)
+
+--- Page 2 ---
+
+Section: Exclusion Criteria
+  seq30 q-009: Chronic non-ambulatory status (EX7)
+  seq33 q-010: Known hypercoagulable states that, in the opinion of the Investigator, cannot be
+  seq36 q-011: Unavailability of a lower extremity venous access site (EX9)
+
+Section: Eligibility
+  seq39 q-012: Subject status (ELIGYN)
+  seq42 q-013: Date informed consent was signed (ICDT)
+
+Section: Demographics
+  seq44 q-014: Date of birth (DOB)
+  seq45 q-015: Gender (GEN)
+  seq48 q-016: Height and weight units (HWU)
+  seq51 q-017: Height (in) (HGHT_IN)
+  seq53 q-018: Weight (lbs) (WGHT_LBS)
+  seq55 q-019: Height (cm) (HGHT_CM)
+
+[SECTION HEADER: Eligibility] (seq: 58, page: 2)
+
+[SECTION HEADER: Informed Consent] (seq: 59, page: 2)
+
+[SECTION HEADER: Demographics] (seq: 60, page: 2)
+
+--- Page 3 ---
+  seq61 q-020: Weight (kg) (WGHT_KG)
+  seq63 q-021: BMI (kg/m2) (BMI_IMPERIAL)
+  seq65 q-022: BMI (kg/m2) (BMI_METRIC)
+  seq67 q-023: Race (select all that apply) (RACE)
+  seq75 q-024: Other race, specify (OTRACE)
+  seq77 q-025: Ethnicity (ETHNCTY)
+  seq81 q-026: Prior deep vein thrombosis (not including current) (MH_DVTYN)
+
+Section: Medical History
+  seq84 q-027: Location of DVT (select all that apply) (MH_DVTLOC)
+
+[SECTION HEADER: Medical History] (seq: 90, page: 3)
+
+--- Page 4 ---
+  seq91 q-028: Right side DVT – segments involved (select all that apply) (MH_DVTSEGR)
+  seq103 q-029: Left side DVT – segments involved (select all that apply) (MH_DVTSEGL)
+  seq115 q-030: Patient immobilized? (IMMOB)
+  seq118 q-031: Pulmonary Embolism (PE) (MH_PE)
+  seq121 q-032: Date of PE (most recent diagnosis) (MH_PEDT)
+  seq123 q-033: PE Type (MH_PEDETL)
+
+--- Page 5 ---
+  seq134 q-034: PE treated with (MH_PETRT)
+  seq140 q-035: Other, specify (MH_PETRTOT)
+  seq142 q-036: Heparin-Induced Thrombocytopenia (HIT) (MH_HIT)
+  seq145 q-037: Venous stent in place? (MH_STEN)
+  seq148 q-038: Venous stent side (MH_STENS)
+  seq152 q-039: Cerebrovascular Accident (CVA) (MH_CVA)
+  seq155 q-040: Hypercoagulable state (MH_HCS)
+  seq158 q-041: Thrombolytic or percutaneous mechanical thrombectomy (MH_THR)
+  seq161 q-042: Did thrombolytic or percutaneous mechanical thrombectomy occur in the past 3 mon
+  seq164 q-043: PMT was performed for (MH_THRTRT)
+
+--- Page 6 ---
+  seq169 q-044: Antiplatelet Agents (MAANTPT)
+  seq176 q-045: Other Antiplatelet Agents, Specify (ANTPTSP)
+  seq178 q-046: Hormonal therapy (MH_HTHE)
+  seq181 q-047: Is hormonal therapy ongoing? (MH_HTHECP)
+  seq184 q-048: Hormonal therapy, specify (MH_HTHESP)
+  seq186 q-049: Cancer (MH_CANC)
+  seq189 q-050: Active cancer (MH_CANCA)
+  seq192 q-051: Hypertension (MH_HYPT)
+  seq195 q-052: Diabetes (MH_DIAB)
+  seq198 q-053: Diabetes type (MH_DIABT)
+  seq201 q-054: Coronary artery disease (CAD) (MH_CAD)
+
+--- Page 7 ---
+  seq206 q-055: Myocardial Infarction (MI) (MH_MI)
+
+Section: None
+  seq209 q-056: Chronic obstructive pulmonary disease (COPD) (MH_COPD)
+
+Section: Medical History
+  seq212 q-057: Hyperlipidemia (MH_HYPL)
+  seq215 q-058: Renal disease (MH_RENAL)
+  seq218 q-059: On dialysis (MH_DIAL)
+  seq221 q-060: Tobacco use (MH_TOB)
+  seq224 q-061: Tobacco use current or prior (MH_TOBCP)
+
+Section: None
+  seq227 q-062: COVID-19 Status at Screening (MH_CVD)
+  seq231 q-063: If positive, date of positive test (MH_CVD_DT)
+  seq233 q-064: Recent surgery (<30 days) (MH_SURG)
+  seq236 q-065: Recent surgery, specify (MH_SURGSP)
+  seq238 q-066: Congenital/acquired venous anomaly (MH_CVANOM)
+
+[SECTION HEADER: Medical History] (seq: 242, page: 7)
+
+[SECTION HEADER: Medical History] (seq: 243, page: 7)
+
+[SECTION HEADER: Medical History] (seq: 244, page: 7)
+
+[SECTION HEADER: Medical History] (seq: 245, page: 7)
+
+[SECTION HEADER: Medical History] (seq: 246, page: 7)
+
+[SECTION HEADER: Medical History] (seq: 247, page: 7)
+
+[SECTION HEADER: Medical History] (seq: 248, page: 7)
+
+[SECTION HEADER: Medical History] (seq: 249, page: 7)
+
+[SECTION HEADER: Medical History] (seq: 250, page: 7)
+
+[SECTION HEADER: Medical History] (seq: 251, page: 7)
+
+[SECTION HEADER: Medical History] (seq: 252, page: 7)
+
+[SECTION HEADER: Medical History] (seq: 253, page: 7)
+
+--- Page 8 ---
+
+Section: Medical History
+  seq254 q-067: Congenital/acquired venous anomaly, specify (MH_CVANOMSPE)
+  seq256 q-068: Contraindicated for thrombolysis (CITHR)
+  seq259 q-069: Contraindication (CITHRTYP)
+  seq262 q-070: Absolute contraindication for thrombolysis, specify (CITHRSPE_ABS)
+  seq270 q-071: Contraindication for thrombolysis, specify (CITHRSPE1)
+  seq281 q-072: Inferior vena cava (IVC) filter in place? (MH_FILT)
+
+--- Page 9 ---
+  seq290 q-073: Was edema assessment completed? (FU_PHYS)
+
+Section: Quality of Life
+  seq293 q-074: CEAP side (CEAPSIDE)
+  seq297 q-075: Right — CEAP score (RCEAP)
+  seq307 q-076: Left — CEAP score (LCEAP)
+
+Section: None
+  seq317 q-077: Were 1 or more additional quality of life (QOL) measures collected? (QOLYN)
+
+[SECTION HEADER: Quality of Life] (seq: 321, page: 9)
+
+--- Page 10 ---
+
+Section: Quality of Life
+  seq322 q-078: Anticoagulation form completed?
+  seq325 q-079: Clinical labs form completed?

@@ -1,0 +1,100 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_138.json",
+  "page_id": 138,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "SAE criteria (AE_SAYRS)",
+      "annotation": "AESDTH / AESLIFE / AESDISAB / AESCONG / AESHOSP / AESMIE",
+      "domain": "AE",
+      "pattern": "multiple_variables",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Phase (AE_PHASE)",
+      "annotation": "PHASE in SUPPAE",
+      "domain": "AE",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "annotation": "MAEYN in SUPPAE",
+      "domain": "AE",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "MAE criteria (AE_MAECRIT)",
+      "annotation": "MAECRIT in SUPPAE",
+      "domain": "AE",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Bleeding? (AE_BLEED)",
+      "annotation": "BLEED in SUPPAE",
+      "domain": "AE",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Was there a new DVT outside of the TVS? (AE_NDVT)",
+      "annotation": "DVT in SUPPAE",
+      "domain": "AE",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Was there a reintervention associated with this event? (AE_REINT)",
+      "annotation": "REINT in SUPPAE",
+      "domain": "AE",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-008",
+      "seq": 8,
+      "text": "Was the subject withdrawn from the study as a result of this event? (AE_EWDR)",
+      "annotation": "EWDR in SUPPAE",
+      "domain": "AE",
+      "pattern": "supplemental_single",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    }
+  ],
+  "summary": {
+    "total_items": 8,
+    "annotated": 8,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

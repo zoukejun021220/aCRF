@@ -1,0 +1,996 @@
+{
+  "page_id": 89,
+  "items": [
+    {
+      "seq": 2711,
+      "tag": "<Q>",
+      "text": "Balloon angioplasty (EVALTVS_PTAYN)",
+      "page": 90,
+      "form": "FUP-6 Months > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-647"
+    },
+    {
+      "seq": 2712,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 90,
+      "input_type": "option",
+      "form": "FUP-6 Months > Eval",
+      "section": "Percutaneous Mechanical Thrombectomy",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421268347537878,
+        0.3924522150575725,
+        0.09016557173295454
+      ],
+      "bbox_ref": "line_089_003",
+      "parent_qid": "q-647"
+    },
+    {
+      "seq": 2713,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 90,
+      "input_type": "option",
+      "form": "FUP-6 Months > Eval",
+      "section": "Balloon Angioplasty",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.0926217743844697,
+        0.38726041207905687,
+        0.1053170868844697
+      ],
+      "bbox_ref": "line_089_004",
+      "parent_qid": "q-647"
+    },
+    {
+      "seq": 2714,
+      "tag": "<Q>",
+      "text": "Venous stenting (EVALTVS_STENTYN)",
+      "page": 90,
+      "form": "FUP-6 Months > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-648"
+    },
+    {
+      "seq": 2715,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 90,
+      "input_type": "option",
+      "form": "FUP-6 Months > Eval",
+      "section": "Percutaneous Mechanical Thrombectomy",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421268347537878,
+        0.3924522150575725,
+        0.09016557173295454
+      ],
+      "bbox_ref": "line_089_003",
+      "parent_qid": "q-648"
+    },
+    {
+      "seq": 2716,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 90,
+      "input_type": "option",
+      "form": "FUP-6 Months > Eval",
+      "section": "Balloon Angioplasty",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.0926217743844697,
+        0.38726041207905687,
+        0.1053170868844697
+      ],
+      "bbox_ref": "line_089_004",
+      "parent_qid": "q-648"
+    },
+    {
+      "seq": 2717,
+      "tag": "<Q>",
+      "text": "Number of venous stents used (ADJ_STENTNUM)",
+      "page": 90,
+      "form": "FUP-6 Months > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-649"
+    },
+    {
+      "seq": 2718,
+      "tag": "<INPUT>",
+      "text": "_______________",
+      "page": 90,
+      "input_type": "text",
+      "form": "FUP-6 Months > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-649"
+    },
+    {
+      "seq": 2719,
+      "tag": "<Q>",
+      "text": "Description of venous stents used (type & size) (ADJ_STENTDESC)",
+      "page": 90,
+      "form": "FUP-6 Months > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-650"
+    },
+    {
+      "seq": 2720,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 90,
+      "input_type": "text",
+      "form": "FUP-6 Months > Eval",
+      "section": "Description of Venous Stents Used",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.25550056226325757,
+        0.3877015705981286,
+        0.26819587476325757
+      ],
+      "bbox_ref": "line_089_009",
+      "parent_qid": "q-650"
+    },
+    {
+      "seq": 2721,
+      "tag": "<Q>",
+      "text": "Catheter-Directed Thrombolysis (CDT) (EVALTVS_CDT)",
+      "page": 90,
+      "form": "FUP-6 Months > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-651"
+    },
+    {
+      "seq": 2722,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 90,
+      "input_type": "option",
+      "form": "FUP-6 Months > Eval",
+      "section": "Percutaneous Mechanical Thrombectomy",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421268347537878,
+        0.3924522150575725,
+        0.09016557173295454
+      ],
+      "bbox_ref": "line_089_003",
+      "parent_qid": "q-651"
+    },
+    {
+      "seq": 2723,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 90,
+      "input_type": "option",
+      "form": "FUP-6 Months > Eval",
+      "section": "Balloon Angioplasty",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.0926217743844697,
+        0.38726041207905687,
+        0.1053170868844697
+      ],
+      "bbox_ref": "line_089_004",
+      "parent_qid": "q-651"
+    },
+    {
+      "seq": 2724,
+      "tag": "<Q>",
+      "text": "Catheter-Directed Thrombolysis (CDT), provide details (EVALTVS_CDTSPE)",
+      "page": 90,
+      "form": "FUP-6 Months > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-652"
+    },
+    {
+      "seq": 2725,
+      "tag": "<INPUT>",
+      "text": "0/400",
+      "page": 90,
+      "input_type": "text",
+      "form": "FUP-6 Months > Eval",
+      "section": "Catheter-Directed Thrombolysis",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.4145914713541667,
+        0.3795251036001966,
+        0.4272867838541667
+      ],
+      "bbox_ref": "line_089_013",
+      "parent_qid": "q-652"
+    },
+    {
+      "seq": 2726,
+      "tag": "<Q>",
+      "text": "Percutaneous Mechanical Thrombectomy (PMT) (EVALTVS_PMT)",
+      "page": 90,
+      "form": "FUP-6 Months > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-653"
+    },
+    {
+      "seq": 2727,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 90,
+      "input_type": "option",
+      "form": "FUP-6 Months > Eval",
+      "section": "Percutaneous Mechanical Thrombectomy",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421268347537878,
+        0.3924522150575725,
+        0.09016557173295454
+      ],
+      "bbox_ref": "line_089_003",
+      "parent_qid": "q-653"
+    },
+    {
+      "seq": 2728,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 90,
+      "input_type": "option",
+      "form": "FUP-6 Months > Eval",
+      "section": "Balloon Angioplasty",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.0926217743844697,
+        0.38726041207905687,
+        0.1053170868844697
+      ],
+      "bbox_ref": "line_089_004",
+      "parent_qid": "q-653"
+    },
+    {
+      "seq": 2729,
+      "tag": "<Q>",
+      "text": "If yes, specify device used (EVALTVS_PMTSPE)",
+      "page": 90,
+      "form": "FUP-6 Months > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-654"
+    },
+    {
+      "seq": 2730,
+      "tag": "<INPUT>",
+      "text": "0/400",
+      "page": 90,
+      "input_type": "text",
+      "form": "FUP-6 Months > Eval",
+      "section": "Catheter-Directed Thrombolysis",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.4145914713541667,
+        0.3795251036001966,
+        0.4272867838541667
+      ],
+      "bbox_ref": "line_089_013",
+      "parent_qid": "q-654"
+    },
+    {
+      "seq": 2731,
+      "tag": "<Q>",
+      "text": "Were lytics used? (EVALTVS_PMTLYT)",
+      "page": 90,
+      "form": "FUP-6 Months > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-655"
+    },
+    {
+      "seq": 2732,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 90,
+      "input_type": "option",
+      "form": "FUP-6 Months > Eval",
+      "section": "Percutaneous Mechanical Thrombectomy",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421268347537878,
+        0.3924522150575725,
+        0.09016557173295454
+      ],
+      "bbox_ref": "line_089_003",
+      "parent_qid": "q-655"
+    },
+    {
+      "seq": 2733,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 90,
+      "input_type": "option",
+      "form": "FUP-6 Months > Eval",
+      "section": "Balloon Angioplasty",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.0926217743844697,
+        0.38726041207905687,
+        0.1053170868844697
+      ],
+      "bbox_ref": "line_089_004",
+      "parent_qid": "q-655"
+    },
+    {
+      "seq": 2734,
+      "tag": "<Q>",
+      "text": "Other procedures (EVALTVS_OTHPRO)",
+      "page": 90,
+      "form": "FUP-6 Months > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-656"
+    },
+    {
+      "seq": 2735,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 90,
+      "input_type": "option",
+      "form": "FUP-6 Months > Eval",
+      "section": "Percutaneous Mechanical Thrombectomy",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421268347537878,
+        0.3924522150575725,
+        0.09016557173295454
+      ],
+      "bbox_ref": "line_089_003",
+      "parent_qid": "q-656"
+    },
+    {
+      "seq": 2736,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 90,
+      "input_type": "option",
+      "form": "FUP-6 Months > Eval",
+      "section": "Balloon Angioplasty",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.0926217743844697,
+        0.38726041207905687,
+        0.1053170868844697
+      ],
+      "bbox_ref": "line_089_004",
+      "parent_qid": "q-656"
+    },
+    {
+      "seq": 2737,
+      "tag": "<Q>",
+      "text": "Other procedures, specify (EVALTVS_PROCOTHSP)",
+      "page": 90,
+      "form": "FUP-6 Months > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-657"
+    },
+    {
+      "seq": 2738,
+      "tag": "<INPUT>",
+      "text": "0/400",
+      "page": 90,
+      "input_type": "text",
+      "form": "FUP-6 Months > Eval",
+      "section": "Catheter-Directed Thrombolysis",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.4145914713541667,
+        0.3795251036001966,
+        0.4272867838541667
+      ],
+      "bbox_ref": "line_089_013",
+      "parent_qid": "q-657"
+    },
+    {
+      "seq": 2739,
+      "tag": "<FORM>",
+      "text": "FUP-6 Months > Eval",
+      "page": 90,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    },
+    {
+      "seq": 2740,
+      "tag": "<SH>",
+      "text": "Balloon Angioplasty",
+      "page": 90,
+      "question_below_text": "Balloon angioplasty (EVALTVS_PTAYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421268347537878,
+        0.3924522150575725,
+        0.09016557173295454
+      ],
+      "bbox_ref": "line_089_003"
+    },
+    {
+      "seq": 2741,
+      "tag": "<SH>",
+      "text": "Venous Stenting",
+      "page": 90,
+      "question_below_text": "Venous stenting (EVALTVS_STENTYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.13334147135416666,
+        0.3924522150575725,
+        0.15929435961174243
+      ],
+      "bbox_ref": "line_089_005"
+    },
+    {
+      "seq": 2742,
+      "tag": "<SH>",
+      "text": "Number of Venous Stents Used",
+      "page": 90,
+      "question_below_text": "Number of venous stents used (ADJ_STENTNUM)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.20152328953598486,
+        0.27454992057451233,
+        0.2274761777935606
+      ],
+      "bbox_ref": "line_089_007"
+    },
+    {
+      "seq": 2743,
+      "tag": "<SH>",
+      "text": "Description of Venous Stents Used",
+      "page": 90,
+      "question_below_text": "Description of venous stents used (type & size) (ADJ_STENTDESC)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.2517126834753788,
+        0.29988816205193014,
+        0.27766557173295453
+      ],
+      "bbox_ref": "line_089_008"
+    },
+    {
+      "seq": 2744,
+      "tag": "<SH>",
+      "text": "Catheter-Directed Thrombolysis",
+      "page": 90,
+      "question_below_text": "Catheter-Directed Thrombolysis (CDT) (EVALTVS_CDT)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3416748046875,
+        0.3924522150575725,
+        0.36762769294507575
+      ],
+      "bbox_ref": "line_089_010"
+    },
+    {
+      "seq": 2745,
+      "tag": "<SH>",
+      "text": "Catheter-Directed Thrombolysis",
+      "page": 90,
+      "question_below_text": "Catheter-Directed Thrombolysis (CDT), provide details (EVALTVS_CDTSPE)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3416748046875,
+        0.3924522150575725,
+        0.36762769294507575
+      ],
+      "bbox_ref": "line_089_010"
+    },
+    {
+      "seq": 2746,
+      "tag": "<SH>",
+      "text": "Percutaneous Mechanical Thrombectomy",
+      "page": 90,
+      "question_below_text": "Percutaneous Mechanical Thrombectomy (PMT) (EVALTVS_PMT)",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    },
+    {
+      "seq": 2747,
+      "tag": "<SH>",
+      "text": "If yes, specify device used",
+      "page": 90,
+      "question_below_text": "If yes, specify device used (EVALTVS_PMTSPE)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5689475319602273,
+        0.24437344619651247,
+        0.594900420217803
+      ],
+      "bbox_ref": "line_089_017"
+    },
+    {
+      "seq": 2748,
+      "tag": "<SH>",
+      "text": "Were lytics used?",
+      "page": 90,
+      "question_below_text": "Were lytics used? (EVALTVS_PMTLYT)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6589096531723485,
+        0.3924522150575725,
+        0.6848625414299242
+      ],
+      "bbox_ref": "line_089_019"
+    },
+    {
+      "seq": 2749,
+      "tag": "<SH>",
+      "text": "Other Procedures",
+      "page": 90,
+      "question_below_text": "Other procedures (EVALTVS_OTHPRO)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7270914713541666,
+        0.3924522150575725,
+        0.7530443596117424
+      ],
+      "bbox_ref": "line_089_021"
+    },
+    {
+      "seq": 2750,
+      "tag": "<SH>",
+      "text": "Other Procedures",
+      "page": 90,
+      "question_below_text": "Other procedures, specify (EVALTVS_PROCOTHSP)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7270914713541666,
+        0.3924522150575725,
+        0.7530443596117424
+      ],
+      "bbox_ref": "line_089_021"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_089_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_089_001",
+      "text": "90/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_089_002",
+      "text": "Form: FUP–6 Months > Eval\nStudy: Inari CLOUT\nPage: 3/3",
+      "bbox": [
+        0.22397109885620914,
+        0.036750562263257576,
+        0.6624462152618209,
+        0.049445874763257576
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_089_012",
+      "text": "Catheter-Directed Thrombolysis\n(CDT), provide details\n(EVALTVS_CDTSPE)",
+      "bbox": [
+        0.059640522875817,
+        0.4098566228693182,
+        0.2835398156658497,
+        0.4490670868844697
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_089_014",
+      "text": "Percutaneous Mechanical\nThrombectomy (PMT)\n(EVALTVS_PMT)",
+      "bbox": [
+        0.059640522875817,
+        0.4998187440814394,
+        0.24025569242589614,
+        0.5390292080965909
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_089_023",
+      "text": "Other procedures, specify\n(EVALTVS_PROCOTHSP)",
+      "bbox": [
+        0.059640522875817,
+        0.7962202592329546,
+        0.24189274607141034,
+        0.8221731474905303
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_089_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_001",
+      "text": "90/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_002",
+      "text": "Form: FUP–6 Months > Eval\nStudy: Inari CLOUT\nPage: 3/3",
+      "bbox": [
+        0.22397109885620914,
+        0.036750562263257576,
+        0.6624462152618209,
+        0.049445874763257576
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_003",
+      "text": "Balloon angioplasty\n(EVALTVS_PTAYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.06421268347537878,
+        0.3924522150575725,
+        0.09016557173295454
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_004",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.0926217743844697,
+        0.38726041207905687,
+        0.1053170868844697
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_005",
+      "text": "Venous stenting\n(EVALTVS_STENTYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.13334147135416666,
+        0.3924522150575725,
+        0.15929435961174243
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_006",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.16175056226325757,
+        0.38726041207905687,
+        0.17444587476325757
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_007",
+      "text": "Number of venous stents used\n(ADJ_STENTNUM)",
+      "bbox": [
+        0.059640522875817,
+        0.20152328953598486,
+        0.27454992057451233,
+        0.2274761777935606
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_008",
+      "text": "Description of venous stents used\n(type & size) (ADJ_STENTDESC)",
+      "bbox": [
+        0.059640522875817,
+        0.2517126834753788,
+        0.29988816205193014,
+        0.27766557173295453
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_009",
+      "text": "0/2500",
+      "bbox": [
+        0.34272875816993464,
+        0.25550056226325757,
+        0.3877015705981286,
+        0.26819587476325757
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_010",
+      "text": "Catheter-Directed Thrombolysis\n(CDT) (EVALTVS_CDT)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.3416748046875,
+        0.3924522150575725,
+        0.36762769294507575
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_011",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.3700838955965909,
+        0.38726041207905687,
+        0.3827792080965909
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_012",
+      "text": "Catheter-Directed Thrombolysis\n(CDT), provide details\n(EVALTVS_CDTSPE)",
+      "bbox": [
+        0.059640522875817,
+        0.4098566228693182,
+        0.2835398156658497,
+        0.4490670868844697
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_013",
+      "text": "0/400",
+      "bbox": [
+        0.34272875816993464,
+        0.4145914713541667,
+        0.3795251036001966,
+        0.4272867838541667
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_014",
+      "text": "Percutaneous Mechanical\nThrombectomy (PMT)\n(EVALTVS_PMT)",
+      "bbox": [
+        0.059640522875817,
+        0.4998187440814394,
+        0.24025569242589614,
+        0.5390292080965909
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_015",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.5083414713541666,
+        0.3924522150575725,
+        0.5210367838541666
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_016",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.5282278349905303,
+        0.38726041207905687,
+        0.5409231474905303
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_017",
+      "text": "If yes, specify device used\n(EVALTVS_PMTSPE)",
+      "bbox": [
+        0.059640522875817,
+        0.5689475319602273,
+        0.24437344619651247,
+        0.594900420217803
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_018",
+      "text": "0/400",
+      "bbox": [
+        0.34272875816993464,
+        0.5727354107481061,
+        0.3795251036001966,
+        0.5854307232481061
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_019",
+      "text": "Were lytics used?\n(EVALTVS_PMTLYT)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.6589096531723485,
+        0.3924522150575725,
+        0.6848625414299242
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_020",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.6873187440814394,
+        0.38726041207905687,
+        0.7000140565814394
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_021",
+      "text": "Other procedures\n(EVALTVS_OTHPRO)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.7270914713541666,
+        0.3924522150575725,
+        0.7530443596117424
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_022",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.7555005622632576,
+        0.38726041207905687,
+        0.7681958747632576
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_023",
+      "text": "Other procedures, specify\n(EVALTVS_PROCOTHSP)",
+      "bbox": [
+        0.059640522875817,
+        0.7962202592329546,
+        0.24189274607141034,
+        0.8221731474905303
+      ],
+      "page_num": 89
+    },
+    {
+      "line_id": "line_089_024",
+      "text": "0/400",
+      "bbox": [
+        0.34272875816993464,
+        0.8000081380208334,
+        0.3795251036001966,
+        0.8127034505208334
+      ],
+      "page_num": 89
+    }
+  ],
+  "metadata": {
+    "num_questions": 11,
+    "num_inputs": 17,
+    "num_inputs_by_type": {
+      "option": 12,
+      "text": 5,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 11,
+    "num_supplemental": 6,
+    "num_total_lines": 25,
+    "timestamp": "2025-08-15T13:59:41.815225+00:00"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_013.json",
+  "page_id": 13,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Left — Pain (LPAIN)",
+      "annotation": "QS.QSCAT = LEFT, QS.QSTESTCD = LPAIN",
+      "domain": "QS",
+      "pattern": "direct, variable_with_ct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Left — Cramps (LCRAM)",
+      "annotation": "QS.QSCAT = LEFT, QS.QSTESTCD = LCRAM",
+      "domain": "QS",
+      "pattern": "direct, variable_with_ct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Left — Heaviness (LHEAV)",
+      "annotation": "QS.QSCAT = LEFT, QS.QSTESTCD = LHEAV",
+      "domain": "QS",
+      "pattern": "direct, variable_with_ct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Left — Paresthesia (LPARES)",
+      "annotation": "QS.QSCAT = LEFT, QS.QSTESTCD = LPARES",
+      "domain": "QS",
+      "pattern": "direct, variable_with_ct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Left — Pruritis (LPRUR)",
+      "annotation": "QS.QSCAT = LEFT, QS.QSTESTCD = LPRUR",
+      "domain": "QS",
+      "pattern": "direct, variable_with_ct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Left — Pretibial edema (LEDEMA)",
+      "annotation": "QS.QSCAT = LEFT, QS.QSTESTCD = LEDEMA",
+      "domain": "QS",
+      "pattern": "direct, variable_with_ct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Left — Skin induration (LSKIN)",
+      "annotation": "QS.QSCAT = LEFT, QS.QSTESTCD = LSKIN",
+      "domain": "QS",
+      "pattern": "direct, variable_with_ct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-008",
+      "seq": 8,
+      "text": "Left — Hyperpigmentation (LPIGM)",
+      "annotation": "QS.QSCAT = LEFT, QS.QSTESTCD = LPIGM",
+      "domain": "QS",
+      "pattern": "direct, variable_with_ct",
+      "confidence": 1,
+      "valid": true,
+      "requires_separate_annotations": false
+    }
+  ],
+  "summary": {
+    "total_items": 8,
+    "annotated": 8,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

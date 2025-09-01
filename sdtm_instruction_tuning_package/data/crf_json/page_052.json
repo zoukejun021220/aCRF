@@ -1,0 +1,376 @@
+{
+  "page_id": 52,
+  "items": [
+    {
+      "seq": 1576,
+      "tag": "<Q>",
+      "text": "Model number of device (SHEATH_MOD)",
+      "page": 53,
+      "form": "Procedure > Treatment > ClotTriever Sheath",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-388"
+    },
+    {
+      "seq": 1577,
+      "tag": "<INPUT>",
+      "text": "50-101",
+      "page": 53,
+      "input_type": "text",
+      "form": "Procedure > Treatment > ClotTriever Sheath",
+      "section": "Procedure > Treatment > ClotTriever Sheath",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11155623619002525,
+        0.41424570519939746,
+        0.13750912444760102
+      ],
+      "bbox_ref": "line_052_004",
+      "parent_qid": "q-388"
+    },
+    {
+      "seq": 1578,
+      "tag": "<INPUT>",
+      "text": "50-102",
+      "page": 53,
+      "input_type": "text",
+      "form": "Procedure > Treatment > ClotTriever Sheath",
+      "section": "Procedure > Treatment > ClotTriever Sheath",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13996532709911616,
+        0.41424570519939746,
+        0.15266063959911616
+      ],
+      "bbox_ref": "line_052_005",
+      "parent_qid": "q-388"
+    },
+    {
+      "seq": 1579,
+      "tag": "<INPUT>",
+      "text": "51-101",
+      "page": 53,
+      "input_type": "text",
+      "form": "Procedure > Treatment > ClotTriever Sheath",
+      "section": "Procedure > Treatment > ClotTriever Sheath",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.1598516907354798,
+        0.41424570519939746,
+        0.1725470032354798
+      ],
+      "bbox_ref": "line_052_006",
+      "parent_qid": "q-388"
+    },
+    {
+      "seq": 1580,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 53,
+      "input_type": "text",
+      "form": "Procedure > Treatment > ClotTriever Sheath",
+      "section": "Procedure > Treatment > ClotTriever Sheath",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.17973805437184343,
+        0.40524356817108353,
+        0.19243336687184343
+      ],
+      "bbox_ref": "line_052_007",
+      "parent_qid": "q-388"
+    },
+    {
+      "seq": 1581,
+      "tag": "<Q>",
+      "text": "Model number of device, specify (SHEATH_MODSP)",
+      "page": 53,
+      "form": "Procedure > Treatment > ClotTriever Sheath",
+      "section": "Procedure > Treatment > ClotTriever Sheath",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-389"
+    },
+    {
+      "seq": 1582,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 53,
+      "input_type": "text",
+      "form": "Procedure > Treatment > ClotTriever Sheath",
+      "section": "Procedure > Treatment > ClotTriever Sheath",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.2242456301294192,
+        0.3877015705981286,
+        0.2369409426294192
+      ],
+      "bbox_ref": "line_052_009",
+      "parent_qid": "q-389"
+    },
+    {
+      "seq": 1583,
+      "tag": "<Q>",
+      "text": "Lot number of device (SHEATH_LOT)",
+      "page": 53,
+      "form": "Procedure > Treatment > ClotTriever Sheath",
+      "section": "Procedure > Treatment > ClotTriever Sheath",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-390"
+    },
+    {
+      "seq": 1584,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 53,
+      "input_type": "text",
+      "form": "Procedure > Treatment > ClotTriever Sheath",
+      "section": "Procedure > Treatment > ClotTriever Sheath",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.2242456301294192,
+        0.3877015705981286,
+        0.2369409426294192
+      ],
+      "bbox_ref": "line_052_009",
+      "parent_qid": "q-390"
+    },
+    {
+      "seq": 1585,
+      "tag": "<FORM>",
+      "text": "Procedure > Treatment > ClotTriever Sheath",
+      "page": 53,
+      "bbox_xyxy": [
+        0.15074805964052287,
+        0.03674563012941919,
+        0.7356693043428308,
+        0.04944094262941919
+      ],
+      "bbox_ref": "line_052_002"
+    },
+    {
+      "seq": 1586,
+      "tag": "<SH>",
+      "text": "Procedure > Treatment > ClotTriever Sheath",
+      "page": 53,
+      "question_below_text": "Model number of device (SHEATH_MOD)",
+      "bbox_xyxy": [
+        0.15074805964052287,
+        0.03674563012941919,
+        0.7356693043428308,
+        0.04944094262941919
+      ],
+      "bbox_ref": "line_052_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_052_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_052_001",
+      "text": "53/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_052_002",
+      "text": "Form: Procedure > Treatment > ClotTriever Sheath\nStudy: Inari CLOUT\nPage: 1/1",
+      "bbox": [
+        0.15074805964052287,
+        0.03674563012941919,
+        0.7356693043428308,
+        0.04944094262941919
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_052_003",
+      "text": "Procedure > Treatment > ClotTriever Sheath",
+      "bbox": [
+        0.151437397875817,
+        0.06528418955176768,
+        0.7643854477826286,
+        0.09067481455176768
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_052_008",
+      "text": "Model number of device, specify\n(SHEATH_MODSP)",
+      "bbox": [
+        0.059640522875817,
+        0.22045775134154041,
+        0.28683391895169524,
+        0.24641063959911616
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_052_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 52
+    },
+    {
+      "line_id": "line_052_001",
+      "text": "53/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 52
+    },
+    {
+      "line_id": "line_052_002",
+      "text": "Form: Procedure > Treatment > ClotTriever Sheath\nStudy: Inari CLOUT\nPage: 1/1",
+      "bbox": [
+        0.15074805964052287,
+        0.03674563012941919,
+        0.7356693043428308,
+        0.04944094262941919
+      ],
+      "page_num": 52
+    },
+    {
+      "line_id": "line_052_003",
+      "text": "Procedure > Treatment > ClotTriever Sheath",
+      "bbox": [
+        0.151437397875817,
+        0.06528418955176768,
+        0.7643854477826286,
+        0.09067481455176768
+      ],
+      "page_num": 52
+    },
+    {
+      "line_id": "line_052_004",
+      "text": "Model number of device\n(SHEATH_MOD)\n50-101",
+      "bbox": [
+        0.059640522875817,
+        0.11155623619002525,
+        0.41424570519939746,
+        0.13750912444760102
+      ],
+      "page_num": 52
+    },
+    {
+      "line_id": "line_052_005",
+      "text": "50-102",
+      "bbox": [
+        0.3684640522875817,
+        0.13996532709911616,
+        0.41424570519939746,
+        0.15266063959911616
+      ],
+      "page_num": 52
+    },
+    {
+      "line_id": "line_052_006",
+      "text": "51-101",
+      "bbox": [
+        0.3684640522875817,
+        0.1598516907354798,
+        0.41424570519939746,
+        0.1725470032354798
+      ],
+      "page_num": 52
+    },
+    {
+      "line_id": "line_052_007",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.17973805437184343,
+        0.40524356817108353,
+        0.19243336687184343
+      ],
+      "page_num": 52
+    },
+    {
+      "line_id": "line_052_008",
+      "text": "Model number of device, specify\n(SHEATH_MODSP)",
+      "bbox": [
+        0.059640522875817,
+        0.22045775134154041,
+        0.28683391895169524,
+        0.24641063959911616
+      ],
+      "page_num": 52
+    },
+    {
+      "line_id": "line_052_009",
+      "text": "0/2500",
+      "bbox": [
+        0.34272875816993464,
+        0.2242456301294192,
+        0.3877015705981286,
+        0.2369409426294192
+      ],
+      "page_num": 52
+    },
+    {
+      "line_id": "line_052_010",
+      "text": "Lot number of device\n(SHEATH_LOT)\n0/2500",
+      "bbox": [
+        0.059640522875817,
+        0.30947290285669193,
+        0.3877015705981286,
+        0.3354257911142677
+      ],
+      "page_num": 52
+    }
+  ],
+  "metadata": {
+    "num_questions": 3,
+    "num_inputs": 6,
+    "num_inputs_by_type": {
+      "option": 0,
+      "text": 6,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 5,
+    "num_total_lines": 11,
+    "timestamp": "2025-08-15T13:42:43.491085+00:00"
+  }
+}

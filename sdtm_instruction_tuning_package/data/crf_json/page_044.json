@@ -1,0 +1,801 @@
+{
+  "page_id": 44,
+  "items": [
+    {
+      "seq": 1341,
+      "tag": "<Q>",
+      "text": "Single session treatment (PROC_SST)",
+      "page": 45,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-335"
+    },
+    {
+      "seq": 1342,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 45,
+      "input_type": "option",
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.14185926649305555,
+        0.3924522150575725,
+        0.16781215475063133
+      ],
+      "bbox_ref": "line_044_004",
+      "parent_qid": "q-335"
+    },
+    {
+      "seq": 1343,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 45,
+      "input_type": "option",
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.17026835740214646,
+        0.38726041207905687,
+        0.18296366990214646
+      ],
+      "bbox_ref": "line_044_005",
+      "parent_qid": "q-335"
+    },
+    {
+      "seq": 1344,
+      "tag": "<Q>",
+      "text": "If no, describe (PROC_SST_REAS)",
+      "page": 45,
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.21004108467487373,
+        0.3877015705981286,
+        0.2265242759627525
+      ],
+      "bbox_ref": "line_044_006",
+      "qid": "q-336"
+    },
+    {
+      "seq": 1345,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 45,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.21004108467487373,
+        0.3877015705981286,
+        0.2265242759627525
+      ],
+      "bbox_ref": "line_044_006",
+      "parent_qid": "q-336"
+    },
+    {
+      "seq": 1346,
+      "tag": "<Q>",
+      "text": "If not, was the multi-staged procedure planned? (PROC_SST_MP)",
+      "page": 45,
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-337"
+    },
+    {
+      "seq": 1347,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 45,
+      "input_type": "option",
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.14185926649305555,
+        0.3924522150575725,
+        0.16781215475063133
+      ],
+      "bbox_ref": "line_044_004",
+      "parent_qid": "q-337"
+    },
+    {
+      "seq": 1348,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 45,
+      "input_type": "option",
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.17026835740214646,
+        0.38726041207905687,
+        0.18296366990214646
+      ],
+      "bbox_ref": "line_044_005",
+      "parent_qid": "q-337"
+    },
+    {
+      "seq": 1349,
+      "tag": "<Q>",
+      "text": "Fluoro time (min) (PROC_FLTIME)",
+      "page": 45,
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3691319937657828,
+        0.29628225089677795,
+        0.3818273062657828
+      ],
+      "bbox_ref": "line_044_010",
+      "qid": "q-338"
+    },
+    {
+      "seq": 1350,
+      "tag": "<INPUT>",
+      "text": "_______________________",
+      "page": 45,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-338"
+    },
+    {
+      "seq": 1351,
+      "tag": "<Q>",
+      "text": "Did the subject require conversion to open surgery? (PROC_OPENSURG)",
+      "page": 45,
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-339"
+    },
+    {
+      "seq": 1352,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 45,
+      "input_type": "option",
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.14185926649305555,
+        0.3924522150575725,
+        0.16781215475063133
+      ],
+      "bbox_ref": "line_044_004",
+      "parent_qid": "q-339"
+    },
+    {
+      "seq": 1353,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 45,
+      "input_type": "option",
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.17026835740214646,
+        0.38726041207905687,
+        0.18296366990214646
+      ],
+      "bbox_ref": "line_044_005",
+      "parent_qid": "q-339"
+    },
+    {
+      "seq": 1354,
+      "tag": "<Q>",
+      "text": "Was blood transfused? (PROC_BLOOD)",
+      "page": 45,
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-340"
+    },
+    {
+      "seq": 1355,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 45,
+      "input_type": "option",
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.14185926649305555,
+        0.3924522150575725,
+        0.16781215475063133
+      ],
+      "bbox_ref": "line_044_004",
+      "parent_qid": "q-340"
+    },
+    {
+      "seq": 1356,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 45,
+      "input_type": "option",
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.17026835740214646,
+        0.38726041207905687,
+        0.18296366990214646
+      ],
+      "bbox_ref": "line_044_005",
+      "parent_qid": "q-340"
+    },
+    {
+      "seq": 1357,
+      "tag": "<Q>",
+      "text": "Amount of blood transfused (units) (PROC_BLOODVOL)",
+      "page": 45,
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-341"
+    },
+    {
+      "seq": 1358,
+      "tag": "<INPUT>",
+      "text": "_______________________",
+      "page": 45,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-341"
+    },
+    {
+      "seq": 1359,
+      "tag": "<Q>",
+      "text": "Estimated blood loss (mL) (PROC_BLOODLOSML)",
+      "page": 45,
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-342"
+    },
+    {
+      "seq": 1360,
+      "tag": "<INPUT>",
+      "text": "_______________________",
+      "page": 45,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-342"
+    },
+    {
+      "seq": 1361,
+      "tag": "<Q>",
+      "text": "Did you update the Anticoagulation forms? (PROC_ANTIYN)",
+      "page": 45,
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-343"
+    },
+    {
+      "seq": 1362,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 45,
+      "input_type": "option",
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.14185926649305555,
+        0.3924522150575725,
+        0.16781215475063133
+      ],
+      "bbox_ref": "line_044_004",
+      "parent_qid": "q-343"
+    },
+    {
+      "seq": 1363,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 45,
+      "input_type": "option",
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.17026835740214646,
+        0.38726041207905687,
+        0.18296366990214646
+      ],
+      "bbox_ref": "line_044_005",
+      "parent_qid": "q-343"
+    },
+    {
+      "seq": 1364,
+      "tag": "<Q>",
+      "text": "Were there any intra-procedure adverse events? (PROC_AEYN)",
+      "page": 45,
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-344"
+    },
+    {
+      "seq": 1365,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 45,
+      "input_type": "option",
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.14185926649305555,
+        0.3924522150575725,
+        0.16781215475063133
+      ],
+      "bbox_ref": "line_044_004",
+      "parent_qid": "q-344"
+    },
+    {
+      "seq": 1366,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 45,
+      "input_type": "option",
+      "form": "Procedure",
+      "section": "Procedure Summary",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.17026835740214646,
+        0.38726041207905687,
+        0.18296366990214646
+      ],
+      "bbox_ref": "line_044_005",
+      "parent_qid": "q-344"
+    },
+    {
+      "seq": 1367,
+      "tag": "<FORM>",
+      "text": "Procedure",
+      "page": 45,
+      "bbox_xyxy": [
+        0.2617698120915033,
+        0.03674563012941919,
+        0.6246475020265267,
+        0.04944094262941919
+      ],
+      "bbox_ref": "line_044_002"
+    },
+    {
+      "seq": 1368,
+      "tag": "<SH>",
+      "text": "Procedure Summary",
+      "page": 45,
+      "question_below_text": "Single session treatment (PROC_SST)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.08350595801767677,
+        0.2514278187471278,
+        0.1004330413510101
+      ],
+      "bbox_ref": "line_044_003"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_044_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_044_001",
+      "text": "45/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_044_002",
+      "text": "Form: Procedure\nStudy: Inari CLOUT\nPage: 9/9",
+      "bbox": [
+        0.2617698120915033,
+        0.03674563012941919,
+        0.6246475020265267,
+        0.04944094262941919
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_044_003",
+      "text": "Procedure Summary",
+      "bbox": [
+        0.059640522875817,
+        0.08350595801767677,
+        0.2514278187471278,
+        0.1004330413510101
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_044_011",
+      "text": "Did the subject require conversion\nto open surgery?\n(PROC_OPENSURG)",
+      "bbox": [
+        0.059640522875817,
+        0.41837441800820707,
+        0.3015351887621911,
+        0.45758488202335856
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_044_016",
+      "text": "Amount of blood transfused (units)\n(PROC_BLOODVOL)",
+      "bbox": [
+        0.059640522875817,
+        0.5566319937657829,
+        0.3055524140401603,
+        0.5825848820233586
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_044_017",
+      "text": "Estimated blood loss (mL)\n(PROC_BLOODLOSML)",
+      "bbox": [
+        0.059640522875817,
+        0.6058744180082071,
+        0.243493572559232,
+        0.6318273062657829
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_044_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 44
+    },
+    {
+      "line_id": "line_044_001",
+      "text": "45/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 44
+    },
+    {
+      "line_id": "line_044_002",
+      "text": "Form: Procedure\nStudy: Inari CLOUT\nPage: 9/9",
+      "bbox": [
+        0.2617698120915033,
+        0.03674563012941919,
+        0.6246475020265267,
+        0.04944094262941919
+      ],
+      "page_num": 44
+    },
+    {
+      "line_id": "line_044_003",
+      "text": "Procedure Summary",
+      "bbox": [
+        0.059640522875817,
+        0.08350595801767677,
+        0.2514278187471278,
+        0.1004330413510101
+      ],
+      "page_num": 44
+    },
+    {
+      "line_id": "line_044_004",
+      "text": "Single session treatment\n(PROC_SST)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.14185926649305555,
+        0.3924522150575725,
+        0.16781215475063133
+      ],
+      "page_num": 44
+    },
+    {
+      "line_id": "line_044_005",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.17026835740214646,
+        0.38726041207905687,
+        0.18296366990214646
+      ],
+      "page_num": 44
+    },
+    {
+      "line_id": "line_044_006",
+      "text": "If no, describe (PROC_SST_REAS)\n0/2500",
+      "bbox": [
+        0.059640522875817,
+        0.21004108467487373,
+        0.3877015705981286,
+        0.2265242759627525
+      ],
+      "page_num": 44
+    },
+    {
+      "line_id": "line_044_007",
+      "text": "If not, was the multi-staged\nprocedure planned?\n(PROC_SST_MP)",
+      "bbox": [
+        0.059640522875817,
+        0.300003205886995,
+        0.24921170402975643,
+        0.33921366990214646
+      ],
+      "page_num": 44
+    },
+    {
+      "line_id": "line_044_008",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.3085259331597222,
+        0.3924522150575725,
+        0.3212212456597222
+      ],
+      "page_num": 44
+    },
+    {
+      "line_id": "line_044_009",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.32841229679608586,
+        0.38726041207905687,
+        0.34110760929608586
+      ],
+      "page_num": 44
+    },
+    {
+      "line_id": "line_044_010",
+      "text": "Fluoro time (min) (PROC_FLTIME)",
+      "bbox": [
+        0.059640522875817,
+        0.3691319937657828,
+        0.29628225089677795,
+        0.3818273062657828
+      ],
+      "page_num": 44
+    },
+    {
+      "line_id": "line_044_011",
+      "text": "Did the subject require conversion\nto open surgery?\n(PROC_OPENSURG)",
+      "bbox": [
+        0.059640522875817,
+        0.41837441800820707,
+        0.3015351887621911,
+        0.45758488202335856
+      ],
+      "page_num": 44
+    },
+    {
+      "line_id": "line_044_012",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.42689714528093436,
+        0.3924522150575725,
+        0.43959245778093436
+      ],
+      "page_num": 44
+    },
+    {
+      "line_id": "line_044_013",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.44678350891729796,
+        0.38726041207905687,
+        0.45947882141729796
+      ],
+      "page_num": 44
+    },
+    {
+      "line_id": "line_044_014",
+      "text": "Was blood transfused?\n(PROC_BLOOD)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.487503205886995,
+        0.3924522150575725,
+        0.5134560941445707
+      ],
+      "page_num": 44
+    },
+    {
+      "line_id": "line_044_015",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.5159122967960859,
+        0.38726041207905687,
+        0.5286076092960859
+      ],
+      "page_num": 44
+    },
+    {
+      "line_id": "line_044_016",
+      "text": "Amount of blood transfused (units)\n(PROC_BLOODVOL)",
+      "bbox": [
+        0.059640522875817,
+        0.5566319937657829,
+        0.3055524140401603,
+        0.5825848820233586
+      ],
+      "page_num": 44
+    },
+    {
+      "line_id": "line_044_017",
+      "text": "Estimated blood loss (mL)\n(PROC_BLOODLOSML)",
+      "bbox": [
+        0.059640522875817,
+        0.6058744180082071,
+        0.243493572559232,
+        0.6318273062657829
+      ],
+      "page_num": 44
+    },
+    {
+      "line_id": "line_044_018",
+      "text": "Did you update the Anticoagulation\nforms? (PROC_ANTIYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.656063811947601,
+        0.3924522150575725,
+        0.6820167002051768
+      ],
+      "page_num": 44
+    },
+    {
+      "line_id": "line_044_019",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.6844729028566919,
+        0.38726041207905687,
+        0.6971682153566919
+      ],
+      "page_num": 44
+    },
+    {
+      "line_id": "line_044_020",
+      "text": "Were there any intra-procedure\nadverse events? (PROC_AEYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.7251925998263888,
+        0.3924522150575725,
+        0.7511454880839646
+      ],
+      "page_num": 44
+    },
+    {
+      "line_id": "line_044_021",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.7536016907354798,
+        0.38726041207905687,
+        0.7662970032354798
+      ],
+      "page_num": 44
+    }
+  ],
+  "metadata": {
+    "num_questions": 10,
+    "num_inputs": 16,
+    "num_inputs_by_type": {
+      "option": 12,
+      "text": 4,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 7,
+    "num_total_lines": 22,
+    "timestamp": "2025-08-15T13:39:23.437828+00:00"
+  }
+}

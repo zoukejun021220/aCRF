@@ -1,0 +1,1056 @@
+{
+  "page_id": 97,
+  "items": [
+    {
+      "seq": 2954,
+      "tag": "<Q>",
+      "text": "Usual activities (EQACT)",
+      "page": 98,
+      "form": "FUP-1 Year > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.47469933204401554,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_097_003",
+      "qid": "q-707"
+    },
+    {
+      "seq": 2955,
+      "tag": "<INPUT>",
+      "text": "1—No problems",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.47469933204401554,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_097_003",
+      "parent_qid": "q-707"
+    },
+    {
+      "seq": 2956,
+      "tag": "<INPUT>",
+      "text": "2—Slight problems",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.49268460741230086,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_097_004",
+      "parent_qid": "q-707"
+    },
+    {
+      "seq": 2957,
+      "tag": "<INPUT>",
+      "text": "3—Moderate problems",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.5180228239570568,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_097_005",
+      "parent_qid": "q-707"
+    },
+    {
+      "seq": 2958,
+      "tag": "<INPUT>",
+      "text": "4—Severe problems",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.5024934656479779,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_097_006",
+      "parent_qid": "q-707"
+    },
+    {
+      "seq": 2959,
+      "tag": "<INPUT>",
+      "text": "5—Extreme problems",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.15228579742739898,
+        0.5106552223754085,
+        0.16498110992739898
+      ],
+      "bbox_ref": "line_097_007",
+      "parent_qid": "q-707"
+    },
+    {
+      "seq": 2960,
+      "tag": "<Q>",
+      "text": "Pain/Discomfort (EQPAIN)",
+      "page": 98,
+      "form": "FUP-1 Year > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.19300549439709597,
+        0.47469933204401554,
+        0.21422353416982323
+      ],
+      "bbox_ref": "line_097_008",
+      "qid": "q-708"
+    },
+    {
+      "seq": 2961,
+      "tag": "<INPUT>",
+      "text": "1—No problems",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.47469933204401554,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_097_003",
+      "parent_qid": "q-708"
+    },
+    {
+      "seq": 2962,
+      "tag": "<INPUT>",
+      "text": "2—Slight problems",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.49268460741230086,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_097_004",
+      "parent_qid": "q-708"
+    },
+    {
+      "seq": 2963,
+      "tag": "<INPUT>",
+      "text": "3—Moderate problems",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.5180228239570568,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_097_005",
+      "parent_qid": "q-708"
+    },
+    {
+      "seq": 2964,
+      "tag": "<INPUT>",
+      "text": "4—Severe problems",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.5024934656479779,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_097_006",
+      "parent_qid": "q-708"
+    },
+    {
+      "seq": 2965,
+      "tag": "<INPUT>",
+      "text": "5—Extreme problems",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.15228579742739898,
+        0.5106552223754085,
+        0.16498110992739898
+      ],
+      "bbox_ref": "line_097_007",
+      "parent_qid": "q-708"
+    },
+    {
+      "seq": 2966,
+      "tag": "<Q>",
+      "text": "Anxiety/Depression (EQANX)",
+      "page": 98,
+      "form": "FUP-1 Year > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.320846403488005,
+        0.2631112142326006,
+        0.333541715988005
+      ],
+      "bbox_ref": "line_097_013",
+      "qid": "q-709"
+    },
+    {
+      "seq": 2967,
+      "tag": "<INPUT>",
+      "text": "1—No problems",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.47469933204401554,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_097_003",
+      "parent_qid": "q-709"
+    },
+    {
+      "seq": 2968,
+      "tag": "<INPUT>",
+      "text": "2—Slight problems",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.49268460741230086,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_097_004",
+      "parent_qid": "q-709"
+    },
+    {
+      "seq": 2969,
+      "tag": "<INPUT>",
+      "text": "3—Moderate problems",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.5180228239570568,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_097_005",
+      "parent_qid": "q-709"
+    },
+    {
+      "seq": 2970,
+      "tag": "<INPUT>",
+      "text": "4—Severe problems",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.5024934656479779,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_097_006",
+      "parent_qid": "q-709"
+    },
+    {
+      "seq": 2971,
+      "tag": "<INPUT>",
+      "text": "5—Extreme problems",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "EQ-5D",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.15228579742739898,
+        0.5106552223754085,
+        0.16498110992739898
+      ],
+      "bbox_ref": "line_097_007",
+      "parent_qid": "q-709"
+    },
+    {
+      "seq": 2972,
+      "tag": "<Q>",
+      "text": "Was rVCSS completed? (VCSSYN)",
+      "page": 98,
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.527285797427399,
+        0.3924522150575725,
+        0.5485038372001263
+      ],
+      "bbox_ref": "line_097_020",
+      "qid": "q-710"
+    },
+    {
+      "seq": 2973,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 98,
+      "input_type": "option",
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.527285797427399,
+        0.3924522150575725,
+        0.5485038372001263
+      ],
+      "bbox_ref": "line_097_020",
+      "parent_qid": "q-710"
+    },
+    {
+      "seq": 2974,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 98,
+      "input_type": "option",
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.55569488833649,
+        0.38726041207905687,
+        0.56839020083649
+      ],
+      "bbox_ref": "line_097_021",
+      "parent_qid": "q-710"
+    },
+    {
+      "seq": 2975,
+      "tag": "<Q>",
+      "text": "rVCSS side (VCSSSIDE)",
+      "page": 98,
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5954676156092171,
+        0.40278510798036665,
+        0.6166856553819444
+      ],
+      "bbox_ref": "line_097_022",
+      "qid": "q-711"
+    },
+    {
+      "seq": 2976,
+      "tag": "<INPUT>",
+      "text": "Right",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5954676156092171,
+        0.40278510798036665,
+        0.6166856553819444
+      ],
+      "bbox_ref": "line_097_022",
+      "parent_qid": "q-711"
+    },
+    {
+      "seq": 2977,
+      "tag": "<INPUT>",
+      "text": "Left",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6238767065183081,
+        0.39299098494785284,
+        0.6365720190183081
+      ],
+      "bbox_ref": "line_097_023",
+      "parent_qid": "q-711"
+    },
+    {
+      "seq": 2978,
+      "tag": "<INPUT>",
+      "text": "Both",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6437630701546717,
+        0.3987162970249949,
+        0.6564583826546717
+      ],
+      "bbox_ref": "line_097_024",
+      "parent_qid": "q-711"
+    },
+    {
+      "seq": 2979,
+      "tag": "<Q>",
+      "text": "Right leg: Pain or other discomfort (ie, aching, heaviness, fatigue, soreness, burning) Presumes venous origin (RLP)",
+      "page": 98,
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-712"
+    },
+    {
+      "seq": 2980,
+      "tag": "<INPUT>",
+      "text": "0—None",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6930054943970959,
+        0.4264957203584559,
+        0.7057008068970959
+      ],
+      "bbox_ref": "line_097_026",
+      "parent_qid": "q-712"
+    },
+    {
+      "seq": 2981,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7128918580334596,
+        0.41830454309002246,
+        0.7255871705334596
+      ],
+      "bbox_ref": "line_097_027",
+      "parent_qid": "q-712"
+    },
+    {
+      "seq": 2982,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7327782216698232,
+        0.4534662782756332,
+        0.7454735341698232
+      ],
+      "bbox_ref": "line_097_028",
+      "parent_qid": "q-712"
+    },
+    {
+      "seq": 2983,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7526645853061869,
+        0.4379368701012306,
+        0.7653598978061869
+      ],
+      "bbox_ref": "line_097_029",
+      "parent_qid": "q-712"
+    },
+    {
+      "seq": 2984,
+      "tag": "<Q>",
+      "text": "Right leg: Varicose Veins “Varicose” veins must be ≥3 mm in diameter to qualify in the standing position (RLVV)",
+      "page": 98,
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-713"
+    },
+    {
+      "seq": 2985,
+      "tag": "<INPUT>",
+      "text": "0—None",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6930054943970959,
+        0.4264957203584559,
+        0.7057008068970959
+      ],
+      "bbox_ref": "line_097_026",
+      "parent_qid": "q-713"
+    },
+    {
+      "seq": 2986,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7128918580334596,
+        0.41830454309002246,
+        0.7255871705334596
+      ],
+      "bbox_ref": "line_097_027",
+      "parent_qid": "q-713"
+    },
+    {
+      "seq": 2987,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7327782216698232,
+        0.4534662782756332,
+        0.7454735341698232
+      ],
+      "bbox_ref": "line_097_028",
+      "parent_qid": "q-713"
+    },
+    {
+      "seq": 2988,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 98,
+      "input_type": "text",
+      "form": "FUP-1 Year > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7526645853061869,
+        0.4379368701012306,
+        0.7653598978061869
+      ],
+      "bbox_ref": "line_097_029",
+      "parent_qid": "q-713"
+    },
+    {
+      "seq": 2989,
+      "tag": "<FORM>",
+      "text": "FUP-1 Year > QOL",
+      "page": 98,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    },
+    {
+      "seq": 2993,
+      "tag": "<SH>",
+      "text": "rVCSS",
+      "page": 98,
+      "question_below_text": "",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.4689324889520202,
+        0.12065998401517182,
+        0.48585957228535354
+      ],
+      "bbox_ref": "line_097_019"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_097_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_097_001",
+      "text": "98/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_097_002",
+      "text": "Form: FUP–1 Year > QOL\nStudy: Inari CLOUT\nPage: 5/8",
+      "bbox": [
+        0.23201337826797386,
+        0.03675549439709596,
+        0.6544230841343699,
+        0.04945080689709596
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_097_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_001",
+      "text": "98/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_002",
+      "text": "Form: FUP–1 Year > QOL\nStudy: Inari CLOUT\nPage: 5/8",
+      "bbox": [
+        0.23201337826797386,
+        0.03675549439709596,
+        0.6544230841343699,
+        0.04945080689709596
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_003",
+      "text": "Usual activities (EQACT)\n1—No problems",
+      "bbox": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.47469933204401554,
+        0.08543565538194445
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_004",
+      "text": "2—Slight problems",
+      "bbox": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.49268460741230086,
+        0.10532201901830808
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_005",
+      "text": "3—Moderate problems",
+      "bbox": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.5180228239570568,
+        0.1252083826546717
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_006",
+      "text": "4—Severe problems",
+      "bbox": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.5024934656479779,
+        0.14509474629103536
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_007",
+      "text": "5—Extreme problems",
+      "bbox": [
+        0.3684640522875817,
+        0.15228579742739898,
+        0.5106552223754085,
+        0.16498110992739898
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_008",
+      "text": "Pain/Discomfort (EQPAIN)\n1—No problems",
+      "bbox": [
+        0.059640522875817,
+        0.19300549439709597,
+        0.47469933204401554,
+        0.21422353416982323
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_009",
+      "text": "2—Slight problems",
+      "bbox": [
+        0.3684640522875817,
+        0.22141458530618688,
+        0.49268460741230086,
+        0.23410989780618688
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_010",
+      "text": "3—Moderate problems",
+      "bbox": [
+        0.3684640522875817,
+        0.2413009489425505,
+        0.5180228239570568,
+        0.2539962614425505
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_011",
+      "text": "4—Severe problems",
+      "bbox": [
+        0.3684640522875817,
+        0.26118731257891414,
+        0.5024934656479779,
+        0.27388262507891414
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_012",
+      "text": "5—Extreme problems",
+      "bbox": [
+        0.3684640522875817,
+        0.2810736762152778,
+        0.5106552223754085,
+        0.2937689887152778
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_013",
+      "text": "Anxiety/Depression (EQANX)",
+      "bbox": [
+        0.059640522875817,
+        0.320846403488005,
+        0.2631112142326006,
+        0.333541715988005
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_014",
+      "text": "1—No problems",
+      "bbox": [
+        0.3684640522875817,
+        0.33031610045770204,
+        0.47469933204401554,
+        0.34301141295770204
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_015",
+      "text": "2—Slight problems",
+      "bbox": [
+        0.3684640522875817,
+        0.35020246409406564,
+        0.49268460741230086,
+        0.36289777659406564
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_016",
+      "text": "3—Moderate problems",
+      "bbox": [
+        0.3684640522875817,
+        0.3700888277304293,
+        0.5180228239570568,
+        0.3827841402304293
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_017",
+      "text": "4—Severe problems",
+      "bbox": [
+        0.3684640522875817,
+        0.38997519136679293,
+        0.5024934656479779,
+        0.40267050386679293
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_018",
+      "text": "5—Extreme problems",
+      "bbox": [
+        0.3684640522875817,
+        0.4098615550031566,
+        0.5106552223754085,
+        0.4225568675031566
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_019",
+      "text": "rVCSS",
+      "bbox": [
+        0.059640522875817,
+        0.4689324889520202,
+        0.12065998401517182,
+        0.48585957228535354
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_020",
+      "text": "Was rVCSS completed? (VCSSYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.527285797427399,
+        0.3924522150575725,
+        0.5485038372001263
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_021",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.55569488833649,
+        0.38726041207905687,
+        0.56839020083649
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_022",
+      "text": "rVCSS side (VCSSSIDE)\nRight",
+      "bbox": [
+        0.059640522875817,
+        0.5954676156092171,
+        0.40278510798036665,
+        0.6166856553819444
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_023",
+      "text": "Left",
+      "bbox": [
+        0.3684640522875817,
+        0.6238767065183081,
+        0.39299098494785284,
+        0.6365720190183081
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_024",
+      "text": "Both",
+      "bbox": [
+        0.3684640522875817,
+        0.6437630701546717,
+        0.3987162970249949,
+        0.6564583826546717
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_025",
+      "text": "Right leg: Pain or other discomfort\n(ie, aching, heaviness, fatigue,\nsoreness, burning) Presumes\nvenous origin (RLP)",
+      "bbox": [
+        0.059640522875817,
+        0.6844827671243687,
+        0.3023171019709967,
+        0.7369508068970959
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_026",
+      "text": "0—None",
+      "bbox": [
+        0.3684640522875817,
+        0.6930054943970959,
+        0.4264957203584559,
+        0.7057008068970959
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_027",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.7128918580334596,
+        0.41830454309002246,
+        0.7255871705334596
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_028",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.7327782216698232,
+        0.4534662782756332,
+        0.7454735341698232
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_029",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.7526645853061869,
+        0.4379368701012306,
+        0.7653598978061869
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_030",
+      "text": "Right leg: Varicose Veins “Varicose”\nveins must be ≥3 mm in diameter to\nqualify in the standing position\n(RLVV)",
+      "bbox": [
+        0.059640522875817,
+        0.7933842822758839,
+        0.3138274897157756,
+        0.8458523220486112
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_031",
+      "text": "0—None",
+      "bbox": [
+        0.3684640522875817,
+        0.8019070095486112,
+        0.4264957203584559,
+        0.8146023220486112
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_032",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.8217933731849747,
+        0.41830454309002246,
+        0.8344886856849747
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_033",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.8416797368213383,
+        0.4534662782756332,
+        0.8543750493213383
+      ],
+      "page_num": 97
+    },
+    {
+      "line_id": "line_097_034",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.861566100457702,
+        0.4379368701012306,
+        0.874261412957702
+      ],
+      "page_num": 97
+    }
+  ],
+  "metadata": {
+    "num_questions": 7,
+    "num_inputs": 28,
+    "num_inputs_by_type": {
+      "option": 2,
+      "text": 26,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 3,
+    "num_total_lines": 35,
+    "timestamp": "2025-08-15T14:03:10.806620+00:00"
+  }
+}

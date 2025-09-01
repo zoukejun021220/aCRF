@@ -1,0 +1,28 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_057.json",
+  "page_id": 57,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Were there any adverse events since the index procedure? (DISCH_AEYN)",
+      "annotation": "[NOT SUBMITTED]",
+      "domain": "AE",
+      "pattern": "not_submitted",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": true,
+      "question_annotation": "[NOT SUBMITTED]",
+      "option_annotations": {
+        "Yes": "[NOT SUBMITTED]",
+        "No": ""
+      }
+    }
+  ],
+  "summary": {
+    "total_items": 1,
+    "annotated": 1,
+    "not_submitted": 1,
+    "errors": 0
+  }
+}

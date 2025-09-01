@@ -1,0 +1,122 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_004.json",
+  "page_id": 4,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "PE treated with (MH_PETRT)",
+      "annotation": "PPRRESP = Y | PRTRT | Note: for PPRRESP = Y, if selected then PROCCUR = Y, otherwise N",
+      "domain": "PR, MH",
+      "pattern": "multiple_variables, direct",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Other, specify (MH_PETRTOT)",
+      "annotation": "PRTRT",
+      "domain": "MH",
+      "pattern": "direct",
+      "confidence": 0.8,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Heparin-Induced Thrombocytopenia (HIT) (MH_HIT)",
+      "annotation": "Question: MHTERM | Option 'Yes': MHOCCUR | Option 'No': MHOCCUR",
+      "domain": "MH",
+      "pattern": "multiple_response_checkboxes, variable_with_ct",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Venous stent in place? (MH_STEN)",
+      "annotation": "PRTRT | Option 'Yes': PROCCUR | Option 'No': PROCCUR",
+      "domain": "PR, MH",
+      "pattern": "multiple_response_checkboxes, variable_with_ct",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Venous stent side (MH_STENS)",
+      "annotation": "PRLOC = VENOUS | PRLAT",
+      "domain": "PR, MH",
+      "pattern": "direct, multiple_variables",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Cerebrovascular Accident (CVA) (MH_CVA)",
+      "annotation": "MHTERM | Option 'Yes': MHOCCUR | Option 'No': MHOCCUR",
+      "domain": "MH",
+      "pattern": "multiple_response_checkboxes, variable_with_ct",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Hypercoagulable state (MH_HCS)",
+      "annotation": "MHTERM | Option 'Yes': MHOCCUR | Option 'No': MHOCCUR",
+      "domain": "MH",
+      "pattern": "multiple_response_checkboxes, variable_with_ct",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-008",
+      "seq": 8,
+      "text": "Thrombolytic or percutaneous mechanical thrombectomy (MH_THR)",
+      "annotation": "PRTRT | Option 'Yes': PROCCUR | Option 'No': PROCCUR",
+      "domain": "PR, MH",
+      "pattern": "multiple_response_checkboxes, variable_with_ct",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-009",
+      "seq": 9,
+      "text": "Did thrombolytic or percutaneous mechanical thrombectomy occur in the past 3 months? (MH_THR3M)",
+      "annotation": "Option 'Yes': PRENRTPT = AFTER | Option 'No': PRENRTPT = BEFORE | PRENRTPT = 3 MONTHS BEFORE BASELINE",
+      "domain": "MH",
+      "pattern": "conditional_multiple, derived",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-010",
+      "seq": 10,
+      "text": "PMT was performed for (MH_THRTRT)",
+      "annotation": "PRREAS in SUPPR",
+      "domain": "PR, MH",
+      "pattern": "supplemental_single",
+      "confidence": 0.8,
+      "valid": false,
+      "requires_separate_annotations": false
+    }
+  ],
+  "summary": {
+    "total_items": 10,
+    "annotated": 10,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

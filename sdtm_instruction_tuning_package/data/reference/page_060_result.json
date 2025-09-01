@@ -1,0 +1,89 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_060.json",
+  "page_id": 60,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Location of rethrombosis (EVALTVS_RETHROM_LOC)",
+      "annotation": "FAORRES = Y when FATEST = SEGRVL, SEGGVL, SEGCFL, SEGEGFL, SEGGFFL, SEDGPFL, SEGCRFFL, SEGCAFFL, SEGPOFL",
+      "domain": "FA",
+      "pattern": "conditional_single",
+      "confidence": 0.95,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Were there any reinterventions performed on the TVS? (EVALTVS_REINTYN)",
+      "annotation": "FAORRES when FATESTCD = OCCURR",
+      "domain": "FA",
+      "pattern": "conditional_single",
+      "confidence": 0.9,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Reintervention date (EVALTVS_DATE)",
+      "annotation": "FAORRES when FATESTCD = REINDATE",
+      "domain": "FA",
+      "pattern": "conditional_single",
+      "confidence": 0.9,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Reintervention description (EVALTVS_DESC)",
+      "annotation": "FAORRES when FATESTCD = REINDES",
+      "domain": "FA",
+      "pattern": "conditional_single",
+      "confidence": 0.9,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Was venogram performed? (EVALTVS_VENYN)",
+      "annotation": "NOT SUBMITTED | SSDAT = 'NOT DONE' when FATESTCD = VENESIF",
+      "domain": "FA, SS",
+      "pattern": "not_submitted, conditional_single",
+      "confidence": 0.9,
+      "valid": true,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Thrombus load (EVALTVS_THROM1)",
+      "annotation": "RSORRES when RSTEST = VENTL",
+      "domain": "RS",
+      "pattern": "conditional_single",
+      "confidence": 0.9,
+      "valid": true,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Was venogram sent to Core Lab? (EVALTVS_VENCL)",
+      "annotation": "VENCL in SUPPRS",
+      "domain": "RS",
+      "pattern": "supplemental_single",
+      "confidence": 0.9,
+      "valid": true,
+      "requires_separate_annotations": false
+    }
+  ],
+  "summary": {
+    "total_items": 7,
+    "annotated": 7,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

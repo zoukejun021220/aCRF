@@ -1,0 +1,1051 @@
+{
+  "page_id": 47,
+  "items": [
+    {
+      "seq": 1441,
+      "tag": "<Q>",
+      "text": "Based on the venogram, select all locations treated with ClotTriever (POST_VENLOC)",
+      "page": 48,
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-355"
+    },
+    {
+      "seq": 1442,
+      "tag": "<INPUT>",
+      "text": "Common iliac",
+      "page": 48,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.07273047861426768,
+        0.4562973820306117,
+        0.08542579111426768
+      ],
+      "bbox_ref": "line_047_004",
+      "parent_qid": "q-355"
+    },
+    {
+      "seq": 1443,
+      "tag": "<INPUT>",
+      "text": "Internal iliac",
+      "page": 48,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.09261684225063131,
+        0.4456944185144761,
+        0.10531215475063131
+      ],
+      "bbox_ref": "line_047_005",
+      "parent_qid": "q-355"
+    },
+    {
+      "seq": 1444,
+      "tag": "<INPUT>",
+      "text": "External iliac",
+      "page": 48,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.11250320588699494,
+        0.45059149249706393,
+        0.12519851838699494
+      ],
+      "bbox_ref": "line_047_006",
+      "parent_qid": "q-355"
+    },
+    {
+      "seq": 1445,
+      "tag": "<INPUT>",
+      "text": "Common femoral",
+      "page": 48,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.1323895695233586,
+        0.4800057006038092,
+        0.1450848820233586
+      ],
+      "bbox_ref": "line_047_007",
+      "parent_qid": "q-355"
+    },
+    {
+      "seq": 1446,
+      "tag": "<INPUT>",
+      "text": "Deep femoral",
+      "page": 48,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.1522759331597222,
+        0.45550572015101615,
+        0.1649712456597222
+      ],
+      "bbox_ref": "line_047_008",
+      "parent_qid": "q-355"
+    },
+    {
+      "seq": 1447,
+      "tag": "<INPUT>",
+      "text": "Cranial Femoral",
+      "page": 48,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.17216229679608586,
+        0.47182928347120096,
+        0.18485760929608586
+      ],
+      "bbox_ref": "line_047_009",
+      "parent_qid": "q-355"
+    },
+    {
+      "seq": 1448,
+      "tag": "<INPUT>",
+      "text": "Caudal Femoral",
+      "page": 48,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.1920486604324495,
+        0.4718439438763787,
+        0.2047439729324495
+      ],
+      "bbox_ref": "line_047_010",
+      "parent_qid": "q-355"
+    },
+    {
+      "seq": 1449,
+      "tag": "<INPUT>",
+      "text": "Popliteal",
+      "page": 48,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.21193502406881312,
+        0.42363808825125104,
+        0.22463033656881312
+      ],
+      "bbox_ref": "line_047_011",
+      "parent_qid": "q-355"
+    },
+    {
+      "seq": 1450,
+      "tag": "<INPUT>",
+      "text": "IVC (Inferior Vena Cava)",
+      "page": 48,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.23182138770517677,
+        0.5274266760333691,
+        0.24451670020517677
+      ],
+      "bbox_ref": "line_047_012",
+      "parent_qid": "q-355"
+    },
+    {
+      "seq": 1451,
+      "tag": "<Q>",
+      "text": "Post-ClotTriever thrombus load (TREAT_VENTL1)",
+      "page": 48,
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-356"
+    },
+    {
+      "seq": 1452,
+      "tag": "<INPUT>",
+      "text": "All available clot/≤10%",
+      "page": 48,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.27254108467487376,
+        0.5154810886757046,
+        0.2984939729324495
+      ],
+      "bbox_ref": "line_047_013",
+      "parent_qid": "q-356"
+    },
+    {
+      "seq": 1453,
+      "tag": "<INPUT>",
+      "text": "11 to 20%",
+      "page": 48,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.30095017558396464,
+        0.43359773922589867,
+        0.31364548808396464
+      ],
+      "bbox_ref": "line_047_014",
+      "parent_qid": "q-356"
+    },
+    {
+      "seq": 1454,
+      "tag": "<INPUT>",
+      "text": "21 to 30%",
+      "page": 48,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.3208365392203283,
+        0.43468699735753674,
+        0.3335318517203283
+      ],
+      "bbox_ref": "line_047_015",
+      "parent_qid": "q-356"
+    },
+    {
+      "seq": 1455,
+      "tag": "<INPUT>",
+      "text": "31 to 40%",
+      "page": 48,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.34072290285669193,
+        0.43468699735753674,
+        0.35341821535669193
+      ],
+      "bbox_ref": "line_047_016",
+      "parent_qid": "q-356"
+    },
+    {
+      "seq": 1456,
+      "tag": "<INPUT>",
+      "text": "41 to 50%",
+      "page": 48,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.3606092664930556,
+        0.43468699735753674,
+        0.3733045789930556
+      ],
+      "bbox_ref": "line_047_017",
+      "parent_qid": "q-356"
+    },
+    {
+      "seq": 1457,
+      "tag": "<INPUT>",
+      "text": "51 to 60%",
+      "page": 48,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.38049563012941917,
+        0.43468699735753674,
+        0.39319094262941917
+      ],
+      "bbox_ref": "line_047_018",
+      "parent_qid": "q-356"
+    },
+    {
+      "seq": 1458,
+      "tag": "<INPUT>",
+      "text": "61 to 70%",
+      "page": 48,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4003819937657828,
+        0.43468699735753674,
+        0.4130773062657828
+      ],
+      "bbox_ref": "line_047_019",
+      "parent_qid": "q-356"
+    },
+    {
+      "seq": 1459,
+      "tag": "<INPUT>",
+      "text": "71 to 80%",
+      "page": 48,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.42026835740214646,
+        0.43468699735753674,
+        0.43296366990214646
+      ],
+      "bbox_ref": "line_047_020",
+      "parent_qid": "q-356"
+    },
+    {
+      "seq": 1460,
+      "tag": "<INPUT>",
+      "text": "81 to 90%",
+      "page": 48,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4401547210385101,
+        0.43468699735753674,
+        0.4528500335385101
+      ],
+      "bbox_ref": "line_047_021",
+      "parent_qid": "q-356"
+    },
+    {
+      "seq": 1461,
+      "tag": "<INPUT>",
+      "text": "91 to 99%",
+      "page": 48,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.46004108467487376,
+        0.43468699735753674,
+        0.47273639717487376
+      ],
+      "bbox_ref": "line_047_022",
+      "parent_qid": "q-356"
+    },
+    {
+      "seq": 1462,
+      "tag": "<INPUT>",
+      "text": "100%/Occluded",
+      "page": 48,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.47992744831123735,
+        0.4722750794653799,
+        0.49262276081123735
+      ],
+      "bbox_ref": "line_047_023",
+      "parent_qid": "q-356"
+    },
+    {
+      "seq": 1463,
+      "tag": "<Q>",
+      "text": "Did you get all available clot? (POST_AVCLOT)",
+      "page": 48,
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-357"
+    },
+    {
+      "seq": 1464,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 48,
+      "input_type": "option",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5197001755839646,
+        0.3924522150575725,
+        0.5456530638415404
+      ],
+      "bbox_ref": "line_047_024",
+      "parent_qid": "q-357"
+    },
+    {
+      "seq": 1465,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 48,
+      "input_type": "option",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5490562361900253,
+        0.38726041207905687,
+        0.5617515486900253
+      ],
+      "bbox_ref": "line_047_025",
+      "parent_qid": "q-357"
+    },
+    {
+      "seq": 1466,
+      "tag": "<Q>",
+      "text": "Was the IVUS performed post procedure? (POST_IVUS)",
+      "page": 48,
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-358"
+    },
+    {
+      "seq": 1467,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 48,
+      "input_type": "option",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5197001755839646,
+        0.3924522150575725,
+        0.5456530638415404
+      ],
+      "bbox_ref": "line_047_024",
+      "parent_qid": "q-358"
+    },
+    {
+      "seq": 1468,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 48,
+      "input_type": "option",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5490562361900253,
+        0.38726041207905687,
+        0.5617515486900253
+      ],
+      "bbox_ref": "line_047_025",
+      "parent_qid": "q-358"
+    },
+    {
+      "seq": 1469,
+      "tag": "<Q>",
+      "text": "Were venous obstructions/compressions intervened upon? (POST_VOB)",
+      "page": 48,
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-359"
+    },
+    {
+      "seq": 1470,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 48,
+      "input_type": "option",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5197001755839646,
+        0.3924522150575725,
+        0.5456530638415404
+      ],
+      "bbox_ref": "line_047_024",
+      "parent_qid": "q-359"
+    },
+    {
+      "seq": 1471,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 48,
+      "input_type": "option",
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5490562361900253,
+        0.38726041207905687,
+        0.5617515486900253
+      ],
+      "bbox_ref": "line_047_025",
+      "parent_qid": "q-359"
+    },
+    {
+      "seq": 1472,
+      "tag": "<Q>",
+      "text": "Specify venous obstruction intervention (POST_VOBS)",
+      "page": 48,
+      "form": "Procedure > Treatment",
+      "section": "Pre-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-360"
+    },
+    {
+      "seq": 1473,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 48,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Post-ClotTriever Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.8075789634627525,
+        0.3877015705981286,
+        0.8202742759627525
+      ],
+      "bbox_ref": "line_047_033",
+      "parent_qid": "q-360"
+    },
+    {
+      "seq": 1474,
+      "tag": "<FORM>",
+      "text": "Procedure > Treatment",
+      "page": 48,
+      "bbox_xyxy": [
+        0.2201605902777778,
+        0.03674563012941919,
+        0.666275872124566,
+        0.04944094262941919
+      ],
+      "bbox_ref": "line_047_002"
+    },
+    {
+      "seq": 1478,
+      "tag": "<SH>",
+      "text": "Post-ClotTriever Intravascular Ultrasound",
+      "page": 48,
+      "question_below_text": "Was the IVUS performed post procedure? (POST_IVUS)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6081271701388888,
+        0.4475297616198172,
+        0.6250542534722222
+      ],
+      "bbox_ref": "line_047_026"
+    },
+    {
+      "seq": 1479,
+      "tag": "<SH>",
+      "text": "Post-ClotTriever Intravascular Ultrasound",
+      "page": 48,
+      "question_below_text": "Were venous obstructions/compressions intervened upon? (POST_VOB)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6081271701388888,
+        0.4475297616198172,
+        0.6250542534722222
+      ],
+      "bbox_ref": "line_047_026"
+    },
+    {
+      "seq": 1480,
+      "tag": "<SH>",
+      "text": "Post-ClotTriever Intravascular Ultrasound",
+      "page": 48,
+      "question_below_text": "Specify venous obstruction intervention (POST_VOBS)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6081271701388888,
+        0.4475297616198172,
+        0.6250542534722222
+      ],
+      "bbox_ref": "line_047_026"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_047_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_047_001",
+      "text": "48/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_047_002",
+      "text": "Form: Procedure > Treatment\nStudy: Inari CLOUT\nPage: 3/6",
+      "bbox": [
+        0.2201605902777778,
+        0.03674563012941919,
+        0.666275872124566,
+        0.04944094262941919
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_047_026",
+      "text": "Post-ClotTriever Intravascular Ultrasound",
+      "bbox": [
+        0.059640522875817,
+        0.6081271701388888,
+        0.4475297616198172,
+        0.6250542534722222
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_047_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_001",
+      "text": "48/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_002",
+      "text": "Form: Procedure > Treatment\nStudy: Inari CLOUT\nPage: 3/6",
+      "bbox": [
+        0.2201605902777778,
+        0.03674563012941919,
+        0.666275872124566,
+        0.04944094262941919
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_003",
+      "text": "Based on the venogram, select all\nlocations treated with ClotTriever\n(POST_VENLOC)",
+      "bbox": [
+        0.059640522875817,
+        0.0642077513415404,
+        0.2966527253194572,
+        0.10341821535669192
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_004",
+      "text": "Common iliac",
+      "bbox": [
+        0.3672385620915033,
+        0.07273047861426768,
+        0.4562973820306117,
+        0.08542579111426768
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_005",
+      "text": "Internal iliac",
+      "bbox": [
+        0.3672385620915033,
+        0.09261684225063131,
+        0.4456944185144761,
+        0.10531215475063131
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_006",
+      "text": "External iliac",
+      "bbox": [
+        0.3672385620915033,
+        0.11250320588699494,
+        0.45059149249706393,
+        0.12519851838699494
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_007",
+      "text": "Common femoral",
+      "bbox": [
+        0.3672385620915033,
+        0.1323895695233586,
+        0.4800057006038092,
+        0.1450848820233586
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_008",
+      "text": "Deep femoral",
+      "bbox": [
+        0.3672385620915033,
+        0.1522759331597222,
+        0.45550572015101615,
+        0.1649712456597222
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_009",
+      "text": "Cranial Femoral",
+      "bbox": [
+        0.3672385620915033,
+        0.17216229679608586,
+        0.47182928347120096,
+        0.18485760929608586
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_010",
+      "text": "Caudal Femoral",
+      "bbox": [
+        0.3672385620915033,
+        0.1920486604324495,
+        0.4718439438763787,
+        0.2047439729324495
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_011",
+      "text": "Popliteal",
+      "bbox": [
+        0.3672385620915033,
+        0.21193502406881312,
+        0.42363808825125104,
+        0.22463033656881312
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_012",
+      "text": "IVC (Inferior Vena Cava)",
+      "bbox": [
+        0.3672385620915033,
+        0.23182138770517677,
+        0.5274266760333691,
+        0.24451670020517677
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_013",
+      "text": "Post-ClotTriever thrombus load\n(TREAT_VENTL1)\nAll available clot/≤10%",
+      "bbox": [
+        0.059640522875817,
+        0.27254108467487376,
+        0.5154810886757046,
+        0.2984939729324495
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_014",
+      "text": "11 to 20%",
+      "bbox": [
+        0.3684640522875817,
+        0.30095017558396464,
+        0.43359773922589867,
+        0.31364548808396464
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_015",
+      "text": "21 to 30%",
+      "bbox": [
+        0.3684640522875817,
+        0.3208365392203283,
+        0.43468699735753674,
+        0.3335318517203283
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_016",
+      "text": "31 to 40%",
+      "bbox": [
+        0.3684640522875817,
+        0.34072290285669193,
+        0.43468699735753674,
+        0.35341821535669193
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_017",
+      "text": "41 to 50%",
+      "bbox": [
+        0.3684640522875817,
+        0.3606092664930556,
+        0.43468699735753674,
+        0.3733045789930556
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_018",
+      "text": "51 to 60%",
+      "bbox": [
+        0.3684640522875817,
+        0.38049563012941917,
+        0.43468699735753674,
+        0.39319094262941917
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_019",
+      "text": "61 to 70%",
+      "bbox": [
+        0.3684640522875817,
+        0.4003819937657828,
+        0.43468699735753674,
+        0.4130773062657828
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_020",
+      "text": "71 to 80%",
+      "bbox": [
+        0.3684640522875817,
+        0.42026835740214646,
+        0.43468699735753674,
+        0.43296366990214646
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_021",
+      "text": "81 to 90%",
+      "bbox": [
+        0.3684640522875817,
+        0.4401547210385101,
+        0.43468699735753674,
+        0.4528500335385101
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_022",
+      "text": "91 to 99%",
+      "bbox": [
+        0.3684640522875817,
+        0.46004108467487376,
+        0.43468699735753674,
+        0.47273639717487376
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_023",
+      "text": "100%/Occluded",
+      "bbox": [
+        0.3684640522875817,
+        0.47992744831123735,
+        0.4722750794653799,
+        0.49262276081123735
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_024",
+      "text": "Did you get all available clot?\n(POST_AVCLOT)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.5197001755839646,
+        0.3924522150575725,
+        0.5456530638415404
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_025",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.5490562361900253,
+        0.38726041207905687,
+        0.5617515486900253
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_026",
+      "text": "Post-ClotTriever Intravascular Ultrasound",
+      "bbox": [
+        0.059640522875817,
+        0.6081271701388888,
+        0.4475297616198172,
+        0.6250542534722222
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_027",
+      "text": "Was the IVUS performed post\nprocedure? (POST_IVUS)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.6664804786142676,
+        0.3924522150575725,
+        0.6924333668718434
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_028",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.6948895695233586,
+        0.38726041207905687,
+        0.7075848820233586
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_029",
+      "text": "Were venous\nobstructions/compressions\nintervened upon? (POST_VOB)",
+      "bbox": [
+        0.059640522875817,
+        0.7346622967960859,
+        0.2769935707640804,
+        0.7738727608112373
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_030",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.7431850240688131,
+        0.3924522150575725,
+        0.7558803365688131
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_031",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.7630713877051768,
+        0.38726041207905687,
+        0.7757667002051768
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_032",
+      "text": "Specify venous obstruction\nintervention (POST_VOBSP)",
+      "bbox": [
+        0.059640522875817,
+        0.8037910846748737,
+        0.25739063936121326,
+        0.8297439729324495
+      ],
+      "page_num": 47
+    },
+    {
+      "line_id": "line_047_033",
+      "text": "0/2500",
+      "bbox": [
+        0.34272875816993464,
+        0.8075789634627525,
+        0.3877015705981286,
+        0.8202742759627525
+      ],
+      "page_num": 47
+    }
+  ],
+  "metadata": {
+    "num_questions": 6,
+    "num_inputs": 27,
+    "num_inputs_by_type": {
+      "option": 6,
+      "text": 21,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 3,
+    "num_supplemental": 4,
+    "num_total_lines": 34,
+    "timestamp": "2025-08-15T13:40:57.457250+00:00"
+  }
+}

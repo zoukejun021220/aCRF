@@ -1,0 +1,83 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_003.json",
+  "page_id": 3,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Right side DVT – segments involved (select all that apply) (MH_DVTSEGR)",
+      "annotation": "MHLOC, MULTIPLE in SUPPMH",
+      "domain": "MH",
+      "pattern": "multiple_response_checkboxes, supplemental_multiple",
+      "confidence": 0.95,
+      "valid": false,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Left side DVT – segments involved (select all that apply) (MH_DVTSEGL)",
+      "annotation": "MHLOC, MULTIPLE in SUPPMH",
+      "domain": "MH",
+      "pattern": "multiple_response_checkboxes, supplemental_multiple",
+      "confidence": 0.95,
+      "valid": false,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Patient immobilized? (IMMOB)",
+      "annotation": "FAORRES when FATEST = OCCUR",
+      "domain": "FA",
+      "pattern": "conditional_single",
+      "confidence": 0.95,
+      "valid": false,
+      "requires_separate_annotations": true,
+      "question_annotation": "FAORRES when FATEST = OCCUR",
+      "option_annotations": {
+        "Yes": "FAORRES when FATEST = OCCUR",
+        "No": ""
+      }
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Pulmonary Embolism (PE) (MH_PE)",
+      "annotation": "MHOCCUR",
+      "domain": "MH",
+      "pattern": "direct",
+      "confidence": 0.95,
+      "valid": false,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Date of PE (most recent diagnosis) (MH_PEDT)",
+      "annotation": "MHSTDTC",
+      "domain": "MH",
+      "pattern": "direct",
+      "confidence": 0.95,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "PE Type (MH_PEDETL)",
+      "annotation": "PEDETL in SUPPMH",
+      "domain": "MH",
+      "pattern": "supplemental_single",
+      "confidence": 0.95,
+      "valid": false,
+      "requires_separate_annotations": false
+    }
+  ],
+  "summary": {
+    "total_items": 6,
+    "annotated": 6,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

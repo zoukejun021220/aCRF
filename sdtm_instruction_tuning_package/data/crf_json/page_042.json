@@ -1,0 +1,1058 @@
+{
+  "page_id": 42,
+  "items": [
+    {
+      "seq": 1263,
+      "tag": "<Q>",
+      "text": "Treating physician (PROC_TPHY27)",
+      "page": 43,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642102174084596,
+        0.4556562635633681,
+        0.09016310566603536
+      ],
+      "bbox_ref": "line_042_003",
+      "qid": "q-318"
+    },
+    {
+      "seq": 1264,
+      "tag": "<INPUT>",
+      "text": "Jeffrey Hnath",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642102174084596,
+        0.4556562635633681,
+        0.09016310566603536
+      ],
+      "bbox_ref": "line_042_003",
+      "parent_qid": "q-318"
+    },
+    {
+      "seq": 1265,
+      "tag": "<INPUT>",
+      "text": "Melissa Shah",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09261930831755051,
+        0.4567309610204759,
+        0.10531462081755051
+      ],
+      "bbox_ref": "line_042_004",
+      "parent_qid": "q-318"
+    },
+    {
+      "seq": 1266,
+      "tag": "<INPUT>",
+      "text": "Courtney Warner",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11250567195391414,
+        0.4798786936242596,
+        0.12520098445391414
+      ],
+      "bbox_ref": "line_042_005",
+      "parent_qid": "q-318"
+    },
+    {
+      "seq": 1267,
+      "tag": "<INPUT>",
+      "text": "Clement Darling",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.1323920355902778,
+        0.47387805016212214,
+        0.1450873480902778
+      ],
+      "bbox_ref": "line_042_006",
+      "parent_qid": "q-318"
+    },
+    {
+      "seq": 1268,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.1522783992266414,
+        0.40524356817108353,
+        0.1649737117266414
+      ],
+      "bbox_ref": "line_042_007",
+      "parent_qid": "q-318"
+    },
+    {
+      "seq": 1269,
+      "tag": "<Q>",
+      "text": "Treating physician (PROC_TPHY28)",
+      "page": 43,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.19299809619633837,
+        0.4491121379378574,
+        0.21895098445391414
+      ],
+      "bbox_ref": "line_042_008",
+      "qid": "q-319"
+    },
+    {
+      "seq": 1270,
+      "tag": "<INPUT>",
+      "text": "Jeffrey Kline",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.19299809619633837,
+        0.4491121379378574,
+        0.21895098445391414
+      ],
+      "bbox_ref": "line_042_008",
+      "parent_qid": "q-319"
+    },
+    {
+      "seq": 1271,
+      "tag": "<INPUT>",
+      "text": "Lauren Kathryn Stewart",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.22140718710542928,
+        0.5229468252144608,
+        0.23410249960542928
+      ],
+      "bbox_ref": "line_042_009",
+      "parent_qid": "q-319"
+    },
+    {
+      "seq": 1272,
+      "tag": "<INPUT>",
+      "text": "Daren Beam",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.24129355074179293,
+        0.45100826687282985,
+        0.25398886324179293
+      ],
+      "bbox_ref": "line_042_010",
+      "parent_qid": "q-319"
+    },
+    {
+      "seq": 1273,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.1522783992266414,
+        0.40524356817108353,
+        0.1649737117266414
+      ],
+      "bbox_ref": "line_042_007",
+      "parent_qid": "q-319"
+    },
+    {
+      "seq": 1274,
+      "tag": "<Q>",
+      "text": "Treating physician (PROC_TPHY32)",
+      "page": 43,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3009526416508838,
+        0.46493684855941075,
+        0.3269055299084596
+      ],
+      "bbox_ref": "line_042_012",
+      "qid": "q-320"
+    },
+    {
+      "seq": 1275,
+      "tag": "<INPUT>",
+      "text": "Pavan Khanna",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3009526416508838,
+        0.46493684855941075,
+        0.3269055299084596
+      ],
+      "bbox_ref": "line_042_012",
+      "parent_qid": "q-320"
+    },
+    {
+      "seq": 1276,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.1522783992266414,
+        0.40524356817108353,
+        0.1649737117266414
+      ],
+      "bbox_ref": "line_042_007",
+      "parent_qid": "q-320"
+    },
+    {
+      "seq": 1277,
+      "tag": "<Q>",
+      "text": "Treating physician (PROC_TPHY33)",
+      "page": 43,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3700814295296717,
+        0.45590748506433826,
+        0.39603431778724746
+      ],
+      "bbox_ref": "line_042_014",
+      "qid": "q-321"
+    },
+    {
+      "seq": 1278,
+      "tag": "<INPUT>",
+      "text": "Adam Raskin",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3700814295296717,
+        0.45590748506433826,
+        0.39603431778724746
+      ],
+      "bbox_ref": "line_042_014",
+      "parent_qid": "q-321"
+    },
+    {
+      "seq": 1279,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.1522783992266414,
+        0.40524356817108353,
+        0.1649737117266414
+      ],
+      "bbox_ref": "line_042_007",
+      "parent_qid": "q-321"
+    },
+    {
+      "seq": 1280,
+      "tag": "<Q>",
+      "text": "Treating physician (PROC_TPHY34)",
+      "page": 43,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.4392102174084596,
+        0.4594329135869843,
+        0.46516310566603536
+      ],
+      "bbox_ref": "line_042_016",
+      "qid": "q-322"
+    },
+    {
+      "seq": 1281,
+      "tag": "<INPUT>",
+      "text": "Eric Trestman",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.4392102174084596,
+        0.4594329135869843,
+        0.46516310566603536
+      ],
+      "bbox_ref": "line_042_016",
+      "parent_qid": "q-322"
+    },
+    {
+      "seq": 1282,
+      "tag": "<INPUT>",
+      "text": "Danielle Bajakian",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4676193083175505,
+        0.4820692274305556,
+        0.4803146208175505
+      ],
+      "bbox_ref": "line_042_017",
+      "parent_qid": "q-322"
+    },
+    {
+      "seq": 1283,
+      "tag": "<INPUT>",
+      "text": "Nicholas J. Morrissey",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.48750567195391414,
+        0.5081846449110243,
+        0.5002009844539141
+      ],
+      "bbox_ref": "line_042_018",
+      "parent_qid": "q-322"
+    },
+    {
+      "seq": 1284,
+      "tag": "<INPUT>",
+      "text": "Roman Nowygrod",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5073920355902778,
+        0.48614272572635825,
+        0.5200873480902778
+      ],
+      "bbox_ref": "line_042_019",
+      "parent_qid": "q-322"
+    },
+    {
+      "seq": 1285,
+      "tag": "<INPUT>",
+      "text": "Virendra Patel",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5272783992266414,
+        0.4613771625593597,
+        0.5399737117266414
+      ],
+      "bbox_ref": "line_042_020",
+      "parent_qid": "q-322"
+    },
+    {
+      "seq": 1286,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.1522783992266414,
+        0.40524356817108353,
+        0.1649737117266414
+      ],
+      "bbox_ref": "line_042_007",
+      "parent_qid": "q-322"
+    },
+    {
+      "seq": 1287,
+      "tag": "<Q>",
+      "text": "Treating physician (PROC_TPHY35)",
+      "page": 43,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5869374901357324,
+        0.48697886747472424,
+        0.6128903783933081
+      ],
+      "bbox_ref": "line_042_022",
+      "qid": "q-323"
+    },
+    {
+      "seq": 1288,
+      "tag": "<INPUT>",
+      "text": "Mehdi Shishehbor",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5869374901357324,
+        0.48697886747472424,
+        0.6128903783933081
+      ],
+      "bbox_ref": "line_042_022",
+      "parent_qid": "q-323"
+    },
+    {
+      "seq": 1289,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.1522783992266414,
+        0.40524356817108353,
+        0.1649737117266414
+      ],
+      "bbox_ref": "line_042_007",
+      "parent_qid": "q-323"
+    },
+    {
+      "seq": 1290,
+      "tag": "<Q>",
+      "text": "Treating physician (PROC_TPHY36)",
+      "page": 43,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6560662780145202,
+        0.46653981925615295,
+        0.6820191662720959
+      ],
+      "bbox_ref": "line_042_024",
+      "qid": "q-324"
+    },
+    {
+      "seq": 1291,
+      "tag": "<INPUT>",
+      "text": "James Nyugen",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6560662780145202,
+        0.46653981925615295,
+        0.6820191662720959
+      ],
+      "bbox_ref": "line_042_024",
+      "parent_qid": "q-324"
+    },
+    {
+      "seq": 1292,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.1522783992266414,
+        0.40524356817108353,
+        0.1649737117266414
+      ],
+      "bbox_ref": "line_042_007",
+      "parent_qid": "q-324"
+    },
+    {
+      "seq": 1293,
+      "tag": "<Q>",
+      "text": "Treating physician (PROC_TPHY39)",
+      "page": 43,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7251950658933081,
+        0.4796280206418505,
+        0.7511479541508839
+      ],
+      "bbox_ref": "line_042_026",
+      "qid": "q-325"
+    },
+    {
+      "seq": 1294,
+      "tag": "<INPUT>",
+      "text": "Robert Lookstein",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7251950658933081,
+        0.4796280206418505,
+        0.7511479541508839
+      ],
+      "bbox_ref": "line_042_026",
+      "parent_qid": "q-325"
+    },
+    {
+      "seq": 1295,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.1522783992266414,
+        0.40524356817108353,
+        0.1649737117266414
+      ],
+      "bbox_ref": "line_042_007",
+      "parent_qid": "q-325"
+    },
+    {
+      "seq": 1296,
+      "tag": "<Q>",
+      "text": "Treating physician (PROC_TPHY41)",
+      "page": 43,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7943238537720959,
+        0.4836868585324755,
+        0.8202767420296717
+      ],
+      "bbox_ref": "line_042_028",
+      "qid": "q-326"
+    },
+    {
+      "seq": 1297,
+      "tag": "<INPUT>",
+      "text": "Firas Al Solaiman",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7943238537720959,
+        0.4836868585324755,
+        0.8202767420296717
+      ],
+      "bbox_ref": "line_042_028",
+      "parent_qid": "q-326"
+    },
+    {
+      "seq": 1298,
+      "tag": "<INPUT>",
+      "text": "Samuel McElwee",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.8227329446811869,
+        0.48205451716005415,
+        0.8354282571811869
+      ],
+      "bbox_ref": "line_042_029",
+      "parent_qid": "q-326"
+    },
+    {
+      "seq": 1299,
+      "tag": "<INPUT>",
+      "text": "Mustafa Ahmed",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.8426193083175505,
+        0.4714515536439185,
+        0.8553146208175505
+      ],
+      "bbox_ref": "line_042_030",
+      "parent_qid": "q-326"
+    },
+    {
+      "seq": 1300,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 43,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.1522783992266414,
+        0.40524356817108353,
+        0.1649737117266414
+      ],
+      "bbox_ref": "line_042_007",
+      "parent_qid": "q-326"
+    },
+    {
+      "seq": 1301,
+      "tag": "<FORM>",
+      "text": "Procedure",
+      "page": 43,
+      "bbox_xyxy": [
+        0.2617698120915033,
+        0.036748096196338384,
+        0.6246475020265267,
+        0.049443408696338384
+      ],
+      "bbox_ref": "line_042_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_042_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_042_001",
+      "text": "43/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_042_002",
+      "text": "Form: Procedure\nStudy: Inari CLOUT\nPage: 7/9",
+      "bbox": [
+        0.2617698120915033,
+        0.036748096196338384,
+        0.6246475020265267,
+        0.049443408696338384
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_042_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_001",
+      "text": "43/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_002",
+      "text": "Form: Procedure\nStudy: Inari CLOUT\nPage: 7/9",
+      "bbox": [
+        0.2617698120915033,
+        0.036748096196338384,
+        0.6246475020265267,
+        0.049443408696338384
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_003",
+      "text": "Treating physician (PROC_TPHY27)\nSite 27\nJeffrey Hnath",
+      "bbox": [
+        0.059640522875817,
+        0.0642102174084596,
+        0.4556562635633681,
+        0.09016310566603536
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_004",
+      "text": "Melissa Shah",
+      "bbox": [
+        0.3684640522875817,
+        0.09261930831755051,
+        0.4567309610204759,
+        0.10531462081755051
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_005",
+      "text": "Courtney Warner",
+      "bbox": [
+        0.3684640522875817,
+        0.11250567195391414,
+        0.4798786936242596,
+        0.12520098445391414
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_006",
+      "text": "Clement Darling",
+      "bbox": [
+        0.3684640522875817,
+        0.1323920355902778,
+        0.47387805016212214,
+        0.1450873480902778
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_007",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.1522783992266414,
+        0.40524356817108353,
+        0.1649737117266414
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_008",
+      "text": "Treating physician (PROC_TPHY28)\nSite 28\nJeffrey Kline",
+      "bbox": [
+        0.059640522875817,
+        0.19299809619633837,
+        0.4491121379378574,
+        0.21895098445391414
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_009",
+      "text": "Lauren Kathryn Stewart",
+      "bbox": [
+        0.3684640522875817,
+        0.22140718710542928,
+        0.5229468252144608,
+        0.23410249960542928
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_010",
+      "text": "Daren Beam",
+      "bbox": [
+        0.3684640522875817,
+        0.24129355074179293,
+        0.45100826687282985,
+        0.25398886324179293
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_011",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.2611799143781566,
+        0.40524356817108353,
+        0.2738752268781566
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_012",
+      "text": "Treating physician (PROC_TPHY32)\nSite 32\nPavan Khanna",
+      "bbox": [
+        0.059640522875817,
+        0.3009526416508838,
+        0.46493684855941075,
+        0.3269055299084596
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_013",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.3303087022569444,
+        0.40524356817108353,
+        0.3430040147569444
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_014",
+      "text": "Treating physician (PROC_TPHY33)\nSite 33\nAdam Raskin",
+      "bbox": [
+        0.059640522875817,
+        0.3700814295296717,
+        0.45590748506433826,
+        0.39603431778724746
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_015",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.39849052043876265,
+        0.40524356817108353,
+        0.41118583293876265
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_016",
+      "text": "Treating physician (PROC_TPHY34)\nSite 34\nEric Trestman",
+      "bbox": [
+        0.059640522875817,
+        0.4392102174084596,
+        0.4594329135869843,
+        0.46516310566603536
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_017",
+      "text": "Danielle Bajakian",
+      "bbox": [
+        0.3684640522875817,
+        0.4676193083175505,
+        0.4820692274305556,
+        0.4803146208175505
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_018",
+      "text": "Nicholas J. Morrissey",
+      "bbox": [
+        0.3684640522875817,
+        0.48750567195391414,
+        0.5081846449110243,
+        0.5002009844539141
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_019",
+      "text": "Roman Nowygrod",
+      "bbox": [
+        0.3684640522875817,
+        0.5073920355902778,
+        0.48614272572635825,
+        0.5200873480902778
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_020",
+      "text": "Virendra Patel",
+      "bbox": [
+        0.3684640522875817,
+        0.5272783992266414,
+        0.4613771625593597,
+        0.5399737117266414
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_021",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.5471647628630051,
+        0.40524356817108353,
+        0.5598600753630051
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_022",
+      "text": "Treating physician (PROC_TPHY35)\nSite 35\nMehdi Shishehbor",
+      "bbox": [
+        0.059640522875817,
+        0.5869374901357324,
+        0.48697886747472424,
+        0.6128903783933081
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_023",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.6162935507417929,
+        0.40524356817108353,
+        0.6289888632417929
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_024",
+      "text": "Treating physician (PROC_TPHY36)\nSite 36\nJames Nyugen",
+      "bbox": [
+        0.059640522875817,
+        0.6560662780145202,
+        0.46653981925615295,
+        0.6820191662720959
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_025",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.6844753689236112,
+        0.40524356817108353,
+        0.6971706814236112
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_026",
+      "text": "Treating physician (PROC_TPHY39)\nSite 39\nRobert Lookstein",
+      "bbox": [
+        0.059640522875817,
+        0.7251950658933081,
+        0.4796280206418505,
+        0.7511479541508839
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_027",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.753604156802399,
+        0.40524356817108353,
+        0.766299469302399
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_028",
+      "text": "Treating physician (PROC_TPHY41)\nSite 41\nFiras Al Solaiman",
+      "bbox": [
+        0.059640522875817,
+        0.7943238537720959,
+        0.4836868585324755,
+        0.8202767420296717
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_029",
+      "text": "Samuel McElwee",
+      "bbox": [
+        0.3684640522875817,
+        0.8227329446811869,
+        0.48205451716005415,
+        0.8354282571811869
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_030",
+      "text": "Mustafa Ahmed",
+      "bbox": [
+        0.3684640522875817,
+        0.8426193083175505,
+        0.4714515536439185,
+        0.8553146208175505
+      ],
+      "page_num": 42
+    },
+    {
+      "line_id": "line_042_031",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.8625056719539141,
+        0.40524356817108353,
+        0.8752009844539141
+      ],
+      "page_num": 42
+    }
+  ],
+  "metadata": {
+    "num_questions": 9,
+    "num_inputs": 29,
+    "num_inputs_by_type": {
+      "option": 0,
+      "text": 29,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 0,
+    "num_supplemental": 3,
+    "num_total_lines": 32,
+    "timestamp": "2025-08-15T13:38:32.343945+00:00"
+  }
+}

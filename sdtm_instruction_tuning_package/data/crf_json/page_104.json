@@ -1,0 +1,874 @@
+{
+  "page_id": 104,
+  "items": [
+    {
+      "seq": 3210,
+      "tag": "<Q>",
+      "text": "Was visit missed? (FU_2_MISS)",
+      "page": 105,
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.3924522150575725,
+        0.13278414023042928
+      ],
+      "bbox_ref": "line_104_004",
+      "qid": "q-758"
+    },
+    {
+      "seq": 3211,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 105,
+      "input_type": "option",
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.3924522150575725,
+        0.13278414023042928
+      ],
+      "bbox_ref": "line_104_004",
+      "parent_qid": "q-758"
+    },
+    {
+      "seq": 3212,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 105,
+      "input_type": "option",
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13997519136679293,
+        0.38726041207905687,
+        0.15267050386679293
+      ],
+      "bbox_ref": "line_104_005",
+      "parent_qid": "q-758"
+    },
+    {
+      "seq": 3213,
+      "tag": "<Q>",
+      "text": "Was the visit conducted remotely? (FU_2_REM)",
+      "page": 105,
+      "form": "FUP-2 Years",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-759"
+    },
+    {
+      "seq": 3214,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 105,
+      "input_type": "option",
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.3924522150575725,
+        0.13278414023042928
+      ],
+      "bbox_ref": "line_104_004",
+      "parent_qid": "q-759"
+    },
+    {
+      "seq": 3215,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 105,
+      "input_type": "option",
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13997519136679293,
+        0.38726041207905687,
+        0.15267050386679293
+      ],
+      "bbox_ref": "line_104_005",
+      "parent_qid": "q-759"
+    },
+    {
+      "seq": 3216,
+      "tag": "<Q>",
+      "text": "Visit Date (FU_2_DATE)",
+      "page": 105,
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.2488767065183081,
+        0.44772493449691075,
+        0.2684677008426551
+      ],
+      "bbox_ref": "line_104_008",
+      "qid": "q-760"
+    },
+    {
+      "seq": 3217,
+      "tag": "<INPUT>",
+      "text": "dd-mmm-yyyy",
+      "page": 105,
+      "input_type": "text",
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.2488767065183081,
+        0.44772493449691075,
+        0.2684677008426551
+      ],
+      "bbox_ref": "line_104_008",
+      "parent_qid": "q-760"
+    },
+    {
+      "seq": 3218,
+      "tag": "<Q>",
+      "text": "COVID-19 Status (FU_2_CVD)",
+      "page": 105,
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.29906610045770204,
+        0.49186332553040746,
+        0.3202841402304293
+      ],
+      "bbox_ref": "line_104_009",
+      "qid": "q-761"
+    },
+    {
+      "seq": 3219,
+      "tag": "<INPUT>",
+      "text": "COVID-19 Positive",
+      "page": 105,
+      "input_type": "text",
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.29906610045770204,
+        0.49186332553040746,
+        0.3202841402304293
+      ],
+      "bbox_ref": "line_104_009",
+      "parent_qid": "q-761"
+    },
+    {
+      "seq": 3220,
+      "tag": "<INPUT>",
+      "text": "COVID-19 Negative",
+      "page": 105,
+      "input_type": "text",
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.32747519136679293,
+        0.4984074511559181,
+        0.34017050386679293
+      ],
+      "bbox_ref": "line_104_010",
+      "parent_qid": "q-761"
+    },
+    {
+      "seq": 3221,
+      "tag": "<INPUT>",
+      "text": "COVID-19 Status Unknown",
+      "page": 105,
+      "input_type": "text",
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.3473615550031566,
+        0.5474515428730086,
+        0.3600568675031566
+      ],
+      "bbox_ref": "line_104_011",
+      "parent_qid": "q-761"
+    },
+    {
+      "seq": 3222,
+      "tag": "<Q>",
+      "text": "If positive, date of positive test (FU_2_CVD_DT)",
+      "page": 105,
+      "form": "FUP-2 Years",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-762"
+    },
+    {
+      "seq": 3223,
+      "tag": "<INPUT>",
+      "text": "dd-mmm-yyyy",
+      "page": 105,
+      "input_type": "text",
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.2488767065183081,
+        0.44772493449691075,
+        0.2684677008426551
+      ],
+      "bbox_ref": "line_104_008",
+      "parent_qid": "q-762"
+    },
+    {
+      "seq": 3224,
+      "tag": "<Q>",
+      "text": "Compression therapy prescribed (FU_2_COMPTYN)",
+      "page": 105,
+      "form": "FUP-2 Years",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-763"
+    },
+    {
+      "seq": 3225,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 105,
+      "input_type": "option",
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.3924522150575725,
+        0.13278414023042928
+      ],
+      "bbox_ref": "line_104_004",
+      "parent_qid": "q-763"
+    },
+    {
+      "seq": 3226,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 105,
+      "input_type": "option",
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13997519136679293,
+        0.38726041207905687,
+        0.15267050386679293
+      ],
+      "bbox_ref": "line_104_005",
+      "parent_qid": "q-763"
+    },
+    {
+      "seq": 3227,
+      "tag": "<Q>",
+      "text": "Compression therapy type (FU_2_COMPT)",
+      "page": 105,
+      "form": "FUP-2 Years",
+      "section": null,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-764"
+    },
+    {
+      "seq": 3228,
+      "tag": "<INPUT>",
+      "text": "Stocking",
+      "page": 105,
+      "input_type": "text",
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5064524640940656,
+        0.4248633291207108,
+        0.5324053523516414
+      ],
+      "bbox_ref": "line_104_015",
+      "parent_qid": "q-764"
+    },
+    {
+      "seq": 3229,
+      "tag": "<INPUT>",
+      "text": "Bandage",
+      "page": 105,
+      "input_type": "text",
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5348615550031566,
+        0.42733390658509496,
+        0.5475568675031566
+      ],
+      "bbox_ref": "line_104_016",
+      "parent_qid": "q-764"
+    },
+    {
+      "seq": 3230,
+      "tag": "<Q>",
+      "text": "Was edema assessment completed? (FU_2_EDYN)",
+      "page": 105,
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.59487945864899,
+        0.1239376317441853,
+        0.6118065419823232
+      ],
+      "bbox_ref": "line_104_017",
+      "qid": "q-765"
+    },
+    {
+      "seq": 3231,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 105,
+      "input_type": "option",
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.3924522150575725,
+        0.13278414023042928
+      ],
+      "bbox_ref": "line_104_004",
+      "parent_qid": "q-765"
+    },
+    {
+      "seq": 3232,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 105,
+      "input_type": "option",
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13997519136679293,
+        0.38726041207905687,
+        0.15267050386679293
+      ],
+      "bbox_ref": "line_104_005",
+      "parent_qid": "q-765"
+    },
+    {
+      "seq": 3233,
+      "tag": "<Q>",
+      "text": "Were 1 or more follow-up quality of life (QOL) measures collected? (FU_2_QOLYN)",
+      "page": 105,
+      "form": "FUP-2 Years",
+      "section": "Edema",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7738567313762627,
+        0.19038862340590534,
+        0.7907838147095959
+      ],
+      "bbox_ref": "line_104_021",
+      "qid": "q-766"
+    },
+    {
+      "seq": 3234,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 105,
+      "input_type": "option",
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.3924522150575725,
+        0.13278414023042928
+      ],
+      "bbox_ref": "line_104_004",
+      "parent_qid": "q-766"
+    },
+    {
+      "seq": 3235,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 105,
+      "input_type": "option",
+      "form": "FUP-2 Years",
+      "section": "FUP-2 Years",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13997519136679293,
+        0.38726041207905687,
+        0.15267050386679293
+      ],
+      "bbox_ref": "line_104_005",
+      "parent_qid": "q-766"
+    },
+    {
+      "seq": 3236,
+      "tag": "<FORM>",
+      "text": "FUP-2 Years",
+      "page": 105,
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    },
+    {
+      "seq": 3237,
+      "tag": "<SH>",
+      "text": "FUP-2 Years",
+      "page": 105,
+      "question_below_text": "Was visit missed? (FU_2_MISS)",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched"
+    },
+    {
+      "seq": 3238,
+      "tag": "<SH>",
+      "text": "Edema",
+      "page": 105,
+      "question_below_text": "Was edema assessment completed? (FU_2_EDYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.59487945864899,
+        0.1239376317441853,
+        0.6118065419823232
+      ],
+      "bbox_ref": "line_104_017"
+    },
+    {
+      "seq": 3239,
+      "tag": "<SH>",
+      "text": "Quality of Life",
+      "page": 105,
+      "question_below_text": "Were 1 or more follow-up quality of life (QOL) measures collected? (FU_2_QOLYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7738567313762627,
+        0.19038862340590534,
+        0.7907838147095959
+      ],
+      "bbox_ref": "line_104_021"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_104_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_104_001",
+      "text": "105/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_104_002",
+      "text": "Form: FUP–2 Years\nStudy: Inari CLOUT\nPage: 1/2",
+      "bbox": [
+        0.25223396650326796,
+        0.03675549439709596,
+        0.634183347614762,
+        0.04945080689709596
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_104_003",
+      "text": "FUP–2 Years",
+      "bbox": [
+        0.36880872140522875,
+        0.06529405381944445,
+        0.5470177145565257,
+        0.09068467881944445
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_104_020",
+      "text": "Subform: Edema",
+      "bbox": [
+        0.059640522875817,
+        0.7214145853061869,
+        0.1756531709159901,
+        0.7341098978061869
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_104_022",
+      "text": "Were 1 or more follow-up quality of\nlife (QOL) measures collected?\n(FU_2_QOLYN)",
+      "bbox": [
+        0.059640522875817,
+        0.8322100398516414,
+        0.3053285935345818,
+        0.8714205038667929
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_104_025",
+      "text": "Subform: QOL",
+      "bbox": [
+        0.059640522875817,
+        0.9003918580334596,
+        0.16012376274158752,
+        0.9130871705334596
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_104_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_001",
+      "text": "105/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_002",
+      "text": "Form: FUP–2 Years\nStudy: Inari CLOUT\nPage: 1/2",
+      "bbox": [
+        0.25223396650326796,
+        0.03675549439709596,
+        0.634183347614762,
+        0.04945080689709596
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_003",
+      "text": "FUP–2 Years",
+      "bbox": [
+        0.36880872140522875,
+        0.06529405381944445,
+        0.5470177145565257,
+        0.09068467881944445
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_004",
+      "text": "Was visit missed? (FU_2_MISS)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.3924522150575725,
+        0.13278414023042928
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_005",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.13997519136679293,
+        0.38726041207905687,
+        0.15267050386679293
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_006",
+      "text": "Was the visit conducted remotely?\n(FU_2_REM)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.1806948883364899,
+        0.3924522150575725,
+        0.20664777659406566
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_007",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.2091039792455808,
+        0.38726041207905687,
+        0.2217992917455808
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_008",
+      "text": "Visit Date (FU_2_DATE)\ndd-mmm-yyyy",
+      "bbox": [
+        0.059640522875817,
+        0.2488767065183081,
+        0.44772493449691075,
+        0.2684677008426551
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_009",
+      "text": "COVID-19 Status (FU_2_CVD)\nCOVID-19 Positive",
+      "bbox": [
+        0.059640522875817,
+        0.29906610045770204,
+        0.49186332553040746,
+        0.3202841402304293
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_010",
+      "text": "COVID-19 Negative",
+      "bbox": [
+        0.3684640522875817,
+        0.32747519136679293,
+        0.4984074511559181,
+        0.34017050386679293
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_011",
+      "text": "COVID-19 Status Unknown",
+      "bbox": [
+        0.3684640522875817,
+        0.3473615550031566,
+        0.5474515428730086,
+        0.3600568675031566
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_012",
+      "text": "If positive, date of positive test\n(FU_2_CVD_DT)\ndd-mmm-yyyy",
+      "bbox": [
+        0.059640522875817,
+        0.38808125197285354,
+        0.44772493449691075,
+        0.4140341402304293
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_013",
+      "text": "Compression therapy prescribed\n(FU_2_COMPTYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.4373236762152778,
+        0.3924522150575725,
+        0.46327656447285354
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_014",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.4666797368213384,
+        0.38726041207905687,
+        0.4793750493213384
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_015",
+      "text": "Compression therapy type\n(FU_2_COMPT)\nStocking",
+      "bbox": [
+        0.059640522875817,
+        0.5064524640940656,
+        0.4248633291207108,
+        0.5324053523516414
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_016",
+      "text": "Bandage",
+      "bbox": [
+        0.3684640522875817,
+        0.5348615550031566,
+        0.42733390658509496,
+        0.5475568675031566
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_017",
+      "text": "Edema",
+      "bbox": [
+        0.059640522875817,
+        0.59487945864899,
+        0.1239376317441853,
+        0.6118065419823232
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_018",
+      "text": "Was edema assessment completed?\n(FU_2_EDYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.652285797427399,
+        0.3924522150575725,
+        0.6782386856849747
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_019",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.6816418580334596,
+        0.38726041207905687,
+        0.6943371705334596
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_020",
+      "text": "Subform: Edema",
+      "bbox": [
+        0.059640522875817,
+        0.7214145853061869,
+        0.1756531709159901,
+        0.7341098978061869
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_021",
+      "text": "Quality of Life",
+      "bbox": [
+        0.059640522875817,
+        0.7738567313762627,
+        0.19038862340590534,
+        0.7907838147095959
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_022",
+      "text": "Were 1 or more follow-up quality of\nlife (QOL) measures collected?\n(FU_2_QOLYN)",
+      "bbox": [
+        0.059640522875817,
+        0.8322100398516414,
+        0.3053285935345818,
+        0.8714205038667929
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_023",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.8407327671243687,
+        0.3924522150575725,
+        0.8534280796243687
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_024",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.8606191307607324,
+        0.38726041207905687,
+        0.8733144432607324
+      ],
+      "page_num": 104
+    },
+    {
+      "line_id": "line_104_025",
+      "text": "Subform: QOL",
+      "bbox": [
+        0.059640522875817,
+        0.9003918580334596,
+        0.16012376274158752,
+        0.9130871705334596
+      ],
+      "page_num": 104
+    }
+  ],
+  "metadata": {
+    "num_questions": 9,
+    "num_inputs": 17,
+    "num_inputs_by_type": {
+      "option": 10,
+      "text": 7,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 3,
+    "num_supplemental": 7,
+    "num_total_lines": 26,
+    "timestamp": "2025-08-15T14:06:37.684279+00:00"
+  }
+}

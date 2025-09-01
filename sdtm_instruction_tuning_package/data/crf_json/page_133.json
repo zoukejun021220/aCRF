@@ -1,0 +1,697 @@
+{
+  "page_id": 133,
+  "items": [
+    {
+      "seq": 4125,
+      "tag": "<Q>",
+      "text": "Study exit date (EXIT_DATE)",
+      "page": 134,
+      "form": "Study Exit",
+      "section": "Study Exit",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.44772493449691075,
+        0.1302101347181532
+      ],
+      "bbox_ref": "line_133_004",
+      "qid": "q-959"
+    },
+    {
+      "seq": 4126,
+      "tag": "<INPUT>",
+      "text": "dd-mmm-yyyy",
+      "page": 134,
+      "input_type": "text",
+      "form": "Study Exit",
+      "section": "Study Exit",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.44772493449691075,
+        0.1302101347181532
+      ],
+      "bbox_ref": "line_133_004",
+      "parent_qid": "q-959"
+    },
+    {
+      "seq": 4127,
+      "tag": "<Q>",
+      "text": "Study exit status (EXIT_STAT)",
+      "page": 134,
+      "form": "Study Exit",
+      "section": "Study Exit",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.16175549439709597,
+        0.5180375342275582,
+        0.18297353416982323
+      ],
+      "bbox_ref": "line_133_005",
+      "qid": "q-960"
+    },
+    {
+      "seq": 4128,
+      "tag": "<INPUT>",
+      "text": "Completion of study as planned",
+      "page": 134,
+      "input_type": "text",
+      "form": "Study Exit",
+      "section": "Study Exit",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.18353579742739898,
+        0.39505451177459916,
+        0.19623110992739898
+      ],
+      "bbox_ref": "line_133_006",
+      "parent_qid": "q-960"
+    },
+    {
+      "seq": 4129,
+      "tag": "<INPUT>",
+      "text": "Discontinued prematurely",
+      "page": 134,
+      "input_type": "text",
+      "form": "Study Exit",
+      "section": "Study Exit",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.20342216106376262,
+        0.5351846233692045,
+        0.21611747356376262
+      ],
+      "bbox_ref": "line_133_007",
+      "parent_qid": "q-960"
+    },
+    {
+      "seq": 4130,
+      "tag": "<Q>",
+      "text": "Discontinued reason (EXIT_REAS)",
+      "page": 134,
+      "form": "Study Exit",
+      "section": "Study Exit",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.2431948883364899,
+        0.30069944593641496,
+        0.2558902008364899
+      ],
+      "bbox_ref": "line_133_008",
+      "qid": "q-961"
+    },
+    {
+      "seq": 4131,
+      "tag": "<INPUT>",
+      "text": "Subject lost to follow-up",
+      "page": 134,
+      "input_type": "text",
+      "form": "Study Exit",
+      "section": "Study Exit",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.25266458530618685,
+        0.5237603779711755,
+        0.26535989780618685
+      ],
+      "bbox_ref": "line_133_009",
+      "parent_qid": "q-961"
+    },
+    {
+      "seq": 4132,
+      "tag": "<INPUT>",
+      "text": "Subject refused follow-up",
+      "page": 134,
+      "input_type": "text",
+      "form": "Study Exit",
+      "section": "Study Exit",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.2725509489425505,
+        0.5335691863415288,
+        0.2852462614425505
+      ],
+      "bbox_ref": "line_133_010",
+      "parent_qid": "q-961"
+    },
+    {
+      "seq": 4133,
+      "tag": "<INPUT>",
+      "text": "Subject withdrew voluntarily",
+      "page": 134,
+      "input_type": "text",
+      "form": "Study Exit",
+      "section": "Study Exit",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.29243731257891414,
+        0.5498905057221456,
+        0.30513262507891414
+      ],
+      "bbox_ref": "line_133_011",
+      "parent_qid": "q-961"
+    },
+    {
+      "seq": 4134,
+      "tag": "<INPUT>",
+      "text": "Subject withdrawn per investigator decision",
+      "page": 134,
+      "input_type": "text",
+      "form": "Study Exit",
+      "section": "Study Exit",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.3123236762152778,
+        0.5131258995704402,
+        0.3250189887152778
+      ],
+      "bbox_ref": "line_133_012",
+      "parent_qid": "q-961"
+    },
+    {
+      "seq": 4135,
+      "tag": "<INPUT>",
+      "text": "Death",
+      "page": 134,
+      "input_type": "text",
+      "form": "Study Exit",
+      "section": "Study Exit",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.3454676156092172,
+        0.40770157957388686,
+        0.3581629281092172
+      ],
+      "bbox_ref": "line_133_014",
+      "parent_qid": "q-961"
+    },
+    {
+      "seq": 4136,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 134,
+      "input_type": "text",
+      "form": "Study Exit",
+      "section": "Study Exit",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.36535397924558083,
+        0.40524356817108353,
+        0.37804929174558083
+      ],
+      "bbox_ref": "line_133_015",
+      "parent_qid": "q-961"
+    },
+    {
+      "seq": 4137,
+      "tag": "<Q>",
+      "text": "Other discontinued reason, specify (EXIT_REAOT)",
+      "page": 134,
+      "form": "Study Exit",
+      "section": "Study Exit",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.36535397924558083,
+        0.40524356817108353,
+        0.37804929174558083
+      ],
+      "bbox_ref": "line_133_015",
+      "qid": "q-962"
+    },
+    {
+      "seq": 4138,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 134,
+      "input_type": "text",
+      "form": "Study Exit",
+      "section": "Study Exit",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.40891458530618685,
+        0.3877015705981286,
+        0.42160989780618685
+      ],
+      "bbox_ref": "line_133_017",
+      "parent_qid": "q-962"
+    },
+    {
+      "seq": 4139,
+      "tag": "<Q>",
+      "text": "Reason for decision to withdraw subject (EXIT_RSWITHD)",
+      "page": 134,
+      "form": "Study Exit",
+      "section": "Study Exit",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-963"
+    },
+    {
+      "seq": 4140,
+      "tag": "<INPUT>",
+      "text": "0/500",
+      "page": 134,
+      "input_type": "text",
+      "form": "Study Exit",
+      "section": "Study Exit",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.49887670651830807,
+        0.3795251036001966,
+        0.5115720190183081
+      ],
+      "bbox_ref": "line_133_019",
+      "parent_qid": "q-963"
+    },
+    {
+      "seq": 4141,
+      "tag": "<Q>",
+      "text": "Do you wish to provide additional comments? (EXIT_COMYN)",
+      "page": 134,
+      "form": "Study Exit",
+      "section": "Study Exit",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-964"
+    },
+    {
+      "seq": 4142,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 134,
+      "input_type": "option",
+      "form": "Study Exit",
+      "section": "Study Exit",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5841039792455808,
+        0.3924522150575725,
+        0.6100568675031566
+      ],
+      "bbox_ref": "line_133_020",
+      "parent_qid": "q-964"
+    },
+    {
+      "seq": 4143,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 134,
+      "input_type": "option",
+      "form": "Study Exit",
+      "section": "Study Exit",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6134600398516414,
+        0.38726041207905687,
+        0.6261553523516414
+      ],
+      "bbox_ref": "line_133_021",
+      "parent_qid": "q-964"
+    },
+    {
+      "seq": 4144,
+      "tag": "<Q>",
+      "text": "Additional comments (EXIT_COM)",
+      "page": 134,
+      "form": "Study Exit",
+      "section": "Study Exit",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6532327671243687,
+        0.3795251036001966,
+        0.6697159584122475
+      ],
+      "bbox_ref": "line_133_022",
+      "qid": "q-965"
+    },
+    {
+      "seq": 4145,
+      "tag": "<INPUT>",
+      "text": "0/500",
+      "page": 134,
+      "input_type": "text",
+      "form": "Study Exit",
+      "section": "Study Exit",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.49887670651830807,
+        0.3795251036001966,
+        0.5115720190183081
+      ],
+      "bbox_ref": "line_133_019",
+      "parent_qid": "q-965"
+    },
+    {
+      "seq": 4146,
+      "tag": "<FORM>",
+      "text": "Study Exit",
+      "page": 134,
+      "bbox_xyxy": [
+        0.26259318831699346,
+        0.03675549439709596,
+        0.6238241258010365,
+        0.04945080689709596
+      ],
+      "bbox_ref": "line_133_002"
+    },
+    {
+      "seq": 4147,
+      "tag": "<SH>",
+      "text": "Study Exit",
+      "page": 134,
+      "question_below_text": "Study exit date (EXIT_DATE)",
+      "bbox_xyxy": [
+        0.26259318831699346,
+        0.03675549439709596,
+        0.6238241258010365,
+        0.04945080689709596
+      ],
+      "bbox_ref": "line_133_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_133_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_133_001",
+      "text": "134/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_133_002",
+      "text": "Form: Study Exit\nStudy: Inari CLOUT\nPage: 1/1",
+      "bbox": [
+        0.26259318831699346,
+        0.03675549439709596,
+        0.6238241258010365,
+        0.04945080689709596
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_133_018",
+      "text": "Reason for decision to withdraw\nsubject (EXIT_RSWITHD)",
+      "bbox": [
+        0.059640522875817,
+        0.4950888277304293,
+        0.28599099551930146,
+        0.5210417159880051
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_133_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 133
+    },
+    {
+      "line_id": "line_133_001",
+      "text": "134/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 133
+    },
+    {
+      "line_id": "line_133_002",
+      "text": "Form: Study Exit\nStudy: Inari CLOUT\nPage: 1/1",
+      "bbox": [
+        0.26259318831699346,
+        0.03675549439709596,
+        0.6238241258010365,
+        0.04945080689709596
+      ],
+      "page_num": 133
+    },
+    {
+      "line_id": "line_133_003",
+      "text": "Study Exit",
+      "bbox": [
+        0.38602302900326796,
+        0.06529405381944445,
+        0.5298467897901348,
+        0.09068467881944445
+      ],
+      "page_num": 133
+    },
+    {
+      "line_id": "line_133_004",
+      "text": "Study exit date (EXIT_DATE)\ndd-mmm-yyyy",
+      "bbox": [
+        0.059640522875817,
+        0.11156610045770202,
+        0.44772493449691075,
+        0.1302101347181532
+      ],
+      "page_num": 133
+    },
+    {
+      "line_id": "line_133_005",
+      "text": "Study exit status (EXIT_STAT)\nCompletion of study as",
+      "bbox": [
+        0.059640522875817,
+        0.16175549439709597,
+        0.5180375342275582,
+        0.18297353416982323
+      ],
+      "page_num": 133
+    },
+    {
+      "line_id": "line_133_006",
+      "text": "planned",
+      "bbox": [
+        0.34272875816993464,
+        0.18353579742739898,
+        0.39505451177459916,
+        0.19623110992739898
+      ],
+      "page_num": 133
+    },
+    {
+      "line_id": "line_133_007",
+      "text": "Discontinued prematurely",
+      "bbox": [
+        0.3684640522875817,
+        0.20342216106376262,
+        0.5351846233692045,
+        0.21611747356376262
+      ],
+      "page_num": 133
+    },
+    {
+      "line_id": "line_133_008",
+      "text": "Discontinued reason (EXIT_REAS)",
+      "bbox": [
+        0.059640522875817,
+        0.2431948883364899,
+        0.30069944593641496,
+        0.2558902008364899
+      ],
+      "page_num": 133
+    },
+    {
+      "line_id": "line_133_009",
+      "text": "Subject lost to follow-up",
+      "bbox": [
+        0.3684640522875817,
+        0.25266458530618685,
+        0.5237603779711755,
+        0.26535989780618685
+      ],
+      "page_num": 133
+    },
+    {
+      "line_id": "line_133_010",
+      "text": "Subject refused follow-up",
+      "bbox": [
+        0.3684640522875817,
+        0.2725509489425505,
+        0.5335691863415288,
+        0.2852462614425505
+      ],
+      "page_num": 133
+    },
+    {
+      "line_id": "line_133_011",
+      "text": "Subject withdrew voluntarily",
+      "bbox": [
+        0.3684640522875817,
+        0.29243731257891414,
+        0.5498905057221456,
+        0.30513262507891414
+      ],
+      "page_num": 133
+    },
+    {
+      "line_id": "line_133_012",
+      "text": "Subject withdrawn per",
+      "bbox": [
+        0.3684640522875817,
+        0.3123236762152778,
+        0.5131258995704402,
+        0.3250189887152778
+      ],
+      "page_num": 133
+    },
+    {
+      "line_id": "line_133_013",
+      "text": "investigator decision",
+      "bbox": [
+        0.34272875816993464,
+        0.32558125197285354,
+        0.47595155005361517,
+        0.33827656447285354
+      ],
+      "page_num": 133
+    },
+    {
+      "line_id": "line_133_014",
+      "text": "Death",
+      "bbox": [
+        0.3684640522875817,
+        0.3454676156092172,
+        0.40770157957388686,
+        0.3581629281092172
+      ],
+      "page_num": 133
+    },
+    {
+      "line_id": "line_133_015",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.36535397924558083,
+        0.40524356817108353,
+        0.37804929174558083
+      ],
+      "page_num": 133
+    },
+    {
+      "line_id": "line_133_016",
+      "text": "Other discontinued reason, specify\n(EXIT_REAOT)",
+      "bbox": [
+        0.059640522875817,
+        0.40512670651830807,
+        0.30562803480360246,
+        0.4310795947758838
+      ],
+      "page_num": 133
+    },
+    {
+      "line_id": "line_133_017",
+      "text": "0/2500",
+      "bbox": [
+        0.34272875816993464,
+        0.40891458530618685,
+        0.3877015705981286,
+        0.42160989780618685
+      ],
+      "page_num": 133
+    },
+    {
+      "line_id": "line_133_018",
+      "text": "Reason for decision to withdraw\nsubject (EXIT_RSWITHD)",
+      "bbox": [
+        0.059640522875817,
+        0.4950888277304293,
+        0.28599099551930146,
+        0.5210417159880051
+      ],
+      "page_num": 133
+    },
+    {
+      "line_id": "line_133_019",
+      "text": "0/500",
+      "bbox": [
+        0.34272875816993464,
+        0.49887670651830807,
+        0.3795251036001966,
+        0.5115720190183081
+      ],
+      "page_num": 133
+    },
+    {
+      "line_id": "line_133_020",
+      "text": "Do you wish to provide additional\ncomments? (EXIT_COMYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.5841039792455808,
+        0.3924522150575725,
+        0.6100568675031566
+      ],
+      "page_num": 133
+    },
+    {
+      "line_id": "line_133_021",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.6134600398516414,
+        0.38726041207905687,
+        0.6261553523516414
+      ],
+      "page_num": 133
+    },
+    {
+      "line_id": "line_133_022",
+      "text": "Additional comments (EXIT_COM)\n0/500",
+      "bbox": [
+        0.059640522875817,
+        0.6532327671243687,
+        0.3795251036001966,
+        0.6697159584122475
+      ],
+      "page_num": 133
+    }
+  ],
+  "metadata": {
+    "num_questions": 7,
+    "num_inputs": 14,
+    "num_inputs_by_type": {
+      "option": 2,
+      "text": 12,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 4,
+    "num_total_lines": 23,
+    "timestamp": "2025-08-15T14:19:55.585512+00:00"
+  }
+}

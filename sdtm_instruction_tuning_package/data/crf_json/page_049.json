@@ -1,0 +1,977 @@
+{
+  "page_id": 49,
+  "items": [
+    {
+      "seq": 1506,
+      "tag": "<Q>",
+      "text": "Post-Adjunctive Therapy Venogram captured? (POST_ADJ_VENSENT)",
+      "page": 50,
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-370"
+    },
+    {
+      "seq": 1507,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 50,
+      "input_type": "option",
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642077513415404,
+        0.3924522150575725,
+        0.09016063959911616
+      ],
+      "bbox_ref": "line_049_003",
+      "parent_qid": "q-370"
+    },
+    {
+      "seq": 1508,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 50,
+      "input_type": "option",
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09261684225063131,
+        0.38726041207905687,
+        0.10531215475063131
+      ],
+      "bbox_ref": "line_049_004",
+      "parent_qid": "q-370"
+    },
+    {
+      "seq": 1509,
+      "tag": "<INPUT>",
+      "text": "N/A",
+      "page": 50,
+      "input_type": "option",
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11250320588699494,
+        0.39297864328022875,
+        0.12519851838699494
+      ],
+      "bbox_ref": "line_049_005",
+      "parent_qid": "q-370"
+    },
+    {
+      "seq": 1510,
+      "tag": "<Q>",
+      "text": "Post-Adjunctive Therapy thrombus load (POST_ADJ_VENTL1)",
+      "page": 50,
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-371"
+    },
+    {
+      "seq": 1511,
+      "tag": "<INPUT>",
+      "text": "All available clot/≤10%",
+      "page": 50,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.1532229028566919,
+        0.5154810886757046,
+        0.17917579111426768
+      ],
+      "bbox_ref": "line_049_006",
+      "parent_qid": "q-371"
+    },
+    {
+      "seq": 1512,
+      "tag": "<INPUT>",
+      "text": "11 to 20%",
+      "page": 50,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.18163199376578282,
+        0.43359773922589867,
+        0.19432730626578282
+      ],
+      "bbox_ref": "line_049_007",
+      "parent_qid": "q-371"
+    },
+    {
+      "seq": 1513,
+      "tag": "<INPUT>",
+      "text": "21 to 30%",
+      "page": 50,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.20151835740214646,
+        0.43468699735753674,
+        0.21421366990214646
+      ],
+      "bbox_ref": "line_049_008",
+      "parent_qid": "q-371"
+    },
+    {
+      "seq": 1514,
+      "tag": "<INPUT>",
+      "text": "31 to 40%",
+      "page": 50,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.2214047210385101,
+        0.43468699735753674,
+        0.2341000335385101
+      ],
+      "bbox_ref": "line_049_009",
+      "parent_qid": "q-371"
+    },
+    {
+      "seq": 1515,
+      "tag": "<INPUT>",
+      "text": "41 to 50%",
+      "page": 50,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.24129108467487373,
+        0.43468699735753674,
+        0.25398639717487376
+      ],
+      "bbox_ref": "line_049_010",
+      "parent_qid": "q-371"
+    },
+    {
+      "seq": 1516,
+      "tag": "<INPUT>",
+      "text": "51 to 60%",
+      "page": 50,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.26117744831123735,
+        0.43468699735753674,
+        0.27387276081123735
+      ],
+      "bbox_ref": "line_049_011",
+      "parent_qid": "q-371"
+    },
+    {
+      "seq": 1517,
+      "tag": "<INPUT>",
+      "text": "61 to 70%",
+      "page": 50,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.281063811947601,
+        0.43468699735753674,
+        0.293759124447601
+      ],
+      "bbox_ref": "line_049_012",
+      "parent_qid": "q-371"
+    },
+    {
+      "seq": 1518,
+      "tag": "<INPUT>",
+      "text": "71 to 80%",
+      "page": 50,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.30095017558396464,
+        0.43468699735753674,
+        0.31364548808396464
+      ],
+      "bbox_ref": "line_049_013",
+      "parent_qid": "q-371"
+    },
+    {
+      "seq": 1519,
+      "tag": "<INPUT>",
+      "text": "81 to 90%",
+      "page": 50,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.3208365392203283,
+        0.43468699735753674,
+        0.3335318517203283
+      ],
+      "bbox_ref": "line_049_014",
+      "parent_qid": "q-371"
+    },
+    {
+      "seq": 1520,
+      "tag": "<INPUT>",
+      "text": "91 to 99%",
+      "page": 50,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.34072290285669193,
+        0.43468699735753674,
+        0.35341821535669193
+      ],
+      "bbox_ref": "line_049_015",
+      "parent_qid": "q-371"
+    },
+    {
+      "seq": 1521,
+      "tag": "<INPUT>",
+      "text": "100%/Occluded",
+      "page": 50,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.3606092664930556,
+        0.4722750794653799,
+        0.3733045789930556
+      ],
+      "bbox_ref": "line_049_016",
+      "parent_qid": "q-371"
+    },
+    {
+      "seq": 1522,
+      "tag": "<Q>",
+      "text": "Was the IVUS performed after adjunctive therapy was used? (POST_ADJ_IVUS)",
+      "page": 50,
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-372"
+    },
+    {
+      "seq": 1523,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 50,
+      "input_type": "option",
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642077513415404,
+        0.3924522150575725,
+        0.09016063959911616
+      ],
+      "bbox_ref": "line_049_003",
+      "parent_qid": "q-372"
+    },
+    {
+      "seq": 1524,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 50,
+      "input_type": "option",
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09261684225063131,
+        0.38726041207905687,
+        0.10531215475063131
+      ],
+      "bbox_ref": "line_049_004",
+      "parent_qid": "q-372"
+    },
+    {
+      "seq": 1525,
+      "tag": "<INPUT>",
+      "text": "N/A",
+      "page": 50,
+      "input_type": "option",
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11250320588699494,
+        0.39297864328022875,
+        0.12519851838699494
+      ],
+      "bbox_ref": "line_049_005",
+      "parent_qid": "q-372"
+    },
+    {
+      "seq": 1526,
+      "tag": "<Q>",
+      "text": "Total number of ClotTriever passes (PROC_NUMPASS)",
+      "page": 50,
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-373"
+    },
+    {
+      "seq": 1527,
+      "tag": "<INPUT>",
+      "text": "____________",
+      "page": 50,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-373"
+    },
+    {
+      "seq": 1528,
+      "tag": "<Q>",
+      "text": "Opinion of clot age after removal (check all that apply) (PROC_AGE)",
+      "page": 50,
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Venogram",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-374"
+    },
+    {
+      "seq": 1529,
+      "tag": "<INPUT>",
+      "text": "Acute",
+      "page": 50,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7602304786142676,
+        0.404843748005387,
+        0.7861833668718434
+      ],
+      "bbox_ref": "line_049_026",
+      "parent_qid": "q-374"
+    },
+    {
+      "seq": 1530,
+      "tag": "<INPUT>",
+      "text": "Sub-acute",
+      "page": 50,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.7886395695233586,
+        0.4342702229817708,
+        0.8013348820233586
+      ],
+      "bbox_ref": "line_049_027",
+      "parent_qid": "q-374"
+    },
+    {
+      "seq": 1531,
+      "tag": "<INPUT>",
+      "text": "Chronic",
+      "page": 50,
+      "input_type": "text",
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.8085259331597222,
+        0.41790033477583743,
+        0.8212212456597222
+      ],
+      "bbox_ref": "line_049_028",
+      "parent_qid": "q-374"
+    },
+    {
+      "seq": 1532,
+      "tag": "<Q>",
+      "text": "IVC filter (ADJ_IVC)",
+      "page": 50,
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.8492456301294192,
+        0.3924522150575725,
+        0.8704636699021465
+      ],
+      "bbox_ref": "line_049_029",
+      "qid": "q-375"
+    },
+    {
+      "seq": 1533,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 50,
+      "input_type": "option",
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642077513415404,
+        0.3924522150575725,
+        0.09016063959911616
+      ],
+      "bbox_ref": "line_049_003",
+      "parent_qid": "q-375"
+    },
+    {
+      "seq": 1534,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 50,
+      "input_type": "option",
+      "form": "Procedure > Treatment",
+      "section": "Post-Adjunctive Therapy Intravascular Ultrasound",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09261684225063131,
+        0.38726041207905687,
+        0.10531215475063131
+      ],
+      "bbox_ref": "line_049_004",
+      "parent_qid": "q-375"
+    },
+    {
+      "seq": 1535,
+      "tag": "<FORM>",
+      "text": "Procedure > Treatment",
+      "page": 50,
+      "bbox_xyxy": [
+        0.2201605902777778,
+        0.03674563012941919,
+        0.666275872124566,
+        0.04944094262941919
+      ],
+      "bbox_ref": "line_049_002"
+    },
+    {
+      "seq": 1536,
+      "tag": "<SH>",
+      "text": "Post-Adjunctive Therapy Intravascular Ultrasound",
+      "page": 50,
+      "question_below_text": "Was the IVUS performed after adjunctive therapy was used? (POST_ADJ_IVUS)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.4206271701388889,
+        0.5270687427396089,
+        0.4375542534722222
+      ],
+      "bbox_ref": "line_049_017"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_049_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_049_001",
+      "text": "50/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_049_002",
+      "text": "Form: Procedure > Treatment\nStudy: Inari CLOUT\nPage: 5/6",
+      "bbox": [
+        0.2201605902777778,
+        0.03674563012941919,
+        0.666275872124566,
+        0.04944094262941919
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_049_017",
+      "text": "Post-Adjunctive Therapy Intravascular Ultrasound",
+      "bbox": [
+        0.059640522875817,
+        0.4206271701388889,
+        0.5270687427396089,
+        0.4375542534722222
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_049_018",
+      "text": "Was the IVUS performed after\nadjunctive therapy was used?\n(POST_ADJ_IVUS)",
+      "bbox": [
+        0.059640522875817,
+        0.47803350891729796,
+        0.268858741311466,
+        0.5172439729324495
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_049_022",
+      "text": "TVS Treatment Summary",
+      "bbox": [
+        0.059640522875817,
+        0.5863468671085859,
+        0.29172825034147776,
+        0.6032739504419192
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_049_023",
+      "text": "Subform: ClotTriever Sheath",
+      "bbox": [
+        0.059640522875817,
+        0.6437532058869949,
+        0.25110730937882964,
+        0.6564485183869949
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_049_024",
+      "text": "Subform: ClotTriever Catheter",
+      "bbox": [
+        0.059640522875817,
+        0.6768971452809344,
+        0.26089931313508474,
+        0.6895924577809344
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_049_025",
+      "text": "Total number of ClotTriever passes\n(PROC_NUMPASS)",
+      "bbox": [
+        0.059640522875817,
+        0.7100410846748737,
+        0.3045148163839103,
+        0.7359939729324495
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_049_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_001",
+      "text": "50/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_002",
+      "text": "Form: Procedure > Treatment\nStudy: Inari CLOUT\nPage: 5/6",
+      "bbox": [
+        0.2201605902777778,
+        0.03674563012941919,
+        0.666275872124566,
+        0.04944094262941919
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_003",
+      "text": "Post-Adjunctive Therapy Venogram\ncaptured? (POST_ADJ_VENSENT)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.0642077513415404,
+        0.3924522150575725,
+        0.09016063959911616
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_004",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.09261684225063131,
+        0.38726041207905687,
+        0.10531215475063131
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_005",
+      "text": "N/A",
+      "bbox": [
+        0.3684640522875817,
+        0.11250320588699494,
+        0.39297864328022875,
+        0.12519851838699494
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_006",
+      "text": "Post-Adjunctive Therapy thrombus\nload (POST_ADJ_VENTL1)\nAll available clot/≤10%",
+      "bbox": [
+        0.059640522875817,
+        0.1532229028566919,
+        0.5154810886757046,
+        0.17917579111426768
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_007",
+      "text": "11 to 20%",
+      "bbox": [
+        0.3684640522875817,
+        0.18163199376578282,
+        0.43359773922589867,
+        0.19432730626578282
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_008",
+      "text": "21 to 30%",
+      "bbox": [
+        0.3684640522875817,
+        0.20151835740214646,
+        0.43468699735753674,
+        0.21421366990214646
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_009",
+      "text": "31 to 40%",
+      "bbox": [
+        0.3684640522875817,
+        0.2214047210385101,
+        0.43468699735753674,
+        0.2341000335385101
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_010",
+      "text": "41 to 50%",
+      "bbox": [
+        0.3684640522875817,
+        0.24129108467487373,
+        0.43468699735753674,
+        0.25398639717487376
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_011",
+      "text": "51 to 60%",
+      "bbox": [
+        0.3684640522875817,
+        0.26117744831123735,
+        0.43468699735753674,
+        0.27387276081123735
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_012",
+      "text": "61 to 70%",
+      "bbox": [
+        0.3684640522875817,
+        0.281063811947601,
+        0.43468699735753674,
+        0.293759124447601
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_013",
+      "text": "71 to 80%",
+      "bbox": [
+        0.3684640522875817,
+        0.30095017558396464,
+        0.43468699735753674,
+        0.31364548808396464
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_014",
+      "text": "81 to 90%",
+      "bbox": [
+        0.3684640522875817,
+        0.3208365392203283,
+        0.43468699735753674,
+        0.3335318517203283
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_015",
+      "text": "91 to 99%",
+      "bbox": [
+        0.3684640522875817,
+        0.34072290285669193,
+        0.43468699735753674,
+        0.35341821535669193
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_016",
+      "text": "100%/Occluded",
+      "bbox": [
+        0.3684640522875817,
+        0.3606092664930556,
+        0.4722750794653799,
+        0.3733045789930556
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_017",
+      "text": "Post-Adjunctive Therapy Intravascular Ultrasound",
+      "bbox": [
+        0.059640522875817,
+        0.4206271701388889,
+        0.5270687427396089,
+        0.4375542534722222
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_018",
+      "text": "Was the IVUS performed after\nadjunctive therapy was used?\n(POST_ADJ_IVUS)",
+      "bbox": [
+        0.059640522875817,
+        0.47803350891729796,
+        0.268858741311466,
+        0.5172439729324495
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_019",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.48655623619002525,
+        0.3924522150575725,
+        0.49925154869002525
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_020",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.5064425998263888,
+        0.38726041207905687,
+        0.5191379123263888
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_021",
+      "text": "N/A",
+      "bbox": [
+        0.3684640522875817,
+        0.5263289634627525,
+        0.39297864328022875,
+        0.5390242759627525
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_022",
+      "text": "TVS Treatment Summary",
+      "bbox": [
+        0.059640522875817,
+        0.5863468671085859,
+        0.29172825034147776,
+        0.6032739504419192
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_023",
+      "text": "Subform: ClotTriever Sheath",
+      "bbox": [
+        0.059640522875817,
+        0.6437532058869949,
+        0.25110730937882964,
+        0.6564485183869949
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_024",
+      "text": "Subform: ClotTriever Catheter",
+      "bbox": [
+        0.059640522875817,
+        0.6768971452809344,
+        0.26089931313508474,
+        0.6895924577809344
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_025",
+      "text": "Total number of ClotTriever passes\n(PROC_NUMPASS)",
+      "bbox": [
+        0.059640522875817,
+        0.7100410846748737,
+        0.3045148163839103,
+        0.7359939729324495
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_026",
+      "text": "Opinion of clot age after removal\n(check all that apply) (PROC_AGE)\nAcute",
+      "bbox": [
+        0.059640522875817,
+        0.7602304786142676,
+        0.404843748005387,
+        0.7861833668718434
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_027",
+      "text": "Sub-acute",
+      "bbox": [
+        0.3672385620915033,
+        0.7886395695233586,
+        0.4342702229817708,
+        0.8013348820233586
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_028",
+      "text": "Chronic",
+      "bbox": [
+        0.3672385620915033,
+        0.8085259331597222,
+        0.41790033477583743,
+        0.8212212456597222
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_029",
+      "text": "IVC filter (ADJ_IVC)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.8492456301294192,
+        0.3924522150575725,
+        0.8704636699021465
+      ],
+      "page_num": 49
+    },
+    {
+      "line_id": "line_049_030",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.87765472103851,
+        0.38726041207905687,
+        0.89035003353851
+      ],
+      "page_num": 49
+    }
+  ],
+  "metadata": {
+    "num_questions": 6,
+    "num_inputs": 23,
+    "num_inputs_by_type": {
+      "option": 8,
+      "text": 15,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 9,
+    "num_total_lines": 31,
+    "timestamp": "2025-08-15T13:41:46.750416+00:00"
+  }
+}

@@ -1,0 +1,794 @@
+{
+  "page_id": 25,
+  "items": [
+    {
+      "seq": 785,
+      "tag": "<Q>",
+      "text": "Reference diameter (mm) (CIL_RD)",
+      "page": 26,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642102174084596,
+        0.30314062779245815,
+        0.0769055299084596
+      ],
+      "bbox_ref": "line_025_003",
+      "qid": "q-183"
+    },
+    {
+      "seq": 786,
+      "tag": "<INPUT>",
+      "text": "________________________",
+      "page": 26,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-183"
+    },
+    {
+      "seq": 787,
+      "tag": "<Q>",
+      "text": "Compress diameter (mm) (CIL_CD)",
+      "page": 26,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11439961134785354,
+        0.30394946827607994,
+        0.12709492384785354
+      ],
+      "bbox_ref": "line_025_004",
+      "qid": "q-184"
+    },
+    {
+      "seq": 788,
+      "tag": "<INPUT>",
+      "text": "________________________",
+      "page": 26,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-184"
+    },
+    {
+      "seq": 789,
+      "tag": "<Q>",
+      "text": "Stent? (CIL_STYN)",
+      "page": 26,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.1636420355902778,
+        0.19036122241051368,
+        0.1763373480902778
+      ],
+      "bbox_ref": "line_025_005",
+      "qid": "q-185"
+    },
+    {
+      "seq": 790,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 26,
+      "input_type": "option",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.17311173255997475,
+        0.3924522150575725,
+        0.18580704505997475
+      ],
+      "bbox_ref": "line_025_006",
+      "parent_qid": "q-185"
+    },
+    {
+      "seq": 791,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 26,
+      "input_type": "option",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.19299809619633837,
+        0.38726041207905687,
+        0.20569340869633837
+      ],
+      "bbox_ref": "line_025_007",
+      "parent_qid": "q-185"
+    },
+    {
+      "seq": 792,
+      "tag": "<Q>",
+      "text": "Stent deployed (CIL_ST)",
+      "page": 26,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.23277082346906566,
+        0.3154028599558313,
+        0.2719812874842172
+      ],
+      "bbox_ref": "line_025_008",
+      "qid": "q-186"
+    },
+    {
+      "seq": 793,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 26,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.23655870225694445,
+        0.3877015705981286,
+        0.24925401475694445
+      ],
+      "bbox_ref": "line_025_009",
+      "parent_qid": "q-186"
+    },
+    {
+      "seq": 794,
+      "tag": "<Q>",
+      "text": "Size of stent deployed in mm (length x width)",
+      "page": 26,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-187"
+    },
+    {
+      "seq": 795,
+      "tag": "<INPUT>",
+      "text": "________________________",
+      "page": 26,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-187"
+    },
+    {
+      "seq": 796,
+      "tag": "<Q>",
+      "text": "Balloon? (CIL_BLYN)",
+      "page": 26,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.32273294468118685,
+        0.27375825869491677,
+        0.3884585602114899
+      ],
+      "bbox_ref": "line_025_010",
+      "qid": "q-188"
+    },
+    {
+      "seq": 797,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 26,
+      "input_type": "option",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.17311173255997475,
+        0.3924522150575725,
+        0.18580704505997475
+      ],
+      "bbox_ref": "line_025_006",
+      "parent_qid": "q-188"
+    },
+    {
+      "seq": 798,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 26,
+      "input_type": "option",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.19299809619633837,
+        0.38726041207905687,
+        0.20569340869633837
+      ],
+      "bbox_ref": "line_025_007",
+      "parent_qid": "q-188"
+    },
+    {
+      "seq": 799,
+      "tag": "<Q>",
+      "text": "Balloon type (CIL_BLT)",
+      "page": 26,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.4089071871054293,
+        0.3877015705981286,
+        0.42539037839330807
+      ],
+      "bbox_ref": "line_025_013",
+      "qid": "q-189"
+    },
+    {
+      "seq": 800,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 26,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.23655870225694445,
+        0.3877015705981286,
+        0.24925401475694445
+      ],
+      "bbox_ref": "line_025_009",
+      "parent_qid": "q-189"
+    },
+    {
+      "seq": 801,
+      "tag": "<Q>",
+      "text": "Balloon size (CIL_BLS)",
+      "page": 26,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.49792233862058083,
+        0.3877015705981286,
+        0.5153524996054293
+      ],
+      "bbox_ref": "line_025_014",
+      "qid": "q-190"
+    },
+    {
+      "seq": 802,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 26,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.23655870225694445,
+        0.3877015705981286,
+        0.24925401475694445
+      ],
+      "bbox_ref": "line_025_009",
+      "parent_qid": "q-190"
+    },
+    {
+      "seq": 803,
+      "tag": "<Q>",
+      "text": "ATM (max) (CIL_ATM)",
+      "page": 26,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.587884459832702,
+        0.21022726819406148,
+        0.600579772332702
+      ],
+      "bbox_ref": "line_025_015",
+      "qid": "q-191"
+    },
+    {
+      "seq": 804,
+      "tag": "<INPUT>",
+      "text": "________________________",
+      "page": 26,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-191"
+    },
+    {
+      "seq": 805,
+      "tag": "<Q>",
+      "text": "Post stenting area (mm²) (CIL_PA)",
+      "page": 26,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6380738537720959,
+        0.29713661842096867,
+        0.6507691662720959
+      ],
+      "bbox_ref": "line_025_016",
+      "qid": "q-192"
+    },
+    {
+      "seq": 806,
+      "tag": "<INPUT>",
+      "text": "________________________",
+      "page": 26,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-192"
+    },
+    {
+      "seq": 807,
+      "tag": "<Q>",
+      "text": "Post stening diameter (mm) (CIL_PD)",
+      "page": 26,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-193"
+    },
+    {
+      "seq": 808,
+      "tag": "<INPUT>",
+      "text": "________________________",
+      "page": 26,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-193"
+    },
+    {
+      "seq": 809,
+      "tag": "<Q>",
+      "text": "External iliac Right",
+      "page": 26,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7568038786300505,
+        0.23617010178908804,
+        0.7737309619633839
+      ],
+      "bbox_ref": "line_025_018",
+      "qid": "q-194"
+    },
+    {
+      "seq": 810,
+      "tag": "<Q>",
+      "text": "Reference area (mm²) (EIR_RA)",
+      "page": 26,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.8151571871054293,
+        0.27781709658554177,
+        0.8278524996054293
+      ],
+      "bbox_ref": "line_025_019",
+      "qid": "q-195"
+    },
+    {
+      "seq": 811,
+      "tag": "<INPUT>",
+      "text": "________________________",
+      "page": 26,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-195"
+    },
+    {
+      "seq": 812,
+      "tag": "<Q>",
+      "text": "Compress area (mm²) (EIR_CA)",
+      "page": 26,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.8643996113478535,
+        0.2786259370691636,
+        0.8770949238478535
+      ],
+      "bbox_ref": "line_025_020",
+      "qid": "q-196"
+    },
+    {
+      "seq": 813,
+      "tag": "<INPUT>",
+      "text": "________________________",
+      "page": 26,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-196"
+    },
+    {
+      "seq": 814,
+      "tag": "<FORM>",
+      "text": "IVUS Measurements > IVUS",
+      "page": 26,
+      "bbox_xyxy": [
+        0.20231438929738563,
+        0.036748096196338384,
+        0.6841029746859681,
+        0.049443408696338384
+      ],
+      "bbox_ref": "line_025_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_025_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_025_001",
+      "text": "26/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_025_002",
+      "text": "Form: IVUS Measurements > IVUS\nStudy: Inari CLOUT\nPage: 3/8",
+      "bbox": [
+        0.20231438929738563,
+        0.036748096196338384,
+        0.6841029746859681,
+        0.049443408696338384
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_025_017",
+      "text": "Post stening diameter (mm)\n(CIL_PD)",
+      "bbox": [
+        0.059640522875817,
+        0.68826324771149,
+        0.2533024058622472,
+        0.7142161359690656
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_025_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 25
+    },
+    {
+      "line_id": "line_025_001",
+      "text": "26/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 25
+    },
+    {
+      "line_id": "line_025_002",
+      "text": "Form: IVUS Measurements > IVUS\nStudy: Inari CLOUT\nPage: 3/8",
+      "bbox": [
+        0.20231438929738563,
+        0.036748096196338384,
+        0.6841029746859681,
+        0.049443408696338384
+      ],
+      "page_num": 25
+    },
+    {
+      "line_id": "line_025_003",
+      "text": "Reference diameter (mm) (CIL_RD)",
+      "bbox": [
+        0.059640522875817,
+        0.0642102174084596,
+        0.30314062779245815,
+        0.0769055299084596
+      ],
+      "page_num": 25
+    },
+    {
+      "line_id": "line_025_004",
+      "text": "Compress diameter (mm) (CIL_CD)",
+      "bbox": [
+        0.059640522875817,
+        0.11439961134785354,
+        0.30394946827607994,
+        0.12709492384785354
+      ],
+      "page_num": 25
+    },
+    {
+      "line_id": "line_025_005",
+      "text": "Stent? (CIL_STYN)",
+      "bbox": [
+        0.059640522875817,
+        0.1636420355902778,
+        0.19036122241051368,
+        0.1763373480902778
+      ],
+      "page_num": 25
+    },
+    {
+      "line_id": "line_025_006",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.17311173255997475,
+        0.3924522150575725,
+        0.18580704505997475
+      ],
+      "page_num": 25
+    },
+    {
+      "line_id": "line_025_007",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.19299809619633837,
+        0.38726041207905687,
+        0.20569340869633837
+      ],
+      "page_num": 25
+    },
+    {
+      "line_id": "line_025_008",
+      "text": "Stent deployed (CIL_ST)\nSize of stent deployed in mm (length\nx width)",
+      "bbox": [
+        0.059640522875817,
+        0.23277082346906566,
+        0.3154028599558313,
+        0.2719812874842172
+      ],
+      "page_num": 25
+    },
+    {
+      "line_id": "line_025_009",
+      "text": "0/2500",
+      "bbox": [
+        0.34272875816993464,
+        0.23655870225694445,
+        0.3877015705981286,
+        0.24925401475694445
+      ],
+      "page_num": 25
+    },
+    {
+      "line_id": "line_025_010",
+      "text": "Balloon? (CIL_BLYN)\nDone as part of the stenting\nprocedure. Do not select yes if\nballooning was used between\nClotTriever passes.",
+      "bbox": [
+        0.059640522875817,
+        0.32273294468118685,
+        0.27375825869491677,
+        0.3884585602114899
+      ],
+      "page_num": 25
+    },
+    {
+      "line_id": "line_025_011",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.33125567195391414,
+        0.3924522150575725,
+        0.34395098445391414
+      ],
+      "page_num": 25
+    },
+    {
+      "line_id": "line_025_012",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.3511420355902778,
+        0.38726041207905687,
+        0.3638373480902778
+      ],
+      "page_num": 25
+    },
+    {
+      "line_id": "line_025_013",
+      "text": "Balloon type (CIL_BLT)\n0/2500",
+      "bbox": [
+        0.059640522875817,
+        0.4089071871054293,
+        0.3877015705981286,
+        0.42539037839330807
+      ],
+      "page_num": 25
+    },
+    {
+      "line_id": "line_025_014",
+      "text": "Balloon size (CIL_BLS)\n0/2500",
+      "bbox": [
+        0.059640522875817,
+        0.49792233862058083,
+        0.3877015705981286,
+        0.5153524996054293
+      ],
+      "page_num": 25
+    },
+    {
+      "line_id": "line_025_015",
+      "text": "ATM (max) (CIL_ATM)",
+      "bbox": [
+        0.059640522875817,
+        0.587884459832702,
+        0.21022726819406148,
+        0.600579772332702
+      ],
+      "page_num": 25
+    },
+    {
+      "line_id": "line_025_016",
+      "text": "Post stenting area (mm²) (CIL_PA)",
+      "bbox": [
+        0.059640522875817,
+        0.6380738537720959,
+        0.29713661842096867,
+        0.6507691662720959
+      ],
+      "page_num": 25
+    },
+    {
+      "line_id": "line_025_017",
+      "text": "Post stening diameter (mm)\n(CIL_PD)",
+      "bbox": [
+        0.059640522875817,
+        0.68826324771149,
+        0.2533024058622472,
+        0.7142161359690656
+      ],
+      "page_num": 25
+    },
+    {
+      "line_id": "line_025_018",
+      "text": "External iliac Right",
+      "bbox": [
+        0.059640522875817,
+        0.7568038786300505,
+        0.23617010178908804,
+        0.7737309619633839
+      ],
+      "page_num": 25
+    },
+    {
+      "line_id": "line_025_019",
+      "text": "Reference area (mm²) (EIR_RA)",
+      "bbox": [
+        0.059640522875817,
+        0.8151571871054293,
+        0.27781709658554177,
+        0.8278524996054293
+      ],
+      "page_num": 25
+    },
+    {
+      "line_id": "line_025_020",
+      "text": "Compress area (mm²) (EIR_CA)",
+      "bbox": [
+        0.059640522875817,
+        0.8643996113478535,
+        0.2786259370691636,
+        0.8770949238478535
+      ],
+      "page_num": 25
+    }
+  ],
+  "metadata": {
+    "num_questions": 14,
+    "num_inputs": 15,
+    "num_inputs_by_type": {
+      "option": 4,
+      "text": 11,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 0,
+    "num_supplemental": 4,
+    "num_total_lines": 21,
+    "timestamp": "2025-08-15T13:32:11.619151+00:00",
+    "requires_second_inspection": true,
+    "anomaly_reasons": [
+      "statistical_outlier (count=14, avg=7.1, std=2.9)"
+    ]
+  }
+}

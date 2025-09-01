@@ -1,0 +1,45 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_077.json",
+  "page_id": 77,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Has there been an Adverse Event since the last visit? (FU_6_AEYN)",
+      "annotation": "Question: [NOT SUBMITTED] | Option 'Yes': [NOT SUBMITTED] | Option 'No': [NOT SUBMITTED]",
+      "domain": "AE",
+      "pattern": "not_submitted",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Per the patient, were they compliant with their anticoagulation regimen? (FU_6_ANTCOMP)",
+      "annotation": "Question: FATEST = Occurrence | Option 'Yes': FAORRES when FATESTCD = OCCUR | Option 'No': FASTAT = NOT DONE when FATESTCD = OCCUR",
+      "domain": "FA",
+      "pattern": "variable_with_ct, conditional_single",
+      "confidence": 0.9,
+      "valid": true,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Did you update the Anticoagulation forms for this visit? (FU_6_ANTIYN)",
+      "annotation": "Question: [NOT SUBMITTED] | Option 'Yes': [NOT SUBMITTED] | Option 'No': [NOT SUBMITTED]",
+      "domain": "FA",
+      "pattern": "not_submitted",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": true
+    }
+  ],
+  "summary": {
+    "total_items": 3,
+    "annotated": 3,
+    "not_submitted": 2,
+    "errors": 0
+  }
+}

@@ -1,0 +1,753 @@
+{
+  "page_id": 51,
+  "items": [
+    {
+      "seq": 1549,
+      "tag": "<Q>",
+      "text": "Side of access site (AC_SIDE)",
+      "page": 52,
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11155623619002525,
+        0.40278510798036665,
+        0.1327742759627525
+      ],
+      "bbox_ref": "line_051_004",
+      "qid": "q-380"
+    },
+    {
+      "seq": 1550,
+      "tag": "<INPUT>",
+      "text": "Right",
+      "page": 52,
+      "input_type": "text",
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11155623619002525,
+        0.40278510798036665,
+        0.1327742759627525
+      ],
+      "bbox_ref": "line_051_004",
+      "parent_qid": "q-380"
+    },
+    {
+      "seq": 1551,
+      "tag": "<INPUT>",
+      "text": "Left",
+      "page": 52,
+      "input_type": "text",
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13996532709911616,
+        0.39299098494785284,
+        0.15266063959911616
+      ],
+      "bbox_ref": "line_051_005",
+      "parent_qid": "q-380"
+    },
+    {
+      "seq": 1552,
+      "tag": "<Q>",
+      "text": "Access site (AC_SITE)",
+      "page": 52,
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.18068502406881312,
+        0.5122898076873978,
+        0.20190306384154041
+      ],
+      "bbox_ref": "line_051_006",
+      "qid": "q-381"
+    },
+    {
+      "seq": 1553,
+      "tag": "<INPUT>",
+      "text": "Common femoral vein",
+      "page": 52,
+      "input_type": "text",
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.18068502406881312,
+        0.5122898076873978,
+        0.20190306384154041
+      ],
+      "bbox_ref": "line_051_006",
+      "parent_qid": "q-381"
+    },
+    {
+      "seq": 1554,
+      "tag": "<INPUT>",
+      "text": "Femoral vein",
+      "page": 52,
+      "input_type": "text",
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.18068502406881312,
+        0.5122898076873978,
+        0.20190306384154041
+      ],
+      "bbox_ref": "line_051_006",
+      "parent_qid": "q-381"
+    },
+    {
+      "seq": 1555,
+      "tag": "<INPUT>",
+      "text": "Popliteal vein",
+      "page": 52,
+      "input_type": "text",
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.22898047861426768,
+        0.4559221454695159,
+        0.24167579111426768
+      ],
+      "bbox_ref": "line_051_008",
+      "parent_qid": "q-381"
+    },
+    {
+      "seq": 1556,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 52,
+      "input_type": "text",
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.24886684225063133,
+        0.40524356817108353,
+        0.2615621547506313
+      ],
+      "bbox_ref": "line_051_009",
+      "parent_qid": "q-381"
+    },
+    {
+      "seq": 1557,
+      "tag": "<Q>",
+      "text": "Access site, specify (AC_SITESP)",
+      "page": 52,
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.28863956952335856,
+        0.3877015705981286,
+        0.30606973050820707
+      ],
+      "bbox_ref": "line_051_010",
+      "qid": "q-382"
+    },
+    {
+      "seq": 1558,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 52,
+      "input_type": "text",
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.28863956952335856,
+        0.3877015705981286,
+        0.30606973050820707
+      ],
+      "bbox_ref": "line_051_010",
+      "parent_qid": "q-382"
+    },
+    {
+      "seq": 1559,
+      "tag": "<Q>",
+      "text": "Ultrasound guided access (AC_USG)",
+      "page": 52,
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-383"
+    },
+    {
+      "seq": 1560,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 52,
+      "input_type": "option",
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3786016907354798,
+        0.3924522150575725,
+        0.4045545789930556
+      ],
+      "bbox_ref": "line_051_011",
+      "parent_qid": "q-383"
+    },
+    {
+      "seq": 1561,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 52,
+      "input_type": "option",
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4070107816445707,
+        0.38726041207905687,
+        0.4197060941445707
+      ],
+      "bbox_ref": "line_051_012",
+      "parent_qid": "q-383"
+    },
+    {
+      "seq": 1562,
+      "tag": "<Q>",
+      "text": "Access site closure (AC_SITECLOS) Check all that apply",
+      "page": 52,
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-384"
+    },
+    {
+      "seq": 1563,
+      "tag": "<INPUT>",
+      "text": "Manual",
+      "page": 52,
+      "input_type": "text",
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.4477304786142677,
+        0.41546162125331904,
+        0.4736833668718434
+      ],
+      "bbox_ref": "line_051_013",
+      "parent_qid": "q-384"
+    },
+    {
+      "seq": 1564,
+      "tag": "<INPUT>",
+      "text": "Stitch",
+      "page": 52,
+      "input_type": "text",
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.47613956952335856,
+        0.40402022218392564,
+        0.48883488202335856
+      ],
+      "bbox_ref": "line_051_014",
+      "parent_qid": "q-384"
+    },
+    {
+      "seq": 1565,
+      "tag": "<INPUT>",
+      "text": "Closure device",
+      "page": 52,
+      "input_type": "text",
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.4960259331597222,
+        0.46449080323861314,
+        0.5087212456597222
+      ],
+      "bbox_ref": "line_051_015",
+      "parent_qid": "q-384"
+    },
+    {
+      "seq": 1566,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 52,
+      "input_type": "text",
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.24886684225063133,
+        0.40524356817108353,
+        0.2615621547506313
+      ],
+      "bbox_ref": "line_051_009",
+      "parent_qid": "q-384"
+    },
+    {
+      "seq": 1567,
+      "tag": "<Q>",
+      "text": "Closure device, specify (AC_CLOSDEV)",
+      "page": 52,
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.4960259331597222,
+        0.46449080323861314,
+        0.5087212456597222
+      ],
+      "bbox_ref": "line_051_015",
+      "qid": "q-385"
+    },
+    {
+      "seq": 1568,
+      "tag": "<INPUT>",
+      "text": "0/200",
+      "page": 52,
+      "input_type": "text",
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5556850240688131,
+        0.3795251036001966,
+        0.5816379123263888
+      ],
+      "bbox_ref": "line_051_017",
+      "parent_qid": "q-385"
+    },
+    {
+      "seq": 1569,
+      "tag": "<Q>",
+      "text": "Other closure, specify (AC_CLOSOT)",
+      "page": 52,
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.24886684225063133,
+        0.40524356817108353,
+        0.2615621547506313
+      ],
+      "bbox_ref": "line_051_009",
+      "qid": "q-386"
+    },
+    {
+      "seq": 1570,
+      "tag": "<INPUT>",
+      "text": "0/200",
+      "page": 52,
+      "input_type": "text",
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5556850240688131,
+        0.3795251036001966,
+        0.5816379123263888
+      ],
+      "bbox_ref": "line_051_017",
+      "parent_qid": "q-386"
+    },
+    {
+      "seq": 1571,
+      "tag": "<Q>",
+      "text": "Were there any access site complications? (AC_COMPLI)",
+      "page": 52,
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-387"
+    },
+    {
+      "seq": 1572,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 52,
+      "input_type": "option",
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3786016907354798,
+        0.3924522150575725,
+        0.4045545789930556
+      ],
+      "bbox_ref": "line_051_011",
+      "parent_qid": "q-387"
+    },
+    {
+      "seq": 1573,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 52,
+      "input_type": "option",
+      "form": "Procedure > Treatment > Access Site",
+      "section": "Procedure > Treatment > Access Site",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4070107816445707,
+        0.38726041207905687,
+        0.4197060941445707
+      ],
+      "bbox_ref": "line_051_012",
+      "parent_qid": "q-387"
+    },
+    {
+      "seq": 1574,
+      "tag": "<FORM>",
+      "text": "Procedure > Treatment > Access Site",
+      "page": 52,
+      "bbox_xyxy": [
+        0.17336218341503268,
+        0.03674563012941919,
+        0.7130551805683211,
+        0.04944094262941919
+      ],
+      "bbox_ref": "line_051_002"
+    },
+    {
+      "seq": 1575,
+      "tag": "<SH>",
+      "text": "Procedure > Treatment > Access Site",
+      "page": 52,
+      "question_below_text": "Side of access site (AC_SIDE)",
+      "bbox_xyxy": [
+        0.17336218341503268,
+        0.03674563012941919,
+        0.7130551805683211,
+        0.04944094262941919
+      ],
+      "bbox_ref": "line_051_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_051_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_051_001",
+      "text": "52/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_051_002",
+      "text": "Form: Procedure > Treatment > Access Site\nStudy: Inari CLOUT\nPage: 1/1",
+      "bbox": [
+        0.17336218341503268,
+        0.03674563012941919,
+        0.7130551805683211,
+        0.04944094262941919
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_051_003",
+      "text": "Procedure > Treatment > Access Site",
+      "bbox": [
+        0.19881025326797386,
+        0.06528418955176768,
+        0.7170088026258681,
+        0.09067481455176768
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_051_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 51
+    },
+    {
+      "line_id": "line_051_001",
+      "text": "52/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 51
+    },
+    {
+      "line_id": "line_051_002",
+      "text": "Form: Procedure > Treatment > Access Site\nStudy: Inari CLOUT\nPage: 1/1",
+      "bbox": [
+        0.17336218341503268,
+        0.03674563012941919,
+        0.7130551805683211,
+        0.04944094262941919
+      ],
+      "page_num": 51
+    },
+    {
+      "line_id": "line_051_003",
+      "text": "Procedure > Treatment > Access Site",
+      "bbox": [
+        0.19881025326797386,
+        0.06528418955176768,
+        0.7170088026258681,
+        0.09067481455176768
+      ],
+      "page_num": 51
+    },
+    {
+      "line_id": "line_051_004",
+      "text": "Side of access site (AC_SIDE)\nRight",
+      "bbox": [
+        0.059640522875817,
+        0.11155623619002525,
+        0.40278510798036665,
+        0.1327742759627525
+      ],
+      "page_num": 51
+    },
+    {
+      "line_id": "line_051_005",
+      "text": "Left",
+      "bbox": [
+        0.3684640522875817,
+        0.13996532709911616,
+        0.39299098494785284,
+        0.15266063959911616
+      ],
+      "page_num": 51
+    },
+    {
+      "line_id": "line_051_006",
+      "text": "Access site (AC_SITE)\nCommon femoral vein",
+      "bbox": [
+        0.059640522875817,
+        0.18068502406881312,
+        0.5122898076873978,
+        0.20190306384154041
+      ],
+      "page_num": 51
+    },
+    {
+      "line_id": "line_051_007",
+      "text": "Femoral vein",
+      "bbox": [
+        0.3684640522875817,
+        0.20909411497790403,
+        0.45345156800513176,
+        0.22178942747790403
+      ],
+      "page_num": 51
+    },
+    {
+      "line_id": "line_051_008",
+      "text": "Popliteal vein",
+      "bbox": [
+        0.3684640522875817,
+        0.22898047861426768,
+        0.4559221454695159,
+        0.24167579111426768
+      ],
+      "page_num": 51
+    },
+    {
+      "line_id": "line_051_009",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.24886684225063133,
+        0.40524356817108353,
+        0.2615621547506313
+      ],
+      "page_num": 51
+    },
+    {
+      "line_id": "line_051_010",
+      "text": "Access site, specify (AC_SITESP)\n0/2500",
+      "bbox": [
+        0.059640522875817,
+        0.28863956952335856,
+        0.3877015705981286,
+        0.30606973050820707
+      ],
+      "page_num": 51
+    },
+    {
+      "line_id": "line_051_011",
+      "text": "Ultrasound guided access\n(AC_USG)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.3786016907354798,
+        0.3924522150575725,
+        0.4045545789930556
+      ],
+      "page_num": 51
+    },
+    {
+      "line_id": "line_051_012",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.4070107816445707,
+        0.38726041207905687,
+        0.4197060941445707
+      ],
+      "page_num": 51
+    },
+    {
+      "line_id": "line_051_013",
+      "text": "Access site closure (AC_SITECLOS)\nCheck all that apply\nManual",
+      "bbox": [
+        0.059640522875817,
+        0.4477304786142677,
+        0.41546162125331904,
+        0.4736833668718434
+      ],
+      "page_num": 51
+    },
+    {
+      "line_id": "line_051_014",
+      "text": "Stitch",
+      "bbox": [
+        0.3672385620915033,
+        0.47613956952335856,
+        0.40402022218392564,
+        0.48883488202335856
+      ],
+      "page_num": 51
+    },
+    {
+      "line_id": "line_051_015",
+      "text": "Closure device",
+      "bbox": [
+        0.3672385620915033,
+        0.4960259331597222,
+        0.46449080323861314,
+        0.5087212456597222
+      ],
+      "page_num": 51
+    },
+    {
+      "line_id": "line_051_016",
+      "text": "Other",
+      "bbox": [
+        0.3672385620915033,
+        0.5159122967960859,
+        0.4040180779750051,
+        0.5286076092960859
+      ],
+      "page_num": 51
+    },
+    {
+      "line_id": "line_051_017",
+      "text": "Closure device, specify\n(AC_CLOSDEV)\n0/200",
+      "bbox": [
+        0.059640522875817,
+        0.5556850240688131,
+        0.3795251036001966,
+        0.5816379123263888
+      ],
+      "page_num": 51
+    },
+    {
+      "line_id": "line_051_018",
+      "text": "Other closure, specify\n(AC_CLOSOT)",
+      "bbox": [
+        0.059640522875817,
+        0.6456471452809344,
+        0.21411334767061121,
+        0.67160003353851
+      ],
+      "page_num": 51
+    },
+    {
+      "line_id": "line_051_019",
+      "text": "0/200",
+      "bbox": [
+        0.34272875816993464,
+        0.6494350240688131,
+        0.3795251036001966,
+        0.6621303365688131
+      ],
+      "page_num": 51
+    },
+    {
+      "line_id": "line_051_020",
+      "text": "Were there any access site\ncomplications? (AC_COMPLI)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.7356092664930556,
+        0.3924522150575725,
+        0.7615621547506313
+      ],
+      "page_num": 51
+    },
+    {
+      "line_id": "line_051_021",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.7640183574021465,
+        0.38726041207905687,
+        0.7767136699021465
+      ],
+      "page_num": 51
+    }
+  ],
+  "metadata": {
+    "num_questions": 8,
+    "num_inputs": 17,
+    "num_inputs_by_type": {
+      "option": 4,
+      "text": 13,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 4,
+    "num_total_lines": 22,
+    "timestamp": "2025-08-15T13:42:24.460204+00:00"
+  }
+}

@@ -1,0 +1,812 @@
+{
+  "page_id": 23,
+  "items": [
+    {
+      "seq": 712,
+      "tag": "<Q>",
+      "text": "Segment (select all that apply)",
+      "page": 24,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11155870225694445,
+        0.4947066961550245,
+        0.1375115905145202
+      ],
+      "bbox_ref": "line_023_004",
+      "qid": "q-158"
+    },
+    {
+      "seq": 713,
+      "tag": "<INPUT>",
+      "text": "Common iliac Right",
+      "page": 24,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11155870225694445,
+        0.4947066961550245,
+        0.1375115905145202
+      ],
+      "bbox_ref": "line_023_004",
+      "parent_qid": "q-158"
+    },
+    {
+      "seq": 714,
+      "tag": "<INPUT>",
+      "text": "Common iliac Left",
+      "page": 24,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.13996779316603536,
+        0.48491254818984886,
+        0.15266310566603536
+      ],
+      "bbox_ref": "line_023_005",
+      "parent_qid": "q-158"
+    },
+    {
+      "seq": 715,
+      "tag": "<INPUT>",
+      "text": "External iliac Right",
+      "page": 24,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.15985415680239898,
+        0.4890008066214767,
+        0.17254946930239898
+      ],
+      "bbox_ref": "line_023_006",
+      "parent_qid": "q-158"
+    },
+    {
+      "seq": 716,
+      "tag": "<INPUT>",
+      "text": "External iliac Left",
+      "page": 24,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.17974052043876262,
+        0.4792066586563011,
+        0.19243583293876262
+      ],
+      "bbox_ref": "line_023_007",
+      "parent_qid": "q-158"
+    },
+    {
+      "seq": 717,
+      "tag": "<INPUT>",
+      "text": "Common femoral Right",
+      "page": 24,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.19962688407512627,
+        0.5184125713273591,
+        0.21232219657512627
+      ],
+      "bbox_ref": "line_023_008",
+      "parent_qid": "q-158"
+    },
+    {
+      "seq": 718,
+      "tag": "<INPUT>",
+      "text": "Common femoral Left",
+      "page": 24,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.2195132477114899,
+        0.5086184233621834,
+        0.2322085602114899
+      ],
+      "bbox_ref": "line_023_009",
+      "parent_qid": "q-158"
+    },
+    {
+      "seq": 719,
+      "tag": "<INPUT>",
+      "text": "IVC (Inferior Vena Cava)",
+      "page": 24,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.23939961134785354,
+        0.5274266760333691,
+        0.25209492384785354
+      ],
+      "bbox_ref": "line_023_010",
+      "parent_qid": "q-158"
+    },
+    {
+      "seq": 720,
+      "tag": "<Q>",
+      "text": "Date of IVUS measurements",
+      "page": 24,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.2801193083175505,
+        0.44772493449691075,
+        0.30607219657512624
+      ],
+      "bbox_ref": "line_023_011",
+      "qid": "q-159"
+    },
+    {
+      "seq": 721,
+      "tag": "<INPUT>",
+      "text": "dd-mmm-yyyy",
+      "page": 24,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.2801193083175505,
+        0.44772493449691075,
+        0.30607219657512624
+      ],
+      "bbox_ref": "line_023_011",
+      "parent_qid": "q-159"
+    },
+    {
+      "seq": 722,
+      "tag": "<Q>",
+      "text": "Time point of measurements",
+      "page": 24,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.32936173255997475,
+        0.46759960698146447,
+        0.3553146208175505
+      ],
+      "bbox_ref": "line_023_012",
+      "qid": "q-160"
+    },
+    {
+      "seq": 723,
+      "tag": "<INPUT>",
+      "text": "Pre-ClotTriever",
+      "page": 24,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.32936173255997475,
+        0.46759960698146447,
+        0.3553146208175505
+      ],
+      "bbox_ref": "line_023_012",
+      "parent_qid": "q-160"
+    },
+    {
+      "seq": 724,
+      "tag": "<INPUT>",
+      "text": "Post-ClotTriever",
+      "page": 24,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.35871779316603536,
+        0.4741411396101409,
+        0.37141310566603536
+      ],
+      "bbox_ref": "line_023_013",
+      "parent_qid": "q-160"
+    },
+    {
+      "seq": 725,
+      "tag": "<INPUT>",
+      "text": "Post-adjunctive procedure",
+      "page": 24,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.378604156802399,
+        0.539289786145578,
+        0.391299469302399
+      ],
+      "bbox_ref": "line_023_014",
+      "parent_qid": "q-160"
+    },
+    {
+      "seq": 726,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 24,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.39849052043876265,
+        0.40524356817108353,
+        0.41118583293876265
+      ],
+      "bbox_ref": "line_023_015",
+      "parent_qid": "q-160"
+    },
+    {
+      "seq": 727,
+      "tag": "<Q>",
+      "text": "Other, specify",
+      "page": 24,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.4382632477114899,
+        0.3877015705981286,
+        0.4547464389993687
+      ],
+      "bbox_ref": "line_023_016",
+      "qid": "q-161"
+    },
+    {
+      "seq": 728,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 24,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.4382632477114899,
+        0.3877015705981286,
+        0.4547464389993687
+      ],
+      "bbox_ref": "line_023_016",
+      "parent_qid": "q-161"
+    },
+    {
+      "seq": 729,
+      "tag": "<Q>",
+      "text": "Common iliac Right",
+      "page": 24,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11155870225694445,
+        0.4947066961550245,
+        0.1375115905145202
+      ],
+      "bbox_ref": "line_023_004",
+      "qid": "q-162"
+    },
+    {
+      "seq": 730,
+      "tag": "<Q>",
+      "text": "Reference area (mm²) (CIR_RA)",
+      "page": 24,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6049299143781566,
+        0.2786259370691636,
+        0.6176252268781566
+      ],
+      "bbox_ref": "line_023_018",
+      "qid": "q-163"
+    },
+    {
+      "seq": 731,
+      "tag": "<INPUT>",
+      "text": "",
+      "page": 24,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-163"
+    },
+    {
+      "seq": 732,
+      "tag": "<Q>",
+      "text": "Compress area (mm²) (CIR_CA)",
+      "page": 24,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6551193083175505,
+        0.27943475262012357,
+        0.6678146208175505
+      ],
+      "bbox_ref": "line_023_019",
+      "qid": "q-164"
+    },
+    {
+      "seq": 733,
+      "tag": "<INPUT>",
+      "text": "",
+      "page": 24,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-164"
+    },
+    {
+      "seq": 734,
+      "tag": "<Q>",
+      "text": "Difference (mm²) (CIR_DDIF)",
+      "page": 24,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7053087022569444,
+        0.2941994261897467,
+        0.7312615905145202
+      ],
+      "bbox_ref": "line_023_020",
+      "qid": "q-165"
+    },
+    {
+      "seq": 735,
+      "tag": "<INPUT>",
+      "text": "",
+      "page": 24,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-165"
+    },
+    {
+      "seq": 736,
+      "tag": "<Q>",
+      "text": "Difference (%) (CIR_ADIF)",
+      "page": 24,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7545511264993687,
+        0.3137899161943423,
+        0.7937615905145202
+      ],
+      "bbox_ref": "line_023_021",
+      "qid": "q-166"
+    },
+    {
+      "seq": 737,
+      "tag": "<INPUT>",
+      "text": "",
+      "page": 24,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-166"
+    },
+    {
+      "seq": 738,
+      "tag": "<Q>",
+      "text": "Reference diameter (mm) (CIR_RD)",
+      "page": 24,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.8142102174084596,
+        0.3047729940975414,
+        0.8269055299084596
+      ],
+      "bbox_ref": "line_023_022",
+      "qid": "q-167"
+    },
+    {
+      "seq": 739,
+      "tag": "<INPUT>",
+      "text": "",
+      "page": 24,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-167"
+    },
+    {
+      "seq": 740,
+      "tag": "<Q>",
+      "text": "Compress diameter (mm) (CIR_CD)",
+      "page": 24,
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.8643996113478535,
+        0.30558180964850135,
+        0.8770949238478535
+      ],
+      "bbox_ref": "line_023_023",
+      "qid": "q-168"
+    },
+    {
+      "seq": 741,
+      "tag": "<INPUT>",
+      "text": "",
+      "page": 24,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "IVUS Measurements > IVUS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-168"
+    },
+    {
+      "seq": 742,
+      "tag": "<FORM>",
+      "text": "IVUS Measurements > IVUS",
+      "page": 24,
+      "bbox_xyxy": [
+        0.20231438929738563,
+        0.036748096196338384,
+        0.6841029746859681,
+        0.049443408696338384
+      ],
+      "bbox_ref": "line_023_002"
+    },
+    {
+      "seq": 743,
+      "tag": "<SH>",
+      "text": "IVUS Measurements > IVUS",
+      "page": 24,
+      "question_below_text": "Segment (select all that apply)",
+      "bbox_xyxy": [
+        0.20231438929738563,
+        0.036748096196338384,
+        0.6841029746859681,
+        0.049443408696338384
+      ],
+      "bbox_ref": "line_023_002"
+    }
+  ],
+  "supplemental_page_data": [],
+  "all_lines": [
+    {
+      "line_id": "line_023_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 23
+    },
+    {
+      "line_id": "line_023_001",
+      "text": "24/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 23
+    },
+    {
+      "line_id": "line_023_002",
+      "text": "Form: IVUS Measurements > IVUS\nStudy: Inari CLOUT\nPage: 1/8",
+      "bbox": [
+        0.20231438929738563,
+        0.036748096196338384,
+        0.6841029746859681,
+        0.049443408696338384
+      ],
+      "page_num": 23
+    },
+    {
+      "line_id": "line_023_003",
+      "text": "IVUS Measurements > IVUS",
+      "bbox": [
+        0.2654462826797386,
+        0.06528665561868686,
+        0.6503871344273386,
+        0.09067728061868686
+      ],
+      "page_num": 23
+    },
+    {
+      "line_id": "line_023_004",
+      "text": "Segment (select all that apply)\n(IVUS_SEG)\nCommon iliac Right",
+      "bbox": [
+        0.059640522875817,
+        0.11155870225694445,
+        0.4947066961550245,
+        0.1375115905145202
+      ],
+      "page_num": 23
+    },
+    {
+      "line_id": "line_023_005",
+      "text": "Common iliac Left",
+      "bbox": [
+        0.3672385620915033,
+        0.13996779316603536,
+        0.48491254818984886,
+        0.15266310566603536
+      ],
+      "page_num": 23
+    },
+    {
+      "line_id": "line_023_006",
+      "text": "External iliac Right",
+      "bbox": [
+        0.3672385620915033,
+        0.15985415680239898,
+        0.4890008066214767,
+        0.17254946930239898
+      ],
+      "page_num": 23
+    },
+    {
+      "line_id": "line_023_007",
+      "text": "External iliac Left",
+      "bbox": [
+        0.3672385620915033,
+        0.17974052043876262,
+        0.4792066586563011,
+        0.19243583293876262
+      ],
+      "page_num": 23
+    },
+    {
+      "line_id": "line_023_008",
+      "text": "Common femoral Right",
+      "bbox": [
+        0.3672385620915033,
+        0.19962688407512627,
+        0.5184125713273591,
+        0.21232219657512627
+      ],
+      "page_num": 23
+    },
+    {
+      "line_id": "line_023_009",
+      "text": "Common femoral Left",
+      "bbox": [
+        0.3672385620915033,
+        0.2195132477114899,
+        0.5086184233621834,
+        0.2322085602114899
+      ],
+      "page_num": 23
+    },
+    {
+      "line_id": "line_023_010",
+      "text": "IVC (Inferior Vena Cava)",
+      "bbox": [
+        0.3672385620915033,
+        0.23939961134785354,
+        0.5274266760333691,
+        0.25209492384785354
+      ],
+      "page_num": 23
+    },
+    {
+      "line_id": "line_023_011",
+      "text": "Date of IVUS measurements\n(IVUS_DT)\ndd-mmm-yyyy",
+      "bbox": [
+        0.059640522875817,
+        0.2801193083175505,
+        0.44772493449691075,
+        0.30607219657512624
+      ],
+      "page_num": 23
+    },
+    {
+      "line_id": "line_023_012",
+      "text": "Time point of measurements\n(IVUS_PT)\nPre-ClotTriever",
+      "bbox": [
+        0.059640522875817,
+        0.32936173255997475,
+        0.46759960698146447,
+        0.3553146208175505
+      ],
+      "page_num": 23
+    },
+    {
+      "line_id": "line_023_013",
+      "text": "Post-ClotTriever",
+      "bbox": [
+        0.3684640522875817,
+        0.35871779316603536,
+        0.4741411396101409,
+        0.37141310566603536
+      ],
+      "page_num": 23
+    },
+    {
+      "line_id": "line_023_014",
+      "text": "Post-adjunctive procedure",
+      "bbox": [
+        0.3684640522875817,
+        0.378604156802399,
+        0.539289786145578,
+        0.391299469302399
+      ],
+      "page_num": 23
+    },
+    {
+      "line_id": "line_023_015",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.39849052043876265,
+        0.40524356817108353,
+        0.41118583293876265
+      ],
+      "page_num": 23
+    },
+    {
+      "line_id": "line_023_016",
+      "text": "Other, specify (IVUS_PTOT)\n0/2500",
+      "bbox": [
+        0.059640522875817,
+        0.4382632477114899,
+        0.3877015705981286,
+        0.4547464389993687
+      ],
+      "page_num": 23
+    },
+    {
+      "line_id": "line_023_017",
+      "text": "Common iliac Right",
+      "bbox": [
+        0.059640522875817,
+        0.5475235755997475,
+        0.2437583324955959,
+        0.5644506589330808
+      ],
+      "page_num": 23
+    },
+    {
+      "line_id": "line_023_018",
+      "text": "Reference area (mm²) (CIR_RA)",
+      "bbox": [
+        0.059640522875817,
+        0.6049299143781566,
+        0.2786259370691636,
+        0.6176252268781566
+      ],
+      "page_num": 23
+    },
+    {
+      "line_id": "line_023_019",
+      "text": "Compress area (mm²) (CIR_CA)",
+      "bbox": [
+        0.059640522875817,
+        0.6551193083175505,
+        0.27943475262012357,
+        0.6678146208175505
+      ],
+      "page_num": 23
+    },
+    {
+      "line_id": "line_023_020",
+      "text": "Difference (mm²) (CIR_DDIF)\n(Reference area - Compress area)",
+      "bbox": [
+        0.059640522875817,
+        0.7053087022569444,
+        0.2941994261897467,
+        0.7312615905145202
+      ],
+      "page_num": 23
+    },
+    {
+      "line_id": "line_023_021",
+      "text": "Difference (%) (CIR_ADIF)\n(Difference (mm²) / Reference area) *\n100",
+      "bbox": [
+        0.059640522875817,
+        0.7545511264993687,
+        0.3137899161943423,
+        0.7937615905145202
+      ],
+      "page_num": 23
+    },
+    {
+      "line_id": "line_023_022",
+      "text": "Reference diameter (mm) (CIR_RD)",
+      "bbox": [
+        0.059640522875817,
+        0.8142102174084596,
+        0.3047729940975414,
+        0.8269055299084596
+      ],
+      "page_num": 23
+    },
+    {
+      "line_id": "line_023_023",
+      "text": "Compress diameter (mm) (CIR_CD)",
+      "bbox": [
+        0.059640522875817,
+        0.8643996113478535,
+        0.30558180964850135,
+        0.8770949238478535
+      ],
+      "page_num": 23
+    }
+  ],
+  "metadata": {
+    "num_questions": 11,
+    "num_inputs": 19,
+    "num_inputs_by_type": {
+      "option": 0,
+      "text": 19,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 0,
+    "num_total_lines": 24,
+    "timestamp": "2025-08-15T13:31:12.833414+00:00"
+  }
+}

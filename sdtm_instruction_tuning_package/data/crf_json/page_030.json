@@ -1,0 +1,579 @@
+{
+  "page_id": 30,
+  "items": [
+    {
+      "seq": 944,
+      "tag": "<Q>",
+      "text": "Balloon size (CFL_BLS)",
+      "page": 31,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642102174084596,
+        0.3877015705981286,
+        0.08069340869633838
+      ],
+      "bbox_ref": "line_030_003",
+      "qid": "q-252"
+    },
+    {
+      "seq": 945,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 31,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642102174084596,
+        0.3877015705981286,
+        0.08069340869633838
+      ],
+      "bbox_ref": "line_030_003",
+      "parent_qid": "q-252"
+    },
+    {
+      "seq": 946,
+      "tag": "<Q>",
+      "text": "ATM (max) (CFL_ATM)",
+      "page": 31,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.1541723386205808,
+        0.21512444190729677,
+        0.1668676511205808
+      ],
+      "bbox_ref": "line_030_004",
+      "qid": "q-253"
+    },
+    {
+      "seq": 947,
+      "tag": "<INPUT>",
+      "text": "",
+      "page": 31,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-253"
+    },
+    {
+      "seq": 948,
+      "tag": "<Q>",
+      "text": "Post stenting area (mm²) (CFL_PA)",
+      "page": 31,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.20341476286300506,
+        0.30203379213420395,
+        0.21611007536300506
+      ],
+      "bbox_ref": "line_030_005",
+      "qid": "q-254"
+    },
+    {
+      "seq": 949,
+      "tag": "<INPUT>",
+      "text": "",
+      "page": 31,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-254"
+    },
+    {
+      "seq": 950,
+      "tag": "<Q>",
+      "text": "Post stening diameter (mm) (CFL_PD)",
+      "page": 31,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-255"
+    },
+    {
+      "seq": 951,
+      "tag": "<INPUT>",
+      "text": "",
+      "page": 31,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-255"
+    },
+    {
+      "seq": 952,
+      "tag": "<Q>",
+      "text": "IVC (Inferior Vena Cava)",
+      "page": 31,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3230917574179293,
+        0.2819211373921313,
+        0.34001884075126265
+      ],
+      "bbox_ref": "line_030_007",
+      "qid": "q-256"
+    },
+    {
+      "seq": 953,
+      "tag": "<Q>",
+      "text": "Reference area (mm²) (IVC_RA)",
+      "page": 31,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3804980961963384,
+        0.27781709658554177,
+        0.3931934086963384
+      ],
+      "bbox_ref": "line_030_008",
+      "qid": "q-257"
+    },
+    {
+      "seq": 954,
+      "tag": "<INPUT>",
+      "text": "",
+      "page": 31,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-257"
+    },
+    {
+      "seq": 955,
+      "tag": "<Q>",
+      "text": "Compress area (mm²) (IVC_CA)",
+      "page": 31,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.4306874901357323,
+        0.2786259370691636,
+        0.4433828026357323
+      ],
+      "bbox_ref": "line_030_009",
+      "qid": "q-258"
+    },
+    {
+      "seq": 956,
+      "tag": "<INPUT>",
+      "text": "",
+      "page": 31,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-258"
+    },
+    {
+      "seq": 957,
+      "tag": "<Q>",
+      "text": "Difference (mm²) (IVC_DDIF) (Reference area - Compress area)",
+      "page": 31,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-259"
+    },
+    {
+      "seq": 958,
+      "tag": "<INPUT>",
+      "text": "",
+      "page": 31,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-259"
+    },
+    {
+      "seq": 959,
+      "tag": "<Q>",
+      "text": "Difference (%) (IVC_ADIF) (Difference (mm²) / Reference area) * 100",
+      "page": 31,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-260"
+    },
+    {
+      "seq": 960,
+      "tag": "<INPUT>",
+      "text": "",
+      "page": 31,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-260"
+    },
+    {
+      "seq": 961,
+      "tag": "<Q>",
+      "text": "Reference diameter (mm) (IVC_RD)",
+      "page": 31,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5897783992266414,
+        0.30396415361391954,
+        0.6024737117266414
+      ],
+      "bbox_ref": "line_030_012",
+      "qid": "q-261"
+    },
+    {
+      "seq": 962,
+      "tag": "<INPUT>",
+      "text": "",
+      "page": 31,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-261"
+    },
+    {
+      "seq": 963,
+      "tag": "<Q>",
+      "text": "Compress diameter (mm) (IVC_CD)",
+      "page": 31,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6399677931660354,
+        0.3047729940975414,
+        0.6526631056660354
+      ],
+      "bbox_ref": "line_030_013",
+      "qid": "q-262"
+    },
+    {
+      "seq": 964,
+      "tag": "<INPUT>",
+      "text": "",
+      "page": 31,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-262"
+    },
+    {
+      "seq": 965,
+      "tag": "<Q>",
+      "text": "Length (mm) (IVC_LGT)",
+      "page": 31,
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6901571871054293,
+        0.22467006109898385,
+        0.7028524996054293
+      ],
+      "bbox_ref": "line_030_014",
+      "qid": "q-263"
+    },
+    {
+      "seq": 966,
+      "tag": "<INPUT>",
+      "text": "",
+      "page": 31,
+      "input_type": "text",
+      "form": "IVUS Measurements > IVUS",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-263"
+    },
+    {
+      "seq": 967,
+      "tag": "<FORM>",
+      "text": "IVUS Measurements > IVUS",
+      "page": 31,
+      "bbox_xyxy": [
+        0.20231438929738563,
+        0.036748096196338384,
+        0.6841029746859681,
+        0.049443408696338384
+      ],
+      "bbox_ref": "line_030_002"
+    }
+  ],
+  "supplemental_page_data": [],
+  "all_lines": [
+    {
+      "line_id": "line_030_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 30
+    },
+    {
+      "line_id": "line_030_001",
+      "text": "31/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 30
+    },
+    {
+      "line_id": "line_030_002",
+      "text": "Form: IVUS Measurements > IVUS\nStudy: Inari CLOUT\nPage: 8/8",
+      "bbox": [
+        0.20231438929738563,
+        0.036748096196338384,
+        0.6841029746859681,
+        0.049443408696338384
+      ],
+      "page_num": 30
+    },
+    {
+      "line_id": "line_030_003",
+      "text": "Balloon size (CFL_BLS)\n0/2500",
+      "bbox": [
+        0.059640522875817,
+        0.0642102174084596,
+        0.3877015705981286,
+        0.08069340869633838
+      ],
+      "page_num": 30
+    },
+    {
+      "line_id": "line_030_004",
+      "text": "ATM (max) (CFL_ATM)",
+      "bbox": [
+        0.059640522875817,
+        0.1541723386205808,
+        0.21512444190729677,
+        0.1668676511205808
+      ],
+      "page_num": 30
+    },
+    {
+      "line_id": "line_030_005",
+      "text": "Post stenting area (mm²) (CFL_PA)",
+      "bbox": [
+        0.059640522875817,
+        0.20341476286300506,
+        0.30203379213420395,
+        0.21611007536300506
+      ],
+      "page_num": 30
+    },
+    {
+      "line_id": "line_030_006",
+      "text": "Post stening diameter (mm)\n(CFL_PD)",
+      "bbox": [
+        0.059640522875817,
+        0.253604156802399,
+        0.2533024058622472,
+        0.27955704505997475
+      ],
+      "page_num": 30
+    },
+    {
+      "line_id": "line_030_007",
+      "text": "IVC (Inferior Vena Cava)",
+      "bbox": [
+        0.059640522875817,
+        0.3230917574179293,
+        0.2819211373921313,
+        0.34001884075126265
+      ],
+      "page_num": 30
+    },
+    {
+      "line_id": "line_030_008",
+      "text": "Reference area (mm²) (IVC_RA)",
+      "bbox": [
+        0.059640522875817,
+        0.3804980961963384,
+        0.27781709658554177,
+        0.3931934086963384
+      ],
+      "page_num": 30
+    },
+    {
+      "line_id": "line_030_009",
+      "text": "Compress area (mm²) (IVC_CA)",
+      "bbox": [
+        0.059640522875817,
+        0.4306874901357323,
+        0.2786259370691636,
+        0.4433828026357323
+      ],
+      "page_num": 30
+    },
+    {
+      "line_id": "line_030_010",
+      "text": "Difference (mm²) (IVC_DDIF)\n(Reference area - Compress area)",
+      "bbox": [
+        0.059640522875817,
+        0.48087688407512624,
+        0.2941994261897467,
+        0.506829772332702
+      ],
+      "page_num": 30
+    },
+    {
+      "line_id": "line_030_011",
+      "text": "Difference (%) (IVC_ADIF)\n(Difference (mm²) / Reference area) *\n100",
+      "bbox": [
+        0.059640522875817,
+        0.5301193083175505,
+        0.3137899161943423,
+        0.569329772332702
+      ],
+      "page_num": 30
+    },
+    {
+      "line_id": "line_030_012",
+      "text": "Reference diameter (mm) (IVC_RD)",
+      "bbox": [
+        0.059640522875817,
+        0.5897783992266414,
+        0.30396415361391954,
+        0.6024737117266414
+      ],
+      "page_num": 30
+    },
+    {
+      "line_id": "line_030_013",
+      "text": "Compress diameter (mm) (IVC_CD)",
+      "bbox": [
+        0.059640522875817,
+        0.6399677931660354,
+        0.3047729940975414,
+        0.6526631056660354
+      ],
+      "page_num": 30
+    },
+    {
+      "line_id": "line_030_014",
+      "text": "Length (mm) (IVC_LGT)",
+      "bbox": [
+        0.059640522875817,
+        0.6901571871054293,
+        0.22467006109898385,
+        0.7028524996054293
+      ],
+      "page_num": 30
+    }
+  ],
+  "metadata": {
+    "num_questions": 12,
+    "num_inputs": 11,
+    "num_inputs_by_type": {
+      "option": 0,
+      "text": 11,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 0,
+    "num_supplemental": 0,
+    "num_total_lines": 15,
+    "timestamp": "2025-08-15T13:34:17.460648+00:00"
+  }
+}

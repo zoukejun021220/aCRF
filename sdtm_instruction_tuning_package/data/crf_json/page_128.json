@@ -1,0 +1,1203 @@
+{
+  "page_id": 128,
+  "items": [
+    {
+      "seq": 3954,
+      "tag": "<Q>",
+      "text": "Left leg: Pain or other discomfort (ie, aching, heaviness, fatigue, soreness, burning) Presumes venous origin (LLP)",
+      "page": 129,
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-923"
+    },
+    {
+      "seq": 3955,
+      "tag": "<INPUT>",
+      "text": "0—None",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.07274034288194445,
+        0.4264957203584559,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_128_004",
+      "parent_qid": "q-923"
+    },
+    {
+      "seq": 3956,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.41830454309002246,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_128_005",
+      "parent_qid": "q-923"
+    },
+    {
+      "seq": 3957,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.4534662782756332,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_128_006",
+      "parent_qid": "q-923"
+    },
+    {
+      "seq": 3958,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.4379368701012306,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_128_007",
+      "parent_qid": "q-923"
+    },
+    {
+      "seq": 3959,
+      "tag": "<Q>",
+      "text": "Left leg: Varicose Veins “Varicose” veins must be ≥3 mm in diameter to qualify in the standing position (LLVV)",
+      "page": 129,
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7839145853061869,
+        0.3847163081948274,
+        0.7966098978061869
+      ],
+      "bbox_ref": "line_128_035",
+      "qid": "q-924"
+    },
+    {
+      "seq": 3960,
+      "tag": "<INPUT>",
+      "text": "0—None",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.07274034288194445,
+        0.4264957203584559,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_128_004",
+      "parent_qid": "q-924"
+    },
+    {
+      "seq": 3961,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.41830454309002246,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_128_005",
+      "parent_qid": "q-924"
+    },
+    {
+      "seq": 3962,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.4534662782756332,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_128_006",
+      "parent_qid": "q-924"
+    },
+    {
+      "seq": 3963,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.4379368701012306,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_128_007",
+      "parent_qid": "q-924"
+    },
+    {
+      "seq": 3964,
+      "tag": "<Q>",
+      "text": "Left leg: Venous Edema Presumes venous origin (LLVE)",
+      "page": 129,
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-925"
+    },
+    {
+      "seq": 3965,
+      "tag": "<INPUT>",
+      "text": "0—None",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.07274034288194445,
+        0.4264957203584559,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_128_004",
+      "parent_qid": "q-925"
+    },
+    {
+      "seq": 3966,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.41830454309002246,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_128_005",
+      "parent_qid": "q-925"
+    },
+    {
+      "seq": 3967,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.4534662782756332,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_128_006",
+      "parent_qid": "q-925"
+    },
+    {
+      "seq": 3968,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.4379368701012306,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_128_007",
+      "parent_qid": "q-925"
+    },
+    {
+      "seq": 3969,
+      "tag": "<Q>",
+      "text": "Left leg: Skin Pigmentation Presumes venous origin Does not include focal pigmentation over varicose veins or pigmentation due to other chronic diseases (ie. vasculitis purpura) (LLSP)",
+      "page": 129,
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-926"
+    },
+    {
+      "seq": 3970,
+      "tag": "<INPUT>",
+      "text": "0—None",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.07274034288194445,
+        0.4264957203584559,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_128_004",
+      "parent_qid": "q-926"
+    },
+    {
+      "seq": 3971,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.41830454309002246,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_128_005",
+      "parent_qid": "q-926"
+    },
+    {
+      "seq": 3972,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.4534662782756332,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_128_006",
+      "parent_qid": "q-926"
+    },
+    {
+      "seq": 3973,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.4379368701012306,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_128_007",
+      "parent_qid": "q-926"
+    },
+    {
+      "seq": 3974,
+      "tag": "<Q>",
+      "text": "Left leg: Inflammation More than just recent pigmentation (ie. erythema, cellulitis, venous eczema, dermatitis) (LLIF)",
+      "page": 129,
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-927"
+    },
+    {
+      "seq": 3975,
+      "tag": "<INPUT>",
+      "text": "0—None",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.07274034288194445,
+        0.4264957203584559,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_128_004",
+      "parent_qid": "q-927"
+    },
+    {
+      "seq": 3976,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.41830454309002246,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_128_005",
+      "parent_qid": "q-927"
+    },
+    {
+      "seq": 3977,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.4534662782756332,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_128_006",
+      "parent_qid": "q-927"
+    },
+    {
+      "seq": 3978,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.4379368701012306,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_128_007",
+      "parent_qid": "q-927"
+    },
+    {
+      "seq": 3979,
+      "tag": "<Q>",
+      "text": "Left leg: Induration Presumes venous origin of secondary skin and subcutaneous changes (ie. chronic edema with fibrosis, hypodermatitis) Includes white atrophy and lipodermatosclerosis (LLID)",
+      "page": 129,
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-928"
+    },
+    {
+      "seq": 3980,
+      "tag": "<INPUT>",
+      "text": "0—None",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.07274034288194445,
+        0.4264957203584559,
+        0.08543565538194445
+      ],
+      "bbox_ref": "line_128_004",
+      "parent_qid": "q-928"
+    },
+    {
+      "seq": 3981,
+      "tag": "<INPUT>",
+      "text": "1—Mild",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.41830454309002246,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_128_005",
+      "parent_qid": "q-928"
+    },
+    {
+      "seq": 3982,
+      "tag": "<INPUT>",
+      "text": "2—Moderate",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.4534662782756332,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_128_006",
+      "parent_qid": "q-928"
+    },
+    {
+      "seq": 3983,
+      "tag": "<INPUT>",
+      "text": "3—Severe",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.4379368701012306,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_128_007",
+      "parent_qid": "q-928"
+    },
+    {
+      "seq": 3984,
+      "tag": "<Q>",
+      "text": "Left leg: Active Ulcer Number (LLAUN)",
+      "page": 129,
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-929"
+    },
+    {
+      "seq": 3985,
+      "tag": "<INPUT>",
+      "text": "0",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7157327671243687,
+        0.3766427632250817,
+        0.7416856553819444
+      ],
+      "bbox_ref": "line_128_032",
+      "parent_qid": "q-929"
+    },
+    {
+      "seq": 3986,
+      "tag": "<INPUT>",
+      "text": "1",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7441418580334596,
+        0.3766427632250817,
+        0.7568371705334596
+      ],
+      "bbox_ref": "line_128_033",
+      "parent_qid": "q-929"
+    },
+    {
+      "seq": 3987,
+      "tag": "<INPUT>",
+      "text": "2",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7640282216698232,
+        0.3766427632250817,
+        0.7767235341698232
+      ],
+      "bbox_ref": "line_128_034",
+      "parent_qid": "q-929"
+    },
+    {
+      "seq": 3988,
+      "tag": "<INPUT>",
+      "text": "≥3",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.17311913076073232,
+        0.30879989324831497,
+        0.22558717053345959
+      ],
+      "bbox_ref": "line_128_008",
+      "parent_qid": "q-929"
+    },
+    {
+      "seq": 3989,
+      "tag": "<Q>",
+      "text": "Left leg: Active Ulcer Duration Assess longest active (LLAUD)",
+      "page": 129,
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-930"
+    },
+    {
+      "seq": 3990,
+      "tag": "<INPUT>",
+      "text": "Not applicable",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.8246342822758839,
+        0.46164274527356514,
+        0.8505871705334596
+      ],
+      "bbox_ref": "line_128_036",
+      "parent_qid": "q-930"
+    },
+    {
+      "seq": 3991,
+      "tag": "<INPUT>",
+      "text": "<3 months",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.8530433731849747,
+        0.4375375485887714,
+        0.8657386856849747
+      ],
+      "bbox_ref": "line_128_037",
+      "parent_qid": "q-930"
+    },
+    {
+      "seq": 3992,
+      "tag": "<INPUT>",
+      "text": "3 months to 1 year",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.8729297368213383,
+        0.49025826049006843,
+        0.8856250493213383
+      ],
+      "bbox_ref": "line_128_038",
+      "parent_qid": "q-930"
+    },
+    {
+      "seq": 3993,
+      "tag": "<INPUT>",
+      "text": ">1 year",
+      "page": 129,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit > QOL",
+      "section": "rVCSS",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.892816100457702,
+        0.4179200315787122,
+        0.905511412957702
+      ],
+      "bbox_ref": "line_128_039",
+      "parent_qid": "q-930"
+    },
+    {
+      "seq": 3994,
+      "tag": "<FORM>",
+      "text": "Unscheduled Visits > Visit > QOL",
+      "page": 129,
+      "bbox_xyxy": [
+        0.18724468954248366,
+        0.03675549439709596,
+        0.6991726744408701,
+        0.04945080689709596
+      ],
+      "bbox_ref": "line_128_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_128_002",
+      "text": "Form: Unscheduled Visits > Visit > QOL\nStudy: Inari CLOUT\nPage: 7/8",
+      "bbox": [
+        0.18724468954248366,
+        0.03675549439709596,
+        0.6991726744408701,
+        0.04945080689709596
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_128_003",
+      "text": "Left leg: Pain or other discomfort (ie,\naching, heaviness, fatigue,\nsoreness, burning) Presumes\nvenous origin (LLP)",
+      "bbox": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.3170351015976052,
+        0.11668565538194445
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_128_017",
+      "text": "Left leg: Skin Pigmentation\nPresumes venous origin Does not\ninclude focal pigmentation over\nvaricose veins or pigmentation due\nto other chronic diseases (ie.\nvasculitis purpura) (LLSP)",
+      "bbox": [
+        0.059640522875817,
+        0.38997519136679293,
+        0.30645158555772567,
+        0.4689583826546717
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_128_022",
+      "text": "Left leg: Inflammation More than just\nrecent pigmentation (ie. erythema,\ncellulitis, venous eczema,\ndermatitis) (LLIF)",
+      "bbox": [
+        0.059640522875817,
+        0.49887670651830807,
+        0.3170229843239379,
+        0.5513447462910354
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_128_027",
+      "text": "Left leg: Induration Presumes\nvenous origin of secondary skin and\nsubcutaneous changes (ie. chronic\nedema with fibrosis, hypodermitis)\nIncludes white atrophy and\nlipodermatosclerosis (LLID)",
+      "bbox": [
+        0.059640522875817,
+        0.6068312519728535,
+        0.31543225556417226,
+        0.6858144432607324
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_128_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_001",
+      "text": "129/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_002",
+      "text": "Form: Unscheduled Visits > Visit > QOL\nStudy: Inari CLOUT\nPage: 7/8",
+      "bbox": [
+        0.18724468954248366,
+        0.03675549439709596,
+        0.6991726744408701,
+        0.04945080689709596
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_003",
+      "text": "Left leg: Pain or other discomfort (ie,\naching, heaviness, fatigue,\nsoreness, burning) Presumes\nvenous origin (LLP)",
+      "bbox": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.3170351015976052,
+        0.11668565538194445
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_004",
+      "text": "0—None",
+      "bbox": [
+        0.3684640522875817,
+        0.07274034288194445,
+        0.4264957203584559,
+        0.08543565538194445
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_005",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.09262670651830808,
+        0.41830454309002246,
+        0.10532201901830808
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_006",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.11251307015467171,
+        0.4534662782756332,
+        0.1252083826546717
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_007",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.13239943379103536,
+        0.4379368701012306,
+        0.14509474629103536
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_008",
+      "text": "Left leg: Varicose Veins “Varicose”\nveins must be ≥3 mm in diameter to\nqualify in the standing position\n(LLVV)",
+      "bbox": [
+        0.059640522875817,
+        0.17311913076073232,
+        0.30879989324831497,
+        0.22558717053345959
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_009",
+      "text": "0—None",
+      "bbox": [
+        0.3684640522875817,
+        0.18164185803345959,
+        0.4264957203584559,
+        0.19433717053345959
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_010",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.20152822166982323,
+        0.41830454309002246,
+        0.21422353416982323
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_011",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.22141458530618688,
+        0.4534662782756332,
+        0.23410989780618688
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_012",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.2413009489425505,
+        0.4379368701012306,
+        0.2539962614425505
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_013",
+      "text": "Left leg: Venous Edema Presumes\nvenous origin (LLVE)\n0—None",
+      "bbox": [
+        0.059640522875817,
+        0.2810736762152778,
+        0.4264957203584559,
+        0.30702656447285354
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_014",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.3104297368213384,
+        0.41830454309002246,
+        0.3231250493213384
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_015",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.33031610045770204,
+        0.4534662782756332,
+        0.34301141295770204
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_016",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.35020246409406564,
+        0.4379368701012306,
+        0.36289777659406564
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_017",
+      "text": "Left leg: Skin Pigmentation\nPresumes venous origin Does not\ninclude focal pigmentation over\nvaricose veins or pigmentation due\nto other chronic diseases (ie.\nvasculitis purpura) (LLSP)",
+      "bbox": [
+        0.059640522875817,
+        0.38997519136679293,
+        0.30645158555772567,
+        0.4689583826546717
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_018",
+      "text": "0—None",
+      "bbox": [
+        0.3684640522875817,
+        0.3984979186395202,
+        0.4264957203584559,
+        0.4111932311395202
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_019",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.4183842822758838,
+        0.41830454309002246,
+        0.4310795947758838
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_020",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.43827064591224746,
+        0.4534662782756332,
+        0.45096595841224746
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_021",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.4581570095486111,
+        0.4379368701012306,
+        0.4708523220486111
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_022",
+      "text": "Left leg: Inflammation More than just\nrecent pigmentation (ie. erythema,\ncellulitis, venous eczema,\ndermatitis) (LLIF)",
+      "bbox": [
+        0.059640522875817,
+        0.49887670651830807,
+        0.3170229843239379,
+        0.5513447462910354
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_023",
+      "text": "0—None",
+      "bbox": [
+        0.3684640522875817,
+        0.5073994337910354,
+        0.4264957203584559,
+        0.5200947462910354
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_024",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.527285797427399,
+        0.41830454309002246,
+        0.539981109927399
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_025",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.5471721610637627,
+        0.4534662782756332,
+        0.5598674735637627
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_026",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.5670585247001263,
+        0.4379368701012306,
+        0.5797538372001263
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_027",
+      "text": "Left leg: Induration Presumes\nvenous origin of secondary skin and\nsubcutaneous changes (ie. chronic\nedema with fibrosis, hypodermitis)\nIncludes white atrophy and\nlipodermatosclerosis (LLID)",
+      "bbox": [
+        0.059640522875817,
+        0.6068312519728535,
+        0.31543225556417226,
+        0.6858144432607324
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_028",
+      "text": "0—None",
+      "bbox": [
+        0.3684640522875817,
+        0.6163009489425505,
+        0.4264957203584559,
+        0.6289962614425505
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_029",
+      "text": "1—Mild",
+      "bbox": [
+        0.3684640522875817,
+        0.6361873125789141,
+        0.41830454309002246,
+        0.6488826250789141
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_030",
+      "text": "2—Moderate",
+      "bbox": [
+        0.3684640522875817,
+        0.6560736762152778,
+        0.4534662782756332,
+        0.6687689887152778
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_031",
+      "text": "3—Severe",
+      "bbox": [
+        0.3684640522875817,
+        0.6759600398516414,
+        0.4379368701012306,
+        0.6886553523516414
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_032",
+      "text": "Left leg: Active Ulcer Number\n(LLAUN)\n0",
+      "bbox": [
+        0.059640522875817,
+        0.7157327671243687,
+        0.3766427632250817,
+        0.7416856553819444
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_033",
+      "text": "1",
+      "bbox": [
+        0.3684640522875817,
+        0.7441418580334596,
+        0.3766427632250817,
+        0.7568371705334596
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_034",
+      "text": "2",
+      "bbox": [
+        0.3684640522875817,
+        0.7640282216698232,
+        0.3766427632250817,
+        0.7767235341698232
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_035",
+      "text": "≥3",
+      "bbox": [
+        0.3684640522875817,
+        0.7839145853061869,
+        0.3847163081948274,
+        0.7966098978061869
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_036",
+      "text": "Left leg: Active Ulcer Duration\nAssess longest active (LLAUD)\nNot applicable",
+      "bbox": [
+        0.059640522875817,
+        0.8246342822758839,
+        0.46164274527356514,
+        0.8505871705334596
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_037",
+      "text": "<3 months",
+      "bbox": [
+        0.3684640522875817,
+        0.8530433731849747,
+        0.4375375485887714,
+        0.8657386856849747
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_038",
+      "text": "3 months to 1 year",
+      "bbox": [
+        0.3684640522875817,
+        0.8729297368213383,
+        0.49025826049006843,
+        0.8856250493213383
+      ],
+      "page_num": 128
+    },
+    {
+      "line_id": "line_128_039",
+      "text": ">1 year",
+      "bbox": [
+        0.3684640522875817,
+        0.892816100457702,
+        0.4179200315787122,
+        0.905511412957702
+      ],
+      "page_num": 128
+    }
+  ],
+  "metadata": {
+    "num_questions": 8,
+    "num_inputs": 32,
+    "num_inputs_by_type": {
+      "option": 0,
+      "text": 32,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 0,
+    "num_supplemental": 5,
+    "num_total_lines": 40,
+    "timestamp": "2025-08-15T14:17:40.229083+00:00"
+  }
+}

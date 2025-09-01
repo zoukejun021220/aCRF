@@ -1,0 +1,470 @@
+{
+  "page_id": 120,
+  "items": [
+    {
+      "seq": 3701,
+      "tag": "<Q>",
+      "text": "Has there been an Adverse Event since the last visit? (FU_UNSAEYN)",
+      "page": 121,
+      "form": "Unscheduled Visits > Visit",
+      "section": "Quality of Life",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-868"
+    },
+    {
+      "seq": 3702,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 121,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit",
+      "section": "Follow-Up Evaluation",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.2081570095486111,
+        0.3924522150575725,
+        0.23410989780618688
+      ],
+      "bbox_ref": "line_120_006",
+      "parent_qid": "q-868"
+    },
+    {
+      "seq": 3703,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 121,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit",
+      "section": "Follow-Up Evaluation",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.23656610045770202,
+        0.38726041207905687,
+        0.24926141295770202
+      ],
+      "bbox_ref": "line_120_007",
+      "parent_qid": "q-868"
+    },
+    {
+      "seq": 3704,
+      "tag": "<Q>",
+      "text": "Per the patient, were they compliant with their anticoagulation regimen? (FU_ANTCOMP)",
+      "page": 121,
+      "form": "Unscheduled Visits > Visit",
+      "section": "Follow-Up Evaluation",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-869"
+    },
+    {
+      "seq": 3705,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 121,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit",
+      "section": "Follow-Up Evaluation",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.2081570095486111,
+        0.3924522150575725,
+        0.23410989780618688
+      ],
+      "bbox_ref": "line_120_006",
+      "parent_qid": "q-869"
+    },
+    {
+      "seq": 3706,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 121,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit",
+      "section": "Follow-Up Evaluation",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.23656610045770202,
+        0.38726041207905687,
+        0.24926141295770202
+      ],
+      "bbox_ref": "line_120_007",
+      "parent_qid": "q-869"
+    },
+    {
+      "seq": 3707,
+      "tag": "<INPUT>",
+      "text": "Not evaluable",
+      "page": 121,
+      "input_type": "text",
+      "form": "Unscheduled Visits > Visit",
+      "section": "Follow-Up Evaluation",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.3246342822758838,
+        0.45837801266339867,
+        0.3373295947758838
+      ],
+      "bbox_ref": "line_120_011",
+      "parent_qid": "q-869"
+    },
+    {
+      "seq": 3708,
+      "tag": "<Q>",
+      "text": "Did you update the Anticoagulation forms for this visit? (FU_UNSANTIYN)",
+      "page": 121,
+      "form": "Unscheduled Visits > Visit",
+      "section": "Follow-Up Evaluation",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-870"
+    },
+    {
+      "seq": 3709,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 121,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit",
+      "section": "Follow-Up Evaluation",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.2081570095486111,
+        0.3924522150575725,
+        0.23410989780618688
+      ],
+      "bbox_ref": "line_120_006",
+      "parent_qid": "q-870"
+    },
+    {
+      "seq": 3710,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 121,
+      "input_type": "option",
+      "form": "Unscheduled Visits > Visit",
+      "section": "Follow-Up Evaluation",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.23656610045770202,
+        0.38726041207905687,
+        0.24926141295770202
+      ],
+      "bbox_ref": "line_120_007",
+      "parent_qid": "q-870"
+    },
+    {
+      "seq": 3711,
+      "tag": "<FORM>",
+      "text": "Unscheduled Visits > Visit",
+      "page": 121,
+      "bbox_xyxy": [
+        0.2111608966503268,
+        0.03675549439709596,
+        0.675275565752017,
+        0.04945080689709596
+      ],
+      "bbox_ref": "line_120_002"
+    },
+    {
+      "seq": 3712,
+      "tag": "<SH>",
+      "text": "Follow-Up Evaluation",
+      "page": 121,
+      "question_below_text": "Has there been an Adverse Event since the last visit? (FU_UNSAEYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11665976167929293,
+        0.2590099658841401,
+        0.13358684501262627
+      ],
+      "bbox_ref": "line_120_004"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_120_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_120_001",
+      "text": "121/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_120_002",
+      "text": "Form: Unscheduled Visits > Visit\nStudy: Inari CLOUT\nPage: 2/2",
+      "bbox": [
+        0.2111608966503268,
+        0.03675549439709596,
+        0.675275565752017,
+        0.04945080689709596
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_120_003",
+      "text": "Subform: QOL",
+      "bbox": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.16012376274158752,
+        0.07691292810921717
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_120_004",
+      "text": "Follow-Up Evaluation",
+      "bbox": [
+        0.059640522875817,
+        0.11665976167929293,
+        0.2590099658841401,
+        0.13358684501262627
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_120_005",
+      "text": "Subform: Eval",
+      "bbox": [
+        0.059640522875817,
+        0.1750130701546717,
+        0.15766810747533064,
+        0.1877083826546717
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_120_008",
+      "text": "Per the patient, were they compliant\nwith their anticoagulation regimen?\n(FU_ANTCOMP)",
+      "bbox": [
+        0.059640522875817,
+        0.2763388277304293,
+        0.3113464903987311,
+        0.31554929174558083
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_120_012",
+      "text": "Did you update the Anticoagulation\nforms for this visit?\n(FU_UNSANTIYN)",
+      "bbox": [
+        0.059640522875817,
+        0.36535397924558083,
+        0.3072117076200597,
+        0.4045644432607323
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_120_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 120
+    },
+    {
+      "line_id": "line_120_001",
+      "text": "121/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 120
+    },
+    {
+      "line_id": "line_120_002",
+      "text": "Form: Unscheduled Visits > Visit\nStudy: Inari CLOUT\nPage: 2/2",
+      "bbox": [
+        0.2111608966503268,
+        0.03675549439709596,
+        0.675275565752017,
+        0.04945080689709596
+      ],
+      "page_num": 120
+    },
+    {
+      "line_id": "line_120_003",
+      "text": "Subform: QOL",
+      "bbox": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.16012376274158752,
+        0.07691292810921717
+      ],
+      "page_num": 120
+    },
+    {
+      "line_id": "line_120_004",
+      "text": "Follow-Up Evaluation",
+      "bbox": [
+        0.059640522875817,
+        0.11665976167929293,
+        0.2590099658841401,
+        0.13358684501262627
+      ],
+      "page_num": 120
+    },
+    {
+      "line_id": "line_120_005",
+      "text": "Subform: Eval",
+      "bbox": [
+        0.059640522875817,
+        0.1750130701546717,
+        0.15766810747533064,
+        0.1877083826546717
+      ],
+      "page_num": 120
+    },
+    {
+      "line_id": "line_120_006",
+      "text": "Has there been an Adverse Event\nsince the last visit? (FU_UNSAEYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.2081570095486111,
+        0.3924522150575725,
+        0.23410989780618688
+      ],
+      "page_num": 120
+    },
+    {
+      "line_id": "line_120_007",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.23656610045770202,
+        0.38726041207905687,
+        0.24926141295770202
+      ],
+      "page_num": 120
+    },
+    {
+      "line_id": "line_120_008",
+      "text": "Per the patient, were they compliant\nwith their anticoagulation regimen?\n(FU_ANTCOMP)",
+      "bbox": [
+        0.059640522875817,
+        0.2763388277304293,
+        0.3113464903987311,
+        0.31554929174558083
+      ],
+      "page_num": 120
+    },
+    {
+      "line_id": "line_120_009",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.2848615550031566,
+        0.3924522150575725,
+        0.2975568675031566
+      ],
+      "page_num": 120
+    },
+    {
+      "line_id": "line_120_010",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.3047479186395202,
+        0.38726041207905687,
+        0.3174432311395202
+      ],
+      "page_num": 120
+    },
+    {
+      "line_id": "line_120_011",
+      "text": "Not evaluable",
+      "bbox": [
+        0.3684640522875817,
+        0.3246342822758838,
+        0.45837801266339867,
+        0.3373295947758838
+      ],
+      "page_num": 120
+    },
+    {
+      "line_id": "line_120_012",
+      "text": "Did you update the Anticoagulation\nforms for this visit?\n(FU_UNSANTIYN)",
+      "bbox": [
+        0.059640522875817,
+        0.36535397924558083,
+        0.3072117076200597,
+        0.4045644432607323
+      ],
+      "page_num": 120
+    },
+    {
+      "line_id": "line_120_013",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.37387670651830807,
+        0.3924522150575725,
+        0.38657201901830807
+      ],
+      "page_num": 120
+    },
+    {
+      "line_id": "line_120_014",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.3937630701546717,
+        0.38726041207905687,
+        0.4064583826546717
+      ],
+      "page_num": 120
+    }
+  ],
+  "metadata": {
+    "num_questions": 3,
+    "num_inputs": 7,
+    "num_inputs_by_type": {
+      "option": 6,
+      "text": 1,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 8,
+    "num_total_lines": 15,
+    "timestamp": "2025-08-15T14:13:46.180029+00:00"
+  }
+}

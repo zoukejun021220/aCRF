@@ -1,0 +1,1067 @@
+{
+  "page_id": 116,
+  "items": [
+    {
+      "seq": 3592,
+      "tag": "<Q>",
+      "text": "Location of rethrombosis (EVALTVS_RETHROM_LOC)",
+      "page": 117,
+      "form": "FUP–2 Years > Eval",
+      "section": "Rethrombosis",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-840"
+    },
+    {
+      "seq": 3593,
+      "tag": "<INPUT>",
+      "text": "Common iliac",
+      "page": 117,
+      "input_type": "text",
+      "form": "FUP–2 Years > Eval",
+      "section": "Rethrombosis",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.4562973820306117,
+        0.09017050386679293
+      ],
+      "bbox_ref": "line_116_003",
+      "parent_qid": "q-840"
+    },
+    {
+      "seq": 3594,
+      "tag": "<INPUT>",
+      "text": "Internal iliac",
+      "page": 117,
+      "input_type": "text",
+      "form": "FUP–2 Years > Eval",
+      "section": "Rethrombosis",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.09262670651830808,
+        0.4456944185144761,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_116_004",
+      "parent_qid": "q-840"
+    },
+    {
+      "seq": 3595,
+      "tag": "<INPUT>",
+      "text": "External iliac",
+      "page": 117,
+      "input_type": "text",
+      "form": "FUP–2 Years > Eval",
+      "section": "Rethrombosis",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.11251307015467171,
+        0.45059149249706393,
+        0.1252083826546717
+      ],
+      "bbox_ref": "line_116_005",
+      "parent_qid": "q-840"
+    },
+    {
+      "seq": 3596,
+      "tag": "<INPUT>",
+      "text": "Common femoral",
+      "page": 117,
+      "input_type": "text",
+      "form": "FUP–2 Years > Eval",
+      "section": "Rethrombosis",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.13239943379103536,
+        0.4800057006038092,
+        0.14509474629103536
+      ],
+      "bbox_ref": "line_116_006",
+      "parent_qid": "q-840"
+    },
+    {
+      "seq": 3597,
+      "tag": "<INPUT>",
+      "text": "Deep femoral",
+      "page": 117,
+      "input_type": "text",
+      "form": "FUP–2 Years > Eval",
+      "section": "Rethrombosis",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.15228579742739898,
+        0.45550572015101615,
+        0.16498110992739898
+      ],
+      "bbox_ref": "line_116_007",
+      "parent_qid": "q-840"
+    },
+    {
+      "seq": 3598,
+      "tag": "<INPUT>",
+      "text": "Cranial Femoral",
+      "page": 117,
+      "input_type": "text",
+      "form": "FUP–2 Years > Eval",
+      "section": "Rethrombosis",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.17217216106376262,
+        0.47182928347120096,
+        0.18486747356376262
+      ],
+      "bbox_ref": "line_116_008",
+      "parent_qid": "q-840"
+    },
+    {
+      "seq": 3599,
+      "tag": "<INPUT>",
+      "text": "Caudal Femoral",
+      "page": 117,
+      "input_type": "text",
+      "form": "FUP–2 Years > Eval",
+      "section": "Rethrombosis",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.19205852470012627,
+        0.4718439438763787,
+        0.20475383720012627
+      ],
+      "bbox_ref": "line_116_009",
+      "parent_qid": "q-840"
+    },
+    {
+      "seq": 3600,
+      "tag": "<INPUT>",
+      "text": "Popliteal",
+      "page": 117,
+      "input_type": "text",
+      "form": "FUP–2 Years > Eval",
+      "section": "Rethrombosis",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.2119448883364899,
+        0.42363808825125104,
+        0.2246402008364899
+      ],
+      "bbox_ref": "line_116_010",
+      "parent_qid": "q-840"
+    },
+    {
+      "seq": 3601,
+      "tag": "<INPUT>",
+      "text": "IVC (Inferior Vena Cava)",
+      "page": 117,
+      "input_type": "text",
+      "form": "FUP–2 Years > Eval",
+      "section": "Rethrombosis",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.23183125197285354,
+        0.5274266760333691,
+        0.24452656447285354
+      ],
+      "bbox_ref": "line_116_011",
+      "parent_qid": "q-840"
+    },
+    {
+      "seq": 3602,
+      "tag": "<Q>",
+      "text": "Were there any reinterventions performed on the TVS? (EVALTVS_REINTYN)",
+      "page": 117,
+      "form": "FUP–2 Years > Eval",
+      "section": "Rethrombosis",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-841"
+    },
+    {
+      "seq": 3603,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 117,
+      "input_type": "option",
+      "form": "FUP–2 Years > Eval",
+      "section": "Reintervention",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.35777822166982326,
+        0.3924522150575725,
+        0.37047353416982326
+      ],
+      "bbox_ref": "line_116_014",
+      "parent_qid": "q-841"
+    },
+    {
+      "seq": 3604,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 117,
+      "input_type": "option",
+      "form": "FUP–2 Years > Eval",
+      "section": "Reintervention",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.37766458530618685,
+        0.38726041207905687,
+        0.39035989780618685
+      ],
+      "bbox_ref": "line_116_015",
+      "parent_qid": "q-841"
+    },
+    {
+      "seq": 3605,
+      "tag": "<Q>",
+      "text": "Reintervention date (EVALTVS_DATE)",
+      "page": 117,
+      "form": "FUP–2 Years > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.29184915561868685,
+        0.1969119053260953,
+        0.3087762389520202
+      ],
+      "bbox_ref": "line_116_012",
+      "qid": "q-842"
+    },
+    {
+      "seq": 3606,
+      "tag": "<INPUT>",
+      "text": "dd-mmm-yyyy",
+      "page": 117,
+      "input_type": "text",
+      "form": "FUP–2 Years > Eval",
+      "section": "Reintervention",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.4183842822758838,
+        0.44772493449691075,
+        0.4443371705334596
+      ],
+      "bbox_ref": "line_116_016",
+      "parent_qid": "q-842"
+    },
+    {
+      "seq": 3607,
+      "tag": "<Q>",
+      "text": "Reintervention description (EVALTVS_DESC)",
+      "page": 117,
+      "form": "FUP–2 Years > Eval",
+      "section": null,
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.29184915561868685,
+        0.1969119053260953,
+        0.3087762389520202
+      ],
+      "bbox_ref": "line_116_012",
+      "qid": "q-843"
+    },
+    {
+      "seq": 3608,
+      "tag": "<INPUT>",
+      "text": "0/500",
+      "page": 117,
+      "input_type": "text",
+      "form": "FUP–2 Years > Eval",
+      "section": "Reintervention",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.4723615550031566,
+        0.3795251036001966,
+        0.4850568675031566
+      ],
+      "bbox_ref": "line_116_018",
+      "parent_qid": "q-843"
+    },
+    {
+      "seq": 3609,
+      "tag": "<Q>",
+      "text": "Was venogram performed? (EVALTVS_VENYN)",
+      "page": 117,
+      "form": "FUP–2 Years > Eval",
+      "section": "Reintervention",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-844"
+    },
+    {
+      "seq": 3610,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 117,
+      "input_type": "option",
+      "form": "FUP–2 Years > Eval",
+      "section": "Reintervention",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.35777822166982326,
+        0.3924522150575725,
+        0.37047353416982326
+      ],
+      "bbox_ref": "line_116_014",
+      "parent_qid": "q-844"
+    },
+    {
+      "seq": 3611,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 117,
+      "input_type": "option",
+      "form": "FUP–2 Years > Eval",
+      "section": "Reintervention",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.37766458530618685,
+        0.38726041207905687,
+        0.39035989780618685
+      ],
+      "bbox_ref": "line_116_015",
+      "parent_qid": "q-844"
+    },
+    {
+      "seq": 3612,
+      "tag": "<Q>",
+      "text": "Thrombus load (EVALTVS_THROM1)",
+      "page": 117,
+      "form": "FUP–2 Years > Eval",
+      "section": "Reintervention",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6267176156092171,
+        0.4059664159039267,
+        0.6479356553819444
+      ],
+      "bbox_ref": "line_116_021",
+      "qid": "q-845"
+    },
+    {
+      "seq": 3613,
+      "tag": "<INPUT>",
+      "text": "≤10%",
+      "page": 117,
+      "input_type": "text",
+      "form": "FUP–2 Years > Eval",
+      "section": "Reintervention",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6267176156092171,
+        0.4059664159039267,
+        0.6479356553819444
+      ],
+      "bbox_ref": "line_116_021",
+      "parent_qid": "q-845"
+    },
+    {
+      "seq": 3614,
+      "tag": "<INPUT>",
+      "text": "11 to 20%",
+      "page": 117,
+      "input_type": "text",
+      "form": "FUP–2 Years > Eval",
+      "section": "Reintervention",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6551267065183081,
+        0.43359773922589867,
+        0.6678220190183081
+      ],
+      "bbox_ref": "line_116_022",
+      "parent_qid": "q-845"
+    },
+    {
+      "seq": 3615,
+      "tag": "<INPUT>",
+      "text": "21 to 30%",
+      "page": 117,
+      "input_type": "text",
+      "form": "FUP–2 Years > Eval",
+      "section": "Reintervention",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6750130701546717,
+        0.43468699735753674,
+        0.6877083826546717
+      ],
+      "bbox_ref": "line_116_023",
+      "parent_qid": "q-845"
+    },
+    {
+      "seq": 3616,
+      "tag": "<INPUT>",
+      "text": "31 to 40%",
+      "page": 117,
+      "input_type": "text",
+      "form": "FUP–2 Years > Eval",
+      "section": "Reintervention",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6948994337910354,
+        0.43468699735753674,
+        0.7075947462910354
+      ],
+      "bbox_ref": "line_116_024",
+      "parent_qid": "q-845"
+    },
+    {
+      "seq": 3617,
+      "tag": "<INPUT>",
+      "text": "41 to 50%",
+      "page": 117,
+      "input_type": "text",
+      "form": "FUP–2 Years > Eval",
+      "section": "Reintervention",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.714785797427399,
+        0.43468699735753674,
+        0.727481109927399
+      ],
+      "bbox_ref": "line_116_025",
+      "parent_qid": "q-845"
+    },
+    {
+      "seq": 3618,
+      "tag": "<INPUT>",
+      "text": "51 to 60%",
+      "page": 117,
+      "input_type": "text",
+      "form": "FUP–2 Years > Eval",
+      "section": "Reintervention",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7346721610637627,
+        0.43468699735753674,
+        0.7473674735637627
+      ],
+      "bbox_ref": "line_116_026",
+      "parent_qid": "q-845"
+    },
+    {
+      "seq": 3619,
+      "tag": "<INPUT>",
+      "text": "61 to 70%",
+      "page": 117,
+      "input_type": "text",
+      "form": "FUP–2 Years > Eval",
+      "section": "Reintervention",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7545585247001263,
+        0.43468699735753674,
+        0.7672538372001263
+      ],
+      "bbox_ref": "line_116_027",
+      "parent_qid": "q-845"
+    },
+    {
+      "seq": 3620,
+      "tag": "<INPUT>",
+      "text": "71 to 80%",
+      "page": 117,
+      "input_type": "text",
+      "form": "FUP–2 Years > Eval",
+      "section": "Reintervention",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.77444488833649,
+        0.43468699735753674,
+        0.78714020083649
+      ],
+      "bbox_ref": "line_116_028",
+      "parent_qid": "q-845"
+    },
+    {
+      "seq": 3621,
+      "tag": "<INPUT>",
+      "text": "81 to 90%",
+      "page": 117,
+      "input_type": "text",
+      "form": "FUP–2 Years > Eval",
+      "section": "Reintervention",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7943312519728535,
+        0.43468699735753674,
+        0.8070265644728535
+      ],
+      "bbox_ref": "line_116_029",
+      "parent_qid": "q-845"
+    },
+    {
+      "seq": 3622,
+      "tag": "<INPUT>",
+      "text": "91 to 99%",
+      "page": 117,
+      "input_type": "text",
+      "form": "FUP–2 Years > Eval",
+      "section": "Reintervention",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.8142176156092171,
+        0.43468699735753674,
+        0.8269129281092171
+      ],
+      "bbox_ref": "line_116_030",
+      "parent_qid": "q-845"
+    },
+    {
+      "seq": 3623,
+      "tag": "<INPUT>",
+      "text": "100%/Occluded",
+      "page": 117,
+      "input_type": "text",
+      "form": "FUP–2 Years > Eval",
+      "section": "Reintervention",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.8341039792455808,
+        0.4722750794653799,
+        0.8467992917455808
+      ],
+      "bbox_ref": "line_116_031",
+      "parent_qid": "q-845"
+    },
+    {
+      "seq": 3624,
+      "tag": "<Q>",
+      "text": "Was venogram sent to Core Lab? (EVALTVS_VENCL)",
+      "page": 117,
+      "form": "FUP–2 Years > Eval",
+      "section": "Reintervention",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-846"
+    },
+    {
+      "seq": 3625,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 117,
+      "input_type": "option",
+      "form": "FUP–2 Years > Eval",
+      "section": "Reintervention",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.35777822166982326,
+        0.3924522150575725,
+        0.37047353416982326
+      ],
+      "bbox_ref": "line_116_014",
+      "parent_qid": "q-846"
+    },
+    {
+      "seq": 3626,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 117,
+      "input_type": "option",
+      "form": "FUP–2 Years > Eval",
+      "section": "Reintervention",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.37766458530618685,
+        0.38726041207905687,
+        0.39035989780618685
+      ],
+      "bbox_ref": "line_116_015",
+      "parent_qid": "q-846"
+    },
+    {
+      "seq": 3627,
+      "tag": "<FORM>",
+      "text": "FUP–2 Years > Eval",
+      "page": 117,
+      "bbox_xyxy": [
+        0.22954324959150327,
+        0.03675549439709596,
+        0.6568740645265267,
+        0.04945080689709596
+      ],
+      "bbox_ref": "line_116_002"
+    },
+    {
+      "seq": 3628,
+      "tag": "<SH>",
+      "text": "Reintervention",
+      "page": 117,
+      "question_below_text": "Were there any reinterventions performed on the TVS? (EVALTVS_REINTYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.29184915561868685,
+        0.1969119053260953,
+        0.3087762389520202
+      ],
+      "bbox_ref": "line_116_012"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_116_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_116_001",
+      "text": "117/140",
+      "bbox": [
+        0.910437091503268,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_116_002",
+      "text": "Form: FUP–2 Years > Eval\nStudy: Inari CLOUT\nPage: 2/3",
+      "bbox": [
+        0.22954324959150327,
+        0.03675549439709596,
+        0.6568740645265267,
+        0.04945080689709596
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_116_013",
+      "text": "Were there any reinterventions\nperformed on the TVS?\n(EVALTVS_REINTYN)",
+      "bbox": [
+        0.059640522875817,
+        0.34925549439709597,
+        0.27512481789183774,
+        0.38846595841224746
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_116_017",
+      "text": "Reintervention description\n(EVALTVS_DESC)",
+      "bbox": [
+        0.059640522875817,
+        0.4685736762152778,
+        0.24594699635225184,
+        0.49452656447285354
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_116_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_001",
+      "text": "117/140",
+      "bbox": [
+        0.910437091503268,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_002",
+      "text": "Form: FUP–2 Years > Eval\nStudy: Inari CLOUT\nPage: 2/3",
+      "bbox": [
+        0.22954324959150327,
+        0.03675549439709596,
+        0.6568740645265267,
+        0.04945080689709596
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_003",
+      "text": "Location of rethrombosis\n(EVALTVS_RETHROM_LOC)\nCommon iliac",
+      "bbox": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.4562973820306117,
+        0.09017050386679293
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_004",
+      "text": "Internal iliac",
+      "bbox": [
+        0.3672385620915033,
+        0.09262670651830808,
+        0.4456944185144761,
+        0.10532201901830808
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_005",
+      "text": "External iliac",
+      "bbox": [
+        0.3672385620915033,
+        0.11251307015467171,
+        0.45059149249706393,
+        0.1252083826546717
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_006",
+      "text": "Common femoral",
+      "bbox": [
+        0.3672385620915033,
+        0.13239943379103536,
+        0.4800057006038092,
+        0.14509474629103536
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_007",
+      "text": "Deep femoral",
+      "bbox": [
+        0.3672385620915033,
+        0.15228579742739898,
+        0.45550572015101615,
+        0.16498110992739898
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_008",
+      "text": "Cranial Femoral",
+      "bbox": [
+        0.3672385620915033,
+        0.17217216106376262,
+        0.47182928347120096,
+        0.18486747356376262
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_009",
+      "text": "Caudal Femoral",
+      "bbox": [
+        0.3672385620915033,
+        0.19205852470012627,
+        0.4718439438763787,
+        0.20475383720012627
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_010",
+      "text": "Popliteal",
+      "bbox": [
+        0.3672385620915033,
+        0.2119448883364899,
+        0.42363808825125104,
+        0.2246402008364899
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_011",
+      "text": "IVC (Inferior Vena Cava)",
+      "bbox": [
+        0.3672385620915033,
+        0.23183125197285354,
+        0.5274266760333691,
+        0.24452656447285354
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_012",
+      "text": "Reintervention",
+      "bbox": [
+        0.059640522875817,
+        0.29184915561868685,
+        0.1969119053260953,
+        0.3087762389520202
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_013",
+      "text": "Were there any reinterventions\nperformed on the TVS?\n(EVALTVS_REINTYN)",
+      "bbox": [
+        0.059640522875817,
+        0.34925549439709597,
+        0.27512481789183774,
+        0.38846595841224746
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_014",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.35777822166982326,
+        0.3924522150575725,
+        0.37047353416982326
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_015",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.37766458530618685,
+        0.38726041207905687,
+        0.39035989780618685
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_016",
+      "text": "Reintervention date\n(EVALTVS_DATE)\ndd-mmm-yyyy",
+      "bbox": [
+        0.059640522875817,
+        0.4183842822758838,
+        0.44772493449691075,
+        0.4443371705334596
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_017",
+      "text": "Reintervention description\n(EVALTVS_DESC)",
+      "bbox": [
+        0.059640522875817,
+        0.4685736762152778,
+        0.24594699635225184,
+        0.49452656447285354
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_018",
+      "text": "0/500",
+      "bbox": [
+        0.34272875816993464,
+        0.4723615550031566,
+        0.3795251036001966,
+        0.4850568675031566
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_019",
+      "text": "Was venogram performed?\n(EVALTVS_VENYN)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.5575888277304293,
+        0.3924522150575725,
+        0.5835417159880051
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_020",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.5859979186395202,
+        0.38726041207905687,
+        0.5986932311395202
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_021",
+      "text": "Thrombus load (EVALTVS_THROM1)\n≤10%",
+      "bbox": [
+        0.059640522875817,
+        0.6267176156092171,
+        0.4059664159039267,
+        0.6479356553819444
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_022",
+      "text": "11 to 20%",
+      "bbox": [
+        0.3684640522875817,
+        0.6551267065183081,
+        0.43359773922589867,
+        0.6678220190183081
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_023",
+      "text": "21 to 30%",
+      "bbox": [
+        0.3684640522875817,
+        0.6750130701546717,
+        0.43468699735753674,
+        0.6877083826546717
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_024",
+      "text": "31 to 40%",
+      "bbox": [
+        0.3684640522875817,
+        0.6948994337910354,
+        0.43468699735753674,
+        0.7075947462910354
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_025",
+      "text": "41 to 50%",
+      "bbox": [
+        0.3684640522875817,
+        0.714785797427399,
+        0.43468699735753674,
+        0.727481109927399
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_026",
+      "text": "51 to 60%",
+      "bbox": [
+        0.3684640522875817,
+        0.7346721610637627,
+        0.43468699735753674,
+        0.7473674735637627
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_027",
+      "text": "61 to 70%",
+      "bbox": [
+        0.3684640522875817,
+        0.7545585247001263,
+        0.43468699735753674,
+        0.7672538372001263
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_028",
+      "text": "71 to 80%",
+      "bbox": [
+        0.3684640522875817,
+        0.77444488833649,
+        0.43468699735753674,
+        0.78714020083649
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_029",
+      "text": "81 to 90%",
+      "bbox": [
+        0.3684640522875817,
+        0.7943312519728535,
+        0.43468699735753674,
+        0.8070265644728535
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_030",
+      "text": "91 to 99%",
+      "bbox": [
+        0.3684640522875817,
+        0.8142176156092171,
+        0.43468699735753674,
+        0.8269129281092171
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_031",
+      "text": "100%/Occluded",
+      "bbox": [
+        0.3684640522875817,
+        0.8341039792455808,
+        0.4722750794653799,
+        0.8467992917455808
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_032",
+      "text": "Was venogram sent to Core Lab?\n(EVALTVS_VENCL)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.8748236762152778,
+        0.3924522150575725,
+        0.9007765644728535
+      ],
+      "page_num": 116
+    },
+    {
+      "line_id": "line_116_033",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.9032327671243687,
+        0.38726041207905687,
+        0.9159280796243687
+      ],
+      "page_num": 116
+    }
+  ],
+  "metadata": {
+    "num_questions": 7,
+    "num_inputs": 28,
+    "num_inputs_by_type": {
+      "option": 6,
+      "text": 22,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 5,
+    "num_total_lines": 34,
+    "timestamp": "2025-08-15T14:12:12.661298+00:00"
+  }
+}

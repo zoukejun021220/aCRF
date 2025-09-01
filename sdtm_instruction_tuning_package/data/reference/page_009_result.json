@@ -1,0 +1,39 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_009.json",
+  "page_id": 9,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Anticoagulation form completed? (BL_ANTYN)",
+      "annotation": "[NOT SUBMITTED]",
+      "domain": "BL",
+      "pattern": "not_submitted",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Clinical labs form completed? (BL_LABYN)",
+      "annotation": "Question: LBTEST | Option 'No': LBSTAT = NOT DONE when LBTESTCD = LBALL",
+      "domain": "LB",
+      "pattern": "conditional_single, variable_with_ct",
+      "confidence": 1,
+      "valid": false,
+      "requires_separate_annotations": true,
+      "question_annotation": "LBTEST",
+      "option_annotations": {
+        "Yes": "[NOT SUBMITTED]",
+        "No": "LBSTAT = NOT DONE when LBTESTCD = LBALL"
+      }
+    }
+  ],
+  "summary": {
+    "total_items": 2,
+    "annotated": 2,
+    "not_submitted": 1,
+    "errors": 0
+  }
+}

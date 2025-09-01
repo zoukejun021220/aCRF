@@ -1,0 +1,122 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_023.json",
+  "page_id": 23,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Segment (select all that apply) (IVUS_SEG)",
+      "annotation": "RSLAT = Segment Location | RSLOC = Segment Location",
+      "domain": "SV",
+      "pattern": "multiple_response_checkboxes",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": true
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Date of IVUS measurements (IVUS_DT)",
+      "annotation": "RSDTC",
+      "domain": "RS",
+      "pattern": "direct",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Time point of measurements (IVUS_PT)",
+      "annotation": "VISIT",
+      "domain": "SV",
+      "pattern": "direct",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Other, specify (IVUS_PTOT)",
+      "annotation": "SVUPDES",
+      "domain": "SV",
+      "pattern": "supplemental_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Reference area (mm²) (CIR_RA)",
+      "annotation": "RSORES, RSORRESU when RSTESTCD = RA",
+      "domain": "RS",
+      "pattern": "conditional_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-006",
+      "seq": 6,
+      "text": "Compress area (mm²) (CIR_CA)",
+      "annotation": "RSORES, RSORRESU when RSTESTCD = CA",
+      "domain": "RS",
+      "pattern": "conditional_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-007",
+      "seq": 7,
+      "text": "Difference (mm²) (CIR_DDIF) (Reference area - Compress area)",
+      "annotation": "RSORES, RSORRESU when RSTESTCD = DDIF",
+      "domain": "RS",
+      "pattern": "conditional_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-008",
+      "seq": 8,
+      "text": "Difference (%) (CIR_ADIF) (Difference (mm²) / Reference area * 100)",
+      "annotation": "RSORES, RSORRESU when RSTESTCD = ADIF",
+      "domain": "RS",
+      "pattern": "conditional_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-009",
+      "seq": 9,
+      "text": "Reference diameter (mm) (CIR_RD)",
+      "annotation": "RSORES, RSORRESU when RSTESTCD = RD",
+      "domain": "RS",
+      "pattern": "conditional_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-010",
+      "seq": 10,
+      "text": "Compress diameter (mm) (CIR_CD)",
+      "annotation": "RSORES, RSORRESU when RSTESTCD = CD",
+      "domain": "RS",
+      "pattern": "conditional_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    }
+  ],
+  "summary": {
+    "total_items": 10,
+    "annotated": 10,
+    "not_submitted": 0,
+    "errors": 0
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "page_id": 31,
+  "items": [
+    {
+      "seq": 973,
+      "tag": "<Q>",
+      "text": "Anticoagulation",
+      "page": 32,
+      "form": "Anticoagulation",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0.2454171772875817,
+        0.036748096196338384,
+        0.641019285114762,
+        0.049443408696338384
+      ],
+      "bbox_ref": "line_031_002",
+      "qid": "q-264"
+    },
+    {
+      "seq": 974,
+      "tag": "<INPUT>",
+      "text": "dd-mmm-yyyy",
+      "page": 32,
+      "input_type": "text",
+      "form": "Anticoagulation",
+      "section": "Common femoral Right",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-264"
+    },
+    {
+      "seq": 975,
+      "tag": "<FORM>",
+      "text": "Anticoagulation",
+      "page": 32,
+      "bbox_xyxy": [
+        0.2454171772875817,
+        0.036748096196338384,
+        0.641019285114762,
+        0.049443408696338384
+      ],
+      "bbox_ref": "line_031_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_031_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_031_001",
+      "text": "32/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_031_004",
+      "text": "Subform: Anticoag",
+      "bbox": [
+        0.059640522875817,
+        0.11155870225694445,
+        0.18628551757413578,
+        0.12425401475694445
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_031_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 31
+    },
+    {
+      "line_id": "line_031_001",
+      "text": "32/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 31
+    },
+    {
+      "line_id": "line_031_002",
+      "text": "Form: Anticoagulation\nStudy: Inari CLOUT\nPage: 1/1",
+      "bbox": [
+        0.2454171772875817,
+        0.036748096196338384,
+        0.641019285114762,
+        0.049443408696338384
+      ],
+      "page_num": 31
+    },
+    {
+      "line_id": "line_031_003",
+      "text": "Anticoagulation",
+      "bbox": [
+        0.3468264910130719,
+        0.06528665561868686,
+        0.5690570906096813,
+        0.09067728061868686
+      ],
+      "page_num": 31
+    },
+    {
+      "line_id": "line_031_004",
+      "text": "Subform: Anticoag",
+      "bbox": [
+        0.059640522875817,
+        0.11155870225694445,
+        0.18628551757413578,
+        0.12425401475694445
+      ],
+      "page_num": 31
+    }
+  ],
+  "metadata": {
+    "num_questions": 1,
+    "num_inputs": 1,
+    "num_inputs_by_type": {
+      "option": 0,
+      "text": 1,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 0,
+    "num_supplemental": 3,
+    "num_total_lines": 5,
+    "timestamp": "2025-08-15T13:34:28.876505+00:00",
+    "requires_second_inspection": true,
+    "anomaly_reasons": [
+      "statistical_outlier (count=1, avg=7.1, std=2.9)",
+      "too_few_questions"
+    ]
+  }
+}

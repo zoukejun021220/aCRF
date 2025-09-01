@@ -1,0 +1,1090 @@
+{
+  "page_id": 39,
+  "items": [
+    {
+      "seq": 1146,
+      "tag": "<Q>",
+      "text": "Treating physician (PROC_TPHY9)",
+      "page": 40,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642102174084596,
+        0.43058392892476,
+        0.09016310566603536
+      ],
+      "bbox_ref": "line_039_003",
+      "qid": "q-300"
+    },
+    {
+      "seq": 1147,
+      "tag": "<INPUT>",
+      "text": "Saqib Zia",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.0642102174084596,
+        0.43058392892476,
+        0.09016310566603536
+      ],
+      "bbox_ref": "line_039_003",
+      "parent_qid": "q-300"
+    },
+    {
+      "seq": 1148,
+      "tag": "<INPUT>",
+      "text": "Jonathan Deitch",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.09261930831755051,
+        0.4747309466592627,
+        0.10531462081755051
+      ],
+      "bbox_ref": "line_039_004",
+      "parent_qid": "q-300"
+    },
+    {
+      "seq": 1149,
+      "tag": "<INPUT>",
+      "text": "Jonathan Schor",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.11250567195391414,
+        0.4714641197054994,
+        0.12520098445391414
+      ],
+      "bbox_ref": "line_039_005",
+      "parent_qid": "q-300"
+    },
+    {
+      "seq": 1150,
+      "tag": "<INPUT>",
+      "text": "Kuldeep Singh",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.1323920355902778,
+        0.46411332273794936,
+        0.1450873480902778
+      ],
+      "bbox_ref": "line_039_006",
+      "parent_qid": "q-300"
+    },
+    {
+      "seq": 1151,
+      "tag": "<INPUT>",
+      "text": "Elena Kholchansky",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.1522783992266414,
+        0.4935228435042637,
+        0.1649737117266414
+      ],
+      "bbox_ref": "line_039_007",
+      "parent_qid": "q-300"
+    },
+    {
+      "seq": 1152,
+      "tag": "<INPUT>",
+      "text": "Khalil Qato",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.17216476286300506,
+        0.44039273729511336,
+        0.18486007536300506
+      ],
+      "bbox_ref": "line_039_008",
+      "parent_qid": "q-300"
+    },
+    {
+      "seq": 1153,
+      "tag": "<INPUT>",
+      "text": "Alfio Carroccio",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.19205112649936867,
+        0.4640692417917688,
+        0.20474643899936867
+      ],
+      "bbox_ref": "line_039_009",
+      "parent_qid": "q-300"
+    },
+    {
+      "seq": 1154,
+      "tag": "<INPUT>",
+      "text": "Allan Conway",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.21193749013573232,
+        0.45836110831865295,
+        0.22463280263573232
+      ],
+      "bbox_ref": "line_039_010",
+      "parent_qid": "q-300"
+    },
+    {
+      "seq": 1155,
+      "tag": "<INPUT>",
+      "text": "Vicken Pamoukian",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.23182385377209597,
+        0.4899798623876634,
+        0.24451916627209597
+      ],
+      "bbox_ref": "line_039_011",
+      "parent_qid": "q-300"
+    },
+    {
+      "seq": 1156,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.2517102174084596,
+        0.40524356817108353,
+        0.2644055299084596
+      ],
+      "bbox_ref": "line_039_012",
+      "parent_qid": "q-300"
+    },
+    {
+      "seq": 1157,
+      "tag": "<Q>",
+      "text": "Treating physician (PROC_TPHY10)",
+      "page": 40,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.2924299143781566,
+        0.4714515536439185,
+        0.3183828026357323
+      ],
+      "bbox_ref": "line_039_013",
+      "qid": "q-301"
+    },
+    {
+      "seq": 1158,
+      "tag": "<INPUT>",
+      "text": "Joseph Paulisin",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.2924299143781566,
+        0.4714515536439185,
+        0.3183828026357323
+      ],
+      "bbox_ref": "line_039_013",
+      "parent_qid": "q-301"
+    },
+    {
+      "seq": 1159,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.2517102174084596,
+        0.40524356817108353,
+        0.2644055299084596
+      ],
+      "bbox_ref": "line_039_012",
+      "parent_qid": "q-301"
+    },
+    {
+      "seq": 1160,
+      "tag": "<Q>",
+      "text": "Treating physician (PROC_TPHY11)",
+      "page": 40,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.36061173255997475,
+        0.4697897917304943,
+        0.3865646208175505
+      ],
+      "bbox_ref": "line_039_015",
+      "qid": "q-302"
+    },
+    {
+      "seq": 1161,
+      "tag": "<INPUT>",
+      "text": "Hamid Mojibian",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.36061173255997475,
+        0.4697897917304943,
+        0.3865646208175505
+      ],
+      "bbox_ref": "line_039_015",
+      "parent_qid": "q-302"
+    },
+    {
+      "seq": 1162,
+      "tag": "<INPUT>",
+      "text": "Jeffrey Pollak",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.38996779316603536,
+        0.45646283517476,
+        0.40266310566603536
+      ],
+      "bbox_ref": "line_039_016",
+      "parent_qid": "q-302"
+    },
+    {
+      "seq": 1163,
+      "tag": "<INPUT>",
+      "text": "Juan Lozada",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.409854156802399,
+        0.4526721231298509,
+        0.422549469302399
+      ],
+      "bbox_ref": "line_039_017",
+      "parent_qid": "q-302"
+    },
+    {
+      "seq": 1164,
+      "tag": "<INPUT>",
+      "text": "Todd Schlachter",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.42974052043876265,
+        0.47390532649420447,
+        0.44243583293876265
+      ],
+      "bbox_ref": "line_039_018",
+      "parent_qid": "q-302"
+    },
+    {
+      "seq": 1165,
+      "tag": "<INPUT>",
+      "text": "Melih Arici",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.44962688407512624,
+        0.43627535751442503,
+        0.46232219657512624
+      ],
+      "bbox_ref": "line_039_019",
+      "parent_qid": "q-302"
+    },
+    {
+      "seq": 1166,
+      "tag": "<INPUT>",
+      "text": "Raj Ayyagari",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4695132477114899,
+        0.4515583811242596,
+        0.4822085602114899
+      ],
+      "bbox_ref": "line_039_020",
+      "parent_qid": "q-302"
+    },
+    {
+      "seq": 1167,
+      "tag": "<INPUT>",
+      "text": "Igor Latich",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.48939961134785354,
+        0.43712805455027065,
+        0.5020949238478535
+      ],
+      "bbox_ref": "line_039_021",
+      "parent_qid": "q-302"
+    },
+    {
+      "seq": 1168,
+      "tag": "<INPUT>",
+      "text": "Angelo Marino",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5092859749842171,
+        0.46327508664598654,
+        0.5219812874842171
+      ],
+      "bbox_ref": "line_039_022",
+      "parent_qid": "q-302"
+    },
+    {
+      "seq": 1169,
+      "tag": "<INPUT>",
+      "text": "Jessica Lee",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5291723386205808,
+        0.44611333709916257,
+        0.5418676511205808
+      ],
+      "bbox_ref": "line_039_023",
+      "parent_qid": "q-302"
+    },
+    {
+      "seq": 1170,
+      "tag": "<INPUT>",
+      "text": "Darryl Zuckerman",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5490587022569444,
+        0.48530453949971913,
+        0.5617540147569444
+      ],
+      "bbox_ref": "line_039_024",
+      "parent_qid": "q-302"
+    },
+    {
+      "seq": 1171,
+      "tag": "<INPUT>",
+      "text": "David Madoff",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5689450658933081,
+        0.4548395692912582,
+        0.5816403783933081
+      ],
+      "bbox_ref": "line_039_025",
+      "parent_qid": "q-302"
+    },
+    {
+      "seq": 1172,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.2517102174084596,
+        0.40524356817108353,
+        0.2644055299084596
+      ],
+      "bbox_ref": "line_039_012",
+      "parent_qid": "q-302"
+    },
+    {
+      "seq": 1173,
+      "tag": "<Q>",
+      "text": "Treating physician (PROC_TPHY12)",
+      "page": 40,
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.628604156802399,
+        0.45920178781147875,
+        0.6545570450599747
+      ],
+      "bbox_ref": "line_039_027",
+      "qid": "q-303"
+    },
+    {
+      "seq": 1174,
+      "tag": "<INPUT>",
+      "text": "Sagar Gandhi",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.628604156802399,
+        0.45920178781147875,
+        0.6545570450599747
+      ],
+      "bbox_ref": "line_039_027",
+      "parent_qid": "q-303"
+    },
+    {
+      "seq": 1175,
+      "tag": "<INPUT>",
+      "text": "Mark Androes",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.65701324771149,
+        0.45999344969107436,
+        0.66970856021149
+      ],
+      "bbox_ref": "line_039_028",
+      "parent_qid": "q-303"
+    },
+    {
+      "seq": 1176,
+      "tag": "<INPUT>",
+      "text": "Joseph Blas",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6768996113478535,
+        0.4485669603534773,
+        0.6895949238478535
+      ],
+      "bbox_ref": "line_039_029",
+      "parent_qid": "q-303"
+    },
+    {
+      "seq": 1177,
+      "tag": "<INPUT>",
+      "text": "Christopher Carsten",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6967859749842171,
+        0.5000397925283394,
+        0.7094812874842171
+      ],
+      "bbox_ref": "line_039_030",
+      "parent_qid": "q-303"
+    },
+    {
+      "seq": 1178,
+      "tag": "<INPUT>",
+      "text": "Bruce Gray",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7166723386205808,
+        0.4428317001442504,
+        0.7293676511205808
+      ],
+      "bbox_ref": "line_039_031",
+      "parent_qid": "q-303"
+    },
+    {
+      "seq": 1179,
+      "tag": "<INPUT>",
+      "text": "Tod Hanover",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7365587022569444,
+        0.45183179269429125,
+        0.7492540147569444
+      ],
+      "bbox_ref": "line_039_032",
+      "parent_qid": "q-303"
+    },
+    {
+      "seq": 1180,
+      "tag": "<INPUT>",
+      "text": "Emilia Krol",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7564450658933081,
+        0.4387312247083078,
+        0.7691403783933081
+      ],
+      "bbox_ref": "line_039_033",
+      "parent_qid": "q-303"
+    },
+    {
+      "seq": 1181,
+      "tag": "<INPUT>",
+      "text": "Eugene Langan",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7763314295296717,
+        0.47230450000638274,
+        0.7890267420296717
+      ],
+      "bbox_ref": "line_039_034",
+      "parent_qid": "q-303"
+    },
+    {
+      "seq": 1182,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 40,
+      "input_type": "text",
+      "form": "Procedure",
+      "section": "Procedure",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.2517102174084596,
+        0.40524356817108353,
+        0.2644055299084596
+      ],
+      "bbox_ref": "line_039_012",
+      "parent_qid": "q-303"
+    },
+    {
+      "seq": 1183,
+      "tag": "<FORM>",
+      "text": "Procedure",
+      "page": 40,
+      "bbox_xyxy": [
+        0.2617698120915033,
+        0.036748096196338384,
+        0.6246475020265267,
+        0.049443408696338384
+      ],
+      "bbox_ref": "line_039_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_039_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_039_001",
+      "text": "40/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_039_002",
+      "text": "Form: Procedure\nStudy: Inari CLOUT\nPage: 4/9",
+      "bbox": [
+        0.2617698120915033,
+        0.036748096196338384,
+        0.6246475020265267,
+        0.049443408696338384
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_039_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_001",
+      "text": "40/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_002",
+      "text": "Form: Procedure\nStudy: Inari CLOUT\nPage: 4/9",
+      "bbox": [
+        0.2617698120915033,
+        0.036748096196338384,
+        0.6246475020265267,
+        0.049443408696338384
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_003",
+      "text": "Treating physician (PROC_TPHY9)\nSite 9\nSaqib Zia",
+      "bbox": [
+        0.059640522875817,
+        0.0642102174084596,
+        0.43058392892476,
+        0.09016310566603536
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_004",
+      "text": "Jonathan Deitch",
+      "bbox": [
+        0.3684640522875817,
+        0.09261930831755051,
+        0.4747309466592627,
+        0.10531462081755051
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_005",
+      "text": "Jonathan Schor",
+      "bbox": [
+        0.3684640522875817,
+        0.11250567195391414,
+        0.4714641197054994,
+        0.12520098445391414
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_006",
+      "text": "Kuldeep Singh",
+      "bbox": [
+        0.3684640522875817,
+        0.1323920355902778,
+        0.46411332273794936,
+        0.1450873480902778
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_007",
+      "text": "Elena Kholchansky",
+      "bbox": [
+        0.3684640522875817,
+        0.1522783992266414,
+        0.4935228435042637,
+        0.1649737117266414
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_008",
+      "text": "Khalil Qato",
+      "bbox": [
+        0.3684640522875817,
+        0.17216476286300506,
+        0.44039273729511336,
+        0.18486007536300506
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_009",
+      "text": "Alfio Carroccio",
+      "bbox": [
+        0.3684640522875817,
+        0.19205112649936867,
+        0.4640692417917688,
+        0.20474643899936867
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_010",
+      "text": "Allan Conway",
+      "bbox": [
+        0.3684640522875817,
+        0.21193749013573232,
+        0.45836110831865295,
+        0.22463280263573232
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_011",
+      "text": "Vicken Pamoukian",
+      "bbox": [
+        0.3684640522875817,
+        0.23182385377209597,
+        0.4899798623876634,
+        0.24451916627209597
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_012",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.2517102174084596,
+        0.40524356817108353,
+        0.2644055299084596
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_013",
+      "text": "Treating physician (PROC_TPHY10)\nSite 10\nJoseph Paulisin",
+      "bbox": [
+        0.059640522875817,
+        0.2924299143781566,
+        0.4714515536439185,
+        0.3183828026357323
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_014",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.32083900528724746,
+        0.40524356817108353,
+        0.33353431778724746
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_015",
+      "text": "Treating physician (PROC_TPHY11)\nSite 11\nHamid Mojibian",
+      "bbox": [
+        0.059640522875817,
+        0.36061173255997475,
+        0.4697897917304943,
+        0.3865646208175505
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_016",
+      "text": "Jeffrey Pollak",
+      "bbox": [
+        0.3684640522875817,
+        0.38996779316603536,
+        0.45646283517476,
+        0.40266310566603536
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_017",
+      "text": "Juan Lozada",
+      "bbox": [
+        0.3684640522875817,
+        0.409854156802399,
+        0.4526721231298509,
+        0.422549469302399
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_018",
+      "text": "Todd Schlachter",
+      "bbox": [
+        0.3684640522875817,
+        0.42974052043876265,
+        0.47390532649420447,
+        0.44243583293876265
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_019",
+      "text": "Melih Arici",
+      "bbox": [
+        0.3684640522875817,
+        0.44962688407512624,
+        0.43627535751442503,
+        0.46232219657512624
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_020",
+      "text": "Raj Ayyagari",
+      "bbox": [
+        0.3684640522875817,
+        0.4695132477114899,
+        0.4515583811242596,
+        0.4822085602114899
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_021",
+      "text": "Igor Latich",
+      "bbox": [
+        0.3684640522875817,
+        0.48939961134785354,
+        0.43712805455027065,
+        0.5020949238478535
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_022",
+      "text": "Angelo Marino",
+      "bbox": [
+        0.3684640522875817,
+        0.5092859749842171,
+        0.46327508664598654,
+        0.5219812874842171
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_023",
+      "text": "Jessica Lee",
+      "bbox": [
+        0.3684640522875817,
+        0.5291723386205808,
+        0.44611333709916257,
+        0.5418676511205808
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_024",
+      "text": "Darryl Zuckerman",
+      "bbox": [
+        0.3684640522875817,
+        0.5490587022569444,
+        0.48530453949971913,
+        0.5617540147569444
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_025",
+      "text": "David Madoff",
+      "bbox": [
+        0.3684640522875817,
+        0.5689450658933081,
+        0.4548395692912582,
+        0.5816403783933081
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_026",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.5888314295296717,
+        0.40524356817108353,
+        0.6015267420296717
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_027",
+      "text": "Treating physician (PROC_TPHY12)\nSite 12\nSagar Gandhi",
+      "bbox": [
+        0.059640522875817,
+        0.628604156802399,
+        0.45920178781147875,
+        0.6545570450599747
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_028",
+      "text": "Mark Androes",
+      "bbox": [
+        0.3684640522875817,
+        0.65701324771149,
+        0.45999344969107436,
+        0.66970856021149
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_029",
+      "text": "Joseph Blas",
+      "bbox": [
+        0.3684640522875817,
+        0.6768996113478535,
+        0.4485669603534773,
+        0.6895949238478535
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_030",
+      "text": "Christopher Carsten",
+      "bbox": [
+        0.3684640522875817,
+        0.6967859749842171,
+        0.5000397925283394,
+        0.7094812874842171
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_031",
+      "text": "Bruce Gray",
+      "bbox": [
+        0.3684640522875817,
+        0.7166723386205808,
+        0.4428317001442504,
+        0.7293676511205808
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_032",
+      "text": "Tod Hanover",
+      "bbox": [
+        0.3684640522875817,
+        0.7365587022569444,
+        0.45183179269429125,
+        0.7492540147569444
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_033",
+      "text": "Emilia Krol",
+      "bbox": [
+        0.3684640522875817,
+        0.7564450658933081,
+        0.4387312247083078,
+        0.7691403783933081
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_034",
+      "text": "Eugene Langan",
+      "bbox": [
+        0.3684640522875817,
+        0.7763314295296717,
+        0.47230450000638274,
+        0.7890267420296717
+      ],
+      "page_num": 39
+    },
+    {
+      "line_id": "line_039_035",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.7962177931660354,
+        0.40524356817108353,
+        0.8089131056660354
+      ],
+      "page_num": 39
+    }
+  ],
+  "metadata": {
+    "num_questions": 4,
+    "num_inputs": 33,
+    "num_inputs_by_type": {
+      "option": 0,
+      "text": 33,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 0,
+    "num_supplemental": 3,
+    "num_total_lines": 36,
+    "timestamp": "2025-08-15T13:37:16.046993+00:00"
+  }
+}

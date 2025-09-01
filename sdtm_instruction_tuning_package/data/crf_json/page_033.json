@@ -1,0 +1,413 @@
+{
+  "page_id": 33,
+  "items": [
+    {
+      "seq": 1008,
+      "tag": "<Q>",
+      "text": "Frequency, other, specify (CM_FREQOT)",
+      "page": 34,
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-273"
+    },
+    {
+      "seq": 1009,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 34,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.06799809619633838,
+        0.3877015705981286,
+        0.08069340869633838
+      ],
+      "bbox_ref": "line_033_004",
+      "parent_qid": "q-273"
+    },
+    {
+      "seq": 1010,
+      "tag": "<Q>",
+      "text": "Route (CM_ROUTE)",
+      "page": 34,
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.1541723386205808,
+        0.3897115669998468,
+        0.1753903783933081
+      ],
+      "bbox_ref": "line_033_005",
+      "qid": "q-274"
+    },
+    {
+      "seq": 1011,
+      "tag": "<INPUT>",
+      "text": "PO",
+      "page": 34,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.1541723386205808,
+        0.3897115669998468,
+        0.1753903783933081
+      ],
+      "bbox_ref": "line_033_005",
+      "parent_qid": "q-274"
+    },
+    {
+      "seq": 1012,
+      "tag": "<INPUT>",
+      "text": "SL",
+      "page": 34,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.1825814295296717,
+        0.38645157159543503,
+        0.1952767420296717
+      ],
+      "bbox_ref": "line_033_006",
+      "parent_qid": "q-274"
+    },
+    {
+      "seq": 1013,
+      "tag": "<INPUT>",
+      "text": "IM",
+      "page": 34,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.20246779316603536,
+        0.3848024006762536,
+        0.21516310566603536
+      ],
+      "bbox_ref": "line_033_007",
+      "parent_qid": "q-274"
+    },
+    {
+      "seq": 1014,
+      "tag": "<INPUT>",
+      "text": "SQ",
+      "page": 34,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.22235415680239898,
+        0.3897115669998468,
+        0.23504946930239898
+      ],
+      "bbox_ref": "line_033_008",
+      "parent_qid": "q-274"
+    },
+    {
+      "seq": 1015,
+      "tag": "<INPUT>",
+      "text": "IV",
+      "page": 34,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.24224052043876262,
+        0.3823609944262536,
+        0.25493583293876265
+      ],
+      "bbox_ref": "line_033_009",
+      "parent_qid": "q-274"
+    },
+    {
+      "seq": 1016,
+      "tag": "<INPUT>",
+      "text": "TOP",
+      "page": 34,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.26212688407512624,
+        0.3984311920365477,
+        0.27482219657512624
+      ],
+      "bbox_ref": "line_033_010",
+      "parent_qid": "q-274"
+    },
+    {
+      "seq": 1017,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 34,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.2820132477114899,
+        0.40524356817108353,
+        0.2947085602114899
+      ],
+      "bbox_ref": "line_033_011",
+      "parent_qid": "q-274"
+    },
+    {
+      "seq": 1018,
+      "tag": "<Q>",
+      "text": "Route, other, specify (CM_ROUTEOT)",
+      "page": 34,
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-275"
+    },
+    {
+      "seq": 1019,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 34,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.34272875816993464,
+        0.06799809619633838,
+        0.3877015705981286,
+        0.08069340869633838
+      ],
+      "bbox_ref": "line_033_004",
+      "parent_qid": "q-275"
+    },
+    {
+      "seq": 1020,
+      "tag": "<FORM>",
+      "text": "Anticoagulation > Anticoag",
+      "page": 34,
+      "bbox_xyxy": [
+        0.20842269199346405,
+        0.036748096196338384,
+        0.6780137704088797,
+        0.049443408696338384
+      ],
+      "bbox_ref": "line_033_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_033_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_033_001",
+      "text": "34/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_033_002",
+      "text": "Form: Anticoagulation > Anticoag\nStudy: Inari CLOUT\nPage: 2/2",
+      "bbox": [
+        0.20842269199346405,
+        0.036748096196338384,
+        0.6780137704088797,
+        0.049443408696338384
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_033_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 33
+    },
+    {
+      "line_id": "line_033_001",
+      "text": "34/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 33
+    },
+    {
+      "line_id": "line_033_002",
+      "text": "Form: Anticoagulation > Anticoag\nStudy: Inari CLOUT\nPage: 2/2",
+      "bbox": [
+        0.20842269199346405,
+        0.036748096196338384,
+        0.6780137704088797,
+        0.049443408696338384
+      ],
+      "page_num": 33
+    },
+    {
+      "line_id": "line_033_003",
+      "text": "Frequency, other, specify\n(CM_FREQOT)",
+      "bbox": [
+        0.059640522875817,
+        0.0642102174084596,
+        0.23589861003402013,
+        0.09016310566603536
+      ],
+      "page_num": 33
+    },
+    {
+      "line_id": "line_033_004",
+      "text": "0/2500",
+      "bbox": [
+        0.34272875816993464,
+        0.06799809619633838,
+        0.3877015705981286,
+        0.08069340869633838
+      ],
+      "page_num": 33
+    },
+    {
+      "line_id": "line_033_005",
+      "text": "Route (CM_ROUTE)\nPO",
+      "bbox": [
+        0.059640522875817,
+        0.1541723386205808,
+        0.3897115669998468,
+        0.1753903783933081
+      ],
+      "page_num": 33
+    },
+    {
+      "line_id": "line_033_006",
+      "text": "SL",
+      "bbox": [
+        0.3684640522875817,
+        0.1825814295296717,
+        0.38645157159543503,
+        0.1952767420296717
+      ],
+      "page_num": 33
+    },
+    {
+      "line_id": "line_033_007",
+      "text": "IM",
+      "bbox": [
+        0.3684640522875817,
+        0.20246779316603536,
+        0.3848024006762536,
+        0.21516310566603536
+      ],
+      "page_num": 33
+    },
+    {
+      "line_id": "line_033_008",
+      "text": "SQ",
+      "bbox": [
+        0.3684640522875817,
+        0.22235415680239898,
+        0.3897115669998468,
+        0.23504946930239898
+      ],
+      "page_num": 33
+    },
+    {
+      "line_id": "line_033_009",
+      "text": "IV",
+      "bbox": [
+        0.3684640522875817,
+        0.24224052043876262,
+        0.3823609944262536,
+        0.25493583293876265
+      ],
+      "page_num": 33
+    },
+    {
+      "line_id": "line_033_010",
+      "text": "TOP",
+      "bbox": [
+        0.3684640522875817,
+        0.26212688407512624,
+        0.3984311920365477,
+        0.27482219657512624
+      ],
+      "page_num": 33
+    },
+    {
+      "line_id": "line_033_011",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.2820132477114899,
+        0.40524356817108353,
+        0.2947085602114899
+      ],
+      "page_num": 33
+    },
+    {
+      "line_id": "line_033_012",
+      "text": "Route, other, specify\n(CM_ROUTEOT)\n0/2500",
+      "bbox": [
+        0.059640522875817,
+        0.3217859749842172,
+        0.3877015705981286,
+        0.34773886324179293
+      ],
+      "page_num": 33
+    }
+  ],
+  "metadata": {
+    "num_questions": 3,
+    "num_inputs": 9,
+    "num_inputs_by_type": {
+      "option": 0,
+      "text": 9,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 0,
+    "num_supplemental": 3,
+    "num_total_lines": 13,
+    "timestamp": "2025-08-15T13:35:06.252896+00:00"
+  }
+}

@@ -1,0 +1,909 @@
+{
+  "page_id": 32,
+  "items": [
+    {
+      "seq": 977,
+      "tag": "<Q>",
+      "text": "Anticoagulant name (CM_NAME)",
+      "page": 33,
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11155870225694445,
+        0.3877015705981286,
+        0.12804189354482323
+      ],
+      "bbox_ref": "line_032_004",
+      "qid": "q-265"
+    },
+    {
+      "seq": 978,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 33,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11155870225694445,
+        0.3877015705981286,
+        0.12804189354482323
+      ],
+      "bbox_ref": "line_032_004",
+      "parent_qid": "q-265"
+    },
+    {
+      "seq": 979,
+      "tag": "<Q>",
+      "text": "Start date (CM_SDATE)",
+      "page": 33,
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.20152082346906566,
+        0.22114919525345947,
+        0.21421613596906566
+      ],
+      "bbox_ref": "line_032_005",
+      "qid": "q-266"
+    },
+    {
+      "seq": 980,
+      "tag": "<Q>",
+      "text": "Ongoing (CM_ONG)",
+      "page": 33,
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.23466476286300506,
+        0.3924522150575725,
+        0.2558828026357323
+      ],
+      "bbox_ref": "line_032_006",
+      "qid": "q-267"
+    },
+    {
+      "seq": 981,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 33,
+      "input_type": "option",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.23466476286300506,
+        0.3924522150575725,
+        0.2558828026357323
+      ],
+      "bbox_ref": "line_032_006",
+      "parent_qid": "q-267"
+    },
+    {
+      "seq": 982,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 33,
+      "input_type": "option",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.26307385377209597,
+        0.38726041207905687,
+        0.27576916627209597
+      ],
+      "bbox_ref": "line_032_007",
+      "parent_qid": "q-267"
+    },
+    {
+      "seq": 983,
+      "tag": "<Q>",
+      "text": "Stop date (CM_EDATE)",
+      "page": 33,
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.30284658104482326,
+        0.2203162448858124,
+        0.31554189354482326
+      ],
+      "bbox_ref": "line_032_008",
+      "qid": "q-268"
+    },
+    {
+      "seq": 984,
+      "tag": "<Q>",
+      "text": "Dose (CM_DOSE)",
+      "page": 33,
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.33599052043876265,
+        0.18219945321675218,
+        0.34868583293876265
+      ],
+      "bbox_ref": "line_032_009",
+      "qid": "q-269"
+    },
+    {
+      "seq": 985,
+      "tag": "<Q>",
+      "text": "Dose units (CM_UNITS)",
+      "page": 33,
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3861799143781566,
+        0.3888927783841401,
+        0.4073979541508838
+      ],
+      "bbox_ref": "line_032_010",
+      "qid": "q-270"
+    },
+    {
+      "seq": 986,
+      "tag": "<INPUT>",
+      "text": "mg",
+      "page": 33,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3861799143781566,
+        0.3888927783841401,
+        0.4073979541508838
+      ],
+      "bbox_ref": "line_032_010",
+      "parent_qid": "q-270"
+    },
+    {
+      "seq": 987,
+      "tag": "<INPUT>",
+      "text": "μg",
+      "page": 33,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-270"
+    },
+    {
+      "seq": 988,
+      "tag": "<INPUT>",
+      "text": "mL",
+      "page": 33,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4344753689236111,
+        0.3888927783841401,
+        0.4471706814236111
+      ],
+      "bbox_ref": "line_032_012",
+      "parent_qid": "q-270"
+    },
+    {
+      "seq": 989,
+      "tag": "<INPUT>",
+      "text": "mg/mL",
+      "page": 33,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.45436173255997475,
+        0.41340746910743464,
+        0.46705704505997475
+      ],
+      "bbox_ref": "line_032_013",
+      "parent_qid": "q-270"
+    },
+    {
+      "seq": 990,
+      "tag": "<INPUT>",
+      "text": "units/hr",
+      "page": 33,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4742480961963384,
+        0.41668474284652013,
+        0.4869434086963384
+      ],
+      "bbox_ref": "line_032_014",
+      "parent_qid": "q-270"
+    },
+    {
+      "seq": 991,
+      "tag": "<INPUT>",
+      "text": "mL/hr",
+      "page": 33,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.49413445983270204,
+        0.4060523837220435,
+        0.506829772332702
+      ],
+      "bbox_ref": "line_032_015",
+      "parent_qid": "q-270"
+    },
+    {
+      "seq": 992,
+      "tag": "<INPUT>",
+      "text": "Units",
+      "page": 33,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3861799143781566,
+        0.3888927783841401,
+        0.4073979541508838
+      ],
+      "bbox_ref": "line_032_010",
+      "parent_qid": "q-270"
+    },
+    {
+      "seq": 993,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 33,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5339071871054293,
+        0.40524356817108353,
+        0.5466024996054293
+      ],
+      "bbox_ref": "line_032_017",
+      "parent_qid": "q-270"
+    },
+    {
+      "seq": 994,
+      "tag": "<Q>",
+      "text": "Dose units, specify (CM_UNITSSP)",
+      "page": 33,
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5746268840751263,
+        0.3877015705981286,
+        0.5911100753630051
+      ],
+      "bbox_ref": "line_032_018",
+      "qid": "q-271"
+    },
+    {
+      "seq": 995,
+      "tag": "<INPUT>",
+      "text": "0/2500",
+      "page": 33,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11155870225694445,
+        0.3877015705981286,
+        0.12804189354482323
+      ],
+      "bbox_ref": "line_032_004",
+      "parent_qid": "q-271"
+    },
+    {
+      "seq": 996,
+      "tag": "<Q>",
+      "text": "Frequency (CM_FREQ)",
+      "page": 33,
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6636420355902778,
+        0.21978769738689746,
+        0.6763373480902778
+      ],
+      "bbox_ref": "line_032_019",
+      "qid": "q-272"
+    },
+    {
+      "seq": 997,
+      "tag": "<INPUT>",
+      "text": "QD",
+      "page": 33,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6731117325599747,
+        0.39052534415051826,
+        0.6858070450599747
+      ],
+      "bbox_ref": "line_032_020",
+      "parent_qid": "q-272"
+    },
+    {
+      "seq": 998,
+      "tag": "<INPUT>",
+      "text": "QOD",
+      "page": 33,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.6929980961963383,
+        0.40196651882595485,
+        0.7056934086963383
+      ],
+      "bbox_ref": "line_032_021",
+      "parent_qid": "q-272"
+    },
+    {
+      "seq": 999,
+      "tag": "<INPUT>",
+      "text": "BID",
+      "page": 33,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.712884459832702,
+        0.3929812362770629,
+        0.725579772332702
+      ],
+      "bbox_ref": "line_032_022",
+      "parent_qid": "q-272"
+    },
+    {
+      "seq": 1000,
+      "tag": "<INPUT>",
+      "text": "TID",
+      "page": 33,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7327708234690656,
+        0.3921577104556015,
+        0.7454661359690656
+      ],
+      "bbox_ref": "line_032_023",
+      "parent_qid": "q-272"
+    },
+    {
+      "seq": 1001,
+      "tag": "<INPUT>",
+      "text": "QID",
+      "page": 33,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7526571871054293,
+        0.3946135776494843,
+        0.7653524996054293
+      ],
+      "bbox_ref": "line_032_024",
+      "parent_qid": "q-272"
+    },
+    {
+      "seq": 1002,
+      "tag": "<INPUT>",
+      "text": "x1",
+      "page": 33,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7725435507417929,
+        0.3839957044015523,
+        0.7852388632417929
+      ],
+      "bbox_ref": "line_032_025",
+      "parent_qid": "q-272"
+    },
+    {
+      "seq": 1003,
+      "tag": "<INPUT>",
+      "text": "PRN",
+      "page": 33,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.7924299143781566,
+        0.3995106516320721,
+        0.8051252268781566
+      ],
+      "bbox_ref": "line_032_026",
+      "parent_qid": "q-272"
+    },
+    {
+      "seq": 1004,
+      "tag": "<INPUT>",
+      "text": "QHS",
+      "page": 33,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.8123162780145202,
+        0.40033158445669936,
+        0.8250115905145202
+      ],
+      "bbox_ref": "line_032_027",
+      "parent_qid": "q-272"
+    },
+    {
+      "seq": 1005,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 33,
+      "input_type": "text",
+      "form": "Anticoagulation > Anticoag",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.5339071871054293,
+        0.40524356817108353,
+        0.5466024996054293
+      ],
+      "bbox_ref": "line_032_017",
+      "parent_qid": "q-272"
+    },
+    {
+      "seq": 1006,
+      "tag": "<FORM>",
+      "text": "Anticoagulation > Anticoag",
+      "page": 33,
+      "bbox_xyxy": [
+        0.20842269199346405,
+        0.036748096196338384,
+        0.6780137704088797,
+        0.049443408696338384
+      ],
+      "bbox_ref": "line_032_002"
+    },
+    {
+      "seq": 1007,
+      "tag": "<SH>",
+      "text": "Anticoagulation > Anticoag",
+      "page": 33,
+      "question_below_text": "Anticoagulant name (CM_NAME)",
+      "bbox_xyxy": [
+        0.20842269199346405,
+        0.036748096196338384,
+        0.6780137704088797,
+        0.049443408696338384
+      ],
+      "bbox_ref": "line_032_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_032_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_032_001",
+      "text": "33/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_032_002",
+      "text": "Form: Anticoagulation > Anticoag\nStudy: Inari CLOUT\nPage: 1/2",
+      "bbox": [
+        0.20842269199346405,
+        0.036748096196338384,
+        0.6780137704088797,
+        0.049443408696338384
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_032_003",
+      "text": "Anticoagulation > Anticoag",
+      "bbox": [
+        0.26715047998366015,
+        0.06528665561868686,
+        0.6487339992149204,
+        0.09067728061868686
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_032_011",
+      "text": "µg",
+      "bbox": [
+        0.3684640522875817,
+        0.41458900528724746,
+        0.3851133359023948,
+        0.42728431778724746
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_032_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_001",
+      "text": "33/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_002",
+      "text": "Form: Anticoagulation > Anticoag\nStudy: Inari CLOUT\nPage: 1/2",
+      "bbox": [
+        0.20842269199346405,
+        0.036748096196338384,
+        0.6780137704088797,
+        0.049443408696338384
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_003",
+      "text": "Anticoagulation > Anticoag",
+      "bbox": [
+        0.26715047998366015,
+        0.06528665561868686,
+        0.6487339992149204,
+        0.09067728061868686
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_004",
+      "text": "Anticoagulant name (CM_NAME)\n0/2500",
+      "bbox": [
+        0.059640522875817,
+        0.11155870225694445,
+        0.3877015705981286,
+        0.12804189354482323
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_005",
+      "text": "Start date (CM_SDATE)",
+      "bbox": [
+        0.059640522875817,
+        0.20152082346906566,
+        0.22114919525345947,
+        0.21421613596906566
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_006",
+      "text": "Ongoing (CM_ONG)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.23466476286300506,
+        0.3924522150575725,
+        0.2558828026357323
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_007",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.26307385377209597,
+        0.38726041207905687,
+        0.27576916627209597
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_008",
+      "text": "Stop date (CM_EDATE)",
+      "bbox": [
+        0.059640522875817,
+        0.30284658104482326,
+        0.2203162448858124,
+        0.31554189354482326
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_009",
+      "text": "Dose (CM_DOSE)",
+      "bbox": [
+        0.059640522875817,
+        0.33599052043876265,
+        0.18219945321675218,
+        0.34868583293876265
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_010",
+      "text": "Dose units (CM_UNITS)\nmg",
+      "bbox": [
+        0.059640522875817,
+        0.3861799143781566,
+        0.3888927783841401,
+        0.4073979541508838
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_011",
+      "text": "µg",
+      "bbox": [
+        0.3684640522875817,
+        0.41458900528724746,
+        0.3851133359023948,
+        0.42728431778724746
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_012",
+      "text": "mL",
+      "bbox": [
+        0.3684640522875817,
+        0.4344753689236111,
+        0.3888927783841401,
+        0.4471706814236111
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_013",
+      "text": "mg/mL",
+      "bbox": [
+        0.3684640522875817,
+        0.45436173255997475,
+        0.41340746910743464,
+        0.46705704505997475
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_014",
+      "text": "units/hr",
+      "bbox": [
+        0.3684640522875817,
+        0.4742480961963384,
+        0.41668474284652013,
+        0.4869434086963384
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_015",
+      "text": "mL/hr",
+      "bbox": [
+        0.3684640522875817,
+        0.49413445983270204,
+        0.4060523837220435,
+        0.506829772332702
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_016",
+      "text": "Units",
+      "bbox": [
+        0.3684640522875817,
+        0.5140208234690656,
+        0.40196405049243006,
+        0.5267161359690656
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_017",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.5339071871054293,
+        0.40524356817108353,
+        0.5466024996054293
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_018",
+      "text": "Dose units, specify (CM_UNITSSP)\n0/2500",
+      "bbox": [
+        0.059640522875817,
+        0.5746268840751263,
+        0.3877015705981286,
+        0.5911100753630051
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_019",
+      "text": "Frequency (CM_FREQ)",
+      "bbox": [
+        0.059640522875817,
+        0.6636420355902778,
+        0.21978769738689746,
+        0.6763373480902778
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_020",
+      "text": "QD",
+      "bbox": [
+        0.3684640522875817,
+        0.6731117325599747,
+        0.39052534415051826,
+        0.6858070450599747
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_021",
+      "text": "QOD",
+      "bbox": [
+        0.3684640522875817,
+        0.6929980961963383,
+        0.40196651882595485,
+        0.7056934086963383
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_022",
+      "text": "BID",
+      "bbox": [
+        0.3684640522875817,
+        0.712884459832702,
+        0.3929812362770629,
+        0.725579772332702
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_023",
+      "text": "TID",
+      "bbox": [
+        0.3684640522875817,
+        0.7327708234690656,
+        0.3921577104556015,
+        0.7454661359690656
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_024",
+      "text": "QID",
+      "bbox": [
+        0.3684640522875817,
+        0.7526571871054293,
+        0.3946135776494843,
+        0.7653524996054293
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_025",
+      "text": "x1",
+      "bbox": [
+        0.3684640522875817,
+        0.7725435507417929,
+        0.3839957044015523,
+        0.7852388632417929
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_026",
+      "text": "PRN",
+      "bbox": [
+        0.3684640522875817,
+        0.7924299143781566,
+        0.3995106516320721,
+        0.8051252268781566
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_027",
+      "text": "QHS",
+      "bbox": [
+        0.3684640522875817,
+        0.8123162780145202,
+        0.40033158445669936,
+        0.8250115905145202
+      ],
+      "page_num": 32
+    },
+    {
+      "line_id": "line_032_028",
+      "text": "Other",
+      "bbox": [
+        0.3684640522875817,
+        0.8322026416508839,
+        0.40524356817108353,
+        0.8448979541508839
+      ],
+      "page_num": 32
+    }
+  ],
+  "metadata": {
+    "num_questions": 8,
+    "num_inputs": 21,
+    "num_inputs_by_type": {
+      "option": 2,
+      "text": 19,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 5,
+    "num_total_lines": 29,
+    "timestamp": "2025-08-15T13:34:51.272954+00:00"
+  }
+}

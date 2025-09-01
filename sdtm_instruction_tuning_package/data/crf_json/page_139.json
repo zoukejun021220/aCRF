@@ -1,0 +1,796 @@
+{
+  "page_id": 139,
+  "items": [
+    {
+      "seq": 4254,
+      "tag": "<Q>",
+      "text": "Action taken details (AE_ACTTAKEN)",
+      "page": 140,
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-992"
+    },
+    {
+      "seq": 4255,
+      "tag": "<INPUT>",
+      "text": "None/observation only",
+      "page": 140,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.513547361286637,
+        0.09017050386679293
+      ],
+      "bbox_ref": "line_139_003",
+      "parent_qid": "q-992"
+    },
+    {
+      "seq": 4256,
+      "tag": "<INPUT>",
+      "text": "Study Procedure interrupted/aborted",
+      "page": 140,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.09262670651830808,
+        0.47677018907335067,
+        0.10532201901830808
+      ],
+      "bbox_ref": "line_139_004",
+      "parent_qid": "q-992"
+    },
+    {
+      "seq": 4257,
+      "tag": "<INPUT>",
+      "text": "Alternate thrombectomy",
+      "page": 140,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.1257706459122475,
+        0.523341459386489,
+        0.1384659584122475
+      ],
+      "bbox_ref": "line_139_006",
+      "parent_qid": "q-992"
+    },
+    {
+      "seq": 4258,
+      "tag": "<INPUT>",
+      "text": "ClotTriever",
+      "page": 140,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.1456570095486111,
+        0.4385923497817096,
+        0.1583523220486111
+      ],
+      "bbox_ref": "line_139_007",
+      "parent_qid": "q-992"
+    },
+    {
+      "seq": 4259,
+      "tag": "<INPUT>",
+      "text": "Post procedure Thrombolysis",
+      "page": 140,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.16554337318497475,
+        0.5584738238964205,
+        0.17823868568497475
+      ],
+      "bbox_ref": "line_139_008",
+      "parent_qid": "q-992"
+    },
+    {
+      "seq": 4260,
+      "tag": "<INPUT>",
+      "text": "Surgical Embolectomy",
+      "page": 140,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.18542973682133837,
+        0.5135179407456342,
+        0.19812504932133837
+      ],
+      "bbox_ref": "line_139_009",
+      "parent_qid": "q-992"
+    },
+    {
+      "seq": 4261,
+      "tag": "<INPUT>",
+      "text": "IVC filter insertion",
+      "page": 140,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.20531610045770202,
+        0.48328489415785847,
+        0.21801141295770202
+      ],
+      "bbox_ref": "line_139_010",
+      "parent_qid": "q-992"
+    },
+    {
+      "seq": 4262,
+      "tag": "<INPUT>",
+      "text": "Surgical",
+      "page": 140,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.18542973682133837,
+        0.5135179407456342,
+        0.19812504932133837
+      ],
+      "bbox_ref": "line_139_009",
+      "parent_qid": "q-992"
+    },
+    {
+      "seq": 4263,
+      "tag": "<INPUT>",
+      "text": "Hospitalization",
+      "page": 140,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.24508882773042928,
+        0.4628584120008681,
+        0.2577841402304293
+      ],
+      "bbox_ref": "line_139_012",
+      "parent_qid": "q-992"
+    },
+    {
+      "seq": 4264,
+      "tag": "<INPUT>",
+      "text": "Other",
+      "page": 140,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.3672385620915033,
+        0.26497519136679293,
+        0.4040180779750051,
+        0.27767050386679293
+      ],
+      "bbox_ref": "line_139_013",
+      "parent_qid": "q-992"
+    },
+    {
+      "seq": 4265,
+      "tag": "<Q>",
+      "text": "Other, specify (AE_OTHACT)",
+      "page": 140,
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3056948883364899,
+        0.3795251036001966,
+        0.3221780796243687
+      ],
+      "bbox_ref": "line_139_014",
+      "qid": "q-993"
+    },
+    {
+      "seq": 4266,
+      "tag": "<INPUT>",
+      "text": "0/500",
+      "page": 140,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3056948883364899,
+        0.3795251036001966,
+        0.3221780796243687
+      ],
+      "bbox_ref": "line_139_014",
+      "parent_qid": "q-993"
+    },
+    {
+      "seq": 4267,
+      "tag": "<Q>",
+      "text": "Outcome of Event (AE_OUTC)",
+      "page": 140,
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.39471003985164144,
+        0.2696259442497702,
+        0.40740535235164144
+      ],
+      "bbox_ref": "line_139_015",
+      "qid": "q-994"
+    },
+    {
+      "seq": 4268,
+      "tag": "<INPUT>",
+      "text": "Fatal",
+      "page": 140,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4041797368213384,
+        0.4011577032749949,
+        0.4168750493213384
+      ],
+      "bbox_ref": "line_139_016",
+      "parent_qid": "q-994"
+    },
+    {
+      "seq": 4269,
+      "tag": "<INPUT>",
+      "text": "Recovered without sequelae",
+      "page": 140,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.42406610045770204,
+        0.5540103787690206,
+        0.43676141295770204
+      ],
+      "bbox_ref": "line_139_017",
+      "parent_qid": "q-994"
+    },
+    {
+      "seq": 4270,
+      "tag": "<INPUT>",
+      "text": "Recovered with sequelae",
+      "page": 140,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.44395246409406564,
+        0.5335691863415288,
+        0.45664777659406564
+      ],
+      "bbox_ref": "line_139_018",
+      "parent_qid": "q-994"
+    },
+    {
+      "seq": 4271,
+      "tag": "<INPUT>",
+      "text": "Ongoing",
+      "page": 140,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.4638388277304293,
+        0.4240545135697508,
+        0.4765341402304293
+      ],
+      "bbox_ref": "line_139_019",
+      "parent_qid": "q-994"
+    },
+    {
+      "seq": 4272,
+      "tag": "<INPUT>",
+      "text": "Unknown",
+      "page": 140,
+      "input_type": "option",
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.48372519136679293,
+        0.4297604031032986,
+        0.49642050386679293
+      ],
+      "bbox_ref": "line_139_020",
+      "parent_qid": "q-994"
+    },
+    {
+      "seq": 4273,
+      "tag": "<Q>",
+      "text": "Stop date (AE_STOPDT)",
+      "page": 140,
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5234979186395202,
+        0.44772493449691075,
+        0.5421419625330453
+      ],
+      "bbox_ref": "line_139_021",
+      "qid": "q-995"
+    },
+    {
+      "seq": 4274,
+      "tag": "<INPUT>",
+      "text": "dd-mmm-yyyy",
+      "page": 140,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5234979186395202,
+        0.44772493449691075,
+        0.5421419625330453
+      ],
+      "bbox_ref": "line_139_021",
+      "parent_qid": "q-995"
+    },
+    {
+      "seq": 4275,
+      "tag": "<Q>",
+      "text": "Date of death (AE_DEADT)",
+      "page": 140,
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5736873125789141,
+        0.44772493449691075,
+        0.5923313564724393
+      ],
+      "bbox_ref": "line_139_022",
+      "qid": "q-996"
+    },
+    {
+      "seq": 4276,
+      "tag": "<INPUT>",
+      "text": "dd-mmm-yyyy",
+      "page": 140,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5234979186395202,
+        0.44772493449691075,
+        0.5421419625330453
+      ],
+      "bbox_ref": "line_139_021",
+      "parent_qid": "q-996"
+    },
+    {
+      "seq": 4277,
+      "tag": "<Q>",
+      "text": "Cause of death (AE_DEACAUS)",
+      "page": 140,
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.6229297368213383,
+        0.3795251036001966,
+        0.6403598978061869
+      ],
+      "bbox_ref": "line_139_023",
+      "qid": "q-997"
+    },
+    {
+      "seq": 4278,
+      "tag": "<INPUT>",
+      "text": "0/500",
+      "page": 140,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.3056948883364899,
+        0.3795251036001966,
+        0.3221780796243687
+      ],
+      "bbox_ref": "line_139_014",
+      "parent_qid": "q-997"
+    },
+    {
+      "seq": 4279,
+      "tag": "<Q>",
+      "text": "Adverse event narrative (AE_NARR)",
+      "page": 140,
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7128918580334596,
+        0.3877015705981286,
+        0.7293750493213383
+      ],
+      "bbox_ref": "line_139_024",
+      "qid": "q-998"
+    },
+    {
+      "seq": 4280,
+      "tag": "<INPUT>",
+      "text": "0/1000",
+      "page": 140,
+      "input_type": "text",
+      "form": "Adverse Events > AE",
+      "section": "Is this a major adverse event (MAE)? (AE_MAEYN)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.7128918580334596,
+        0.3877015705981286,
+        0.7293750493213383
+      ],
+      "bbox_ref": "line_139_024",
+      "parent_qid": "q-998"
+    },
+    {
+      "seq": 4281,
+      "tag": "<FORM>",
+      "text": "Adverse Events > AE",
+      "page": 140,
+      "bbox_xyxy": [
+        0.2260199652777778,
+        0.03675549439709596,
+        0.660416497124566,
+        0.04945080689709596
+      ],
+      "bbox_ref": "line_139_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_139_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_139_001",
+      "text": "140/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_139_002",
+      "text": "Form: Adverse Events > AE\nStudy: Inari CLOUT\nPage: 3/3",
+      "bbox": [
+        0.2260199652777778,
+        0.03675549439709596,
+        0.660416497124566,
+        0.04945080689709596
+      ],
+      "type": "section_header"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_139_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_001",
+      "text": "140/140",
+      "bbox": [
+        0.9094669117647058,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_002",
+      "text": "Form: Adverse Events > AE\nStudy: Inari CLOUT\nPage: 3/3",
+      "bbox": [
+        0.2260199652777778,
+        0.03675549439709596,
+        0.660416497124566,
+        0.04945080689709596
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_003",
+      "text": "Action taken details\n(AE_ACTTAKEN)\nNone/observation only",
+      "bbox": [
+        0.059640522875817,
+        0.06421761560921717,
+        0.513547361286637,
+        0.09017050386679293
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_004",
+      "text": "Study Procedure",
+      "bbox": [
+        0.3672385620915033,
+        0.09262670651830808,
+        0.47677018907335067,
+        0.10532201901830808
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_005",
+      "text": "interrupted/aborted",
+      "bbox": [
+        0.34272875816993464,
+        0.10588428227588384,
+        0.4669809777752247,
+        0.11857959477588384
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_006",
+      "text": "Alternate thrombectomy",
+      "bbox": [
+        0.3672385620915033,
+        0.1257706459122475,
+        0.523341459386489,
+        0.1384659584122475
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_007",
+      "text": "ClotTriever",
+      "bbox": [
+        0.3672385620915033,
+        0.1456570095486111,
+        0.4385923497817096,
+        0.1583523220486111
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_008",
+      "text": "Post procedure Thrombolysis",
+      "bbox": [
+        0.3672385620915033,
+        0.16554337318497475,
+        0.5584738238964205,
+        0.17823868568497475
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_009",
+      "text": "Surgical Embolectomy",
+      "bbox": [
+        0.3672385620915033,
+        0.18542973682133837,
+        0.5135179407456342,
+        0.19812504932133837
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_010",
+      "text": "IVC filter insertion",
+      "bbox": [
+        0.3672385620915033,
+        0.20531610045770202,
+        0.48328489415785847,
+        0.21801141295770202
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_011",
+      "text": "Surgical",
+      "bbox": [
+        0.3672385620915033,
+        0.22520246409406566,
+        0.42035869523590685,
+        0.23789777659406566
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_012",
+      "text": "Hospitalization",
+      "bbox": [
+        0.3672385620915033,
+        0.24508882773042928,
+        0.4628584120008681,
+        0.2577841402304293
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_013",
+      "text": "Other",
+      "bbox": [
+        0.3672385620915033,
+        0.26497519136679293,
+        0.4040180779750051,
+        0.27767050386679293
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_014",
+      "text": "Other, specify (AE_OTHACT)\n0/500",
+      "bbox": [
+        0.059640522875817,
+        0.3056948883364899,
+        0.3795251036001966,
+        0.3221780796243687
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_015",
+      "text": "Outcome of Event (AE_OUTC)",
+      "bbox": [
+        0.059640522875817,
+        0.39471003985164144,
+        0.2696259442497702,
+        0.40740535235164144
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_016",
+      "text": "Fatal",
+      "bbox": [
+        0.3684640522875817,
+        0.4041797368213384,
+        0.4011577032749949,
+        0.4168750493213384
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_017",
+      "text": "Recovered without sequelae",
+      "bbox": [
+        0.3684640522875817,
+        0.42406610045770204,
+        0.5540103787690206,
+        0.43676141295770204
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_018",
+      "text": "Recovered with sequelae",
+      "bbox": [
+        0.3684640522875817,
+        0.44395246409406564,
+        0.5335691863415288,
+        0.45664777659406564
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_019",
+      "text": "Ongoing",
+      "bbox": [
+        0.3684640522875817,
+        0.4638388277304293,
+        0.4240545135697508,
+        0.4765341402304293
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_020",
+      "text": "Unknown",
+      "bbox": [
+        0.3684640522875817,
+        0.48372519136679293,
+        0.4297604031032986,
+        0.49642050386679293
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_021",
+      "text": "Stop date (AE_STOPDT)\ndd-mmm-yyyy",
+      "bbox": [
+        0.059640522875817,
+        0.5234979186395202,
+        0.44772493449691075,
+        0.5421419625330453
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_022",
+      "text": "Date of death (AE_DEADT)\ndd-mmm-yyyy",
+      "bbox": [
+        0.059640522875817,
+        0.5736873125789141,
+        0.44772493449691075,
+        0.5923313564724393
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_023",
+      "text": "Cause of death (AE_DEACAUS)\n0/500",
+      "bbox": [
+        0.059640522875817,
+        0.6229297368213383,
+        0.3795251036001966,
+        0.6403598978061869
+      ],
+      "page_num": 139
+    },
+    {
+      "line_id": "line_139_024",
+      "text": "Adverse event narrative (AE_NARR)\n0/1000",
+      "bbox": [
+        0.059640522875817,
+        0.7128918580334596,
+        0.3877015705981286,
+        0.7293750493213383
+      ],
+      "page_num": 139
+    }
+  ],
+  "metadata": {
+    "num_questions": 7,
+    "num_inputs": 20,
+    "num_inputs_by_type": {
+      "option": 1,
+      "text": 19,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 0,
+    "num_supplemental": 3,
+    "num_total_lines": 25,
+    "timestamp": "2025-08-15T14:22:07.627424+00:00"
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "page_id": 34,
+  "items": [
+    {
+      "seq": 1022,
+      "tag": "<Q>",
+      "text": "Date of visit",
+      "page": 35,
+      "form": "Clinical Labs",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-276"
+    },
+    {
+      "seq": 1023,
+      "tag": "<INPUT>",
+      "text": "dd-mmm-yyyy",
+      "page": 35,
+      "input_type": "text",
+      "form": "Clinical Labs",
+      "section": "Anticoagulation > Anticoag",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "q-276"
+    },
+    {
+      "seq": 1024,
+      "tag": "<FORM>",
+      "text": "Clinical Labs",
+      "page": 35,
+      "bbox_xyxy": [
+        0.2540147569444444,
+        0.036748096196338384,
+        0.6324217054578993,
+        0.049443408696338384
+      ],
+      "bbox_ref": "line_034_002"
+    },
+    {
+      "seq": 1025,
+      "tag": "<SH>",
+      "text": "Clinical Labs",
+      "page": 35,
+      "question_below_text": "Subform: Lab",
+      "bbox_xyxy": [
+        0.2540147569444444,
+        0.036748096196338384,
+        0.6324217054578993,
+        0.049443408696338384
+      ],
+      "bbox_ref": "line_034_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_034_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_034_001",
+      "text": "35/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_034_002",
+      "text": "Form: Clinical Labs\nStudy: Inari CLOUT\nPage: 1/1",
+      "bbox": [
+        0.2540147569444444,
+        0.036748096196338384,
+        0.6324217054578993,
+        0.049443408696338384
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_034_003",
+      "text": "Clinical Labs",
+      "bbox": [
+        0.36721941380718953,
+        0.06528665561868686,
+        0.5486650653913909,
+        0.09067728061868686
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_034_004",
+      "text": "Subform: Lab",
+      "bbox": [
+        0.059640522875817,
+        0.11155870225694445,
+        0.15359434738657832,
+        0.12425401475694445
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_034_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 34
+    },
+    {
+      "line_id": "line_034_001",
+      "text": "35/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 34
+    },
+    {
+      "line_id": "line_034_002",
+      "text": "Form: Clinical Labs\nStudy: Inari CLOUT\nPage: 1/1",
+      "bbox": [
+        0.2540147569444444,
+        0.036748096196338384,
+        0.6324217054578993,
+        0.049443408696338384
+      ],
+      "page_num": 34
+    },
+    {
+      "line_id": "line_034_003",
+      "text": "Clinical Labs",
+      "bbox": [
+        0.36721941380718953,
+        0.06528665561868686,
+        0.5486650653913909,
+        0.09067728061868686
+      ],
+      "page_num": 34
+    },
+    {
+      "line_id": "line_034_004",
+      "text": "Subform: Lab",
+      "bbox": [
+        0.059640522875817,
+        0.11155870225694445,
+        0.15359434738657832,
+        0.12425401475694445
+      ],
+      "page_num": 34
+    }
+  ],
+  "metadata": {
+    "num_questions": 1,
+    "num_inputs": 1,
+    "num_inputs_by_type": {
+      "option": 0,
+      "text": 1,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 5,
+    "num_total_lines": 5,
+    "timestamp": "2025-08-15T13:35:20.014824+00:00",
+    "requires_second_inspection": true,
+    "anomaly_reasons": [
+      "statistical_outlier (count=1, avg=7.1, std=2.9)",
+      "too_few_questions",
+      "high_supplemental_ratio (1.00)"
+    ]
+  }
+}

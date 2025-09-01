@@ -1,0 +1,67 @@
+{
+  "file": "crf_json/blankCRF_corrected/page_056.json",
+  "page_id": 56,
+  "annotations": [
+    {
+      "qid": "q-001",
+      "seq": 1,
+      "text": "Was there an acute kidney injury/hemoglobinuria? (PROC_AKH)",
+      "annotation": "FAORRES when FATESTCD = | FAOBJ = Acute Kidney Injury/Hemoglobinuria",
+      "domain": "FA",
+      "pattern": "conditional_single",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-002",
+      "seq": 2,
+      "text": "Was edema examination completed? (DISCH_ED)",
+      "annotation": "For annotation, refer to CRF page 8",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.7,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-003",
+      "seq": 3,
+      "text": "Numeric Pain Rating Scale (NPRS)",
+      "annotation": "For annotation, refer to CRF page 19",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.7,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-004",
+      "seq": 4,
+      "text": "Discharge NPRS score (DISCH_NPRSR)",
+      "annotation": "",
+      "domain": "",
+      "pattern": "",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    },
+    {
+      "qid": "q-005",
+      "seq": 5,
+      "text": "Did you update the Anticoagulation forms? (DISCH_ANTIYN)",
+      "annotation": "[NOT SUBMITTED]",
+      "domain": "",
+      "pattern": "not_submitted",
+      "confidence": 0.9,
+      "valid": false,
+      "requires_separate_annotations": false
+    }
+  ],
+  "summary": {
+    "total_items": 5,
+    "annotated": 5,
+    "not_submitted": 1,
+    "errors": 0
+  }
+}

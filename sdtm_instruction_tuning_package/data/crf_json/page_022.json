@@ -1,0 +1,182 @@
+{
+  "page_id": 22,
+  "items": [
+    {
+      "seq": 709,
+      "tag": "<INPUT>",
+      "text": "dd-mmm-yyyy",
+      "page": 23,
+      "input_type": "text",
+      "form": "IVUS Measurements",
+      "section": "Provoking Factors",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "parent_qid": "orphan"
+    },
+    {
+      "seq": 710,
+      "tag": "<FORM>",
+      "text": "IVUS Measurements",
+      "page": 23,
+      "bbox_xyxy": [
+        0.22785820057189543,
+        0.036746863162878785,
+        0.6585591135461346,
+        0.049442175662878785
+      ],
+      "bbox_ref": "line_022_002"
+    },
+    {
+      "seq": 711,
+      "tag": "<SH>",
+      "text": "IVUS Measurements",
+      "page": 23,
+      "question_below_text": "none",
+      "bbox_xyxy": [
+        0.22785820057189543,
+        0.036746863162878785,
+        0.6585591135461346,
+        0.049442175662878785
+      ],
+      "bbox_ref": "line_022_002"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_022_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_022_001",
+      "text": "23/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_022_002",
+      "text": "Form: IVUS Measurements\nStudy: Inari CLOUT\nPage: 1/1",
+      "bbox": [
+        0.22785820057189543,
+        0.036746863162878785,
+        0.6585591135461346,
+        0.049442175662878785
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_022_003",
+      "text": "IVUS Measurements",
+      "bbox": [
+        0.3165339052287582,
+        0.06528542258522728,
+        0.5993030523163041,
+        0.09067604758522728
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_022_004",
+      "text": "Subform: IVUS",
+      "bbox": [
+        0.059640522875817,
+        0.11155746922348485,
+        0.1633861142825457,
+        0.12425278172348485
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_022_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 22
+    },
+    {
+      "line_id": "line_022_001",
+      "text": "23/140",
+      "bbox": [
+        0.9167432598039216,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 22
+    },
+    {
+      "line_id": "line_022_002",
+      "text": "Form: IVUS Measurements\nStudy: Inari CLOUT\nPage: 1/1",
+      "bbox": [
+        0.22785820057189543,
+        0.036746863162878785,
+        0.6585591135461346,
+        0.049442175662878785
+      ],
+      "page_num": 22
+    },
+    {
+      "line_id": "line_022_003",
+      "text": "IVUS Measurements",
+      "bbox": [
+        0.3165339052287582,
+        0.06528542258522728,
+        0.5993030523163041,
+        0.09067604758522728
+      ],
+      "page_num": 22
+    },
+    {
+      "line_id": "line_022_004",
+      "text": "Subform: IVUS",
+      "bbox": [
+        0.059640522875817,
+        0.11155746922348485,
+        0.1633861142825457,
+        0.12425278172348485
+      ],
+      "page_num": 22
+    }
+  ],
+  "metadata": {
+    "num_questions": 0,
+    "num_inputs": 1,
+    "num_inputs_by_type": {
+      "option": 0,
+      "text": 1,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 1,
+    "num_supplemental": 5,
+    "num_total_lines": 5,
+    "timestamp": "2025-08-15T13:30:50.966249+00:00",
+    "requires_second_inspection": true,
+    "anomaly_reasons": [
+      "statistical_outlier (count=0, avg=7.1, std=2.9)",
+      "zero_questions_found"
+    ]
+  }
+}

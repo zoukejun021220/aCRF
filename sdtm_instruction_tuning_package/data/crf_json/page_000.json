@@ -1,0 +1,860 @@
+{
+  "page_id": 0,
+  "items": [
+    {
+      "seq": 1,
+      "tag": "<Q>",
+      "text": "Date of baseline visit (VSTDT)",
+      "page": 1,
+      "form": "Baseline",
+      "section": null,
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11155623619002525,
+        0.44772493449691075,
+        0.13020027045047644
+      ],
+      "bbox_ref": "line_000_004",
+      "qid": "q-000"
+    },
+    {
+      "seq": 2,
+      "tag": "<INPUT>",
+      "text": "dd-mmm-yyyy",
+      "page": 1,
+      "input_type": "text",
+      "form": "Baseline",
+      "section": null,
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.11155623619002525,
+        0.44772493449691075,
+        0.13020027045047644
+      ],
+      "bbox_ref": "line_000_004",
+      "parent_qid": "q-000"
+    },
+    {
+      "seq": 3,
+      "tag": "<Q>",
+      "text": "Age ≥ 18 years (INC1)",
+      "page": 1,
+      "form": "Baseline",
+      "section": "Inclusion Criteria",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.23845017558396464,
+        0.3924522150575725,
+        0.25966821535669193
+      ],
+      "bbox_ref": "line_000_006",
+      "qid": "q-001"
+    },
+    {
+      "seq": 4,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 1,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Inclusion Criteria",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.23845017558396464,
+        0.3924522150575725,
+        0.25966821535669193
+      ],
+      "bbox_ref": "line_000_006",
+      "parent_qid": "q-001"
+    },
+    {
+      "seq": 5,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 1,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Inclusion Criteria",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.2668592664930556,
+        0.38726041207905687,
+        0.2795545789930556
+      ],
+      "bbox_ref": "line_000_007",
+      "parent_qid": "q-001"
+    },
+    {
+      "seq": 6,
+      "tag": "<Q>",
+      "text": "Proximal lower extremity DVT involving the femoral, common femoral, iliac veins or inferior vena cava (IVC), alone or in combination (INC2)",
+      "page": 1,
+      "form": "Baseline",
+      "section": "Inclusion Criteria",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-002"
+    },
+    {
+      "seq": 7,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 1,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Inclusion Criteria",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.23845017558396464,
+        0.3924522150575725,
+        0.25966821535669193
+      ],
+      "bbox_ref": "line_000_006",
+      "parent_qid": "q-002"
+    },
+    {
+      "seq": 8,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 1,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Inclusion Criteria",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.2668592664930556,
+        0.38726041207905687,
+        0.2795545789930556
+      ],
+      "bbox_ref": "line_000_007",
+      "parent_qid": "q-002"
+    },
+    {
+      "seq": 9,
+      "tag": "<Q>",
+      "text": "Willing and able to provide informed consent (INC3)",
+      "page": 1,
+      "form": "Baseline",
+      "section": "Inclusion Criteria",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-003"
+    },
+    {
+      "seq": 10,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 1,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Inclusion Criteria",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.23845017558396464,
+        0.3924522150575725,
+        0.25966821535669193
+      ],
+      "bbox_ref": "line_000_006",
+      "parent_qid": "q-003"
+    },
+    {
+      "seq": 11,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 1,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Inclusion Criteria",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.2668592664930556,
+        0.38726041207905687,
+        0.2795545789930556
+      ],
+      "bbox_ref": "line_000_007",
+      "parent_qid": "q-003"
+    },
+    {
+      "seq": 12,
+      "tag": "<Q>",
+      "text": "Prior venous stent in a TVS (EX1)",
+      "page": 1,
+      "form": "Baseline",
+      "section": "Exclusion Criteria",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.5395865392203283,
+        0.3924522150575725,
+        0.5608045789930556
+      ],
+      "bbox_ref": "line_000_014",
+      "qid": "q-004"
+    },
+    {
+      "seq": 13,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 1,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Inclusion Criteria",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.23845017558396464,
+        0.3924522150575725,
+        0.25966821535669193
+      ],
+      "bbox_ref": "line_000_006",
+      "parent_qid": "q-004"
+    },
+    {
+      "seq": 14,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 1,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Inclusion Criteria",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.2668592664930556,
+        0.38726041207905687,
+        0.2795545789930556
+      ],
+      "bbox_ref": "line_000_007",
+      "parent_qid": "q-004"
+    },
+    {
+      "seq": 15,
+      "tag": "<Q>",
+      "text": "IVC aplasia/hypoplasia or other congenital anatomic anomalies of the IVC or iliac veins (EX2)",
+      "page": 1,
+      "form": "Baseline",
+      "section": "Inclusion Criteria",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-005"
+    },
+    {
+      "seq": 16,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 1,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Inclusion Criteria",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.23845017558396464,
+        0.3924522150575725,
+        0.25966821535669193
+      ],
+      "bbox_ref": "line_000_006",
+      "parent_qid": "q-005"
+    },
+    {
+      "seq": 17,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 1,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Inclusion Criteria",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.2668592664930556,
+        0.38726041207905687,
+        0.2795545789930556
+      ],
+      "bbox_ref": "line_000_007",
+      "parent_qid": "q-005"
+    },
+    {
+      "seq": 18,
+      "tag": "<Q>",
+      "text": "IVC filter in place when the ClotTriever enters the patient (EX3)",
+      "page": 1,
+      "form": "Baseline",
+      "section": "Inclusion Criteria",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-006"
+    },
+    {
+      "seq": 19,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 1,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Inclusion Criteria",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.23845017558396464,
+        0.3924522150575725,
+        0.25966821535669193
+      ],
+      "bbox_ref": "line_000_006",
+      "parent_qid": "q-006"
+    },
+    {
+      "seq": 20,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 1,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Inclusion Criteria",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.2668592664930556,
+        0.38726041207905687,
+        0.2795545789930556
+      ],
+      "bbox_ref": "line_000_007",
+      "parent_qid": "q-006"
+    },
+    {
+      "seq": 21,
+      "tag": "<Q>",
+      "text": "Allergy, hypersensitivity, or thrombocytopenia from heparin or iodinated contrast agents, except for mild to moderate contrast allergies for which pretreatment can be used (EX5)",
+      "page": 1,
+      "form": "Baseline",
+      "section": "Inclusion Criteria",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-007"
+    },
+    {
+      "seq": 22,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 1,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Inclusion Criteria",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.23845017558396464,
+        0.3924522150575725,
+        0.25966821535669193
+      ],
+      "bbox_ref": "line_000_006",
+      "parent_qid": "q-007"
+    },
+    {
+      "seq": 23,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 1,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Inclusion Criteria",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.2668592664930556,
+        0.38726041207905687,
+        0.2795545789930556
+      ],
+      "bbox_ref": "line_000_007",
+      "parent_qid": "q-007"
+    },
+    {
+      "seq": 24,
+      "tag": "<Q>",
+      "text": "Life expectancy less than 1 year (EX6)",
+      "page": 1,
+      "form": "Baseline",
+      "section": "Inclusion Criteria",
+      "bbox_xyxy": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "bbox_ref": "unmatched",
+      "qid": "q-008"
+    },
+    {
+      "seq": 25,
+      "tag": "<INPUT>",
+      "text": "Yes",
+      "page": 1,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Inclusion Criteria",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.23845017558396464,
+        0.3924522150575725,
+        0.25966821535669193
+      ],
+      "bbox_ref": "line_000_006",
+      "parent_qid": "q-008"
+    },
+    {
+      "seq": 26,
+      "tag": "<INPUT>",
+      "text": "No",
+      "page": 1,
+      "input_type": "option",
+      "form": "Baseline",
+      "section": "Inclusion Criteria",
+      "bbox_xyxy": [
+        0.3684640522875817,
+        0.2668592664930556,
+        0.38726041207905687,
+        0.2795545789930556
+      ],
+      "bbox_ref": "line_000_007",
+      "parent_qid": "q-008"
+    },
+    {
+      "seq": 27,
+      "tag": "<FORM>",
+      "text": "Baseline",
+      "page": 1,
+      "bbox_xyxy": [
+        0.2633974162581699,
+        0.03674563012941919,
+        0.6230200474558313,
+        0.04944094262941919
+      ],
+      "bbox_ref": "line_000_002"
+    },
+    {
+      "seq": 28,
+      "tag": "<SH>",
+      "text": "Inclusion Criteria",
+      "page": 1,
+      "question_below_text": "Age ≥ 18 years (INC1)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.18104383680555555,
+        0.21982001011667687,
+        0.1979709201388889
+      ],
+      "bbox_ref": "line_000_005"
+    },
+    {
+      "seq": 29,
+      "tag": "<SH>",
+      "text": "Exclusion Criteria",
+      "page": 1,
+      "question_below_text": "Prior venous stent in a TVS (EX1)",
+      "bbox_xyxy": [
+        0.059640522875817,
+        0.48218020044191917,
+        0.2263690225439134,
+        0.49910728377525254
+      ],
+      "bbox_ref": "line_000_013"
+    }
+  ],
+  "supplemental_page_data": [
+    {
+      "line_id": "line_000_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_000_001",
+      "text": "1/140",
+      "bbox": [
+        0.9240196078431373,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_000_002",
+      "text": "Form: Baseline\nStudy: Inari CLOUT\nPage: 1/10",
+      "bbox": [
+        0.2633974162581699,
+        0.03674563012941919,
+        0.6230200474558313,
+        0.04944094262941919
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_000_005",
+      "text": "Inclusion Criteria",
+      "bbox": [
+        0.059640522875817,
+        0.18104383680555555,
+        0.21982001011667687,
+        0.1979709201388889
+      ],
+      "type": "section_header"
+    },
+    {
+      "line_id": "line_000_008",
+      "text": "Proximal lower extremity DVT\ninvolving the femoral, common\nfemoral, iliac veins or inferior vena\ncava (IVC), alone or in combination\n(INC2)",
+      "bbox": [
+        0.059640522875817,
+        0.30757896346275254,
+        0.30479992137235756,
+        0.3733045789930556
+      ],
+      "type": "supplemental"
+    },
+    {
+      "line_id": "line_000_013",
+      "text": "Exclusion Criteria",
+      "bbox": [
+        0.059640522875817,
+        0.48218020044191917,
+        0.2263690225439134,
+        0.49910728377525254
+      ],
+      "type": "section_header"
+    },
+    {
+      "line_id": "line_000_021",
+      "text": "Allergy, hypersensitivity, or\nthrombocytopenia from heparin or\niodinated contrast agents, except\nfor mild to moderate contrast\nallergies for which pretreatment can\nbe used (EX5)",
+      "bbox": [
+        0.059640522875817,
+        0.7460259331597222,
+        0.31216757281932955,
+        0.825009124447601
+      ],
+      "type": "supplemental"
+    }
+  ],
+  "all_lines": [
+    {
+      "line_id": "line_000_000",
+      "text": "27/01/2021",
+      "bbox": [
+        0.04322406045751634,
+        0.01863360164141414,
+        0.10863782845291436,
+        0.029918323863636364
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_001",
+      "text": "1/140",
+      "bbox": [
+        0.9240196078431373,
+        0.96939117739899,
+        0.956701739940768,
+        0.9806758996212122
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_002",
+      "text": "Form: Baseline\nStudy: Inari CLOUT\nPage: 1/10",
+      "bbox": [
+        0.2633974162581699,
+        0.03674563012941919,
+        0.6230200474558313,
+        0.04944094262941919
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_003",
+      "text": "Baseline",
+      "bbox": [
+        0.39743540645424835,
+        0.06528418955176768,
+        0.5184104769837623,
+        0.09067481455176768
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_004",
+      "text": "Date of baseline visit (VSTDT)\ndd-mmm-yyyy",
+      "bbox": [
+        0.059640522875817,
+        0.11155623619002525,
+        0.44772493449691075,
+        0.13020027045047644
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_005",
+      "text": "Inclusion Criteria",
+      "bbox": [
+        0.059640522875817,
+        0.18104383680555555,
+        0.21982001011667687,
+        0.1979709201388889
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_006",
+      "text": "Age ≥ 18 years (INC1)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.23845017558396464,
+        0.3924522150575725,
+        0.25966821535669193
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_007",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.2668592664930556,
+        0.38726041207905687,
+        0.2795545789930556
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_008",
+      "text": "Proximal lower extremity DVT\ninvolving the femoral, common\nfemoral, iliac veins or inferior vena\ncava (IVC), alone or in combination\n(INC2)",
+      "bbox": [
+        0.059640522875817,
+        0.30757896346275254,
+        0.30479992137235756,
+        0.3733045789930556
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_009",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.3161016907354798,
+        0.3924522150575725,
+        0.3287970032354798
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_010",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.3359880543718434,
+        0.38726041207905687,
+        0.3486833668718434
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_011",
+      "text": "Willing and able to provide informed\nconsent (INC3)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.393753205886995,
+        0.3924522150575725,
+        0.4197060941445707
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_012",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.42216229679608586,
+        0.38726041207905687,
+        0.43485760929608586
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_013",
+      "text": "Exclusion Criteria",
+      "bbox": [
+        0.059640522875817,
+        0.48218020044191917,
+        0.2263690225439134,
+        0.49910728377525254
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_014",
+      "text": "Prior venous stent in a TVS (EX1)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.5395865392203283,
+        0.3924522150575725,
+        0.5608045789930556
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_015",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.5679956301294192,
+        0.38726041207905687,
+        0.5806909426294192
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_016",
+      "text": "IVC aplasia/hypoplasia or other\ncongenital anatomic anomalies of\nthe IVC or iliac veins (EX2)",
+      "bbox": [
+        0.059640522875817,
+        0.6087153270991161,
+        0.2958170822243285,
+        0.6479257911142676
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_017",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.6172380543718434,
+        0.3924522150575725,
+        0.6299333668718434
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_018",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.6371244180082071,
+        0.38726041207905687,
+        0.6498197305082071
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_019",
+      "text": "IVC filter in place when the\nClotTriever enters the patient (EX3)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.6778441149779041,
+        0.3924522150575725,
+        0.7037970032354798
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_020",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.7062532058869949,
+        0.38726041207905687,
+        0.7189485183869949
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_021",
+      "text": "Allergy, hypersensitivity, or\nthrombocytopenia from heparin or\niodinated contrast agents, except\nfor mild to moderate contrast\nallergies for which pretreatment can\nbe used (EX5)",
+      "bbox": [
+        0.059640522875817,
+        0.7460259331597222,
+        0.31216757281932955,
+        0.825009124447601
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_022",
+      "text": "Yes",
+      "bbox": [
+        0.3684640522875817,
+        0.7545486604324495,
+        0.3924522150575725,
+        0.7672439729324495
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_023",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.7744350240688131,
+        0.38726041207905687,
+        0.7871303365688131
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_024",
+      "text": "Life expectancy less than 1 year\n(EX6)\nYes",
+      "bbox": [
+        0.059640522875817,
+        0.8454577513415404,
+        0.3924522150575725,
+        0.8714106395991161
+      ],
+      "page_num": 0
+    },
+    {
+      "line_id": "line_000_025",
+      "text": "No",
+      "bbox": [
+        0.3684640522875817,
+        0.8738668422506313,
+        0.38726041207905687,
+        0.8865621547506313
+      ],
+      "page_num": 0
+    }
+  ],
+  "metadata": {
+    "num_questions": 9,
+    "num_inputs": 17,
+    "num_inputs_by_type": {
+      "option": 16,
+      "text": 1,
+      "free": 0
+    },
+    "num_forms": 1,
+    "num_sections": 2,
+    "num_supplemental": 7,
+    "num_total_lines": 26,
+    "timestamp": "2025-08-15T13:21:37.822146+00:00"
+  }
+}
