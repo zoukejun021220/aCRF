@@ -16,7 +16,6 @@ from transformers import (
     AutoModelForCausalLM,
     AutoTokenizer,
     BitsAndBytesConfig,
-    HfArgumentParser,
     TrainingArguments,
     Trainer,
     DataCollatorForLanguageModeling
@@ -90,6 +89,10 @@ class ModelArguments:
         default=False,
         metadata={"help": "Use nested quantization for 4-bit models"}
     )
+    device_map: str = field(
+        default="auto",
+        metadata={"help": "Device map for model loading: auto|cpu|cuda|sequential"}
+    )
 
 
 @dataclass
@@ -123,13 +126,20 @@ class DataArguments:
 @dataclass
 class ExtendedTrainingArgs:
     """Additional training switches (kept separate to avoid subclassing HF TrainingArguments)."""
-    use_lora: bool = field(default=True, metadata={"help": "Use LoRA for training"})
-    lora_r: int = field(default=64, metadata={"help": "LoRA attention dimension"})
-    lora_alpha: int = field(default=16, metadata={"help": "LoRA alpha parameter"})
-    lora_dropout: float = field(default=0.1, metadata={"help": "LoRA dropout probability"})
+    use_lora: bool = field(default=True)
+    lora_r: int = field(default=64)
+    lora_alpha: int = field(default=16)
+    lora_dropout: float = field(default=0.1)
     lora_target_modules: List[str] = field(
-        default_factory=lambda: ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
-        metadata={"help": "Target modules for LoRA"},
+        default_factory=lambda: [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj",
+            "gate_proj",
+            "up_proj",
+            "down_proj",
+        ]
     )
 
 
@@ -289,7 +299,7 @@ def setup_model_and_tokenizer(model_args: ModelArguments):
         return AutoModelForCausalLM.from_pretrained(
             source,
             quantization_config=bnb_config,
-            device_map="auto",
+            device_map=model_args.device_map,
             trust_remote_code=True,
             config=config,
         )
@@ -420,10 +430,140 @@ class SDTMTrainer(Trainer):
         return (loss, outputs) if return_outputs else loss
 
 
+def _str2bool(x: str) -> bool:
+    return str(x).lower() in {"1", "true", "t", "yes", "y"}
+
+
 def main():
-    # Parse arguments
-    parser = HfArgumentParser((ModelArguments, DataArguments, TrainingArguments, ExtendedTrainingArgs))
-    model_args, data_args, hf_args, ext_args = parser.parse_args_into_dataclasses()
+    # Robust CLI parser that avoids HfArgumentParser to sidestep type-hint issues in newer transformers
+    import argparse
+
+    ap = argparse.ArgumentParser(description="Train SDTM mapper with (Q)LoRA")
+    # Model args
+    ap.add_argument("--model_name_or_path", default="Qwen/Qwen2.5-14B-Instruct")
+    ap.add_argument("--use_modelscope", type=_str2bool, default=False)
+    ap.add_argument("--modelscope_model_id", default=None)
+    ap.add_argument("--use_4bit", type=_str2bool, default=True)
+    ap.add_argument("--local_model_path", default=None)
+    ap.add_argument("--bnb_4bit_compute_dtype", default="float16")
+    ap.add_argument("--bnb_4bit_quant_type", default="nf4")
+    ap.add_argument("--use_nested_quant", type=_str2bool, default=False)
+    ap.add_argument("--device_map", default="auto")
+    # Data args
+    ap.add_argument("--data_path", required=True)
+    ap.add_argument("--max_seq_length", type=int, default=2048)
+    ap.add_argument("--preprocessing_num_workers", type=int, default=4)
+    ap.add_argument("--use_metadata", type=_str2bool, default=True)
+    ap.add_argument("--step_weights", default=None)
+    ap.add_argument("--eval_stepwise", type=_str2bool, default=True)
+    # Extended training args (LoRA)
+    ap.add_argument("--use_lora", type=_str2bool, default=True)
+    ap.add_argument("--lora_r", type=int, default=64)
+    ap.add_argument("--lora_alpha", type=int, default=16)
+    ap.add_argument("--lora_dropout", type=float, default=0.1)
+    ap.add_argument(
+        "--lora_target_modules",
+        default="q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj",
+    )
+    # Core HF TrainingArguments subset
+    ap.add_argument("--output_dir", required=True)
+    ap.add_argument("--num_train_epochs", type=float, default=3)
+    ap.add_argument("--max_steps", type=int, default=-1)
+    ap.add_argument("--per_device_train_batch_size", type=int, default=4)
+    ap.add_argument("--per_device_eval_batch_size", type=int, default=None)
+    ap.add_argument("--gradient_accumulation_steps", type=int, default=8)
+    ap.add_argument("--evaluation_strategy", default="steps")
+    ap.add_argument("--eval_steps", type=int, default=500)
+    ap.add_argument("--save_strategy", default="steps")
+    ap.add_argument("--save_steps", type=int, default=500)
+    ap.add_argument("--save_total_limit", type=int, default=2)
+    ap.add_argument("--learning_rate", type=float, default=2e-4)
+    ap.add_argument("--weight_decay", type=float, default=0.0)
+    ap.add_argument("--warmup_ratio", type=float, default=0.03)
+    ap.add_argument("--lr_scheduler_type", default="cosine")
+    ap.add_argument("--logging_steps", type=int, default=50)
+    ap.add_argument("--do_train", type=_str2bool, default=True)
+    ap.add_argument("--do_eval", type=_str2bool, default=True)
+    ap.add_argument("--report_to", default="none")
+    ap.add_argument("--run_name", default=None)
+    ap.add_argument("--load_best_model_at_end", type=_str2bool, default=False)
+    ap.add_argument("--metric_for_best_model", default="eval_loss")
+    ap.add_argument("--greater_is_better", type=_str2bool, default=False)
+    ap.add_argument("--ddp_find_unused_parameters", type=_str2bool, default=False)
+    ap.add_argument("--group_by_length", type=_str2bool, default=False)
+    ap.add_argument("--bf16", type=_str2bool, default=False)
+    ap.add_argument("--fp16", type=_str2bool, default=True)
+    ap.add_argument("--gradient_checkpointing", type=_str2bool, default=True)
+    ap.add_argument("--dataloader_num_workers", type=int, default=0)
+
+    args = ap.parse_args()
+
+    # Map to dataclasses/structs
+    model_args = ModelArguments(
+        model_name_or_path=args.model_name_or_path,
+        use_modelscope=args.use_modelscope,
+        modelscope_model_id=args.modelscope_model_id,
+        use_4bit=args.use_4bit,
+        local_model_path=args.local_model_path,
+        bnb_4bit_compute_dtype=args.bnb_4bit_compute_dtype,
+        bnb_4bit_quant_type=args.bnb_4bit_quant_type,
+        use_nested_quant=args.use_nested_quant,
+        device_map=args.device_map,
+    )
+    data_args = DataArguments(
+        data_path=args.data_path,
+        max_seq_length=args.max_seq_length,
+        preprocessing_num_workers=args.preprocessing_num_workers,
+        use_metadata=args.use_metadata,
+        step_weights=args.step_weights,
+        eval_stepwise=args.eval_stepwise,
+    )
+    ext_args = ExtendedTrainingArgs(
+        use_lora=args.use_lora,
+        lora_r=args.lora_r,
+        lora_alpha=args.lora_alpha,
+        lora_dropout=args.lora_dropout,
+        lora_target_modules=[m.strip() for m in str(args.lora_target_modules).split(",") if m.strip()],
+    )
+    # Build HF TrainingArguments
+    report_to = args.report_to
+    if isinstance(report_to, str) and report_to:
+        # normalize to list expected by some versions
+        report_to_list = [s.strip() for s in report_to.split(",") if s.strip()]
+    else:
+        report_to_list = ["none"]
+    per_eval_bs = args.per_device_eval_batch_size or max(1, args.per_device_train_batch_size // 2)
+    hf_args = TrainingArguments(
+        output_dir=args.output_dir,
+        num_train_epochs=args.num_train_epochs,
+        max_steps=args.max_steps,
+        per_device_train_batch_size=args.per_device_train_batch_size,
+        per_device_eval_batch_size=per_eval_bs,
+        gradient_accumulation_steps=args.gradient_accumulation_steps,
+        eval_strategy=args.evaluation_strategy,
+        eval_steps=args.eval_steps,
+        save_strategy=args.save_strategy,
+        save_steps=args.save_steps,
+        save_total_limit=args.save_total_limit,
+        learning_rate=args.learning_rate,
+        weight_decay=args.weight_decay,
+        warmup_ratio=args.warmup_ratio,
+        lr_scheduler_type=args.lr_scheduler_type,
+        logging_steps=args.logging_steps,
+        do_train=args.do_train,
+        do_eval=args.do_eval,
+        report_to=report_to_list,
+        run_name=args.run_name,
+        load_best_model_at_end=args.load_best_model_at_end,
+        metric_for_best_model=args.metric_for_best_model,
+        greater_is_better=args.greater_is_better,
+        ddp_find_unused_parameters=args.ddp_find_unused_parameters,
+        group_by_length=args.group_by_length,
+        bf16=args.bf16,
+        fp16=args.fp16,
+        gradient_checkpointing=args.gradient_checkpointing,
+        dataloader_num_workers=args.dataloader_num_workers,
+    )
     
     # Setup logging
     logging.basicConfig(
