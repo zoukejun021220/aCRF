@@ -53,7 +53,8 @@ Select the most appropriate {sdtm_class} domain. Reply with ONLY the 2-letter do
         domain = response.strip().upper()[:2]
         
         # Validate domain
-        valid_domains = self.domains_by_class.get(sdtm_class, [])
+        raw_domains = self.domains_by_class.get(sdtm_class, [])
+        valid_domains = [d["code"] if isinstance(d, dict) else d for d in raw_domains]
         if domain in valid_domains:
             return domain, 0.8
             
@@ -69,7 +70,8 @@ Select the most appropriate {sdtm_class} domain. Reply with ONLY the 2-letter do
         # Get all domains
         all_domains = set()
         for domains in self.domains_by_class.values():
-            all_domains.update(domains)
+            for d in domains:
+                all_domains.add(d["code"] if isinstance(d, dict) else d)
             
         # Build domain descriptions
         domains_desc = self._get_all_domain_descriptions()
@@ -108,7 +110,9 @@ Select the most appropriate SDTM domain. Reply with ONLY the 2-letter domain cod
         domains = self.domains_by_class[sdtm_class]
         lines = [f"Available {sdtm_class} domains:"]
         
-        for domain in sorted(domains):
+        # Normalize to codes
+        codes = [d["code"] if isinstance(d, dict) else d for d in domains]
+        for domain in sorted(codes):
             if domain in self.proto_define.get('datasets', {}):
                 domain_info = self.proto_define['datasets'][domain]
                 desc = domain_info.get('description', '')
@@ -122,7 +126,8 @@ Select the most appropriate SDTM domain. Reply with ONLY the 2-letter domain cod
         
         for sdtm_class, domains in self.domains_by_class.items():
             lines.append(f"\n{sdtm_class}:")
-            for domain in sorted(domains):
+            codes = [d["code"] if isinstance(d, dict) else d for d in domains]
+            for domain in sorted(codes):
                 if domain in self.proto_define.get('datasets', {}):
                     domain_info = self.proto_define['datasets'][domain]
                     desc = domain_info.get('description', '')[:100]

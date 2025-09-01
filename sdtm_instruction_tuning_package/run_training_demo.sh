@@ -8,7 +8,7 @@ echo "Memory: $(nvidia-smi --query-gpu=memory.free --format=csv,noheader) free"
 echo ""
 
 # Use a 7B model that will fit in memory
-MODEL_NAME="Qwen/Qwen2.5-7B-Instruct"
+MODEL_NAME="${MODEL_NAME:-Qwen/Qwen2.5-7B-Instruct}"
 echo "Using $MODEL_NAME (7B model should fit in 12GB GPU)"
 
 # Run with minimal settings

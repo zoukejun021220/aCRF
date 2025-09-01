@@ -43,6 +43,7 @@ sdtm_knowledge_base/Variable-Domain-Mapper/cache/
 sdtm_instruction_tuning_package/test_output/
 sdtm_instruction_tuning_package/cache/
 sdtm_instruction_tuning_package/output/
+sdtm_instruction_tuning_package/test_output_smoke/
 
 # Generic cache/output anywhere
 **/cache/

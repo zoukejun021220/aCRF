@@ -92,6 +92,18 @@ class DataArguments:
         default=4,
         metadata={"help": "Number of workers for preprocessing"}
     )
+    use_metadata: bool = field(
+        default=True,
+        metadata={"help": "Use instruction_dataset.json with step metadata if available"}
+    )
+    step_weights: Optional[str] = field(
+        default=None,
+        metadata={"help": "JSON mapping of step->weight, e.g. {'domain_selection':1.0}"}
+    )
+    eval_stepwise: bool = field(
+        default=True,
+        metadata={"help": "Run evaluation per step and report losses"}
+    )
 
 
 @dataclass
@@ -128,21 +140,44 @@ class TrainingArgs(TrainingArguments):
 class SDTMDataset:
     """Dataset class for SDTM instruction tuning"""
     
-    def __init__(self, data_path: str, tokenizer, max_length: int = 2048):
+    def __init__(self, data_path: str, tokenizer, max_length: int = 2048,
+                 use_metadata: bool = True, step_weights: Optional[Dict[str, float]] = None):
         self.tokenizer = tokenizer
         self.max_length = max_length
-        self.examples = self.load_data(data_path)
+        self.step_weights = step_weights or {}
+        self.examples = self.load_data(data_path, use_metadata)
+        # Build step id mapping
+        steps = sorted({ex.get("step", "unknown") for ex in self.examples})
+        self.step_to_id = {s: i for i, s in enumerate(steps)}
         
-    def load_data(self, data_path: str) -> List[Dict]:
-        """Load instruction tuning data"""
-        data_file = Path(data_path) / "alpaca_format.json"
-        if not data_file.exists():
-            raise FileNotFoundError(f"Data file not found: {data_file}")
-        
-        with open(data_file) as f:
-            data = json.load(f)
-        
-        return data
+    def load_data(self, data_path: str, use_metadata: bool) -> List[Dict]:
+        """Load instruction tuning data, prefer metadata-rich file when available"""
+        base = Path(data_path)
+        rich = base / "instruction_dataset.json"
+        simple = base / "alpaca_format.json"
+        if use_metadata and rich.exists():
+            with open(rich) as f:
+                data = json.load(f)
+            # Normalize to include step
+            normalized = []
+            for ex in data:
+                norm = {
+                    "instruction": ex.get("instruction", ""),
+                    "input": ex.get("input", ""),
+                    "output": ex.get("output", ""),
+                    "step": (ex.get("metadata") or {}).get("step", "unknown")
+                }
+                normalized.append(norm)
+            return normalized
+        elif simple.exists():
+            with open(simple) as f:
+                data = json.load(f)
+            # No step metadata available
+            for ex in data:
+                ex["step"] = "unknown"
+            return data
+        else:
+            raise FileNotFoundError(f"Data file not found: {rich if use_metadata else simple}")
     
     def __len__(self):
         return len(self.examples)
@@ -179,8 +214,14 @@ class SDTMDataset:
         
         # Set labels (same as input_ids for causal LM)
         encodings["labels"] = encodings["input_ids"].clone()
-        
-        return {k: v.squeeze() for k, v in encodings.items()}
+        # Attach step info and precomputed sample weight
+        step = example.get("step", "unknown")
+        step_id = self.step_to_id.get(step, 0)
+        weight = float(self.step_weights.get(step, 1.0))
+        item = {k: v.squeeze() for k, v in encodings.items()}
+        item["step_id"] = torch.tensor(step_id, dtype=torch.long)
+        item["sample_weight"] = torch.tensor(weight, dtype=torch.float32)
+        return item
 
 
 def download_model_from_modelscope(model_id: str, cache_dir: str = "./models") -> str:
@@ -284,9 +325,12 @@ def setup_lora(model, training_args: TrainingArgs):
 class SDTMTrainer(Trainer):
     """Custom trainer with SDTM-specific logging"""
     
-    def compute_loss(self, model, inputs, return_outputs=False):
+    def compute_loss(self, model, inputs, return_outputs=False, num_items_in_batch: Optional[int] = None):
         """Compute loss with proper label masking"""
         labels = inputs.pop("labels")
+        # Extract and remove custom fields before forward
+        sample_weight = inputs.pop("sample_weight", None)
+        _ = inputs.pop("step_id", None)
         
         # Forward pass
         outputs = model(**inputs)
@@ -296,13 +340,28 @@ class SDTMTrainer(Trainer):
         shift_logits = logits[..., :-1, :].contiguous()
         shift_labels = labels[..., 1:].contiguous()
         
-        # Compute loss
-        loss_fct = torch.nn.CrossEntropyLoss(ignore_index=self.tokenizer.pad_token_id)
-        loss = loss_fct(
+        # Compute token-level loss (HF convention uses -100 as ignore index)
+        loss_fct = torch.nn.CrossEntropyLoss(ignore_index=-100, reduction="none")
+        token_loss = loss_fct(
             shift_logits.view(-1, shift_logits.size(-1)),
             shift_labels.view(-1)
         )
+        # Reshape to [batch, seq]
+        bsz = shift_labels.size(0)
+        seqlen = shift_labels.size(1)
+        token_loss = token_loss.view(bsz, seqlen)
+        # Average per-sample over valid tokens
+        mask = (shift_labels != -100).float()
+        denom = mask.sum(dim=1).clamp(min=1.0)
+        per_sample = (token_loss * mask).sum(dim=1) / denom
         
+        # Apply sample weights only during training
+        if sample_weight is not None and model.training:
+            # Broadcast/cast to correct device
+            sample_weight = sample_weight.to(per_sample.device)
+            per_sample = per_sample * sample_weight
+        
+        loss = per_sample.mean()
         return (loss, outputs) if return_outputs else loss
 
 
@@ -331,12 +390,35 @@ def main():
         logger.info("Setting up LoRA...")
         model = setup_lora(model, training_args)
     
-    # Load dataset
+    # Parse step weights if provided
+    step_weights: Dict[str, float] = {}
+    if data_args.step_weights:
+        try:
+            step_weights = json.loads(data_args.step_weights)
+        except Exception as e:
+            logger.warning(f"Failed to parse step_weights JSON: {e}")
+            step_weights = {}
+    if not step_weights:
+        # Defaults (can be overridden via --step_weights)
+        step_weights = {
+            "domain_selection": 1.0,
+            "pattern_selection": 1.0,
+            "testcode_selection": 1.2,
+            "variable_selection": 1.2,
+            "criterion_code_extraction": 1.1,
+            "qnam_selection": 0.9,
+            "unknown": 1.0,
+        }
+    logger.info(f"Step weights: {step_weights}")
+
+    # Load dataset (with step metadata if available)
     logger.info("Loading dataset...")
     train_dataset = SDTMDataset(
         data_args.data_path,
         tokenizer,
-        max_length=data_args.max_seq_length
+        max_length=data_args.max_seq_length,
+        use_metadata=data_args.use_metadata,
+        step_weights=step_weights,
     )
     
     # Split into train/eval (90/10)
@@ -378,6 +460,22 @@ def main():
     tokenizer.save_pretrained(training_args.output_dir)
     
     logger.info("Training completed!")
+
+    # Optional: Stepwise evaluation on eval split (unweighted)
+    if data_args.eval_stepwise and isinstance(eval_dataset, torch.utils.data.Subset):
+        base_ds: SDTMDataset = eval_dataset.dataset  # type: ignore
+        # Group indices by step
+        step_to_indices: Dict[str, List[int]] = {}
+        for idx in eval_dataset.indices:  # type: ignore[attr-defined]
+            step = base_ds.examples[idx].get("step", "unknown")
+            step_to_indices.setdefault(step, []).append(idx)
+        logger.info("\nStepwise evaluation (unweighted):")
+        for step, idxs in sorted(step_to_indices.items(), key=lambda x: x[0]):
+            if not idxs:
+                continue
+            subset = torch.utils.data.Subset(base_ds, idxs)
+            metrics = trainer.evaluate(eval_dataset=subset)
+            logger.info(f"  {step}: eval_loss={metrics.get('eval_loss'):.4f}")
 
 
 if __name__ == "__main__":

@@ -3,23 +3,21 @@
 # This proves the setup works and just needs more GPU memory
 
 echo "Running SDTM training until GPU memory limit..."
-echo "Current GPU: $(nvidia-smi --query-gpu=name --format=csv,noheader)"
-echo "GPU Memory: $(nvidia-smi --query-gpu=memory.total --format=csv,noheader)"
+echo "Current GPU: $(nvidia-smi --query-gpu=name --format=csv,noheader 2>/dev/null || echo 'unknown')"
+echo "GPU Memory: $(nvidia-smi --query-gpu=memory.total --format=csv,noheader 2>/dev/null || echo 'unknown')"
 echo "=" * 60
 
-# Use environment variables
-export HF_HOME="./cache"
-export CUDA_VISIBLE_DEVICES=0
+export CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES:-0}
 
 # Start with Qwen 14B model to ensure we hit memory limits
-MODEL_NAME="Qwen/Qwen2.5-14B-Instruct"
-DATA_PATH="./data"
-OUTPUT_DIR="./output"
+MODEL_NAME="${MODEL_NAME:-Qwen/Qwen2.5-14B-Instruct}"
+DATA_PATH="${DATA_PATH:-./data}"
+OUTPUT_DIR="${OUTPUT_DIR:-./output}"
 
 # Training parameters
-BATCH_SIZE=4
-GRADIENT_ACCUMULATION=8
-LEARNING_RATE=2e-4
+BATCH_SIZE=${BATCH_SIZE:-4}
+GRADIENT_ACCUMULATION=${GRADIENT_ACCUMULATION:-8}
+LEARNING_RATE=${LEARNING_RATE:-2e-4}
 
 echo "Starting training with $MODEL_NAME..."
 echo "This should eventually hit GPU memory limits..."

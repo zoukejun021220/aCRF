@@ -8,7 +8,12 @@ import argparse
 import logging
 from pathlib import Path
 
-from core.mapper import UnifiedSDTMMapper
+try:
+    # When executed as a module with PYTHONPATH set to repo/pipeline
+    from stage_b_mapper_module.core.mapper import UnifiedSDTMMapper
+except Exception:
+    # Fallback when running directly from this folder (legacy)
+    from core.mapper import UnifiedSDTMMapper
 
 logger = logging.getLogger(__name__)
 

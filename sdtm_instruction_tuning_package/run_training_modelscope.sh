@@ -3,31 +3,31 @@
 # Useful for users in regions with limited Hugging Face access
 
 # Set environment variables
-export CUDA_VISIBLE_DEVICES=0
-export WANDB_PROJECT="sdtm-mapper-finetuning"
-export HF_DATASETS_CACHE="./cache"
-export TRANSFORMERS_CACHE="./cache"
+export CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES:-0}
+export WANDB_PROJECT=${WANDB_PROJECT:-"sdtm-mapper-finetuning"}
+export HF_DATASETS_CACHE=${HF_DATASETS_CACHE:-"./cache"}
+export TRANSFORMERS_CACHE=${TRANSFORMERS_CACHE:-"./cache"}
 
 # Model configuration - using ModelScope
-MODEL_NAME="Qwen/Qwen2.5-14B-Instruct"
-USE_MODELSCOPE=true
+MODEL_NAME="${MODEL_NAME:-Qwen/Qwen2.5-14B-Instruct}"
+USE_MODELSCOPE=${USE_MODELSCOPE:-true}
 # Optional: specify different ModelScope ID if needed
 # MODELSCOPE_MODEL_ID="qwen/Qwen2.5-14B-Instruct"
 
-DATA_PATH="./data"
-OUTPUT_DIR="./output"
+DATA_PATH="${DATA_PATH:-./data}"
+OUTPUT_DIR="${OUTPUT_DIR:-./output}"
 
 # Training hyperparameters
-BATCH_SIZE=4
-GRADIENT_ACCUMULATION=8
-LEARNING_RATE=2e-4
-NUM_EPOCHS=3
-MAX_SEQ_LENGTH=2048
+BATCH_SIZE=${BATCH_SIZE:-4}
+GRADIENT_ACCUMULATION=${GRADIENT_ACCUMULATION:-8}
+LEARNING_RATE=${LEARNING_RATE:-2e-4}
+NUM_EPOCHS=${NUM_EPOCHS:-3}
+MAX_SEQ_LENGTH=${MAX_SEQ_LENGTH:-2048}
 
 # LoRA configuration
-LORA_R=64
-LORA_ALPHA=16
-LORA_DROPOUT=0.1
+LORA_R=${LORA_R:-64}
+LORA_ALPHA=${LORA_ALPHA:-16}
+LORA_DROPOUT=${LORA_DROPOUT:-0.1}
 
 # Create output directory
 mkdir -p $OUTPUT_DIR

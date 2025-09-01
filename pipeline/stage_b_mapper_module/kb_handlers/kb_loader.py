@@ -135,13 +135,23 @@ class KBLoader:
         if variables_path.exists():
             with open(variables_path, 'r') as f:
                 variables_data = json.load(f)
-                
-            # Transform to domain-based structure
-            for var_name, var_info in variables_data.items():
-                domains = var_info.get('domains', [])
-                for domain in domains:
+
+            # Support both dict and list formats
+            if isinstance(variables_data, dict):
+                for var_name, var_info in variables_data.items():
+                    domains = var_info.get('domains', [])
+                    for domain in domains:
+                        if domain not in self.domain_variables:
+                            self.domain_variables[domain] = {}
+                        self.domain_variables[domain][var_name] = var_info
+            elif isinstance(variables_data, list):
+                for rec in variables_data:
+                    domain = rec.get('domain') or rec.get('DOMAIN')
+                    var_name = rec.get('name') or rec.get('VAR_NAME') or rec.get('name_short')
+                    if not domain or not var_name:
+                        continue
                     if domain not in self.domain_variables:
                         self.domain_variables[domain] = {}
-                    self.domain_variables[domain][var_name] = var_info
-                    
+                    self.domain_variables[domain][var_name] = rec
+
             logger.info(f"Loaded variables for {len(self.domain_variables)} domains")
