@@ -534,7 +534,8 @@ def main():
     # Defaults - relative to package directory
     script_dir = Path(__file__).parent
     default_kb = script_dir / "kb" / "sdtmig_v3_4_complete"
-    default_reference = script_dir / "data" / "reference"
+    # Default to cloud reference_with_sections as requested
+    default_reference = Path("/home/kejunzou/Projects/Oss+MinerU ACRF/reference_with_sections")
     default_crf = script_dir / "data" / "crf_json"
     default_out = script_dir / "data"
 

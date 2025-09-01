@@ -14,6 +14,15 @@ MODELSCOPE_MODEL_ID="${MODELSCOPE_MODEL_ID:-}"  # Optional: specify different Mo
 DATA_PATH="${DATA_PATH:-./data}"
 OUTPUT_DIR="${OUTPUT_DIR:-./output}"
 
+# Ensure dataset exists; if missing, build from default external reference
+if [ ! -f "$DATA_PATH/alpaca_format.json" ]; then
+  echo "Dataset not found at $DATA_PATH. Generating from default reference_with_sections..."
+  python create_instruction_dataset.py \
+    --reference-dir "/home/kejunzou/Projects/Oss+MinerU ACRF/reference_with_sections" \
+    --crf-dir "./data/crf_json" \
+    --output-dir "$DATA_PATH"
+fi
+
 # Training hyperparameters
 BATCH_SIZE=${BATCH_SIZE:-4}
 GRADIENT_ACCUMULATION=${GRADIENT_ACCUMULATION:-8}
