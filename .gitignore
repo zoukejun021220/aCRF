@@ -58,6 +58,23 @@ sdtm_instruction_tuning_package/test_output_smoke/
 # Sensitive or bulky artifacts
 ########################################
 credential.txt
+# Common credentials/secrets patterns
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*api_key*
+*apikey*
+*API_KEY*
+*token*
+*secret*
+*secrets*
+credentials.json
+.envrc
+secrets/
+keys/
 
 # Large archives and model files
 *.tar
