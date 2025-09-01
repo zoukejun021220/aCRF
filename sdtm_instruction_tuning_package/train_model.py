@@ -282,7 +282,7 @@ def setup_model_and_tokenizer(model_args: ModelArguments):
     
     # Load model
     logger.info(f"Loading model from: {model_path}")
-    # Load config explicitly with trust_remote_code to handle newer model types (e.g., 'qwen2') on older transformers
+    # Load config explicitly with trust_remote_code to handle newer model types
     try:
         from transformers import AutoConfig
         config = AutoConfig.from_pretrained(model_path, trust_remote_code=True)
@@ -290,13 +290,60 @@ def setup_model_and_tokenizer(model_args: ModelArguments):
         logger.warning(f"Could not load config with trust_remote_code: {e}. Proceeding without explicit config.")
         config = None
 
-    model = AutoModelForCausalLM.from_pretrained(
-        model_path,
-        quantization_config=bnb_config,
-        device_map="auto",
-        trust_remote_code=True,
-        config=config,
-    )
+    def _load_from(source: str):
+        return AutoModelForCausalLM.from_pretrained(
+            source,
+            quantization_config=bnb_config,
+            device_map="auto",
+            trust_remote_code=True,
+            config=config,
+        )
+
+    # Primary attempt
+    try:
+        model = _load_from(model_path)
+    except Exception as e_first:
+        logger.warning(f"Primary model load failed from {model_path}: {e_first}")
+        # Fallback 1: if local path provided, try the HF repo id
+        fallback_id = None
+        if model_args.local_model_path:
+            fallback_id = model_args.model_name_or_path
+            logger.info(f"Falling back to repo id: {fallback_id}")
+            try:
+                model = _load_from(fallback_id)
+            except Exception as e_second:
+                logger.warning(f"Repo id load failed: {e_second}")
+                # Fallback 2: snapshot download then load
+                try:
+                    from huggingface_hub import snapshot_download
+                    logger.info("Downloading snapshot via Hugging Face Hub...")
+                    local_snap = snapshot_download(repo_id=fallback_id, resume_download=True)
+                    model_path = local_snap
+                    model = _load_from(model_path)
+                except Exception as e_third:
+                    logger.warning(f"HF snapshot download failed: {e_third}")
+                    if MODELSCOPE_AVAILABLE:
+                        try:
+                            logger.info("Falling back to ModelScope snapshot download...")
+                            ms_id = model_args.modelscope_model_id or model_args.model_name_or_path
+                            model_path = download_model_from_modelscope(ms_id)
+                            model = _load_from(model_path)
+                        except Exception as e_fourth:
+                            raise RuntimeError(f"All model load fallbacks failed: {e_fourth}") from e_fourth
+                    else:
+                        raise RuntimeError(f"All model load fallbacks failed: {e_third}") from e_third
+        else:
+            # No local path; try ModelScope then raise
+            if MODELSCOPE_AVAILABLE:
+                try:
+                    logger.info("Attempting ModelScope snapshot download...")
+                    ms_id = model_args.modelscope_model_id or model_args.model_name_or_path
+                    model_path = download_model_from_modelscope(ms_id)
+                    model = _load_from(model_path)
+                except Exception as e_ms:
+                    raise RuntimeError(f"ModelScope load failed after primary: {e_ms}") from e_ms
+            else:
+                raise
     
     # Load tokenizer
     tokenizer = AutoTokenizer.from_pretrained(
