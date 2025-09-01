@@ -50,7 +50,7 @@ python train_model.py \
   --lora_r 16 \
   --lora_alpha 32 \
   --lora_dropout 0.1 \
-  --no-use_4bit \
+  --use_4bit False \
   --max_seq_length $MAX_SEQ_LENGTH \
   --preprocessing_num_workers 2 \
   --dataloader_num_workers 0 \

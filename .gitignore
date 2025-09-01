@@ -49,6 +49,10 @@ sdtm_instruction_tuning_package/test_output_smoke/
 **/cache/
 **/output/
 
+# Allow training dataset to be tracked
+!sdtm_instruction_tuning_package/data/
+!sdtm_instruction_tuning_package/data/**
+
 ########################################
 # Windows zone identifier artifacts
 ########################################
@@ -58,6 +62,8 @@ sdtm_instruction_tuning_package/test_output_smoke/
 # Sensitive or bulky artifacts
 ########################################
 credential.txt
+# Explicitly ignore accidental secret CSV dropped locally
+SecretKey.csv*
 # Common credentials/secrets patterns
 *.pem
 *.key

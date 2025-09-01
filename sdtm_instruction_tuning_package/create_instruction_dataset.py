@@ -531,12 +531,12 @@ Return the QNAM (8 chars max)."""
 
 
 def main():
-    # Defaults - relative to package directory
+    # Defaults - relative to package directory (works in cloud and locally)
     script_dir = Path(__file__).parent
+    repo_root = script_dir.parent
     default_kb = script_dir / "kb" / "sdtmig_v3_4_complete"
-    # Default to cloud reference_with_sections as requested
-    default_reference = Path("/home/kejunzou/Projects/Oss+MinerU ACRF/reference_with_sections")
-    default_crf = script_dir / "data" / "crf_json"
+    default_reference = repo_root / "reference_with_sections"
+    default_crf = repo_root / "crf_json"
     default_out = script_dir / "data"
 
     ap = argparse.ArgumentParser(description="Build SDTM instruction-tuning dataset from reference annotations")

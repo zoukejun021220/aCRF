@@ -69,6 +69,9 @@ def main():
     ap.add_argument("--lora-dropout", type=float, default=0.05)
     ap.add_argument("--bf16", action="store_true")
     ap.add_argument("--fp16", action="store_true")
+    ap.add_argument("--load-in-4bit", dest="load_in_4bit", action="store_true")
+    ap.add_argument("--no-4bit", dest="load_in_4bit", action="store_false")
+    ap.set_defaults(load_in_4bit=True)
     ap.add_argument("--max-length", type=int, default=2048)
     args = ap.parse_args()
 
@@ -77,10 +80,17 @@ def main():
         tokenizer.pad_token = tokenizer.eos_token
 
     print("Loading base model…")
+    # Be robust in cloud: if bitsandbytes missing, disable 4-bit
+    if args.load_in_4bit:
+        try:
+            import bitsandbytes  # noqa: F401
+        except Exception as e:
+            print(f"bitsandbytes unavailable ({e}); disabling 4-bit load.")
+            args.load_in_4bit = False
     model = AutoModelForCausalLM.from_pretrained(
         args.model,
         device_map="auto",
-        load_in_4bit=True,
+        load_in_4bit=args.load_in_4bit,
         torch_dtype=torch.float16,
     )
 
@@ -141,4 +151,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

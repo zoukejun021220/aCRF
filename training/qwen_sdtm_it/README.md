@@ -16,8 +16,7 @@ This folder contains a minimal, cloud-friendly pipeline to fine‑tune Qwen2.5�
 
 2) Build the training/validation dataset:
 - python prepare_dataset.py \
-  --reference-dir \
-    "/home/kejunzou/Projects/Oss+MinerU ACRF/reference_with_sections" \
+  --reference-dir ../reference_with_sections \
   --output-dir data \
   --val-ratio 0.05
 
@@ -68,4 +67,3 @@ print(tok.decode(out_ids[0], skip_special_tokens=True))
 - Set `HF_HOME`/`TRANSFORMERS_CACHE` to a persistent volume to avoid re‑downloads.
 - Prefer BF16 on A100/H100; otherwise FP16.
 - Use `accelerate config` to set multi‑GPU / DeepSpeed if needed.
-

@@ -1,25 +1,33 @@
 #!/bin/bash
 # Training script for SDTM mapper instruction tuning
 
+#!/usr/bin/env bash
+
 # Set environment variables
 export CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES:-0}
 export WANDB_PROJECT=${WANDB_PROJECT:-"sdtm-mapper-finetuning"}
 export HF_DATASETS_CACHE=${HF_DATASETS_CACHE:-"./cache"}
 export TRANSFORMERS_CACHE=${TRANSFORMERS_CACHE:-"./cache"}
 
+# Resolve paths relative to this script to avoid hardcoded host paths
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+
 # Model configuration
 MODEL_NAME="${MODEL_NAME:-Qwen/Qwen2.5-14B-Instruct}"
 USE_MODELSCOPE=${USE_MODELSCOPE:-false}  # Set to true to use ModelScope
 MODELSCOPE_MODEL_ID="${MODELSCOPE_MODEL_ID:-}"  # Optional: specify different ModelScope ID
-DATA_PATH="${DATA_PATH:-./data}"
-OUTPUT_DIR="${OUTPUT_DIR:-./output}"
+DATA_PATH="${DATA_PATH:-$SCRIPT_DIR/data}"
+OUTPUT_DIR="${OUTPUT_DIR:-$SCRIPT_DIR/output}"
 
 # Ensure dataset exists; if missing, build from default external reference
 if [ ! -f "$DATA_PATH/alpaca_format.json" ]; then
-  echo "Dataset not found at $DATA_PATH. Generating from default reference_with_sections..."
-  python create_instruction_dataset.py \
-    --reference-dir "/home/kejunzou/Projects/Oss+MinerU ACRF/reference_with_sections" \
-    --crf-dir "./data/crf_json" \
+  echo "Dataset not found at $DATA_PATH. Generating from repository reference_with_sections..."
+  REF_DIR_DEFAULT="${REFERENCE_DIR:-$REPO_ROOT/reference_with_sections}"
+  CRF_DIR_DEFAULT="${CRF_DIR:-$REPO_ROOT/crf_json}"
+  python "$SCRIPT_DIR/create_instruction_dataset.py" \
+    --reference-dir "$REF_DIR_DEFAULT" \
+    --crf-dir "$CRF_DIR_DEFAULT" \
     --output-dir "$DATA_PATH"
 fi
 
@@ -36,7 +44,7 @@ LORA_ALPHA=${LORA_ALPHA:-16}
 LORA_DROPOUT=${LORA_DROPOUT:-0.1}
 
 # Create output directory
-mkdir -p $OUTPUT_DIR
+mkdir -p "$OUTPUT_DIR"
 
 # Build ModelScope arguments
 MODELSCOPE_ARGS=""
@@ -47,12 +55,22 @@ if [ "$USE_MODELSCOPE" = true ]; then
   fi
 fi
 
+# Decide reporting backend (default to none if WANDB not configured)
+REPORT_TO="${REPORT_TO:-}"
+if [ -z "$REPORT_TO" ]; then
+  if [ -n "$WANDB_API_KEY" ]; then
+    REPORT_TO="wandb"
+  else
+    REPORT_TO="none"
+  fi
+fi
+
 # Run training
-python train_model.py \
+python "$SCRIPT_DIR/train_model.py" \
   --model_name_or_path $MODEL_NAME \
   $MODELSCOPE_ARGS \
-  --data_path $DATA_PATH \
-  --output_dir $OUTPUT_DIR \
+  --data_path "$DATA_PATH" \
+  --output_dir "$OUTPUT_DIR" \
   --num_train_epochs $NUM_EPOCHS \
   --per_device_train_batch_size $BATCH_SIZE \
   --per_device_eval_batch_size $BATCH_SIZE \
@@ -78,7 +96,7 @@ python train_model.py \
   --bnb_4bit_quant_type "nf4" \
   --max_seq_length $MAX_SEQ_LENGTH \
   --preprocessing_num_workers 4 \
-  --report_to "wandb" \
+  --report_to "$REPORT_TO" \
   --run_name "sdtm-mapper-qlora" \
   --load_best_model_at_end \
   --metric_for_best_model "eval_loss" \

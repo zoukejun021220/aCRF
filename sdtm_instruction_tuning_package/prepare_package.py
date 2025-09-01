@@ -134,10 +134,11 @@ def create_config_file(package_path: Path):
 
 
 def main():
-    # Paths
-    base_dir = "/home/kejunzou/Projects/Oss+MinerU ACRF"
-    package_dir = os.path.join(base_dir, "sdtm_instruction_tuning_package")
-    kb_source = os.path.join(base_dir, "kb/sdtmig_v3_4_complete")
+    # Paths resolved relative to repo root (no hardcoded host-specific paths)
+    script_dir = Path(__file__).parent
+    repo_root = script_dir.parent
+    package_dir = os.path.join(repo_root.as_posix(), "sdtm_instruction_tuning_package")
+    kb_source = os.path.join(repo_root.as_posix(), "kb/sdtmig_v3_4_complete")
     
     logger.info(f"Creating package in: {package_dir}")
     

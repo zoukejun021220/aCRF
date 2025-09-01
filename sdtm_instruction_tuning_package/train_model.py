@@ -28,9 +28,19 @@ from peft import (
     prepare_model_for_kbit_training,
     TaskType
 )
-import bitsandbytes as bnb
+try:
+    import bitsandbytes as bnb  # type: ignore
+except Exception as _e_bnb:
+    bnb = None  # Will fallback to full-precision if --use_4bit is set
+    logging.getLogger(__name__).warning(
+        f"bitsandbytes not available or failed to import: {_e_bnb}. "
+        "Proceeding without 4-bit quantization; pass --use_4bit False or install a compatible bitsandbytes."
+    )
 from torch.utils.data import DataLoader
-import wandb
+try:
+    import wandb  # type: ignore
+except Exception:
+    wandb = None  # HF Trainer will respect --report_to none
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -111,33 +121,15 @@ class DataArguments:
 
 
 @dataclass
-class TrainingArgs(TrainingArguments):
-    """Extended training arguments"""
-    cache_dir: Optional[str] = field(default=None)
-    optim: str = field(default="paged_adamw_32bit")
-    model_max_length: int = field(
-        default=2048,
-        metadata={"help": "Maximum sequence length"}
-    )
-    use_lora: bool = field(
-        default=True,
-        metadata={"help": "Use LoRA for training"}
-    )
-    lora_r: int = field(
-        default=64,
-        metadata={"help": "LoRA attention dimension"}
-    )
-    lora_alpha: int = field(
-        default=16,
-        metadata={"help": "LoRA alpha parameter"}
-    )
-    lora_dropout: float = field(
-        default=0.1,
-        metadata={"help": "LoRA dropout probability"}
-    )
+class ExtendedTrainingArgs:
+    """Additional training switches (kept separate to avoid subclassing HF TrainingArguments)."""
+    use_lora: bool = field(default=True, metadata={"help": "Use LoRA for training"})
+    lora_r: int = field(default=64, metadata={"help": "LoRA attention dimension"})
+    lora_alpha: int = field(default=16, metadata={"help": "LoRA alpha parameter"})
+    lora_dropout: float = field(default=0.1, metadata={"help": "LoRA dropout probability"})
     lora_target_modules: List[str] = field(
         default_factory=lambda: ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
-        metadata={"help": "Target modules for LoRA"}
+        metadata={"help": "Target modules for LoRA"},
     )
 
 
@@ -271,7 +263,7 @@ def setup_model_and_tokenizer(model_args: ModelArguments):
     
     # Quantization config
     bnb_config = None
-    if model_args.use_4bit:
+    if model_args.use_4bit and bnb is not None:
         compute_dtype = getattr(torch, model_args.bnb_4bit_compute_dtype)
         bnb_config = BitsAndBytesConfig(
             load_in_4bit=True,
@@ -279,6 +271,9 @@ def setup_model_and_tokenizer(model_args: ModelArguments):
             bnb_4bit_quant_type=model_args.bnb_4bit_quant_type,
             bnb_4bit_compute_dtype=compute_dtype,
         )
+    elif model_args.use_4bit and bnb is None:
+        logger.warning("--use_4bit set but bitsandbytes is unavailable. Falling back to full precision.")
+        model_args.use_4bit = False
     
     # Load model
     logger.info(f"Loading model from: {model_path}")
@@ -359,7 +354,7 @@ def setup_model_and_tokenizer(model_args: ModelArguments):
     return model, tokenizer
 
 
-def setup_lora(model, training_args: TrainingArgs):
+def setup_lora(model, training_args: ExtendedTrainingArgs):
     """Setup LoRA for efficient fine-tuning"""
     
     # Prepare model for k-bit training
@@ -427,8 +422,8 @@ class SDTMTrainer(Trainer):
 
 def main():
     # Parse arguments
-    parser = HfArgumentParser((ModelArguments, DataArguments, TrainingArgs))
-    model_args, data_args, training_args = parser.parse_args_into_dataclasses()
+    parser = HfArgumentParser((ModelArguments, DataArguments, TrainingArguments, ExtendedTrainingArgs))
+    model_args, data_args, hf_args, ext_args = parser.parse_args_into_dataclasses()
     
     # Setup logging
     logging.basicConfig(
@@ -446,9 +441,9 @@ def main():
     model, tokenizer = setup_model_and_tokenizer(model_args)
     
     # Setup LoRA if enabled
-    if training_args.use_lora:
+    if ext_args.use_lora:
         logger.info("Setting up LoRA...")
-        model = setup_lora(model, training_args)
+        model = setup_lora(model, ext_args)
     
     # Parse step weights if provided
     step_weights: Dict[str, float] = {}
@@ -501,7 +496,7 @@ def main():
     # Initialize trainer
     trainer = SDTMTrainer(
         model=model,
-        args=training_args,
+        args=hf_args,
         train_dataset=train_dataset,
         eval_dataset=eval_dataset,
         data_collator=data_collator,
@@ -517,7 +512,7 @@ def main():
     trainer.save_model()
     
     # Save tokenizer
-    tokenizer.save_pretrained(training_args.output_dir)
+    tokenizer.save_pretrained(hf_args.output_dir)
     
     logger.info("Training completed!")
 
