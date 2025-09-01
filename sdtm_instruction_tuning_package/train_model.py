@@ -533,6 +533,7 @@ def main():
     else:
         report_to_list = ["none"]
     per_eval_bs = args.per_device_eval_batch_size or max(1, args.per_device_train_batch_size // 2)
+    no_cuda = True if str(model_args.device_map).lower() == "cpu" else False
     hf_args = TrainingArguments(
         output_dir=args.output_dir,
         num_train_epochs=args.num_train_epochs,
@@ -563,6 +564,7 @@ def main():
         fp16=args.fp16,
         gradient_checkpointing=args.gradient_checkpointing,
         dataloader_num_workers=args.dataloader_num_workers,
+        no_cuda=no_cuda,
     )
     
     # Setup logging
