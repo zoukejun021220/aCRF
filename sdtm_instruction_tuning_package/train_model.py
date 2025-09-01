@@ -64,6 +64,10 @@ class ModelArguments:
         default=True,
         metadata={"help": "Use 4-bit quantization"}
     )
+    local_model_path: Optional[str] = field(
+        default=None,
+        metadata={"help": "Filesystem path to a pre-downloaded model (overrides model_name_or_path)"}
+    )
     bnb_4bit_compute_dtype: str = field(
         default="float16",
         metadata={"help": "Compute dtype for 4-bit base models"}
@@ -255,13 +259,13 @@ def setup_model_and_tokenizer(model_args: ModelArguments):
     """Setup model and tokenizer with quantization"""
     
     # Determine model path
-    model_path = model_args.model_name_or_path
+    model_path = model_args.local_model_path or model_args.model_name_or_path
     
     # Download from ModelScope if requested
-    if model_args.use_modelscope and MODELSCOPE_AVAILABLE:
+    if (not model_args.local_model_path) and model_args.use_modelscope and MODELSCOPE_AVAILABLE:
         modelscope_id = model_args.modelscope_model_id or model_args.model_name_or_path
         model_path = download_model_from_modelscope(modelscope_id)
-    elif model_args.use_modelscope and not MODELSCOPE_AVAILABLE:
+    elif (not model_args.local_model_path) and model_args.use_modelscope and not MODELSCOPE_AVAILABLE:
         logger.warning("ModelScope requested but not available. Install with: pip install modelscope")
         logger.info("Falling back to Hugging Face")
     
@@ -278,11 +282,20 @@ def setup_model_and_tokenizer(model_args: ModelArguments):
     
     # Load model
     logger.info(f"Loading model from: {model_path}")
+    # Load config explicitly with trust_remote_code to handle newer model types (e.g., 'qwen2') on older transformers
+    try:
+        from transformers import AutoConfig
+        config = AutoConfig.from_pretrained(model_path, trust_remote_code=True)
+    except Exception as e:
+        logger.warning(f"Could not load config with trust_remote_code: {e}. Proceeding without explicit config.")
+        config = None
+
     model = AutoModelForCausalLM.from_pretrained(
         model_path,
         quantization_config=bnb_config,
         device_map="auto",
         trust_remote_code=True,
+        config=config,
     )
     
     # Load tokenizer
