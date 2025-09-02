@@ -38,7 +38,7 @@ pip install modelscope -q
 # Run training with ModelScope
 python train_model.py \
   --model_name_or_path $MODEL_NAME \
-  --use_modelscope \
+  --use_modelscope True \
   --data_path $DATA_PATH \
   --output_dir $OUTPUT_DIR \
   --num_train_epochs $NUM_EPOCHS \

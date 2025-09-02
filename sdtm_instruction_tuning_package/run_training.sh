@@ -49,7 +49,7 @@ mkdir -p "$OUTPUT_DIR"
 # Build ModelScope arguments
 MODELSCOPE_ARGS=""
 if [ "$USE_MODELSCOPE" = true ]; then
-  MODELSCOPE_ARGS="--use_modelscope"
+  MODELSCOPE_ARGS="--use_modelscope True"
   if [ ! -z "$MODELSCOPE_MODEL_ID" ]; then
     MODELSCOPE_ARGS="$MODELSCOPE_ARGS --modelscope_model_id $MODELSCOPE_MODEL_ID"
   fi

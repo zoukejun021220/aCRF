@@ -44,6 +44,8 @@ sdtm_instruction_tuning_package/test_output/
 sdtm_instruction_tuning_package/cache/
 sdtm_instruction_tuning_package/output/
 sdtm_instruction_tuning_package/test_output_smoke/
+sdtm_instruction_tuning_package/test_output_smoke_run/
+**/test_output_smoke_run/
 
 # Generic cache/output anywhere
 **/cache/
