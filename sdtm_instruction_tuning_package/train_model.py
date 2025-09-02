@@ -734,10 +734,27 @@ def main():
 
     # Ensure dataset exists; if empty/missing, auto-build from packaged reference
     def _maybe_build_dataset() -> None:
+        # Robust import of dataset builder whether run as module or script
+        InstructionDatasetBuilder = None  # type: ignore
         try:
-            from .create_instruction_dataset import InstructionDatasetBuilder  # type: ignore
-        except Exception as e:
-            logger.warning(f"Could not import dataset builder: {e}")
+            # Absolute import when package available
+            from sdtm_instruction_tuning_package.create_instruction_dataset import InstructionDatasetBuilder as _B  # type: ignore
+            InstructionDatasetBuilder = _B
+        except Exception:
+            try:
+                # Fallback: import by file path
+                import importlib.util as _ilu
+                builder_path = Path(__file__).parent / 'create_instruction_dataset.py'
+                spec = _ilu.spec_from_file_location('create_instruction_dataset', builder_path)
+                if spec and spec.loader:
+                    mod = _ilu.module_from_spec(spec)
+                    spec.loader.exec_module(mod)  # type: ignore[attr-defined]
+                    InstructionDatasetBuilder = getattr(mod, 'InstructionDatasetBuilder', None)
+            except Exception as e2:
+                logger.warning(f"Could not import dataset builder: {e2}")
+                InstructionDatasetBuilder = None
+        if InstructionDatasetBuilder is None:
+            logger.warning("Dataset builder unavailable; cannot auto-build dataset.")
             return
         kb_path = Path(getattr(args, 'kb_path', str(Path(__file__).parent / 'kb' / 'sdtmig_v3_4_complete')))
         script_dir = Path(__file__).parent
@@ -754,6 +771,7 @@ def main():
         builder = InstructionDatasetBuilder(str(kb_path))
         examples = builder.process_reference_files(str(ref_dir), str(crf_dir))
         builder.save_dataset(examples, str(out_dir))
+        logger.info(f"Auto-built {len(examples)} examples into {out_dir}")
 
     def _dataset_count(p: Path) -> int:
         try:
