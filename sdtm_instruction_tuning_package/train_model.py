@@ -767,11 +767,24 @@ def main():
         crf_dir = script_dir.parent / 'crf_json'
         out_dir = Path(data_args.data_path)
         out_dir.mkdir(parents=True, exist_ok=True)
-        logger.info(f"Auto-building dataset from reference: {ref_dir}")
-        builder = InstructionDatasetBuilder(str(kb_path))
-        examples = builder.process_reference_files(str(ref_dir), str(crf_dir))
-        builder.save_dataset(examples, str(out_dir))
-        logger.info(f"Auto-built {len(examples)} examples into {out_dir}")
+        def _build_from(rdir: Path) -> int:
+            logger.info(f"Auto-building dataset from reference: {rdir}")
+            b = InstructionDatasetBuilder(str(kb_path))
+            ex = b.process_reference_files(str(rdir), str(crf_dir))
+            b.save_dataset(ex, str(out_dir))
+            logger.info(f"Auto-built {len(ex)} examples into {out_dir}")
+            return len(ex)
+
+        n = _build_from(ref_dir)
+        # If packaged reference yields 0, try Inari then repo fallback
+        if n == 0:
+            inari = Path('/home/kejunzou/Projects/Oss+MinerU ACRF/data/data/sample_crfs/Inari Reference/all_results')
+            if inari.exists():
+                n = _build_from(inari)
+        if n == 0:
+            repo_fallback = script_dir.parent / 'reference_with_sections'
+            if repo_fallback.exists():
+                _build_from(repo_fallback)
 
     def _dataset_count(p: Path) -> int:
         try:
