@@ -713,8 +713,7 @@ class InstructionDatasetBuilder:
                             if text:
                                 text_to_item[text] = item
                 except Exception as e:
-                    logger.warning(f"Failed to read CRF file {crf_file}: {e}
-")
+                    logger.warning(f"Failed to read CRF file {crf_file}: {e}")
             
             # Process annotations
             for annotation in result_data.get("annotations", []):
