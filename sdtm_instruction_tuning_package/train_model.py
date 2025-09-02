@@ -29,8 +29,10 @@ from peft import (
 )
 try:
     import bitsandbytes as bnb  # type: ignore
+    _BNB_VERSION = getattr(bnb, "__version__", "0.0.0")
 except Exception as _e_bnb:
     bnb = None  # Will fallback to full-precision if --use_4bit is set
+    _BNB_VERSION = "0.0.0"
     logging.getLogger(__name__).warning(
         f"bitsandbytes not available or failed to import: {_e_bnb}. "
         "Proceeding without 4-bit quantization; pass --use_4bit False or install a compatible bitsandbytes."
@@ -273,6 +275,22 @@ def setup_model_and_tokenizer(model_args: ModelArguments):
     
     # Quantization config
     bnb_config = None
+    # Check bitsandbytes version compatibility for 4-bit
+    def _bnb_ge(min_version: str) -> bool:
+        from packaging.version import Version
+        try:
+            return Version(_BNB_VERSION) >= Version(min_version)
+        except Exception:
+            return False
+
+    if model_args.use_4bit and bnb is not None:
+        if not _bnb_ge("0.43.2"):
+            logger.warning(
+                f"bitsandbytes {_BNB_VERSION} is too old for 4-bit on cuda dispatch. "
+                "Please upgrade: pip install -U 'bitsandbytes>=0.43.2'. Falling back to full precision for now."
+            )
+            model_args.use_4bit = False
+        
     if model_args.use_4bit and bnb is not None:
         compute_dtype = getattr(torch, model_args.bnb_4bit_compute_dtype)
         bnb_config = BitsAndBytesConfig(
@@ -338,8 +356,8 @@ def setup_model_and_tokenizer(model_args: ModelArguments):
                     else:
                         raise RuntimeError(f"All model load fallbacks failed: {e_third}") from e_third
         else:
-            # No local path; try ModelScope then raise
-            if MODELSCOPE_AVAILABLE:
+            # No local path; only try ModelScope if explicitly requested
+            if MODELSCOPE_AVAILABLE and model_args.use_modelscope:
                 try:
                     logger.info("Attempting ModelScope snapshot download...")
                     ms_id = model_args.modelscope_model_id or model_args.model_name_or_path
