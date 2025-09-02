@@ -732,9 +732,45 @@ def main():
         }
     logger.info(f"Step weights: {step_weights}")
 
+    # Ensure dataset exists; if empty/missing, auto-build from packaged reference
+    def _maybe_build_dataset() -> None:
+        try:
+            from .create_instruction_dataset import InstructionDatasetBuilder  # type: ignore
+        except Exception as e:
+            logger.warning(f"Could not import dataset builder: {e}")
+            return
+        kb_path = Path(getattr(args, 'kb_path', str(Path(__file__).parent / 'kb' / 'sdtmig_v3_4_complete')))
+        script_dir = Path(__file__).parent
+        # Prefer packaged reference for consistency
+        ref_dir = script_dir / 'data' / 'reference'
+        if not ref_dir.exists():
+            # Fallbacks
+            inari = Path('/home/kejunzou/Projects/Oss+MinerU ACRF/data/data/sample_crfs/Inari Reference/all_results')
+            ref_dir = inari if inari.exists() else (script_dir.parent / 'reference_with_sections')
+        crf_dir = script_dir.parent / 'crf_json'
+        out_dir = Path(data_args.data_path)
+        out_dir.mkdir(parents=True, exist_ok=True)
+        logger.info(f"Auto-building dataset from reference: {ref_dir}")
+        builder = InstructionDatasetBuilder(str(kb_path))
+        examples = builder.process_reference_files(str(ref_dir), str(crf_dir))
+        builder.save_dataset(examples, str(out_dir))
+
+    def _dataset_count(p: Path) -> int:
+        try:
+            if not p.exists():
+                return 0
+            data = json.loads(p.read_text())
+            return len(data)
+        except Exception:
+            return 0
+
+    ds_json = Path(data_args.data_path) / 'instruction_dataset.json'
+    if _dataset_count(ds_json) == 0:
+        _maybe_build_dataset()
+
     # Load dataset (with step metadata if available)
     logger.info("Loading dataset...")
-    train_dataset = SDTMDataset(
+    train_dataset_full = SDTMDataset(
         data_args.data_path,
         tokenizer,
         max_length=data_args.max_seq_length,
@@ -742,12 +778,16 @@ def main():
         step_weights=step_weights,
         confidence_scale=float(getattr(args, 'confidence_scale', 1.0)),
     )
-    
+    if len(train_dataset_full) == 0:
+        raise RuntimeError(
+            f"No training examples found in {data_args.data_path}. "
+            f"Ensure reference files exist and re-run the dataset builder."
+        )
     # Split into train/eval (90/10)
-    train_size = int(0.9 * len(train_dataset))
-    eval_size = len(train_dataset) - train_size
+    train_size = int(0.9 * len(train_dataset_full))
+    eval_size = len(train_dataset_full) - train_size
     train_dataset, eval_dataset = torch.utils.data.random_split(
-        train_dataset,
+        train_dataset_full,
         [train_size, eval_size]
     )
     
