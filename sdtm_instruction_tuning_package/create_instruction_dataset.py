@@ -698,45 +698,48 @@ class InstructionDatasetBuilder:
             with open(result_file) as f:
                 result_data = json.load(f)
             
-            # Load corresponding CRF file
+            # Try to load corresponding CRF file (optional)
             page_num = result_file.name.split("_")[1].split(".")[0]
             crf_file = crf_path / f"page_{page_num}.json"
-            
-            if not crf_file.exists():
-                logger.warning(f"CRF file not found: {crf_file}")
-                continue
-            
-            with open(crf_file) as f:
-                crf_data = json.load(f)
-            
-            # Create mapping of text to CRF items (use text matching instead of qid)
+            crf_data = None
             text_to_item = {}
-            for item in crf_data.get("items", []):
-                if item.get("tag") == "<Q>":
-                    text = item.get("text", "").strip()
-                    if text:
-                        text_to_item[text] = item
+            if crf_file.exists():
+                try:
+                    with open(crf_file) as f:
+                        crf_data = json.load(f)
+                    for item in crf_data.get("items", []):
+                        if item.get("tag") == "<Q>":
+                            text = item.get("text", "").strip()
+                            if text:
+                                text_to_item[text] = item
+                except Exception as e:
+                    logger.warning(f"Failed to read CRF file {crf_file}: {e}
+")
             
             # Process annotations
             for annotation in result_data.get("annotations", []):
                 ann_text = annotation.get("text", "").strip()
                 
-                # Try to find matching CRF item by text
+                # Try to find matching CRF item by text, else fallback to reference-only
                 crf_item = None
-                if ann_text in text_to_item:
-                    crf_item = text_to_item[ann_text]
-                else:
-                    # Try partial matching if exact match fails
-                    for crf_text, item in text_to_item.items():
-                        if ann_text in crf_text or crf_text in ann_text:
-                            crf_item = item
-                            break
-                
-                if crf_item:
-                    examples = self.create_step_by_step_examples(crf_item, annotation)
-                    all_examples.extend(examples)
-                else:
-                    logger.debug(f"No CRF match for annotation: {ann_text[:50]}...")
+                if text_to_item:
+                    if ann_text in text_to_item:
+                        crf_item = text_to_item[ann_text]
+                    else:
+                        for crf_text, item in text_to_item.items():
+                            if ann_text in crf_text or crf_text in ann_text:
+                                crf_item = item
+                                break
+                if not crf_item:
+                    # Fallback: build minimal CRF-like item from reference
+                    crf_item = {
+                        "text": ann_text,
+                        "form": result_data.get("file", "") or "",
+                        "section": result_data.get("summary", {}).get("section", ""),
+                        "tag": "<Q>",
+                    }
+                examples = self.create_step_by_step_examples(crf_item, annotation)
+                all_examples.extend(examples)
         
         logger.info(f"Created {len(all_examples)} instruction examples")
         return all_examples
