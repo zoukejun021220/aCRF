@@ -328,9 +328,11 @@ def setup_model_and_tokenizer(model_args: ModelArguments):
             config=config,
         )
 
+    model_source_used: Optional[str] = None
     # Primary attempt
     try:
         model = _load_from(model_path)
+        model_source_used = model_path
     except Exception as e_first:
         logger.warning(f"Primary model load failed from {model_path}: {e_first}")
         # Fallback 1: if local path provided, try the HF repo id
@@ -340,6 +342,7 @@ def setup_model_and_tokenizer(model_args: ModelArguments):
             logger.info(f"Falling back to repo id: {fallback_id}")
             try:
                 model = _load_from(fallback_id)
+                model_source_used = fallback_id
             except Exception as e_second:
                 logger.warning(f"Repo id load failed: {e_second}")
                 # Fallback 2: snapshot download then load
@@ -349,6 +352,7 @@ def setup_model_and_tokenizer(model_args: ModelArguments):
                     local_snap = snapshot_download(repo_id=fallback_id, resume_download=True)
                     model_path = local_snap
                     model = _load_from(model_path)
+                    model_source_used = model_path
                 except Exception as e_third:
                     logger.warning(f"HF snapshot download failed: {e_third}")
                     if MODELSCOPE_AVAILABLE:
@@ -357,6 +361,7 @@ def setup_model_and_tokenizer(model_args: ModelArguments):
                             ms_id = model_args.modelscope_model_id or model_args.model_name_or_path
                             model_path = download_model_from_modelscope(ms_id)
                             model = _load_from(model_path)
+                            model_source_used = model_path
                         except Exception as e_fourth:
                             raise RuntimeError(f"All model load fallbacks failed: {e_fourth}") from e_fourth
                     else:
@@ -369,17 +374,59 @@ def setup_model_and_tokenizer(model_args: ModelArguments):
                     ms_id = model_args.modelscope_model_id or model_args.model_name_or_path
                     model_path = download_model_from_modelscope(ms_id)
                     model = _load_from(model_path)
+                    model_source_used = model_path
                 except Exception as e_ms:
                     raise RuntimeError(f"ModelScope load failed after primary: {e_ms}") from e_ms
             else:
                 raise
     
-    # Load tokenizer
-    tokenizer = AutoTokenizer.from_pretrained(
-        model_path,
-        trust_remote_code=True,
-        padding_side="right",
-    )
+    # Load tokenizer from the same source as the model; fall back gracefully if unavailable
+    tokenizer = None
+    tok_errors: list[str] = []
+    def _try_tok(src: str, use_fast: Optional[bool] = None):
+        nonlocal tokenizer
+        try:
+            kwargs = dict(trust_remote_code=True, padding_side="right")
+            if use_fast is not None:
+                kwargs["use_fast"] = use_fast
+            tokenizer = AutoTokenizer.from_pretrained(src, **kwargs)
+            return True
+        except Exception as e:
+            tok_errors.append(f"{src}: {e}")
+            return False
+
+    # 1) Try the actual model source used
+    if model_source_used and _try_tok(model_source_used):
+        pass
+    # 2) Try the configured model_path
+    elif _try_tok(model_path):
+        pass
+    # 3) Try repo id (online or cached offline)
+    elif _try_tok(model_args.model_name_or_path):
+        pass
+    # 4) Try HF_HOME cache latest snapshot if available
+    else:
+        try:
+            home = os.environ.get("HF_HOME") or os.environ.get("TRANSFORMERS_CACHE")
+            if home:
+                from pathlib import Path as _P
+                rid = str(model_args.model_name_or_path).replace("/", "--")
+                snap_dir = _P(home) / "hub" / f"models--{rid}" / "snapshots"
+                if snap_dir.exists():
+                    snaps = sorted(snap_dir.iterdir(), key=lambda p: p.stat().st_mtime, reverse=True)
+                    for s in snaps:
+                        if _try_tok(s.as_posix()):
+                            break
+        except Exception as e:
+            tok_errors.append(f"HF_HOME scan failed: {e}")
+
+    if tokenizer is None:
+        # 5) Last resort: try known repo id with use_fast=False
+        if not _try_tok(model_args.model_name_or_path, use_fast=False):
+            err = "; ".join(tok_errors[-3:])
+            raise RuntimeError(
+                "Failed to load tokenizer from any source. Attempts: " + err
+            )
     
     # Set padding token
     if tokenizer.pad_token is None:
