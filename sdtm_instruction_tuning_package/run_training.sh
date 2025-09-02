@@ -23,7 +23,22 @@ OUTPUT_DIR="${OUTPUT_DIR:-$SCRIPT_DIR/output}"
 # Ensure dataset exists; if missing, build from default external reference
 if [ ! -f "$DATA_PATH/alpaca_format.json" ]; then
   echo "Dataset not found at $DATA_PATH. Generating from repository reference_with_sections..."
-  REF_DIR_DEFAULT="${REFERENCE_DIR:-$REPO_ROOT/reference_with_sections}"
+  # Resolution order for reference dir:
+  # 1) Explicit REFERENCE_DIR env var
+  # 2) Local packaged reference
+  # 3) User's Inari path
+  # 4) Repo fallback reference_with_sections
+  PKG_REF="$SCRIPT_DIR/data/reference"
+  INARI_REF="/home/kejunzou/Projects/Oss+MinerU ACRF/data/data/sample_crfs/Inari Reference/all_results"
+  if [ -n "$REFERENCE_DIR" ]; then
+    REF_DIR_DEFAULT="$REFERENCE_DIR"
+  elif [ -d "$PKG_REF" ]; then
+    REF_DIR_DEFAULT="$PKG_REF"
+  elif [ -d "$INARI_REF" ]; then
+    REF_DIR_DEFAULT="$INARI_REF"
+  else
+    REF_DIR_DEFAULT="$REPO_ROOT/reference_with_sections"
+  fi
   CRF_DIR_DEFAULT="${CRF_DIR:-$REPO_ROOT/crf_json}"
   python "$SCRIPT_DIR/create_instruction_dataset.py" \
     --reference-dir "$REF_DIR_DEFAULT" \

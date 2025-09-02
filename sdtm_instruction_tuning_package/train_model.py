@@ -149,10 +149,12 @@ class SDTMDataset:
     """Dataset class for SDTM instruction tuning"""
     
     def __init__(self, data_path: str, tokenizer, max_length: int = 2048,
-                 use_metadata: bool = True, step_weights: Optional[Dict[str, float]] = None):
+                 use_metadata: bool = True, step_weights: Optional[Dict[str, float]] = None,
+                 confidence_scale: float = 1.0):
         self.tokenizer = tokenizer
         self.max_length = max_length
         self.step_weights = step_weights or {}
+        self.confidence_scale = confidence_scale
         self.examples = self.load_data(data_path, use_metadata)
         # Build step id mapping
         steps = sorted({ex.get("step", "unknown") for ex in self.examples})
@@ -226,6 +228,9 @@ class SDTMDataset:
         step = example.get("step", "unknown")
         step_id = self.step_to_id.get(step, 0)
         weight = float(self.step_weights.get(step, 1.0))
+        # Combine with per-example confidence if present
+        conf = float(example.get("confidence", 1.0))
+        weight *= (1.0 + (conf - 1.0) * self.confidence_scale)
         item = {k: v.squeeze() for k, v in encodings.items()}
         item["step_id"] = torch.tensor(step_id, dtype=torch.long)
         item["sample_weight"] = torch.tensor(weight, dtype=torch.float32)
@@ -396,6 +401,7 @@ def setup_lora(model, training_args: ExtendedTrainingArgs):
         lora_alpha=training_args.lora_alpha,
         lora_dropout=training_args.lora_dropout,
         target_modules=training_args.lora_target_modules,
+        modules_to_save=["embed_tokens", "lm_head"],
     )
     
     # Get PEFT model
@@ -407,7 +413,9 @@ def setup_lora(model, training_args: ExtendedTrainingArgs):
 
 class SDTMTrainer(Trainer):
     """Custom trainer with SDTM-specific logging"""
-    
+    _tok_weight_cache: Dict[int, float] = {}
+    _token_weight_factor: float = 1.15
+
     def compute_loss(self, model, inputs, return_outputs=False, num_items_in_batch: Optional[int] = None):
         """Compute loss with proper label masking"""
         labels = inputs.pop("labels")
@@ -433,8 +441,30 @@ class SDTMTrainer(Trainer):
         bsz = shift_labels.size(0)
         seqlen = shift_labels.size(1)
         token_loss = token_loss.view(bsz, seqlen)
-        # Average per-sample over valid tokens
+        # Optional token-aware weighting: upweight uppercase alnum tokens (likely SDTM codes)
         mask = (shift_labels != -100).float()
+        if hasattr(self, 'tokenizer') and self.tokenizer is not None:
+            # Build per-token weights lazily via cache
+            ids = shift_labels.detach()
+            weights = torch.ones_like(ids, dtype=token_loss.dtype, device=token_loss.device)
+            unique_ids = ids[ids != -100].unique().tolist()
+            for tid in unique_ids:
+                if tid < 0:
+                    continue
+                if tid not in self._tok_weight_cache:
+                    tok = self.tokenizer.convert_ids_to_tokens(int(tid))
+                    # Normalize (strip common BPE/SP markers)
+                    norm = ''.join(ch for ch in tok if ch.isalnum())
+                    w = 1.0
+                    # Heuristic: uppercase alnum token length>=3 ⇒ likely SDTM variable/CT/domain token
+                    if len(norm) >= 3 and norm.upper() == norm and any(c.isalpha() for c in norm):
+                        w = self._token_weight_factor
+                    self._tok_weight_cache[int(tid)] = w
+                else:
+                    w = self._tok_weight_cache[int(tid)]
+                weights = torch.where(ids == tid, torch.scalar_tensor(w, device=weights.device, dtype=weights.dtype), weights)
+            token_loss = token_loss * weights
+        # Average per-sample over valid tokens after weighting
         denom = mask.sum(dim=1).clamp(min=1.0)
         per_sample = (token_loss * mask).sum(dim=1) / denom
         
@@ -467,12 +497,18 @@ def main():
     ap.add_argument("--bnb_4bit_quant_type", default="nf4")
     ap.add_argument("--use_nested_quant", type=_str2bool, default=False)
     ap.add_argument("--device_map", default="auto")
+    ap.add_argument("--kb_path", default=str(Path(__file__).parent / "kb" / "sdtmig_v3_4_complete"),
+                    help="KB path to mine tokens and patterns for tokenizer augmentation")
+    ap.add_argument("--add_tokens", type=_str2bool, default=True,
+                    help="Add SDTM domain/variable/CT tokens to tokenizer before training")
     # Data args
     ap.add_argument("--data_path", required=True)
     ap.add_argument("--max_seq_length", type=int, default=2048)
     ap.add_argument("--preprocessing_num_workers", type=int, default=4)
     ap.add_argument("--use_metadata", type=_str2bool, default=True)
     ap.add_argument("--step_weights", default=None)
+    ap.add_argument("--confidence_scale", type=float, default=1.0,
+                    help="Scale factor for per-example confidence weighting (0 disables)")
     ap.add_argument("--eval_stepwise", type=_str2bool, default=True)
     # Extended training args (LoRA)
     ap.add_argument("--use_lora", type=_str2bool, default=True)
@@ -599,6 +635,76 @@ def main():
     # Setup model and tokenizer
     logger.info("Loading model and tokenizer...")
     model, tokenizer = setup_model_and_tokenizer(model_args)
+
+    # Optionally augment tokenizer with SDTM tokens (domains/variables/CT submissionValues)
+    def _build_added_tokens(kb_path: str) -> List[str]:
+        toks: List[str] = []
+        try:
+            base = Path(kb_path)
+            # Domains
+            dbc = json.load(open(base / "domains_by_class.json")) if (base / "domains_by_class.json").exists() else {}
+            seen = set()
+            for cls, doms in getattr(dbc, 'items', lambda: [])():
+                for d in doms:
+                    code = d.get('code') if isinstance(d, dict) else None
+                    if code and code not in seen:
+                        seen.add(code)
+                        toks.append(code)
+            # Variables
+            varp = base / "variables_all.json"
+            if varp.exists():
+                vars_all = json.load(open(varp))
+                if isinstance(vars_all, list):
+                    for rec in vars_all:
+                        name = rec.get('name') or rec.get('VAR_NAME')
+                        if name and name.isupper() and 2 <= len(name) <= 24:
+                            if name not in seen:
+                                seen.add(name)
+                                toks.append(name)
+                elif isinstance(vars_all, dict):
+                    for name in vars_all.keys():
+                        if name and str(name).isupper() and 2 <= len(str(name)) <= 24:
+                            if name not in seen:
+                                seen.add(name)
+                                toks.append(name)
+            # CT submission values (prefer cdisc_ct.json)
+            ct_path = base / "cdisc_ct.json"
+            if ct_path.exists():
+                ct = json.load(open(ct_path))
+                for cl in ct.get('codelists', []):
+                    for t in cl.get('terms', []):
+                        sub = t.get('submissionValue') or t.get('code')
+                        if sub and sub not in seen:
+                            seen.add(sub)
+                            toks.append(sub)
+            # Common suffixes/prefixes
+            for extra in [
+                "TESTCD", "ORRES", "ORRESU", "STRESN", "STRESC", "DTC", "YN", "TERM", "TRT", "CAT", "SCAT",
+                "QNAM", "SUPP"
+            ]:
+                if extra not in seen:
+                    seen.add(extra)
+                    toks.append(extra)
+        except Exception as e:
+            logging.getLogger(__name__).warning(f"Token mining failed: {e}")
+        # Deduplicate while preserving order
+        uniq = []
+        s = set()
+        for t in toks:
+            if t not in s:
+                s.add(t)
+                uniq.append(t)
+        return uniq
+
+    if _str2bool(str(getattr(args, 'add_tokens', True))):
+        added = _build_added_tokens(str(getattr(args, 'kb_path', '')))
+        try:
+            n = tokenizer.add_tokens(added)
+            if n and n > 0:
+                model.resize_token_embeddings(len(tokenizer))
+                logger.info(f"Added {n} SDTM tokens to tokenizer (domains/variables)")
+        except Exception as e:
+            logger.warning(f"Could not add tokens: {e}")
     
     # Setup LoRA if enabled
     if ext_args.use_lora:
@@ -634,6 +740,7 @@ def main():
         max_length=data_args.max_seq_length,
         use_metadata=data_args.use_metadata,
         step_weights=step_weights,
+        confidence_scale=float(getattr(args, 'confidence_scale', 1.0)),
     )
     
     # Split into train/eval (90/10)

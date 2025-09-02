@@ -99,10 +99,11 @@ class UnifiedSDTMMapper:
         self.domain_selector = DomainSelector(self.domains_by_class, self.proto_define, self.llm_model)
         self.pattern_selector = PatternSelector(self.patterns, self.llm_model)
         self.variable_selector = VariableSelector(
-            self.domain_variables, 
+            self.domain_variables,
             self.kb_loader.controlled_terms,
             self.proto_define,
-            self.llm_model
+            self.llm_model,
+            cdisc_ct=self.kb_loader.cdisc_ct,
         )
         
         # Initialize validators

@@ -21,6 +21,53 @@ except ImportError:
     MODELSCOPE_AVAILABLE = False
 
 
+def _kb_paths():
+    base = Path(__file__).parent / "kb" / "sdtmig_v3_4_complete"
+    return {
+        "domains_by_class": base / "domains_by_class.json",
+        "pattern_definitions": base / "pattern_definitions.json",
+    }
+
+
+def _all_domain_descriptions() -> str:
+    paths = _kb_paths()
+    try:
+        with open(paths["domains_by_class"]) as f:
+            dbc = json.load(f)
+    except Exception:
+        dbc = {}
+    text = "SDTM Domains (organized by observation class):\n\n"
+    for cls in ["Special Purpose", "Interventions", "Events", "Findings"]:
+        if cls in dbc:
+            text += f"**{cls} Class**:\n"
+            for d in dbc[cls]:
+                code = d.get('code','')
+                name = d.get('name','')
+                desc = d.get('description','')
+                text += f"- {code} ({name}) – {desc}\n"
+            text += "\n"
+    return text
+
+
+def _all_patterns_description() -> str:
+    paths = _kb_paths()
+    try:
+        with open(paths["pattern_definitions"]) as f:
+            pats = json.load(f).get("annotation_patterns", {})
+    except Exception:
+        pats = {}
+    desc = "Available Annotation Patterns:\n\n"
+    for k, info in pats.items():
+        desc += f"**{k}**:\n"
+        if isinstance(info, dict):
+            desc += f"- Description: {info.get('description','')}\n"
+            desc += f"- Formula: {info.get('formula','')}\n"
+            if info.get('keywords'):
+                desc += f"- Keywords: {', '.join(info.get('keywords', []))}\n"
+        desc += "\n"
+    return desc
+
+
 class SDTMInference:
     def __init__(self, base_model_path: str, adapter_path: str = None, use_4bit: bool = True, use_modelscope: bool = False):
         """Initialize inference with base model and optional LoRA adapter"""
@@ -60,9 +107,10 @@ class SDTMInference:
             logger.info(f"Loading LoRA adapter: {adapter_path}")
             self.model = PeftModel.from_pretrained(self.model, adapter_path)
         
-        # Load tokenizer
+        # Load tokenizer (prefer adapter_path tokenizer if provided)
+        tok_source = adapter_path if adapter_path and Path(adapter_path).exists() else base_model_path
         self.tokenizer = AutoTokenizer.from_pretrained(
-            base_model_path,
+            tok_source,
             trust_remote_code=True,
         )
         
@@ -105,88 +153,84 @@ class SDTMInference:
         return results
 
     def select_domain(self, field_data: dict, kb_data: dict = None):
-        """Step 1: Select SDTM domain"""
-        
-        # Build system prompt with available domains
-        system_prompt = """You are helping select the appropriate SDTM domain for CRF fields.
-
-Available SDTM Domains:
-AE - Adverse Events
-CM - Concomitant/Prior Medications  
-DM - Demographics
-DS - Disposition
-EG - ECG
-IE - Inclusion/Exclusion Criteria
-LB - Laboratory Test Results
-MH - Medical History
-PE - Physical Examination
-QS - Questionnaires
-RS - Disease Response
-SV - Subject Visits
-VS - Vital Signs
-
-Select the most appropriate domain code."""
-        
-        user_prompt = f"""Select the SDTM domain for this field:
-Field Label: {field_data.get('label', '')}
-Form: {field_data.get('form_name', '')}
-Section: {field_data.get('section', 'N/A')}
-
-Return only the domain code."""
-        
+        """Step 1: Select SDTM domain (faithful to unified mapper prompts)."""
+        system_prompt = (
+            "You are an SDTM domain selection expert. Select the most appropriate SDTM domain for the given CRF field.\n\n"
+            "IMPORTANT: You must select from the available domains listed below. Consider:\n"
+            "- The field content and medical context\n"
+            "- The form name and section (especially for Inclusion/Exclusion criteria → IE domain)\n"
+            "- Whether it's demographic, event, intervention, or finding data\n\n"
+            "Return ONLY the domain code (e.g., DM, AE, VS, IE, etc.)."
+        )
+        user_prompt = (
+            f"Select the SDTM domain for this CRF field:\n\n"
+            f"Question Text: {field_data.get('label','')}\n"
+            f"Form: {field_data.get('form_name','')}\n"
+            f"Section: {field_data.get('section','N/A')}\n"
+            f"Field Type: {field_data.get('input_type','')}\n"
+            f"Options: {field_data.get('options', [])}\n\n"
+            f"{_all_domain_descriptions()}\n"
+            f"Based on the field information above, which SDTM domain should this field map to?\n"
+            f"Return only the domain code."
+        )
         response = self.generate_response(system_prompt, user_prompt)
         return response.strip().upper()
 
     def select_pattern(self, field_data: dict, domain: str, kb_data: dict = None):
-        """Step 2: Select annotation pattern"""
-        
-        system_prompt = f"""You are selecting the annotation pattern for domain {domain}.
-
-Available patterns:
-1. plain - Direct mapping to a single variable or multiple variables
-2. findings - For test results with TESTCD (used in Findings class domains like VS, LB, EG)
-3. conditional - For criteria that map based on conditions (common in IE domain)
-4. supplemental - For non-standard variables that go to SUPP domain
-5. not_submitted - For fields not submitted to SDTM
-
-Select the appropriate pattern based on the field characteristics."""
-        
-        user_prompt = f"""Select the annotation pattern for:
-Domain: {domain}
-Field Label: {field_data.get('label', '')}
-Has Options: {bool(field_data.get('options', []))}
-Has Units: {field_data.get('has_units', False)}
-
-Return only the pattern name."""
-        
+        """Step 2: Select annotation pattern (faithful prompts)."""
+        system_prompt = (
+            f"You are an SDTM annotation pattern expert. The domain {domain} has been selected.\n"
+            f"Now select the appropriate annotation pattern based on the field characteristics.\n\n"
+            f"Consider:\n"
+            f"- Field type (text, radio, checkbox, date)\n"
+            f"- Whether it has \"other, specify\" text\n"
+            f"- Whether it's a measurement/test (for findings domains)\n"
+            f"- Whether it maps to multiple domains\n"
+            f"- Whether it needs supplemental qualifiers\n\n"
+            f"{_all_patterns_description()}\n"
+            f"Return ONLY the pattern name from the list above."
+        )
+        user_prompt = (
+            f"Select the annotation pattern for this field in domain {domain}:\n\n"
+            f"Question Text: {field_data.get('label','')}\n"
+            f"Field Type: {field_data.get('input_type','')}\n"
+            f"Options: {field_data.get('options', [])}\n"
+            f"Has Units: {field_data.get('has_units', False)}\n\n"
+            f"Context:\n"
+            f"- Contains \"other specify\"? {'yes' if ('other' in field_data.get('label','').lower() and 'specify' in field_data.get('label','').lower()) else 'no'}\n"
+            f"- Is measurement/test? {'yes' if domain in ['VS','LB','EG','PE','QS'] else 'no'}\n"
+            f"- Is checkbox with multiple options? {'yes' if field_data.get('input_type') == 'checkbox' else 'no'}\n\n"
+            f"Which pattern should be used?"
+        )
         response = self.generate_response(system_prompt, user_prompt)
         return response.strip().lower()
 
     def build_findings_annotation(self, field_data: dict, domain: str, kb_data: dict = None):
-        """Build findings pattern annotation"""
-        
-        system_prompt = f"""You are selecting a test code for findings pattern in domain {domain}.
-
-For findings domains, you need to select:
-1. The appropriate TESTCD value that identifies what is being measured
-2. Whether units (ORRESU) are needed
-
-Common test codes should be short, uppercase identifiers."""
-        
-        user_prompt = f"""Select the test code for:
-Domain: {domain}
-Field Label: {field_data.get('label', '')}
-Has Units: {field_data.get('has_units', False)}
-
-Return the TESTCD value."""
-        
-        testcd = self.generate_response(system_prompt, user_prompt).strip().upper()
-        
-        # Build annotation
-        if field_data.get('has_units'):
-            return f"{domain}ORRES / {domain}ORRESU when {domain}TESTCD = {testcd}"
-        else:
-            return f"{domain}ORRES when {domain}TESTCD = {testcd}"
+        """Build findings annotation using TESTCODE/HAS_UNITS prompt."""
+        system_prompt = (
+            f"You are selecting test codes for a findings domain {domain}.\n"
+            f"Select the appropriate test code and specify if units are needed.\n\n"
+            f"Return format:\nTESTCODE: <code>\nHAS_UNITS: <yes/no>"
+        )
+        user_prompt = (
+            f"Select test code for this measurement:\n\n"
+            f"Question Text: {field_data.get('label','')}\n"
+            f"Has Units: {field_data.get('has_units', False)}\n\n"
+            f"Which test code should be used?"
+        )
+        resp = self.generate_response(system_prompt, user_prompt)
+        testcd, has_units = None, field_data.get('has_units', False)
+        for line in resp.splitlines():
+            if line.strip().upper().startswith('TESTCODE:'):
+                testcd = line.split(':',1)[1].strip().upper()
+            if line.strip().upper().startswith('HAS_UNITS:'):
+                has_units = 'YES' in line.upper()
+        if not testcd:
+            testcd = 'TEST'
+        return (
+            f"{domain}ORRES / {domain}ORRESU when {domain}TESTCD = {testcd}"
+            if has_units else f"{domain}ORRES when {domain}TESTCD = {testcd}"
+        )
 
     def build_conditional_annotation(self, field_data: dict, domain: str, kb_data: dict = None):
         """Build conditional pattern annotation (mainly for IE)"""
@@ -216,23 +260,28 @@ Return the IETESTCD value (e.g., IN01, EX01)."""
         return "[NOT SUBMITTED]"
 
     def build_supplemental_annotation(self, field_data: dict, domain: str, kb_data: dict = None):
-        """Build supplemental pattern annotation"""
-        
-        system_prompt = f"""You are creating a supplemental qualifier name (QNAM) for domain {domain}.
-
-QNAMs should be:
-- 8 characters or less
-- Uppercase
-- Descriptive of what is being captured
-- Common QNAMs include: {domain}OTH, {domain}OTHSP (for 'other specify' fields)"""
-        
-        user_prompt = f"""Create QNAM for:
-Domain: {domain}
-Field Label: {field_data.get('label', '')}
-
-Return the QNAM (8 chars max)."""
-        
-        qnam = self.generate_response(system_prompt, user_prompt).strip().upper()[:8]
+        """Build supplemental (QNAM) annotation using unified mapper prompt."""
+        system_prompt = (
+            f"You are creating a supplemental qualifier (QNAM) for domain {domain}.\n"
+            f"Create an 8-character uppercase identifier based on the field label.\n\n"
+            f"Rules:\n"
+            f"- Maximum 8 characters\n"
+            f"- All uppercase\n"
+            f"- No spaces or special characters\n"
+            f"- Should be descriptive of the field content\n\n"
+            f"Return format:\nQNAM: <identifier>"
+        )
+        user_prompt = (
+            f"Create QNAM for this supplemental field:\n\n"
+            f"Question Text: {field_data.get('label','')}\n"
+            f"Domain: {domain}\n\n"
+            f"What should the QNAM be?"
+        )
+        resp = self.generate_response(system_prompt, user_prompt)
+        qnam = resp.strip()
+        if qnam.upper().startswith('QNAM:'):
+            qnam = qnam.split(':',1)[1].strip().upper()
+        qnam = qnam[:8]
         return f"{qnam} in SUPP{domain}"
 
     def build_plain_annotation(self, field_data: dict, domain: str, kb_data: dict = None):

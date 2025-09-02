@@ -4,6 +4,10 @@ import torch
 import logging
 from typing import Optional, List, Dict
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
+try:
+    from peft import PeftModel  # type: ignore
+except Exception:
+    PeftModel = None  # optional
 
 logger = logging.getLogger(__name__)
 
@@ -162,10 +166,21 @@ class LLMModel:
                 trust_remote_code=True
             )
             
+        # If a fine-tuned adapter/tokenizer is provided, prefer it
+        import os
+        adapter_dir = os.getenv("ACRF_ADAPTER_DIR") or os.getenv("ACRF_LORA_ADAPTER")
+        tok_source = adapter_dir if adapter_dir and (Path(adapter_dir) / "tokenizer_config.json").exists() else model_source
         self.tokenizer = AutoTokenizer.from_pretrained(
-            model_source,
+            tok_source,
             trust_remote_code=True
         )
+        # Load LoRA adapter if available
+        if adapter_dir and PeftModel is not None and Path(adapter_dir).exists():
+            try:
+                self.model = PeftModel.from_pretrained(self.model, adapter_dir)
+                logger.info(f"Loaded PEFT adapter from {adapter_dir}")
+            except Exception as e:
+                logger.warning(f"Failed to load adapter from {adapter_dir}: {e}")
         
         if not self.tokenizer.pad_token:
             self.tokenizer.pad_token = self.tokenizer.eos_token
@@ -217,3 +232,42 @@ class LLMModel:
             
         response = self.tokenizer.decode(outputs[0][inputs['input_ids'].shape[1]:], skip_special_tokens=True)
         return response
+
+    def score_candidates_with_messages(self, messages: List[Dict[str, str]], candidates: List[str]) -> List[float]:
+        """Return average log-prob scores for each candidate string as the assistant continuation.
+
+        Builds the chat prompt (with add_generation_prompt=True), then appends each candidate
+        and computes the log-likelihood of the candidate tokens conditioned on the prompt.
+        """
+        if not candidates:
+            return []
+        # Build prompt prefix
+        prefix = self.tokenizer.apply_chat_template(
+            messages,
+            tokenize=False,
+            add_generation_prompt=True,
+        )
+        scores: List[float] = []
+        for cand in candidates:
+            full = prefix + cand
+            enc = self.tokenizer(full, return_tensors="pt", truncation=True, max_length=2048)
+            pref = self.tokenizer(prefix, return_tensors="pt", truncation=True, max_length=2048)
+            if self.device != "auto":
+                enc = {k: v.to(self.device) for k, v in enc.items()}
+                pref = {k: v.to(self.device) for k, v in pref.items()}
+            with torch.no_grad():
+                out = self.model(**enc)
+                logits = out.logits
+            # Only score the candidate segment
+            input_ids = enc["input_ids"]
+            pref_len = pref["input_ids"].shape[1]
+            cand_ids = input_ids[:, pref_len:]
+            # Shift for next-token prediction
+            logits_slice = logits[:, pref_len - 1 : -1, :].contiguous()
+            # Gather token log-probs
+            log_probs = torch.nn.functional.log_softmax(logits_slice, dim=-1)
+            token_log_probs = log_probs.gather(-1, cand_ids.unsqueeze(-1)).squeeze(-1)
+            # Average over tokens
+            avg = token_log_probs.mean().item() if cand_ids.numel() > 0 else float('-inf')
+            scores.append(avg)
+        return scores

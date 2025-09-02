@@ -10,7 +10,10 @@ class PatternSelector:
     """Handles pattern selection based on KB definitions"""
     
     def __init__(self, patterns: Dict, llm_model):
-        self.patterns = patterns
+        # Normalize patterns structure (supports KB annotation_patterns or legacy patterns)
+        self.patterns = patterns or {}
+        if isinstance(self.patterns, dict) and 'patterns' in self.patterns and not self.patterns.get('annotation_patterns'):
+            self.patterns = {'annotation_patterns': self.patterns.get('patterns')}
         self.llm_model = llm_model
         
     def select_pattern(self, field_data: Dict[str, Any], domain: str = None) -> Tuple[str, float]:
@@ -20,7 +23,7 @@ class PatternSelector:
             return "direct", 0.5
             
         # Get all pattern info
-        pattern_info = self.patterns.get("patterns", {})
+        pattern_info = self.patterns.get("annotation_patterns", {})
         if not pattern_info:
             return "direct", 0.5
             
@@ -40,16 +43,13 @@ Which mapping pattern best fits this field? Reply with ONLY the pattern name."""
             {"role": "user", "content": user_prompt}
         ]
         
-        response = self.llm_model.query_with_messages(messages, max_tokens=50)
-        selected_pattern = response.strip().lower()
-        
-        # Validate pattern
-        valid_patterns = list(pattern_info.keys())
-        for valid_pattern in valid_patterns:
-            if valid_pattern in selected_pattern or selected_pattern in valid_pattern:
-                return valid_pattern, 0.8
-                
-        # Use heuristics as fallback
+        # Constrained selection among known patterns
+        candidates = list(pattern_info.keys())
+        scores = self.llm_model.score_candidates_with_messages(messages, candidates)
+        if scores:
+            best_idx = max(range(len(scores)), key=lambda i: scores[i])
+            return candidates[best_idx], 0.85
+        # Fallback to heuristic if scoring failed
         return self._pattern_selection_fallback(field_data)
         
     def _build_pattern_selection_prompt(self, pattern_info: Dict, domain: str = None) -> str:
@@ -60,21 +60,24 @@ Which mapping pattern best fits this field? Reply with ONLY the pattern name."""
             
         lines.append("\nAvailable mapping patterns:")
         
-        # Sort patterns by typical usage order
-        pattern_order = ["direct", "fixed_value", "conditional", "checkbox", 
-                        "multiple_variables", "other_specify", "supplemental", 
-                        "cross_domain", "skip"]
-        
-        sorted_patterns = sorted(pattern_info.items(),
-                               key=lambda x: pattern_order.index(x[0]) if x[0] in pattern_order else 999)
+        # Use pattern order if available, else default alphabetical
+        pattern_order = [
+            "direct", "variable_with_ct", "conditional_population", "test_measurement",
+            "other_specify", "checkbox", "multiple_variables", "supplemental",
+            "cross_domain", "derived", "not_submitted", "skip"
+        ]
+        sorted_patterns = sorted(
+            pattern_info.items(),
+            key=lambda x: pattern_order.index(x[0]) if x[0] in pattern_order else 999
+        )
         
         for pattern_name, info in sorted_patterns:
             lines.append(f"\n{pattern_name}:")
-            if 'description' in info:
+            if isinstance(info, dict) and 'description' in info:
                 lines.append(f"  Purpose: {info['description']}")
-            if 'when_to_use' in info:
+            if isinstance(info, dict) and 'when_to_use' in info:
                 lines.append(f"  When to use: {info['when_to_use']}")
-            if 'examples' in info and info['examples']:
+            if isinstance(info, dict) and 'examples' in info and info['examples']:
                 lines.append(f"  Examples: {info['examples'][0]}")
                 
         lines.append("\nSelection rules:")

@@ -1,17 +1,1 @@
-[
-  {
-    "instruction": "You map CRF fields to SDTM domains.",
-    "input": "Select the SDTM domain for: Field Label: Age ≥ 18 years (INC1), Form: Baseline, Section: Inclusion Criteria",
-    "output": "IE"
-  },
-  {
-    "instruction": "You select the annotation pattern for the chosen domain.",
-    "input": "Select pattern for: Domain: IE, Field Label: Age ≥ 18 years (INC1), Has Options: True",
-    "output": "conditional"
-  },
-  {
-    "instruction": "You map vital sign questions to the VS domain.",
-    "input": "Select the SDTM domain for: Field Label: Systolic Blood Pressure, Form: Vital Signs, Section: Measurements",
-    "output": "VS"
-  }
-]
+[]

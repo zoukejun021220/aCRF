@@ -49,20 +49,18 @@ Select the most appropriate {sdtm_class} domain. Reply with ONLY the 2-letter do
             {"role": "user", "content": user_prompt}
         ]
         
-        response = self.llm_model.query_with_messages(messages, max_tokens=50)
-        domain = response.strip().upper()[:2]
-        
-        # Validate domain
+        # Constrained selection: score valid domains and pick best
         raw_domains = self.domains_by_class.get(sdtm_class, [])
         valid_domains = [d["code"] if isinstance(d, dict) else d for d in raw_domains]
-        if domain in valid_domains:
-            return domain, 0.8
-            
-        # Try to find partial match
-        for valid_domain in valid_domains:
-            if domain in valid_domain or valid_domain in domain:
-                return valid_domain, 0.6
-                
+        scores = self.llm_model.score_candidates_with_messages(messages, valid_domains)
+        if scores:
+            best_idx = max(range(len(scores)), key=lambda i: scores[i])
+            return valid_domains[best_idx], 0.9
+        # Fallback to free-form
+        response = self.llm_model.query_with_messages(messages, max_tokens=16)
+        cand = response.strip().upper()[:2]
+        if cand in valid_domains:
+            return cand, 0.7
         return "UNKNOWN", 0.0
         
     def _select_domain_direct(self, field_data: Dict[str, Any]) -> Tuple[str, float]:
@@ -94,13 +92,63 @@ Select the most appropriate SDTM domain. Reply with ONLY the 2-letter domain cod
             {"role": "user", "content": user_prompt}
         ]
         
-        response = self.llm_model.query_with_messages(messages, max_tokens=50)
-        domain = response.strip().upper()[:2]
-        
-        if domain in all_domains:
-            return domain, 0.7
-            
+        # Constrained selection over all domains
+        candidates = sorted(list(all_domains))
+        scores = self.llm_model.score_candidates_with_messages(messages, candidates)
+        if scores:
+            best_idx = max(range(len(scores)), key=lambda i: scores[i])
+            return candidates[best_idx], 0.85
+        # Fallback
+        response = self.llm_model.query_with_messages(messages, max_tokens=16)
+        cand = response.strip().upper()[:2]
+        if cand in all_domains:
+            return cand, 0.6
         return "UNKNOWN", 0.0
+
+    def select_domains_multi(self, field_data: Dict[str, Any], sdtm_class: str = None,
+                              max_domains: int = 3, margin: float = 0.15) -> List[str]:
+        """Select all applicable domains (top-N within margin of best score).
+
+        - If a class is provided, restrict to that class.
+        - Scores are computed via continuation log-probabilities.
+        - Returns a list of domain codes sorted by score (best first).
+        """
+        if sdtm_class and sdtm_class in self.domains_by_class:
+            domains_desc = self._get_domain_descriptions_for_class(sdtm_class)
+            system_prompt = f"You are an SDTM domain selector for the {sdtm_class} observation class.\n\n{domains_desc}\n\nSelect all applicable domains."
+            user_prompt = (
+                f"Field to map:\nQuestion: {field_data.get('label','')}\n"
+                f"Type: {field_data.get('type','')}\n"
+                f"Options: {', '.join(field_data.get('options', [])) if field_data.get('options') else 'N/A'}\n\n"
+                f"Reply with ONLY a domain code from the list above."
+            )
+            messages = [{"role": "system", "content": system_prompt}, {"role": "user", "content": user_prompt}]
+            raw_domains = self.domains_by_class.get(sdtm_class, [])
+            candidates = [d["code"] if isinstance(d, dict) else d for d in raw_domains]
+        else:
+            # All domains
+            system_prompt = f"You are an SDTM domain selector.\n\n{self._get_all_domain_descriptions()}\n\nSelect all applicable domains."
+            user_prompt = (
+                f"Field to map:\nQuestion: {field_data.get('label','')}\n"
+                f"Type: {field_data.get('type','')}\n"
+                f"Options: {', '.join(field_data.get('options', [])) if field_data.get('options') else 'N/A'}\n\n"
+                f"Reply with ONLY a domain code from the list above."
+            )
+            messages = [{"role": "system", "content": system_prompt}, {"role": "user", "content": user_prompt}]
+            all_domains = set()
+            for domains in self.domains_by_class.values():
+                for d in domains:
+                    all_domains.add(d["code"] if isinstance(d, dict) else d)
+            candidates = sorted(list(all_domains))
+
+        scores = self.llm_model.score_candidates_with_messages(messages, candidates)
+        if not scores:
+            return []
+        best = max(scores)
+        # Keep those within margin of best
+        picked = [(candidates[i], scores[i]) for i in range(len(scores)) if (best - scores[i]) <= margin]
+        picked.sort(key=lambda t: t[1], reverse=True)
+        return [d for d, _ in picked[:max_domains]]
         
     def _get_domain_descriptions_for_class(self, sdtm_class: str) -> str:
         """Get formatted domain descriptions for a class"""
