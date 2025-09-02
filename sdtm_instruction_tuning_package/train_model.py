@@ -143,6 +143,7 @@ class ExtendedTrainingArgs:
             "down_proj",
         ]
     )
+    train_embeddings: bool = field(default=False)
 
 
 class SDTMDataset:
@@ -401,7 +402,9 @@ def setup_lora(model, training_args: ExtendedTrainingArgs):
         lora_alpha=training_args.lora_alpha,
         lora_dropout=training_args.lora_dropout,
         target_modules=training_args.lora_target_modules,
-        modules_to_save=["embed_tokens", "lm_head"],
+        modules_to_save=(
+            ["embed_tokens", "lm_head"] if training_args.train_embeddings else None
+        ),
     )
     
     # Get PEFT model
@@ -519,6 +522,8 @@ def main():
         "--lora_target_modules",
         default="q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj",
     )
+    ap.add_argument("--train_embeddings", type=_str2bool, default=False,
+                    help="If True, save and train embed_tokens/lm_head (very memory heavy). Default False.")
     # Core HF TrainingArguments subset
     ap.add_argument("--output_dir", required=True)
     ap.add_argument("--num_train_epochs", type=float, default=3)
@@ -536,6 +541,7 @@ def main():
     ap.add_argument("--warmup_ratio", type=float, default=0.03)
     ap.add_argument("--lr_scheduler_type", default="cosine")
     ap.add_argument("--logging_steps", type=int, default=50)
+    ap.add_argument("--optim", default="adamw_torch", help="Optimizer: adamw_torch|paged_adamw_8bit|paged_adamw_32bit|adamw_bnb_8bit")
     ap.add_argument("--do_train", type=_str2bool, default=True)
     ap.add_argument("--do_eval", type=_str2bool, default=True)
     ap.add_argument("--report_to", default="none")
@@ -578,6 +584,7 @@ def main():
         lora_alpha=args.lora_alpha,
         lora_dropout=args.lora_dropout,
         lora_target_modules=[m.strip() for m in str(args.lora_target_modules).split(",") if m.strip()],
+        train_embeddings=args.train_embeddings,
     )
     # Build HF TrainingArguments
     report_to = args.report_to
@@ -604,6 +611,7 @@ def main():
         weight_decay=args.weight_decay,
         warmup_ratio=args.warmup_ratio,
         lr_scheduler_type=args.lr_scheduler_type,
+        optim=args.optim,
         logging_steps=args.logging_steps,
         do_train=args.do_train,
         do_eval=args.do_eval,
