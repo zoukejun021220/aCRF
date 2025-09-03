@@ -452,7 +452,11 @@ class SDTMTrainer(Trainer):
         token_loss = token_loss.view(bsz, seqlen)
         # Optional token-aware weighting: upweight uppercase alnum tokens (likely SDTM codes)
         mask = (shift_labels != -100).float()
-        if hasattr(self, 'tokenizer') and self.tokenizer is not None:
+        # Prefer processing_class (new API), fall back to tokenizer (deprecated)
+        tok_ref = getattr(self, 'processing_class', None)
+        if tok_ref is None:
+            tok_ref = getattr(self, 'tokenizer', None)
+        if tok_ref is not None:
             # Build per-token weights lazily via cache
             ids = shift_labels.detach()
             weights = torch.ones_like(ids, dtype=token_loss.dtype, device=token_loss.device)
@@ -461,7 +465,7 @@ class SDTMTrainer(Trainer):
                 if tid < 0:
                     continue
                 if tid not in self._tok_weight_cache:
-                    tok = self.tokenizer.convert_ids_to_tokens(int(tid))
+                    tok = tok_ref.convert_ids_to_tokens(int(tid))
                     # Normalize (strip common BPE/SP markers)
                     norm = ''.join(ch for ch in tok if ch.isalnum())
                     w = 1.0
@@ -852,7 +856,7 @@ def main():
         train_dataset=train_dataset,
         eval_dataset=eval_dataset,
         data_collator=data_collator,
-        tokenizer=tokenizer,
+        processing_class=tokenizer,
     )
     
     # Train
