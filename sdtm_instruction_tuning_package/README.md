@@ -78,7 +78,7 @@ This will create:
 ### 4. Configure Training
 
 Edit `training_config.json` to adjust:
-- Model selection (default: Qwen/Qwen2.5-14B-Instruct)
+- Model selection (default: Qwen/Qwen3-4B-Instruct)
 - Training hyperparameters
 - LoRA configuration
 - Hardware settings
@@ -99,7 +99,7 @@ For multi-GPU (adjust CUDA_VISIBLE_DEVICES):
 ```bash
 export CUDA_VISIBLE_DEVICES=0,1,2,3
 torchrun --nproc_per_node=4 train_model.py \
-    --model_name_or_path Qwen/Qwen2.5-14B-Instruct \
+    --model_name_or_path Qwen/Qwen3-4B-Instruct \
     --use_modelscope \  # Add this flag for ModelScope
     --data_path ./data \
     --output_dir ./output \
@@ -123,7 +123,7 @@ pip install modelscope
 3. Or manually specify ModelScope in training:
 ```bash
 python train_model.py \
-    --model_name_or_path "Qwen/Qwen2.5-14B-Instruct" \
+    --model_name_or_path "Qwen/Qwen3-4B-Instruct" \
     --use_modelscope \
     --modelscope_model_id "qwen/Qwen2.5-14B-Instruct" \  # Optional
     --data_path ./data \
@@ -195,7 +195,7 @@ from peft import PeftModel
 
 # Load base model
 base_model = AutoModelForCausalLM.from_pretrained(
-    "Qwen/Qwen2.5-14B-Instruct",
+    "Qwen/Qwen3-4B-Instruct",
     device_map="auto",
     trust_remote_code=True
 )

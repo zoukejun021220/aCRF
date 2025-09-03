@@ -1,6 +1,6 @@
 {
   "model_config": {
-    "base_model": "Qwen/Qwen2.5-14B-Instruct",
+    "base_model": "Qwen/Qwen3-4B-Instruct",
     "use_4bit": true,
     "quantization": {
       "bnb_4bit_compute_dtype": "float16",

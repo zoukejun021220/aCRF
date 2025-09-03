@@ -94,7 +94,7 @@ def create_config_file(package_path: Path):
     """Create configuration file for training"""
     config = {
         "model_config": {
-            "base_model": "Qwen/Qwen2.5-14B-Instruct",
+            "base_model": "Qwen/Qwen3-4B-Instruct",
             "use_4bit": True,
             "quantization": {
                 "bnb_4bit_compute_dtype": "float16",

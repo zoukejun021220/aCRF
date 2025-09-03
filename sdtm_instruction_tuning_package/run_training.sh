@@ -14,9 +14,7 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 
 # Model configuration
-MODEL_NAME="${MODEL_NAME:-Qwen/Qwen2.5-14B-Instruct}"
-USE_MODELSCOPE=${USE_MODELSCOPE:-false}  # Set to true to use ModelScope
-MODELSCOPE_MODEL_ID="${MODELSCOPE_MODEL_ID:-}"  # Optional: specify different ModelScope ID
+MODEL_NAME="${MODEL_NAME:-Qwen/Qwen3-4B-Instruct}"
 DATA_PATH="${DATA_PATH:-$SCRIPT_DIR/data}"
 OUTPUT_DIR="${OUTPUT_DIR:-$SCRIPT_DIR/output}"
 
@@ -61,15 +59,6 @@ LORA_DROPOUT=${LORA_DROPOUT:-0.1}
 # Create output directory
 mkdir -p "$OUTPUT_DIR"
 
-# Build ModelScope arguments
-MODELSCOPE_ARGS=""
-if [ "$USE_MODELSCOPE" = true ]; then
-  MODELSCOPE_ARGS="--use_modelscope True"
-  if [ ! -z "$MODELSCOPE_MODEL_ID" ]; then
-    MODELSCOPE_ARGS="$MODELSCOPE_ARGS --modelscope_model_id $MODELSCOPE_MODEL_ID"
-  fi
-fi
-
 # Decide reporting backend (default to none if WANDB not configured)
 REPORT_TO="${REPORT_TO:-}"
 if [ -z "$REPORT_TO" ]; then
@@ -83,7 +72,6 @@ fi
 # Run training
 python "$SCRIPT_DIR/train_model.py" \
   --model_name_or_path $MODEL_NAME \
-  $MODELSCOPE_ARGS \
   --data_path "$DATA_PATH" \
   --output_dir "$OUTPUT_DIR" \
   --num_train_epochs $NUM_EPOCHS \

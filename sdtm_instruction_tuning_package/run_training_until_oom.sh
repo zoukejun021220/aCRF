@@ -10,7 +10,7 @@ echo "=" * 60
 export CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES:-0}
 
 # Start with Qwen 14B model to ensure we hit memory limits
-MODEL_NAME="${MODEL_NAME:-Qwen/Qwen2.5-14B-Instruct}"
+MODEL_NAME="${MODEL_NAME:-Qwen/Qwen3-4B-Instruct}"
 DATA_PATH="${DATA_PATH:-./data}"
 OUTPUT_DIR="${OUTPUT_DIR:-./output}"
 

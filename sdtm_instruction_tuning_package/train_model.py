@@ -46,21 +46,16 @@ except Exception:
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Try to import ModelScope for alternative model downloading
-try:
-    from modelscope import snapshot_download
-    MODELSCOPE_AVAILABLE = True
-    logger.info("ModelScope is available for model downloading")
-except ImportError:
-    MODELSCOPE_AVAILABLE = False
-    logger.info("ModelScope not available, will use Hugging Face")
+# ModelScope disabled in this repository
+MODELSCOPE_AVAILABLE = False
+logger.info("ModelScope support is disabled; using Hugging Face/local paths only")
 
 
 @dataclass
 class ModelArguments:
     """Arguments for model configuration"""
     model_name_or_path: str = field(
-        default="Qwen/Qwen2.5-14B-Instruct",
+        default="Qwen/Qwen3-4B-Instruct",
         metadata={"help": "Model name or path"}
     )
     use_modelscope: bool = field(
@@ -240,29 +235,7 @@ class SDTMDataset:
 
 def download_model_from_modelscope(model_id: str, cache_dir: str = "./models") -> str:
     """Download model from ModelScope and return local path"""
-    logger.info(f"Downloading model from ModelScope: {model_id}")
-    
-    # ModelScope model ID mapping for common models
-    modelscope_mapping = {
-        "Qwen/Qwen2.5-14B-Instruct": "qwen/Qwen2.5-14B-Instruct",
-        "Qwen/Qwen2.5-7B-Instruct": "qwen/Qwen2.5-7B-Instruct",
-        "Qwen/Qwen2.5-3B-Instruct": "qwen/Qwen2.5-3B-Instruct",
-        "Qwen/Qwen2.5-1.5B-Instruct": "qwen/Qwen2.5-1.5B-Instruct",
-        "Qwen/Qwen2.5-0.5B-Instruct": "qwen/Qwen2.5-0.5B-Instruct",
-    }
-    
-    # Use mapping or provided ModelScope ID
-    ms_model_id = modelscope_mapping.get(model_id, model_id)
-    
-    # Download from ModelScope
-    local_path = snapshot_download(
-        ms_model_id,
-        cache_dir=cache_dir,
-        revision='master'
-    )
-    
-    logger.info(f"Model downloaded to: {local_path}")
-    return local_path
+    raise RuntimeError("ModelScope is disabled in this repository. Use Hugging Face or a local path.")
 
 
 def setup_model_and_tokenizer(model_args: ModelArguments):
@@ -271,13 +244,9 @@ def setup_model_and_tokenizer(model_args: ModelArguments):
     # Determine model path
     model_path = model_args.local_model_path or model_args.model_name_or_path
     
-    # Download from ModelScope if requested
-    if (not model_args.local_model_path) and model_args.use_modelscope and MODELSCOPE_AVAILABLE:
-        modelscope_id = model_args.modelscope_model_id or model_args.model_name_or_path
-        model_path = download_model_from_modelscope(modelscope_id)
-    elif (not model_args.local_model_path) and model_args.use_modelscope and not MODELSCOPE_AVAILABLE:
-        logger.warning("ModelScope requested but not available. Install with: pip install modelscope")
-        logger.info("Falling back to Hugging Face")
+    # ModelScope disabled: ignore related flags
+    if model_args.use_modelscope:
+        logger.warning("--use_modelscope was provided but ModelScope is disabled. Ignoring and using Hugging Face/local paths.")
     
     # Quantization config
     bnb_config = None
@@ -368,17 +337,7 @@ def setup_model_and_tokenizer(model_args: ModelArguments):
                         raise RuntimeError(f"All model load fallbacks failed: {e_third}") from e_third
         else:
             # No local path; only try ModelScope if explicitly requested
-            if MODELSCOPE_AVAILABLE and model_args.use_modelscope:
-                try:
-                    logger.info("Attempting ModelScope snapshot download...")
-                    ms_id = model_args.modelscope_model_id or model_args.model_name_or_path
-                    model_path = download_model_from_modelscope(ms_id)
-                    model = _load_from(model_path)
-                    model_source_used = model_path
-                except Exception as e_ms:
-                    raise RuntimeError(f"ModelScope load failed after primary: {e_ms}") from e_ms
-            else:
-                raise
+            raise
     
     # Load tokenizer from the same source as the model; fall back gracefully if unavailable
     tokenizer = None
@@ -538,7 +497,7 @@ def main():
 
     ap = argparse.ArgumentParser(description="Train SDTM mapper with (Q)LoRA")
     # Model args
-    ap.add_argument("--model_name_or_path", default="Qwen/Qwen2.5-14B-Instruct")
+    ap.add_argument("--model_name_or_path", default="Qwen/Qwen3-4B-Instruct")
     ap.add_argument("--use_modelscope", type=_str2bool, default=False)
     ap.add_argument("--modelscope_model_id", default=None)
     ap.add_argument("--use_4bit", type=_str2bool, default=True)

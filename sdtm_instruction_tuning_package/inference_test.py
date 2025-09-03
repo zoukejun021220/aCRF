@@ -13,12 +13,8 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Try to import ModelScope
-try:
-    from modelscope import snapshot_download
-    MODELSCOPE_AVAILABLE = True
-except ImportError:
-    MODELSCOPE_AVAILABLE = False
+# ModelScope disabled in this repository
+MODELSCOPE_AVAILABLE = False
 
 
 def _kb_paths():
@@ -72,16 +68,9 @@ class SDTMInference:
     def __init__(self, base_model_path: str, adapter_path: str = None, use_4bit: bool = True, use_modelscope: bool = False):
         """Initialize inference with base model and optional LoRA adapter"""
         
-        # Download from ModelScope if requested
-        if use_modelscope and MODELSCOPE_AVAILABLE:
-            logger.info("Downloading model from ModelScope...")
-            modelscope_mapping = {
-                "Qwen/Qwen2.5-14B-Instruct": "qwen/Qwen2.5-14B-Instruct",
-                "Qwen/Qwen2.5-7B-Instruct": "qwen/Qwen2.5-7B-Instruct",
-            }
-            ms_model_id = modelscope_mapping.get(base_model_path, base_model_path)
-            base_model_path = snapshot_download(ms_model_id, cache_dir="./models")
-            logger.info(f"Model downloaded to: {base_model_path}")
+        # ModelScope disabled: ignore flag
+        if use_modelscope:
+            logger.warning("use_modelscope=True was passed but ModelScope is disabled. Proceeding with Hugging Face/local path only.")
         
         # Quantization config
         bnb_config = None
@@ -349,7 +338,7 @@ def test_model():
     """Test the model with sample fields"""
     
     # Initialize model
-    base_model = "Qwen/Qwen2.5-14B-Instruct"
+    base_model = "Qwen/Qwen3-4B-Instruct"
     adapter_path = "./output/checkpoint-final"  # Path to fine-tuned adapter
     
     inference = SDTMInference(base_model, adapter_path)
