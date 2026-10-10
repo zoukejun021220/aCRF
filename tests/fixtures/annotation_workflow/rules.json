@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "rules": [
+    {
+      "ref": "rule:cdashig-2.1:CMINDC",
+      "title": "Reason a concomitant medication was taken",
+      "concept_terms": [
+        "concomitant medication",
+        "medication indication",
+        "reason for use"
+      ],
+      "property_terms": [
+        "indication",
+        "reason",
+        "purpose"
+      ],
+      "sdtmig_versions": [
+        "3.4"
+      ],
+      "source_version": "CDASHIG 2.1",
+      "source_url": "https://www.cdisc.org/standards/foundational/cdashig-v2-1",
+      "source_locator": "CM metadata table; CMINDC; SDTMIG Target=CMINDC; Mapping Instructions",
+      "excerpt": "Maps directly to the SDTMIG variable listed in the column with the heading \"SDTMIG Target\".",
+      "excerpt_sha256": "993445c3f069a5ee010d6ac36c6442f9ac0b4533e3b5e1a0906ace55a0bdd6e7",
+      "domain": "CM",
+      "variables": [
+        "CMINDC"
+      ],
+      "interpretation": "Curated adapter mapping: this CM row identifies CMINDC as the direct target for the collected indication. Compatibility profile is explicitly restricted to the current development profile; not a study approval."
+    }
+  ]
+}

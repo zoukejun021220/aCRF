@@ -1,0 +1,490 @@
+[
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 1,
+    "source": "cosmos:sdtm:2025-07-01:AE",
+    "target": "AEDECODE"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 41,
+    "source": "cosmos:sdtm:2025-07-01:AEPRESP",
+    "target": "AEDECODE"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12496,
+    "source": "cosmos:sdtm:2025-07-01:AGEMAX",
+    "target": "TSVALCD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12500,
+    "source": "cosmos:sdtm:2025-07-01:AGEMIN",
+    "target": "TSVALCD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12141,
+    "source": "cosmos:sdtm:2025-07-01:ALCOHOLHX",
+    "target": "SUDECOD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12158,
+    "source": "cosmos:sdtm:2025-07-01:BEERHX",
+    "target": "SUDECOD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 10686,
+    "source": "cosmos:sdtm:2026-05-26:BESTRESP",
+    "target": "TRLNKGRP"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12175,
+    "source": "cosmos:sdtm:2025-07-01:CAFFEINEHX",
+    "target": "SUDECOD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12521,
+    "source": "cosmos:sdtm:2025-07-01:CAGTNAM",
+    "target": "TSVALCD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12192,
+    "source": "cosmos:sdtm:2025-07-01:CIGARETTEHX",
+    "target": "SUDECOD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12210,
+    "source": "cosmos:sdtm:2025-07-01:CIGARHX",
+    "target": "SUDECOD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12228,
+    "source": "cosmos:sdtm:2025-07-01:COFFEEHX",
+    "target": "SUDECOD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12245,
+    "source": "cosmos:sdtm:2025-07-01:COLAHX",
+    "target": "SUDECOD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 82,
+    "source": "cosmos:sdtm:2026-05-26:COLLECTING",
+    "target": "BETERM"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 84,
+    "source": "cosmos:sdtm:2026-05-26:COLLECTING",
+    "target": "BETERM"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12561,
+    "source": "cosmos:sdtm:2025-07-01:CRMDUR",
+    "target": "TSVALCD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12565,
+    "source": "cosmos:sdtm:2025-07-01:CSRARDTC",
+    "target": "TSVALCD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12583,
+    "source": "cosmos:sdtm:2025-07-01:DCUTDTC",
+    "target": "TSVALCD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12262,
+    "source": "cosmos:sdtm:2025-07-01:DISTILLEDSPIRITSHX",
+    "target": "SUDECOD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 11704,
+    "source": "cosmos:sdtm:2026-07-14:EGESTAGE",
+    "target": "SCSTRES"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12671,
+    "source": "cosmos:sdtm:2025-07-01:EMPIPDCN",
+    "target": "TSVALCD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12693,
+    "source": "cosmos:sdtm:2025-07-01:EVSNDORG",
+    "target": "TSVALCD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12697,
+    "source": "cosmos:sdtm:2025-07-01:EXPARECN",
+    "target": "TSVALCD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12701,
+    "source": "cosmos:sdtm:2025-07-01:EXPASTAT",
+    "target": "TSVALCD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 11749,
+    "source": "cosmos:sdtm:2026-07-14:GSTABRTH",
+    "target": "SCSTRES"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12361,
+    "source": "cosmos:sdtm:2026-05-26:LDIAM",
+    "target": "TULNKID"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12362,
+    "source": "cosmos:sdtm:2026-05-26:LDIAM",
+    "target": "RSLNKGRP"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12376,
+    "source": "cosmos:sdtm:2026-05-26:LDIAM_RECIST1_1",
+    "target": "TULNKID"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12377,
+    "source": "cosmos:sdtm:2026-05-26:LDIAM_RECIST1_1",
+    "target": "RSLNKGRP"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12769,
+    "source": "cosmos:sdtm:2025-07-01:LENGTH",
+    "target": "TSVALCD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12391,
+    "source": "cosmos:sdtm:2026-05-26:LNSTATE",
+    "target": "TULNKID"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12392,
+    "source": "cosmos:sdtm:2026-05-26:LNSTATE",
+    "target": "RSLNKGRP"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12403,
+    "source": "cosmos:sdtm:2026-05-26:LNSTATE_RECIST1_1",
+    "target": "TULNKID"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12404,
+    "source": "cosmos:sdtm:2026-05-26:LNSTATE_RECIST1_1",
+    "target": "RSLNKGRP"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12421,
+    "source": "cosmos:sdtm:2026-05-26:LPERP",
+    "target": "TULNKID"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12422,
+    "source": "cosmos:sdtm:2026-05-26:LPERP",
+    "target": "RSLNKGRP"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12436,
+    "source": "cosmos:sdtm:2026-05-26:LPERP_RECIST1_1",
+    "target": "TULNKID"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12437,
+    "source": "cosmos:sdtm:2026-05-26:LPERP_RECIST1_1",
+    "target": "RSLNKGRP"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 10053,
+    "source": "cosmos:sdtm:2026-05-26:MENARAGE",
+    "target": "RPSTRESN"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 10067,
+    "source": "cosmos:sdtm:2026-05-26:MENFDUR",
+    "target": "RPSTRESN"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 10081,
+    "source": "cosmos:sdtm:2026-05-26:MENOAGE",
+    "target": "RPSTRESN"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 10101,
+    "source": "cosmos:sdtm:2026-05-26:MENSDUR",
+    "target": "RPSTRESN"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 10109,
+    "source": "cosmos:sdtm:2026-05-26:MENSDURA",
+    "target": "RPSTRESN"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12451,
+    "source": "cosmos:sdtm:2026-05-26:NEW_TUMSTATE_RECIST1_1",
+    "target": "RSLNKGRP"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12462,
+    "source": "cosmos:sdtm:2026-05-26:NONNODAL_TUMSTATE_RECIST1_1",
+    "target": "RSLNKGRP"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 11318,
+    "source": "cosmos:sdtm:2026-05-26:OVRLRESP",
+    "target": "TRLNKGRP"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 11327,
+    "source": "cosmos:sdtm:2026-05-26:OVRLRESP_LUGANO",
+    "target": "TRLNKGRP"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 11336,
+    "source": "cosmos:sdtm:2026-05-26:OVRLRESP_RANO",
+    "target": "TRLNKGRP"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12279,
+    "source": "cosmos:sdtm:2025-07-01:PIPEHX",
+    "target": "SUDECOD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12879,
+    "source": "cosmos:sdtm:2025-07-01:PLNTRDUR",
+    "target": "TSVALCD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12889,
+    "source": "cosmos:sdtm:2025-07-01:PTRTDUR",
+    "target": "TSVALCD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12893,
+    "source": "cosmos:sdtm:2025-07-01:PUBMEDID",
+    "target": "TSVALCD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 11473,
+    "source": "cosmos:sdtm:2026-05-26:RDIORESP_RANO",
+    "target": "TRLNKGRP"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12912,
+    "source": "cosmos:sdtm:2025-07-01:REGID",
+    "target": "TSVALCD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12937,
+    "source": "cosmos:sdtm:2025-07-01:SDMDUR",
+    "target": "TSVALCD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12965,
+    "source": "cosmos:sdtm:2025-07-01:SENDTC",
+    "target": "TSVALCD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 13004,
+    "source": "cosmos:sdtm:2025-07-01:SSTDTC",
+    "target": "TSVALCD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12297,
+    "source": "cosmos:sdtm:2025-07-01:TEAHIX",
+    "target": "SUDECOD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12314,
+    "source": "cosmos:sdtm:2025-07-01:TOBACCOHX",
+    "target": "SUDECOD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 13067,
+    "source": "cosmos:sdtm:2025-07-01:TRGFUDUR",
+    "target": "TSVALCD"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 13128,
+    "source": "cosmos:sdtm:2026-05-26:TUMERGE",
+    "target": "PRTRT"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 13141,
+    "source": "cosmos:sdtm:2026-05-26:TUMERGE_RECIST1_1",
+    "target": "PRTRT"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 13155,
+    "source": "cosmos:sdtm:2026-05-26:TUMIDENT",
+    "target": "PRTRT"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 13170,
+    "source": "cosmos:sdtm:2026-05-26:TUMIDENT_RECIST1_1",
+    "target": "PRTRT"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12476,
+    "source": "cosmos:sdtm:2026-05-26:TUMSTATE",
+    "target": "RSLNKGRP"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 13186,
+    "source": "cosmos:sdtm:2026-05-26:TUSPLIT",
+    "target": "PRTRT"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 13199,
+    "source": "cosmos:sdtm:2026-05-26:TUSPLIT_RECIST1_1",
+    "target": "PRTRT"
+  },
+  {
+    "field": "object",
+    "reason": "unresolved_in_specialization_scope",
+    "record_number": 12332,
+    "source": "cosmos:sdtm:2025-07-01:WINEHX",
+    "target": "SUDECOD"
+  },
+  {
+    "field": "vlm_group_id",
+    "reason": "unresolved_entity_reference",
+    "source": "cosmos:crf:2026-06-30:EQ5D02",
+    "target": "EQ5D02"
+  },
+  {
+    "field": "vlm_group_id",
+    "reason": "unresolved_entity_reference",
+    "source": "cosmos:crf:2026-06-30:SIXMW10",
+    "target": "SIXMW10"
+  }
+]

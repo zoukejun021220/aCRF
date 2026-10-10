@@ -144,6 +144,26 @@ These instructions are automatically retrieved when relevant to improve mapping 
 
 ## Extending the System
 
+### Optional COSMoS knowledge source
+
+The project includes a pinned, offline COSMoS catalog with published biomedical
+concepts and SDTM specializations, plus separately labelled draft CRF templates.
+It preserves complete source records, relationships, version ranges and provenance.
+See [the COSMoS usage and verification guide](../kb/cosmos/README.md).
+
+```python
+from sdtm_knowledge_base.cosmos import load_snapshot
+
+catalog = load_snapshot()
+documents = catalog.evidence_documents(kind="sdtm", sdtmig_version="3.4")
+```
+
+The existing Stage B KB loader can opt in with
+`load_kb_resources(include_cosmos=True)` and exposes the catalog as `loader.cosmos`.
+This makes the additional evidence available; it does not silently change the
+existing retriever or mapper prompts. Keep the same COSMoS records in both flat and
+graph retrieval arms when measuring the retrieval strategy's contribution.
+
 ### Adding Custom Synonyms
 Edit `_generate_crf_synonyms()` in `sdtm_rag_builder.py`:
 ```python

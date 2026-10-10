@@ -1,0 +1,305 @@
+{
+  "case_id": "example-evaluator-identifier",
+  "source": {
+    "field_id": "F012",
+    "form": "Disease Response and Clin Classification",
+    "instructions": [
+      "Identify the evaluator providing this evaluation."
+    ],
+    "neighbors": [
+      {
+        "field_id": "F001",
+        "instructions": [],
+        "question": "What is the study identifier?",
+        "response": {
+          "control": "unspecified_collection_template",
+          "format": {
+            "declared_datatype": "Char",
+            "observed_widget": false
+          },
+          "options": [],
+          "ui_text": "[Protocol/Study]",
+          "unit": null
+        },
+        "section": "Disease Response and Clin Classification"
+      },
+      {
+        "field_id": "F002",
+        "instructions": [],
+        "question": "What is the site identifier?",
+        "response": {
+          "control": "unspecified_collection_template",
+          "format": {
+            "declared_datatype": "Char",
+            "observed_widget": false
+          },
+          "options": [],
+          "ui_text": "Site (Identifier)",
+          "unit": null
+        },
+        "section": "Disease Response and Clin Classification"
+      },
+      {
+        "field_id": "F003",
+        "instructions": [
+          "Record the identifier for the subject."
+        ],
+        "question": "What [is/was] the (study) [subject/participant] identifier?",
+        "response": {
+          "control": "unspecified_collection_template",
+          "format": {
+            "declared_datatype": "Char",
+            "observed_widget": false
+          },
+          "options": [],
+          "ui_text": "[Subject/Participant] (Identifier)",
+          "unit": null
+        },
+        "section": "Disease Response and Clin Classification"
+      },
+      {
+        "field_id": "F004",
+        "instructions": [],
+        "question": "What is the visit name?",
+        "response": {
+          "control": "unspecified_collection_template",
+          "format": {
+            "declared_datatype": "Char",
+            "observed_widget": false
+          },
+          "options": [],
+          "ui_text": "[Visit]",
+          "unit": null
+        },
+        "section": "Disease Response and Clin Classification"
+      },
+      {
+        "field_id": "F005",
+        "instructions": [
+          "Record the [date/start date] of the visit using this format (DD-MON-YYYY)."
+        ],
+        "question": "What [is/was] the date of the visit?",
+        "response": {
+          "control": "unspecified_collection_template",
+          "format": {
+            "declared_datatype": "Char",
+            "observed_widget": false
+          },
+          "options": [],
+          "ui_text": "(Visit) Date",
+          "unit": null
+        },
+        "section": "Disease Response and Clin Classification"
+      },
+      {
+        "field_id": "F006",
+        "instructions": [],
+        "question": "What is the [category/ criteria] for the [disease response/clinical classification] or What is the [response/clinical classification] criteria?",
+        "response": {
+          "control": "unspecified_collection_template",
+          "format": {
+            "declared_datatype": "Char",
+            "observed_widget": false
+          },
+          "options": [],
+          "ui_text": "[Disease Response/Clinical Classification Category]; NULL",
+          "unit": null
+        },
+        "section": "Disease Response and Clin Classification"
+      },
+      {
+        "field_id": "F007",
+        "instructions": [],
+        "question": "What is the subcategory for the [disease response/clinical classification]?",
+        "response": {
+          "control": "unspecified_collection_template",
+          "format": {
+            "declared_datatype": "Char",
+            "observed_widget": false
+          },
+          "options": [],
+          "ui_text": "[Disease Response/Clinical Classification Sub-Category]; NULL",
+          "unit": null
+        },
+        "section": "Disease Response and Clin Classification"
+      },
+      {
+        "field_id": "F008",
+        "instructions": [
+          "Indicate whether or not the [disease response/clinical classification] assessment was performed."
+        ],
+        "question": "Was the [(disease) response/clinical classification] assessment performed?",
+        "response": {
+          "control": "unspecified_collection_template",
+          "format": {
+            "declared_datatype": "Char",
+            "observed_widget": false
+          },
+          "options": [],
+          "ui_text": "[Disease Response/Clinical Classification] Assessment",
+          "unit": null
+        },
+        "section": "Disease Response and Clin Classification"
+      },
+      {
+        "field_id": "F009",
+        "instructions": [
+          "If the response was not collected, indicate why."
+        ],
+        "question": "Why was the [disease response/clinical classification] assessment not performed?",
+        "response": {
+          "control": "unspecified_collection_template",
+          "format": {
+            "declared_datatype": "Char",
+            "observed_widget": false
+          },
+          "options": [],
+          "ui_text": "Reason Response Assessment Not Performed",
+          "unit": null
+        },
+        "section": "Disease Response and Clin Classification"
+      },
+      {
+        "field_id": "F010",
+        "instructions": [
+          "Record the date of measurements using this format (DD-MON-YYYY)."
+        ],
+        "question": "What was the date the response or clinical classification was performed?",
+        "response": {
+          "control": "unspecified_collection_template",
+          "format": {
+            "declared_datatype": "Char",
+            "observed_widget": false
+          },
+          "options": [],
+          "ui_text": "Date",
+          "unit": null
+        },
+        "section": "Disease Response and Clin Classification"
+      },
+      {
+        "field_id": "F011",
+        "instructions": [
+          "Indicate who performed the assessment."
+        ],
+        "question": "What was the role of the person performing the [disease response/clinical classification] assessment?",
+        "response": {
+          "control": "unspecified_collection_template",
+          "format": {
+            "declared_datatype": "Char",
+            "observed_widget": false
+          },
+          "options": [],
+          "ui_text": "Evaluator",
+          "unit": null
+        },
+        "section": "Disease Response and Clin Classification"
+      },
+      {
+        "field_id": "F013",
+        "instructions": [
+          "If collected, record the unique [Disease Response or Clinical Classification] Link ID."
+        ],
+        "question": "What was the [Disease Response or Clinical Classification ]Link ID Identifier?",
+        "response": {
+          "control": "unspecified_collection_template",
+          "format": {
+            "declared_datatype": "Char",
+            "observed_widget": false
+          },
+          "options": [],
+          "ui_text": "[Disease Response or Clinical Classification ]Link ID",
+          "unit": null
+        },
+        "section": "Disease Response and Clin Classification"
+      },
+      {
+        "field_id": "F014",
+        "instructions": [
+          "If collected, record the unique [Disease Response or Clinical Classification] Link Group ID."
+        ],
+        "question": "What was the [Disease Response or Clinical Classification] Link Group Identifier?",
+        "response": {
+          "control": "unspecified_collection_template",
+          "format": {
+            "declared_datatype": "Char",
+            "observed_widget": false
+          },
+          "options": [],
+          "ui_text": "[Disease Response or Clinical Classification ]Link Group",
+          "unit": null
+        },
+        "section": "Disease Response and Clin Classification"
+      },
+      {
+        "field_id": "F015",
+        "instructions": [
+          "Record the name of the RS test, if not preprinted on the CRF. If collected on the CRF, the sponsor may provide additional instructions to ensure the data is entered as intended."
+        ],
+        "question": "What was the [disease response/clinical classification] test name?",
+        "response": {
+          "control": "unspecified_collection_template",
+          "format": {
+            "declared_datatype": "Char",
+            "observed_widget": false
+          },
+          "options": [],
+          "ui_text": "[Disease Response / Clinical Classification Test Name]",
+          "unit": null
+        },
+        "section": "Disease Response and Clin Classification"
+      },
+      {
+        "field_id": "F016",
+        "instructions": [
+          "Indicate the response classification."
+        ],
+        "question": "What was the [disease response/clinical classification]?",
+        "response": {
+          "control": "unspecified_collection_template",
+          "format": {
+            "declared_datatype": "Char",
+            "observed_widget": false
+          },
+          "options": [],
+          "ui_text": "(Result)",
+          "unit": null
+        },
+        "section": "Disease Response and Clin Classification"
+      },
+      {
+        "field_id": "F017",
+        "instructions": [
+          "Record or select the original units in which these data were collected, if not preprinted on CRF."
+        ],
+        "question": "What was the [disease response/clinical classification] unit?",
+        "response": {
+          "control": "unspecified_collection_template",
+          "format": {
+            "declared_datatype": "Char",
+            "observed_widget": false
+          },
+          "options": [],
+          "ui_text": "Unit",
+          "unit": null
+        },
+        "section": "Disease Response and Clin Classification"
+      }
+    ],
+    "page_instructions": [
+      "{\"kind\":\"canonical_CDASH_collection_template\",\"published_placeholders_uninstantiated\":true,\"study_specification_supplied\":false,\"widget_layout_observed\":false}"
+    ],
+    "question": "What is the evaluator identifier?",
+    "response": {
+      "control": "unspecified_collection_template",
+      "format": {
+        "declared_datatype": "Char",
+        "observed_widget": false
+      },
+      "options": [],
+      "ui_text": "Evaluator Identifier",
+      "unit": null
+    },
+    "section": "Disease Response and Clin Classification"
+  }
+}

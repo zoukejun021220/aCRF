@@ -1,0 +1,38 @@
+{
+  "page_id": 0,
+  "items": [
+    {
+      "seq": 1,
+      "tag": "<Q>",
+      "text": "Date of vital signs assessment",
+      "page": 1,
+      "form": "Synthetic Vitals",
+      "section": "Assessment date",
+      "bbox_xyxy": [
+        0.08823529411764706,
+        0.13257575757575757,
+        0.39215686274509803,
+        0.1527777777777778
+      ],
+      "bbox_ref": "synthetic:vitals-date-label",
+      "qid": "assessment-date"
+    },
+    {
+      "seq": 2,
+      "tag": "<INPUT>",
+      "text": "Assessment date (YYYY-MM-DD)",
+      "page": 1,
+      "form": "Synthetic Vitals",
+      "section": "Assessment date",
+      "bbox_xyxy": [
+        0.08823529411764706,
+        0.1717171717171717,
+        0.5130718954248366,
+        0.23737373737373738
+      ],
+      "bbox_ref": "synthetic:vitals-date-response",
+      "parent_qid": "assessment-date",
+      "input_type": "date"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "source_sha256": "0ac4b4f6c377f772fda964fdbe12dbbe81ceb0e76d7a8dc12e8df10b83275891",
+  "answer_free_reviewed": true,
+  "review_record_id": "synthetic-vitals-date-v1-review",
+  "allowed_page_files": [
+    "tests/fixtures/graphrag/vitals-date/date-source.json"
+  ],
+  "page_hashes": [
+    {
+      "path": "tests/fixtures/graphrag/vitals-date/date-source.json",
+      "sha256": "9d6df9b2f85bdad87ce27e596b52f47400fa66c53f4c7b1ebf682b4945fabafc",
+      "field_ids": [
+        "assessment-date"
+      ]
+    }
+  ]
+}

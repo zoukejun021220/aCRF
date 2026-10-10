@@ -1,0 +1,55 @@
+{
+  "commit": "031429b1d14823721991cd23ee88a11616686ce3",
+  "content_license": "CC-BY-4.0",
+  "csv_records": {
+    "bc": 6306,
+    "crf": 2073,
+    "sdtm": 13922
+  },
+  "default_filters": {
+    "include_drafts": false,
+    "sdtmig_version": "3.4"
+  },
+  "files": [
+    {
+      "path": "raw/LICENSE",
+      "sha256": "7de7787967d7f4d687a73d553b12940f21f2d539c31fc7c75462167b12746bac",
+      "upstream_path": "LICENSE",
+      "url": "https://github.com/cdisc-org/COSMoS/blob/031429b1d14823721991cd23ee88a11616686ce3/LICENSE"
+    },
+    {
+      "path": "raw/README.md",
+      "sha256": "9f1819c1b7971567ef7a19bac30243f11804b8911bc1ee30b2671b632afc9649",
+      "upstream_path": "README.md",
+      "url": "https://github.com/cdisc-org/COSMoS/blob/031429b1d14823721991cd23ee88a11616686ce3/README.md"
+    },
+    {
+      "path": "raw/export/cdisc_biomedical_concepts_latest.csv",
+      "sha256": "4273fdd56880e5d051a1c65cb90062f994a3836002f267ae4385097d51645ed6",
+      "upstream_path": "export/cdisc_biomedical_concepts_latest.csv",
+      "url": "https://github.com/cdisc-org/COSMoS/blob/031429b1d14823721991cd23ee88a11616686ce3/export/cdisc_biomedical_concepts_latest.csv"
+    },
+    {
+      "path": "raw/export/cdisc_crf_specializations_draft.csv",
+      "sha256": "6f2af712a9fd3d66f2cc20cbf68732526fd179d8fe9c69adbdd2a92ac3f4b28b",
+      "upstream_path": "export/cdisc_crf_specializations_draft.csv",
+      "url": "https://github.com/cdisc-org/COSMoS/blob/031429b1d14823721991cd23ee88a11616686ce3/export/cdisc_crf_specializations_draft.csv"
+    },
+    {
+      "path": "raw/export/cdisc_sdtm_dataset_specializations_latest.csv",
+      "sha256": "c5530d0d425e36f0bb36ab1cbc18be493147f968b0dedbd39feb864cb86b4dd2",
+      "upstream_path": "export/cdisc_sdtm_dataset_specializations_latest.csv",
+      "url": "https://github.com/cdisc-org/COSMoS/blob/031429b1d14823721991cd23ee88a11616686ce3/export/cdisc_sdtm_dataset_specializations_latest.csv"
+    }
+  ],
+  "records": {
+    "bc": 1475,
+    "crf": 303,
+    "sdtm": 1475
+  },
+  "repository": "https://github.com/cdisc-org/COSMoS",
+  "schema_version": 1,
+  "unresolved_references": 70,
+  "upstream_code_license": "MIT",
+  "verified_snapshot": true
+}

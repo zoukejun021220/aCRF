@@ -1,0 +1,13 @@
+{
+  "review_record_id": "synthetic-vitals-date-v1-review",
+  "source_pdf": "tests/fixtures/graphrag/vitals-date/date-source.pdf",
+  "source_sha256": "0ac4b4f6c377f772fda964fdbe12dbbe81ceb0e76d7a8dc12e8df10b83275891",
+  "page_json_sha256": "9d6df9b2f85bdad87ce27e596b52f47400fa66c53f4c7b1ebf682b4945fabafc",
+  "scope": "Authored synthetic blank source CRF; no patient values or SDTM mapping answers. The3.4targetappliesonlytothissyntheticfixture.",
+  "checks": [
+    "Poppler rendered page visually inspected: clear date question, visible YYYY-MM-DD input label, blank response box, no clipping.",
+    "Extracted PDF text corroborates all source labels and contains no SDTM mapping answer.",
+    "JSON coordinates derive from authored PDF geometry; date input_type is explicitly supported by the visible format label."
+  ],
+  "is_mapping_gold": false
+}

@@ -1,0 +1,19 @@
+{
+  "purpose": "orientation_only_not_target_evidence",
+  "sources": [
+    {
+      "standard": "SDTM / SDTMIG",
+      "profile": "task-declared",
+      "local": "kb/sdtmig_v3_4_complete/metadata.json"
+    },
+    {
+      "standard": "CDASHIG",
+      "version": "2.1",
+      "url": "https://www.cdisc.org/standards/foundational/cdashig-v2-1"
+    },
+    {
+      "standard": "COSMoS",
+      "commit": "031429b1d14823721991cd23ee88a11616686ce3"
+    }
+  ]
+}

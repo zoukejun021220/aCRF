@@ -1,0 +1,12 @@
+{
+  "kind": "synthetic_test_protocol",
+  "study_id": "synthetic-vitals-date",
+  "standard": {
+    "sdtm": "2.0",
+    "sdtmig": "3.4",
+    "ct_package": "sdtmct-2025-03-28",
+    "cosmos_commit": "031429b1d14823721991cd23ee88a11616686ce3",
+    "include_drafts": false
+  },
+  "scope": "Implementation test target only; no claim about CLOUT or any real study version."
+}

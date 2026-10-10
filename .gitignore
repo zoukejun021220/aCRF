@@ -14,6 +14,10 @@ __pycache__/
 # Environments & IDE
 ########################################
 .venv/
+.venv-retrieval/
+.venv-graphrag/
+.venv-clm/
+/models/clm/
 venv/
 .env
 .env.*
@@ -39,6 +43,11 @@ crf_json/
 # KB build outputs (generated)
 sdtm_knowledge_base/sdtm_rag_kb/
 kb/**/.rag_cache/
+kb/graphs/
+/models/graphrag/
+/experiments/graphrag_v2/indexes/
+/experiments/graphrag_v2/runs/
+experiments/retrieval_model_selection/results/*/index.sqlite
 sdtm_knowledge_base/Variable-Domain-Mapper/cache/
 sdtm_instruction_tuning_package/test_output/
 sdtm_instruction_tuning_package/cache/

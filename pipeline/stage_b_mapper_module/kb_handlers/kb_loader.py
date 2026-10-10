@@ -3,7 +3,10 @@
 import json
 import logging
 from pathlib import Path
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from sdtm_knowledge_base.cosmos import CosmosCatalog
 
 logger = logging.getLogger(__name__)
 
@@ -12,16 +15,18 @@ class KBLoader:
     """Handles loading of knowledge base resources"""
     
     def __init__(self, kb_path: Optional[str] = None):
+        """Locate file-based resources; COSMoS stays unloaded until explicitly requested."""
         self.kb_path = self._find_kb_path(kb_path)
-        self.proto_define = {}
-        self.domains_by_class = {}
-        self.class_definitions = {}
-        self.patterns = {}
-        self.controlled_terms = {}
-        self.common_ct_terms = {}
-        self.cdisc_ct = {}
-        self.all_controlled_terms = {}
-        self.domain_variables = {}
+        self.proto_define: Dict[str, Any] = {}
+        self.domains_by_class: Dict[str, Any] = {}
+        self.class_definitions: Dict[str, Any] = {}
+        self.patterns: Dict[str, Any] = {}
+        self.controlled_terms: Dict[str, Any] = {}
+        self.common_ct_terms: Dict[str, Any] = {}
+        self.cdisc_ct: Dict[str, Any] = {}
+        self.all_controlled_terms: Dict[str, Any] = {}
+        self.domain_variables: Dict[str, Dict[str, Any]] = {}
+        self.cosmos: Optional["CosmosCatalog"] = None
         
     def _find_kb_path(self, kb_path: Optional[str]) -> Optional[Path]:
         """Find the KB directory"""
@@ -70,8 +75,13 @@ class KBLoader:
             
         return self.proto_define
     
-    def load_kb_resources(self) -> None:
-        """Load all KB resources"""
+    def load_kb_resources(self, include_cosmos: bool = False) -> None:
+        """Load existing resources and optionally the verified COSMoS catalog.
+
+        The default preserves the current mapper baseline. COSMoS retains complete
+        specializations separately from variable definitions. File/validation
+        errors propagate; opting in never silently falls back to an empty catalog.
+        """
         if not self.kb_path:
             return
             
@@ -102,6 +112,24 @@ class KBLoader:
         
         # Load variables_all.json
         self._load_variables()
+
+        if include_cosmos:
+            self.load_cosmos_resources()
+
+    def load_cosmos_resources(self, cosmos_path: Optional[str] = None) -> "CosmosCatalog":
+        """Load an explicit snapshot or the pinned project snapshot, without network I/O.
+
+        Returns the complete catalog and retains it on this loader. Invalid hashes
+        or missing artifacts raise ValueError, leaving an already loaded catalog
+        intact. This adds knowledge access without changing mapper ranking policy.
+        """
+        from sdtm_knowledge_base.cosmos import DEFAULT_SNAPSHOT, load_snapshot
+
+        snapshot = Path(cosmos_path) if cosmos_path is not None else DEFAULT_SNAPSHOT
+        catalog = load_snapshot(snapshot)
+        self.cosmos = catalog
+        logger.info("Loaded COSMoS snapshot with %s records", catalog.summary()["records"])
+        return catalog
     
     def _load_controlled_terminology(self):
         """Load controlled terminology from various sources"""

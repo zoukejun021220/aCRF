@@ -1,0 +1,1802 @@
+{
+  "model_visible": false,
+  "cases": [
+    {
+      "partition": "development",
+      "case_id": "s0828563c2bde304b",
+      "local_case_id": "n0037",
+      "collection_field": "OERES",
+      "emitted_status": "partial",
+      "answer": {
+        "explanation": "CDASHIG 2.3 OERES mapping instructions define conditional branches (Normal/Abnormal/Other) that require study-specific implementation choices for OESTRESC/OENRIND population and coding dictionary usage; the published standard does not provide a single unambiguous direct mapping for all branches.",
+        "facts": [
+          {
+            "domain": "OE",
+            "record": {
+              "kind": "collection_record",
+              "test_source_field": "F010"
+            },
+            "value": {
+              "field_id": "F016",
+              "kind": "source"
+            },
+            "variable": "OEORRES",
+            "when": null
+          },
+          {
+            "domain": "OE",
+            "record": {
+              "kind": "collection_record",
+              "test_source_field": "F010"
+            },
+            "value": {
+              "field_id": "F016",
+              "kind": "source"
+            },
+            "variable": "OESTRESC",
+            "when": null
+          },
+          {
+            "domain": "OE",
+            "record": {
+              "kind": "collection_record",
+              "test_source_field": "F010"
+            },
+            "value": {
+              "field_id": "F016",
+              "kind": "source"
+            },
+            "variable": "OENRIND",
+            "when": null
+          }
+        ],
+        "missing": [
+          "coding_dictionary"
+        ],
+        "not_submitted_when": [],
+        "status": "partial"
+      },
+      "outcome": {
+        "calls": 1,
+        "measured_tokens": 11645,
+        "seconds": 45.392,
+        "source_sha256": "6433ef8962f35d790975ec0a62356fdc7a151f11bc4b38385f015cc682993730",
+        "status": "completed_for_review",
+        "stop_reason": "completed_for_review",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "extra_or_different_fact",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": [
+        {
+          "domain": "OE",
+          "record": {
+            "kind": "collection_record",
+            "test_source_field": "F010"
+          },
+          "value": {
+            "field_id": "F016",
+            "kind": "source"
+          },
+          "variable": "OENRIND",
+          "when": null
+        },
+        {
+          "domain": "OE",
+          "record": {
+            "kind": "collection_record",
+            "test_source_field": "F010"
+          },
+          "value": {
+            "field_id": "F016",
+            "kind": "source"
+          },
+          "variable": "OEORRES",
+          "when": null
+        },
+        {
+          "domain": "OE",
+          "record": {
+            "kind": "collection_record",
+            "test_source_field": "F010"
+          },
+          "value": {
+            "field_id": "F016",
+            "kind": "source"
+          },
+          "variable": "OESTRESC",
+          "when": null
+        }
+      ]
+    },
+    {
+      "partition": "development",
+      "case_id": "s318d31aff1bf5d11",
+      "local_case_id": "n0157",
+      "collection_field": "CRACE",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 21637,
+        "seconds": 57.386,
+        "source_sha256": "14ca46615ab62959c331da71d0e7eab32924e36799f22b6c75f3973a9db97c80",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "development",
+      "case_id": "s325df388a683b6ab",
+      "local_case_id": "n0162",
+      "collection_field": "AGONGO",
+      "emitted_status": "needs_convention",
+      "answer": {
+        "explanation": "The public mapping instructions state that AGONGO does not map directly to an SDTMIG variable but may be used to populate AGENRF or AGENRTPT. The choice between these two targets depends on the study-specific time point or period referenced by the field, which is not instantiated in the source. Without this study specification, the target variable and the specific relative timing value cannot be determined.",
+        "facts": [],
+        "missing": [
+          "source_layout"
+        ],
+        "not_submitted_when": [],
+        "status": "needs_convention"
+      },
+      "outcome": {
+        "calls": 2,
+        "measured_tokens": 20089,
+        "seconds": 38.533,
+        "source_sha256": "fcb4c5baac0dd5237f77f6d83a9ee8f2f3b1623323e7e4a537a5e2bbd88dba10",
+        "status": "completed_for_review",
+        "stop_reason": "completed_for_review",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "development",
+      "case_id": "s32efc86f0f472adf",
+      "local_case_id": "n0164",
+      "collection_field": "HOONGO",
+      "emitted_status": "needs_convention",
+      "answer": {
+        "explanation": "The published mapping for HOONGO is conditional: it may populate HOENRF (with values DURING, AFTER, or DURING/AFTER) when the encounter is compared to the study reference period, or HOENRTPT/HOENTPT (with HOENRTPT=ONGOING) when compared to another time point. The source prompt contains an uninstantiated placeholder for the study-specific timepoint or period, and no study specification is supplied to resolve which anchor applies or which specific relative timing value to use. Therefore, no final facts can be justified until the timing anchor and result representation conventions are supplied.",
+        "facts": [],
+        "missing": [
+          "timing_anchor",
+          "result_representation"
+        ],
+        "not_submitted_when": [],
+        "status": "needs_convention"
+      },
+      "outcome": {
+        "calls": 1,
+        "measured_tokens": 8765,
+        "seconds": 28.596,
+        "source_sha256": "a288c77c5d3461d9b7901a04336325330c8f3b303148aa5e375c4828be286c43",
+        "status": "completed_for_review",
+        "stop_reason": "completed_for_review",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "development",
+      "case_id": "s378bace843015fc6",
+      "local_case_id": "n0177",
+      "collection_field": "AGPRIOR",
+      "emitted_status": "needs_convention",
+      "answer": {
+        "explanation": "The public mapping instructions state that AGPRIOR does not map directly to an SDTMIG variable but may be used to populate AGSTRF or AGSTRTPT. The specific target variable (AGSTRF vs AGSTRTPT) depends on the study's reference period definition (DM.RFSTDTC/RFENDTC) or time point anchor (AGSTTPT), which is not provided in the source or evidence. Therefore, a final mapping cannot be justified without these study-specific conventions.",
+        "facts": [],
+        "missing": [
+          "source_layout"
+        ],
+        "not_submitted_when": [],
+        "status": "needs_convention"
+      },
+      "outcome": {
+        "calls": 2,
+        "measured_tokens": 19979,
+        "seconds": 40.763,
+        "source_sha256": "d942608af051b6166f4e818cfec9e50590c003f9b5dba348ccc80c8f701d9a7d",
+        "status": "completed_for_review",
+        "stop_reason": "completed_for_review",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "development",
+      "case_id": "s49d915ee1a6ca1d1",
+      "local_case_id": "n0226",
+      "collection_field": "AEDIS",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 52642,
+        "seconds": 59.039,
+        "source_sha256": "603db64c7e8edd6406622d18634be506e6be1fd0c31625266c4cd68f667df16b",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "development",
+      "case_id": "s651077543d172c99",
+      "local_case_id": "n0310",
+      "collection_field": "PRPRIOR",
+      "emitted_status": "needs_convention",
+      "answer": {
+        "explanation": "The public mapping for PRPRIOR is conditional on the study's reference time point (PRSTTPT) and the selected SDTM variable (PRSTRF vs. PRSTRTPT/PRSTTPT), which are not instantiated in the supplied source.",
+        "facts": [],
+        "missing": [
+          "timing_anchor",
+          "result_representation"
+        ],
+        "not_submitted_when": [],
+        "status": "needs_convention"
+      },
+      "outcome": {
+        "calls": 1,
+        "measured_tokens": 15477,
+        "seconds": 40.289,
+        "source_sha256": "7241e66c8ecfe767deabe514524881edc4767fff741379fa56b6bdb13ca011c5",
+        "status": "completed_for_review",
+        "stop_reason": "completed_for_review",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "development",
+      "case_id": "sb6b75bc403cbb495",
+      "local_case_id": "n0531",
+      "collection_field": "COVAL",
+      "emitted_status": "mapped",
+      "answer": {
+        "explanation": "CDASH COVAL maps directly to SDTM CO.COVAL per CDASH IG 2.3 mapping instructions.",
+        "facts": [
+          {
+            "domain": "CO",
+            "record": {
+              "kind": "collection_record"
+            },
+            "value": {
+              "field_id": "F004",
+              "kind": "source"
+            },
+            "variable": "COVAL",
+            "when": null
+          }
+        ],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "mapped"
+      },
+      "outcome": {
+        "calls": 1,
+        "measured_tokens": 3756,
+        "seconds": 15.289,
+        "source_sha256": "d385a48ded791f2b363d4e987b29544e8b368533bb061ef9a6966fce4b0b29ea",
+        "status": "completed_for_review",
+        "stop_reason": "completed_for_review",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "development",
+      "case_id": "sb8565896a117d364",
+      "local_case_id": "n0537",
+      "collection_field": "SUNCF",
+      "emitted_status": "needs_convention",
+      "answer": {
+        "explanation": "CDASHIG 2.3 states SUNCF does not map directly to an SDTMIG variable and may be used to populate SUOCCUR and relative timing variables, but the implementation notes explicitly require the sponsor to decide how to populate these variables. The public evidence does not provide a fixed mapping or a single standard representation for the three sponsor-defined options (NEVER, CURRENT, FORMER). Because the public instructions leave a real choice regarding the supplemental design and the specific conditional logic for the timing variables, no final facts can be justified until the study's extension/`",
+        "facts": [],
+        "missing": [
+          "extension_convention"
+        ],
+        "not_submitted_when": [],
+        "status": "needs_convention"
+      },
+      "outcome": {
+        "calls": 1,
+        "measured_tokens": 9160,
+        "seconds": 28.555,
+        "source_sha256": "df461bd5a0269b2760773d239c90e2cfe37f8298a4121c30b61bd83d0ee80623",
+        "status": "completed_for_review",
+        "stop_reason": "completed_for_review",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "development",
+      "case_id": "sc21082381f1f620c",
+      "local_case_id": "n0571",
+      "collection_field": "CMPRIOR",
+      "emitted_status": "needs_convention",
+      "answer": {
+        "explanation": "The public mapping for CMPRIOR is conditional: it may populate CMSTRF when the answer refers to the study reference period, or CMSTRTPT/CMSTTPT when it refers to another time point. The source question and prompt contain uninstantiated placeholders ([CMSTTPT]) and do not specify which anchor applies, leaving the timing anchor and result representation as a real choice that requires a study decision.",
+        "facts": [],
+        "missing": [
+          "timing_anchor",
+          "result_representation"
+        ],
+        "not_submitted_when": [],
+        "status": "needs_convention"
+      },
+      "outcome": {
+        "calls": 1,
+        "measured_tokens": 15313,
+        "seconds": 41.4,
+        "source_sha256": "79aa0141c772b8c4a6f4d19baf740b9bdcddbf991275bc86942ce41d3f8d99f9",
+        "status": "completed_for_review",
+        "stop_reason": "completed_for_review",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "development",
+      "case_id": "sc438c65cfae7d197",
+      "local_case_id": "n0580",
+      "collection_field": "AEOCCUR",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 52697,
+        "seconds": 76.727,
+        "source_sha256": "d5e8c19f01ccbefc1bf8491312e23ab5cc2556c23c4e4f44816bec8438030ae9",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification",
+        "omitted_target_fact"
+      ],
+      "omitted_or_different_required_facts": [
+        {
+          "domain": "FA",
+          "record": {
+            "kind": "test",
+            "test_code": "OCCUR"
+          },
+          "value": {
+            "field_id": "F009",
+            "kind": "source"
+          },
+          "variable": "FAORRES",
+          "when": null
+        },
+        {
+          "domain": "FA",
+          "record": {
+            "kind": "test",
+            "test_code": "OCCUR"
+          },
+          "value": {
+            "kind": "constant",
+            "value": "OCCUR"
+          },
+          "variable": "FATESTCD",
+          "when": null
+        }
+      ],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "development",
+      "case_id": "sd239985b018e31ac",
+      "local_case_id": "n0624",
+      "collection_field": "TRORRES",
+      "emitted_status": "mapped",
+      "answer": {
+        "explanation": "CDASHIG 2.3 maps the focused TRORRES field directly to SDTM TRORRES; the collected TRTEST field binds the test record.",
+        "facts": [
+          {
+            "domain": "TR",
+            "record": {
+              "kind": "collection_record",
+              "test_source_field": "F015"
+            },
+            "value": {
+              "field_id": "F016",
+              "kind": "source"
+            },
+            "variable": "TRORRES",
+            "when": null
+          }
+        ],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "mapped"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 24730,
+        "seconds": 64.486,
+        "source_sha256": "5965c92ffb222429149e280dc9649361b391bfbfd0b8c55c37ecf66e6a14a2be",
+        "status": "completed_for_review",
+        "stop_reason": "completed_for_review",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "extra_or_different_fact",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": [
+        {
+          "domain": "TR",
+          "record": {
+            "kind": "collection_record",
+            "test_source_field": "F015"
+          },
+          "value": {
+            "field_id": "F016",
+            "kind": "source"
+          },
+          "variable": "TRORRES",
+          "when": null
+        }
+      ]
+    },
+    {
+      "partition": "development",
+      "case_id": "sd72d6f79696850d9",
+      "local_case_id": "n0636",
+      "collection_field": "CEONGO",
+      "emitted_status": "needs_convention",
+      "answer": {
+        "explanation": "The public mapping instructions explicitly state that CEONGO does not map directly to an SDTMIG variable. Instead, it may be used to populate CEENRF or CEENRTPT, but the specific target depends on the study-specific timepoint or period (e.g., Study Reference Period vs. another time point) and the corresponding anchor variable (CEENTPT). Since the source field contains uninstantiated placeholders for the timepoint/period and no study specification is provided, the timing anchor and result representation conventions are required to determine the final mapping.",
+        "facts": [],
+        "missing": [
+          "timing_anchor",
+          "result_representation"
+        ],
+        "not_submitted_when": [],
+        "status": "needs_convention"
+      },
+      "outcome": {
+        "calls": 1,
+        "measured_tokens": 11848,
+        "seconds": 34.873,
+        "source_sha256": "251f4395d0cc500c288d193701e4ac8847a72c3ea803a2c6a20cc540a08aff37",
+        "status": "completed_for_review",
+        "stop_reason": "completed_for_review",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "development",
+      "case_id": "sda46e8a44a49d95e",
+      "local_case_id": "n0640",
+      "collection_field": "DSUNBLND",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 18495,
+        "seconds": 30.002,
+        "source_sha256": "b6dcbc6929b69cf92bb24d20f809aef77106333ea102244a73eb8938bc92edd0",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "not_submitted_condition",
+        "omitted_target_fact"
+      ],
+      "omitted_or_different_required_facts": [
+        {
+          "domain": "DS",
+          "record": {
+            "kind": "collection_record"
+          },
+          "value": {
+            "kind": "constant",
+            "value": "OTHER EVENT"
+          },
+          "variable": "DSCAT",
+          "when": {
+            "field_id": "F011",
+            "operator": "eq",
+            "value": "Y"
+          }
+        },
+        {
+          "domain": "DS",
+          "record": {
+            "kind": "collection_record"
+          },
+          "value": {
+            "kind": "constant",
+            "value": "TREATMENT UNBLINDED"
+          },
+          "variable": "DSDECOD",
+          "when": {
+            "field_id": "F011",
+            "operator": "eq",
+            "value": "Y"
+          }
+        },
+        {
+          "domain": "DS",
+          "record": {
+            "kind": "collection_record"
+          },
+          "value": {
+            "kind": "constant",
+            "value": "TREATMENT UNBLINDED"
+          },
+          "variable": "DSTERM",
+          "when": {
+            "field_id": "F011",
+            "operator": "eq",
+            "value": "Y"
+          }
+        }
+      ],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "development",
+      "case_id": "se5a30c0d125aee53",
+      "local_case_id": "n0664",
+      "collection_field": "DSNEXT",
+      "emitted_status": "needs_convention",
+      "answer": {
+        "explanation": "The CDASHIG 2.3 implementation notes state that no specific SDTM-based dataset mapping rules are provided for DSNEXT because the mapping depends on the situation (e.g., next epoch, next trial) and is sponsor-defined. The public evidence does not provide a fixed target variable or mapping convention, so no final facts can be justified until the sponsor supplies the specific mapping decision.",
+        "facts": [],
+        "missing": [
+          "source_layout",
+          "result_representation",
+          "timing_anchor",
+          "relationship_convention"
+        ],
+        "not_submitted_when": [],
+        "status": "needs_convention"
+      },
+      "outcome": {
+        "calls": 2,
+        "measured_tokens": 12745,
+        "seconds": 27.264,
+        "source_sha256": "68b475a5900c88b3c1104fe7d684a7092e7fca5c8f371bf48c2965443b7723be",
+        "status": "completed_for_review",
+        "stop_reason": "completed_for_review",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "holdout",
+      "case_id": "q174f66a37a92c346",
+      "local_case_id": "n0739",
+      "collection_field": "QSPERF",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 13639,
+        "seconds": 68.135,
+        "source_sha256": "272795ad0c84483f0c29b390e0333f89217eefa08b25927ee0e2c66dd468c7db",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification",
+        "omitted_target_fact"
+      ],
+      "omitted_or_different_required_facts": [
+        {
+          "domain": "QS",
+          "record": {
+            "instrument": "EQ-5D-5L",
+            "kind": "instrument"
+          },
+          "value": {
+            "kind": "constant",
+            "value": "NOT DONE"
+          },
+          "variable": "QSSTAT",
+          "when": {
+            "field_id": "F002",
+            "operator": "eq",
+            "value": "N"
+          }
+        }
+      ],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "holdout",
+      "case_id": "s1da148c86ba2a782",
+      "local_case_id": "n0775",
+      "collection_field": "SITEFAX",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 18480,
+        "seconds": 26.241,
+        "source_sha256": "245a7cb9e5b754c1c7684a544364ce0cce327131766529d7c1c13de8d36c84f6",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "holdout",
+      "case_id": "s1ffdbb9b46a811df",
+      "local_case_id": "n0777",
+      "collection_field": "INVTL",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 18458,
+        "seconds": 26.062,
+        "source_sha256": "bc326cedb9beed3c7a81d1d8f2c02f6a96dff58d552572f86406ce5d3f098126",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "holdout",
+      "case_id": "s2d017a508600ff7d",
+      "local_case_id": "n0785",
+      "collection_field": "SITEC",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 18446,
+        "seconds": 26.08,
+        "source_sha256": "46b4d3a27193b6175c0f343df7eba7a7e5ffd7ff496bfc8d8fc5a3e24274c310",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "holdout",
+      "case_id": "s2ebf07819f323dcf",
+      "local_case_id": "n0787",
+      "collection_field": "SACSTSCR",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 18435,
+        "seconds": 25.736,
+        "source_sha256": "757bd3f79b870352c72b26bab799588a6035fa42b8a81990c4b875c8a546ed29",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "holdout",
+      "case_id": "s52500c277b5f85a9",
+      "local_case_id": "n0813",
+      "collection_field": "SITEPC",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 18455,
+        "seconds": 26.082,
+        "source_sha256": "b8dc7bd86e5f27468025b8af3f495e88e9da8e1ef55604684a35ddf09f574f16",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "holdout",
+      "case_id": "s71236fc82cdde9aa",
+      "local_case_id": "n0843",
+      "collection_field": "ECDOSADJ",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 40839,
+        "seconds": 52.775,
+        "source_sha256": "c252e9cef2bc3776ee9c1ddbb8777449d89cf3738edd98c8828a082a0abbeb7a",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "holdout",
+      "case_id": "s8bc31cb0ad3d43cb",
+      "local_case_id": "n0866",
+      "collection_field": "ECOCCUR",
+      "emitted_status": "mapped",
+      "answer": {
+        "explanation": "CDASHIG 2.3 ECOCCUR maps directly to SDTMIG 3.4 EC.ECOCCUR; the ECMOOD=\"Scheduled\" exclusion is a record-level condition, not a source condition on the focused field.",
+        "facts": [
+          {
+            "domain": "EC",
+            "record": {
+              "kind": "collection_record"
+            },
+            "value": {
+              "field_id": "F010",
+              "kind": "source"
+            },
+            "variable": "ECOCCUR",
+            "when": null
+          }
+        ],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "mapped"
+      },
+      "outcome": {
+        "calls": 1,
+        "measured_tokens": 13585,
+        "seconds": 39.303,
+        "source_sha256": "78a61aeb78fca6c6b4fc85fd4230885684633a8083256ebd7b601897e561469d",
+        "status": "completed_for_review",
+        "stop_reason": "completed_for_review",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "extra_or_different_fact",
+        "source_condition"
+      ],
+      "omitted_or_different_required_facts": [
+        {
+          "domain": "EC",
+          "record": {
+            "kind": "collection_record"
+          },
+          "value": {
+            "field_id": "F010",
+            "kind": "source"
+          },
+          "variable": "ECOCCUR",
+          "when": {
+            "field_id": "F012",
+            "operator": "ne",
+            "value": "SCHEDULED"
+          }
+        }
+      ],
+      "extra_or_different_facts": [
+        {
+          "domain": "EC",
+          "record": {
+            "kind": "collection_record"
+          },
+          "value": {
+            "field_id": "F010",
+            "kind": "source"
+          },
+          "variable": "ECOCCUR",
+          "when": null
+        }
+      ]
+    },
+    {
+      "partition": "holdout",
+      "case_id": "s8dc34752908fa679",
+      "local_case_id": "n0867",
+      "collection_field": "SANARR",
+      "emitted_status": "needs_convention",
+      "answer": {
+        "explanation": "The pinned CDASH IG 2.3 mapping instruction for SANARR explicitly states 'Does not map to SDTM.' This is a negative mapping instruction, not a positive mapping instruction. The task requires explicit positive mapping instructions for a submission decision. Since the public evidence explicitly excludes this field from SDTM mapping, no standard SDTM annotation can be justified without a study-specific convention that overrides the public standard.",
+        "facts": [],
+        "missing": [
+          "submission_policy",
+          "source_layout"
+        ],
+        "not_submitted_when": [],
+        "status": "needs_convention"
+      },
+      "outcome": {
+        "calls": 2,
+        "measured_tokens": 12277,
+        "seconds": 24.283,
+        "source_sha256": "6cf06ce3f25924e9770a3ae90a3a1047b138cf861d7b1d4595f41a6266cfba15",
+        "status": "completed_for_review",
+        "stop_reason": "completed_for_review",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "holdout",
+      "case_id": "sb3bff3cc8e3c9f6d",
+      "local_case_id": "n0899",
+      "collection_field": "SAENTIM",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 18741,
+        "seconds": 28.34,
+        "source_sha256": "3b556fbd94ba73cf9e40ff000c83729cc51077fb7819261b21426eee72205ca6",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "holdout",
+      "case_id": "sc80ce6f1a7d24e23",
+      "local_case_id": "n0914",
+      "collection_field": "ECFAST",
+      "emitted_status": "mapped",
+      "answer": {
+        "explanation": "CDASHIG 2.3 ECFAST maps directly to SDTMIG 3.4 ECFAST with a published condition that it is only populated when ECMOOD=\"PERFORMED\".",
+        "facts": [
+          {
+            "domain": "EC",
+            "record": {
+              "kind": "collection_record"
+            },
+            "value": {
+              "field_id": "F015",
+              "kind": "source"
+            },
+            "variable": "ECFAST",
+            "when": null
+          }
+        ],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "mapped"
+      },
+      "outcome": {
+        "calls": 1,
+        "measured_tokens": 13551,
+        "seconds": 38.657,
+        "source_sha256": "955877612a0ae931d896d548ca3db657deaa2999a8df00380af64e389f893003",
+        "status": "completed_for_review",
+        "stop_reason": "completed_for_review",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "extra_or_different_fact",
+        "source_condition"
+      ],
+      "omitted_or_different_required_facts": [
+        {
+          "domain": "EC",
+          "record": {
+            "kind": "collection_record"
+          },
+          "value": {
+            "field_id": "F015",
+            "kind": "source"
+          },
+          "variable": "ECFAST",
+          "when": {
+            "field_id": "F012",
+            "operator": "eq",
+            "value": "PERFORMED"
+          }
+        }
+      ],
+      "extra_or_different_facts": [
+        {
+          "domain": "EC",
+          "record": {
+            "kind": "collection_record"
+          },
+          "value": {
+            "field_id": "F015",
+            "kind": "source"
+          },
+          "variable": "ECFAST",
+          "when": null
+        }
+      ]
+    },
+    {
+      "partition": "holdout",
+      "case_id": "sccc740dd505d49f9",
+      "local_case_id": "n0919",
+      "collection_field": "SITES",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 18431,
+        "seconds": 25.54,
+        "source_sha256": "47234458ca50cfd0c7079d0537c5be4cee9d06a3f7b39ca6e7ca0e29ce8aae25",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "holdout",
+      "case_id": "sd80b85a25253e9fe",
+      "local_case_id": "n0932",
+      "collection_field": "ECDSTXT",
+      "emitted_status": "needs_convention",
+      "answer": {
+        "explanation": "The public CDASHIG mapping for ECDSTXT explicitly states it does not map directly to a single SDTMIG variable, but rather must be separated or mapped to either ECDOSE (if numeric) or ECDOSTXT (if text). Because the source field is a text field (Char) and the public instructions leave the choice of result representation (numeric vs. text) to the study, a final mapping cannot be justified without a study decision on how the dose is represented.",
+        "facts": [],
+        "missing": [
+          "result_representation"
+        ],
+        "not_submitted_when": [],
+        "status": "needs_convention"
+      },
+      "outcome": {
+        "calls": 1,
+        "measured_tokens": 13527,
+        "seconds": 38.04,
+        "source_sha256": "0b888e92d9942bb4b82c68fb45374ae9a2a3825fb7ed2fda5f3c4ac07dc07638",
+        "status": "completed_for_review",
+        "stop_reason": "completed_for_review",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification",
+        "omitted_target_fact"
+      ],
+      "omitted_or_different_required_facts": [
+        {
+          "domain": "EC",
+          "record": {
+            "kind": "collection_record"
+          },
+          "value": {
+            "field_id": "F021",
+            "kind": "source"
+          },
+          "variable": "ECDOSE",
+          "when": {
+            "field_id": "F021",
+            "operator": "numeric",
+            "value": null
+          }
+        },
+        {
+          "domain": "EC",
+          "record": {
+            "kind": "collection_record"
+          },
+          "value": {
+            "field_id": "F021",
+            "kind": "source"
+          },
+          "variable": "ECDOSTXT",
+          "when": {
+            "field_id": "F021",
+            "operator": "non_numeric",
+            "value": null
+          }
+        }
+      ],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "holdout",
+      "case_id": "se411f3ff66bfa612",
+      "local_case_id": "n0947",
+      "collection_field": "AWARDAT",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 18488,
+        "seconds": 26.048,
+        "source_sha256": "5b59825c2086d21b415c36bed39ae64315ba5a576233a2ecaa3b16d051fc941d",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "holdout",
+      "case_id": "sf291cb3c441d9b2b",
+      "local_case_id": "n0957",
+      "collection_field": "SASTTIM",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 18723,
+        "seconds": 26.41,
+        "source_sha256": "e0121097476177f9d5be52188169edd77b9a9e52cacc42a813a8f19a58af412c",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "calibration",
+      "case_id": "s04d05b95e93f3e0d",
+      "local_case_id": "n0969",
+      "collection_field": "VISDAT",
+      "emitted_status": "needs_convention",
+      "answer": {
+        "explanation": "The public mapping instructions require concatenating all collected CDASH DATE and TIME components to populate SRDTC in ISO 8601 format. Only the date component (VISDAT) is collected; the time component (VISTIM) is not present in the source. The public instructions do not specify how to represent a date-only value in the ISO 8601 datetime target when the time component is absent, leaving a real choice in result representation.",
+        "facts": [],
+        "missing": [
+          "source_layout"
+        ],
+        "not_submitted_when": [],
+        "status": "needs_convention"
+      },
+      "outcome": {
+        "calls": 2,
+        "measured_tokens": 19488,
+        "seconds": 40.946,
+        "source_sha256": "22cb871d57b9c82dd44a5a6338e40263d3a997f7e3bbfe7f4f164f9db5fcab37",
+        "status": "completed_for_review",
+        "stop_reason": "completed_for_review",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "calibration",
+      "case_id": "s11475a29208726cd",
+      "local_case_id": "n0981",
+      "collection_field": "VISDAT",
+      "emitted_status": "needs_convention",
+      "answer": {
+        "explanation": "The public mapping instructions require concatenating all collected CDASH DATE and TIME components (VISDAT/VISTIM) to populate PCDTC in ISO 8601 format. The source form collects VISDAT (F005) but does not collect VISTIM. The public evidence does not specify how to construct a valid ISO 8601 datetime when only the date component is available (e.g., whether to append a default time, use date-only format, or require a study convention). Therefore, no final fact can be justified until the missing time component or a specific date-only convention is supplied.",
+        "facts": [],
+        "missing": [
+          "source_layout"
+        ],
+        "not_submitted_when": [],
+        "status": "needs_convention"
+      },
+      "outcome": {
+        "calls": 2,
+        "measured_tokens": 15990,
+        "seconds": 39.872,
+        "source_sha256": "ec23b2fb9c29b56e5313bf5baa4edfe5221d2e258a30f44b344b4803a63d8097",
+        "status": "completed_for_review",
+        "stop_reason": "completed_for_review",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "calibration",
+      "case_id": "s189d157b51e33318",
+      "local_case_id": "n0991",
+      "collection_field": "VISDAT",
+      "emitted_status": "mapped",
+      "answer": {
+        "explanation": "The CDASHIG mapping instructions state that VISDAT is not an SDTM variable and that the date of a measurement, test, or observation is determined from the date/time of visit (VISDAT/VISTIM) and then concatenated with the CDASH VISDAT/VISTIM components to populate the SDTMIG variable DDDTC in ISO 8601 format. The companion DDDAT field (F007) is explicitly mapped to DDDTC with the same concatenation instruction. Since the focused field is VISDAT (F005) and the only time component collected is the date (no VISTIM is present in the form), the ISO 8601 datetime for DDDTC is constructed from the VIS",
+        "facts": [
+          {
+            "domain": "DD",
+            "record": {
+              "kind": "collection_record",
+              "test_source_field": "F010"
+            },
+            "value": {
+              "field_ids": [
+                "F005",
+                "F007"
+              ],
+              "kind": "iso8601_datetime"
+            },
+            "variable": "DDDTC",
+            "when": null
+          }
+        ],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "mapped"
+      },
+      "outcome": {
+        "calls": 1,
+        "measured_tokens": 6045,
+        "seconds": 28.745,
+        "source_sha256": "7d08dd1824c9e510fcf639a5682467bbd5c5f3729e09bf041626dff721d5d716",
+        "status": "completed_for_review",
+        "stop_reason": "completed_for_review",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "extra_or_different_fact",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": [
+        {
+          "domain": "DD",
+          "record": {
+            "kind": "collection_record",
+            "test_source_field": "F010"
+          },
+          "value": {
+            "field_ids": [
+              "F005",
+              "F007"
+            ],
+            "kind": "iso8601_datetime"
+          },
+          "variable": "DDDTC",
+          "when": null
+        }
+      ]
+    },
+    {
+      "partition": "calibration",
+      "case_id": "s2841fe7092d764f5",
+      "local_case_id": "n1008",
+      "collection_field": "VISDAT",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 29511,
+        "seconds": 60.304,
+        "source_sha256": "018abef5c5473e925adca879ff6eff5010af9d6dfcb546605401834d8e46f307",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "calibration",
+      "case_id": "s372e8b21ebae65e8",
+      "local_case_id": "n1024",
+      "collection_field": "VISDAT",
+      "emitted_status": "needs_convention",
+      "answer": {
+        "explanation": "The public mapping instructions for VISDAT state that the date of a measurement, test, or observation is determined from the date/time of visit (VISDAT/VISTIM) and concatenated to populate SCDTC in ISO 8601 format. However, the source form only collects the date component (F005); the time component (VISTIM) is not present in the supplied source or neighbors. The public instructions do not specify how to handle the missing time component (e.g., whether to use a default time, leave it null, or require a study-specific convention for the ISO 8601 datetime construction). Therefore, a final fact is",
+        "facts": [],
+        "missing": [
+          "source_layout"
+        ],
+        "not_submitted_when": [],
+        "status": "needs_convention"
+      },
+      "outcome": {
+        "calls": 2,
+        "measured_tokens": 11934,
+        "seconds": 36.408,
+        "source_sha256": "867b192969d124fc4787277f7e6fd8690c7c0dd9af41df2a2d014d3c12cf9d85",
+        "status": "completed_for_review",
+        "stop_reason": "completed_for_review",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "calibration",
+      "case_id": "s455ff22fed8c91a3",
+      "local_case_id": "n1036",
+      "collection_field": "VISDAT",
+      "emitted_status": "needs_convention",
+      "answer": {
+        "explanation": "The public mapping instructions require concatenating all collected CDASH DATE and TIME components (VISDAT/VISTIM) to populate GFDTC in ISO 8601 format. The source context only provides VISDAT (F005); VISTIM is not collected. The public instructions do not specify how to handle a missing time component (e.g., whether to use date-only, assume midnight, or require a study convention for the time portion). Therefore, the ISO 8601 datetime transformation cannot be fully justified without a supplied convention for the missing time component.",
+        "facts": [],
+        "missing": [
+          "source_layout"
+        ],
+        "not_submitted_when": [],
+        "status": "needs_convention"
+      },
+      "outcome": {
+        "calls": 2,
+        "measured_tokens": 11858,
+        "seconds": 34.801,
+        "source_sha256": "42beecc1efd2822b3fe199a1b20df957b7e280d022e67eb3c3fc5b0fb90adea3",
+        "status": "completed_for_review",
+        "stop_reason": "completed_for_review",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "calibration",
+      "case_id": "s472ce3049bdf63cd",
+      "local_case_id": "n1040",
+      "collection_field": "VISDAT",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 31628,
+        "seconds": 57.572,
+        "source_sha256": "ead78334695442e8546d1ab8e29308885837b49fa0f0a6199f3db3ef54164a36",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "calibration",
+      "case_id": "s60b2b35f5ad003e3",
+      "local_case_id": "n1058",
+      "collection_field": "VISDAT",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 33435,
+        "seconds": 67.303,
+        "source_sha256": "e4fc217650a11b18063e55a40a9d3c9f9489afb7e32878496b43f6a4539e7788",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "calibration",
+      "case_id": "s87aae43cd709a197",
+      "local_case_id": "n1092",
+      "collection_field": "VISDAT",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 20435,
+        "seconds": 37.632,
+        "source_sha256": "a66db5a278e562acbf56e9534084607ea2c4631b0a86b1dd28e886c1a83f785b",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "calibration",
+      "case_id": "s8d5ca5fa1a388479",
+      "local_case_id": "n1099",
+      "collection_field": "VISDAT",
+      "emitted_status": "needs_convention",
+      "answer": {
+        "explanation": "The public mapping instructions require concatenating all collected CDASH DATE and TIME components (VISDAT/VISTIM) to populate DDDTC in ISO 8601 format. The source only collects VISDAT (F005); no VISTIM or other time component is collected. The public instructions do not specify how to represent a date-only collection in the ISO 8601 DDDTC field (e.g., date-only string, time default, or supplemental handling), leaving a real choice in result representation that requires a study convention.",
+        "facts": [],
+        "missing": [
+          "source_layout"
+        ],
+        "not_submitted_when": [],
+        "status": "needs_convention"
+      },
+      "outcome": {
+        "calls": 2,
+        "measured_tokens": 11263,
+        "seconds": 33.152,
+        "source_sha256": "431f0b2843b6b7a8120a994b9dfbf3223d39b2acedbc45210128d46a49920821",
+        "status": "completed_for_review",
+        "stop_reason": "completed_for_review",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "calibration",
+      "case_id": "s9115fdfa946a2715",
+      "local_case_id": "n1103",
+      "collection_field": "VISDAT",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 24919,
+        "seconds": 64.348,
+        "source_sha256": "23e49fa1279b3d011cbe285a4b5dcbcf6155bf04e4535550550e01d5191ab70a",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "calibration",
+      "case_id": "s930ff3d6364d521f",
+      "local_case_id": "n1105",
+      "collection_field": "VISDAT",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 30142,
+        "seconds": 63.998,
+        "source_sha256": "c16967607cbb4260ff7cbe514f763a496b71297677e31aede887aa3e7b32d999",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "calibration",
+      "case_id": "sae8c1a1e78b74fab",
+      "local_case_id": "n1135",
+      "collection_field": "VISDAT",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 35275,
+        "seconds": 62.179,
+        "source_sha256": "b4d93b1e8de93685fcb130b9995bcb8dd4c338777bd385e9fc0704db4d5032d9",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "calibration",
+      "case_id": "sc9b8a465baaf2b3a",
+      "local_case_id": "n1158",
+      "collection_field": "VISDAT",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 30493,
+        "seconds": 69.574,
+        "source_sha256": "b8e5c5d10ee56e7e0e7e09aef01227149e360abdeb08a9a869685dad8c9834c5",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "calibration",
+      "case_id": "sd20ed2d571e400d4",
+      "local_case_id": "n1167",
+      "collection_field": "VISDAT",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 33698,
+        "seconds": 65.792,
+        "source_sha256": "e2285a2da1935b5223cb1302da8d699a30a965af83ae6817dc19d43f33e9de09",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "calibration",
+      "case_id": "sf467afed00edca4b",
+      "local_case_id": "n1192",
+      "collection_field": "VISDAT",
+      "emitted_status": "abstain",
+      "answer": {
+        "explanation": "No complete source/evidence-valid proposal was committed.",
+        "facts": [],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "abstain"
+      },
+      "outcome": {
+        "calls": 3,
+        "measured_tokens": 34615,
+        "seconds": 60.139,
+        "source_sha256": "c056e3167cec70958bdbc7340ce9eb531eb084839000699da855e5820d625f37",
+        "status": "incomplete",
+        "stop_reason": "correction_no_progress",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": []
+    },
+    {
+      "partition": "calibration",
+      "case_id": "sf71f4de54cf43c60",
+      "local_case_id": "n1200",
+      "collection_field": "VISDAT",
+      "emitted_status": "mapped",
+      "answer": {
+        "explanation": "The CDASHIG 2.3 mapping instructions for VISDAT explicitly state that the date of a measurement, test, or observation is determined from the date/time of visit (VISDAT/VISTIM) and then concatenated and populated into the SDTMIG variable SCDTC in ISO 8601 format. Since only VISDAT (F005) is collected for this visit date, it serves as the sole component for the SCDTC ISO 8601 datetime transformation. The form name 'Subject Characteristics' is preserved as the instrument name for the assessment-wide binding.",
+        "facts": [
+          {
+            "domain": "SC",
+            "record": {
+              "instrument": "Subject Characteristics",
+              "kind": "instrument"
+            },
+            "value": {
+              "field_ids": [
+                "F005"
+              ],
+              "kind": "iso8601_datetime"
+            },
+            "variable": "SCDTC",
+            "when": null
+          }
+        ],
+        "missing": [],
+        "not_submitted_when": [],
+        "status": "mapped"
+      },
+      "outcome": {
+        "calls": 1,
+        "measured_tokens": 5355,
+        "seconds": 24.919,
+        "source_sha256": "7cfd7e23da7519e541ee876cc940cd7ba13279763f697c085b9e99ff26f6a2ea",
+        "status": "completed_for_review",
+        "stop_reason": "completed_for_review",
+        "task_mode": "standards_only"
+      },
+      "causes": [
+        "decision_status",
+        "extra_or_different_fact",
+        "missing_convention_classification"
+      ],
+      "omitted_or_different_required_facts": [],
+      "extra_or_different_facts": [
+        {
+          "domain": "SC",
+          "record": {
+            "instrument": "Subject Characteristics",
+            "kind": "instrument"
+          },
+          "value": {
+            "field_ids": [
+              "F005"
+            ],
+            "kind": "iso8601_datetime"
+          },
+          "variable": "SCDTC",
+          "when": null
+        }
+      ]
+    }
+  ]
+}
